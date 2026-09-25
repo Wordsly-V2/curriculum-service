@@ -1,0 +1,10 @@
+// Wordsly Path curriculum. Models arrive in P1-1 (see
+// workspace/docs/wordsly-path/DESIGN.md §3); this file only wires the client.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
