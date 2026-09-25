@@ -1,0 +1,991 @@
+{
+    "slug": "a1-06-days-and-dates",
+    "stage": "a1",
+    "order": 6,
+    "title": "Days and dates",
+    "titleVi": "Thứ, tháng và ngày",
+    "descriptionVi": "Thứ trong tuần, tháng, số thứ tự, nói ngày sinh nhật, on/in/at với thời gian, hẹn gặp.",
+    "canDo": [
+        "Tôi nói và hỏi được hôm nay là thứ mấy, ngày mấy.",
+        "Tôi nói được ngày sinh nhật của mình và hỏi người khác.",
+        "Tôi hẹn gặp được ai đó: hỏi họ có rảnh không, chốt ngày và giờ."
+    ],
+    "items": [
+        {
+            "slug": "monday",
+            "type": "LEXICAL",
+            "text": "Monday",
+            "meaningVi": "thứ Hai",
+            "ipa": "/ˈmʌndeɪ/",
+            "examples": [
+                { "en": "I go to work on Monday.", "vi": "Thứ Hai mình đi làm.", "highlight": "Monday" }
+            ],
+            "noteVi": "Tên thứ luôn viết hoa. Âm đầu /ˈmʌn/ gần \"mân\", không đọc \"môn-đây\"."
+        },
+        {
+            "slug": "tuesday",
+            "type": "LEXICAL",
+            "text": "Tuesday",
+            "meaningVi": "thứ Ba",
+            "ipa": "/ˈtuːzdeɪ/",
+            "examples": [
+                { "en": "I have an English class on Tuesday.", "vi": "Thứ Ba mình có lớp tiếng Anh.", "highlight": "Tuesday" }
+            ],
+            "noteVi": "Âm giữa là /z/. Đừng nhầm với Thursday (thứ Năm): Tuesday bắt đầu bằng /t/."
+        },
+        {
+            "slug": "wednesday",
+            "type": "LEXICAL",
+            "text": "Wednesday",
+            "meaningVi": "thứ Tư",
+            "ipa": "/ˈwenzdeɪ/",
+            "examples": [
+                { "en": "See you on Wednesday!", "vi": "Hẹn gặp bạn thứ Tư nhé!", "highlight": "Wednesday" }
+            ],
+            "noteVi": "Chữ d đầu tiên câm: đọc /ˈwenzdeɪ/, chỉ 2 âm tiết."
+        },
+        {
+            "slug": "thursday",
+            "type": "LEXICAL",
+            "text": "Thursday",
+            "meaningVi": "thứ Năm",
+            "ipa": "/ˈθɜːrzdeɪ/",
+            "examples": [
+                { "en": "My sister is free on Thursday.", "vi": "Chị mình rảnh vào thứ Năm.", "highlight": "Thursday" }
+            ],
+            "noteVi": "Âm đầu /θ/: đặt lưỡi giữa hai răng rồi thổi hơi. Đọc thành /t/ là nghe giống Tuesday."
+        },
+        {
+            "slug": "friday",
+            "type": "LEXICAL",
+            "text": "Friday",
+            "meaningVi": "thứ Sáu",
+            "ipa": "/ˈfraɪdeɪ/",
+            "examples": [
+                { "en": "I usually go home late on Friday.", "vi": "Thứ Sáu mình thường về nhà muộn.", "highlight": "Friday" }
+            ]
+        },
+        {
+            "slug": "saturday",
+            "type": "LEXICAL",
+            "text": "Saturday",
+            "meaningVi": "thứ Bảy",
+            "ipa": "/ˈsætərdeɪ/",
+            "examples": [
+                { "en": "We go to the market on Saturday.", "vi": "Thứ Bảy nhà mình đi chợ.", "highlight": "Saturday" }
+            ],
+            "noteVi": "Nhấn âm đầu: SAT-ur-day."
+        },
+        {
+            "slug": "sunday",
+            "type": "LEXICAL",
+            "text": "Sunday",
+            "meaningVi": "Chủ nhật",
+            "ipa": "/ˈsʌndeɪ/",
+            "examples": [
+                { "en": "I'm at home on Sunday.", "vi": "Chủ nhật mình ở nhà.", "highlight": "Sunday" }
+            ],
+            "noteVi": "Lịch ở Mỹ thường bắt đầu tuần từ Sunday."
+        },
+        {
+            "slug": "today",
+            "type": "LEXICAL",
+            "text": "today",
+            "meaningVi": "hôm nay",
+            "ipa": "/təˈdeɪ/",
+            "examples": [
+                { "en": "Today is Monday.", "vi": "Hôm nay là thứ Hai.", "highlight": "Today" }
+            ],
+            "noteVi": "Không dùng on/in trước today: \"I'm busy today\", không nói \"on today\"."
+        },
+        {
+            "slug": "tomorrow",
+            "type": "LEXICAL",
+            "text": "tomorrow",
+            "meaningVi": "ngày mai",
+            "ipa": "/təˈmɑːroʊ/",
+            "examples": [
+                { "en": "Tomorrow is Saturday. I'm free!", "vi": "Mai là thứ Bảy. Mình rảnh!", "highlight": "Tomorrow" }
+            ],
+            "noteVi": "Viết một m, hai r. Không dùng on trước tomorrow: \"See you tomorrow\"."
+        },
+        {
+            "slug": "what-day-is-it",
+            "type": "PHRASE",
+            "text": "What day is it today?",
+            "meaningVi": "Hôm nay thứ mấy?",
+            "examples": [
+                { "en": "What day is it today? It's Friday.", "vi": "Hôm nay thứ mấy? Thứ Sáu.", "highlight": "What day is it today?" }
+            ],
+            "noteVi": "Hỏi thứ dùng What day; hỏi ngày tháng dùng What's the date. Trả lời bằng \"It's …\"."
+        },
+        {
+            "slug": "month-january",
+            "type": "LEXICAL",
+            "text": "January",
+            "meaningVi": "tháng Một",
+            "ipa": "/ˈdʒænjueri/",
+            "examples": [
+                { "en": "My birthday is in January.", "vi": "Sinh nhật mình vào tháng Một.", "highlight": "January" }
+            ],
+            "noteVi": "Tiếng Anh gọi tháng bằng tên, không bằng số: không nói \"month one\". Tên tháng luôn viết hoa."
+        },
+        {
+            "slug": "month-february",
+            "type": "LEXICAL",
+            "text": "February",
+            "meaningVi": "tháng Hai",
+            "ipa": "/ˈfebrueri/",
+            "examples": [
+                { "en": "February is a short month.", "vi": "Tháng Hai là tháng ngắn.", "highlight": "February" }
+            ],
+            "noteVi": "Nhiều người Mỹ đọc /ˈfebjueri/, bỏ âm r đầu; viết vẫn có r."
+        },
+        {
+            "slug": "month-march",
+            "type": "LEXICAL",
+            "text": "March",
+            "meaningVi": "tháng Ba",
+            "ipa": "/mɑːrtʃ/",
+            "examples": [
+                { "en": "We have a holiday in March.", "vi": "Tụi mình có kỳ nghỉ vào tháng Ba.", "highlight": "March" }
+            ],
+            "noteVi": "Âm cuối /tʃ/: bật hơi rõ."
+        },
+        {
+            "slug": "month-april",
+            "type": "LEXICAL",
+            "text": "April",
+            "meaningVi": "tháng Tư",
+            "ipa": "/ˈeɪprəl/",
+            "examples": [
+                { "en": "It's hot in April.", "vi": "Tháng Tư trời nóng.", "highlight": "April" }
+            ],
+            "noteVi": "Âm đầu /eɪ/ như \"ây\", không đọc \"a-pờ-rin\"."
+        },
+        {
+            "slug": "month-may",
+            "type": "LEXICAL",
+            "text": "May",
+            "meaningVi": "tháng Năm",
+            "ipa": "/meɪ/",
+            "examples": [
+                { "en": "My mother's birthday is in May.", "vi": "Sinh nhật mẹ mình vào tháng Năm.", "highlight": "May" }
+            ]
+        },
+        {
+            "slug": "month-june",
+            "type": "LEXICAL",
+            "text": "June",
+            "meaningVi": "tháng Sáu",
+            "ipa": "/dʒuːn/",
+            "examples": [
+                { "en": "The school year ends in June.", "vi": "Năm học kết thúc vào tháng Sáu.", "highlight": "June" }
+            ],
+            "noteVi": "Đừng nhầm June (tháng Sáu) với July (tháng Bảy)."
+        },
+        {
+            "slug": "month",
+            "type": "LEXICAL",
+            "text": "month",
+            "meaningVi": "tháng",
+            "ipa": "/mʌnθ/",
+            "examples": [
+                { "en": "There are twelve months in a year.", "vi": "Một năm có mười hai tháng.", "highlight": "months" }
+            ],
+            "noteVi": "Âm cuối /θ/. Số nhiều months /mʌnθs/ khó đọc; nói chậm cũng được."
+        },
+        {
+            "slug": "year",
+            "type": "LEXICAL",
+            "text": "year",
+            "meaningVi": "năm",
+            "ipa": "/jɪr/",
+            "examples": [
+                { "en": "I study English every year.", "vi": "Năm nào mình cũng học tiếng Anh.", "highlight": "year" }
+            ],
+            "noteVi": "Đọc bắt đầu bằng /j/ (như \"i\"), khác ear /ɪr/ (cái tai)."
+        },
+        {
+            "slug": "birthday",
+            "type": "LEXICAL",
+            "text": "birthday",
+            "meaningVi": "sinh nhật",
+            "ipa": "/ˈbɜːrθdeɪ/",
+            "examples": [
+                { "en": "Happy birthday!", "vi": "Chúc mừng sinh nhật!", "highlight": "birthday" }
+            ],
+            "noteVi": "Âm /θ/ ở giữa: birth-day. Sinh nhật ai: my birthday, her birthday."
+        },
+        {
+            "slug": "when-is-your-birthday",
+            "type": "PHRASE",
+            "text": "When's your birthday?",
+            "meaningVi": "Sinh nhật bạn là khi nào?",
+            "examples": [
+                { "en": "When's your birthday? It's in June.", "vi": "Sinh nhật bạn khi nào? Vào tháng Sáu.", "highlight": "When's your birthday?" }
+            ],
+            "noteVi": "When's = When is. Trả lời: \"It's in June.\" (chỉ tháng) hoặc \"It's on June 5th.\" (có ngày)."
+        },
+        {
+            "slug": "month-july",
+            "type": "LEXICAL",
+            "text": "July",
+            "meaningVi": "tháng Bảy",
+            "ipa": "/dʒuˈlaɪ/",
+            "examples": [
+                { "en": "Is your birthday in July?", "vi": "Sinh nhật bạn vào tháng Bảy à?", "highlight": "July" }
+            ],
+            "noteVi": "Nhấn âm sau: ju-LY."
+        },
+        {
+            "slug": "month-august",
+            "type": "LEXICAL",
+            "text": "August",
+            "meaningVi": "tháng Tám",
+            "ipa": "/ˈɔːɡəst/",
+            "examples": [
+                { "en": "We go to the beach in August.", "vi": "Tụi mình đi biển vào tháng Tám.", "highlight": "August" }
+            ],
+            "noteVi": "Giữ cụm âm cuối /st/."
+        },
+        {
+            "slug": "month-september",
+            "type": "LEXICAL",
+            "text": "September",
+            "meaningVi": "tháng Chín",
+            "ipa": "/sepˈtembər/",
+            "examples": [
+                { "en": "School starts in September.", "vi": "Năm học bắt đầu vào tháng Chín.", "highlight": "September" }
+            ],
+            "noteVi": "Nhấn âm thứ hai: sep-TEM-ber."
+        },
+        {
+            "slug": "month-october",
+            "type": "LEXICAL",
+            "text": "October",
+            "meaningVi": "tháng Mười",
+            "ipa": "/ɑːkˈtoʊbər/",
+            "examples": [
+                { "en": "My brother's birthday is in October.", "vi": "Sinh nhật anh mình vào tháng Mười.", "highlight": "October" }
+            ],
+            "noteVi": "Nhấn âm thứ hai: oc-TO-ber."
+        },
+        {
+            "slug": "month-november",
+            "type": "LEXICAL",
+            "text": "November",
+            "meaningVi": "tháng Mười Một",
+            "ipa": "/noʊˈvembər/",
+            "examples": [
+                { "en": "It's cool in November.", "vi": "Tháng Mười Một trời mát.", "highlight": "November" }
+            ],
+            "noteVi": "Nhấn âm thứ hai: no-VEM-ber."
+        },
+        {
+            "slug": "month-december",
+            "type": "LEXICAL",
+            "text": "December",
+            "meaningVi": "tháng Mười Hai",
+            "ipa": "/dɪˈsembər/",
+            "examples": [
+                { "en": "December is the last month of the year.", "vi": "Tháng Mười Hai là tháng cuối cùng của năm.", "highlight": "December" }
+            ],
+            "noteVi": "Nhấn âm thứ hai: de-CEM-ber."
+        },
+        {
+            "slug": "ordinal-first",
+            "type": "LEXICAL",
+            "text": "first",
+            "meaningVi": "thứ nhất; ngày mùng 1",
+            "ipa": "/fɜːrst/",
+            "examples": [
+                { "en": "My birthday is on May first.", "vi": "Sinh nhật mình vào ngày 1 tháng Năm.", "highlight": "first" }
+            ],
+            "noteVi": "Viết tắt 1st. Giữ cụm âm cuối /rst/."
+        },
+        {
+            "slug": "ordinal-second",
+            "type": "LEXICAL",
+            "text": "second",
+            "meaningVi": "thứ hai; ngày mùng 2",
+            "ipa": "/ˈsekənd/",
+            "examples": [
+                { "en": "Today is June second.", "vi": "Hôm nay là ngày 2 tháng Sáu.", "highlight": "second" }
+            ],
+            "noteVi": "Viết tắt 2nd. Cùng từ với second (giây), nhưng ở đây là số thứ tự."
+        },
+        {
+            "slug": "ordinal-third",
+            "type": "LEXICAL",
+            "text": "third",
+            "meaningVi": "thứ ba; ngày mùng 3",
+            "ipa": "/θɜːrd/",
+            "examples": [
+                { "en": "The meeting is on the third.", "vi": "Cuộc họp vào ngày mùng 3.", "highlight": "third" }
+            ],
+            "noteVi": "Viết tắt 3rd. Âm đầu /θ/: third khác \"tơ\"."
+        },
+        {
+            "slug": "ordinal-numbers",
+            "type": "GRAMMAR",
+            "text": "first, second, third, fourth …",
+            "meaningVi": "số thứ tự (dùng để nói ngày)",
+            "examples": [
+                { "en": "My birthday is on October twelfth.", "vi": "Sinh nhật mình vào ngày 12 tháng Mười.", "highlight": "twelfth" }
+            ],
+            "grammar": {
+                "ruleVi": "Ngày trong tháng đọc bằng số thứ tự. Ba số đầu là dạng riêng: first (1st), second (2nd), third (3rd); các số khác thêm -th: fourth, sixth, seventh. Số ghép chỉ đổi số cuối: twenty-first, thirty-first.",
+                "forms": [
+                    { "label": "1, 2, 3: dạng riêng", "example": "first, second, third (1st, 2nd, 3rd)" },
+                    { "label": "thêm -th", "example": "fourth, sixth, seventh, tenth, thirteenth (4th, 6th…)" },
+                    { "label": "đổi chính tả", "example": "fifth, eighth, ninth, twelfth, twentieth, thirtieth" },
+                    { "label": "số ghép", "example": "twenty-first, twenty-second, thirty-first (21st, 22nd, 31st)" }
+                ],
+                "pitfallsVi": [
+                    "Đọc ngày bằng số đếm: \"May five\" → May fifth.",
+                    "\"twenty-oneth\" → twenty-first; \"twenty-twoth\" → twenty-second.",
+                    "Bỏ âm cuối /θ/: fifth, sixth, twelfth khó đọc, nhưng thiếu /θ/ là thành số đếm.",
+                    "Người Mỹ viết tháng trước ngày: 7/5 là ngày 5 tháng Bảy (July 5th), khác cách viết ở Việt Nam."
+                ]
+            }
+        },
+        {
+            "slug": "week",
+            "type": "LEXICAL",
+            "text": "week",
+            "meaningVi": "tuần",
+            "ipa": "/wiːk/",
+            "examples": [
+                { "en": "I go to the gym three times a week.", "vi": "Mình đi tập gym ba lần một tuần.", "highlight": "week" }
+            ],
+            "noteVi": "Tuần này: this week; tuần sau: next week (không có on hay in)."
+        },
+        {
+            "slug": "weekend",
+            "type": "LEXICAL",
+            "text": "weekend",
+            "meaningVi": "cuối tuần",
+            "ipa": "/ˈwiːkend/",
+            "examples": [
+                { "en": "What do you do on the weekend?", "vi": "Cuối tuần bạn làm gì?", "highlight": "weekend" }
+            ],
+            "noteVi": "Người Mỹ nói on the weekend; người Anh nói at the weekend."
+        },
+        {
+            "slug": "busy",
+            "type": "LEXICAL",
+            "text": "busy",
+            "meaningVi": "bận",
+            "ipa": "/ˈbɪzi/",
+            "examples": [
+                { "en": "Sorry, I'm busy on Friday.", "vi": "Xin lỗi, thứ Sáu mình bận.", "highlight": "busy" }
+            ],
+            "noteVi": "Đọc /ˈbɪzi/ (\"bi-zi\"), không đọc \"bu-si\". Dùng với be: I'm busy."
+        },
+        {
+            "slug": "free",
+            "type": "LEXICAL",
+            "text": "free",
+            "meaningVi": "rảnh; miễn phí",
+            "ipa": "/friː/",
+            "examples": [
+                { "en": "Are you free tomorrow?", "vi": "Mai bạn rảnh không?", "highlight": "free" }
+            ],
+            "noteVi": "Hai nghĩa: rảnh (I'm free today) và miễn phí (The water is free)."
+        },
+        {
+            "slug": "prepositions-of-time",
+            "type": "GRAMMAR",
+            "text": "at / on / in (time)",
+            "meaningVi": "giới từ chỉ thời gian",
+            "examples": [
+                { "en": "Let's meet on Saturday at seven o'clock.", "vi": "Mình gặp nhau thứ Bảy lúc bảy giờ nhé.", "highlight": "on Saturday" }
+            ],
+            "grammar": {
+                "ruleVi": "at + giờ; on + thứ hoặc ngày cụ thể; in + tháng, năm, buổi trong ngày. Không dùng giới từ trước today, tomorrow, this/next + thời gian.",
+                "forms": [
+                    { "label": "at + giờ", "example": "at seven o'clock, at half past six" },
+                    { "label": "on + thứ, ngày", "example": "on Monday, on May 5th, on the weekend" },
+                    { "label": "in + tháng, năm, buổi", "example": "in June, in 2026, in the morning" },
+                    { "label": "không giới từ", "example": "today, tomorrow, this week, next Monday" }
+                ],
+                "pitfallsVi": [
+                    "\"in Monday\", \"at Monday\" → on Monday.",
+                    "\"in seven o'clock\" → at seven o'clock.",
+                    "\"on tomorrow\", \"in next week\" → tomorrow, next week.",
+                    "Có ngày cụ thể thì dùng on dù có tháng: in May, nhưng on May 5th."
+                ]
+            }
+        },
+        {
+            "slug": "are-you-free-on",
+            "type": "PATTERN",
+            "text": "Are you free on …?",
+            "meaningVi": "Bạn có rảnh vào … không?",
+            "examples": [
+                { "en": "Are you free on Sunday? Yes, I am.", "vi": "Chủ nhật bạn rảnh không? Rảnh.", "highlight": "Are you free on" }
+            ],
+            "pattern": {
+                "template": "Are you free on {day}?",
+                "slots": [
+                    { "name": "day", "hintVi": "thứ hoặc ngày", "options": ["Monday", "Saturday", "the weekend"] }
+                ]
+            },
+            "noteVi": "Trả lời: \"Yes, I am.\" / \"Sorry, I'm busy.\" Với tomorrow thì bỏ on: \"Are you free tomorrow?\""
+        },
+        {
+            "slug": "lets-meet",
+            "type": "PATTERN",
+            "text": "Let's meet …",
+            "meaningVi": "Mình gặp nhau … nhé",
+            "examples": [
+                { "en": "Let's meet at six o'clock.", "vi": "Mình gặp nhau lúc sáu giờ nhé.", "highlight": "Let's meet" }
+            ],
+            "pattern": {
+                "template": "Let's meet {when}.",
+                "slots": [
+                    { "name": "when", "hintVi": "thời gian (kèm at/on/in nếu cần)", "options": ["on Friday", "at seven o'clock", "tomorrow"] }
+                ]
+            },
+            "noteVi": "Let's = Let us, dùng để rủ. Sau Let's là động từ nguyên mẫu: Let's meet, không nói \"Let's to meet\"."
+        },
+        {
+            "slug": "see-you-on",
+            "type": "PATTERN",
+            "text": "See you on …!",
+            "meaningVi": "Hẹn gặp bạn vào …!",
+            "examples": [
+                { "en": "OK, see you on Friday!", "vi": "Được, hẹn gặp bạn thứ Sáu nhé!", "highlight": "see you on" }
+            ],
+            "pattern": {
+                "template": "See you on {day}!",
+                "slots": [
+                    { "name": "day", "hintVi": "thứ hoặc ngày", "options": ["Monday", "Friday", "the weekend"] }
+                ]
+            },
+            "noteVi": "Nói khi chào tạm biệt sau khi đã hẹn. Không có ngày thì nói \"See you later!\" hoặc \"See you tomorrow!\"."
+        },
+        {
+            "slug": "whats-the-date-today",
+            "type": "PHRASE",
+            "text": "What's the date today?",
+            "meaningVi": "Hôm nay ngày bao nhiêu?",
+            "examples": [
+                { "en": "What's the date today? It's May fifth.", "vi": "Hôm nay ngày bao nhiêu? Ngày 5 tháng Năm.", "highlight": "What's the date today?" }
+            ],
+            "noteVi": "Hỏi ngày dùng date, hỏi thứ dùng day. Trả lời: \"It's May fifth.\" (người Anh hay nói \"the fifth of May\")."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "a1-06-birthdays",
+            "title": "Birthdays",
+            "situationVi": "Bạn và đồng nghiệp nói chuyện về ngày sinh nhật.",
+            "lines": [
+                { "speaker": "Mai", "en": "When's your birthday?", "vi": "Sinh nhật bạn khi nào?" },
+                { "speaker": "You", "en": "It's in October. October twelfth.", "vi": "Vào tháng Mười. Ngày 12 tháng Mười.", "learnerTurn": true },
+                { "speaker": "Mai", "en": "Oh, that's next month!", "vi": "Ồ, tháng sau rồi!" },
+                { "speaker": "You", "en": "Yes! When's your birthday?", "vi": "Ừ! Còn sinh nhật bạn khi nào?", "learnerTurn": true },
+                { "speaker": "Mai", "en": "It's on March third.", "vi": "Ngày 3 tháng Ba." },
+                { "speaker": "You", "en": "March third. OK!", "vi": "Mùng 3 tháng Ba. Nhớ rồi!", "learnerTurn": true }
+            ]
+        },
+        {
+            "slug": "a1-06-are-you-free",
+            "title": "Are you free on Saturday?",
+            "situationVi": "Bạn rủ một người bạn đi cà phê cuối tuần.",
+            "lines": [
+                { "speaker": "You", "en": "Are you free on Saturday?", "vi": "Thứ Bảy bạn rảnh không?", "learnerTurn": true },
+                { "speaker": "Nam", "en": "Sorry, I'm busy on Saturday. I'm free on Sunday.", "vi": "Xin lỗi, thứ Bảy mình bận. Chủ nhật mình rảnh." },
+                { "speaker": "You", "en": "OK. Let's meet on Sunday.", "vi": "Được. Mình gặp nhau Chủ nhật nhé.", "learnerTurn": true },
+                { "speaker": "Nam", "en": "Great. What time?", "vi": "Tuyệt. Mấy giờ?" },
+                { "speaker": "You", "en": "At nine o'clock in the morning?", "vi": "Chín giờ sáng nhé?", "learnerTurn": true },
+                { "speaker": "Nam", "en": "Perfect. See you on Sunday!", "vi": "Được luôn. Hẹn gặp Chủ nhật!" }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "a1-06-l1-days",
+            "title": "What day is it today?",
+            "titleVi": "Các thứ trong tuần",
+            "estimatedMinutes": 10,
+            "items": [
+                { "item": "monday", "role": "INTRODUCE" },
+                { "item": "tuesday", "role": "INTRODUCE" },
+                { "item": "wednesday", "role": "INTRODUCE" },
+                { "item": "thursday", "role": "INTRODUCE" },
+                { "item": "friday", "role": "INTRODUCE" },
+                { "item": "saturday", "role": "INTRODUCE" },
+                { "item": "sunday", "role": "INTRODUCE" },
+                { "item": "today", "role": "INTRODUCE" },
+                { "item": "tomorrow", "role": "INTRODUCE" },
+                { "item": "what-day-is-it", "role": "INTRODUCE" },
+                { "item": "go-to-work", "role": "RECYCLE" },
+                { "item": "at-home", "role": "RECYCLE" },
+                { "item": "present-simple", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 8 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday", "today", "tomorrow", "what-day-is-it"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Thứ trong tuần",
+                        "bodyVi": "Tiếng Việt đếm thứ bằng số (thứ Hai, thứ Ba…), tiếng Anh gọi bằng tên riêng và **luôn viết hoa**: **M**onday, **T**uesday…\n\n- Vào thứ nào: **on** + thứ: I go to work **on** Monday.\n- Hỏi hôm nay thứ mấy: **What day is it today?** → **It's** Friday.\n- **today**, **tomorrow** không có on: I'm at home **today**.\n\nHai cặp dễ nhầm: **Tuesday** /t/ (thứ Ba) và **Thursday** /θ/ (thứ Năm); **Saturday** (thứ Bảy) và **Sunday** (Chủ nhật).",
+                        "items": ["what-day-is-it", "tuesday", "thursday", "today", "tomorrow", "go-to-work", "at-home"]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday", "today", "tomorrow", "what-day-is-it"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday.", "vi": "Thứ Hai, thứ Ba, thứ Tư, thứ Năm, thứ Sáu, thứ Bảy, Chủ nhật." },
+                            { "en": "What day is it today? It's Thursday.", "vi": "Hôm nay thứ mấy? Thứ Năm." },
+                            { "en": "I go to work on Monday. I'm at home on Sunday.", "vi": "Thứ Hai mình đi làm. Chủ nhật mình ở nhà." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "\"thứ Năm\" tiếng Anh là:",
+                                "options": ["Tuesday", "Thursday", "Wednesday"],
+                                "answer": 1,
+                                "item": "thursday"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Saturday",
+                                "options": ["thứ Bảy", "Chủ nhật", "thứ Sáu"],
+                                "answer": 0,
+                                "item": "saturday"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I go to work ___ Monday.",
+                                "answers": ["on"],
+                                "item": "monday"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I'm free on tomorrow.", "I'm free tomorrow.", "I'm free in tomorrow."],
+                                "answer": 1,
+                                "item": "tomorrow"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Hôm nay thứ mấy?",
+                                "answer": "What day is it today?",
+                                "item": "what-day-is-it"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a1-06-l2-months",
+            "title": "When's your birthday?",
+            "titleVi": "Tháng và sinh nhật",
+            "estimatedMinutes": 10,
+            "items": [
+                { "item": "month-january", "role": "INTRODUCE" },
+                { "item": "month-february", "role": "INTRODUCE" },
+                { "item": "month-march", "role": "INTRODUCE" },
+                { "item": "month-april", "role": "INTRODUCE" },
+                { "item": "month-may", "role": "INTRODUCE" },
+                { "item": "month-june", "role": "INTRODUCE" },
+                { "item": "month", "role": "INTRODUCE" },
+                { "item": "year", "role": "INTRODUCE" },
+                { "item": "birthday", "role": "INTRODUCE" },
+                { "item": "when-is-your-birthday", "role": "INTRODUCE" },
+                { "item": "how-old-are-you", "role": "RECYCLE" },
+                { "item": "im-years-old", "role": "RECYCLE" },
+                { "item": "twelve", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 8 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["month-january", "month-february", "month-march", "month-april", "month-may", "month-june", "month", "year", "birthday", "when-is-your-birthday"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Tên tháng",
+                        "bodyVi": "Tiếng Việt gọi tháng bằng số, tiếng Anh gọi bằng tên và **viết hoa**:\n\n| tháng | tên | tháng | tên |\n|---|---|---|---|\n| 1 | **January** | 4 | **April** |\n| 2 | **February** | 5 | **May** |\n| 3 | **March** | 6 | **June** |\n\nVào tháng nào dùng **in**: My birthday is **in** May.\n\n❌ in month five ✅ in May\n\nHỏi sinh nhật: **When's your birthday?** → **It's in** June.",
+                        "items": ["month", "when-is-your-birthday", "month-may", "month-june", "birthday"]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["month-january", "month-february", "month-march", "month-april", "month-may", "month-june", "month", "year", "birthday", "when-is-your-birthday"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "January, February, March, April, May, June.", "vi": "Tháng Một, tháng Hai, tháng Ba, tháng Tư, tháng Năm, tháng Sáu." },
+                            { "en": "When's your birthday? It's in April.", "vi": "Sinh nhật bạn khi nào? Vào tháng Tư." },
+                            { "en": "There are twelve months in a year.", "vi": "Một năm có mười hai tháng." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "\"tháng Ba\" tiếng Anh là:",
+                                "options": ["May", "March", "April"],
+                                "answer": 1,
+                                "item": "month-march"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "June",
+                                "options": ["tháng Sáu", "tháng Bảy", "tháng Một"],
+                                "answer": 0,
+                                "item": "month-june"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "My birthday is ___ February.",
+                                "answers": ["in"],
+                                "item": "month-february"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Sinh nhật bạn là khi nào?",
+                                "answer": "When's your birthday?",
+                                "item": "when-is-your-birthday"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a1-06-l3-dates",
+            "title": "May the first",
+            "titleVi": "Nói ngày tháng",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "month-july", "role": "INTRODUCE" },
+                { "item": "month-august", "role": "INTRODUCE" },
+                { "item": "month-september", "role": "INTRODUCE" },
+                { "item": "month-october", "role": "INTRODUCE" },
+                { "item": "month-november", "role": "INTRODUCE" },
+                { "item": "month-december", "role": "INTRODUCE" },
+                { "item": "ordinal-first", "role": "INTRODUCE" },
+                { "item": "ordinal-second", "role": "INTRODUCE" },
+                { "item": "ordinal-third", "role": "INTRODUCE" },
+                { "item": "ordinal-numbers", "role": "INTRODUCE" },
+                { "item": "when-is-your-birthday", "role": "RECYCLE" },
+                { "item": "birthday", "role": "RECYCLE" },
+                { "item": "teen-and-ty", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["month-july", "month-august", "month-september", "month-october", "month-november", "month-december", "ordinal-first", "ordinal-second", "ordinal-third"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Số thứ tự và ngày tháng",
+                        "bodyVi": "Ngày trong tháng đọc bằng **số thứ tự**, không bằng số đếm:\n\n| viết | đọc | viết | đọc |\n|---|---|---|---|\n| 1st | **first** | 5th | **fifth** |\n| 2nd | **second** | 8th | **eighth** |\n| 3rd | **third** | 9th | **ninth** |\n| 4th | four**th** | 12th | **twelfth** |\n| 20th | **twentieth** | 21st | twenty-**first** |\n\nNgười Mỹ nói **tháng trước, ngày sau**: **May 5th** đọc là \"May fifth\". Viết số cũng vậy: **7/5** là ngày 5 tháng Bảy.\n\nCó ngày cụ thể thì dùng **on**: My birthday is **on** July 4th. Chỉ có tháng thì dùng **in**: **in** July.",
+                        "items": ["ordinal-numbers", "ordinal-first", "ordinal-second", "ordinal-third", "teen-and-ty", "birthday"],
+                        "examples": [
+                            { "en": "My birthday is on October twelfth.", "vi": "Sinh nhật mình vào ngày 12 tháng Mười.", "highlight": "October twelfth" },
+                            { "en": "Today is September twenty-first.", "vi": "Hôm nay là ngày 21 tháng Chín.", "highlight": "twenty-first" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "cloze"],
+                        "items": ["month-july", "month-august", "month-september", "month-october", "month-november", "month-december", "ordinal-first", "ordinal-second", "ordinal-third"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a1-06-birthdays", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Ngày 5 tháng Năm\" đọc thế nào?",
+                                "options": ["May five", "May fifth", "Five May"],
+                                "answer": 1,
+                                "item": "ordinal-numbers"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"21st\" đọc là:",
+                                "options": ["twenty-oneth", "twenty-one", "twenty-first"],
+                                "answer": 2,
+                                "item": "ordinal-numbers"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "November",
+                                "options": ["tháng Chín", "tháng Mười", "tháng Mười Một"],
+                                "answer": 2,
+                                "item": "month-november"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "My birthday is ___ July 4th.",
+                                "answers": ["on"],
+                                "item": "month-july"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Người Mỹ viết \"8/3\". Đó là ngày nào?",
+                                "options": ["ngày 8 tháng Ba", "ngày 3 tháng Tám"],
+                                "answer": 1,
+                                "item": "month-august",
+                                "explanationVi": "Người Mỹ viết tháng trước: 8/3 là August 3rd."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a1-06-l4-plans",
+            "title": "Are you free on Saturday?",
+            "titleVi": "Hẹn gặp",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "week", "role": "INTRODUCE" },
+                { "item": "weekend", "role": "INTRODUCE" },
+                { "item": "busy", "role": "INTRODUCE" },
+                { "item": "free", "role": "INTRODUCE" },
+                { "item": "prepositions-of-time", "role": "INTRODUCE" },
+                { "item": "are-you-free-on", "role": "INTRODUCE" },
+                { "item": "lets-meet", "role": "INTRODUCE" },
+                { "item": "see-you-on", "role": "INTRODUCE" },
+                { "item": "whats-the-date-today", "role": "INTRODUCE" },
+                { "item": "o-clock", "role": "RECYCLE" },
+                { "item": "in-the-morning", "role": "RECYCLE" },
+                { "item": "saturday", "role": "RECYCLE" },
+                { "item": "tomorrow", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["week", "weekend", "busy", "free", "are-you-free-on", "lets-meet", "see-you-on", "whats-the-date-today"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "at, on, in với thời gian",
+                        "bodyVi": "| giới từ | dùng với | ví dụ |\n|---|---|---|\n| **at** | giờ | at seven o'clock |\n| **on** | thứ, ngày cụ thể | on Monday, on May 5th, on the weekend |\n| **in** | tháng, năm, buổi | in June, in 2026, in the morning |\n\n**Không** dùng giới từ trước today, tomorrow, this week, next week.\n\n❌ in Monday, in seven o'clock, on tomorrow ✅ on Monday, at seven o'clock, tomorrow\n\nNhiều mốc cùng lúc thì đi từ nhỏ đến lớn: at nine o'clock on Sunday.",
+                        "items": ["prepositions-of-time", "o-clock", "in-the-morning", "weekend", "tomorrow"]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "are-you-free-on",
+                        "prompts": [
+                            { "cueVi": "Hỏi: thứ Bảy bạn rảnh không?", "slots": { "day": "Saturday" }, "answer": "Are you free on Saturday?" },
+                            { "cueVi": "Hỏi: cuối tuần bạn rảnh không?", "slots": { "day": "the weekend" }, "answer": "Are you free on the weekend?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "lets-meet",
+                        "prompts": [
+                            { "cueVi": "Rủ gặp nhau vào thứ Sáu.", "slots": { "when": "on Friday" }, "answer": "Let's meet on Friday." },
+                            { "cueVi": "Rủ gặp nhau lúc bảy giờ.", "slots": { "when": "at seven o'clock" }, "answer": "Let's meet at seven o'clock." },
+                            { "cueVi": "Rủ gặp nhau ngày mai.", "slots": { "when": "tomorrow" }, "answer": "Let's meet tomorrow." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "see-you-on",
+                        "prompts": [
+                            { "cueVi": "Chào: hẹn gặp thứ Hai.", "slots": { "day": "Monday" }, "answer": "See you on Monday!" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "sentence-build"],
+                        "items": ["week", "weekend", "busy", "free", "whats-the-date-today", "saturday", "tomorrow"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a1-06-are-you-free", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["Let's meet in Sunday.", "Let's meet on Sunday.", "Let's meet at Sunday."],
+                                "answer": 1,
+                                "item": "prepositions-of-time"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "The class starts ___ eight o'clock.",
+                                "answers": ["at"],
+                                "item": "prepositions-of-time"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn không rảnh thứ Sáu. Bạn nói:",
+                                "options": ["Sorry, I'm busy on Friday.", "Sorry, I have busy Friday.", "Sorry, I'm free on Friday."],
+                                "answer": 0,
+                                "item": "busy"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Hỏi hôm nay ngày bao nhiêu:",
+                                "options": ["What day is it today?", "What's the date today?", "What time is it today?"],
+                                "answer": 1,
+                                "item": "whats-the-date-today"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Thứ Bảy bạn rảnh không?",
+                                "answer": "Are you free on Saturday?",
+                                "item": "are-you-free-on"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "a1-06-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "Wednesday",
+                "options": ["thứ Ba", "thứ Tư", "thứ Năm"],
+                "answer": 1,
+                "item": "wednesday"
+            },
+            {
+                "kind": "choice",
+                "prompt": "\"tháng Tám\" tiếng Anh là:",
+                "options": ["August", "April", "October"],
+                "answer": 0,
+                "item": "month-august"
+            },
+            {
+                "kind": "choice",
+                "prompt": "\"Ngày 3 tháng Chín\" đọc là:",
+                "options": ["September three", "September third", "Three September"],
+                "answer": 1,
+                "item": "ordinal-numbers"
+            },
+            {
+                "kind": "gap",
+                "sentence": "My birthday is ___ December.",
+                "answers": ["in"],
+                "item": "prepositions-of-time"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["See you in Monday!", "See you on Monday!", "See you at Monday!"],
+                "answer": 1,
+                "item": "see-you-on"
+            },
+            {
+                "kind": "gap",
+                "sentence": "Let's meet ___ six o'clock.",
+                "answers": ["at"],
+                "item": "lets-meet"
+            },
+            {
+                "kind": "choice",
+                "prompt": "\"When's your birthday?\" Bạn sinh ngày 1 tháng Năm. Bạn trả lời:",
+                "options": ["It's on May first.", "It's in May one.", "It's May one day."],
+                "answer": 0,
+                "item": "when-is-your-birthday"
+            },
+            {
+                "kind": "order",
+                "vi": "Xin lỗi, thứ Sáu mình bận.",
+                "answer": "Sorry, I'm busy on Friday.",
+                "item": "busy"
+            }
+        ]
+    }
+}

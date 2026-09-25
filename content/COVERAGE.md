@@ -9,7 +9,7 @@ Trạng thái: `draft` đã soạn, qua validator · `reviewed` đã có ngườ
 | Stage | Unit dự kiến | Đã soạn | Bài | Item | LEXICAL | PHRASE | PATTERN | GRAMMAR |
 |---|---|---|---|---|---|---|---|---|
 | Pre-A1 | 6 | 6 | 18 | 128 | 86 | 28 | 10 | 4 |
-| A1 | 10 | 3 | 9 | 67 | 39 | 15 | 10 | 3 |
+| A1 | 10 | 6 | 19 | 160 | 108 | 25 | 19 | 8 |
 
 ## Pre-A1: Foundations
 
@@ -68,9 +68,9 @@ Trạng thái: `draft` đã soạn, qua validator · `reviewed` đã có ngườ
 | 1 | `a1-01-family` | thành viên gia đình, my/his/her…, anh chị em (older/younger) | 3 | 21 (15/3/2/1) | 2 | draft |
 | 2 | `a1-02-daily-routine` | việc hằng ngày, hiện tại đơn (cả he/she + -s), giờ, trạng từ tần suất | 3 | 22 (6/11/3/2) | 2 | draft |
 | 3 | `a1-03-food-and-drink` | món ăn, đồ uống, gọi món lịch sự, thích/không thích | 3 | 24 (18/1/5/0) | 2 | draft |
-| 4 | `a1-04-shopping` | mua sắm, hỏi giá (How much is/are…?), màu sắc, số lớn | | | | chưa soạn |
-| 5 | `a1-05-home` | phòng và đồ đạc, There is / There are, giới từ nơi chốn | | | | chưa soạn |
-| 6 | `a1-06-days-and-dates` | thứ, tháng, ngày, on/in/at với thời gian, lịch hẹn | | | | chưa soạn |
+| 4 | `a1-04-shopping` | màu sắc, this/these/that/those, hỏi giá (How much is/are…?), đọc giá tiền, trả tiền | 3 | 27 (20/4/2/1) | 2 | draft |
+| 5 | `a1-05-home` | phòng và đồ đạc, There is / There are, Is there…?, giới từ nơi chốn, Where's my…? | 3 | 27 (18/3/4/2) | 2 | draft |
+| 6 | `a1-06-days-and-dates` | thứ, tháng, số thứ tự và ngày, sinh nhật, at/on/in với thời gian, hẹn gặp | 4 | 39 (31/3/3/2) | 2 | draft |
 | 7 | `a1-07-right-now` | hiện tại tiếp diễn, phân biệt với hiện tại đơn, điện thoại | | | | chưa soạn |
 | 8 | `a1-08-weather-and-clothes` | thời tiết, quần áo, tính từ cơ bản | | | | chưa soạn |
 | 9 | `a1-09-directions` | địa điểm trong thành phố, hỏi và chỉ đường, câu mệnh lệnh | | | | chưa soạn |
@@ -90,6 +90,15 @@ Trạng thái: `draft` đã soạn, qua validator · `reviewed` đã có ngườ
 | `i-like` | I like {thing}. | 03 |
 | `i-dont-like` | I don't like {thing}. | 03 |
 | `do-you-like` | Do you like {thing}? | 03 |
+| `how-much-is` | How much is {thing}? | 04 |
+| `how-much-are` | How much are {things}? | 04 |
+| `there-is` | There's {thing} in the {room}. | 05 |
+| `there-are` | There are {things} in the {room}. | 05 |
+| `is-there-a` | Is there {thing} in the {room}? | 05 |
+| `where-is` | Where's my {thing}? | 05 |
+| `are-you-free-on` | Are you free on {day}? | 06 |
+| `lets-meet` | Let's meet {when}. | 06 |
+| `see-you-on` | See you on {day}! | 06 |
 
 ### Ngữ pháp (GRAMMAR)
 
@@ -98,6 +107,11 @@ Trạng thái: `draft` đã soạn, qua validator · `reviewed` đã có ngườ
 | `possessive-adjectives` | my, your, his, her, our, their | 01 |
 | `present-simple` | hiện tại đơn với I/you/we/they, don't, Do…? | 02 |
 | `present-simple-s` | he/she/it + -s/-es/-ies, doesn't, Does…?, has | 02 |
+| `this-that-these-those` | this/these (gần), that/those (xa), is/are theo số | 04 |
+| `there-is-there-are` | có: there is/are, isn't/aren't, Is there…?, trả lời ngắn | 05 |
+| `prepositions-of-place` | in, on, under, next to, behind, in front of | 05 |
+| `ordinal-numbers` | số thứ tự 1st–31st, đọc ngày kiểu Mỹ (May 5th) | 06 |
+| `prepositions-of-time` | at + giờ, on + thứ/ngày, in + tháng/năm/buổi, không giới từ trước today/tomorrow | 06 |
 
 ### Lỗi thường gặp của người Việt (A1)
 
@@ -107,3 +121,13 @@ Trạng thái: `draft` đã soạn, qua validator · `reviewed` đã có ngườ
 - "go to home", "Now is seven o'clock", "in six o'clock" (unit 02).
 - "a rice", "I want…" / "Give me…" khi gọi món, "I have hungry", "Yes, I like" (unit 03).
 - Chưa có item riêng: unit 01 dạy "has" chỉ qua EXPLAIN (sẽ đi cùng `present-simple-s` ở unit 02).
+- "xanh" là blue hay green; màu đứng sau danh từ ("a bag red"); "this pens", "These is"; "fifty thousands" (unit 04).
+- Dịch "có" thành have ("In my room have a bed"); "There is two chairs"; quên be trước giới từ ("The keys on the table"); "in home", "go to home" (unit 05).
+- Đếm tháng bằng số ("month five"); đọc ngày bằng số đếm ("May five"); Tuesday và Thursday; "in Monday", "on tomorrow"; cách viết ngày kiểu Mỹ 7/5 (unit 06).
+
+### Ghi chú A1
+
+- Unit 06 có 4 bài (7 thứ, 12 tháng và số thứ tự không vừa 3 bài với 6–10 item mới mỗi bài); checkpoint 8 câu.
+- Slug tháng có tiền tố `month-` (`month-may`, `month-march`…) để `may`, `march` còn trống cho động từ; số thứ tự là `ordinal-first`, `ordinal-second`, `ordinal-third` (`second` còn là "giây"). Số thứ tự khác chỉ nằm trong `ordinal-numbers`.
+- `in`, `on` (LEXICAL) mang nghĩa nơi chốn (unit 05); nghĩa thời gian nằm trong GRAMMAR `prepositions-of-time`.
+- Đếm được/không đếm được vẫn chỉ nằm trong EXPLAIN của `a1-03-l1-food`; unit 04 không dạy How much/How many theo số lượng để khỏi lẫn với How much (giá).

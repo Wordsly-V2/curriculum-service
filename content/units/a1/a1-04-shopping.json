@@ -1,0 +1,740 @@
+{
+    "slug": "a1-04-shopping",
+    "stage": "a1",
+    "order": 4,
+    "title": "Shopping",
+    "titleVi": "Mua sắm",
+    "descriptionVi": "Màu sắc, hỏi giá, nói giá tiền, this/these/that/those, mua và trả tiền ở cửa hàng, ở chợ.",
+    "canDo": [
+        "Tôi nói và hỏi được màu sắc của đồ vật.",
+        "Tôi hỏi được giá (How much is it? / How much are they?) và hiểu câu trả lời.",
+        "Tôi mua được hàng và trả tiền bằng tiền mặt hoặc thẻ."
+    ],
+    "items": [
+        {
+            "slug": "color",
+            "type": "LEXICAL",
+            "text": "color",
+            "meaningVi": "màu, màu sắc",
+            "ipa": "/ˈkʌlər/",
+            "examples": [
+                { "en": "What's your favorite color?", "vi": "Màu yêu thích của bạn là màu gì?", "highlight": "color" }
+            ],
+            "noteVi": "Anh-Mỹ viết color, Anh-Anh viết colour. Âm đầu /kʌ/ như \"cơ\", không đọc \"cô-lo\"."
+        },
+        {
+            "slug": "red",
+            "type": "LEXICAL",
+            "text": "red",
+            "meaningVi": "màu đỏ",
+            "ipa": "/red/",
+            "examples": [
+                { "en": "I'd like the red bag, please.", "vi": "Cho mình cái túi màu đỏ.", "highlight": "red" }
+            ],
+            "noteVi": "Giữ âm cuối /d/. Màu đứng trước danh từ: \"a red bag\", không nói \"a bag red\"."
+        },
+        {
+            "slug": "blue",
+            "type": "LEXICAL",
+            "text": "blue",
+            "meaningVi": "màu xanh dương",
+            "ipa": "/bluː/",
+            "examples": [
+                { "en": "My bag is blue.", "vi": "Túi của mình màu xanh dương.", "highlight": "blue" }
+            ],
+            "noteVi": "Tiếng Việt \"xanh\" có thể là blue (xanh dương) hoặc green (xanh lá). Tiếng Anh luôn tách hai màu."
+        },
+        {
+            "slug": "green",
+            "type": "LEXICAL",
+            "text": "green",
+            "meaningVi": "màu xanh lá",
+            "ipa": "/ɡriːn/",
+            "examples": [
+                { "en": "Green tea, please.", "vi": "Cho mình trà xanh.", "highlight": "Green" }
+            ],
+            "noteVi": "\"Trà xanh\" là green tea; bầu trời xanh là blue sky."
+        },
+        {
+            "slug": "yellow",
+            "type": "LEXICAL",
+            "text": "yellow",
+            "meaningVi": "màu vàng",
+            "ipa": "/ˈjeloʊ/",
+            "examples": [
+                { "en": "The yellow pencils are cheap.", "vi": "Mấy cây bút chì màu vàng rẻ.", "highlight": "yellow" }
+            ]
+        },
+        {
+            "slug": "black",
+            "type": "LEXICAL",
+            "text": "black",
+            "meaningVi": "màu đen",
+            "ipa": "/blæk/",
+            "examples": [
+                { "en": "Black coffee, please.", "vi": "Cho mình cà phê đen.", "highlight": "Black" }
+            ],
+            "noteVi": "Âm cuối /k/ phải bật ra: black, không đọc \"blé\"."
+        },
+        {
+            "slug": "white",
+            "type": "LEXICAL",
+            "text": "white",
+            "meaningVi": "màu trắng",
+            "ipa": "/waɪt/",
+            "examples": [
+                { "en": "The board is white.", "vi": "Cái bảng màu trắng.", "highlight": "white" }
+            ],
+            "noteVi": "Chữ h câm: /waɪt/. Giữ âm cuối /t/."
+        },
+        {
+            "slug": "what-color-is-it",
+            "type": "PHRASE",
+            "text": "What color is it?",
+            "meaningVi": "Nó màu gì?",
+            "examples": [
+                { "en": "What color is it? It's green.", "vi": "Nó màu gì? Màu xanh lá.", "highlight": "What color is it?" }
+            ],
+            "noteVi": "Không nói \"What is color?\". Số nhiều: \"What color are they?\""
+        },
+        {
+            "slug": "these",
+            "type": "LEXICAL",
+            "text": "these",
+            "meaningVi": "những cái này",
+            "ipa": "/ðiːz/",
+            "examples": [
+                { "en": "These pens are cheap.", "vi": "Mấy cây bút này rẻ.", "highlight": "These" }
+            ],
+            "noteVi": "these /ðiːz/ (i dài, kết thúc bằng /z/) khác this /ðɪs/ (i ngắn, /s/)."
+        },
+        {
+            "slug": "those",
+            "type": "LEXICAL",
+            "text": "those",
+            "meaningVi": "những cái kia",
+            "ipa": "/ðoʊz/",
+            "examples": [
+                { "en": "How much are those notebooks?", "vi": "Mấy quyển vở kia bao nhiêu tiền?", "highlight": "those" }
+            ],
+            "noteVi": "Âm đầu /ð/: đặt lưỡi giữa hai răng. Kết thúc bằng /z/."
+        },
+        {
+            "slug": "this-that-these-those",
+            "type": "GRAMMAR",
+            "text": "this / that / these / those",
+            "meaningVi": "này, kia (số ít và số nhiều)",
+            "examples": [
+                { "en": "This bag is red. Those bags are black.", "vi": "Cái túi này màu đỏ. Mấy cái túi kia màu đen.", "highlight": "Those" }
+            ],
+            "grammar": {
+                "ruleVi": "this, these chỉ vật ở gần; that, those chỉ vật ở xa. this, that đi với danh từ số ít và \"is\"; these, those đi với danh từ số nhiều và \"are\".",
+                "forms": [
+                    { "label": "gần, số ít", "example": "This pen is blue." },
+                    { "label": "gần, số nhiều", "example": "These pens are blue." },
+                    { "label": "xa, số ít", "example": "That bag is cheap." },
+                    { "label": "xa, số nhiều", "example": "Those bags are cheap." }
+                ],
+                "pitfallsVi": [
+                    "\"this pens\", \"that books\" → these pens, those books.",
+                    "\"These is\" → These are; \"This are\" → This is.",
+                    "Đọc these giống this: these /ðiːz/ có i dài và âm cuối /z/."
+                ]
+            }
+        },
+        {
+            "slug": "how-much-is",
+            "type": "PATTERN",
+            "text": "How much is …?",
+            "meaningVi": "… bao nhiêu tiền?",
+            "examples": [
+                { "en": "How much is this bag? It's two hundred thousand dong.", "vi": "Cái túi này bao nhiêu? Hai trăm nghìn.", "highlight": "How much is" }
+            ],
+            "pattern": {
+                "template": "How much is {thing}?",
+                "slots": [
+                    { "name": "thing", "hintVi": "một món (số ít)", "options": ["this bag", "that pen", "it"] }
+                ]
+            },
+            "noteVi": "Hỏi giá dùng How much, không dùng How many. Trả lời: \"It's …\"."
+        },
+        {
+            "slug": "how-much-are",
+            "type": "PATTERN",
+            "text": "How much are …?",
+            "meaningVi": "Mấy cái … bao nhiêu tiền?",
+            "examples": [
+                { "en": "How much are these notebooks? They're ten thousand dong each.", "vi": "Mấy quyển vở này bao nhiêu? Mười nghìn một quyển.", "highlight": "How much are" }
+            ],
+            "pattern": {
+                "template": "How much are {things}?",
+                "slots": [
+                    { "name": "things", "hintVi": "nhiều món (số nhiều)", "options": ["these pens", "those notebooks", "they"] }
+                ]
+            },
+            "noteVi": "Số nhiều dùng are và trả lời \"They're …\". \"each\" nghĩa là mỗi cái."
+        },
+        {
+            "slug": "thousand",
+            "type": "LEXICAL",
+            "text": "thousand",
+            "meaningVi": "nghìn",
+            "ipa": "/ˈθaʊzənd/",
+            "examples": [
+                { "en": "It's fifty thousand dong.", "vi": "Năm mươi nghìn đồng.", "highlight": "thousand" }
+            ],
+            "noteVi": "Sau con số không thêm -s: \"fifty thousand\", không nói \"fifty thousands\". \"50k\" đọc là fifty thousand. Âm đầu /θ/."
+        },
+        {
+            "slug": "dong",
+            "type": "LEXICAL",
+            "text": "dong",
+            "meaningVi": "đồng (tiền Việt Nam)",
+            "ipa": "/dɒŋ/",
+            "examples": [
+                { "en": "It's thirty thousand dong.", "vi": "Ba mươi nghìn đồng.", "highlight": "dong" }
+            ],
+            "noteVi": "Không thêm -s: \"twenty thousand dong\". Viết tắt: VND."
+        },
+        {
+            "slug": "dollar",
+            "type": "LEXICAL",
+            "text": "dollar",
+            "meaningVi": "đô la",
+            "ipa": "/ˈdɑːlər/",
+            "examples": [
+                { "en": "The T-shirt is ten dollars.", "vi": "Cái áo thun giá mười đô.", "highlight": "dollars" }
+            ],
+            "noteVi": "Có số nhiều: one dollar, two dollars. Viết $10 nhưng đọc \"ten dollars\"."
+        },
+        {
+            "slug": "cheap",
+            "type": "LEXICAL",
+            "text": "cheap",
+            "meaningVi": "rẻ",
+            "ipa": "/tʃiːp/",
+            "examples": [
+                { "en": "The fruit at the market is cheap.", "vi": "Trái cây ở chợ rẻ.", "highlight": "cheap" }
+            ],
+            "noteVi": "Giữ âm cuối /p/: mím môi. Dùng với be: \"It's cheap.\""
+        },
+        {
+            "slug": "expensive",
+            "type": "LEXICAL",
+            "text": "expensive",
+            "meaningVi": "đắt",
+            "ipa": "/ɪkˈspensɪv/",
+            "examples": [
+                { "en": "That bag is very expensive.", "vi": "Cái túi kia đắt quá.", "highlight": "expensive" }
+            ],
+            "noteVi": "Nhấn âm thứ hai: ex-PEN-sive. Âm cuối /v/, không đọc thành \"xíp\"."
+        },
+        {
+            "slug": "shop",
+            "type": "LEXICAL",
+            "text": "shop",
+            "meaningVi": "cửa hàng, tiệm",
+            "ipa": "/ʃɑːp/",
+            "examples": [
+                { "en": "There's a small shop near my house.", "vi": "Gần nhà mình có một cửa hàng nhỏ.", "highlight": "shop" }
+            ],
+            "noteVi": "Người Mỹ cũng hay nói store: \"a store\"."
+        },
+        {
+            "slug": "market",
+            "type": "LEXICAL",
+            "text": "market",
+            "meaningVi": "chợ",
+            "ipa": "/ˈmɑːrkɪt/",
+            "examples": [
+                { "en": "My mother goes to the market every morning.", "vi": "Mẹ mình đi chợ mỗi sáng.", "highlight": "market" }
+            ],
+            "noteVi": "\"Đi chợ\" là go to the market. Siêu thị là supermarket."
+        },
+        {
+            "slug": "buy",
+            "type": "LEXICAL",
+            "text": "buy",
+            "meaningVi": "mua",
+            "ipa": "/baɪ/",
+            "examples": [
+                { "en": "I buy vegetables at the market.", "vi": "Mình mua rau ở chợ.", "highlight": "buy" }
+            ],
+            "noteVi": "Đọc giống bye. He/she buys."
+        },
+        {
+            "slug": "pay",
+            "type": "LEXICAL",
+            "text": "pay",
+            "meaningVi": "trả tiền",
+            "ipa": "/peɪ/",
+            "examples": [
+                { "en": "Can I pay by card?", "vi": "Mình trả bằng thẻ được không?", "highlight": "pay" }
+            ],
+            "noteVi": "Trả cho món gì: pay for: \"I pay for the coffee.\""
+        },
+        {
+            "slug": "cash",
+            "type": "LEXICAL",
+            "text": "cash",
+            "meaningVi": "tiền mặt",
+            "ipa": "/kæʃ/",
+            "examples": [
+                { "en": "Sorry, cash only.", "vi": "Xin lỗi, chỉ nhận tiền mặt.", "highlight": "cash" }
+            ],
+            "noteVi": "Trả tiền mặt: pay in cash (hoặc pay cash). Không đếm được: không nói \"a cash\"."
+        },
+        {
+            "slug": "card",
+            "type": "LEXICAL",
+            "text": "card",
+            "meaningVi": "thẻ (ngân hàng)",
+            "ipa": "/kɑːrd/",
+            "examples": [
+                { "en": "Can I pay by card?", "vi": "Mình trả bằng thẻ được không?", "highlight": "card" }
+            ],
+            "noteVi": "Trả bằng thẻ: pay by card. Chuyển khoản, quét mã: \"Can I pay by bank transfer?\""
+        },
+        {
+            "slug": "ill-take-it",
+            "type": "PHRASE",
+            "text": "I'll take it.",
+            "meaningVi": "Tôi lấy cái này. (quyết định mua)",
+            "examples": [
+                { "en": "Fifty thousand? OK, I'll take it.", "vi": "Năm mươi nghìn à? Được, mình lấy.", "highlight": "I'll take it" }
+            ],
+            "noteVi": "Nhiều món thì \"I'll take them.\" Không nói \"I take it\" khi vừa quyết định mua."
+        },
+        {
+            "slug": "can-i-pay-by-card",
+            "type": "PHRASE",
+            "text": "Can I pay by card?",
+            "meaningVi": "Tôi trả bằng thẻ được không?",
+            "examples": [
+                { "en": "Can I pay by card? Yes, of course.", "vi": "Mình trả bằng thẻ được không? Được chứ.", "highlight": "Can I pay by card?" }
+            ],
+            "noteVi": "Dùng by card, không nói \"with card\" hay \"by a card\"."
+        },
+        {
+            "slug": "here-you-are",
+            "type": "PHRASE",
+            "text": "Here you are.",
+            "meaningVi": "Của bạn đây. (khi đưa đồ, đưa tiền)",
+            "examples": [
+                { "en": "That's thirty thousand dong. Here you are.", "vi": "Ba mươi nghìn ạ. Tiền đây.", "highlight": "Here you are" }
+            ],
+            "noteVi": "Nói khi đưa tiền hoặc đưa đồ cho ai. Đáp lại: \"Thank you.\""
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "a1-04-at-the-market",
+            "title": "At the market",
+            "situationVi": "Bạn mua trái cây và bút ở một sạp chợ.",
+            "lines": [
+                { "speaker": "Seller", "en": "Hello! What would you like?", "vi": "Chào bạn! Bạn muốn mua gì?" },
+                { "speaker": "You", "en": "How much is this pen?", "vi": "Cây bút này bao nhiêu tiền?", "learnerTurn": true },
+                { "speaker": "Seller", "en": "It's ten thousand dong.", "vi": "Mười nghìn." },
+                { "speaker": "You", "en": "And how much are those notebooks?", "vi": "Còn mấy quyển vở kia bao nhiêu?", "learnerTurn": true },
+                { "speaker": "Seller", "en": "They're fifteen thousand dong each.", "vi": "Mười lăm nghìn một quyển." },
+                { "speaker": "You", "en": "That's cheap. I'd like two, please.", "vi": "Rẻ nhỉ. Cho mình hai quyển.", "learnerTurn": true }
+            ]
+        },
+        {
+            "slug": "a1-04-paying",
+            "title": "Paying",
+            "situationVi": "Bạn mua một cái túi ở cửa hàng và trả tiền.",
+            "lines": [
+                { "speaker": "Clerk", "en": "Hi. Can I help you?", "vi": "Chào bạn. Mình giúp gì được không?" },
+                { "speaker": "You", "en": "Yes. How much is this black bag?", "vi": "Vâng. Cái túi đen này bao nhiêu?", "learnerTurn": true },
+                { "speaker": "Clerk", "en": "It's three hundred thousand dong.", "vi": "Ba trăm nghìn." },
+                { "speaker": "You", "en": "OK, I'll take it. Can I pay by card?", "vi": "Được, mình lấy. Mình trả bằng thẻ được không?", "learnerTurn": true },
+                { "speaker": "Clerk", "en": "Sorry, cash only.", "vi": "Xin lỗi, chỉ nhận tiền mặt." },
+                { "speaker": "You", "en": "No problem. Here you are.", "vi": "Không sao. Tiền đây.", "learnerTurn": true }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "a1-04-l1-colors",
+            "title": "What color is it?",
+            "titleVi": "Màu sắc",
+            "estimatedMinutes": 10,
+            "items": [
+                { "item": "color", "role": "INTRODUCE" },
+                { "item": "red", "role": "INTRODUCE" },
+                { "item": "blue", "role": "INTRODUCE" },
+                { "item": "green", "role": "INTRODUCE" },
+                { "item": "yellow", "role": "INTRODUCE" },
+                { "item": "black", "role": "INTRODUCE" },
+                { "item": "white", "role": "INTRODUCE" },
+                { "item": "what-color-is-it", "role": "INTRODUCE" },
+                { "item": "its-a", "role": "RECYCLE" },
+                { "item": "bag", "role": "RECYCLE" },
+                { "item": "pen", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 8 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["color", "red", "blue", "green", "yellow", "black", "white", "what-color-is-it"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Màu đứng trước danh từ",
+                        "bodyVi": "Tiếng Việt nói \"cái túi **đỏ**\", tiếng Anh đảo lại: **a red bag**.\n\n❌ a bag red ✅ a red bag\n\nSau **be** thì màu đứng một mình: My bag **is red**.\n\nHỏi màu: **What color is it?** (một vật) / **What color are they?** (nhiều vật). Trả lời: **It's blue.** / **They're blue.**\n\nLưu ý: \"xanh\" trong tiếng Việt là **blue** (xanh dương) hoặc **green** (xanh lá).",
+                        "items": ["what-color-is-it", "red", "blue", "green", "bag"],
+                        "examples": [
+                            { "en": "I have a blue bag.", "vi": "Mình có một cái túi xanh dương.", "highlight": "blue bag" },
+                            { "en": "What color is it? It's green.", "vi": "Nó màu gì? Màu xanh lá.", "highlight": "What color is it?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["color", "red", "blue", "green", "yellow", "black", "white", "what-color-is-it"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "What color is it? It's red.", "vi": "Nó màu gì? Màu đỏ." },
+                            { "en": "I have a black bag and a white pen.", "vi": "Mình có một cái túi đen và một cây bút trắng." },
+                            { "en": "My favorite color is green.", "vi": "Màu yêu thích của mình là xanh lá." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I have a bag red.", "I have a red bag.", "I have red a bag."],
+                                "answer": 1,
+                                "item": "red"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "yellow",
+                                "options": ["màu vàng", "màu trắng", "màu xanh lá"],
+                                "answer": 0,
+                                "item": "yellow"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Bầu trời màu xanh\": xanh ở đây là",
+                                "options": ["green", "blue", "black"],
+                                "answer": 1,
+                                "item": "blue",
+                                "explanationVi": "Xanh của bầu trời, biển là blue; xanh của lá cây là green."
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Nó màu gì?",
+                                "answer": "What color is it?",
+                                "item": "what-color-is-it"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a1-04-l2-prices",
+            "title": "How much is it?",
+            "titleVi": "Hỏi giá",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "these", "role": "INTRODUCE" },
+                { "item": "those", "role": "INTRODUCE" },
+                { "item": "this-that-these-those", "role": "INTRODUCE" },
+                { "item": "how-much-is", "role": "INTRODUCE" },
+                { "item": "how-much-are", "role": "INTRODUCE" },
+                { "item": "thousand", "role": "INTRODUCE" },
+                { "item": "dong", "role": "INTRODUCE" },
+                { "item": "dollar", "role": "INTRODUCE" },
+                { "item": "cheap", "role": "INTRODUCE" },
+                { "item": "expensive", "role": "INTRODUCE" },
+                { "item": "this", "role": "RECYCLE" },
+                { "item": "that", "role": "RECYCLE" },
+                { "item": "hundred", "role": "RECYCLE" },
+                { "item": "plural-s", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 8 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["these", "those", "how-much-is", "how-much-are", "thousand", "dong", "dollar", "cheap", "expensive"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "this, that, these, those",
+                        "bodyVi": "| | gần | xa |\n|---|---|---|\n| một cái | **this** pen | **that** pen |\n| nhiều cái | **these** pens | **those** pens |\n\n- Số ít đi với **is**: This pen **is** cheap.\n- Số nhiều đi với **are**: These pens **are** cheap.\n\n❌ this pens, these is ✅ these pens, these are\n\nHỏi giá theo cùng quy tắc: **How much is** this bag? / **How much are** these pens?",
+                        "items": ["this-that-these-those", "this", "that", "these", "those", "plural-s"],
+                        "examples": [
+                            { "en": "This bag is cheap. That bag is expensive.", "vi": "Cái túi này rẻ. Cái túi kia đắt.", "highlight": "That bag" },
+                            { "en": "These pens are blue. Those pens are black.", "vi": "Mấy cây bút này màu xanh. Mấy cây kia màu đen.", "highlight": "These pens" }
+                        ]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Đọc giá tiền",
+                        "bodyVi": "- 10.000đ: **ten thousand dong**\n- 50.000đ (50k): **fifty thousand dong**\n- 250.000đ: **two hundred and fifty thousand dong** (người Mỹ hay bỏ \"and\")\n- $5: **five dollars**\n\n**thousand**, **hundred** và **dong** không thêm -s sau con số: ❌ fifty thousands dongs ✅ fifty thousand dong. Riêng **dollar** có số nhiều: two dollar**s**.\n\nTrả lời giá: **It's** … (một món) / **They're** … (nhiều món). Thêm **each** nếu là giá mỗi cái.",
+                        "items": ["thousand", "hundred", "dong", "dollar"]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "how-much-is",
+                        "prompts": [
+                            { "cueVi": "Hỏi giá cái túi này.", "slots": { "thing": "this bag" }, "answer": "How much is this bag?" },
+                            { "cueVi": "Hỏi giá cây bút kia.", "slots": { "thing": "that pen" }, "answer": "How much is that pen?" },
+                            { "cueVi": "Hỏi giá ly cà phê.", "slots": { "thing": "the coffee" }, "answer": "How much is the coffee?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "how-much-are",
+                        "prompts": [
+                            { "cueVi": "Hỏi giá mấy quyển vở này.", "slots": { "things": "these notebooks" }, "answer": "How much are these notebooks?" },
+                            { "cueVi": "Hỏi giá mấy cây bút chì kia.", "slots": { "things": "those pencils" }, "answer": "How much are those pencils?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "cloze"],
+                        "items": ["these", "those", "thousand", "dong", "dollar", "cheap", "expensive"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a1-04-at-the-market", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["This pens are cheap.", "These pens is cheap.", "These pens are cheap."],
+                                "answer": 2,
+                                "item": "this-that-these-those"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "How much ___ those notebooks?",
+                                "answers": ["are"],
+                                "item": "how-much-are"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Đọc \"50.000đ\" thế nào?",
+                                "options": ["fifty thousands dong", "fifty thousand dong", "five thousand dong"],
+                                "answer": 1,
+                                "item": "thousand"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "expensive",
+                                "options": ["rẻ", "đắt", "đẹp"],
+                                "answer": 1,
+                                "item": "expensive"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Cái túi này bao nhiêu tiền?",
+                                "answer": "How much is this bag?",
+                                "item": "how-much-is"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a1-04-l3-at-the-shop",
+            "title": "I'll take it",
+            "titleVi": "Mua và trả tiền",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "shop", "role": "INTRODUCE" },
+                { "item": "market", "role": "INTRODUCE" },
+                { "item": "buy", "role": "INTRODUCE" },
+                { "item": "pay", "role": "INTRODUCE" },
+                { "item": "cash", "role": "INTRODUCE" },
+                { "item": "card", "role": "INTRODUCE" },
+                { "item": "ill-take-it", "role": "INTRODUCE" },
+                { "item": "can-i-pay-by-card", "role": "INTRODUCE" },
+                { "item": "here-you-are", "role": "INTRODUCE" },
+                { "item": "how-much-is", "role": "RECYCLE" },
+                { "item": "cheap", "role": "RECYCLE" },
+                { "item": "black", "role": "RECYCLE" },
+                { "item": "thank-you", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["shop", "market", "buy", "pay", "cash", "card", "ill-take-it", "can-i-pay-by-card", "here-you-are"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Mua xong, trả tiền",
+                        "bodyVi": "Các bước mua hàng:\n\n1. Hỏi giá: **How much is it?**\n2. Quyết định mua: **I'll take it.** (nhiều món: **I'll take them.**)\n3. Hỏi cách trả: **Can I pay by card?** Nếu quán chỉ nhận tiền mặt, người bán nói **Cash only.**\n4. Đưa tiền: **Here you are.** Người bán cảm ơn, bạn đáp **Thank you.**\n\nTrả bằng thẻ là **by card**, trả tiền mặt là **in cash**.",
+                        "items": ["how-much-is", "ill-take-it", "can-i-pay-by-card", "cash", "here-you-are", "thank-you"]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "sentence-build"],
+                        "items": ["shop", "market", "buy", "pay", "cash", "card", "ill-take-it", "can-i-pay-by-card", "here-you-are", "cheap", "black"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a1-04-paying", "mode": "roleplay" }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "I buy fruit at the market.", "vi": "Mình mua trái cây ở chợ." },
+                            { "en": "OK, I'll take it. Can I pay by card?", "vi": "Được, mình lấy. Mình trả bằng thẻ được không?" },
+                            { "en": "Here you are. Thank you!", "vi": "Tiền đây. Cảm ơn nhé!" }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn quyết định mua cái áo. Bạn nói:",
+                                "options": ["I'll take it.", "I take.", "I buy it now please."],
+                                "answer": 0,
+                                "item": "ill-take-it"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Can I pay ___ card?",
+                                "answers": ["by"],
+                                "item": "can-i-pay-by-card"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn đưa tiền cho người bán. Bạn nói:",
+                                "options": ["Here you are.", "Give you.", "You're welcome."],
+                                "answer": 0,
+                                "item": "here-you-are"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Cash only\" nghĩa là:",
+                                "options": ["Chỉ nhận thẻ", "Chỉ nhận tiền mặt", "Miễn phí"],
+                                "answer": 1,
+                                "item": "cash"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Mình mua rau ở chợ.",
+                                "answer": "I buy vegetables at the market.",
+                                "item": "buy"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "a1-04-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Hỏi giá mấy cây bút này:",
+                "options": ["How much is these pens?", "How much are these pens?", "How many are these pens?"],
+                "answer": 1,
+                "item": "how-much-are"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "green",
+                "options": ["xanh dương", "xanh lá", "vàng"],
+                "answer": 1,
+                "item": "green"
+            },
+            {
+                "kind": "gap",
+                "sentence": "It's twenty ___ dong.",
+                "hintVi": "nghìn",
+                "answers": ["thousand"],
+                "item": "thousand"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["Those bag is cheap.", "That bags are cheap.", "Those bags are cheap."],
+                "answer": 2,
+                "item": "this-that-these-those"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Bạn muốn biết có trả bằng thẻ được không. Bạn hỏi:",
+                "options": ["Can I pay by card?", "Can I pay with a card money?", "Do you card?"],
+                "answer": 0,
+                "item": "can-i-pay-by-card"
+            },
+            {
+                "kind": "order",
+                "vi": "Nó màu gì?",
+                "answer": "What color is it?",
+                "item": "what-color-is-it"
+            }
+        ]
+    }
+}
