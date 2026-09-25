@@ -1,0 +1,679 @@
+{
+    "slug": "pre-a1-03-numbers",
+    "stage": "pre-a1",
+    "order": 3,
+    "title": "One, two, three",
+    "titleVi": "Số đếm",
+    "descriptionVi": "Số từ 0 đến 100, nói tuổi và đọc số điện thoại.",
+    "canDo": [
+        "Tôi đếm được từ 0 đến 100.",
+        "Tôi nói được tuổi của mình và hỏi tuổi người khác.",
+        "Tôi đọc và nghe được một số điện thoại."
+    ],
+    "items": [
+        {
+            "slug": "one",
+            "type": "LEXICAL",
+            "text": "one",
+            "meaningVi": "một (1)",
+            "ipa": "/wʌn/",
+            "examples": [
+                { "en": "One, two, three!", "vi": "Một, hai, ba!", "highlight": "One" }
+            ],
+            "noteVi": "Đọc /wʌn/ giống \"won\", không đọc \"ô-nê\"."
+        },
+        {
+            "slug": "two",
+            "type": "LEXICAL",
+            "text": "two",
+            "meaningVi": "hai (2)",
+            "ipa": "/tuː/",
+            "examples": [
+                { "en": "Two, four, six.", "vi": "Hai, bốn, sáu.", "highlight": "Two" }
+            ],
+            "noteVi": "Chữ w câm. \"two\", \"too\" và \"to\" đọc giống nhau."
+        },
+        {
+            "slug": "three",
+            "type": "LEXICAL",
+            "text": "three",
+            "meaningVi": "ba (3)",
+            "ipa": "/θriː/",
+            "examples": [
+                { "en": "One, two, three!", "vi": "Một, hai, ba!", "highlight": "three" }
+            ],
+            "noteVi": "Âm /θ/: đặt đầu lưỡi giữa hai hàm răng rồi thổi hơi. Không đọc thành \"tree\" (cái cây)."
+        },
+        {
+            "slug": "four",
+            "type": "LEXICAL",
+            "text": "four",
+            "meaningVi": "bốn (4)",
+            "ipa": "/fɔːr/",
+            "examples": [
+                { "en": "Two, four, six.", "vi": "Hai, bốn, sáu.", "highlight": "four" }
+            ]
+        },
+        {
+            "slug": "five",
+            "type": "LEXICAL",
+            "text": "five",
+            "meaningVi": "năm (5)",
+            "ipa": "/faɪv/",
+            "examples": [
+                { "en": "Three, four, five.", "vi": "Ba, bốn, năm.", "highlight": "five" }
+            ],
+            "noteVi": "Giữ âm cuối /v/: răng trên chạm môi dưới. Đừng đọc thành \"fai\"."
+        },
+        {
+            "slug": "six",
+            "type": "LEXICAL",
+            "text": "six",
+            "meaningVi": "sáu (6)",
+            "ipa": "/sɪks/",
+            "examples": [
+                { "en": "Two, four, six.", "vi": "Hai, bốn, sáu.", "highlight": "six" }
+            ],
+            "noteVi": "Đọc rõ âm cuối /ks/. Thiếu âm cuối, người nghe sẽ không hiểu."
+        },
+        {
+            "slug": "seven",
+            "type": "LEXICAL",
+            "text": "seven",
+            "meaningVi": "bảy (7)",
+            "ipa": "/ˈsevən/",
+            "examples": [
+                { "en": "Six, seven, eight.", "vi": "Sáu, bảy, tám.", "highlight": "seven" }
+            ]
+        },
+        {
+            "slug": "eight",
+            "type": "LEXICAL",
+            "text": "eight",
+            "meaningVi": "tám (8)",
+            "ipa": "/eɪt/",
+            "examples": [
+                { "en": "Six, seven, eight.", "vi": "Sáu, bảy, tám.", "highlight": "eight" }
+            ],
+            "noteVi": "Chữ gh câm. Đọc /eɪt/, bật nhẹ âm cuối /t/."
+        },
+        {
+            "slug": "nine",
+            "type": "LEXICAL",
+            "text": "nine",
+            "meaningVi": "chín (9)",
+            "ipa": "/naɪn/",
+            "examples": [
+                { "en": "Eight, nine, ten.", "vi": "Tám, chín, mười.", "highlight": "nine" }
+            ]
+        },
+        {
+            "slug": "ten",
+            "type": "LEXICAL",
+            "text": "ten",
+            "meaningVi": "mười (10)",
+            "ipa": "/ten/",
+            "examples": [
+                { "en": "Eight, nine, ten.", "vi": "Tám, chín, mười.", "highlight": "ten" }
+            ]
+        },
+        {
+            "slug": "eleven",
+            "type": "LEXICAL",
+            "text": "eleven",
+            "meaningVi": "mười một (11)",
+            "ipa": "/ɪˈlevən/",
+            "examples": [
+                { "en": "Ten, eleven, twelve.", "vi": "Mười, mười một, mười hai.", "highlight": "eleven" }
+            ]
+        },
+        {
+            "slug": "twelve",
+            "type": "LEXICAL",
+            "text": "twelve",
+            "meaningVi": "mười hai (12)",
+            "ipa": "/twelv/",
+            "examples": [
+                { "en": "Ten, eleven, twelve.", "vi": "Mười, mười một, mười hai.", "highlight": "twelve" }
+            ],
+            "noteVi": "Cụm âm cuối /lv/: cong lưỡi lên rồi chạm răng trên vào môi dưới."
+        },
+        {
+            "slug": "thirteen",
+            "type": "LEXICAL",
+            "text": "thirteen",
+            "meaningVi": "mười ba (13)",
+            "ipa": "/ˌθɜːrˈtiːn/",
+            "examples": [
+                { "en": "I'm thirteen.", "vi": "Mình mười ba tuổi.", "highlight": "thirteen" }
+            ],
+            "noteVi": "Nhấn vào âm sau: thir-TEEN. Dễ nhầm với thirty (30)."
+        },
+        {
+            "slug": "fifteen",
+            "type": "LEXICAL",
+            "text": "fifteen",
+            "meaningVi": "mười lăm (15)",
+            "ipa": "/ˌfɪfˈtiːn/",
+            "examples": [
+                { "en": "I'm fifteen.", "vi": "Mình mười lăm tuổi.", "highlight": "fifteen" }
+            ],
+            "noteVi": "Viết là fif-teen, không phải \"fiveteen\"."
+        },
+        {
+            "slug": "twenty",
+            "type": "LEXICAL",
+            "text": "twenty",
+            "meaningVi": "hai mươi (20)",
+            "ipa": "/ˈtwenti/",
+            "examples": [
+                { "en": "Twenty-one, twenty-two.", "vi": "Hai mươi mốt, hai mươi hai.", "highlight": "Twenty" }
+            ]
+        },
+        {
+            "slug": "thirty",
+            "type": "LEXICAL",
+            "text": "thirty",
+            "meaningVi": "ba mươi (30)",
+            "ipa": "/ˈθɜːrti/",
+            "examples": [
+                { "en": "Thirty, not thirteen.", "vi": "Ba mươi, không phải mười ba.", "highlight": "Thirty" }
+            ],
+            "noteVi": "Nhấn vào âm đầu: THIR-ty."
+        },
+        {
+            "slug": "forty",
+            "type": "LEXICAL",
+            "text": "forty",
+            "meaningVi": "bốn mươi (40)",
+            "ipa": "/ˈfɔːrti/",
+            "examples": [
+                { "en": "Forty-five.", "vi": "Bốn mươi lăm.", "highlight": "Forty" }
+            ],
+            "noteVi": "Viết là forty, không có chữ u (không phải \"fourty\")."
+        },
+        {
+            "slug": "fifty",
+            "type": "LEXICAL",
+            "text": "fifty",
+            "meaningVi": "năm mươi (50)",
+            "ipa": "/ˈfɪfti/",
+            "examples": [
+                { "en": "Fifty, sixty, seventy.", "vi": "Năm mươi, sáu mươi, bảy mươi.", "highlight": "Fifty" }
+            ]
+        },
+        {
+            "slug": "hundred",
+            "type": "LEXICAL",
+            "text": "hundred",
+            "meaningVi": "trăm",
+            "ipa": "/ˈhʌndrəd/",
+            "examples": [
+                { "en": "One hundred.", "vi": "Một trăm.", "highlight": "hundred" }
+            ],
+            "noteVi": "Luôn có \"one\" hoặc \"a\" phía trước: one hundred, a hundred. Không thêm -s: two hundred."
+        },
+        {
+            "slug": "teen-and-ty",
+            "type": "GRAMMAR",
+            "text": "-teen and -ty",
+            "meaningVi": "số 13–19 và số tròn chục",
+            "examples": [
+                { "en": "thirteen, thirty", "vi": "mười ba, ba mươi", "highlight": "thirteen" },
+                { "en": "twenty-one", "vi": "hai mươi mốt", "highlight": "twenty-one" }
+            ],
+            "grammar": {
+                "ruleVi": "Số 13–19 có đuôi -teen và nhấn ở âm sau (thir-TEEN). Số tròn chục 20–90 có đuôi -ty và nhấn ở âm đầu (THIR-ty). Số 21–99 ghép chục với đơn vị bằng dấu gạch nối (twenty-one).",
+                "forms": [
+                    { "label": "13–19: -teen", "example": "thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen" },
+                    { "label": "20–90: -ty", "example": "twenty, thirty, forty, fifty, sixty, seventy, eighty, ninety" },
+                    { "label": "21–99: chục-đơn vị", "example": "twenty-one, thirty-five, ninety-nine" }
+                ],
+                "pitfallsVi": [
+                    "Nghe nhầm thirteen (13) và thirty (30): phân biệt bằng trọng âm và âm cuối /n/.",
+                    "Viết sai: fourty → forty, fiveteen → fifteen, twelf → twelve.",
+                    "Quên gạch nối: twenty one → twenty-one."
+                ]
+            }
+        },
+        {
+            "slug": "zero",
+            "type": "LEXICAL",
+            "text": "zero",
+            "meaningVi": "không (0)",
+            "ipa": "/ˈzɪroʊ/",
+            "examples": [
+                { "en": "Zero, one, two.", "vi": "Không, một, hai.", "highlight": "Zero" }
+            ],
+            "noteVi": "Khi đọc số điện thoại, người ta thường đọc 0 là \"oh\" /oʊ/."
+        },
+        {
+            "slug": "number",
+            "type": "LEXICAL",
+            "text": "number",
+            "meaningVi": "số",
+            "ipa": "/ˈnʌmbər/",
+            "examples": [
+                { "en": "Number seven.", "vi": "Số bảy.", "highlight": "Number" }
+            ]
+        },
+        {
+            "slug": "phone-number",
+            "type": "LEXICAL",
+            "text": "phone number",
+            "meaningVi": "số điện thoại",
+            "ipa": "/ˈfoʊn ˌnʌmbər/",
+            "examples": [
+                { "en": "My phone number is oh-nine-one-two, three-four-five, six-seven-eight.", "vi": "Số điện thoại của mình là 0912 345 678.", "highlight": "phone number" }
+            ],
+            "noteVi": "Đọc từng chữ số một, ngắt nhóm 3–4 số. Không đọc \"nine hundred twelve\"."
+        },
+        {
+            "slug": "whats-your-phone-number",
+            "type": "PHRASE",
+            "text": "What's your phone number?",
+            "meaningVi": "Số điện thoại của bạn là gì?",
+            "examples": [
+                { "en": "What's your phone number, Minh?", "vi": "Số điện thoại của bạn là gì, Minh?", "highlight": "What's your phone number" }
+            ]
+        },
+        {
+            "slug": "how-old-are-you",
+            "type": "PHRASE",
+            "text": "How old are you?",
+            "meaningVi": "Bạn bao nhiêu tuổi?",
+            "examples": [
+                { "en": "How old are you, Lan?", "vi": "Lan bao nhiêu tuổi?", "highlight": "How old are you" }
+            ],
+            "noteVi": "Với người lớn hoặc người mới quen, hỏi tuổi có thể bị coi là bất lịch sự."
+        },
+        {
+            "slug": "im-years-old",
+            "type": "PATTERN",
+            "text": "I'm … years old.",
+            "meaningVi": "Tôi … tuổi.",
+            "examples": [
+                { "en": "I'm twenty years old.", "vi": "Mình hai mươi tuổi.", "highlight": "years old" }
+            ],
+            "pattern": {
+                "template": "I'm {age} years old.",
+                "slots": [
+                    { "name": "age", "hintVi": "số tuổi (viết bằng chữ)", "options": ["twelve", "twenty", "thirty-five"] }
+                ]
+            },
+            "noteVi": "Không nói \"I have twenty years old\" (dịch từ \"tôi có 20 tuổi\"). Dùng I'm + số + years old, hoặc gọn hơn: \"I'm twenty.\""
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "pre-a1-03-english-club",
+            "title": "Joining the English club",
+            "situationVi": "Bạn đăng ký vào câu lạc bộ tiếng Anh. Trưởng nhóm hỏi tên, tuổi và số điện thoại.",
+            "lines": [
+                { "speaker": "Anna", "en": "Hi! What's your name?", "vi": "Chào bạn! Bạn tên là gì?" },
+                { "speaker": "You", "en": "Hi. My name is Minh.", "vi": "Chào bạn. Mình tên là Minh.", "learnerTurn": true },
+                { "speaker": "Anna", "en": "How old are you, Minh?", "vi": "Minh bao nhiêu tuổi?" },
+                { "speaker": "You", "en": "I'm twenty years old.", "vi": "Mình hai mươi tuổi.", "learnerTurn": true },
+                { "speaker": "Anna", "en": "OK. And what's your phone number?", "vi": "Được rồi. Còn số điện thoại của bạn là gì?" },
+                { "speaker": "You", "en": "It's oh-nine-one-two, three-four-five, six-seven-eight.", "vi": "Là 0912 345 678.", "learnerTurn": true },
+                { "speaker": "Anna", "en": "Thank you, Minh. See you later!", "vi": "Cảm ơn Minh. Hẹn gặp lại nhé!" }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "pre-a1-03-l1-one-to-ten",
+            "title": "One to ten",
+            "titleVi": "Số từ 1 đến 10",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "one", "role": "INTRODUCE" },
+                { "item": "two", "role": "INTRODUCE" },
+                { "item": "three", "role": "INTRODUCE" },
+                { "item": "four", "role": "INTRODUCE" },
+                { "item": "five", "role": "INTRODUCE" },
+                { "item": "six", "role": "INTRODUCE" },
+                { "item": "seven", "role": "INTRODUCE" },
+                { "item": "eight", "role": "INTRODUCE" },
+                { "item": "nine", "role": "INTRODUCE" },
+                { "item": "ten", "role": "INTRODUCE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 8 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Đừng nuốt âm cuối",
+                        "bodyVi": "Tiếng Việt hay bỏ nhẹ âm cuối, nhưng trong tiếng Anh âm cuối thay đổi nghĩa của từ. Hãy đọc rõ:\n\n- fi**ve** /v/, si**x** /ks/, eigh**t** /t/, nin**e** /n/\n- **th**ree: đầu lưỡi giữa hai hàm răng, thổi hơi. \"three\" (3) khác \"tree\" (cái cây).\n\nTập chậm trước, nhanh sau: one, two, three, four, five, six, seven, eight, nine, ten.",
+                        "items": ["three", "five", "six", "eight"]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "One, two, three, four, five.", "vi": "Một, hai, ba, bốn, năm." },
+                            { "en": "Six, seven, eight, nine, ten.", "vi": "Sáu, bảy, tám, chín, mười." },
+                            { "en": "Two, four, six, eight, ten.", "vi": "Hai, bốn, sáu, tám, mười." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn số đúng.",
+                                "audioText": "three",
+                                "options": ["3", "8", "10"],
+                                "answer": 0,
+                                "item": "three"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn số đúng.",
+                                "audioText": "six",
+                                "options": ["7", "6", "5"],
+                                "answer": 1,
+                                "item": "six"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Six, seven, ___, nine.",
+                                "hintVi": "8",
+                                "answers": ["eight"],
+                                "item": "eight"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Three, four, ___.",
+                                "hintVi": "5",
+                                "answers": ["five"],
+                                "item": "five"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "pre-a1-03-l2-to-one-hundred",
+            "title": "Up to one hundred",
+            "titleVi": "Số đến 100",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "eleven", "role": "INTRODUCE" },
+                { "item": "twelve", "role": "INTRODUCE" },
+                { "item": "thirteen", "role": "INTRODUCE" },
+                { "item": "fifteen", "role": "INTRODUCE" },
+                { "item": "twenty", "role": "INTRODUCE" },
+                { "item": "thirty", "role": "INTRODUCE" },
+                { "item": "forty", "role": "INTRODUCE" },
+                { "item": "fifty", "role": "INTRODUCE" },
+                { "item": "hundred", "role": "INTRODUCE" },
+                { "item": "teen-and-ty", "role": "INTRODUCE" },
+                { "item": "three", "role": "RECYCLE" },
+                { "item": "five", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 8 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["eleven", "twelve", "thirteen", "fifteen", "twenty", "thirty", "forty", "fifty", "hundred"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "-teen hay -ty?",
+                        "bodyVi": "11 và 12 là từ riêng: **eleven, twelve**.\n\n13–19 thêm **-teen**, nhấn âm sau: thir**TEEN**, fif**TEEN**.\n\n20–90 thêm **-ty**, nhấn âm đầu: **TWEN**ty, **THIR**ty.\n\n21–99: chục + gạch nối + đơn vị: twenty-one, forty-five.\n\nKhi nghe, trọng âm và âm cuối /n/ giúp phân biệt thirteen (13) với thirty (30).",
+                        "items": ["teen-and-ty", "thirteen", "thirty", "fifteen", "fifty"],
+                        "examples": [
+                            { "en": "thirteen, thirty", "vi": "13, 30" },
+                            { "en": "fifteen, fifty", "vi": "15, 50" },
+                            { "en": "forty-two", "vi": "42", "highlight": "forty" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["eleven", "twelve", "thirteen", "fifteen", "twenty", "thirty", "forty", "fifty", "hundred", "three", "five"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "Thirteen, thirty.", "vi": "Mười ba, ba mươi." },
+                            { "en": "Fifteen, fifty.", "vi": "Mười lăm, năm mươi." },
+                            { "en": "Twenty-one, forty-five, one hundred.", "vi": "Hai mươi mốt, bốn mươi lăm, một trăm." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn số đúng.",
+                                "audioText": "thirteen",
+                                "options": ["13", "30", "3"],
+                                "answer": 0,
+                                "item": "thirteen"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn số đúng.",
+                                "audioText": "fifty",
+                                "options": ["15", "50", "5"],
+                                "answer": 1,
+                                "item": "fifty"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Cách viết nào đúng cho số 40?",
+                                "options": ["fourty", "forty", "fourteen"],
+                                "answer": 1,
+                                "item": "forty"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "One ___ (100).",
+                                "hintVi": "trăm",
+                                "answers": ["hundred"],
+                                "item": "hundred"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Số 21 viết là:",
+                                "options": ["twenty one", "twenty-one", "twentyone"],
+                                "answer": 1,
+                                "item": "teen-and-ty"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "pre-a1-03-l3-age-and-phone",
+            "title": "How old are you?",
+            "titleVi": "Tuổi và số điện thoại",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "how-old-are-you", "role": "INTRODUCE" },
+                { "item": "im-years-old", "role": "INTRODUCE" },
+                { "item": "zero", "role": "INTRODUCE" },
+                { "item": "number", "role": "INTRODUCE" },
+                { "item": "phone-number", "role": "INTRODUCE" },
+                { "item": "whats-your-phone-number", "role": "INTRODUCE" },
+                { "item": "twenty", "role": "RECYCLE" },
+                { "item": "fifteen", "role": "RECYCLE" },
+                { "item": "whats-your-name", "role": "RECYCLE" },
+                { "item": "see-you-later", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 8 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["how-old-are-you", "im-years-old", "zero", "number", "phone-number", "whats-your-phone-number"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Nói tuổi: dùng \"be\", không dùng \"have\"",
+                        "bodyVi": "Tiếng Việt nói \"tôi **có** 20 tuổi\", nhưng tiếng Anh dùng **I'm** (I am):\n\n- ✅ I'm twenty years old. / I'm twenty.\n- ❌ I have twenty years old.\n\nSố điện thoại: đọc **từng chữ số**, số 0 thường đọc là **oh**, ngắt nhóm như khi viết: 0912 345 678 → oh-nine-one-two, three-four-five, six-seven-eight.",
+                        "items": ["im-years-old", "zero", "phone-number"],
+                        "examples": [
+                            { "en": "I'm twenty years old.", "vi": "Mình hai mươi tuổi.", "highlight": "I'm" },
+                            { "en": "My phone number is oh-nine-eight-eight, one-two-three, four-five-six.", "vi": "Số điện thoại của mình là 0988 123 456.", "highlight": "oh" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "im-years-old",
+                        "prompts": [
+                            { "cueVi": "Tôi 20 tuổi.", "slots": { "age": "twenty" }, "answer": "I'm twenty years old." },
+                            { "cueVi": "Tôi 15 tuổi.", "slots": { "age": "fifteen" }, "answer": "I'm fifteen years old." },
+                            { "cueVi": "Tôi 31 tuổi.", "slots": { "age": "thirty-one" }, "answer": "I'm thirty-one years old." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["listening", "cloze", "sentence-build"],
+                        "items": ["how-old-are-you", "zero", "number", "phone-number", "whats-your-phone-number", "whats-your-name"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "pre-a1-03-english-club", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I have twenty years old.", "I'm twenty years old.", "I twenty years old."],
+                                "answer": 1,
+                                "item": "im-years-old",
+                                "explanationVi": "Nói tuổi dùng \"be\" (I'm), không dùng \"have\"."
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Bạn bao nhiêu tuổi?",
+                                "answer": "How old are you?",
+                                "item": "how-old-are-you"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe số điện thoại và chọn số đúng.",
+                                "audioText": "oh-nine-oh-three, five-five-one, two-eight-seven",
+                                "options": ["0903 551 287", "0913 551 287", "0903 515 287"],
+                                "answer": 0,
+                                "item": "zero"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "What's your phone ___?",
+                                "hintVi": "số",
+                                "answers": ["number"],
+                                "item": "whats-your-phone-number"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "pre-a1-03-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn số đúng.",
+                "audioText": "thirty",
+                "options": ["13", "30", "33"],
+                "answer": 1,
+                "item": "thirty"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn số đúng.",
+                "audioText": "twelve",
+                "options": ["12", "20", "11"],
+                "answer": 0,
+                "item": "twelve"
+            },
+            {
+                "kind": "gap",
+                "sentence": "Eight, ___, ten.",
+                "hintVi": "9",
+                "answers": ["nine"],
+                "item": "nine"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Số 45 đọc là:",
+                "options": ["fourteen-five", "forty-five", "four-five"],
+                "answer": 1,
+                "item": "teen-and-ty"
+            },
+            {
+                "kind": "gap",
+                "sentence": "I'm twelve years ___.",
+                "hintVi": "tuổi",
+                "answers": ["old"],
+                "item": "im-years-old"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Người ta hỏi \"What's your phone number?\". Bạn trả lời:",
+                "options": ["I'm twenty.", "It's oh-nine-one-two, three-four-five, six-seven-eight.", "My name is Minh."],
+                "answer": 1,
+                "item": "whats-your-phone-number"
+            }
+        ]
+    }
+}

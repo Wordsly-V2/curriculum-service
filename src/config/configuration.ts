@@ -15,6 +15,10 @@ export default () => ({
     redis: {
         url: process.env.REDIS_URL,
     },
+    // Dev only: import content/ at boot and publish if it changed.
+    contentImport: {
+        onBoot: process.env.CONTENT_IMPORT_ON_BOOT === 'true',
+    },
     kafka: {
         brokers: process.env.KAFKA_BROKERS,
         ca: process.env.KAFKA_CA,

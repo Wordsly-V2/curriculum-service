@@ -1,5 +1,14 @@
-// Wordsly Path curriculum. Models arrive in P1-1 (see
-// workspace/docs/wordsly-path/DESIGN.md §3); this file only wires the client.
+// Wordsly Path curriculum (workspace/docs/wordsly-path/DESIGN.md §3).
+//
+// Content rows (Stage … Checkpoint) are the admin's working copy. Their ids are
+// uuidv5 of `<kind>:<slug>` (src/content/content-id.ts), so they are identical in
+// every environment and across re-seeds: learning-service keys FSRS cards by
+// LearnItem.id. Learners never read these tables directly; they read the
+// snapshot of the active Release (PublishedTree / PublishedLesson).
+//
+// Hashes (src/content/content-hash.ts): contentHash is the hash of the row as it
+// is now, seedHash the hash of the seed file at the last import. contentHash !=
+// seedHash means an admin edited the row, and the importer will not overwrite it.
 
 generator client {
   provider = "prisma-client-js"
@@ -7,4 +16,346 @@ generator client {
 
 datasource db {
   provider = "postgresql"
+}
+
+// No database enums (workspace rule). Enumerated columns are TEXT; the allowed
+// values and their meaning live in src/content/content.schema.ts
+// (CEFR_LEVELS, CONTENT_STATUSES, ITEM_TYPES, STEP_TYPES, LESSON_ITEM_ROLES).
+
+// ─── Content (working copy) ─────────────────────────────────────────────────
+
+model Stage {
+  id            String   @id @db.Uuid
+  slug          String   @unique
+  cefr          String // CEFR_LEVELS
+  order         Int
+  title         String
+  titleVi       String   @map("title_vi")
+  descriptionVi String?  @map("description_vi")
+  status        String   @default("DRAFT") // CONTENT_STATUSES
+  contentHash   String   @map("content_hash")
+  seedHash      String?  @map("seed_hash")
+  updatedBy     String?  @map("updated_by") @db.Uuid // null = importer
+  createdAt     DateTime @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt     DateTime @updatedAt @map("updated_at") @db.Timestamptz
+
+  units Unit[]
+
+  @@index([order])
+  @@map("stages")
+}
+
+model Unit {
+  id            String   @id @db.Uuid
+  slug          String   @unique
+  stageId       String   @map("stage_id") @db.Uuid
+  order         Int // within the stage
+  title         String
+  titleVi       String   @map("title_vi")
+  descriptionVi String?  @map("description_vi")
+  canDo         String[] @map("can_do") // Vietnamese "I can …" statements
+  status        String   @default("DRAFT") // CONTENT_STATUSES
+  contentHash   String   @map("content_hash")
+  seedHash      String?  @map("seed_hash")
+  updatedBy     String?  @map("updated_by") @db.Uuid
+  createdAt     DateTime @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt     DateTime @updatedAt @map("updated_at") @db.Timestamptz
+
+  stage      Stage       @relation(fields: [stageId], references: [id])
+  lessons    Lesson[]
+  items      LearnItem[]
+  dialogues  Dialogue[]
+  checkpoint Checkpoint?
+
+  @@index([stageId, order])
+  @@map("units")
+}
+
+model Lesson {
+  id               String   @id @db.Uuid
+  slug             String   @unique
+  unitId           String   @map("unit_id") @db.Uuid
+  order            Int // within the unit
+  title            String
+  titleVi          String   @map("title_vi")
+  estimatedMinutes Int      @map("estimated_minutes")
+  status           String   @default("DRAFT") // CONTENT_STATUSES
+  // Covers the lesson together with its steps and item links, which are
+  // always written as one unit.
+  contentHash      String   @map("content_hash")
+  seedHash         String?  @map("seed_hash")
+  updatedBy        String?  @map("updated_by") @db.Uuid
+  createdAt        DateTime @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt        DateTime @updatedAt @map("updated_at") @db.Timestamptz
+
+  unit  Unit         @relation(fields: [unitId], references: [id])
+  steps LessonStep[]
+  items LessonItem[]
+
+  @@index([unitId, order])
+  @@map("lessons")
+}
+
+model LessonStep {
+  id       String @id @db.Uuid // uuidv5 of `step:<lessonSlug>#<order>`
+  lessonId String @map("lesson_id") @db.Uuid
+  order    Int
+  type     String // STEP_TYPES; payload shape per type in stepPayloadSchemas
+  payload  Json // validated by stepPayloadSchemas[type]; carries schemaVersion
+
+  lesson Lesson @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+
+  @@unique([lessonId, order])
+  @@map("lesson_steps")
+}
+
+model LearnItem {
+  id           String   @id @db.Uuid
+  slug         String   @unique
+  // Unit that introduces the item; null for items authored outside a unit.
+  unitId       String?  @map("unit_id") @db.Uuid
+  type         String // ITEM_TYPES
+  text         String
+  meaningVi    String   @map("meaning_vi")
+  ipa          String?
+  audioUrl     String?  @map("audio_url")
+  examples     Json     @default("[]") // [{ en, vi, highlight? }]
+  pattern      Json? // PATTERN: { template, slots[] }
+  grammar      Json? // GRAMMAR: { ruleVi, forms[], pitfallsVi[] }
+  collocations String[] @default([])
+  noteVi       String?  @map("note_vi") // common mistake for Vietnamese learners
+  status       String   @default("DRAFT") // CONTENT_STATUSES
+  contentHash  String   @map("content_hash")
+  seedHash     String?  @map("seed_hash")
+  updatedBy    String?  @map("updated_by") @db.Uuid
+  createdAt    DateTime @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt    DateTime @updatedAt @map("updated_at") @db.Timestamptz
+
+  unit    Unit?        @relation(fields: [unitId], references: [id])
+  lessons LessonItem[]
+
+  @@index([unitId])
+  @@index([status])
+  @@map("learn_items")
+}
+
+model LessonItem {
+  lessonId String @map("lesson_id") @db.Uuid
+  itemId   String @map("item_id") @db.Uuid
+  role     String // LESSON_ITEM_ROLES: INTRODUCE (first taught, gets an FSRS card) | RECYCLE
+  order    Int
+
+  lesson Lesson    @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  // Restrict: an item is archived, never deleted, while a lesson uses it.
+  item   LearnItem @relation(fields: [itemId], references: [id], onDelete: Restrict)
+
+  @@id([lessonId, itemId])
+  @@index([itemId])
+  @@map("lesson_items")
+}
+
+model Dialogue {
+  id          String   @id @db.Uuid
+  slug        String   @unique
+  unitId      String   @map("unit_id") @db.Uuid
+  title       String
+  situationVi String   @map("situation_vi")
+  lines       Json // [{ speaker, en, vi, learnerTurn }]
+  status      String   @default("DRAFT") // CONTENT_STATUSES
+  contentHash String   @map("content_hash")
+  seedHash    String?  @map("seed_hash")
+  updatedBy   String?  @map("updated_by") @db.Uuid
+  createdAt   DateTime @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt   DateTime @updatedAt @map("updated_at") @db.Timestamptz
+
+  unit Unit @relation(fields: [unitId], references: [id])
+
+  @@index([unitId])
+  @@map("dialogues")
+}
+
+model Checkpoint {
+  id          String   @id @db.Uuid
+  slug        String   @unique
+  unitId      String   @unique @map("unit_id") @db.Uuid
+  passPercent Int      @map("pass_percent")
+  questions   Json // Question[] (src/content/content.schema.ts)
+  status      String   @default("DRAFT") // CONTENT_STATUSES
+  contentHash String   @map("content_hash")
+  seedHash    String?  @map("seed_hash")
+  updatedBy   String?  @map("updated_by") @db.Uuid
+  createdAt   DateTime @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt   DateTime @updatedAt @map("updated_at") @db.Timestamptz
+
+  unit     Unit                @relation(fields: [unitId], references: [id])
+  attempts CheckpointAttempt[]
+
+  @@map("checkpoints")
+}
+
+model PlacementTest {
+  id          String   @id @db.Uuid
+  slug        String   @unique
+  title       String
+  questions   Json // Question[] tagged with the unit each one probes
+  status      String   @default("DRAFT") // CONTENT_STATUSES
+  contentHash String   @map("content_hash")
+  seedHash    String?  @map("seed_hash")
+  updatedBy   String?  @map("updated_by") @db.Uuid
+  createdAt   DateTime @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt   DateTime @updatedAt @map("updated_at") @db.Timestamptz
+
+  results PlacementResult[]
+
+  @@map("placement_tests")
+}
+
+// ─── Releases ───────────────────────────────────────────────────────────────
+
+// An immutable, fully hydrated snapshot of the published path. Rolling back is
+// moving PathState.activeReleaseId; releases are never edited.
+model Release {
+  id        String   @id @default(uuid()) @db.Uuid
+  version   Int      @unique @default(autoincrement())
+  note      String?
+  createdBy String?  @map("created_by") @db.Uuid // null = importer
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz
+
+  tree        PublishedTree?
+  lessons     PublishedLesson[]
+  items       PublishedItem[]
+  checkpoints PublishedCheckpoint[]
+
+  @@map("releases")
+}
+
+// Stages → units → lesson summaries, for the path map.
+model PublishedTree {
+  releaseId String @id @map("release_id") @db.Uuid
+  tree      Json
+
+  release Release @relation(fields: [releaseId], references: [id], onDelete: Cascade)
+
+  @@map("published_trees")
+}
+
+// One lesson with its steps and hydrated items, as the player receives it.
+model PublishedLesson {
+  releaseId String @map("release_id") @db.Uuid
+  lessonId  String @map("lesson_id") @db.Uuid
+  unitId    String @map("unit_id") @db.Uuid
+  payload   Json
+
+  release Release @relation(fields: [releaseId], references: [id], onDelete: Cascade)
+
+  @@id([releaseId, lessonId])
+  @@index([releaseId, unitId])
+  @@map("published_lessons")
+}
+
+// Items in the release: what learning-service may keep FSRS cards for
+// (POST /path/items/filter-published), and their views for /path/items/hydrate.
+model PublishedItem {
+  releaseId String @map("release_id") @db.Uuid
+  itemId    String @map("item_id") @db.Uuid
+  payload   Json // ItemView (release.logic.ts)
+
+  release Release @relation(fields: [releaseId], references: [id], onDelete: Cascade)
+
+  @@id([releaseId, itemId])
+  @@map("published_items")
+}
+
+// A unit's checkpoint with its answers. Server-side only: the answers never
+// go to the client before an attempt is graded.
+model PublishedCheckpoint {
+  releaseId    String @map("release_id") @db.Uuid
+  checkpointId String @map("checkpoint_id") @db.Uuid
+  unitId       String @map("unit_id") @db.Uuid
+  payload      Json
+
+  release Release @relation(fields: [releaseId], references: [id], onDelete: Cascade)
+
+  @@id([releaseId, checkpointId])
+  @@unique([releaseId, unitId])
+  @@map("published_checkpoints")
+}
+
+// Singleton row (id = 1): which release learners see.
+model PathState {
+  id              Int      @id @default(1)
+  activeReleaseId String?  @map("active_release_id") @db.Uuid
+  updatedBy       String?  @map("updated_by") @db.Uuid
+  updatedAt       DateTime @updatedAt @map("updated_at") @db.Timestamptz
+
+  @@map("path_state")
+}
+
+// ─── Learner state ──────────────────────────────────────────────────────────
+// userLoginId is auth-service's UserLogin.id (no cross-DB FK). Lesson, unit and
+// checkpoint ids are content ids, which are stable, so progress survives
+// re-seeds and releases.
+
+model Enrollment {
+  userLoginId String   @id @map("user_login_id") @db.Uuid
+  // Unit the learner starts from (the first one, or where placement put them).
+  startUnitId String?  @map("start_unit_id") @db.Uuid
+  enrolledAt  DateTime @default(now()) @map("enrolled_at") @db.Timestamptz
+  updatedAt   DateTime @updatedAt @map("updated_at") @db.Timestamptz
+
+  @@map("enrollments")
+}
+
+model LessonCompletion {
+  id                  String   @id @default(uuid()) @db.Uuid
+  userLoginId         String   @map("user_login_id") @db.Uuid
+  lessonId            String   @map("lesson_id") @db.Uuid
+  releaseId           String?  @map("release_id") @db.Uuid // release the lesson was taken in
+  timesCompleted      Int      @default(1) @map("times_completed")
+  bestScore           Int?     @map("best_score") // percent
+  // Replay of the same request is a no-op (offline queues retry).
+  lastClientRequestId String?  @map("last_client_request_id")
+  firstCompletedAt    DateTime @default(now()) @map("first_completed_at") @db.Timestamptz
+  lastCompletedAt     DateTime @default(now()) @map("last_completed_at") @db.Timestamptz
+
+  @@unique([userLoginId, lessonId])
+  @@map("lesson_completions")
+}
+
+model CheckpointAttempt {
+  id              String   @id @default(uuid()) @db.Uuid
+  userLoginId     String   @map("user_login_id") @db.Uuid
+  checkpointId    String   @map("checkpoint_id") @db.Uuid
+  releaseId       String?  @map("release_id") @db.Uuid
+  clientRequestId String   @map("client_request_id")
+  scorePercent    Int      @map("score_percent")
+  passed          Boolean
+  answers         Json
+  createdAt       DateTime @default(now()) @map("created_at") @db.Timestamptz
+
+  checkpoint Checkpoint @relation(fields: [checkpointId], references: [id])
+
+  @@unique([userLoginId, clientRequestId])
+  @@index([userLoginId, checkpointId, passed])
+  @@map("checkpoint_attempts")
+}
+
+model PlacementResult {
+  id              String   @id @default(uuid()) @db.Uuid
+  userLoginId     String   @map("user_login_id") @db.Uuid
+  placementTestId String   @map("placement_test_id") @db.Uuid
+  releaseId       String?  @map("release_id") @db.Uuid
+  clientRequestId String   @map("client_request_id")
+  scorePercent    Int      @map("score_percent")
+  placedUnitId    String?  @map("placed_unit_id") @db.Uuid
+  // Units the learner may skip without passing their checkpoints.
+  skippedUnitIds  String[] @map("skipped_unit_ids") @db.Uuid
+  answers         Json
+  createdAt       DateTime @default(now()) @map("created_at") @db.Timestamptz
+
+  placementTest PlacementTest @relation(fields: [placementTestId], references: [id])
+
+  @@unique([userLoginId, clientRequestId])
+  @@index([userLoginId, createdAt])
+  @@map("placement_results")
 }

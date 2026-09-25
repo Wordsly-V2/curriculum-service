@@ -227,6 +227,20 @@ export class CacheService implements OnModuleInit, OnModuleDestroy {
         }
     }
 
+    /** Drops one global key. No-op when Redis is disabled. */
+    async delGlobal(...keyParts: string[]): Promise<void> {
+        if (!this.client) {
+            return;
+        }
+        const key = this.globalKey(...keyParts);
+        try {
+            await this.client.del(key);
+        } catch (err: unknown) {
+            const message = err instanceof Error ? err.message : String(err);
+            this.logger.warn(`Cache delete failed for ${key}: ${message}`);
+        }
+    }
+
     async invalidateUser(userLoginId: string): Promise<void> {
         if (!this.client) {
             return;

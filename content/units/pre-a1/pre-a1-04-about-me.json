@@ -1,0 +1,670 @@
+{
+    "slug": "pre-a1-04-about-me",
+    "stage": "pre-a1",
+    "order": 4,
+    "title": "About me",
+    "titleVi": "Giới thiệu bản thân",
+    "descriptionVi": "Đại từ nhân xưng, động từ \"be\", nói quê quán, nơi sống và nghề nghiệp.",
+    "canDo": [
+        "Tôi dùng đúng I, you, he, she, we, they với am, is, are.",
+        "Tôi nói được mình đến từ đâu và đang sống ở đâu.",
+        "Tôi nói được nghề nghiệp của mình và hỏi nghề của người khác."
+    ],
+    "items": [
+        {
+            "slug": "i",
+            "type": "LEXICAL",
+            "text": "I",
+            "meaningVi": "tôi, mình, em, anh, chị… (người nói)",
+            "ipa": "/aɪ/",
+            "examples": [
+                { "en": "I'm Lan.", "vi": "Mình là Lan.", "highlight": "I" }
+            ],
+            "noteVi": "Luôn viết hoa \"I\", kể cả ở giữa câu."
+        },
+        {
+            "slug": "you",
+            "type": "LEXICAL",
+            "text": "you",
+            "meaningVi": "bạn, các bạn (người nghe)",
+            "ipa": "/juː/",
+            "examples": [
+                { "en": "You are my teacher.", "vi": "Thầy là thầy giáo của em.", "highlight": "You" }
+            ],
+            "noteVi": "Một từ \"you\" dùng cho mọi vai vế: anh, chị, em, cô, chú, ông, bà… và cả số nhiều."
+        },
+        {
+            "slug": "he",
+            "type": "LEXICAL",
+            "text": "he",
+            "meaningVi": "anh ấy, ông ấy, cậu ấy (nam)",
+            "ipa": "/hiː/",
+            "examples": [
+                { "en": "This is Tom. He is from London.", "vi": "Đây là Tom. Anh ấy đến từ London.", "highlight": "He" }
+            ]
+        },
+        {
+            "slug": "she",
+            "type": "LEXICAL",
+            "text": "she",
+            "meaningVi": "cô ấy, bà ấy, chị ấy (nữ)",
+            "ipa": "/ʃiː/",
+            "examples": [
+                { "en": "She is Hoa.", "vi": "Cô ấy là Hoa.", "highlight": "She" }
+            ],
+            "noteVi": "Âm /ʃ/: chu tròn môi như khi suỵt \"sh\". Đừng đọc thành \"si\" (see)."
+        },
+        {
+            "slug": "we",
+            "type": "LEXICAL",
+            "text": "we",
+            "meaningVi": "chúng tôi, chúng ta",
+            "ipa": "/wiː/",
+            "examples": [
+                { "en": "We are students.", "vi": "Chúng mình là sinh viên.", "highlight": "We" }
+            ],
+            "noteVi": "Tiếng Anh không phân biệt \"chúng tôi\" và \"chúng ta\": cả hai đều là \"we\"."
+        },
+        {
+            "slug": "they",
+            "type": "LEXICAL",
+            "text": "they",
+            "meaningVi": "họ, bọn họ",
+            "ipa": "/ðeɪ/",
+            "examples": [
+                { "en": "They are Tom and Anna.", "vi": "Họ là Tom và Anna.", "highlight": "They" }
+            ],
+            "noteVi": "Âm /ð/: đầu lưỡi giữa hai hàm răng và rung cổ họng. Không đọc thành \"đ\" hay \"d\"."
+        },
+        {
+            "slug": "be-present",
+            "type": "GRAMMAR",
+            "text": "am / is / are",
+            "meaningVi": "động từ \"be\" ở hiện tại: là, thì, ở",
+            "examples": [
+                { "en": "I am Nam. She is Hoa. We are friends.", "vi": "Mình là Nam. Cô ấy là Hoa. Chúng mình là bạn.", "highlight": "am" }
+            ],
+            "grammar": {
+                "ruleVi": "Động từ \"be\" đổi theo chủ ngữ: I đi với am; he, she, it đi với is; you, we, they đi với are. Khi nói thường rút gọn: I'm, you're, he's, she's, it's, we're, they're.",
+                "forms": [
+                    { "label": "I + am (I'm)", "example": "I'm Lan." },
+                    { "label": "he / she / it + is ('s)", "example": "He's Tom. She's Hoa." },
+                    { "label": "you / we / they + are ('re)", "example": "We're students. They're teachers." }
+                ],
+                "pitfallsVi": [
+                    "Bỏ mất \"be\": \"I Lan\", \"She teacher\" → \"I'm Lan\", \"She's a teacher\".",
+                    "Chia sai: \"He are\", \"They is\" → \"He is\", \"They are\".",
+                    "Thêm \"be\" vào trước động từ khác: \"I'm live in Hanoi\" → \"I live in Hanoi\"."
+                ]
+            }
+        },
+        {
+            "slug": "where-are-you-from",
+            "type": "PHRASE",
+            "text": "Where are you from?",
+            "meaningVi": "Bạn đến từ đâu?",
+            "examples": [
+                { "en": "Nice to meet you. Where are you from?", "vi": "Rất vui được gặp bạn. Bạn đến từ đâu?", "highlight": "Where are you from?" }
+            ],
+            "noteVi": "\"from\" đứng ở cuối câu. Không nói \"From where are you?\"."
+        },
+        {
+            "slug": "im-from",
+            "type": "PATTERN",
+            "text": "I'm from …",
+            "meaningVi": "Tôi đến từ …",
+            "examples": [
+                { "en": "I'm from Vietnam.", "vi": "Mình đến từ Việt Nam.", "highlight": "I'm from" }
+            ],
+            "pattern": {
+                "template": "I'm from {place}.",
+                "slots": [
+                    { "name": "place", "hintVi": "nước hoặc thành phố", "options": ["Vietnam", "Hanoi", "Da Nang"] }
+                ]
+            },
+            "noteVi": "Không nói \"I'm come from\" hay \"I from\". Nói \"I'm from Vietnam\" hoặc \"I come from Vietnam\"."
+        },
+        {
+            "slug": "i-live-in",
+            "type": "PATTERN",
+            "text": "I live in …",
+            "meaningVi": "Tôi sống ở …",
+            "examples": [
+                { "en": "I'm from Hue. I live in Hanoi.", "vi": "Mình quê ở Huế. Mình sống ở Hà Nội.", "highlight": "I live in" }
+            ],
+            "pattern": {
+                "template": "I live in {place}.",
+                "slots": [
+                    { "name": "place", "hintVi": "thành phố hoặc nước", "options": ["Hanoi", "Ho Chi Minh City", "Can Tho"] }
+                ]
+            },
+            "noteVi": "Không thêm \"am\": \"I'm live in Hanoi\" là sai. Nhớ đọc rõ âm cuối /v/ trong \"live\"."
+        },
+        {
+            "slug": "vietnam",
+            "type": "LEXICAL",
+            "text": "Vietnam",
+            "meaningVi": "Việt Nam",
+            "ipa": "/ˌviːetˈnɑːm/",
+            "examples": [
+                { "en": "I'm from Vietnam.", "vi": "Mình đến từ Việt Nam.", "highlight": "Vietnam" }
+            ],
+            "noteVi": "Viết liền và viết hoa: Vietnam. Trọng âm ở âm cuối: viet-NAM."
+        },
+        {
+            "slug": "vietnamese",
+            "type": "LEXICAL",
+            "text": "Vietnamese",
+            "meaningVi": "người Việt; tiếng Việt; thuộc về Việt Nam",
+            "ipa": "/ˌviːetnəˈmiːz/",
+            "examples": [
+                { "en": "I'm Vietnamese.", "vi": "Mình là người Việt Nam.", "highlight": "Vietnamese" }
+            ],
+            "noteVi": "Tên nước, quốc tịch, ngôn ngữ đều viết hoa: Vietnam, Vietnamese, English."
+        },
+        {
+            "slug": "country",
+            "type": "LEXICAL",
+            "text": "country",
+            "meaningVi": "đất nước, quốc gia",
+            "ipa": "/ˈkʌntri/",
+            "examples": [
+                { "en": "Vietnam is a beautiful country.", "vi": "Việt Nam là một đất nước đẹp.", "highlight": "country" }
+            ]
+        },
+        {
+            "slug": "city",
+            "type": "LEXICAL",
+            "text": "city",
+            "meaningVi": "thành phố",
+            "ipa": "/ˈsɪti/",
+            "examples": [
+                { "en": "Hanoi is a big city.", "vi": "Hà Nội là một thành phố lớn.", "highlight": "city" }
+            ]
+        },
+        {
+            "slug": "what-do-you-do",
+            "type": "PHRASE",
+            "text": "What do you do?",
+            "meaningVi": "Bạn làm nghề gì?",
+            "examples": [
+                { "en": "What do you do, Anna?", "vi": "Anna làm nghề gì?", "highlight": "What do you do" }
+            ],
+            "noteVi": "Câu này hỏi về nghề nghiệp, không phải \"bạn đang làm gì?\"."
+        },
+        {
+            "slug": "im-a-job",
+            "type": "PATTERN",
+            "text": "I'm a/an …",
+            "meaningVi": "Tôi là … (nghề nghiệp)",
+            "examples": [
+                { "en": "I'm a student.", "vi": "Mình là sinh viên.", "highlight": "I'm a" }
+            ],
+            "pattern": {
+                "template": "I'm {job}.",
+                "slots": [
+                    { "name": "job", "hintVi": "a/an + nghề", "options": ["a student", "a teacher", "an engineer"] }
+                ]
+            }
+        },
+        {
+            "slug": "a-an",
+            "type": "GRAMMAR",
+            "text": "a / an",
+            "meaningVi": "một (mạo từ đứng trước danh từ số ít)",
+            "examples": [
+                { "en": "I'm a doctor. She's an engineer.", "vi": "Tôi là bác sĩ. Cô ấy là kỹ sư.", "highlight": "an" }
+            ],
+            "grammar": {
+                "ruleVi": "Trước một danh từ số ít đếm được phải có a hoặc an. Dùng \"an\" khi từ sau bắt đầu bằng một nguyên âm (a, e, i, o, u), dùng \"a\" trong các trường hợp còn lại. Nói nghề nghiệp cũng phải có a/an.",
+                "forms": [
+                    { "label": "a + phụ âm", "example": "a student, a doctor, a nurse" },
+                    { "label": "an + nguyên âm", "example": "an engineer, an office worker" },
+                    { "label": "số nhiều: không có a/an", "example": "We're students." }
+                ],
+                "pitfallsVi": [
+                    "Thiếu a/an: \"I'm student\" → \"I'm a student\". Tiếng Việt không có từ tương ứng nên rất hay quên.",
+                    "Dùng a/an với số nhiều: \"They're a teachers\" → \"They're teachers\"."
+                ]
+            }
+        },
+        {
+            "slug": "student",
+            "type": "LEXICAL",
+            "text": "student",
+            "meaningVi": "học sinh, sinh viên",
+            "ipa": "/ˈstuːdənt/",
+            "examples": [
+                { "en": "I'm a student.", "vi": "Mình là sinh viên.", "highlight": "student" }
+            ],
+            "noteVi": "Cụm âm đầu /st/ đọc liền (không \"xờ-tu-đần\"); giữ âm cuối /t/."
+        },
+        {
+            "slug": "teacher",
+            "type": "LEXICAL",
+            "text": "teacher",
+            "meaningVi": "giáo viên",
+            "ipa": "/ˈtiːtʃər/",
+            "examples": [
+                { "en": "She's a teacher.", "vi": "Cô ấy là giáo viên.", "highlight": "teacher" }
+            ],
+            "noteVi": "Người Anh không gọi thầy cô là \"Teacher\" kèm tên. Gọi Mr. / Ms. + họ, hoặc chỉ \"teacher\" khi ở lớp."
+        },
+        {
+            "slug": "doctor",
+            "type": "LEXICAL",
+            "text": "doctor",
+            "meaningVi": "bác sĩ",
+            "ipa": "/ˈdɑːktər/",
+            "examples": [
+                { "en": "He's a doctor.", "vi": "Anh ấy là bác sĩ.", "highlight": "doctor" }
+            ]
+        },
+        {
+            "slug": "engineer",
+            "type": "LEXICAL",
+            "text": "engineer",
+            "meaningVi": "kỹ sư",
+            "ipa": "/ˌendʒɪˈnɪr/",
+            "examples": [
+                { "en": "I'm an engineer.", "vi": "Tôi là kỹ sư.", "highlight": "engineer" }
+            ],
+            "noteVi": "Nhấn âm cuối: en-gi-NEER. Bắt đầu bằng nguyên âm nên dùng \"an engineer\"."
+        },
+        {
+            "slug": "nurse",
+            "type": "LEXICAL",
+            "text": "nurse",
+            "meaningVi": "y tá",
+            "ipa": "/nɜːrs/",
+            "examples": [
+                { "en": "She's a nurse.", "vi": "Cô ấy là y tá.", "highlight": "nurse" }
+            ]
+        },
+        {
+            "slug": "office-worker",
+            "type": "LEXICAL",
+            "text": "office worker",
+            "meaningVi": "nhân viên văn phòng",
+            "ipa": "/ˈɔːfɪs ˌwɜːrkər/",
+            "examples": [
+                { "en": "I'm an office worker.", "vi": "Tôi là nhân viên văn phòng.", "highlight": "office worker" }
+            ]
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "pre-a1-04-where-from",
+            "title": "Where are you from?",
+            "situationVi": "Ở câu lạc bộ tiếng Anh, bạn nói chuyện với một bạn mới từ nước ngoài.",
+            "lines": [
+                { "speaker": "Tom", "en": "Hi, I'm Tom. I'm from London.", "vi": "Chào bạn, mình là Tom. Mình đến từ London." },
+                { "speaker": "You", "en": "Hi, Tom. I'm Nam. I'm from Vietnam.", "vi": "Chào Tom. Mình là Nam. Mình đến từ Việt Nam.", "learnerTurn": true },
+                { "speaker": "Tom", "en": "Nice to meet you, Nam. Where in Vietnam?", "vi": "Rất vui được gặp bạn, Nam. Ở đâu tại Việt Nam?" },
+                { "speaker": "You", "en": "I'm from Hue, but I live in Hanoi.", "vi": "Mình quê ở Huế, nhưng mình sống ở Hà Nội.", "learnerTurn": true },
+                { "speaker": "Tom", "en": "Oh, I live in Hanoi, too!", "vi": "Ồ, mình cũng sống ở Hà Nội!" }
+            ]
+        },
+        {
+            "slug": "pre-a1-04-at-a-party",
+            "title": "At a party",
+            "situationVi": "Tại một bữa tiệc, bạn làm quen với Anna và hỏi nghề nghiệp của nhau.",
+            "lines": [
+                { "speaker": "Anna", "en": "Hello! I'm Anna.", "vi": "Xin chào! Mình là Anna." },
+                { "speaker": "You", "en": "Hi, Anna. I'm Mai. Nice to meet you.", "vi": "Chào Anna. Mình là Mai. Rất vui được gặp bạn.", "learnerTurn": true },
+                { "speaker": "Anna", "en": "Nice to meet you, too. What do you do, Mai?", "vi": "Mình cũng rất vui được gặp bạn. Mai làm nghề gì?" },
+                { "speaker": "You", "en": "I'm an engineer. And you?", "vi": "Mình là kỹ sư. Còn bạn?", "learnerTurn": true },
+                { "speaker": "Anna", "en": "I'm a teacher. I'm from Australia.", "vi": "Mình là giáo viên. Mình đến từ Úc." },
+                { "speaker": "You", "en": "Oh, nice! I'm from Vietnam.", "vi": "Ồ, hay quá! Mình đến từ Việt Nam.", "learnerTurn": true }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "pre-a1-04-l1-i-am-you-are",
+            "title": "I am, you are",
+            "titleVi": "Đại từ và động từ \"be\"",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "i", "role": "INTRODUCE" },
+                { "item": "you", "role": "INTRODUCE" },
+                { "item": "he", "role": "INTRODUCE" },
+                { "item": "she", "role": "INTRODUCE" },
+                { "item": "we", "role": "INTRODUCE" },
+                { "item": "they", "role": "INTRODUCE" },
+                { "item": "be-present", "role": "INTRODUCE" },
+                { "item": "my-name-is", "role": "RECYCLE" },
+                { "item": "how-old-are-you", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 8 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["i", "you", "he", "she", "we", "they"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "am, is, are",
+                        "bodyVi": "Tiếng Việt có rất nhiều cách xưng hô (anh, chị, em, cô, chú…). Tiếng Anh gọn hơn nhiều: người nói là **I**, người nghe là **you**.\n\nĐộng từ **be** (là) đổi theo chủ ngữ:\n\n| Chủ ngữ | be | Rút gọn |\n|---|---|---|\n| I | am | I'm |\n| he / she / it | is | he's / she's / it's |\n| you / we / they | are | you're / we're / they're |\n\nCâu tiếng Anh **luôn cần động từ**. \"Tôi sinh viên\" thì tiếng Anh phải nói \"I **am** a student\".",
+                        "items": ["be-present", "i", "you", "he", "she", "we", "they"],
+                        "examples": [
+                            { "en": "I'm Nam. He's Tom.", "vi": "Mình là Nam. Anh ấy là Tom.", "highlight": "He's" },
+                            { "en": "We're from Vietnam. They're from London.", "vi": "Chúng mình đến từ Việt Nam. Họ đến từ London.", "highlight": "They're" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "cloze"],
+                        "items": ["i", "you", "he", "she", "we", "they", "be-present"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "I'm Nam.", "vi": "Mình là Nam." },
+                            { "en": "She's Hoa. He's Tom.", "vi": "Cô ấy là Hoa. Anh ấy là Tom." },
+                            { "en": "They are my friends.", "vi": "Họ là bạn của mình." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "gap",
+                                "sentence": "She ___ Hoa.",
+                                "answers": ["is"],
+                                "item": "be-present"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "They ___ from London.",
+                                "answers": ["are"],
+                                "item": "be-present"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nói về Tom (một bạn nam), bạn dùng:",
+                                "options": ["she", "he", "they"],
+                                "answer": 1,
+                                "item": "he"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I Lan.", "I am Lan.", "I is Lan."],
+                                "answer": 1,
+                                "item": "be-present",
+                                "explanationVi": "Câu tiếng Anh cần động từ; I đi với am."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "pre-a1-04-l2-where-from",
+            "title": "Where are you from?",
+            "titleVi": "Quê quán và nơi sống",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "where-are-you-from", "role": "INTRODUCE" },
+                { "item": "im-from", "role": "INTRODUCE" },
+                { "item": "i-live-in", "role": "INTRODUCE" },
+                { "item": "vietnam", "role": "INTRODUCE" },
+                { "item": "vietnamese", "role": "INTRODUCE" },
+                { "item": "country", "role": "INTRODUCE" },
+                { "item": "city", "role": "INTRODUCE" },
+                { "item": "be-present", "role": "RECYCLE" },
+                { "item": "nice-to-meet-you", "role": "RECYCLE" },
+                { "item": "they", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 8 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["where-are-you-from", "im-from", "i-live-in", "vietnam", "vietnamese", "country", "city"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "I'm from … và I live in …",
+                        "bodyVi": "- Quê ở đâu: **I'm from** + nơi chốn. (\"I'm\" đã có động từ \"be\", nên không thêm \"come\".)\n- Đang sống ở đâu: **I live in** + nơi chốn. (\"live\" đã là động từ, nên không thêm \"am\".)\n\n❌ I'm come from Vietnam. ❌ I'm live in Hanoi.\n✅ I'm from Vietnam. ✅ I live in Hanoi.\n\nViết hoa tên nước, thành phố, quốc tịch: **V**ietnam, **H**anoi, **V**ietnamese.",
+                        "items": ["im-from", "i-live-in", "be-present", "vietnamese"]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "im-from",
+                        "prompts": [
+                            { "cueVi": "Tôi đến từ Việt Nam.", "slots": { "place": "Vietnam" }, "answer": "I'm from Vietnam." },
+                            { "cueVi": "Tôi đến từ Đà Nẵng.", "slots": { "place": "Da Nang" }, "answer": "I'm from Da Nang." },
+                            { "cueVi": "Tôi đến từ Huế.", "slots": { "place": "Hue" }, "answer": "I'm from Hue." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "i-live-in",
+                        "prompts": [
+                            { "cueVi": "Tôi sống ở Hà Nội.", "slots": { "place": "Hanoi" }, "answer": "I live in Hanoi." },
+                            { "cueVi": "Tôi sống ở Thành phố Hồ Chí Minh.", "slots": { "place": "Ho Chi Minh City" }, "answer": "I live in Ho Chi Minh City." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["listening", "word-bank", "sentence-build"],
+                        "items": ["where-are-you-from", "vietnam", "vietnamese", "country", "city", "nice-to-meet-you"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "pre-a1-04-where-from", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I'm come from Vietnam.", "I from Vietnam.", "I'm from Vietnam."],
+                                "answer": 2,
+                                "item": "im-from"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I live in Hanoi.", "I'm live in Hanoi.", "I living Hanoi."],
+                                "answer": 0,
+                                "item": "i-live-in"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Bạn đến từ đâu?",
+                                "answer": "Where are you from?",
+                                "item": "where-are-you-from"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Vietnamese\" nghĩa là gì?",
+                                "options": ["Việt Nam (tên nước)", "người Việt; tiếng Việt", "thành phố"],
+                                "answer": 1,
+                                "item": "vietnamese"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "pre-a1-04-l3-jobs",
+            "title": "What do you do?",
+            "titleVi": "Nghề nghiệp",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "what-do-you-do", "role": "INTRODUCE" },
+                { "item": "im-a-job", "role": "INTRODUCE" },
+                { "item": "a-an", "role": "INTRODUCE" },
+                { "item": "student", "role": "INTRODUCE" },
+                { "item": "teacher", "role": "INTRODUCE" },
+                { "item": "doctor", "role": "INTRODUCE" },
+                { "item": "engineer", "role": "INTRODUCE" },
+                { "item": "nurse", "role": "INTRODUCE" },
+                { "item": "office-worker", "role": "INTRODUCE" },
+                { "item": "he", "role": "RECYCLE" },
+                { "item": "she", "role": "RECYCLE" },
+                { "item": "and-you", "role": "RECYCLE" },
+                { "item": "im-from", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 8 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["what-do-you-do", "im-a-job", "student", "teacher", "doctor", "engineer", "nurse", "office-worker"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Nói nghề nghiệp: đừng quên a/an",
+                        "bodyVi": "Hỏi nghề: **What do you do?**\n\nTrả lời: **I'm a** + nghề, hoặc **I'm an** + nghề bắt đầu bằng nguyên âm (a, e, i, o, u).\n\n- I'm **a** student. I'm **a** doctor.\n- I'm **an** engineer. I'm **an** office worker.\n\nTiếng Việt nói \"Tôi là sinh viên\", không có \"một\", nên người Việt rất hay nói thiếu: ❌ I'm student.\n\nSố nhiều thì bỏ a/an: We're students.",
+                        "items": ["a-an", "im-a-job", "what-do-you-do"]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "im-a-job",
+                        "prompts": [
+                            { "cueVi": "Tôi là sinh viên.", "slots": { "job": "a student" }, "answer": "I'm a student." },
+                            { "cueVi": "Tôi là kỹ sư.", "slots": { "job": "an engineer" }, "answer": "I'm an engineer." },
+                            { "cueVi": "Tôi là y tá.", "slots": { "job": "a nurse" }, "answer": "I'm a nurse." },
+                            { "cueVi": "Tôi là nhân viên văn phòng.", "slots": { "job": "an office worker" }, "answer": "I'm an office worker." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["what-do-you-do", "student", "teacher", "doctor", "engineer", "nurse", "office-worker", "he", "she"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "pre-a1-04-at-a-party", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "gap",
+                                "sentence": "I'm ___ engineer.",
+                                "answers": ["an"],
+                                "item": "a-an"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "She's ___ doctor.",
+                                "answers": ["a"],
+                                "item": "a-an"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"What do you do?\" nghĩa là:",
+                                "options": ["Bạn đang làm gì?", "Bạn làm nghề gì?", "Bạn khỏe không?"],
+                                "answer": 1,
+                                "item": "what-do-you-do"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Tôi là giáo viên.",
+                                "answer": "I'm a teacher.",
+                                "item": "im-a-job"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "pre-a1-04-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "gap",
+                "sentence": "We ___ students.",
+                "answers": ["are"],
+                "item": "be-present"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nói về Hoa (một bạn nữ), bạn dùng:",
+                "options": ["he", "she", "we"],
+                "answer": 1,
+                "item": "she"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["I'm student.", "I'm a student.", "I a student."],
+                "answer": 1,
+                "item": "a-an"
+            },
+            {
+                "kind": "order",
+                "vi": "Tôi sống ở Hà Nội.",
+                "answer": "I live in Hanoi.",
+                "item": "i-live-in"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Người ta hỏi \"Where are you from?\". Bạn trả lời:",
+                "options": ["I'm an engineer.", "I'm from Vietnam.", "I'm twenty."],
+                "answer": 1,
+                "item": "where-are-you-from"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "She's a nurse.",
+                "options": ["Cô ấy là y tá.", "Cô ấy là bác sĩ.", "Cô ấy là giáo viên."],
+                "answer": 0,
+                "item": "nurse"
+            }
+        ]
+    }
+}

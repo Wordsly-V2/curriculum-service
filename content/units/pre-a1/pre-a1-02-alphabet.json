@@ -1,0 +1,591 @@
+{
+    "slug": "pre-a1-02-alphabet",
+    "stage": "pre-a1",
+    "order": 2,
+    "title": "A, B, C",
+    "titleVi": "Bảng chữ cái",
+    "descriptionVi": "Tên các chữ cái tiếng Anh, những chữ người Việt hay đọc nhầm, và cách đánh vần tên.",
+    "canDo": [
+        "Tôi đọc được tên các chữ cái tiếng Anh.",
+        "Tôi đánh vần được họ và tên của mình.",
+        "Tôi hỏi được cách đánh vần một từ hoặc một cái tên."
+    ],
+    "items": [
+        {
+            "slug": "alphabet",
+            "type": "LEXICAL",
+            "text": "alphabet",
+            "meaningVi": "bảng chữ cái",
+            "ipa": "/ˈælfəbet/",
+            "examples": [
+                { "en": "The English alphabet has 26 letters.", "vi": "Bảng chữ cái tiếng Anh có 26 chữ cái.", "highlight": "alphabet" }
+            ]
+        },
+        {
+            "slug": "letter",
+            "type": "LEXICAL",
+            "text": "letter",
+            "meaningVi": "chữ cái",
+            "ipa": "/ˈletər/",
+            "examples": [
+                { "en": "A is a letter.", "vi": "A là một chữ cái.", "highlight": "letter" }
+            ]
+        },
+        {
+            "slug": "letter-a",
+            "type": "LEXICAL",
+            "text": "A",
+            "meaningVi": "chữ A",
+            "ipa": "/eɪ/",
+            "examples": [
+                { "en": "Anna: A-N-N-A.", "vi": "Anna: A-N-N-A.", "highlight": "A" }
+            ],
+            "noteVi": "Đọc /eɪ/ (gần như \"ây\"), không đọc \"a\" như tiếng Việt."
+        },
+        {
+            "slug": "letter-e",
+            "type": "LEXICAL",
+            "text": "E",
+            "meaningVi": "chữ E",
+            "ipa": "/iː/",
+            "examples": [
+                { "en": "Emma: E-M-M-A.", "vi": "Emma: E-M-M-A.", "highlight": "E" }
+            ],
+            "noteVi": "Đọc /iː/ (\"i\" kéo dài). Người Việt rất hay nhầm tên chữ E với chữ I."
+        },
+        {
+            "slug": "letter-i",
+            "type": "LEXICAL",
+            "text": "I",
+            "meaningVi": "chữ I",
+            "ipa": "/aɪ/",
+            "examples": [
+                { "en": "Tim: T-I-M.", "vi": "Tim: T-I-M.", "highlight": "I" }
+            ],
+            "noteVi": "Đọc /aɪ/ (gần như \"ai\"), không đọc \"i\"."
+        },
+        {
+            "slug": "letter-o",
+            "type": "LEXICAL",
+            "text": "O",
+            "meaningVi": "chữ O",
+            "ipa": "/oʊ/",
+            "examples": [
+                { "en": "Tom: T-O-M.", "vi": "Tom: T-O-M.", "highlight": "O" }
+            ],
+            "noteVi": "Đọc /oʊ/ (\"âu\" tròn môi), không đọc \"o\" như tiếng Việt."
+        },
+        {
+            "slug": "letter-u",
+            "type": "LEXICAL",
+            "text": "U",
+            "meaningVi": "chữ U",
+            "ipa": "/juː/",
+            "examples": [
+                { "en": "Hung: H-U-N-G.", "vi": "Hùng: H-U-N-G.", "highlight": "U" }
+            ],
+            "noteVi": "Đọc /juː/ giống từ \"you\"."
+        },
+        {
+            "slug": "letter-g",
+            "type": "LEXICAL",
+            "text": "G",
+            "meaningVi": "chữ G",
+            "ipa": "/dʒiː/",
+            "examples": [
+                { "en": "Giang: G-I-A-N-G.", "vi": "Giang: G-I-A-N-G.", "highlight": "G" }
+            ],
+            "noteVi": "Đọc /dʒiː/. Dễ nhầm với J /dʒeɪ/: G kết thúc bằng \"i\", J kết thúc bằng \"ây\"."
+        },
+        {
+            "slug": "letter-j",
+            "type": "LEXICAL",
+            "text": "J",
+            "meaningVi": "chữ J",
+            "ipa": "/dʒeɪ/",
+            "examples": [
+                { "en": "John: J-O-H-N.", "vi": "John: J-O-H-N.", "highlight": "J" }
+            ]
+        },
+        {
+            "slug": "letter-h",
+            "type": "LEXICAL",
+            "text": "H",
+            "meaningVi": "chữ H",
+            "ipa": "/eɪtʃ/",
+            "examples": [
+                { "en": "Hoa: H-O-A.", "vi": "Hoa: H-O-A.", "highlight": "H" }
+            ],
+            "noteVi": "Đọc /eɪtʃ/ (gần như \"ếch\"), không đọc \"hát\"."
+        },
+        {
+            "slug": "letter-r",
+            "type": "LEXICAL",
+            "text": "R",
+            "meaningVi": "chữ R",
+            "ipa": "/ɑːr/",
+            "examples": [
+                { "en": "Trang: T-R-A-N-G.", "vi": "Trang: T-R-A-N-G.", "highlight": "R" }
+            ],
+            "noteVi": "Đọc /ɑːr/ (\"a\" rồi cong lưỡi), không đọc \"e-rờ\"."
+        },
+        {
+            "slug": "letter-w",
+            "type": "LEXICAL",
+            "text": "W",
+            "meaningVi": "chữ W",
+            "ipa": "/ˈdʌbəl juː/",
+            "examples": [
+                { "en": "Wendy: W-E-N-D-Y.", "vi": "Wendy: W-E-N-D-Y.", "highlight": "W" }
+            ],
+            "noteVi": "Tên chữ này là \"double U\" (hai chữ U), không đọc \"vê kép\"."
+        },
+        {
+            "slug": "letter-y",
+            "type": "LEXICAL",
+            "text": "Y",
+            "meaningVi": "chữ Y",
+            "ipa": "/waɪ/",
+            "examples": [
+                { "en": "Yen: Y-E-N.", "vi": "Yến: Y-E-N.", "highlight": "Y" }
+            ],
+            "noteVi": "Đọc /waɪ/ (gần như \"quai\"), không đọc \"i dài\"."
+        },
+        {
+            "slug": "letter-z",
+            "type": "LEXICAL",
+            "text": "Z",
+            "meaningVi": "chữ Z",
+            "ipa": "/ziː/",
+            "examples": [
+                { "en": "Zoe: Z-O-E.", "vi": "Zoe: Z-O-E.", "highlight": "Z" }
+            ],
+            "noteVi": "Người Mỹ đọc /ziː/, người Anh đọc /zed/. Cả hai đều đúng."
+        },
+        {
+            "slug": "spell",
+            "type": "LEXICAL",
+            "text": "spell",
+            "meaningVi": "đánh vần",
+            "ipa": "/spel/",
+            "examples": [
+                { "en": "Spell your name.", "vi": "Hãy đánh vần tên bạn.", "highlight": "Spell" }
+            ],
+            "noteVi": "Cụm âm đầu /sp/: đọc liền, không chèn thêm \"xờ\" (\"xờ-pen\")."
+        },
+        {
+            "slug": "how-do-you-spell",
+            "type": "PATTERN",
+            "text": "How do you spell …?",
+            "meaningVi": "… đánh vần thế nào?",
+            "examples": [
+                { "en": "How do you spell your name?", "vi": "Tên bạn đánh vần thế nào?", "highlight": "How do you spell" }
+            ],
+            "pattern": {
+                "template": "How do you spell {word}?",
+                "slots": [
+                    { "name": "word", "hintVi": "từ hoặc tên cần đánh vần", "options": ["your name", "Hoa", "hello"] }
+                ]
+            }
+        },
+        {
+            "slug": "can-you-spell-that",
+            "type": "PHRASE",
+            "text": "Can you spell that, please?",
+            "meaningVi": "Bạn đánh vần giúp mình được không?",
+            "examples": [
+                { "en": "Nguyen? Can you spell that, please?", "vi": "Nguyễn à? Bạn đánh vần giúp mình được không?", "highlight": "Can you spell that, please?" }
+            ]
+        },
+        {
+            "slug": "first-name",
+            "type": "LEXICAL",
+            "text": "first name",
+            "meaningVi": "tên (tên gọi)",
+            "ipa": "/ˈfɜːrst neɪm/",
+            "examples": [
+                { "en": "My first name is Lan.", "vi": "Tên mình là Lan.", "highlight": "first name" }
+            ],
+            "noteVi": "Tên gọi (Lan), không phải họ. Tiếng Anh nói tên trước, họ sau: Lan Nguyen."
+        },
+        {
+            "slug": "last-name",
+            "type": "LEXICAL",
+            "text": "last name",
+            "meaningVi": "họ",
+            "ipa": "/ˈlæst neɪm/",
+            "examples": [
+                { "en": "My last name is Nguyen.", "vi": "Họ của mình là Nguyễn.", "highlight": "last name" }
+            ],
+            "noteVi": "Họ (Nguyễn, Trần…). Còn gọi là \"family name\" hoặc \"surname\"."
+        },
+        {
+            "slug": "double",
+            "type": "LEXICAL",
+            "text": "double",
+            "meaningVi": "(chữ cái) lặp hai lần liền nhau",
+            "ipa": "/ˈdʌbəl/",
+            "examples": [
+                { "en": "Anna: A, double N, A.", "vi": "Anna: A, hai chữ N, A.", "highlight": "double" }
+            ],
+            "noteVi": "Khi đánh vần, hai chữ giống nhau đứng liền thường đọc là \"double\" + chữ: double L, double O."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "pre-a1-02-at-reception",
+            "title": "At the front desk",
+            "situationVi": "Bạn đăng ký học ở một trung tâm tiếng Anh. Nhân viên hỏi tên và cách đánh vần.",
+            "lines": [
+                { "speaker": "Receptionist", "en": "Good morning. What's your first name?", "vi": "Chào bạn. Tên bạn là gì?" },
+                { "speaker": "You", "en": "My first name is Lan.", "vi": "Tên mình là Lan.", "learnerTurn": true },
+                { "speaker": "Receptionist", "en": "And your last name?", "vi": "Còn họ của bạn?" },
+                { "speaker": "You", "en": "My last name is Nguyen.", "vi": "Họ của mình là Nguyễn.", "learnerTurn": true },
+                { "speaker": "Receptionist", "en": "Can you spell that, please?", "vi": "Bạn đánh vần giúp mình được không?" },
+                { "speaker": "You", "en": "N-G-U-Y-E-N.", "vi": "N-G-U-Y-E-N.", "learnerTurn": true },
+                { "speaker": "Receptionist", "en": "Thank you, Lan.", "vi": "Cảm ơn bạn, Lan." }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "pre-a1-02-l1-vowels",
+            "title": "A, E, I, O, U",
+            "titleVi": "Các nguyên âm A, E, I, O, U",
+            "estimatedMinutes": 10,
+            "items": [
+                { "item": "alphabet", "role": "INTRODUCE" },
+                { "item": "letter", "role": "INTRODUCE" },
+                { "item": "letter-a", "role": "INTRODUCE" },
+                { "item": "letter-e", "role": "INTRODUCE" },
+                { "item": "letter-i", "role": "INTRODUCE" },
+                { "item": "letter-o", "role": "INTRODUCE" },
+                { "item": "letter-u", "role": "INTRODUCE" },
+                { "item": "my-name-is", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 8 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["alphabet", "letter", "letter-a", "letter-e", "letter-i", "letter-o", "letter-u"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Tên chữ cái khác cách đọc tiếng Việt",
+                        "bodyVi": "Bảng chữ cái tiếng Anh có 26 chữ. Nhiều chữ trông giống tiếng Việt nhưng **tên gọi** khác hẳn:\n\n| Chữ | Tiếng Anh đọc | Đừng đọc |\n|---|---|---|\n| A | /eɪ/ \"ây\" | a |\n| E | /iː/ \"i\" | e |\n| I | /aɪ/ \"ai\" | i |\n| O | /oʊ/ \"âu\" | o |\n| U | /juː/ \"diu\" | u |\n\nCặp hay nhầm nhất là **E** và **I**: E đọc là \"i\", còn I đọc là \"ai\".",
+                        "items": ["letter-a", "letter-e", "letter-i", "letter-o", "letter-u"]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening"],
+                        "items": ["alphabet", "letter", "letter-a", "letter-e", "letter-i", "letter-o", "letter-u"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "A, E, I, O, U.", "vi": "A, E, I, O, U." },
+                            { "en": "E, I. I, E.", "vi": "E, I. I, E." },
+                            { "en": "My name is Tim: T-I-M.", "vi": "Tên mình là Tim: T-I-M." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn chữ cái đúng.",
+                                "audioText": "E",
+                                "options": ["A", "E", "I"],
+                                "answer": 1,
+                                "item": "letter-e"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn chữ cái đúng.",
+                                "audioText": "I",
+                                "options": ["E", "Y", "I"],
+                                "answer": 2,
+                                "item": "letter-i"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Chữ A trong tiếng Anh đọc là:",
+                                "options": ["/a/ như \"ba\"", "/eɪ/ như \"ây\"", "/iː/ như \"i\""],
+                                "answer": 1,
+                                "item": "letter-a"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"alphabet\" nghĩa là gì?",
+                                "options": ["chữ cái", "bảng chữ cái", "tên"],
+                                "answer": 1,
+                                "item": "alphabet"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "pre-a1-02-l2-tricky-letters",
+            "title": "G or J?",
+            "titleVi": "Những chữ dễ đọc nhầm",
+            "estimatedMinutes": 10,
+            "items": [
+                { "item": "letter-g", "role": "INTRODUCE" },
+                { "item": "letter-j", "role": "INTRODUCE" },
+                { "item": "letter-h", "role": "INTRODUCE" },
+                { "item": "letter-r", "role": "INTRODUCE" },
+                { "item": "letter-w", "role": "INTRODUCE" },
+                { "item": "letter-y", "role": "INTRODUCE" },
+                { "item": "letter-z", "role": "INTRODUCE" },
+                { "item": "letter-e", "role": "RECYCLE" },
+                { "item": "letter-i", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 8 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["letter-g", "letter-j", "letter-h", "letter-r", "letter-w", "letter-y", "letter-z"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Bảy chữ người Việt hay đọc sai",
+                        "bodyVi": "| Chữ | Đọc | Mẹo nhớ |\n|---|---|---|\n| G | /dʒiː/ | vần với E /iː/ |\n| J | /dʒeɪ/ | vần với A /eɪ/ |\n| H | /eɪtʃ/ | \"ếch\", không phải \"hát\" |\n| R | /ɑːr/ | \"a\" rồi cong lưỡi |\n| W | /ˈdʌbəl juː/ | \"double U\" |\n| Y | /waɪ/ | vần với I /aɪ/ |\n| Z | /ziː/ | vần với E /iː/ |\n\nMẹo: xếp chữ theo vần sẽ dễ nhớ hơn. **A, H, J, K** cùng vần \"ây\". **B, C, D, E, G, P, T, V, Z** cùng vần \"i\". **I, Y** cùng vần \"ai\".",
+                        "items": ["letter-g", "letter-j", "letter-h", "letter-r", "letter-w", "letter-y", "letter-z", "letter-e", "letter-i"]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening"],
+                        "items": ["letter-g", "letter-j", "letter-h", "letter-r", "letter-w", "letter-y", "letter-z", "letter-e", "letter-i"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "G, J. J, G.", "vi": "G, J. J, G." },
+                            { "en": "A, H, J, K.", "vi": "A, H, J, K." },
+                            { "en": "I, Y. W, Y.", "vi": "I, Y. W, Y." },
+                            { "en": "Giang: G-I-A-N-G.", "vi": "Giang: G-I-A-N-G." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn chữ cái đúng.",
+                                "audioText": "G",
+                                "options": ["G", "J", "Z"],
+                                "answer": 0,
+                                "item": "letter-g"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn chữ cái đúng.",
+                                "audioText": "H",
+                                "options": ["A", "H", "R"],
+                                "answer": 1,
+                                "item": "letter-h"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Chữ nào đọc là \"double U\"?",
+                                "options": ["U", "V", "W"],
+                                "answer": 2,
+                                "item": "letter-w"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Chữ Y đọc giống âm cuối của chữ nào?",
+                                "options": ["E", "I", "A"],
+                                "answer": 1,
+                                "item": "letter-y",
+                                "explanationVi": "Y /waɪ/ và I /aɪ/ cùng vần \"ai\"."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "pre-a1-02-l3-spelling",
+            "title": "How do you spell it?",
+            "titleVi": "Đánh vần tên",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "spell", "role": "INTRODUCE" },
+                { "item": "how-do-you-spell", "role": "INTRODUCE" },
+                { "item": "can-you-spell-that", "role": "INTRODUCE" },
+                { "item": "first-name", "role": "INTRODUCE" },
+                { "item": "last-name", "role": "INTRODUCE" },
+                { "item": "double", "role": "INTRODUCE" },
+                { "item": "my-name-is", "role": "RECYCLE" },
+                { "item": "whats-your-name", "role": "RECYCLE" },
+                { "item": "letter-g", "role": "RECYCLE" },
+                { "item": "letter-y", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 8 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["spell", "how-do-you-spell", "can-you-spell-that", "first-name", "last-name", "double"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Hỏi và đánh vần tên",
+                        "bodyVi": "Hỏi cách đánh vần: **How do you spell** + từ **?** Hoặc lịch sự hơn: **Can you spell that, please?**\n\nKhi đánh vần, đọc tên từng chữ cái, ngắt nhịp đều: N-G-U-Y-E-N. Hai chữ giống nhau liền nhau thì nói **double**: Anna → A, double N, A.\n\nNgười nước ngoài gọi tên theo thứ tự **first name** (tên) rồi **last name** (họ): Nguyen Van Nam thường viết là Nam Nguyen.",
+                        "items": ["how-do-you-spell", "can-you-spell-that", "first-name", "last-name", "double"],
+                        "examples": [
+                            { "en": "How do you spell Giang?", "vi": "Giang đánh vần thế nào?", "highlight": "How do you spell" },
+                            { "en": "G-I-A-N-G.", "vi": "G-I-A-N-G." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "how-do-you-spell",
+                        "prompts": [
+                            { "cueVi": "Hỏi: tên bạn đánh vần thế nào?", "slots": { "word": "your name" }, "answer": "How do you spell your name?" },
+                            { "cueVi": "Hỏi: tên \"Hoa\" đánh vần thế nào?", "slots": { "word": "Hoa" }, "answer": "How do you spell Hoa?" },
+                            { "cueVi": "Hỏi: từ \"hello\" đánh vần thế nào?", "slots": { "word": "hello" }, "answer": "How do you spell hello?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["listening", "cloze", "sentence-build"],
+                        "items": ["spell", "can-you-spell-that", "first-name", "last-name", "double", "whats-your-name", "my-name-is"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "pre-a1-02-at-reception", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "order",
+                                "vi": "Tên bạn đánh vần thế nào?",
+                                "answer": "How do you spell your name?",
+                                "item": "how-do-you-spell"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Nguyen\" là gì trong tên \"Lan Nguyen\"?",
+                                "options": ["first name", "last name"],
+                                "answer": 1,
+                                "item": "last-name"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn tên đúng.",
+                                "audioText": "A, double N, A.",
+                                "options": ["Ana", "Anna", "Annna"],
+                                "answer": 1,
+                                "item": "double"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Can you ___ that, please?",
+                                "hintVi": "đánh vần",
+                                "answers": ["spell"],
+                                "item": "can-you-spell-that"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "pre-a1-02-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn chữ cái đúng.",
+                "audioText": "E",
+                "options": ["I", "E", "A"],
+                "answer": 1,
+                "item": "letter-e"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn chữ cái đúng.",
+                "audioText": "J",
+                "options": ["G", "J", "Z"],
+                "answer": 1,
+                "item": "letter-j"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn chữ cái đúng.",
+                "audioText": "R",
+                "options": ["A", "R", "H"],
+                "answer": 1,
+                "item": "letter-r"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn tên đúng.",
+                "audioText": "Y-E-N.",
+                "options": ["Yen", "Ien", "Wen"],
+                "answer": 0,
+                "item": "letter-y"
+            },
+            {
+                "kind": "gap",
+                "sentence": "How do you ___ your name?",
+                "answers": ["spell"],
+                "item": "how-do-you-spell"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Người ta hỏi \"What's your first name?\". Bạn tên Trần Thu Hà. Bạn trả lời:",
+                "options": ["Tran.", "Ha.", "Thu Tran."],
+                "answer": 1,
+                "item": "first-name"
+            }
+        ]
+    }
+}

@@ -4,7 +4,10 @@
  * activated. Per-learner state (enrollment, completions) uses user keys
  * (`curr:u:<id>:*`) and is dropped by `invalidateUser`.
  */
-export const cacheKeys = {};
+export const cacheKeys = {
+    /** `{ id, version }` of the active release, or null. */
+    activeRelease: ['release', 'active'],
+};
 
 export const userCachePattern = (userLoginId: string): string =>
     `curr:u:${userLoginId}:*`;

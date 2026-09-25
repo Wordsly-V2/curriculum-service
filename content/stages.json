@@ -1,0 +1,50 @@
+[
+    {
+        "slug": "pre-a1",
+        "cefr": "PRE_A1",
+        "order": 1,
+        "title": "Foundations",
+        "titleVi": "Nền tảng",
+        "descriptionVi": "Âm, bảng chữ cái, số đếm, chào hỏi và giới thiệu bản thân."
+    },
+    {
+        "slug": "a1",
+        "cefr": "A1",
+        "order": 2,
+        "title": "Beginner",
+        "titleVi": "Sơ cấp",
+        "descriptionVi": "Gia đình, ăn uống, mua sắm, thời gian, nhà cửa; hiện tại đơn và hiện tại tiếp diễn."
+    },
+    {
+        "slug": "a2",
+        "cefr": "A2",
+        "order": 3,
+        "title": "Elementary",
+        "titleVi": "Tiền trung cấp",
+        "descriptionVi": "Quá khứ, kế hoạch, du lịch, sức khỏe, công việc, so sánh."
+    },
+    {
+        "slug": "b1",
+        "cefr": "B1",
+        "order": 4,
+        "title": "Intermediate",
+        "titleVi": "Trung cấp",
+        "descriptionVi": "Kể chuyện, nêu ý kiến, lời khuyên, câu điều kiện, bị động, xử lý sự cố."
+    },
+    {
+        "slug": "b2",
+        "cefr": "B2",
+        "order": 5,
+        "title": "Upper intermediate",
+        "titleVi": "Trung cao cấp",
+        "descriptionVi": "Tranh luận, giả định, nối ý mạch lạc, công sở, tin tức."
+    },
+    {
+        "slug": "c1",
+        "cefr": "C1",
+        "order": 6,
+        "title": "Advanced",
+        "titleVi": "Cao cấp",
+        "descriptionVi": "Sắc thái, thành ngữ, thuyết trình, thuyết phục, văn phong."
+    }
+]

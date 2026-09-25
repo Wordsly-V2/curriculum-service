@@ -1,0 +1,580 @@
+{
+    "slug": "pre-a1-06-help",
+    "stage": "pre-a1",
+    "order": 6,
+    "title": "Sorry, I don't understand",
+    "titleVi": "Khi chưa hiểu",
+    "descriptionVi": "Chiến lược giao tiếp: xin nhắc lại, xin nói chậm, hỏi nghĩa của từ và hỏi cách nói bằng tiếng Anh.",
+    "canDo": [
+        "Tôi nói được khi mình chưa hiểu và xin người khác nhắc lại hoặc nói chậm hơn.",
+        "Tôi hỏi được một từ nghĩa là gì và một từ tiếng Việt nói bằng tiếng Anh thế nào.",
+        "Tôi xác nhận được mình đã hiểu hay chưa."
+    ],
+    "items": [
+        {
+            "slug": "sorry",
+            "type": "LEXICAL",
+            "text": "sorry",
+            "meaningVi": "xin lỗi",
+            "ipa": "/ˈsɑːri/",
+            "examples": [
+                { "en": "Sorry, I don't understand.", "vi": "Xin lỗi, mình không hiểu.", "highlight": "Sorry" }
+            ],
+            "noteVi": "\"Sorry?\" lên giọng ở cuối cũng có nghĩa là \"Bạn nói gì cơ?\"."
+        },
+        {
+            "slug": "excuse-me",
+            "type": "PHRASE",
+            "text": "Excuse me.",
+            "meaningVi": "Xin lỗi (cho hỏi / cho qua).",
+            "examples": [
+                { "en": "Excuse me. What's this?", "vi": "Xin lỗi, cho hỏi đây là cái gì?", "highlight": "Excuse me" }
+            ],
+            "noteVi": "Dùng \"Excuse me\" để gây chú ý hoặc xin phép trước khi hỏi. Dùng \"Sorry\" khi đã làm sai điều gì."
+        },
+        {
+            "slug": "i-dont-understand",
+            "type": "PHRASE",
+            "text": "I don't understand.",
+            "meaningVi": "Tôi không hiểu.",
+            "examples": [
+                { "en": "Sorry, I don't understand.", "vi": "Xin lỗi, mình không hiểu.", "highlight": "I don't understand" }
+            ],
+            "noteVi": "Không nói \"I not understand\". Câu phủ định cần \"don't\": I don't understand."
+        },
+        {
+            "slug": "can-you-say-that-again",
+            "type": "PHRASE",
+            "text": "Can you say that again, please?",
+            "meaningVi": "Bạn nói lại được không?",
+            "examples": [
+                { "en": "Sorry, can you say that again, please?", "vi": "Xin lỗi, bạn nói lại được không?", "highlight": "say that again" }
+            ]
+        },
+        {
+            "slug": "slowly-please",
+            "type": "PHRASE",
+            "text": "Slowly, please.",
+            "meaningVi": "Nói chậm giúp mình nhé.",
+            "examples": [
+                { "en": "Sorry, slowly, please.", "vi": "Xin lỗi, nói chậm giúp mình nhé.", "highlight": "slowly, please" }
+            ],
+            "noteVi": "Câu đầy đủ: \"Can you speak slowly, please?\"."
+        },
+        {
+            "slug": "pardon",
+            "type": "PHRASE",
+            "text": "Pardon?",
+            "meaningVi": "Bạn nói gì cơ? (xin nhắc lại)",
+            "ipa": "/ˈpɑːrdən/",
+            "examples": [
+                { "en": "Pardon? Can you say that again, please?", "vi": "Bạn nói gì cơ? Bạn nói lại được không?", "highlight": "Pardon?" }
+            ],
+            "noteVi": "Lên giọng ở cuối. Lịch sự hơn nhiều so với \"What?\"."
+        },
+        {
+            "slug": "how-do-you-say",
+            "type": "PATTERN",
+            "text": "How do you say … in English?",
+            "meaningVi": "… nói bằng tiếng Anh thế nào?",
+            "examples": [
+                { "en": "How do you say \"cái tẩy\" in English?", "vi": "\"Cái tẩy\" tiếng Anh nói thế nào?", "highlight": "How do you say" }
+            ],
+            "pattern": {
+                "template": "How do you say {word} in English?",
+                "slots": [
+                    { "name": "word", "hintVi": "từ tiếng Việt bạn muốn hỏi", "options": ["\"cái tẩy\"", "\"xin chào\"", "\"bàn học\""] }
+                ]
+            },
+            "noteVi": "Câu quan trọng nhất khi không biết từ: hỏi ngay, đừng im lặng."
+        },
+        {
+            "slug": "what-does-mean",
+            "type": "PATTERN",
+            "text": "What does … mean?",
+            "meaningVi": "… nghĩa là gì?",
+            "examples": [
+                { "en": "What does \"pardon\" mean?", "vi": "\"Pardon\" nghĩa là gì?", "highlight": "What does" }
+            ],
+            "pattern": {
+                "template": "What does {word} mean?",
+                "slots": [
+                    { "name": "word", "hintVi": "từ tiếng Anh bạn chưa hiểu", "options": ["\"spell\"", "\"double\"", "\"repeat\""] }
+                ]
+            },
+            "noteVi": "Không nói \"What is … mean?\" hay \"What mean …?\". Đúng: What does + từ + mean?"
+        },
+        {
+            "slug": "i-dont-know",
+            "type": "PHRASE",
+            "text": "I don't know.",
+            "meaningVi": "Tôi không biết.",
+            "examples": [
+                { "en": "Sorry, I don't know.", "vi": "Xin lỗi, mình không biết.", "highlight": "I don't know" }
+            ],
+            "noteVi": "\"know\" có chữ k câm: đọc /noʊ/, giống \"no\"."
+        },
+        {
+            "slug": "english",
+            "type": "LEXICAL",
+            "text": "English",
+            "meaningVi": "tiếng Anh; thuộc về nước Anh",
+            "ipa": "/ˈɪŋɡlɪʃ/",
+            "examples": [
+                { "en": "I'm a student of English.", "vi": "Mình là học viên tiếng Anh.", "highlight": "English" }
+            ],
+            "noteVi": "Luôn viết hoa chữ E."
+        },
+        {
+            "slug": "word",
+            "type": "LEXICAL",
+            "text": "word",
+            "meaningVi": "từ",
+            "ipa": "/wɜːrd/",
+            "examples": [
+                { "en": "\"Hello\" is an English word.", "vi": "\"Hello\" là một từ tiếng Anh.", "highlight": "word" }
+            ],
+            "noteVi": "Đọc /wɜːrd/, khác với \"world\" /wɜːrld/ (thế giới)."
+        },
+        {
+            "slug": "mean",
+            "type": "LEXICAL",
+            "text": "mean",
+            "meaningVi": "có nghĩa là",
+            "ipa": "/miːn/",
+            "examples": [
+                { "en": "\"Hi\" means \"hello\".", "vi": "\"Hi\" có nghĩa là \"hello\".", "highlight": "means" }
+            ]
+        },
+        {
+            "slug": "yes",
+            "type": "LEXICAL",
+            "text": "yes",
+            "meaningVi": "vâng, có, đúng",
+            "ipa": "/jes/",
+            "examples": [
+                { "en": "Yes, I'm a student.", "vi": "Vâng, mình là sinh viên.", "highlight": "Yes" }
+            ]
+        },
+        {
+            "slug": "no",
+            "type": "LEXICAL",
+            "text": "no",
+            "meaningVi": "không",
+            "ipa": "/noʊ/",
+            "examples": [
+                { "en": "No, I'm from Vietnam.", "vi": "Không, mình đến từ Việt Nam.", "highlight": "No" }
+            ]
+        },
+        {
+            "slug": "ok",
+            "type": "LEXICAL",
+            "text": "OK",
+            "meaningVi": "được, ổn, đồng ý",
+            "ipa": "/ˌoʊˈkeɪ/",
+            "examples": [
+                { "en": "OK, thank you.", "vi": "Được rồi, cảm ơn bạn.", "highlight": "OK" }
+            ]
+        },
+        {
+            "slug": "i-see",
+            "type": "PHRASE",
+            "text": "I see.",
+            "meaningVi": "À, mình hiểu rồi.",
+            "examples": [
+                { "en": "Oh, I see. Thank you.", "vi": "À, mình hiểu rồi. Cảm ơn bạn.", "highlight": "I see" }
+            ],
+            "noteVi": "\"I see\" ở đây là \"tôi hiểu\", không phải \"tôi nhìn thấy\"."
+        },
+        {
+            "slug": "is-that-right",
+            "type": "PHRASE",
+            "text": "Is that right?",
+            "meaningVi": "Có đúng không?",
+            "examples": [
+                { "en": "\"Hello\" is \"xin chào\". Is that right?", "vi": "\"Hello\" là \"xin chào\". Có đúng không?", "highlight": "Is that right?" }
+            ]
+        },
+        {
+            "slug": "one-moment-please",
+            "type": "PHRASE",
+            "text": "One moment, please.",
+            "meaningVi": "Chờ mình một chút nhé.",
+            "examples": [
+                { "en": "My phone number? One moment, please.", "vi": "Số điện thoại của mình à? Chờ mình một chút nhé.", "highlight": "One moment, please" }
+            ],
+            "noteVi": "Dùng khi cần thời gian nghĩ hoặc tìm từ, thay vì im lặng."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "pre-a1-06-too-fast",
+            "title": "Too fast!",
+            "situationVi": "Thầy giáo nói nhanh quá, bạn chưa nghe kịp.",
+            "lines": [
+                { "speaker": "Mr. Brown", "en": "Please open your notebook and write your first name and last name.", "vi": "Các em mở vở ra và viết tên và họ của mình." },
+                { "speaker": "You", "en": "Pardon? Slowly, please.", "vi": "Thầy nói gì ạ? Thầy nói chậm giúp em ạ.", "learnerTurn": true },
+                { "speaker": "Mr. Brown", "en": "Open your notebook. Write your name.", "vi": "Mở vở ra. Viết tên của em." },
+                { "speaker": "You", "en": "Sorry, I don't understand \"notebook\".", "vi": "Em xin lỗi, em không hiểu từ \"notebook\".", "learnerTurn": true },
+                { "speaker": "Mr. Brown", "en": "This is a notebook.", "vi": "Đây là quyển vở." },
+                { "speaker": "You", "en": "Oh, I see. Thank you.", "vi": "À, em hiểu rồi. Em cảm ơn thầy.", "learnerTurn": true }
+            ]
+        },
+        {
+            "slug": "pre-a1-06-helping-a-tourist",
+            "title": "How do you say it?",
+            "situationVi": "Một khách du lịch hỏi bạn một câu tiếng Việt. Bạn giúp họ, và cũng hỏi lại họ một từ tiếng Anh.",
+            "lines": [
+                { "speaker": "Tom", "en": "Excuse me. How do you say \"thank you\" in Vietnamese?", "vi": "Xin lỗi. \"Thank you\" tiếng Việt nói thế nào?" },
+                { "speaker": "You", "en": "Sorry, can you say that again, please?", "vi": "Xin lỗi, bạn nói lại được không?", "learnerTurn": true },
+                { "speaker": "Tom", "en": "How do you say \"thank you\" in Vietnamese?", "vi": "\"Thank you\" tiếng Việt nói thế nào?" },
+                { "speaker": "You", "en": "Oh, I see. \"Cảm ơn.\"", "vi": "À, mình hiểu rồi. \"Cảm ơn.\"", "learnerTurn": true },
+                { "speaker": "Tom", "en": "\"Cảm ơn.\" Is that right?", "vi": "\"Cảm ơn.\" Đúng không?" },
+                { "speaker": "You", "en": "Yes! And how do you say \"bàn học\" in English?", "vi": "Đúng rồi! Còn \"bàn học\" tiếng Anh nói thế nào?", "learnerTurn": true },
+                { "speaker": "Tom", "en": "\"Desk.\" D-E-S-K.", "vi": "\"Desk.\" D-E-S-K." },
+                { "speaker": "You", "en": "OK. Thank you!", "vi": "Được rồi. Cảm ơn bạn!", "learnerTurn": true }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "pre-a1-06-l1-say-that-again",
+            "title": "Can you say that again?",
+            "titleVi": "Xin nhắc lại",
+            "estimatedMinutes": 10,
+            "items": [
+                { "item": "sorry", "role": "INTRODUCE" },
+                { "item": "excuse-me", "role": "INTRODUCE" },
+                { "item": "i-dont-understand", "role": "INTRODUCE" },
+                { "item": "can-you-say-that-again", "role": "INTRODUCE" },
+                { "item": "slowly-please", "role": "INTRODUCE" },
+                { "item": "pardon", "role": "INTRODUCE" },
+                { "item": "please", "role": "RECYCLE" },
+                { "item": "repeat", "role": "RECYCLE" },
+                { "item": "notebook", "role": "RECYCLE" },
+                { "item": "first-name", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 8 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["sorry", "excuse-me", "i-dont-understand", "can-you-say-that-again", "slowly-please", "pardon"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Chưa hiểu thì nói ra, đừng im lặng",
+                        "bodyVi": "Người mới học hay im lặng hoặc gật đầu khi chưa hiểu. Người bản xứ lại **muốn** bạn hỏi lại. Chỉ cần vài câu:\n\n1. **Pardon?** / **Sorry?** (lên giọng): bạn nói gì cơ?\n2. **Can you say that again, please?**: nói lại giúp mình.\n3. **Slowly, please.**: nói chậm giúp mình.\n4. **Sorry, I don't understand.**: mình không hiểu.\n\n**Excuse me** dùng để gây chú ý trước khi hỏi. **Sorry** dùng để xin lỗi khi đã làm sai.",
+                        "items": ["pardon", "sorry", "can-you-say-that-again", "slowly-please", "i-dont-understand", "excuse-me"]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["listening", "cloze", "sentence-build"],
+                        "items": ["sorry", "excuse-me", "i-dont-understand", "can-you-say-that-again", "slowly-please", "pardon", "please"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "Pardon?", "vi": "Bạn nói gì cơ?" },
+                            { "en": "Sorry, I don't understand.", "vi": "Xin lỗi, mình không hiểu." },
+                            { "en": "Can you say that again, please?", "vi": "Bạn nói lại được không?" },
+                            { "en": "Slowly, please.", "vi": "Nói chậm giúp mình nhé." }
+                        ]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "pre-a1-06-too-fast", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn không nghe rõ câu vừa rồi. Cách lịch sự nhất là:",
+                                "options": ["What?", "Pardon?", "No."],
+                                "answer": 1,
+                                "item": "pardon"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn muốn hỏi đường một người lạ. Bạn bắt đầu bằng:",
+                                "options": ["Excuse me.", "Sorry.", "Goodbye."],
+                                "answer": 0,
+                                "item": "excuse-me"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Bạn nói lại được không?",
+                                "answer": "Can you say that again, please?",
+                                "item": "can-you-say-that-again"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I not understand.", "I don't understand.", "I no understand."],
+                                "answer": 1,
+                                "item": "i-dont-understand"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "pre-a1-06-l2-what-does-it-mean",
+            "title": "What does it mean?",
+            "titleVi": "Hỏi nghĩa và hỏi cách nói",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "how-do-you-say", "role": "INTRODUCE" },
+                { "item": "what-does-mean", "role": "INTRODUCE" },
+                { "item": "i-dont-know", "role": "INTRODUCE" },
+                { "item": "english", "role": "INTRODUCE" },
+                { "item": "word", "role": "INTRODUCE" },
+                { "item": "mean", "role": "INTRODUCE" },
+                { "item": "vietnamese", "role": "RECYCLE" },
+                { "item": "how-do-you-spell", "role": "RECYCLE" },
+                { "item": "spell", "role": "RECYCLE" },
+                { "item": "excuse-me", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 8 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["how-do-you-say", "what-does-mean", "i-dont-know", "english", "word", "mean"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Hai câu hỏi giúp bạn học từ mới mọi lúc",
+                        "bodyVi": "- Không biết từ tiếng Anh: **How do you say** + từ tiếng Việt + **in English?**\n- Không hiểu một từ tiếng Anh: **What does** + từ + **mean?**\n\nLỗi hay gặp:\n\n- ❌ What is \"spell\" mean? ❌ What mean \"spell\"?\n- ✅ What does \"spell\" mean?\n\nKết hợp với câu đã học: \"**How do you spell** it?\" để hỏi cách viết.",
+                        "items": ["how-do-you-say", "what-does-mean", "mean", "how-do-you-spell"],
+                        "examples": [
+                            { "en": "How do you say \"cái tẩy\" in English?", "vi": "\"Cái tẩy\" tiếng Anh nói thế nào?", "highlight": "in English" },
+                            { "en": "What does \"double\" mean?", "vi": "\"Double\" nghĩa là gì?", "highlight": "mean" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "how-do-you-say",
+                        "prompts": [
+                            { "cueVi": "Hỏi: \"cái tẩy\" tiếng Anh nói thế nào?", "slots": { "word": "\"cái tẩy\"" }, "answer": "How do you say \"cái tẩy\" in English?" },
+                            { "cueVi": "Hỏi: \"bàn học\" tiếng Anh nói thế nào?", "slots": { "word": "\"bàn học\"" }, "answer": "How do you say \"bàn học\" in English?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "what-does-mean",
+                        "prompts": [
+                            { "cueVi": "Hỏi: \"spell\" nghĩa là gì?", "slots": { "word": "\"spell\"" }, "answer": "What does \"spell\" mean?" },
+                            { "cueVi": "Hỏi: \"repeat\" nghĩa là gì?", "slots": { "word": "\"repeat\"" }, "answer": "What does \"repeat\" mean?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "cloze"],
+                        "items": ["i-dont-know", "english", "word", "mean", "vietnamese", "spell", "excuse-me"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "How do you say \"cảm ơn\" in English?", "vi": "\"Cảm ơn\" tiếng Anh nói thế nào?" },
+                            { "en": "What does \"pardon\" mean?", "vi": "\"Pardon\" nghĩa là gì?" },
+                            { "en": "Sorry, I don't know.", "vi": "Xin lỗi, mình không biết." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["What is \"desk\" mean?", "What does \"desk\" mean?", "What mean \"desk\"?"],
+                                "answer": 1,
+                                "item": "what-does-mean"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "How do you say \"bút chì\" in ___?",
+                                "hintVi": "tiếng Anh",
+                                "answers": ["English"],
+                                "item": "how-do-you-say"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Mình không biết.",
+                                "answer": "I don't know.",
+                                "item": "i-dont-know"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"word\" nghĩa là:",
+                                "options": ["thế giới", "từ", "chữ cái"],
+                                "answer": 1,
+                                "item": "word"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "pre-a1-06-l3-i-see",
+            "title": "Oh, I see!",
+            "titleVi": "Xác nhận đã hiểu",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "yes", "role": "INTRODUCE" },
+                { "item": "no", "role": "INTRODUCE" },
+                { "item": "ok", "role": "INTRODUCE" },
+                { "item": "i-see", "role": "INTRODUCE" },
+                { "item": "is-that-right", "role": "INTRODUCE" },
+                { "item": "one-moment-please", "role": "INTRODUCE" },
+                { "item": "how-do-you-say", "role": "RECYCLE" },
+                { "item": "can-you-say-that-again", "role": "RECYCLE" },
+                { "item": "excuse-me", "role": "RECYCLE" },
+                { "item": "thank-you", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["yes", "no", "ok", "i-see", "is-that-right", "one-moment-please"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Cho người nói biết bạn đã hiểu",
+                        "bodyVi": "Trong hội thoại, hãy phản hồi để người kia biết bạn đang theo kịp:\n\n- Đã hiểu: **I see.** / **OK.**\n- Muốn kiểm tra lại: nhắc lại điều bạn hiểu rồi hỏi **Is that right?**\n- Cần thời gian nghĩ: **One moment, please.** thay vì im lặng.\n\nKhi trả lời câu hỏi yes/no, nói thêm một câu ngắn nghe tự nhiên hơn: \"**Yes**, I'm a student.\" / \"**No**, I'm from Hanoi.\"",
+                        "items": ["i-see", "ok", "is-that-right", "one-moment-please", "yes", "no"]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["listening", "context", "sentence-build"],
+                        "items": ["yes", "no", "ok", "i-see", "is-that-right", "one-moment-please", "can-you-say-that-again", "thank-you"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "pre-a1-06-helping-a-tourist", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn cần vài giây để nhớ số điện thoại. Bạn nói:",
+                                "options": ["One moment, please.", "I see.", "Pardon?"],
+                                "answer": 0,
+                                "item": "one-moment-please"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"I see.\" trong hội thoại nghĩa là:",
+                                "options": ["Tôi nhìn thấy.", "À, tôi hiểu rồi.", "Tôi không biết."],
+                                "answer": 1,
+                                "item": "i-see"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "\"Desk\" is \"bàn học\". Is that ___?",
+                                "hintVi": "đúng",
+                                "answers": ["right"],
+                                "item": "is-that-right"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "pre-a1-06-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Người nước ngoài nói quá nhanh. Bạn nói:",
+                "options": ["Slowly, please.", "Goodbye.", "I see."],
+                "answer": 0,
+                "item": "slowly-please"
+            },
+            {
+                "kind": "order",
+                "vi": "\"Pardon\" nghĩa là gì?",
+                "answer": "What does \"pardon\" mean?",
+                "item": "what-does-mean"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Bạn không biết \"cái ghế\" tiếng Anh là gì. Bạn hỏi:",
+                "options": ["What does \"cái ghế\" mean?", "How do you say \"cái ghế\" in English?", "How do you spell \"cái ghế\"?"],
+                "answer": 1,
+                "item": "how-do-you-say"
+            },
+            {
+                "kind": "gap",
+                "sentence": "Sorry, I don't ___.",
+                "hintVi": "hiểu",
+                "answers": ["understand"],
+                "item": "i-dont-understand"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Bạn lỡ va vào người khác. Bạn nói:",
+                "options": ["Excuse me.", "Sorry!", "Pardon?"],
+                "answer": 1,
+                "item": "sorry"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "Can you say that again, please?",
+                "options": ["Bạn nói chậm được không?", "Bạn nói lại được không?", "Bạn đánh vần được không?"],
+                "answer": 1,
+                "item": "can-you-say-that-again"
+            }
+        ]
+    }
+}
