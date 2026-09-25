@@ -54,6 +54,8 @@ The learner is always `@CurrentUser()` (the token's `sub`).
 
 `content/stages.json` and `content/units/<stage-slug>/<unit-slug>.json` (the folder must be the unit's stage, the file name its slug). Records reference each other by slug only. Lesson and step order is array order. Step payloads carry `schemaVersion: 1`.
 
+`content/COVERAGE.md` tracks what has been authored (units, item counts by type, patterns, grammar points). Update it with every content change. Item slugs are global: reuse an existing item with `RECYCLE` rather than defining it again.
+
 Import rules, per row: new → insert as DRAFT; untouched since the last import (`contentHash == seedHash`) → take the seed; edited by an admin → keep the edit, and report a conflict if the seed changed too (`--force` lets the seed win). The importer never deletes and never changes `status`. A lesson row owns its steps and item links: they are hashed and rewritten together.
 
 ## Invariants

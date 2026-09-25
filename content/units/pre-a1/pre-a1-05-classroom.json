@@ -1,0 +1,692 @@
+{
+    "slug": "pre-a1-05-classroom",
+    "stage": "pre-a1",
+    "order": 5,
+    "title": "In the classroom",
+    "titleVi": "Trong lớp học",
+    "descriptionVi": "Đồ vật trong lớp, hỏi \"What's this?\", số nhiều -s và các câu lệnh thầy cô hay dùng.",
+    "canDo": [
+        "Tôi gọi tên được các đồ vật quen thuộc trong lớp.",
+        "Tôi hỏi và trả lời được \"What's this?\".",
+        "Tôi hiểu và làm theo được các câu lệnh đơn giản trong lớp."
+    ],
+    "items": [
+        {
+            "slug": "book",
+            "type": "LEXICAL",
+            "text": "book",
+            "meaningVi": "quyển sách",
+            "ipa": "/bʊk/",
+            "examples": [
+                { "en": "It's a book.", "vi": "Đó là một quyển sách.", "highlight": "book" }
+            ],
+            "noteVi": "Giữ âm cuối /k/, đừng nuốt thành \"bú\"."
+        },
+        {
+            "slug": "pen",
+            "type": "LEXICAL",
+            "text": "pen",
+            "meaningVi": "cái bút (bút mực, bút bi)",
+            "ipa": "/pen/",
+            "examples": [
+                { "en": "A pen and a book.", "vi": "Một cái bút và một quyển sách.", "highlight": "pen" }
+            ]
+        },
+        {
+            "slug": "pencil",
+            "type": "LEXICAL",
+            "text": "pencil",
+            "meaningVi": "bút chì",
+            "ipa": "/ˈpensəl/",
+            "examples": [
+                { "en": "A pen and a pencil.", "vi": "Một cái bút và một cái bút chì.", "highlight": "pencil" }
+            ]
+        },
+        {
+            "slug": "bag",
+            "type": "LEXICAL",
+            "text": "bag",
+            "meaningVi": "cái cặp, cái túi",
+            "ipa": "/bæɡ/",
+            "examples": [
+                { "en": "My bag.", "vi": "Cái cặp của mình.", "highlight": "bag" }
+            ],
+            "noteVi": "Âm /æ/ mở miệng rộng, giữa \"a\" và \"e\". Giữ âm cuối /ɡ/: bag khác back."
+        },
+        {
+            "slug": "desk",
+            "type": "LEXICAL",
+            "text": "desk",
+            "meaningVi": "bàn học, bàn làm việc",
+            "ipa": "/desk/",
+            "examples": [
+                { "en": "A book on the desk.", "vi": "Một quyển sách trên bàn.", "highlight": "desk" }
+            ],
+            "noteVi": "Cụm âm cuối /sk/: đọc đủ cả hai âm, không đọc thành \"đét\"."
+        },
+        {
+            "slug": "chair",
+            "type": "LEXICAL",
+            "text": "chair",
+            "meaningVi": "cái ghế",
+            "ipa": "/tʃer/",
+            "examples": [
+                { "en": "A desk and a chair.", "vi": "Một cái bàn và một cái ghế.", "highlight": "chair" }
+            ],
+            "noteVi": "Âm /tʃ/: chu môi và bật hơi mạnh hơn \"ch\" tiếng Việt."
+        },
+        {
+            "slug": "notebook",
+            "type": "LEXICAL",
+            "text": "notebook",
+            "meaningVi": "quyển vở",
+            "ipa": "/ˈnoʊtbʊk/",
+            "examples": [
+                { "en": "Open your notebook.", "vi": "Mở vở ra.", "highlight": "notebook" }
+            ]
+        },
+        {
+            "slug": "board",
+            "type": "LEXICAL",
+            "text": "board",
+            "meaningVi": "cái bảng",
+            "ipa": "/bɔːrd/",
+            "examples": [
+                { "en": "Look at the board.", "vi": "Nhìn lên bảng.", "highlight": "board" }
+            ]
+        },
+        {
+            "slug": "this",
+            "type": "LEXICAL",
+            "text": "this",
+            "meaningVi": "cái này, đây (ở gần)",
+            "ipa": "/ðɪs/",
+            "examples": [
+                { "en": "This is my pen.", "vi": "Đây là bút của mình.", "highlight": "This" }
+            ],
+            "noteVi": "Âm /ð/: đầu lưỡi giữa hai hàm răng, rung cổ họng. Không đọc \"đít\" hay \"dít\"."
+        },
+        {
+            "slug": "that",
+            "type": "LEXICAL",
+            "text": "that",
+            "meaningVi": "cái kia, đó (ở xa)",
+            "ipa": "/ðæt/",
+            "examples": [
+                { "en": "That is the door.", "vi": "Kia là cửa ra vào.", "highlight": "That" }
+            ]
+        },
+        {
+            "slug": "this-is-a",
+            "type": "PATTERN",
+            "text": "This is a …",
+            "meaningVi": "Đây là một …",
+            "examples": [
+                { "en": "This is a pencil.", "vi": "Đây là một cái bút chì.", "highlight": "This is a" }
+            ],
+            "pattern": {
+                "template": "This is a {thing}.",
+                "slots": [
+                    { "name": "thing", "hintVi": "đồ vật", "options": ["book", "pen", "desk"] }
+                ]
+            }
+        },
+        {
+            "slug": "whats-this",
+            "type": "PHRASE",
+            "text": "What's this?",
+            "meaningVi": "Đây là cái gì?",
+            "examples": [
+                { "en": "What's this? It's a notebook.", "vi": "Đây là cái gì? Đó là quyển vở.", "highlight": "What's this?" }
+            ],
+            "noteVi": "Hỏi vật ở xa thì dùng \"What's that?\"."
+        },
+        {
+            "slug": "its-a",
+            "type": "PATTERN",
+            "text": "It's a …",
+            "meaningVi": "Đó là một …",
+            "examples": [
+                { "en": "It's a chair.", "vi": "Đó là cái ghế.", "highlight": "It's a" }
+            ],
+            "pattern": {
+                "template": "It's a {thing}.",
+                "slots": [
+                    { "name": "thing", "hintVi": "đồ vật", "options": ["bag", "chair", "board"] }
+                ]
+            },
+            "noteVi": "Trả lời \"What's this?\" bằng \"It's a …\", không lặp lại \"This is a …\" cũng được nhưng ít tự nhiên hơn."
+        },
+        {
+            "slug": "plural-s",
+            "type": "GRAMMAR",
+            "text": "-s (plural)",
+            "meaningVi": "số nhiều: thêm -s",
+            "examples": [
+                { "en": "one book, two books", "vi": "một quyển sách, hai quyển sách", "highlight": "books" }
+            ],
+            "grammar": {
+                "ruleVi": "Từ hai vật trở lên, thêm -s vào danh từ: book → books. Âm -s cuối đọc là /s/ sau âm vô thanh (books, desks), /z/ sau âm hữu thanh (pens, bags, chairs), /ɪz/ sau các âm s, z, ch, sh (classes, boxes).",
+                "forms": [
+                    { "label": "/s/", "example": "books, desks, notebooks" },
+                    { "label": "/z/", "example": "pens, bags, chairs, doors" },
+                    { "label": "/ɪz/", "example": "classes, boxes" }
+                ],
+                "pitfallsVi": [
+                    "Tiếng Việt không đổi từ khi nói số nhiều, nên hay quên -s: \"two book\" → \"two books\".",
+                    "Viết -s nhưng không đọc: phải đọc rõ âm /s/ hoặc /z/ ở cuối.",
+                    "Không thêm a/an trước số nhiều: \"a books\" là sai."
+                ]
+            }
+        },
+        {
+            "slug": "door",
+            "type": "LEXICAL",
+            "text": "door",
+            "meaningVi": "cửa ra vào",
+            "ipa": "/dɔːr/",
+            "examples": [
+                { "en": "That is a door.", "vi": "Kia là cửa ra vào.", "highlight": "door" }
+            ]
+        },
+        {
+            "slug": "window",
+            "type": "LEXICAL",
+            "text": "window",
+            "meaningVi": "cửa sổ",
+            "ipa": "/ˈwɪndoʊ/",
+            "examples": [
+                { "en": "This is a window.", "vi": "Đây là cửa sổ.", "highlight": "window" }
+            ]
+        },
+        {
+            "slug": "open",
+            "type": "LEXICAL",
+            "text": "open",
+            "meaningVi": "mở",
+            "ipa": "/ˈoʊpən/",
+            "examples": [
+                { "en": "Open your book.", "vi": "Mở sách ra.", "highlight": "Open" }
+            ]
+        },
+        {
+            "slug": "close",
+            "type": "LEXICAL",
+            "text": "close",
+            "meaningVi": "đóng",
+            "ipa": "/kloʊz/",
+            "examples": [
+                { "en": "Close the door, please.", "vi": "Làm ơn đóng cửa lại.", "highlight": "Close" }
+            ],
+            "noteVi": "Động từ \"đóng\" đọc /kloʊz/ với âm cuối /z/."
+        },
+        {
+            "slug": "listen",
+            "type": "LEXICAL",
+            "text": "listen",
+            "meaningVi": "nghe, lắng nghe",
+            "ipa": "/ˈlɪsən/",
+            "examples": [
+                { "en": "Listen and repeat.", "vi": "Nghe và nhắc lại.", "highlight": "Listen" }
+            ],
+            "noteVi": "Chữ t câm: đọc /ˈlɪsən/."
+        },
+        {
+            "slug": "repeat",
+            "type": "LEXICAL",
+            "text": "repeat",
+            "meaningVi": "nhắc lại, lặp lại",
+            "ipa": "/rɪˈpiːt/",
+            "examples": [
+                { "en": "Listen and repeat.", "vi": "Nghe và nhắc lại.", "highlight": "repeat" }
+            ]
+        },
+        {
+            "slug": "read",
+            "type": "LEXICAL",
+            "text": "read",
+            "meaningVi": "đọc",
+            "ipa": "/riːd/",
+            "examples": [
+                { "en": "Read the book.", "vi": "Đọc sách.", "highlight": "Read" }
+            ]
+        },
+        {
+            "slug": "write",
+            "type": "LEXICAL",
+            "text": "write",
+            "meaningVi": "viết",
+            "ipa": "/raɪt/",
+            "examples": [
+                { "en": "Write your name.", "vi": "Viết tên của bạn.", "highlight": "Write" }
+            ],
+            "noteVi": "Chữ w câm: đọc /raɪt/, giống \"right\"."
+        },
+        {
+            "slug": "sit-down",
+            "type": "PHRASE",
+            "text": "Sit down.",
+            "meaningVi": "Ngồi xuống.",
+            "examples": [
+                { "en": "Sit down, please.", "vi": "Mời ngồi.", "highlight": "Sit down" }
+            ]
+        },
+        {
+            "slug": "stand-up",
+            "type": "PHRASE",
+            "text": "Stand up.",
+            "meaningVi": "Đứng lên.",
+            "examples": [
+                { "en": "Stand up, please.", "vi": "Mời đứng lên.", "highlight": "Stand up" }
+            ]
+        },
+        {
+            "slug": "please",
+            "type": "LEXICAL",
+            "text": "please",
+            "meaningVi": "làm ơn, vui lòng",
+            "ipa": "/pliːz/",
+            "examples": [
+                { "en": "Sit down, please.", "vi": "Mời bạn ngồi.", "highlight": "please" }
+            ],
+            "noteVi": "Câu mệnh lệnh không có \"please\" nghe khá cộc. Thêm \"please\" ở đầu hoặc cuối câu cho lịch sự. Nhớ âm cuối /z/."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "pre-a1-05-whats-this",
+            "title": "What's this?",
+            "situationVi": "Cô giáo chỉ vào các đồ vật trong lớp và hỏi bạn.",
+            "lines": [
+                { "speaker": "Ms. Hoa", "en": "What's this?", "vi": "Đây là cái gì?" },
+                { "speaker": "You", "en": "It's a pen.", "vi": "Đó là cái bút.", "learnerTurn": true },
+                { "speaker": "Ms. Hoa", "en": "Good. And what's that?", "vi": "Tốt lắm. Còn kia là cái gì?" },
+                { "speaker": "You", "en": "It's a window.", "vi": "Đó là cửa sổ.", "learnerTurn": true },
+                { "speaker": "Ms. Hoa", "en": "Yes! How do you spell window?", "vi": "Đúng rồi! \"Window\" đánh vần thế nào?" },
+                { "speaker": "You", "en": "W-I-N-D-O-W.", "vi": "W-I-N-D-O-W.", "learnerTurn": true }
+            ]
+        },
+        {
+            "slug": "pre-a1-05-class-begins",
+            "title": "The class begins",
+            "situationVi": "Đầu giờ học, thầy giáo đưa ra các câu lệnh cho cả lớp.",
+            "lines": [
+                { "speaker": "Mr. Brown", "en": "Good morning, class. Sit down, please.", "vi": "Chào cả lớp. Mời các em ngồi." },
+                { "speaker": "You", "en": "Good morning, Mr. Brown.", "vi": "Chúng em chào thầy Brown ạ.", "learnerTurn": true },
+                { "speaker": "Mr. Brown", "en": "Open your books, please. Listen and repeat: pencil.", "vi": "Các em mở sách ra. Nghe và nhắc lại: pencil." },
+                { "speaker": "You", "en": "Pencil.", "vi": "Pencil.", "learnerTurn": true },
+                { "speaker": "Mr. Brown", "en": "Good. Now write \"pencil\" in your notebook.", "vi": "Tốt. Giờ các em viết \"pencil\" vào vở." },
+                { "speaker": "Mr. Brown", "en": "OK, close your books and stand up, please.", "vi": "Được rồi, các em gấp sách lại và đứng lên nào." }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "pre-a1-05-l1-things",
+            "title": "Things in the classroom",
+            "titleVi": "Đồ vật trong lớp",
+            "estimatedMinutes": 10,
+            "items": [
+                { "item": "book", "role": "INTRODUCE" },
+                { "item": "pen", "role": "INTRODUCE" },
+                { "item": "pencil", "role": "INTRODUCE" },
+                { "item": "bag", "role": "INTRODUCE" },
+                { "item": "desk", "role": "INTRODUCE" },
+                { "item": "chair", "role": "INTRODUCE" },
+                { "item": "notebook", "role": "INTRODUCE" },
+                { "item": "board", "role": "INTRODUCE" },
+                { "item": "a-an", "role": "RECYCLE" },
+                { "item": "two", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 8 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["book", "pen", "pencil", "bag", "desk", "chair", "notebook", "board"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "a + đồ vật, và âm cuối",
+                        "bodyVi": "Nói về một đồ vật thì thêm **a** phía trước (như với nghề nghiệp): **a** book, **a** pen, **a** desk.\n\nChú ý âm cuối, vì bỏ âm cuối có thể làm đổi nghĩa:\n\n- boo**k** /k/, de**sk** /sk/, ba**g** /ɡ/\n- **bag** (cái cặp) khác **back** (lưng), **pen** khác **pencil**.",
+                        "items": ["a-an", "book", "desk", "bag"]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["book", "pen", "pencil", "bag", "desk", "chair", "notebook", "board"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "A book, a pen, a pencil.", "vi": "Một quyển sách, một cái bút, một cái bút chì." },
+                            { "en": "A desk and a chair.", "vi": "Một cái bàn và một cái ghế." },
+                            { "en": "My bag and my notebook.", "vi": "Cặp và vở của mình." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "desk",
+                                "options": ["cái ghế", "cái bàn", "cái bảng"],
+                                "answer": 1,
+                                "item": "desk"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"bút chì\" tiếng Anh là:",
+                                "options": ["pen", "pencil", "notebook"],
+                                "answer": 1,
+                                "item": "pencil"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "chair",
+                                "options": ["cái ghế", "cái cặp", "quyển sách"],
+                                "answer": 0,
+                                "item": "chair"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Look at the ___.",
+                                "hintVi": "cái bảng",
+                                "answers": ["board"],
+                                "item": "board"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "pre-a1-05-l2-whats-this",
+            "title": "What's this?",
+            "titleVi": "Đây là cái gì?",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "this", "role": "INTRODUCE" },
+                { "item": "that", "role": "INTRODUCE" },
+                { "item": "this-is-a", "role": "INTRODUCE" },
+                { "item": "whats-this", "role": "INTRODUCE" },
+                { "item": "its-a", "role": "INTRODUCE" },
+                { "item": "plural-s", "role": "INTRODUCE" },
+                { "item": "door", "role": "INTRODUCE" },
+                { "item": "window", "role": "INTRODUCE" },
+                { "item": "book", "role": "RECYCLE" },
+                { "item": "pen", "role": "RECYCLE" },
+                { "item": "chair", "role": "RECYCLE" },
+                { "item": "how-do-you-spell", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 8 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["this", "that", "this-is-a", "whats-this", "its-a", "door", "window"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "this / that và What's this?",
+                        "bodyVi": "- **this**: vật ở gần (trong tay, ngay cạnh). **that**: vật ở xa.\n- Giới thiệu: **This is a** + đồ vật.\n- Hỏi: **What's this?** / **What's that?** Trả lời: **It's a** + đồ vật.\n\nCả \"this\" và \"that\" đều bắt đầu bằng âm /ð/: đặt lưỡi giữa hai hàm răng và rung.",
+                        "items": ["this", "that", "this-is-a", "whats-this", "its-a"],
+                        "examples": [
+                            { "en": "What's this? It's a pen.", "vi": "Đây là cái gì? Đó là cái bút.", "highlight": "It's a" },
+                            { "en": "What's that? It's a window.", "vi": "Kia là cái gì? Đó là cửa sổ.", "highlight": "What's that?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "this-is-a",
+                        "prompts": [
+                            { "cueVi": "Đây là một quyển sách.", "slots": { "thing": "book" }, "answer": "This is a book." },
+                            { "cueVi": "Đây là một cái cửa sổ.", "slots": { "thing": "window" }, "answer": "This is a window." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "its-a",
+                        "prompts": [
+                            { "cueVi": "(What's this?) Đó là cái ghế.", "slots": { "thing": "chair" }, "answer": "It's a chair." },
+                            { "cueVi": "(What's that?) Đó là cái cửa.", "slots": { "thing": "door" }, "answer": "It's a door." }
+                        ]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Số nhiều: thêm -s",
+                        "bodyVi": "Tiếng Việt nói \"hai quyển **sách**\", từ \"sách\" không đổi. Tiếng Anh phải thêm **-s**: two book**s**.\n\nĐọc rõ âm -s ở cuối:\n\n- /s/: books, desks\n- /z/: pens, chairs, doors, windows\n\nKhông dùng **a** với số nhiều: ❌ a books.",
+                        "items": ["plural-s"],
+                        "examples": [
+                            { "en": "one pen, two pens", "vi": "một cái bút, hai cái bút", "highlight": "pens" },
+                            { "en": "one desk, two desks", "vi": "một cái bàn, hai cái bàn", "highlight": "desks" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["listening", "cloze", "sentence-build"],
+                        "items": ["this", "that", "whats-this", "door", "window", "book", "pen", "chair"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "pre-a1-05-whats-this", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn chỉ vào cái cửa ở xa và hỏi:",
+                                "options": ["What's this?", "What's that?", "This is a door."],
+                                "answer": 1,
+                                "item": "that"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "What's this? It's a ___.",
+                                "hintVi": "cửa sổ",
+                                "answers": ["window"],
+                                "item": "window"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["two book", "two books", "a books"],
+                                "answer": 1,
+                                "item": "plural-s"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Đây là một cái bút.",
+                                "answer": "This is a pen.",
+                                "item": "this-is-a"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "pre-a1-05-l3-classroom-language",
+            "title": "Open your book, please",
+            "titleVi": "Câu lệnh trong lớp",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "open", "role": "INTRODUCE" },
+                { "item": "close", "role": "INTRODUCE" },
+                { "item": "listen", "role": "INTRODUCE" },
+                { "item": "repeat", "role": "INTRODUCE" },
+                { "item": "read", "role": "INTRODUCE" },
+                { "item": "write", "role": "INTRODUCE" },
+                { "item": "sit-down", "role": "INTRODUCE" },
+                { "item": "stand-up", "role": "INTRODUCE" },
+                { "item": "please", "role": "INTRODUCE" },
+                { "item": "book", "role": "RECYCLE" },
+                { "item": "notebook", "role": "RECYCLE" },
+                { "item": "door", "role": "RECYCLE" },
+                { "item": "good-morning", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 8 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["open", "close", "listen", "repeat", "read", "write", "sit-down", "stand-up", "please"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Câu mệnh lệnh",
+                        "bodyVi": "Câu mệnh lệnh **bắt đầu bằng động từ**, không có chủ ngữ: **Open** your book. **Listen** and **repeat**.\n\nThêm **please** cho lịch sự: \"Sit down, **please**.\" hoặc \"**Please** sit down.\"\n\nChữ câm: lis**t**en (t câm), **w**rite (w câm).",
+                        "items": ["open", "listen", "write", "please"]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "context"],
+                        "items": ["open", "close", "listen", "repeat", "read", "write", "sit-down", "stand-up", "please", "notebook"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "Open your book, please.", "vi": "Làm ơn mở sách ra." },
+                            { "en": "Listen and repeat.", "vi": "Nghe và nhắc lại." },
+                            { "en": "Close the door, please.", "vi": "Làm ơn đóng cửa lại." },
+                            { "en": "Write your name in your notebook.", "vi": "Viết tên bạn vào vở." }
+                        ]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "pre-a1-05-class-begins", "mode": "listen" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Thầy giáo nói \"Stand up, please.\" Bạn làm gì?",
+                                "options": ["Ngồi xuống", "Đứng lên", "Mở sách"],
+                                "answer": 1,
+                                "item": "stand-up"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Listen and ___.",
+                                "hintVi": "nhắc lại",
+                                "answers": ["repeat"],
+                                "item": "repeat"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Trong \"listen\", chữ nào không đọc?",
+                                "options": ["l", "s", "t"],
+                                "answer": 2,
+                                "item": "listen"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Làm ơn đóng cửa lại.",
+                                "answer": "Close the door, please.",
+                                "item": "close"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "pre-a1-05-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "notebook",
+                "options": ["quyển sách", "quyển vở", "cái cặp"],
+                "answer": 1,
+                "item": "notebook"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Cô giáo cầm cái bút và hỏi \"What's this?\". Bạn trả lời:",
+                "options": ["It's a pen.", "It's pen.", "This pen."],
+                "answer": 0,
+                "item": "its-a"
+            },
+            {
+                "kind": "gap",
+                "sentence": "one chair, two ___",
+                "hintVi": "hai cái ghế",
+                "answers": ["chairs"],
+                "item": "plural-s"
+            },
+            {
+                "kind": "choice",
+                "prompt": "\"Sit down, please.\" nghĩa là:",
+                "options": ["Mời ngồi.", "Mời đứng lên.", "Mời vào."],
+                "answer": 0,
+                "item": "sit-down"
+            },
+            {
+                "kind": "gap",
+                "sentence": "___ your name, please.",
+                "hintVi": "viết",
+                "answers": ["Write"],
+                "item": "write"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào lịch sự nhất?",
+                "options": ["Open the door.", "Open the door, please.", "Door open."],
+                "answer": 1,
+                "item": "please"
+            }
+        ]
+    }
+}

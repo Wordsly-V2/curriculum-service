@@ -25,7 +25,9 @@ describe('buildRelease', () => {
             contentId('checkpoint', 'pre-a1-01-checkpoint'),
         );
         expect(
-            unit.lessons.map((l) => [l.slug, l.order, l.newItemCount]),
+            unit.lessons
+                .slice(0, 2)
+                .map((l) => [l.slug, l.order, l.newItemCount]),
         ).toEqual([
             ['pre-a1-01-l1-greetings', 1, 5],
             ['pre-a1-01-l2-names', 2, 5],
@@ -83,7 +85,9 @@ describe('buildRelease', () => {
     it('snapshots checkpoints and lists every item id', () => {
         const { checkpoints, items } = buildRelease(corpus);
         const itemIds = items.map((i) => i.itemId);
-        expect(checkpoints).toHaveLength(1);
+        expect(checkpoints).toHaveLength(
+            corpus.units.filter((u) => u.checkpoint).length,
+        );
         expect(checkpoints[0].payload).toMatchObject({
             passPercent: 70,
             unitId: contentId('unit', 'pre-a1-01-hello'),
@@ -91,7 +95,9 @@ describe('buildRelease', () => {
         expect(checkpoints[0].payload.questions.every((q) => q.itemId)).toBe(
             true,
         );
-        expect(itemIds).toHaveLength(10);
+        expect(itemIds).toHaveLength(
+            corpus.units.flatMap((u) => u.items).length,
+        );
         expect(itemIds).toContain(contentId('item', 'thank-you'));
         expect(
             items.find((i) => i.payload.slug === 'hi')?.payload,

@@ -4,11 +4,12 @@
     "order": 1,
     "title": "Hello!",
     "titleVi": "Xin chào!",
-    "descriptionVi": "Chào hỏi, tạm biệt, nói tên mình và hỏi thăm sức khỏe.",
+    "descriptionVi": "Chào hỏi, chào theo buổi, tạm biệt, nói tên mình và hỏi thăm sức khỏe.",
     "canDo": [
         "Tôi chào và tạm biệt được người khác.",
         "Tôi nói được tên mình và hỏi tên người khác.",
-        "Tôi hỏi thăm và trả lời được câu \"How are you?\"."
+        "Tôi hỏi thăm và trả lời được câu \"How are you?\".",
+        "Tôi chào được theo buổi sáng, chiều, tối."
     ],
     "items": [
         {
@@ -115,6 +116,66 @@
                 { "en": "I'm fine, thanks. And you?", "vi": "Mình khỏe, cảm ơn. Còn bạn?", "highlight": "I'm fine, thanks" }
             ],
             "noteVi": "Nhớ hỏi lại \"And you?\" cho lịch sự."
+        },
+        {
+            "slug": "good-morning",
+            "type": "PHRASE",
+            "text": "Good morning.",
+            "meaningVi": "Chào buổi sáng.",
+            "examples": [
+                { "en": "Good morning, Ms. Hoa.", "vi": "Em chào cô Hoa ạ.", "highlight": "Good morning" }
+            ],
+            "noteVi": "Dùng từ sáng đến khoảng 12 giờ trưa."
+        },
+        {
+            "slug": "good-afternoon",
+            "type": "PHRASE",
+            "text": "Good afternoon.",
+            "meaningVi": "Chào buổi chiều.",
+            "examples": [
+                { "en": "Good afternoon, Mr. Nam.", "vi": "Chào thầy Nam ạ.", "highlight": "Good afternoon" }
+            ],
+            "noteVi": "Dùng từ 12 giờ trưa đến khoảng 6 giờ tối."
+        },
+        {
+            "slug": "good-evening",
+            "type": "PHRASE",
+            "text": "Good evening.",
+            "meaningVi": "Chào buổi tối.",
+            "examples": [
+                { "en": "Good evening. How are you?", "vi": "Chào buổi tối. Bạn khỏe không?", "highlight": "Good evening" }
+            ],
+            "noteVi": "Dùng khi gặp nhau vào buổi tối."
+        },
+        {
+            "slug": "good-night",
+            "type": "PHRASE",
+            "text": "Good night.",
+            "meaningVi": "Chúc ngủ ngon; chào khi chia tay buổi tối.",
+            "examples": [
+                { "en": "Good night, Mom.", "vi": "Mẹ ngủ ngon nhé.", "highlight": "Good night" }
+            ],
+            "noteVi": "\"Good night\" chỉ dùng khi chia tay hoặc đi ngủ, không dùng để chào lúc mới gặp. Gặp nhau buổi tối thì nói \"Good evening\"."
+        },
+        {
+            "slug": "see-you-later",
+            "type": "PHRASE",
+            "text": "See you later.",
+            "meaningVi": "Hẹn gặp lại.",
+            "examples": [
+                { "en": "Bye, Tom. See you later.", "vi": "Tạm biệt Tom. Hẹn gặp lại nhé.", "highlight": "See you later" }
+            ],
+            "noteVi": "Thân mật, dùng khi chia tay. Nói ngắn hơn: \"See you!\""
+        },
+        {
+            "slug": "and-you",
+            "type": "PHRASE",
+            "text": "And you?",
+            "meaningVi": "Còn bạn thì sao?",
+            "examples": [
+                { "en": "I'm fine, thanks. And you?", "vi": "Mình khỏe, cảm ơn. Còn bạn?", "highlight": "And you?" }
+            ],
+            "noteVi": "Lên giọng ở cuối câu."
         }
     ],
     "dialogues": [
@@ -129,6 +190,19 @@
                 { "speaker": "You", "en": "Nice to meet you, too.", "vi": "Mình cũng rất vui được gặp bạn.", "learnerTurn": true },
                 { "speaker": "Tom", "en": "How are you?", "vi": "Bạn khỏe không?" },
                 { "speaker": "You", "en": "I'm fine, thanks. And you?", "vi": "Mình khỏe, cảm ơn. Còn bạn?", "learnerTurn": true }
+            ]
+        },
+        {
+            "slug": "pre-a1-01-good-morning",
+            "title": "Good morning, teacher",
+            "situationVi": "Buổi sáng, bạn gặp cô giáo ở cổng trường. Cuối buổi, hai người chào tạm biệt.",
+            "lines": [
+                { "speaker": "Ms. Hoa", "en": "Good morning!", "vi": "Chào em!" },
+                { "speaker": "You", "en": "Good morning, Ms. Hoa. How are you?", "vi": "Em chào cô Hoa ạ. Cô khỏe không ạ?", "learnerTurn": true },
+                { "speaker": "Ms. Hoa", "en": "I'm fine, thanks. And you?", "vi": "Cô khỏe, cảm ơn em. Còn em?" },
+                { "speaker": "You", "en": "I'm fine, thank you.", "vi": "Em khỏe ạ, cảm ơn cô.", "learnerTurn": true },
+                { "speaker": "Ms. Hoa", "en": "Goodbye. See you later.", "vi": "Tạm biệt em. Hẹn gặp lại." },
+                { "speaker": "You", "en": "Goodbye, Ms. Hoa!", "vi": "Em chào cô ạ!", "learnerTurn": true }
             ]
         }
     ],
@@ -291,6 +365,102 @@
                     }
                 }
             ]
+        },
+        {
+            "slug": "pre-a1-01-l3-times-of-day",
+            "title": "Good morning!",
+            "titleVi": "Chào theo buổi trong ngày",
+            "estimatedMinutes": 10,
+            "items": [
+                { "item": "good-morning", "role": "INTRODUCE" },
+                { "item": "good-afternoon", "role": "INTRODUCE" },
+                { "item": "good-evening", "role": "INTRODUCE" },
+                { "item": "good-night", "role": "INTRODUCE" },
+                { "item": "see-you-later", "role": "INTRODUCE" },
+                { "item": "and-you", "role": "INTRODUCE" },
+                { "item": "goodbye", "role": "RECYCLE" },
+                { "item": "how-are-you", "role": "RECYCLE" },
+                { "item": "im-fine-thanks", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 6 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["good-morning", "good-afternoon", "good-evening", "good-night", "see-you-later", "and-you"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Chào theo buổi",
+                        "bodyVi": "- Sáng: **Good morning.**\n- Chiều (sau 12 giờ trưa): **Good afternoon.**\n- Tối, lúc mới gặp: **Good evening.**\n- Tối, lúc chia tay hoặc đi ngủ: **Good night.**\n\nLỗi hay gặp: gặp bạn buổi tối lại nói \"Good night\". Câu đó nghĩa là \"chúc ngủ ngon\", dùng khi ra về.",
+                        "items": ["good-morning", "good-afternoon", "good-evening", "good-night"]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "context"],
+                        "items": ["good-morning", "good-afternoon", "good-evening", "good-night", "see-you-later", "and-you", "goodbye"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "Good morning!", "vi": "Chào buổi sáng!" },
+                            { "en": "I'm fine, thanks. And you?", "vi": "Mình khỏe, cảm ơn. Còn bạn?" },
+                            { "en": "See you later.", "vi": "Hẹn gặp lại." },
+                            { "en": "Good night.", "vi": "Chúc ngủ ngon." }
+                        ]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "pre-a1-01-good-morning", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "3 giờ chiều, bạn gặp thầy giáo. Bạn nói:",
+                                "options": ["Good morning.", "Good afternoon.", "Good night."],
+                                "answer": 1,
+                                "item": "good-afternoon"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "8 giờ tối, bạn vừa đến nhà bạn. Bạn nói:",
+                                "options": ["Good evening.", "Good night.", "Good afternoon."],
+                                "answer": 0,
+                                "item": "good-evening",
+                                "explanationVi": "Lúc mới gặp buổi tối dùng \"Good evening\". \"Good night\" để chia tay hoặc đi ngủ."
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "See you ___.",
+                                "hintVi": "hẹn gặp lại",
+                                "answers": ["later"],
+                                "item": "see-you-later"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Mình khỏe, cảm ơn. Còn bạn?",
+                                "answer": "I'm fine, thanks. And you?",
+                                "item": "and-you"
+                            }
+                        ]
+                    }
+                }
+            ]
         }
     ],
     "checkpoint": {
@@ -322,6 +492,20 @@
                 "vi": "Mình khỏe, cảm ơn.",
                 "answer": "I'm fine, thanks.",
                 "item": "im-fine-thanks"
+            },
+            {
+                "kind": "choice",
+                "prompt": "10 giờ tối, bạn chia tay mẹ để đi ngủ. Bạn nói:",
+                "options": ["Good evening.", "Good night.", "Good morning."],
+                "answer": 1,
+                "item": "good-night"
+            },
+            {
+                "kind": "gap",
+                "sentence": "Good ___, teacher.",
+                "hintVi": "buổi sáng",
+                "answers": ["morning"],
+                "item": "good-morning"
             }
         ]
     }
