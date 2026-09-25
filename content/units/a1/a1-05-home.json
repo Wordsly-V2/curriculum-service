@@ -1,0 +1,763 @@
+{
+    "slug": "a1-05-home",
+    "stage": "a1",
+    "order": 5,
+    "title": "Home",
+    "titleVi": "Nhà cửa",
+    "descriptionVi": "Phòng và đồ đạc trong nhà, There is / There are, giới từ nơi chốn, hỏi đồ vật ở đâu.",
+    "canDo": [
+        "Tôi kể được nhà mình có những phòng nào.",
+        "Tôi tả được trong phòng có gì bằng There is / There are, và hỏi Is there…?",
+        "Tôi hỏi và nói được đồ vật ở đâu (in, on, under, next to…)."
+    ],
+    "items": [
+        {
+            "slug": "house",
+            "type": "LEXICAL",
+            "text": "house",
+            "meaningVi": "ngôi nhà",
+            "ipa": "/haʊs/",
+            "examples": [
+                { "en": "My parents live in a small house.", "vi": "Bố mẹ mình sống trong một ngôi nhà nhỏ.", "highlight": "house" }
+            ],
+            "noteVi": "Giữ âm cuối /s/. Số nhiều houses đọc /ˈhaʊzɪz/."
+        },
+        {
+            "slug": "apartment",
+            "type": "LEXICAL",
+            "text": "apartment",
+            "meaningVi": "căn hộ, chung cư",
+            "ipa": "/əˈpɑːrtmənt/",
+            "examples": [
+                { "en": "I live in an apartment in the city.", "vi": "Mình sống trong một căn hộ ở thành phố.", "highlight": "apartment" }
+            ],
+            "noteVi": "Anh-Anh gọi là flat. Bắt đầu bằng nguyên âm nên dùng an: an apartment. Nhấn âm thứ hai: a-PART-ment."
+        },
+        {
+            "slug": "room",
+            "type": "LEXICAL",
+            "text": "room",
+            "meaningVi": "phòng",
+            "ipa": "/ruːm/",
+            "examples": [
+                { "en": "Our apartment has four rooms.", "vi": "Căn hộ nhà mình có bốn phòng.", "highlight": "rooms" }
+            ]
+        },
+        {
+            "slug": "bedroom",
+            "type": "LEXICAL",
+            "text": "bedroom",
+            "meaningVi": "phòng ngủ",
+            "ipa": "/ˈbedruːm/",
+            "examples": [
+                { "en": "There are two bedrooms.", "vi": "Có hai phòng ngủ.", "highlight": "bedrooms" }
+            ],
+            "noteVi": "Ghép từ bed (giường) + room (phòng). Nhấn âm đầu: BED-room."
+        },
+        {
+            "slug": "bathroom",
+            "type": "LEXICAL",
+            "text": "bathroom",
+            "meaningVi": "phòng tắm, nhà vệ sinh",
+            "ipa": "/ˈbæθruːm/",
+            "examples": [
+                { "en": "Excuse me, where's the bathroom?", "vi": "Xin lỗi, nhà vệ sinh ở đâu ạ?", "highlight": "bathroom" }
+            ],
+            "noteVi": "Người Mỹ hỏi nhà vệ sinh bằng \"bathroom\" (ở nhà hàng: \"restroom\"). Âm /θ/ ở giữa."
+        },
+        {
+            "slug": "kitchen",
+            "type": "LEXICAL",
+            "text": "kitchen",
+            "meaningVi": "nhà bếp",
+            "ipa": "/ˈkɪtʃɪn/",
+            "examples": [
+                { "en": "My mother is in the kitchen.", "vi": "Mẹ mình đang ở trong bếp.", "highlight": "kitchen" }
+            ],
+            "noteVi": "Đừng nhầm với chicken (thịt gà): kitchen bắt đầu bằng /k/, chicken bằng /tʃ/."
+        },
+        {
+            "slug": "living-room",
+            "type": "LEXICAL",
+            "text": "living room",
+            "meaningVi": "phòng khách",
+            "ipa": "/ˈlɪvɪŋ ruːm/",
+            "examples": [
+                { "en": "We watch TV in the living room.", "vi": "Nhà mình xem TV ở phòng khách.", "highlight": "living room" }
+            ],
+            "noteVi": "Không nói \"guest room\" cho phòng khách; guest room là phòng cho khách ngủ lại."
+        },
+        {
+            "slug": "at-home",
+            "type": "PHRASE",
+            "text": "at home",
+            "meaningVi": "ở nhà",
+            "examples": [
+                { "en": "I'm at home on Sunday.", "vi": "Chủ nhật mình ở nhà.", "highlight": "at home" }
+            ],
+            "noteVi": "Ở nhà: at home. Về nhà: go home (không có to). Không nói \"in home\"."
+        },
+        {
+            "slug": "bed",
+            "type": "LEXICAL",
+            "text": "bed",
+            "meaningVi": "cái giường",
+            "ipa": "/bed/",
+            "examples": [
+                { "en": "There's a big bed in my bedroom.", "vi": "Phòng ngủ của mình có một cái giường to.", "highlight": "bed" }
+            ],
+            "noteVi": "Giữ âm cuối /d/: bed khác bet."
+        },
+        {
+            "slug": "table",
+            "type": "LEXICAL",
+            "text": "table",
+            "meaningVi": "cái bàn",
+            "ipa": "/ˈteɪbəl/",
+            "examples": [
+                { "en": "The keys are on the table.", "vi": "Chìa khóa ở trên bàn.", "highlight": "table" }
+            ],
+            "noteVi": "table là bàn nói chung (bàn ăn); desk là bàn học, bàn làm việc."
+        },
+        {
+            "slug": "sofa",
+            "type": "LEXICAL",
+            "text": "sofa",
+            "meaningVi": "ghế sofa",
+            "ipa": "/ˈsoʊfə/",
+            "examples": [
+                { "en": "There's a sofa in the living room.", "vi": "Phòng khách có một cái ghế sofa.", "highlight": "sofa" }
+            ]
+        },
+        {
+            "slug": "lamp",
+            "type": "LEXICAL",
+            "text": "lamp",
+            "meaningVi": "cái đèn (bàn, đứng)",
+            "ipa": "/læmp/",
+            "examples": [
+                { "en": "There's a lamp next to the bed.", "vi": "Có một cái đèn cạnh giường.", "highlight": "lamp" }
+            ],
+            "noteVi": "Cụm âm cuối /mp/: mím môi rồi bật nhẹ /p/."
+        },
+        {
+            "slug": "fridge",
+            "type": "LEXICAL",
+            "text": "fridge",
+            "meaningVi": "tủ lạnh",
+            "ipa": "/frɪdʒ/",
+            "examples": [
+                { "en": "Is there any milk in the fridge?", "vi": "Trong tủ lạnh còn sữa không?", "highlight": "fridge" }
+            ],
+            "noteVi": "Dạng ngắn của refrigerator. Âm cuối /dʒ/."
+        },
+        {
+            "slug": "there-is-there-are",
+            "type": "GRAMMAR",
+            "text": "there is / there are",
+            "meaningVi": "có (cái gì ở đâu)",
+            "examples": [
+                { "en": "There is a sofa and there are two chairs.", "vi": "Có một cái sofa và hai cái ghế.", "highlight": "There is" }
+            ],
+            "grammar": {
+                "ruleVi": "Dùng there is / there are để nói ở đâu đó có cái gì. There is (there's) + danh từ số ít hoặc không đếm được; there are + danh từ số nhiều. Phủ định: there isn't / there aren't. Câu hỏi: Is there …? / Are there …?",
+                "forms": [
+                    { "label": "có (số ít)", "example": "There's a lamp in my room." },
+                    { "label": "có (số nhiều)", "example": "There are three bedrooms." },
+                    { "label": "không có", "example": "There isn't a TV. There aren't any chairs." },
+                    { "label": "câu hỏi", "example": "Is there a bathroom? Yes, there is. / No, there isn't." }
+                ],
+                "pitfallsVi": [
+                    "Dịch \"có\" thành have: \"In my room have a bed\" → There's a bed in my room.",
+                    "\"There have\" → There is / There are.",
+                    "Số nhiều quên are: \"There is two chairs\" → There are two chairs.",
+                    "Trả lời ngắn không rút gọn: \"Yes, there's\" → Yes, there is."
+                ]
+            }
+        },
+        {
+            "slug": "there-is",
+            "type": "PATTERN",
+            "text": "There's … in the …",
+            "meaningVi": "Trong … có …",
+            "examples": [
+                { "en": "There's a bed in the bedroom.", "vi": "Trong phòng ngủ có một cái giường.", "highlight": "There's" }
+            ],
+            "pattern": {
+                "template": "There's {thing} in the {room}.",
+                "slots": [
+                    { "name": "thing", "hintVi": "một đồ vật (a/an + danh từ)", "options": ["a bed", "a sofa", "a fridge"] },
+                    { "name": "room", "hintVi": "tên phòng", "options": ["bedroom", "living room", "kitchen"] }
+                ]
+            },
+            "noteVi": "There's = There is. Nơi chốn thường đứng cuối câu."
+        },
+        {
+            "slug": "there-are",
+            "type": "PATTERN",
+            "text": "There are … in the …",
+            "meaningVi": "Trong … có (nhiều) …",
+            "examples": [
+                { "en": "There are two chairs in the kitchen.", "vi": "Trong bếp có hai cái ghế.", "highlight": "There are" }
+            ],
+            "pattern": {
+                "template": "There are {things} in the {room}.",
+                "slots": [
+                    { "name": "things", "hintVi": "số + danh từ số nhiều", "options": ["two chairs", "three windows", "some books"] },
+                    { "name": "room", "hintVi": "tên phòng", "options": ["kitchen", "living room", "bedroom"] }
+                ]
+            },
+            "noteVi": "Danh từ sau there are luôn ở số nhiều: two chairs, không nói \"two chair\"."
+        },
+        {
+            "slug": "is-there-a",
+            "type": "PATTERN",
+            "text": "Is there … in the …?",
+            "meaningVi": "Trong … có … không?",
+            "examples": [
+                { "en": "Is there a TV in the bedroom? No, there isn't.", "vi": "Phòng ngủ có TV không? Không có.", "highlight": "Is there" }
+            ],
+            "pattern": {
+                "template": "Is there {thing} in the {room}?",
+                "slots": [
+                    { "name": "thing", "hintVi": "một đồ vật", "options": ["a lamp", "a table", "a window"] },
+                    { "name": "room", "hintVi": "tên phòng", "options": ["bedroom", "kitchen", "bathroom"] }
+                ]
+            },
+            "noteVi": "Trả lời: \"Yes, there is.\" / \"No, there isn't.\" Không trả lời \"Yes, it has.\""
+        },
+        {
+            "slug": "in",
+            "type": "LEXICAL",
+            "text": "in",
+            "meaningVi": "trong, ở trong",
+            "ipa": "/ɪn/",
+            "examples": [
+                { "en": "The milk is in the fridge.", "vi": "Sữa ở trong tủ lạnh.", "highlight": "in" }
+            ]
+        },
+        {
+            "slug": "on",
+            "type": "LEXICAL",
+            "text": "on",
+            "meaningVi": "trên (chạm bề mặt)",
+            "ipa": "/ɑːn/",
+            "examples": [
+                { "en": "Your phone is on the table.", "vi": "Điện thoại của bạn ở trên bàn.", "highlight": "on" }
+            ],
+            "noteVi": "on là nằm trên và chạm vào bề mặt. Treo trên tường cũng là on: on the wall."
+        },
+        {
+            "slug": "under",
+            "type": "LEXICAL",
+            "text": "under",
+            "meaningVi": "dưới, ở dưới",
+            "ipa": "/ˈʌndər/",
+            "examples": [
+                { "en": "The cat is under the bed.", "vi": "Con mèo ở dưới gầm giường.", "highlight": "under" }
+            ]
+        },
+        {
+            "slug": "next-to",
+            "type": "PHRASE",
+            "text": "next to",
+            "meaningVi": "bên cạnh",
+            "examples": [
+                { "en": "The bathroom is next to the kitchen.", "vi": "Phòng tắm ở cạnh nhà bếp.", "highlight": "next to" }
+            ],
+            "noteVi": "Luôn có to: \"next to the door\", không nói \"next the door\"."
+        },
+        {
+            "slug": "behind",
+            "type": "LEXICAL",
+            "text": "behind",
+            "meaningVi": "phía sau",
+            "ipa": "/bɪˈhaɪnd/",
+            "examples": [
+                { "en": "My bag is behind the door.", "vi": "Túi của mình ở sau cánh cửa.", "highlight": "behind" }
+            ],
+            "noteVi": "Nhấn âm thứ hai: be-HIND. Giữ âm cuối /nd/."
+        },
+        {
+            "slug": "in-front-of",
+            "type": "PHRASE",
+            "text": "in front of",
+            "meaningVi": "phía trước",
+            "examples": [
+                { "en": "There's a table in front of the sofa.", "vi": "Có một cái bàn trước ghế sofa.", "highlight": "in front of" }
+            ],
+            "noteVi": "Đủ ba từ: in front of. Không nói \"in front the sofa\" hay \"front of\"."
+        },
+        {
+            "slug": "prepositions-of-place",
+            "type": "GRAMMAR",
+            "text": "in / on / under / next to / behind / in front of",
+            "meaningVi": "giới từ chỉ nơi chốn",
+            "examples": [
+                { "en": "The keys are on the table, next to the lamp.", "vi": "Chìa khóa ở trên bàn, cạnh cái đèn.", "highlight": "next to" }
+            ],
+            "grammar": {
+                "ruleVi": "Giới từ nơi chốn đứng trước danh từ chỉ chỗ, thường kèm the: in the box, on the table. Câu tả vị trí: vật + be + giới từ + chỗ.",
+                "forms": [
+                    { "label": "in: bên trong", "example": "in the bag, in the kitchen" },
+                    { "label": "on: trên bề mặt", "example": "on the desk, on the wall" },
+                    { "label": "under: bên dưới", "example": "under the bed" },
+                    { "label": "next to / behind / in front of", "example": "next to the door, behind the sofa, in front of the house" }
+                ],
+                "pitfallsVi": [
+                    "Quên be: \"The keys on the table\" → The keys are on the table.",
+                    "Quên the: \"on table\" → on the table.",
+                    "\"ở trên tường\" là on the wall, không phải in the wall.",
+                    "Thiếu to hoặc of: \"next the door\", \"in front the house\"."
+                ]
+            }
+        },
+        {
+            "slug": "where-is",
+            "type": "PATTERN",
+            "text": "Where's my …?",
+            "meaningVi": "… của tôi đâu rồi?",
+            "examples": [
+                { "en": "Where's my phone? It's on the sofa.", "vi": "Điện thoại của mình đâu rồi? Trên ghế sofa kìa.", "highlight": "Where's my" }
+            ],
+            "pattern": {
+                "template": "Where's my {thing}?",
+                "slots": [
+                    { "name": "thing", "hintVi": "một đồ vật (số ít)", "options": ["phone", "key", "bag"] }
+                ]
+            },
+            "noteVi": "Số nhiều: \"Where are my keys?\" Trả lời: \"It's on/in/under …\"."
+        },
+        {
+            "slug": "key",
+            "type": "LEXICAL",
+            "text": "key",
+            "meaningVi": "chìa khóa",
+            "ipa": "/kiː/",
+            "examples": [
+                { "en": "Where are my keys?", "vi": "Chìa khóa của mình đâu rồi?", "highlight": "keys" }
+            ],
+            "noteVi": "Một chùm chìa khóa thường nói số nhiều: my keys."
+        },
+        {
+            "slug": "phone",
+            "type": "LEXICAL",
+            "text": "phone",
+            "meaningVi": "điện thoại",
+            "ipa": "/foʊn/",
+            "examples": [
+                { "en": "My phone is in my bag.", "vi": "Điện thoại của mình ở trong túi.", "highlight": "phone" }
+            ],
+            "noteVi": "Chữ ph đọc /f/. Giữ âm cuối /n/: phone, không đọc \"phôn\" ngắn."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "a1-05-my-new-apartment",
+            "title": "My new apartment",
+            "situationVi": "Bạn kể với đồng nghiệp về căn hộ mới.",
+            "lines": [
+                { "speaker": "Anna", "en": "Do you live in a house?", "vi": "Bạn sống ở nhà riêng à?" },
+                { "speaker": "You", "en": "No, I live in an apartment.", "vi": "Không, mình sống ở căn hộ.", "learnerTurn": true },
+                { "speaker": "Anna", "en": "Is it big?", "vi": "Có rộng không?" },
+                { "speaker": "You", "en": "Not really. There are two bedrooms and a small kitchen.", "vi": "Không lắm. Có hai phòng ngủ và một bếp nhỏ.", "learnerTurn": true },
+                { "speaker": "Anna", "en": "Is there a living room?", "vi": "Có phòng khách không?" },
+                { "speaker": "You", "en": "Yes, there is. There's a big sofa in the living room.", "vi": "Có. Trong phòng khách có một cái sofa to.", "learnerTurn": true }
+            ]
+        },
+        {
+            "slug": "a1-05-wheres-my-key",
+            "title": "Where's my key?",
+            "situationVi": "Sắp đi làm, bạn không tìm thấy chìa khóa và điện thoại.",
+            "lines": [
+                { "speaker": "You", "en": "Where's my key?", "vi": "Chìa khóa của mình đâu rồi?", "learnerTurn": true },
+                { "speaker": "Mom", "en": "It's on the table, next to the lamp.", "vi": "Trên bàn, cạnh cái đèn ấy." },
+                { "speaker": "You", "en": "Thanks. And where's my phone?", "vi": "Cảm ơn mẹ. Còn điện thoại của con đâu?", "learnerTurn": true },
+                { "speaker": "Mom", "en": "Is it in your bag?", "vi": "Có trong túi con không?" },
+                { "speaker": "You", "en": "No, it isn't. Oh, it's under the sofa!", "vi": "Không có. À, nó ở dưới ghế sofa!", "learnerTurn": true }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "a1-05-l1-rooms",
+            "title": "My home",
+            "titleVi": "Các phòng trong nhà",
+            "estimatedMinutes": 10,
+            "items": [
+                { "item": "house", "role": "INTRODUCE" },
+                { "item": "apartment", "role": "INTRODUCE" },
+                { "item": "room", "role": "INTRODUCE" },
+                { "item": "bedroom", "role": "INTRODUCE" },
+                { "item": "bathroom", "role": "INTRODUCE" },
+                { "item": "kitchen", "role": "INTRODUCE" },
+                { "item": "living-room", "role": "INTRODUCE" },
+                { "item": "at-home", "role": "INTRODUCE" },
+                { "item": "i-live-in", "role": "RECYCLE" },
+                { "item": "i-have", "role": "RECYCLE" },
+                { "item": "our", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 8 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["house", "apartment", "room", "bedroom", "bathroom", "kitchen", "living-room", "at-home"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Nhà, phòng, ở nhà",
+                        "bodyVi": "- Sống trong: I live **in** a house / **in** an apartment.\n- Nhà có mấy phòng: Our apartment **has** three rooms. (nói về nhà của mình dùng **have/has**)\n- Ở nhà: I'm **at home**. Về nhà: I go **home**.\n\n❌ I'm in home. I go to home. ✅ I'm at home. I go home.\n\nTên phòng ghép từ hai từ: **bed**room, **bath**room, **living** room. Âm nhấn luôn ở phần đầu.",
+                        "items": ["i-live-in", "i-have", "at-home", "bedroom", "bathroom", "living-room"]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["house", "apartment", "room", "bedroom", "bathroom", "kitchen", "living-room", "at-home"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "I live in an apartment.", "vi": "Mình sống trong một căn hộ." },
+                            { "en": "Our apartment has three rooms.", "vi": "Căn hộ nhà mình có ba phòng." },
+                            { "en": "I'm at home. I'm in the kitchen.", "vi": "Mình đang ở nhà. Mình đang ở trong bếp." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "\"phòng khách\" tiếng Anh là:",
+                                "options": ["guest room", "living room", "bedroom"],
+                                "answer": 1,
+                                "item": "living-room"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I'm in home.", "I'm at home.", "I'm at the home."],
+                                "answer": 1,
+                                "item": "at-home"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "kitchen",
+                                "options": ["thịt gà", "nhà bếp", "phòng tắm"],
+                                "answer": 1,
+                                "item": "kitchen"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I live in an ___.",
+                                "hintVi": "căn hộ",
+                                "answers": ["apartment"],
+                                "item": "apartment"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a1-05-l2-there-is",
+            "title": "There's a sofa",
+            "titleVi": "Trong phòng có gì",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "bed", "role": "INTRODUCE" },
+                { "item": "table", "role": "INTRODUCE" },
+                { "item": "sofa", "role": "INTRODUCE" },
+                { "item": "lamp", "role": "INTRODUCE" },
+                { "item": "fridge", "role": "INTRODUCE" },
+                { "item": "there-is-there-are", "role": "INTRODUCE" },
+                { "item": "there-is", "role": "INTRODUCE" },
+                { "item": "there-are", "role": "INTRODUCE" },
+                { "item": "is-there-a", "role": "INTRODUCE" },
+                { "item": "chair", "role": "RECYCLE" },
+                { "item": "window", "role": "RECYCLE" },
+                { "item": "bedroom", "role": "RECYCLE" },
+                { "item": "plural-s", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 8 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["bed", "table", "sofa", "lamp", "fridge", "there-is", "there-are", "is-there-a"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "There is / There are: \"có\"",
+                        "bodyVi": "Muốn nói ở đâu đó **có** cái gì, tiếng Anh dùng **there is / there are**, không dùng have.\n\n❌ In my room have a bed. ✅ **There's** a bed in my room.\n\n| | có | không có | hỏi |\n|---|---|---|---|\n| số ít | There**'s** a lamp. | There **isn't** a TV. | **Is there** a TV? |\n| số nhiều | There **are** two chairs. | There **aren't** any chairs. | **Are there** any chairs? |\n\nTrả lời ngắn: **Yes, there is.** / **No, there isn't.**\n\nCòn nói nhà **của ai** có gì thì dùng have: **My** apartment **has** two bedrooms.",
+                        "items": ["there-is-there-are", "there-is", "there-are", "is-there-a", "plural-s"],
+                        "examples": [
+                            { "en": "There's a fridge in the kitchen.", "vi": "Trong bếp có một cái tủ lạnh.", "highlight": "There's" },
+                            { "en": "There are three windows in the bedroom.", "vi": "Phòng ngủ có ba cửa sổ.", "highlight": "There are" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "there-is",
+                        "prompts": [
+                            { "cueVi": "Trong phòng ngủ có một cái giường.", "slots": { "thing": "a bed", "room": "bedroom" }, "answer": "There's a bed in the bedroom." },
+                            { "cueVi": "Trong phòng khách có một cái sofa.", "slots": { "thing": "a sofa", "room": "living room" }, "answer": "There's a sofa in the living room." },
+                            { "cueVi": "Trong bếp có một cái tủ lạnh.", "slots": { "thing": "a fridge", "room": "kitchen" }, "answer": "There's a fridge in the kitchen." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "there-are",
+                        "prompts": [
+                            { "cueVi": "Trong bếp có hai cái ghế.", "slots": { "things": "two chairs", "room": "kitchen" }, "answer": "There are two chairs in the kitchen." },
+                            { "cueVi": "Phòng khách có ba cửa sổ.", "slots": { "things": "three windows", "room": "living room" }, "answer": "There are three windows in the living room." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "is-there-a",
+                        "prompts": [
+                            { "cueVi": "Hỏi: phòng ngủ có đèn không?", "slots": { "thing": "a lamp", "room": "bedroom" }, "answer": "Is there a lamp in the bedroom?" },
+                            { "cueVi": "Hỏi: trong bếp có bàn không?", "slots": { "thing": "a table", "room": "kitchen" }, "answer": "Is there a table in the kitchen?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "context"],
+                        "items": ["bed", "table", "sofa", "lamp", "fridge", "chair", "window"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a1-05-my-new-apartment", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Trong phòng mình có một cái giường.\" Câu nào đúng?",
+                                "options": ["In my room have a bed.", "There's a bed in my room.", "My room there is a bed."],
+                                "answer": 1,
+                                "item": "there-is-there-are"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "There ___ two chairs in the kitchen.",
+                                "answers": ["are"],
+                                "item": "there-are"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Is there a TV in the bedroom?\" Không có. Bạn trả lời:",
+                                "options": ["No, there isn't.", "No, it hasn't.", "No, there's not TV."],
+                                "answer": 0,
+                                "item": "is-there-a"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "fridge",
+                                "options": ["tủ lạnh", "cái đèn", "cái giường"],
+                                "answer": 0,
+                                "item": "fridge"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Trong phòng khách có một cái sofa.",
+                                "answer": "There's a sofa in the living room.",
+                                "item": "there-is"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a1-05-l3-where-is-it",
+            "title": "Where's my key?",
+            "titleVi": "Đồ vật ở đâu",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "in", "role": "INTRODUCE" },
+                { "item": "on", "role": "INTRODUCE" },
+                { "item": "under", "role": "INTRODUCE" },
+                { "item": "next-to", "role": "INTRODUCE" },
+                { "item": "behind", "role": "INTRODUCE" },
+                { "item": "in-front-of", "role": "INTRODUCE" },
+                { "item": "prepositions-of-place", "role": "INTRODUCE" },
+                { "item": "where-is", "role": "INTRODUCE" },
+                { "item": "key", "role": "INTRODUCE" },
+                { "item": "phone", "role": "INTRODUCE" },
+                { "item": "table", "role": "RECYCLE" },
+                { "item": "sofa", "role": "RECYCLE" },
+                { "item": "bag", "role": "RECYCLE" },
+                { "item": "be-present", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["in", "on", "under", "next-to", "behind", "in-front-of", "where-is", "key", "phone"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Giới từ nơi chốn",
+                        "bodyVi": "Tả vị trí: **vật + be + giới từ + the + chỗ**.\n\n- The milk **is in** the fridge.\n- My phone **is on** the table.\n- The cat **is under** the bed.\n- The lamp **is next to** the sofa.\n- My bag **is behind** the door.\n- The table **is in front of** the sofa.\n\n❌ My phone on the table. (thiếu is) ✅ My phone **is** on the table.\n\nHỏi đồ ở đâu: **Where's my** key? / **Where are my** keys?",
+                        "items": ["prepositions-of-place", "in", "on", "under", "next-to", "behind", "in-front-of", "where-is", "be-present"]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "where-is",
+                        "prompts": [
+                            { "cueVi": "Hỏi: điện thoại của mình đâu?", "slots": { "thing": "phone" }, "answer": "Where's my phone?" },
+                            { "cueVi": "Hỏi: chìa khóa của mình đâu?", "slots": { "thing": "key" }, "answer": "Where's my key?" },
+                            { "cueVi": "Hỏi: túi của mình đâu?", "slots": { "thing": "bag" }, "answer": "Where's my bag?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "cloze", "sentence-build"],
+                        "items": ["in", "on", "under", "next-to", "behind", "in-front-of", "key", "phone", "table", "sofa"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a1-05-wheres-my-key", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Điện thoại ở trên bàn.\" Câu nào đúng?",
+                                "options": ["The phone on the table.", "The phone is on the table.", "The phone is in table."],
+                                "answer": 1,
+                                "item": "prepositions-of-place"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "The lamp is next ___ the bed.",
+                                "answers": ["to"],
+                                "item": "next-to"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Con mèo ở dưới gầm giường: The cat is ___ the bed.",
+                                "options": ["on", "under", "behind"],
+                                "answer": 1,
+                                "item": "under"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "in front of",
+                                "options": ["phía sau", "bên cạnh", "phía trước"],
+                                "answer": 2,
+                                "item": "in-front-of"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Chìa khóa của mình đâu rồi?",
+                                "answer": "Where's my key?",
+                                "item": "where-is"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "a1-05-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "\"Nhà mình có hai phòng ngủ.\" Câu nào đúng?",
+                "options": ["There is two bedrooms in my house.", "There are two bedrooms in my house.", "In my house have two bedrooms."],
+                "answer": 1,
+                "item": "there-is-there-are"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "bathroom",
+                "options": ["phòng tắm", "phòng ngủ", "nhà bếp"],
+                "answer": 0,
+                "item": "bathroom"
+            },
+            {
+                "kind": "gap",
+                "sentence": "Is there a sofa in the living room? Yes, there ___.",
+                "answers": ["is"],
+                "item": "is-there-a"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Cái bàn ở phía trước ghế sofa: The table is ___ the sofa.",
+                "options": ["in front of", "behind", "under"],
+                "answer": 0,
+                "item": "in-front-of"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["I'm in home now.", "I'm at home now.", "I'm to home now."],
+                "answer": 1,
+                "item": "at-home"
+            },
+            {
+                "kind": "order",
+                "vi": "Điện thoại của mình ở trong túi.",
+                "answer": "My phone is in my bag.",
+                "item": "phone"
+            }
+        ]
+    }
+}

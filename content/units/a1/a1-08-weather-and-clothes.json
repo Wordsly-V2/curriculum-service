@@ -1,0 +1,724 @@
+{
+    "slug": "a1-08-weather-and-clothes",
+    "stage": "a1",
+    "order": 8,
+    "title": "Weather and clothes",
+    "titleVi": "Thời tiết và quần áo",
+    "descriptionVi": "Hỏi và nói về thời tiết, gọi tên quần áo, nói mình đang mặc gì, tả đồ vật bằng tính từ cơ bản.",
+    "canDo": [
+        "Tôi hỏi và nói được thời tiết hôm nay thế nào.",
+        "Tôi gọi tên được quần áo thường ngày và nói mình đang mặc gì.",
+        "Tôi tả được đồ vật bằng tính từ đơn giản (big, small, new, old…) và nói nó quá to, quá đắt."
+    ],
+    "items": [
+        {
+            "slug": "weather",
+            "type": "LEXICAL",
+            "text": "weather",
+            "meaningVi": "thời tiết",
+            "ipa": "/ˈweðər/",
+            "examples": [
+                { "en": "The weather is nice today.", "vi": "Hôm nay thời tiết đẹp.", "highlight": "weather" }
+            ],
+            "noteVi": "Âm /ð/ ở giữa. Không đếm được: không nói \"a weather\" hay \"a nice weather\"."
+        },
+        {
+            "slug": "hot",
+            "type": "LEXICAL",
+            "text": "hot",
+            "meaningVi": "nóng",
+            "ipa": "/hɑːt/",
+            "examples": [
+                { "en": "It's very hot in Ho Chi Minh City.", "vi": "Ở Thành phố Hồ Chí Minh trời rất nóng.", "highlight": "hot" }
+            ],
+            "noteVi": "Nói trời nóng dùng It's: \"It's hot\", không nói \"The weather hot\" hay \"I'm hot today\" khi nói về thời tiết."
+        },
+        {
+            "slug": "cold",
+            "type": "LEXICAL",
+            "text": "cold",
+            "meaningVi": "lạnh",
+            "ipa": "/koʊld/",
+            "examples": [
+                { "en": "It's cold in Hanoi in January.", "vi": "Tháng Một ở Hà Nội trời lạnh.", "highlight": "cold" }
+            ],
+            "noteVi": "Giữ cụm âm cuối /ld/. I have a cold = tôi bị cảm."
+        },
+        {
+            "slug": "warm",
+            "type": "LEXICAL",
+            "text": "warm",
+            "meaningVi": "ấm",
+            "ipa": "/wɔːrm/",
+            "examples": [
+                { "en": "It's warm and sunny today.", "vi": "Hôm nay trời ấm và nắng.", "highlight": "warm" }
+            ],
+            "noteVi": "Đọc /wɔːrm/ (\"guôm\"), không đọc như \"worm\"."
+        },
+        {
+            "slug": "cool",
+            "type": "LEXICAL",
+            "text": "cool",
+            "meaningVi": "mát",
+            "ipa": "/kuːl/",
+            "examples": [
+                { "en": "It's cool in the evening.", "vi": "Buổi tối trời mát.", "highlight": "cool" }
+            ],
+            "noteVi": "Nói thân mật, cool còn có nghĩa \"hay, ngầu\": \"That's cool!\""
+        },
+        {
+            "slug": "sunny",
+            "type": "LEXICAL",
+            "text": "sunny",
+            "meaningVi": "có nắng",
+            "ipa": "/ˈsʌni/",
+            "examples": [
+                { "en": "It's sunny today. Let's go to the park!", "vi": "Hôm nay trời nắng. Đi công viên đi!", "highlight": "sunny" }
+            ],
+            "noteVi": "sun (mặt trời) + -ny. Tương tự: rain → rainy, cloud → cloudy, wind → windy."
+        },
+        {
+            "slug": "rainy",
+            "type": "LEXICAL",
+            "text": "rainy",
+            "meaningVi": "có mưa, nhiều mưa",
+            "ipa": "/ˈreɪni/",
+            "examples": [
+                { "en": "It's rainy in September.", "vi": "Tháng Chín trời hay mưa.", "highlight": "rainy" }
+            ],
+            "noteVi": "Mùa mưa: the rainy season. Đang mưa lúc này: It's raining (tiếp diễn)."
+        },
+        {
+            "slug": "cloudy",
+            "type": "LEXICAL",
+            "text": "cloudy",
+            "meaningVi": "nhiều mây, âm u",
+            "ipa": "/ˈklaʊdi/",
+            "examples": [
+                { "en": "It's cloudy, but it isn't raining.", "vi": "Trời nhiều mây nhưng không mưa.", "highlight": "cloudy" }
+            ]
+        },
+        {
+            "slug": "windy",
+            "type": "LEXICAL",
+            "text": "windy",
+            "meaningVi": "có gió, lộng gió",
+            "ipa": "/ˈwɪndi/",
+            "examples": [
+                { "en": "It's windy by the sea.", "vi": "Ở gần biển trời nhiều gió.", "highlight": "windy" }
+            ]
+        },
+        {
+            "slug": "whats-the-weather-like",
+            "type": "PHRASE",
+            "text": "What's the weather like?",
+            "meaningVi": "Thời tiết thế nào?",
+            "examples": [
+                { "en": "What's the weather like today? It's hot and sunny.", "vi": "Hôm nay thời tiết thế nào? Trời nóng và nắng.", "highlight": "What's the weather like" }
+            ],
+            "noteVi": "like ở đây không phải \"thích\"; cả câu nghĩa là \"thế nào\". Trả lời: \"It's …\"."
+        },
+        {
+            "slug": "clothes",
+            "type": "LEXICAL",
+            "text": "clothes",
+            "meaningVi": "quần áo",
+            "ipa": "/kloʊðz/",
+            "examples": [
+                { "en": "I'm buying new clothes for Tet.", "vi": "Mình đang mua quần áo mới để đón Tết.", "highlight": "clothes" }
+            ],
+            "noteVi": "Luôn số nhiều, không có \"a clothe\". Đọc gọn một âm tiết /kloʊðz/ (nhiều người đọc /kloʊz/)."
+        },
+        {
+            "slug": "shirt",
+            "type": "LEXICAL",
+            "text": "shirt",
+            "meaningVi": "áo sơ mi",
+            "ipa": "/ʃɜːrt/",
+            "examples": [
+                { "en": "He's wearing a white shirt.", "vi": "Anh ấy đang mặc áo sơ mi trắng.", "highlight": "shirt" }
+            ],
+            "noteVi": "Giữ âm cuối /t/: shirt khác short (ngắn)."
+        },
+        {
+            "slug": "t-shirt",
+            "type": "LEXICAL",
+            "text": "T-shirt",
+            "meaningVi": "áo thun, áo phông",
+            "ipa": "/ˈtiː ʃɜːrt/",
+            "examples": [
+                { "en": "I usually wear a T-shirt at home.", "vi": "Ở nhà mình thường mặc áo thun.", "highlight": "T-shirt" }
+            ]
+        },
+        {
+            "slug": "pants",
+            "type": "LEXICAL",
+            "text": "pants",
+            "meaningVi": "quần dài",
+            "ipa": "/pænts/",
+            "examples": [
+                { "en": "These pants are too long.", "vi": "Cái quần này dài quá.", "highlight": "pants" }
+            ],
+            "noteVi": "Luôn số nhiều, đi với are: \"My pants are black.\" Anh-Anh gọi là trousers (pants ở Anh là quần lót)."
+        },
+        {
+            "slug": "dress",
+            "type": "LEXICAL",
+            "text": "dress",
+            "meaningVi": "váy liền, đầm",
+            "ipa": "/dres/",
+            "examples": [
+                { "en": "She's wearing a beautiful red dress.", "vi": "Cô ấy đang mặc một chiếc đầm đỏ rất đẹp.", "highlight": "dress" }
+            ],
+            "noteVi": "dress cũng là động từ \"mặc đồ\": get dressed. Áo dài: \"ao dai\"."
+        },
+        {
+            "slug": "jacket",
+            "type": "LEXICAL",
+            "text": "jacket",
+            "meaningVi": "áo khoác",
+            "ipa": "/ˈdʒækɪt/",
+            "examples": [
+                { "en": "It's cold. Take a jacket.", "vi": "Trời lạnh đấy. Mang áo khoác đi.", "highlight": "jacket" }
+            ],
+            "noteVi": "Âm đầu /dʒ/ (\"ch\" rung), giữ âm cuối /t/."
+        },
+        {
+            "slug": "shoes",
+            "type": "LEXICAL",
+            "text": "shoes",
+            "meaningVi": "giày",
+            "ipa": "/ʃuːz/",
+            "examples": [
+                { "en": "Please take off your shoes.", "vi": "Vui lòng cởi giày ra.", "highlight": "shoes" }
+            ],
+            "noteVi": "Một đôi giày: a pair of shoes. Âm cuối /z/. Dép lê: slippers; dép tông: flip-flops."
+        },
+        {
+            "slug": "hat",
+            "type": "LEXICAL",
+            "text": "hat",
+            "meaningVi": "mũ, nón",
+            "ipa": "/hæt/",
+            "examples": [
+                { "en": "It's sunny. Wear a hat.", "vi": "Trời nắng. Đội mũ vào nhé.", "highlight": "hat" }
+            ],
+            "noteVi": "Đội mũ cũng dùng wear. Mũ bảo hiểm: helmet."
+        },
+        {
+            "slug": "im-wearing",
+            "type": "PATTERN",
+            "text": "I'm wearing …",
+            "meaningVi": "Tôi đang mặc …",
+            "examples": [
+                { "en": "I'm wearing a blue shirt and black pants.", "vi": "Mình đang mặc áo sơ mi xanh và quần đen.", "highlight": "I'm wearing" }
+            ],
+            "pattern": {
+                "template": "I'm wearing {clothes}.",
+                "slots": [
+                    { "name": "clothes", "hintVi": "quần áo (có màu nếu muốn)", "options": ["a white T-shirt", "black pants", "a red dress"] }
+                ]
+            },
+            "noteVi": "wear dùng cho mọi thứ mặc, đội, đi, đeo: wear a hat, wear shoes, wear glasses."
+        },
+        {
+            "slug": "big",
+            "type": "LEXICAL",
+            "text": "big",
+            "meaningVi": "to, lớn",
+            "ipa": "/bɪɡ/",
+            "examples": [
+                { "en": "This jacket is too big for me.", "vi": "Cái áo khoác này to quá so với mình.", "highlight": "big" }
+            ],
+            "noteVi": "Giữ âm cuối /ɡ/: big khác bit."
+        },
+        {
+            "slug": "small",
+            "type": "LEXICAL",
+            "text": "small",
+            "meaningVi": "nhỏ",
+            "ipa": "/smɔːl/",
+            "examples": [
+                { "en": "Do you have a small size?", "vi": "Bạn có size nhỏ không?", "highlight": "small" }
+            ],
+            "noteVi": "Cụm âm đầu /sm/: không chèn thêm âm \"sờ-mô\"."
+        },
+        {
+            "slug": "new",
+            "type": "LEXICAL",
+            "text": "new",
+            "meaningVi": "mới",
+            "ipa": "/nuː/",
+            "examples": [
+                { "en": "I like your new shoes!", "vi": "Mình thích đôi giày mới của bạn!", "highlight": "new" }
+            ]
+        },
+        {
+            "slug": "old",
+            "type": "LEXICAL",
+            "text": "old",
+            "meaningVi": "cũ; già",
+            "ipa": "/oʊld/",
+            "examples": [
+                { "en": "This is an old T-shirt. I wear it at home.", "vi": "Đây là áo thun cũ. Mình mặc ở nhà.", "highlight": "old" }
+            ],
+            "noteVi": "Hai nghĩa: cũ (đồ vật) và già (người). Bắt đầu bằng nguyên âm nên dùng an: an old bag."
+        },
+        {
+            "slug": "beautiful",
+            "type": "LEXICAL",
+            "text": "beautiful",
+            "meaningVi": "đẹp",
+            "ipa": "/ˈbjuːtɪfəl/",
+            "examples": [
+                { "en": "What a beautiful dress!", "vi": "Chiếc đầm đẹp quá!", "highlight": "beautiful" }
+            ],
+            "noteVi": "Nhấn âm đầu: BEAU-ti-ful. Nam giới thường khen handsome, đồ vật thì nice hoặc beautiful."
+        },
+        {
+            "slug": "nice",
+            "type": "LEXICAL",
+            "text": "nice",
+            "meaningVi": "đẹp, dễ chịu, tốt",
+            "ipa": "/naɪs/",
+            "examples": [
+                { "en": "That's a nice jacket.", "vi": "Cái áo khoác đó đẹp đấy.", "highlight": "nice" }
+            ],
+            "noteVi": "Từ khen dùng được gần như mọi lúc: nice weather, nice shoes, nice to meet you."
+        },
+        {
+            "slug": "adjectives",
+            "type": "GRAMMAR",
+            "text": "a big bag / The bag is big.",
+            "meaningVi": "vị trí của tính từ",
+            "examples": [
+                { "en": "It's a new jacket. The jacket is new.", "vi": "Đó là một cái áo khoác mới. Cái áo khoác mới.", "highlight": "new jacket" }
+            ],
+            "grammar": {
+                "ruleVi": "Tính từ đứng trước danh từ (a big bag) hoặc sau be (The bag is big). Tính từ không bao giờ thêm -s, kể cả khi danh từ số nhiều.",
+                "forms": [
+                    { "label": "tính từ + danh từ", "example": "a small house, new shoes" },
+                    { "label": "be + tính từ", "example": "The house is small. My shoes are new." },
+                    { "label": "too + tính từ (quá)", "example": "It's too big. They're too expensive." }
+                ],
+                "pitfallsVi": [
+                    "Đặt tính từ sau danh từ như tiếng Việt: \"a bag big\" → a big bag.",
+                    "Thêm -s vào tính từ: \"news shoes\", \"bigs bags\" → new shoes, big bags.",
+                    "Thiếu be: \"The shoes very nice\" → The shoes are very nice.",
+                    "Dùng too khi khen: too nghĩa là \"quá mức, không hợp\"; khen thì dùng very: very nice."
+                ]
+            }
+        },
+        {
+            "slug": "its-too",
+            "type": "PATTERN",
+            "text": "It's too …",
+            "meaningVi": "Nó … quá (không hợp)",
+            "examples": [
+                { "en": "It's too expensive. Do you have a cheap one?", "vi": "Cái này đắt quá. Bạn có cái nào rẻ không?", "highlight": "too expensive" }
+            ],
+            "pattern": {
+                "template": "It's too {adjective}.",
+                "slots": [
+                    { "name": "adjective", "hintVi": "tính từ", "options": ["big", "small", "expensive"] }
+                ]
+            },
+            "noteVi": "too mang nghĩa chê: quá mức nên không được. Số nhiều: \"They're too small.\""
+        },
+        {
+            "slug": "umbrella",
+            "type": "LEXICAL",
+            "text": "umbrella",
+            "meaningVi": "cái ô, cây dù",
+            "ipa": "/ʌmˈbrelə/",
+            "examples": [
+                { "en": "It's raining. Take an umbrella.", "vi": "Trời đang mưa. Mang ô đi.", "highlight": "umbrella" }
+            ],
+            "noteVi": "Nhấn âm thứ hai: um-BREL-la. Bắt đầu bằng nguyên âm nên dùng an: an umbrella. Áo mưa: raincoat."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "a1-08-whats-the-weather-like",
+            "title": "What's the weather like?",
+            "situationVi": "Bạn gọi video cho một người bạn ở nước ngoài và hỏi thời tiết.",
+            "lines": [
+                { "speaker": "Emma", "en": "Hi! What's the weather like in Hanoi?", "vi": "Chào! Thời tiết ở Hà Nội thế nào?" },
+                { "speaker": "You", "en": "It's cold and cloudy today. What's the weather like there?", "vi": "Hôm nay trời lạnh và nhiều mây. Bên đó thời tiết thế nào?", "learnerTurn": true },
+                { "speaker": "Emma", "en": "It's sunny and warm. I'm wearing a T-shirt!", "vi": "Trời nắng và ấm. Mình đang mặc áo thun!" },
+                { "speaker": "You", "en": "Lucky you! I'm wearing a big jacket.", "vi": "Sướng thế! Mình đang mặc áo khoác dày.", "learnerTurn": true },
+                { "speaker": "Emma", "en": "Is it raining?", "vi": "Có mưa không?" },
+                { "speaker": "You", "en": "No, it isn't. But it's very windy.", "vi": "Không. Nhưng gió to lắm.", "learnerTurn": true }
+            ]
+        },
+        {
+            "slug": "a1-08-its-too-big",
+            "title": "It's too big",
+            "situationVi": "Bạn mua áo khoác ở một cửa hàng quần áo.",
+            "lines": [
+                { "speaker": "Clerk", "en": "Hi. Can I help you?", "vi": "Chào bạn. Mình giúp gì được không?" },
+                { "speaker": "You", "en": "Yes. How much is this black jacket?", "vi": "Vâng. Cái áo khoác đen này bao nhiêu?", "learnerTurn": true },
+                { "speaker": "Clerk", "en": "It's five hundred thousand dong.", "vi": "Năm trăm nghìn." },
+                { "speaker": "You", "en": "It's nice, but it's too big. Do you have a small one?", "vi": "Đẹp, nhưng to quá. Bạn có cỡ nhỏ không?", "learnerTurn": true },
+                { "speaker": "Clerk", "en": "Sure. Here you are.", "vi": "Có ạ. Đây bạn." },
+                { "speaker": "You", "en": "Great. I'll take it.", "vi": "Tuyệt. Mình lấy cái này.", "learnerTurn": true }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "a1-08-l1-weather",
+            "title": "What's the weather like?",
+            "titleVi": "Thời tiết",
+            "estimatedMinutes": 10,
+            "items": [
+                { "item": "weather", "role": "INTRODUCE" },
+                { "item": "hot", "role": "INTRODUCE" },
+                { "item": "cold", "role": "INTRODUCE" },
+                { "item": "warm", "role": "INTRODUCE" },
+                { "item": "cool", "role": "INTRODUCE" },
+                { "item": "sunny", "role": "INTRODUCE" },
+                { "item": "rainy", "role": "INTRODUCE" },
+                { "item": "cloudy", "role": "INTRODUCE" },
+                { "item": "windy", "role": "INTRODUCE" },
+                { "item": "whats-the-weather-like", "role": "INTRODUCE" },
+                { "item": "today", "role": "RECYCLE" },
+                { "item": "present-continuous", "role": "RECYCLE" },
+                { "item": "month-january", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 8 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["weather", "hot", "cold", "warm", "cool", "sunny", "rainy", "cloudy", "windy", "whats-the-weather-like"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Nói về thời tiết: It's …",
+                        "bodyVi": "Tiếng Việt nói \"trời nóng\", tiếng Anh dùng chủ ngữ **it**: **It's** hot. **It's** sunny.\n\n❌ Today hot. The weather hot. ✅ **It's** hot today. The weather **is** nice.\n\n- Tính từ thời tiết: sun → **sunny**, rain → **rainy**, cloud → **cloudy**, wind → **windy**.\n- Đang mưa lúc này: **It's raining.** (hiện tại tiếp diễn)\n- Hỏi: **What's the weather like** today? → **It's** warm and sunny.\n\nNóng dần đến lạnh: **hot** → **warm** → **cool** → **cold**.",
+                        "items": ["whats-the-weather-like", "hot", "warm", "cool", "cold", "rainy", "present-continuous", "today"],
+                        "examples": [
+                            { "en": "It's cold in January.", "vi": "Tháng Một trời lạnh.", "highlight": "It's cold" },
+                            { "en": "Look! It's raining.", "vi": "Nhìn kìa! Trời đang mưa.", "highlight": "It's raining" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["weather", "hot", "cold", "warm", "cool", "sunny", "rainy", "cloudy", "windy", "whats-the-weather-like"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "What's the weather like today?", "vi": "Hôm nay thời tiết thế nào?" },
+                            { "en": "It's hot and sunny.", "vi": "Trời nóng và nắng." },
+                            { "en": "It's cloudy, but it isn't raining.", "vi": "Trời nhiều mây nhưng không mưa." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Hôm nay trời nóng.\" Câu nào đúng?",
+                                "options": ["Today hot.", "It's hot today.", "Today is hot weather."],
+                                "answer": 1,
+                                "item": "hot"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "cloudy",
+                                "options": ["nhiều gió", "nhiều mây", "có nắng"],
+                                "answer": 1,
+                                "item": "cloudy"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nhìn ra cửa sổ: trời đang mưa. Bạn nói:",
+                                "options": ["It rains.", "It's raining.", "It's rainy every day."],
+                                "answer": 1,
+                                "item": "present-continuous"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Hôm nay thời tiết thế nào?",
+                                "answer": "What's the weather like today?",
+                                "item": "whats-the-weather-like"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a1-08-l2-clothes",
+            "title": "I'm wearing a T-shirt",
+            "titleVi": "Quần áo",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "clothes", "role": "INTRODUCE" },
+                { "item": "shirt", "role": "INTRODUCE" },
+                { "item": "t-shirt", "role": "INTRODUCE" },
+                { "item": "pants", "role": "INTRODUCE" },
+                { "item": "dress", "role": "INTRODUCE" },
+                { "item": "jacket", "role": "INTRODUCE" },
+                { "item": "shoes", "role": "INTRODUCE" },
+                { "item": "hat", "role": "INTRODUCE" },
+                { "item": "im-wearing", "role": "INTRODUCE" },
+                { "item": "white", "role": "RECYCLE" },
+                { "item": "black", "role": "RECYCLE" },
+                { "item": "cold", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["clothes", "shirt", "t-shirt", "pants", "dress", "jacket", "shoes", "hat", "im-wearing"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "wear: mặc, đội, đi, đeo",
+                        "bodyVi": "Tiếng Việt có mặc áo, đội mũ, đi giày, đeo kính; tiếng Anh dùng một từ **wear** cho tất cả.\n\n- Thói quen: I usually **wear** a T-shirt at home.\n- Đang mặc lúc này: I**'m wearing** a white shirt.\n\nMột số từ **luôn ở số nhiều**, đi với **are**: **clothes**, **pants**, **shoes**.\n\n❌ My pants is black. ✅ My pants **are** black.\n\nMàu đứng trước: a **white** shirt, **black** shoes.",
+                        "items": ["im-wearing", "clothes", "pants", "shoes", "white", "black"]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "im-wearing",
+                        "prompts": [
+                            { "cueVi": "Mình đang mặc áo thun trắng.", "slots": { "clothes": "a white T-shirt" }, "answer": "I'm wearing a white T-shirt." },
+                            { "cueVi": "Mình đang mặc quần đen.", "slots": { "clothes": "black pants" }, "answer": "I'm wearing black pants." },
+                            { "cueVi": "Mình đang mặc áo khoác.", "slots": { "clothes": "a jacket" }, "answer": "I'm wearing a jacket." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "context"],
+                        "items": ["clothes", "shirt", "t-shirt", "pants", "dress", "jacket", "shoes", "hat"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a1-08-whats-the-weather-like", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Đội mũ\" tiếng Anh là:",
+                                "options": ["put a hat", "wear a hat", "carry a hat"],
+                                "answer": 1,
+                                "item": "hat"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "My new pants ___ black.",
+                                "answers": ["are"],
+                                "item": "pants"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "jacket",
+                                "options": ["áo khoác", "áo sơ mi", "đầm"],
+                                "answer": 0,
+                                "item": "jacket"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Mình đang mặc áo sơ mi trắng.",
+                                "answer": "I'm wearing a white shirt.",
+                                "item": "im-wearing"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a1-08-l3-describing",
+            "title": "It's too big",
+            "titleVi": "Tả đồ vật",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "big", "role": "INTRODUCE" },
+                { "item": "small", "role": "INTRODUCE" },
+                { "item": "new", "role": "INTRODUCE" },
+                { "item": "old", "role": "INTRODUCE" },
+                { "item": "beautiful", "role": "INTRODUCE" },
+                { "item": "nice", "role": "INTRODUCE" },
+                { "item": "adjectives", "role": "INTRODUCE" },
+                { "item": "its-too", "role": "INTRODUCE" },
+                { "item": "umbrella", "role": "INTRODUCE" },
+                { "item": "expensive", "role": "RECYCLE" },
+                { "item": "jacket", "role": "RECYCLE" },
+                { "item": "rainy", "role": "RECYCLE" },
+                { "item": "ill-take-it", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["big", "small", "new", "old", "beautiful", "nice", "its-too", "umbrella"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Tính từ đứng ở đâu?",
+                        "bodyVi": "Tính từ có hai chỗ:\n\n1. **Trước danh từ**: a **new** jacket, **old** shoes.\n2. **Sau be**: The jacket **is new**. My shoes **are old**.\n\n❌ a jacket new, news shoes ✅ a **new** jacket, **new** shoes (tính từ không thêm -s)\n\n**very** và **too** khác nhau:\n\n- **very** = rất (khen hoặc tả): It's **very** nice.\n- **too** = quá mức, nên không được: It's **too** big. (mình không mua)",
+                        "items": ["adjectives", "its-too", "new", "old", "big", "expensive"],
+                        "examples": [
+                            { "en": "It's a very nice jacket, but it's too expensive.", "vi": "Áo khoác rất đẹp, nhưng đắt quá.", "highlight": "too expensive" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "its-too",
+                        "prompts": [
+                            { "cueVi": "Chê: to quá.", "slots": { "adjective": "big" }, "answer": "It's too big." },
+                            { "cueVi": "Chê: nhỏ quá.", "slots": { "adjective": "small" }, "answer": "It's too small." },
+                            { "cueVi": "Chê: đắt quá.", "slots": { "adjective": "expensive" }, "answer": "It's too expensive." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "cloze", "sentence-build"],
+                        "items": ["big", "small", "new", "old", "beautiful", "nice", "umbrella", "jacket"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a1-08-its-too-big", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I have news shoes.", "I have shoes new.", "I have new shoes."],
+                                "answer": 2,
+                                "item": "adjectives"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn thích chiếc đầm. Bạn khen:",
+                                "options": ["It's too beautiful.", "It's very beautiful.", "It's beautifuls."],
+                                "answer": 1,
+                                "item": "beautiful"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I can't buy it. It's ___ expensive.",
+                                "hintVi": "quá",
+                                "answers": ["too"],
+                                "item": "its-too"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Trời đang mưa. Bạn nhắc bạn mình mang:",
+                                "options": ["an umbrella", "a hat", "a T-shirt"],
+                                "answer": 0,
+                                "item": "umbrella"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Cái áo khoác này cũ.",
+                                "answer": "This jacket is old.",
+                                "item": "old"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "a1-08-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Hỏi thời tiết thế nào:",
+                "options": ["How is weather?", "What's the weather like?", "What weather do you like?"],
+                "answer": 1,
+                "item": "whats-the-weather-like"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "windy",
+                "options": ["nhiều gió", "có mưa", "mát"],
+                "answer": 0,
+                "item": "windy"
+            },
+            {
+                "kind": "gap",
+                "sentence": "Today she's ___ a red dress.",
+                "hintVi": "mặc",
+                "answers": ["wearing"],
+                "item": "im-wearing"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["My shoes is new.", "My shoes are new.", "My shoes are news."],
+                "answer": 1,
+                "item": "adjectives"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Cái áo to quá, bạn không mua. Bạn nói:",
+                "options": ["It's very big.", "It's too big.", "It's big too."],
+                "answer": 1,
+                "item": "its-too"
+            },
+            {
+                "kind": "order",
+                "vi": "Trời lạnh. Mang áo khoác đi.",
+                "answer": "It's cold. Take a jacket.",
+                "item": "jacket"
+            }
+        ]
+    }
+}

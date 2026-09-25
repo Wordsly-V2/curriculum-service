@@ -1,0 +1,715 @@
+{
+    "slug": "a1-09-directions",
+    "stage": "a1",
+    "order": 9,
+    "title": "Directions",
+    "titleVi": "Hỏi đường",
+    "descriptionVi": "Địa điểm trong thành phố, hỏi gần đây có … không, hỏi và chỉ đường bằng câu mệnh lệnh, đi bằng gì, xa hay gần.",
+    "canDo": [
+        "Tôi gọi tên được các địa điểm quen thuộc và hỏi gần đây có … không.",
+        "Tôi hỏi đường và hiểu được chỉ dẫn đơn giản (đi thẳng, rẽ trái, ở bên phải…).",
+        "Tôi hỏi được đường đến một nơi, có xa không, và đi bộ hay đi xe mất bao lâu."
+    ],
+    "items": [
+        {
+            "slug": "bank",
+            "type": "LEXICAL",
+            "text": "bank",
+            "meaningVi": "ngân hàng",
+            "ipa": "/bæŋk/",
+            "examples": [
+                { "en": "The bank is next to the supermarket.", "vi": "Ngân hàng ở cạnh siêu thị.", "highlight": "bank" }
+            ],
+            "noteVi": "Cụm âm cuối /ŋk/: đừng bỏ /k/. Cây ATM: ATM hoặc cash machine."
+        },
+        {
+            "slug": "hospital",
+            "type": "LEXICAL",
+            "text": "hospital",
+            "meaningVi": "bệnh viện",
+            "ipa": "/ˈhɑːspɪtəl/",
+            "examples": [
+                { "en": "Is there a hospital near here?", "vi": "Gần đây có bệnh viện không?", "highlight": "hospital" }
+            ],
+            "noteVi": "Nhấn âm đầu: HOS-pi-tal. Phòng khám nhỏ: clinic."
+        },
+        {
+            "slug": "supermarket",
+            "type": "LEXICAL",
+            "text": "supermarket",
+            "meaningVi": "siêu thị",
+            "ipa": "/ˈsuːpərmɑːrkɪt/",
+            "examples": [
+                { "en": "I buy milk at the supermarket.", "vi": "Mình mua sữa ở siêu thị.", "highlight": "supermarket" }
+            ],
+            "noteVi": "Cửa hàng tiện lợi: convenience store."
+        },
+        {
+            "slug": "post-office",
+            "type": "LEXICAL",
+            "text": "post office",
+            "meaningVi": "bưu điện",
+            "ipa": "/ˈpoʊst ˌɔːfɪs/",
+            "examples": [
+                { "en": "The post office is on Le Loi Street.", "vi": "Bưu điện ở đường Lê Lợi.", "highlight": "post office" }
+            ],
+            "noteVi": "Nhấn vào post. Giữ âm cuối /st/ của post."
+        },
+        {
+            "slug": "bus-stop",
+            "type": "LEXICAL",
+            "text": "bus stop",
+            "meaningVi": "trạm xe buýt",
+            "ipa": "/ˈbʌs stɑːp/",
+            "examples": [
+                { "en": "I'm waiting at the bus stop.", "vi": "Mình đang đợi ở trạm xe buýt.", "highlight": "bus stop" }
+            ],
+            "noteVi": "Ở trạm xe buýt dùng at: at the bus stop."
+        },
+        {
+            "slug": "pharmacy",
+            "type": "LEXICAL",
+            "text": "pharmacy",
+            "meaningVi": "hiệu thuốc",
+            "ipa": "/ˈfɑːrməsi/",
+            "examples": [
+                { "en": "Excuse me, is there a pharmacy near here?", "vi": "Xin lỗi, gần đây có hiệu thuốc không?", "highlight": "pharmacy" }
+            ],
+            "noteVi": "ph đọc /f/. Người Mỹ cũng nói drugstore."
+        },
+        {
+            "slug": "park",
+            "type": "LEXICAL",
+            "text": "park",
+            "meaningVi": "công viên",
+            "ipa": "/pɑːrk/",
+            "examples": [
+                { "en": "We walk in the park every morning.", "vi": "Sáng nào tụi mình cũng đi bộ trong công viên.", "highlight": "park" }
+            ],
+            "noteVi": "park cũng là động từ \"đỗ xe\": Can I park here?"
+        },
+        {
+            "slug": "restaurant",
+            "type": "LEXICAL",
+            "text": "restaurant",
+            "meaningVi": "nhà hàng, quán ăn",
+            "ipa": "/ˈrestərɑːnt/",
+            "examples": [
+                { "en": "There's a good restaurant on this street.", "vi": "Trên con đường này có một nhà hàng ngon.", "highlight": "restaurant" }
+            ],
+            "noteVi": "Đọc 2–3 âm tiết: RES-t(ə)-rant, nhấn âm đầu. Không đọc \"rét-xờ-tô-răng\"."
+        },
+        {
+            "slug": "is-there-a-near-here",
+            "type": "PATTERN",
+            "text": "Is there … near here?",
+            "meaningVi": "Gần đây có … không?",
+            "examples": [
+                { "en": "Excuse me, is there a bank near here?", "vi": "Xin lỗi, gần đây có ngân hàng không?", "highlight": "is there a bank near here" }
+            ],
+            "pattern": {
+                "template": "Is there {place} near here?",
+                "slots": [
+                    { "name": "place", "hintVi": "a/an + địa điểm", "options": ["a bank", "a pharmacy", "an ATM"] }
+                ]
+            },
+            "noteVi": "Mở đầu bằng \"Excuse me\" cho lịch sự. Trả lời: \"Yes, there's one on … Street.\""
+        },
+        {
+            "slug": "go-straight",
+            "type": "PHRASE",
+            "text": "go straight",
+            "meaningVi": "đi thẳng",
+            "examples": [
+                { "en": "Go straight for two blocks.", "vi": "Đi thẳng qua hai dãy nhà.", "highlight": "Go straight" }
+            ],
+            "noteVi": "Người Mỹ đo đường bằng block (dãy nhà giữa hai ngã tư). \"Go straight ahead\" cũng được."
+        },
+        {
+            "slug": "turn-left",
+            "type": "PHRASE",
+            "text": "turn left",
+            "meaningVi": "rẽ trái",
+            "examples": [
+                { "en": "Turn left at the bank.", "vi": "Rẽ trái ở chỗ ngân hàng.", "highlight": "Turn left" }
+            ],
+            "noteVi": "Không có to: turn left, không nói \"turn to left\". Rẽ ở đâu: at the corner, at the bank."
+        },
+        {
+            "slug": "turn-right",
+            "type": "PHRASE",
+            "text": "turn right",
+            "meaningVi": "rẽ phải",
+            "examples": [
+                { "en": "Turn right at the corner.", "vi": "Rẽ phải ở góc đường.", "highlight": "Turn right" }
+            ],
+            "noteVi": "right còn nghĩa là \"đúng\"; trong chỉ đường thì là bên phải. Âm đầu /r/ tròn môi."
+        },
+        {
+            "slug": "on-the-left",
+            "type": "PHRASE",
+            "text": "on the left",
+            "meaningVi": "ở bên trái",
+            "examples": [
+                { "en": "The pharmacy is on the left.", "vi": "Hiệu thuốc ở bên trái.", "highlight": "on the left" }
+            ],
+            "noteVi": "Dùng on the left / on your left, không nói \"in the left\"."
+        },
+        {
+            "slug": "on-the-right",
+            "type": "PHRASE",
+            "text": "on the right",
+            "meaningVi": "ở bên phải",
+            "examples": [
+                { "en": "It's on the right, next to the bank.", "vi": "Nó ở bên phải, cạnh ngân hàng.", "highlight": "on the right" }
+            ]
+        },
+        {
+            "slug": "corner",
+            "type": "LEXICAL",
+            "text": "corner",
+            "meaningVi": "góc đường; góc",
+            "ipa": "/ˈkɔːrnər/",
+            "examples": [
+                { "en": "The café is on the corner.", "vi": "Quán cà phê ở ngay góc đường.", "highlight": "corner" }
+            ],
+            "noteVi": "Ở ngay góc đường: on the corner. Rẽ ở góc đường: turn at the corner."
+        },
+        {
+            "slug": "street",
+            "type": "LEXICAL",
+            "text": "street",
+            "meaningVi": "đường phố, con đường",
+            "ipa": "/striːt/",
+            "examples": [
+                { "en": "I live on Tran Hung Dao Street.", "vi": "Mình sống ở đường Trần Hưng Đạo.", "highlight": "Street" }
+            ],
+            "noteVi": "Ở trên đường nào: on … Street (Anh-Mỹ). Cụm âm đầu /str/: không chèn thêm âm \"sơ-tơ\"."
+        },
+        {
+            "slug": "imperatives",
+            "type": "GRAMMAR",
+            "text": "Go straight. Don't turn left.",
+            "meaningVi": "câu mệnh lệnh, câu chỉ dẫn",
+            "examples": [
+                { "en": "Turn right. Don't cross the street.", "vi": "Rẽ phải. Đừng băng qua đường.", "highlight": "Don't cross" }
+            ],
+            "grammar": {
+                "ruleVi": "Câu mệnh lệnh dùng động từ nguyên mẫu ở đầu câu, không có chủ ngữ. Phủ định: Don't + động từ. Thêm please để lịch sự hơn. Dùng để chỉ đường, hướng dẫn, nhờ vả.",
+                "forms": [
+                    { "label": "khẳng định", "example": "Go straight. Turn left." },
+                    { "label": "phủ định", "example": "Don't turn right. Don't worry." },
+                    { "label": "lịch sự", "example": "Please sit down. Take the bus, please." }
+                ],
+                "pitfallsVi": [
+                    "Thêm you hay chia động từ: \"You go straight\" hay \"Goes straight\" → Go straight.",
+                    "Phủ định bằng not: \"Not turn left\" → Don't turn left.",
+                    "Dùng to: \"To turn right\" → Turn right."
+                ]
+            }
+        },
+        {
+            "slug": "wheres-the",
+            "type": "PATTERN",
+            "text": "Excuse me, where's the …?",
+            "meaningVi": "Xin lỗi, … ở đâu ạ?",
+            "examples": [
+                { "en": "Excuse me, where's the post office?", "vi": "Xin lỗi, bưu điện ở đâu ạ?", "highlight": "where's the" }
+            ],
+            "pattern": {
+                "template": "Excuse me, where's the {place}?",
+                "slots": [
+                    { "name": "place", "hintVi": "địa điểm", "options": ["post office", "bus stop", "bank"] }
+                ]
+            },
+            "noteVi": "Dùng the khi hỏi một nơi cụ thể; hỏi chung chung \"có … không\" thì dùng Is there a … near here?"
+        },
+        {
+            "slug": "far",
+            "type": "LEXICAL",
+            "text": "far",
+            "meaningVi": "xa",
+            "ipa": "/fɑːr/",
+            "examples": [
+                { "en": "The hospital isn't far from here.", "vi": "Bệnh viện không xa đây lắm.", "highlight": "far" }
+            ],
+            "noteVi": "Xa đâu: far from … Câu khẳng định hay nói \"a long way\"; far dùng nhiều trong câu hỏi và phủ định."
+        },
+        {
+            "slug": "near",
+            "type": "LEXICAL",
+            "text": "near",
+            "meaningVi": "gần",
+            "ipa": "/nɪr/",
+            "examples": [
+                { "en": "My house is near the park.", "vi": "Nhà mình gần công viên.", "highlight": "near" }
+            ],
+            "noteVi": "Không có to hay from: near the park, không nói \"near to the park\" hay \"near from\"."
+        },
+        {
+            "slug": "bus",
+            "type": "LEXICAL",
+            "text": "bus",
+            "meaningVi": "xe buýt",
+            "ipa": "/bʌs/",
+            "examples": [
+                { "en": "I go to school by bus.", "vi": "Mình đi học bằng xe buýt.", "highlight": "bus" }
+            ],
+            "noteVi": "Đi bằng xe gì: by bus, by taxi, by motorbike (không có a/the). Giữ âm cuối /s/."
+        },
+        {
+            "slug": "taxi",
+            "type": "LEXICAL",
+            "text": "taxi",
+            "meaningVi": "xe taxi",
+            "ipa": "/ˈtæksi/",
+            "examples": [
+                { "en": "Let's take a taxi. It's raining.", "vi": "Mình đi taxi đi. Trời đang mưa.", "highlight": "taxi" }
+            ],
+            "noteVi": "Đi taxi: take a taxi hoặc go by taxi. Gọi xe qua app: \"I'll book a Grab.\""
+        },
+        {
+            "slug": "minute",
+            "type": "LEXICAL",
+            "text": "minute",
+            "meaningVi": "phút",
+            "ipa": "/ˈmɪnɪt/",
+            "examples": [
+                { "en": "It's about ten minutes on foot.", "vi": "Đi bộ khoảng mười phút.", "highlight": "minutes" }
+            ],
+            "noteVi": "Đọc /ˈmɪnɪt/ (\"mi-nít\"), không đọc \"mi-nút\". Chờ chút: \"Just a minute.\""
+        },
+        {
+            "slug": "on-foot",
+            "type": "PHRASE",
+            "text": "on foot",
+            "meaningVi": "đi bộ",
+            "examples": [
+                { "en": "It's five minutes on foot.", "vi": "Đi bộ mất năm phút.", "highlight": "on foot" }
+            ],
+            "noteVi": "Không nói \"by foot\" (by chỉ dùng cho xe: by bus, by car). Cũng có thể nói \"I walk there\"."
+        },
+        {
+            "slug": "how-do-i-get-to",
+            "type": "PATTERN",
+            "text": "How do I get to …?",
+            "meaningVi": "Đi đến … thế nào?",
+            "examples": [
+                { "en": "Excuse me, how do I get to the hospital?", "vi": "Xin lỗi, đến bệnh viện đi đường nào ạ?", "highlight": "how do I get to" }
+            ],
+            "pattern": {
+                "template": "How do I get to {place}?",
+                "slots": [
+                    { "name": "place", "hintVi": "the + địa điểm, hoặc tên riêng", "options": ["the hospital", "the bus stop", "Ben Thanh Market"] }
+                ]
+            },
+            "noteVi": "get to = đến. Không nói \"How to go to …?\" (thiếu chủ ngữ và động từ chia)."
+        },
+        {
+            "slug": "is-it-far",
+            "type": "PHRASE",
+            "text": "Is it far?",
+            "meaningVi": "Có xa không?",
+            "examples": [
+                { "en": "Is it far? No, it's near. About five minutes on foot.", "vi": "Có xa không? Không, gần thôi. Đi bộ khoảng năm phút.", "highlight": "Is it far?" }
+            ],
+            "noteVi": "Hỏi mất bao lâu: \"How long does it take?\""
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "a1-09-is-there-a-bank",
+            "title": "Is there a bank near here?",
+            "situationVi": "Bạn cần rút tiền và hỏi một người trên phố.",
+            "lines": [
+                { "speaker": "You", "en": "Excuse me, is there a bank near here?", "vi": "Xin lỗi, gần đây có ngân hàng không ạ?", "learnerTurn": true },
+                { "speaker": "Woman", "en": "Yes, there's one on Hai Ba Trung Street.", "vi": "Có, có một cái ở đường Hai Bà Trưng." },
+                { "speaker": "You", "en": "Where's the bank on that street?", "vi": "Ngân hàng ở chỗ nào trên đường đó ạ?", "learnerTurn": true },
+                { "speaker": "Woman", "en": "Go straight and turn left at the corner. It's on the right, next to the supermarket.", "vi": "Đi thẳng rồi rẽ trái ở góc đường. Nó ở bên phải, cạnh siêu thị." },
+                { "speaker": "You", "en": "Turn left at the corner, on the right. Thank you!", "vi": "Rẽ trái ở góc đường, bên phải. Cảm ơn chị!", "learnerTurn": true }
+            ]
+        },
+        {
+            "slug": "a1-09-how-do-i-get-there",
+            "title": "How do I get there?",
+            "situationVi": "Bạn hỏi nhân viên khách sạn đường đến chợ Bến Thành.",
+            "lines": [
+                { "speaker": "You", "en": "Excuse me, how do I get to Ben Thanh Market?", "vi": "Xin lỗi, đến chợ Bến Thành đi thế nào ạ?", "learnerTurn": true },
+                { "speaker": "Receptionist", "en": "Go straight on this street, then turn right.", "vi": "Đi thẳng đường này, rồi rẽ phải." },
+                { "speaker": "You", "en": "Is it far?", "vi": "Có xa không ạ?", "learnerTurn": true },
+                { "speaker": "Receptionist", "en": "Not really. It's about fifteen minutes on foot.", "vi": "Không xa lắm. Đi bộ khoảng mười lăm phút." },
+                { "speaker": "You", "en": "Can I take a bus?", "vi": "Tôi đi xe buýt được không?", "learnerTurn": true },
+                { "speaker": "Receptionist", "en": "Yes. The bus stop is in front of the hotel.", "vi": "Được ạ. Trạm xe buýt ở trước khách sạn." }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "a1-09-l1-places",
+            "title": "Is there a bank near here?",
+            "titleVi": "Địa điểm trong thành phố",
+            "estimatedMinutes": 10,
+            "items": [
+                { "item": "bank", "role": "INTRODUCE" },
+                { "item": "hospital", "role": "INTRODUCE" },
+                { "item": "supermarket", "role": "INTRODUCE" },
+                { "item": "post-office", "role": "INTRODUCE" },
+                { "item": "bus-stop", "role": "INTRODUCE" },
+                { "item": "pharmacy", "role": "INTRODUCE" },
+                { "item": "park", "role": "INTRODUCE" },
+                { "item": "restaurant", "role": "INTRODUCE" },
+                { "item": "is-there-a-near-here", "role": "INTRODUCE" },
+                { "item": "excuse-me", "role": "RECYCLE" },
+                { "item": "there-is-there-are", "role": "RECYCLE" },
+                { "item": "market", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 8 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["bank", "hospital", "supermarket", "post-office", "bus-stop", "pharmacy", "park", "restaurant", "is-there-a-near-here"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Gần đây có … không?",
+                        "bodyVi": "Hỏi người lạ trên phố, bắt đầu bằng **Excuse me**:\n\n**Excuse me, is there a** pharmacy **near here?**\n\n- Có: **Yes, there's one** on Le Loi Street. (**one** = một cái như bạn hỏi)\n- Không: **Sorry, there isn't.** / **Sorry, I don't know.**\n\nDùng **a/an** vì bạn hỏi bất kỳ cái nào: **a** bank, **an** ATM.\n\n❌ Near here have bank? ✅ **Is there a** bank near here?",
+                        "items": ["is-there-a-near-here", "excuse-me", "there-is-there-are"]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "is-there-a-near-here",
+                        "prompts": [
+                            { "cueVi": "Hỏi: gần đây có ngân hàng không?", "slots": { "place": "a bank" }, "answer": "Is there a bank near here?" },
+                            { "cueVi": "Hỏi: gần đây có hiệu thuốc không?", "slots": { "place": "a pharmacy" }, "answer": "Is there a pharmacy near here?" },
+                            { "cueVi": "Hỏi: gần đây có nhà hàng không?", "slots": { "place": "a restaurant" }, "answer": "Is there a restaurant near here?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["bank", "hospital", "supermarket", "post-office", "bus-stop", "pharmacy", "park", "restaurant", "market"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "Excuse me, is there a pharmacy near here?", "vi": "Xin lỗi, gần đây có hiệu thuốc không ạ?" },
+                            { "en": "Yes, there's one on Le Loi Street.", "vi": "Có, có một cái ở đường Lê Lợi." },
+                            { "en": "I buy milk at the supermarket.", "vi": "Mình mua sữa ở siêu thị." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "\"hiệu thuốc\" tiếng Anh là:",
+                                "options": ["pharmacy", "hospital", "post office"],
+                                "answer": 0,
+                                "item": "pharmacy"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "bus stop",
+                                "options": ["bến xe", "trạm xe buýt", "bãi đỗ xe"],
+                                "answer": 1,
+                                "item": "bus-stop"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["Near here have a bank?", "Is there a bank near here?", "Is bank near here there?"],
+                                "answer": 1,
+                                "item": "is-there-a-near-here"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Gần đây có nhà hàng không?",
+                                "answer": "Is there a restaurant near here?",
+                                "item": "is-there-a-near-here"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a1-09-l2-directions",
+            "title": "Turn left at the corner",
+            "titleVi": "Chỉ đường",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "go-straight", "role": "INTRODUCE" },
+                { "item": "turn-left", "role": "INTRODUCE" },
+                { "item": "turn-right", "role": "INTRODUCE" },
+                { "item": "on-the-left", "role": "INTRODUCE" },
+                { "item": "on-the-right", "role": "INTRODUCE" },
+                { "item": "corner", "role": "INTRODUCE" },
+                { "item": "street", "role": "INTRODUCE" },
+                { "item": "imperatives", "role": "INTRODUCE" },
+                { "item": "wheres-the", "role": "INTRODUCE" },
+                { "item": "next-to", "role": "RECYCLE" },
+                { "item": "in-front-of", "role": "RECYCLE" },
+                { "item": "bank", "role": "RECYCLE" },
+                { "item": "post-office", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["go-straight", "turn-left", "turn-right", "on-the-left", "on-the-right", "corner", "street", "wheres-the"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Câu mệnh lệnh để chỉ đường",
+                        "bodyVi": "Chỉ đường dùng **động từ nguyên mẫu ở đầu câu**, không có chủ ngữ:\n\n- **Go** straight.\n- **Turn** left at the corner.\n- **Don't** cross the street.\n\n❌ You go straight. Goes straight. ✅ **Go** straight.\n\nNói vị trí: It's **on the left** / **on the right**, **next to** the bank, **in front of** the park.\n\nHỏi đường đến một nơi cụ thể: **Excuse me, where's the** post office?",
+                        "items": ["imperatives", "go-straight", "turn-left", "on-the-left", "next-to", "in-front-of", "wheres-the"],
+                        "examples": [
+                            { "en": "Go straight, then turn right. It's on the left.", "vi": "Đi thẳng, rồi rẽ phải. Nó ở bên trái.", "highlight": "turn right" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "wheres-the",
+                        "prompts": [
+                            { "cueVi": "Hỏi: bưu điện ở đâu?", "slots": { "place": "post office" }, "answer": "Excuse me, where's the post office?" },
+                            { "cueVi": "Hỏi: trạm xe buýt ở đâu?", "slots": { "place": "bus stop" }, "answer": "Excuse me, where's the bus stop?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["go-straight", "turn-left", "turn-right", "on-the-left", "on-the-right", "corner", "street", "next-to", "in-front-of"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a1-09-is-there-a-bank", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Chỉ đường: \"Rẽ trái ở góc đường.\"",
+                                "options": ["You turn to left at corner.", "Turn left at the corner.", "Turning left the corner."],
+                                "answer": 1,
+                                "item": "imperatives"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "___ turn right. Go straight.",
+                                "hintVi": "đừng",
+                                "answers": ["Don't", "Do not"],
+                                "item": "imperatives"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "It's on the right.",
+                                "options": ["Nó ở bên trái.", "Nó ở bên phải.", "Nó ở phía trước."],
+                                "answer": 1,
+                                "item": "on-the-right"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["The café is in the left.", "The café is on the left.", "The café is at left."],
+                                "answer": 1,
+                                "item": "on-the-left"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Xin lỗi, bưu điện ở đâu ạ?",
+                                "answer": "Excuse me, where's the post office?",
+                                "item": "wheres-the"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a1-09-l3-getting-there",
+            "title": "Is it far?",
+            "titleVi": "Đi thế nào, có xa không",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "far", "role": "INTRODUCE" },
+                { "item": "near", "role": "INTRODUCE" },
+                { "item": "bus", "role": "INTRODUCE" },
+                { "item": "taxi", "role": "INTRODUCE" },
+                { "item": "minute", "role": "INTRODUCE" },
+                { "item": "on-foot", "role": "INTRODUCE" },
+                { "item": "how-do-i-get-to", "role": "INTRODUCE" },
+                { "item": "is-it-far", "role": "INTRODUCE" },
+                { "item": "walk", "role": "RECYCLE" },
+                { "item": "go-straight", "role": "RECYCLE" },
+                { "item": "turn-right", "role": "RECYCLE" },
+                { "item": "hospital", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["far", "near", "bus", "taxi", "minute", "on-foot", "how-do-i-get-to", "is-it-far"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Đi bằng gì, mất bao lâu",
+                        "bodyVi": "- Hỏi đường đến đâu: **How do I get to** the hospital?\n- Có xa không: **Is it far?** → **No, it's near.** / **Yes, it's far.**\n- Đi bằng xe: **by** bus, **by** taxi, **by** motorbike (không có a/the).\n- Đi bộ: **on foot** (❌ by foot), hoặc **walk**: I walk there.\n- Mất bao lâu: It's **about ten minutes** on foot / by bus.\n\n**near** không có to hay from: near **the** park. **far** đi với from: far **from** here.",
+                        "items": ["how-do-i-get-to", "is-it-far", "near", "far", "on-foot", "bus", "walk"]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "how-do-i-get-to",
+                        "prompts": [
+                            { "cueVi": "Hỏi đường đến bệnh viện.", "slots": { "place": "the hospital" }, "answer": "How do I get to the hospital?" },
+                            { "cueVi": "Hỏi đường đến chợ Bến Thành.", "slots": { "place": "Ben Thanh Market" }, "answer": "How do I get to Ben Thanh Market?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["far", "near", "bus", "taxi", "minute", "on-foot", "is-it-far", "walk"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a1-09-how-do-i-get-there", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Đi bộ mất năm phút.\" Câu nào đúng?",
+                                "options": ["It's five minutes by foot.", "It's five minutes on foot.", "It's five minutes with foot."],
+                                "answer": 1,
+                                "item": "on-foot"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["My house is near the park.", "My house is near to from the park.", "My house near the park."],
+                                "answer": 0,
+                                "item": "near"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I go to work ___ bus.",
+                                "answers": ["by"],
+                                "item": "bus"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Is it far?",
+                                "options": ["Có xa không?", "Có gần không?", "Có đắt không?"],
+                                "answer": 0,
+                                "item": "is-it-far"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Đến bệnh viện đi thế nào?",
+                                "answer": "How do I get to the hospital?",
+                                "item": "how-do-i-get-to"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "a1-09-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Bạn cần mua thuốc. Bạn hỏi:",
+                "options": ["Excuse me, is there a pharmacy near here?", "Excuse me, near here pharmacy?", "Excuse me, where pharmacy is?"],
+                "answer": 0,
+                "item": "is-there-a-near-here"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "Turn left at the corner.",
+                "options": ["Rẽ phải ở góc đường.", "Rẽ trái ở góc đường.", "Đi thẳng đến góc đường."],
+                "answer": 1,
+                "item": "turn-left"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["You go straight and turn right.", "Go straight and turn right.", "Goes straight and turns right."],
+                "answer": 1,
+                "item": "imperatives"
+            },
+            {
+                "kind": "gap",
+                "sentence": "It's about ten minutes on ___.",
+                "hintVi": "(đi bộ)",
+                "answers": ["foot"],
+                "item": "on-foot"
+            },
+            {
+                "kind": "choice",
+                "prompt": "\"bệnh viện\" tiếng Anh là:",
+                "options": ["hotel", "hospital", "bank"],
+                "answer": 1,
+                "item": "hospital"
+            },
+            {
+                "kind": "order",
+                "vi": "Xin lỗi, đến chợ Bến Thành đi thế nào ạ?",
+                "answer": "Excuse me, how do I get to Ben Thanh Market?",
+                "item": "how-do-i-get-to"
+            }
+        ]
+    }
+}

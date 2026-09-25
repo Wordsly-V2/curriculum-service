@@ -1,0 +1,647 @@
+{
+    "slug": "a1-10-say-it-another-way",
+    "stage": "a1",
+    "order": 10,
+    "title": "Say it another way",
+    "titleVi": "Nói cách khác",
+    "descriptionVi": "Chiến lược khi thiếu từ: tả bằng loại, công dụng, nơi chốn; câu đệm để có thời gian nghĩ; tự sửa và kiểm tra người nghe đã hiểu chưa.",
+    "canDo": [
+        "Khi không biết một từ, tôi tả được nó: nó là loại gì, dùng để làm gì, ở đâu, ai làm.",
+        "Tôi dùng được câu đệm (Well…, Let me think…) để có thời gian nghĩ thay vì im lặng.",
+        "Tôi tự sửa được câu mình vừa nói và hỏi lại để chắc mình hiểu đúng ý người khác."
+    ],
+    "items": [
+        {
+            "slug": "thing",
+            "type": "LEXICAL",
+            "text": "thing",
+            "meaningVi": "cái, đồ vật, thứ",
+            "ipa": "/θɪŋ/",
+            "examples": [
+                { "en": "What's this thing called in English?", "vi": "Cái này tiếng Anh gọi là gì?", "highlight": "thing" }
+            ],
+            "noteVi": "Âm đầu /θ/ (lưỡi giữa hai răng): thing khác sing, tink."
+        },
+        {
+            "slug": "something",
+            "type": "LEXICAL",
+            "text": "something",
+            "meaningVi": "cái gì đó, thứ gì đó",
+            "ipa": "/ˈsʌmθɪŋ/",
+            "examples": [
+                { "en": "It's something you eat for breakfast.", "vi": "Nó là thứ bạn ăn vào bữa sáng.", "highlight": "something" }
+            ],
+            "noteVi": "Nhấn âm đầu: SOME-thing. Câu hỏi và phủ định hay dùng anything."
+        },
+        {
+            "slug": "place",
+            "type": "LEXICAL",
+            "text": "place",
+            "meaningVi": "nơi, chỗ",
+            "ipa": "/pleɪs/",
+            "examples": [
+                { "en": "It's a nice place for coffee.", "vi": "Đó là một chỗ uống cà phê dễ chịu.", "highlight": "place" }
+            ],
+            "noteVi": "Giữ âm cuối /s/. Nhà mình: my place (thân mật): \"Come to my place!\""
+        },
+        {
+            "slug": "person",
+            "type": "LEXICAL",
+            "text": "person",
+            "meaningVi": "người",
+            "ipa": "/ˈpɜːrsən/",
+            "examples": [
+                { "en": "She's a very nice person.", "vi": "Cô ấy là người rất tốt.", "highlight": "person" }
+            ],
+            "noteVi": "Số nhiều thường dùng people: one person, two people."
+        },
+        {
+            "slug": "its-a-kind-of",
+            "type": "PATTERN",
+            "text": "It's a kind of …",
+            "meaningVi": "Nó là một loại …",
+            "examples": [
+                { "en": "It's a kind of fruit. It's yellow and long.", "vi": "Nó là một loại trái cây. Màu vàng và dài.", "highlight": "It's a kind of" }
+            ],
+            "pattern": {
+                "template": "It's a kind of {category}.",
+                "slots": [
+                    { "name": "category", "hintVi": "loại chung (không có a/an)", "options": ["fruit", "drink", "food"] }
+                ]
+            },
+            "noteVi": "Nói loại chung trước, rồi thêm màu, kích thước để người nghe đoán: \"It's a kind of fruit. It's small and red.\""
+        },
+        {
+            "slug": "its-a-thing-you-use-to",
+            "type": "PATTERN",
+            "text": "It's a thing you use to …",
+            "meaningVi": "Nó là cái bạn dùng để …",
+            "examples": [
+                { "en": "It's a thing you use to cook rice.", "vi": "Nó là cái bạn dùng để nấu cơm.", "highlight": "a thing you use to" }
+            ],
+            "pattern": {
+                "template": "It's a thing you use to {verb}.",
+                "slots": [
+                    { "name": "verb", "hintVi": "động từ nguyên mẫu (+ tân ngữ)", "options": ["cook rice", "write", "open the door"] }
+                ]
+            },
+            "noteVi": "Sau to là động từ nguyên mẫu: use to cook, không nói \"use to cooking\" hay \"use for cook\"."
+        },
+        {
+            "slug": "its-a-place-where",
+            "type": "PATTERN",
+            "text": "It's a place where you …",
+            "meaningVi": "Đó là nơi bạn …",
+            "examples": [
+                { "en": "It's a place where you buy medicine.", "vi": "Đó là nơi bạn mua thuốc.", "highlight": "a place where you" }
+            ],
+            "pattern": {
+                "template": "It's a place where you {activity}.",
+                "slots": [
+                    { "name": "activity", "hintVi": "động từ + tân ngữ", "options": ["buy food", "wait for the bus", "watch movies"] }
+                ]
+            },
+            "noteVi": "where dùng cho nơi chốn. Không nói \"It's a place you buy food there\"."
+        },
+        {
+            "slug": "its-a-person-who",
+            "type": "PATTERN",
+            "text": "It's a person who …",
+            "meaningVi": "Đó là người …",
+            "examples": [
+                { "en": "It's a person who works in a hospital.", "vi": "Đó là người làm việc trong bệnh viện.", "highlight": "a person who" }
+            ],
+            "pattern": {
+                "template": "It's a person who {does}.",
+                "slots": [
+                    { "name": "does", "hintVi": "động từ thêm -s (+ tân ngữ)", "options": ["cooks food", "works in a bank", "teaches English"] }
+                ]
+            },
+            "noteVi": "who dùng cho người. a person là số ít, nên động từ thêm -s: who works, who teaches."
+        },
+        {
+            "slug": "well",
+            "type": "LEXICAL",
+            "text": "well",
+            "meaningVi": "à, ừm (từ đệm khi bắt đầu trả lời)",
+            "ipa": "/wel/",
+            "examples": [
+                { "en": "Well, I usually walk to work.", "vi": "À, mình thường đi bộ đi làm.", "highlight": "Well" }
+            ],
+            "noteVi": "Từ đệm tự nhiên nhất để bắt đầu câu trả lời. Còn nghĩa \"tốt, giỏi\": She speaks English well."
+        },
+        {
+            "slug": "let-me-think",
+            "type": "PHRASE",
+            "text": "Let me think.",
+            "meaningVi": "Để tôi nghĩ đã.",
+            "examples": [
+                { "en": "What's the word? Let me think…", "vi": "Từ đó là gì nhỉ? Để mình nghĩ đã…", "highlight": "Let me think" }
+            ],
+            "noteVi": "Nói câu này thay vì im lặng; người nghe sẽ chờ bạn. Cũng có thể nói \"Let me see.\""
+        },
+        {
+            "slug": "whats-the-word",
+            "type": "PHRASE",
+            "text": "What's the word?",
+            "meaningVi": "Từ đó là gì nhỉ?",
+            "examples": [
+                { "en": "It's a kind of… what's the word? A kind of fruit.", "vi": "Nó là một loại… từ đó là gì nhỉ? Một loại trái cây.", "highlight": "what's the word" }
+            ],
+            "noteVi": "Hỏi chính mình hoặc nhờ người nghe gợi ý từ bạn đang quên."
+        },
+        {
+            "slug": "i-forget-the-word",
+            "type": "PHRASE",
+            "text": "I forget the word.",
+            "meaningVi": "Tôi quên mất từ đó rồi.",
+            "examples": [
+                { "en": "Sorry, I forget the word. It's a thing you use to cook rice.", "vi": "Xin lỗi, mình quên mất từ. Nó là cái dùng để nấu cơm.", "highlight": "I forget the word" }
+            ],
+            "noteVi": "Nói xong thì tả ngay bằng các mẫu It's a kind of… / It's a thing you use to…"
+        },
+        {
+            "slug": "you-know",
+            "type": "PHRASE",
+            "text": "you know",
+            "meaningVi": "bạn biết đấy (từ đệm)",
+            "examples": [
+                { "en": "It's, you know, the big market in District 1.", "vi": "Đó là, bạn biết đấy, cái chợ lớn ở Quận 1.", "highlight": "you know" }
+            ],
+            "noteVi": "Dùng vừa phải: nói quá nhiều nghe thiếu tự tin."
+        },
+        {
+            "slug": "something-like-that",
+            "type": "PHRASE",
+            "text": "something like that",
+            "meaningVi": "đại loại vậy, kiểu như thế",
+            "examples": [
+                { "en": "It's a kind of soup, or something like that.", "vi": "Nó là một loại canh, hoặc đại loại vậy.", "highlight": "something like that" }
+            ],
+            "noteVi": "Dùng khi bạn không chắc từ mình chọn có đúng không."
+        },
+        {
+            "slug": "opposite",
+            "type": "LEXICAL",
+            "text": "opposite",
+            "meaningVi": "ngược lại, trái nghĩa",
+            "ipa": "/ˈɑːpəzɪt/",
+            "examples": [
+                { "en": "It's the opposite of cheap.", "vi": "Nó ngược nghĩa với rẻ.", "highlight": "opposite" }
+            ],
+            "noteVi": "Mẹo khi quên từ: \"It's the opposite of …\" (ngược với …). Nhấn âm đầu: OP-po-site."
+        },
+        {
+            "slug": "i-mean",
+            "type": "PHRASE",
+            "text": "I mean …",
+            "meaningVi": "Ý tôi là …",
+            "examples": [
+                { "en": "I live in District 3. I mean, District 5.", "vi": "Mình sống ở Quận 3. À ý mình là Quận 5.", "highlight": "I mean" }
+            ],
+            "noteVi": "Dùng để tự sửa hoặc nói rõ hơn. Không nói \"My mean is …\"."
+        },
+        {
+            "slug": "do-you-mean",
+            "type": "PATTERN",
+            "text": "Do you mean …?",
+            "meaningVi": "Ý bạn là … phải không?",
+            "examples": [
+                { "en": "A thing you use when it rains? Do you mean an umbrella?", "vi": "Cái dùng khi trời mưa à? Ý bạn là cái ô phải không?", "highlight": "Do you mean" }
+            ],
+            "pattern": {
+                "template": "Do you mean {thing}?",
+                "slots": [
+                    { "name": "thing", "hintVi": "điều bạn đoán người kia muốn nói", "options": ["an umbrella", "the pharmacy", "Tuesday"] }
+                ]
+            },
+            "noteVi": "Hỏi lại để chắc mình hiểu đúng; lịch sự hơn nhiều so với \"What?\"."
+        },
+        {
+            "slug": "does-that-make-sense",
+            "type": "PHRASE",
+            "text": "Does that make sense?",
+            "meaningVi": "Bạn hiểu ý tôi chứ?",
+            "examples": [
+                { "en": "Turn left, then go straight. Does that make sense?", "vi": "Rẽ trái, rồi đi thẳng. Bạn hiểu chứ?", "highlight": "Does that make sense?" }
+            ],
+            "noteVi": "Lịch sự hơn \"Do you understand?\" (nghe như đang kiểm tra người nghe)."
+        },
+        {
+            "slug": "in-other-words",
+            "type": "PHRASE",
+            "text": "in other words",
+            "meaningVi": "nói cách khác",
+            "examples": [
+                { "en": "It's a pharmacy. In other words, a place where you buy medicine.", "vi": "Đó là hiệu thuốc. Nói cách khác, nơi bạn mua thuốc.", "highlight": "In other words" }
+            ],
+            "noteVi": "Dùng khi nói lại ý vừa rồi bằng từ dễ hơn."
+        },
+        {
+            "slug": "let-me-try-again",
+            "type": "PHRASE",
+            "text": "Let me try again.",
+            "meaningVi": "Để tôi nói lại.",
+            "examples": [
+                { "en": "Sorry, that's not right. Let me try again.", "vi": "Xin lỗi, không phải vậy. Để mình nói lại.", "highlight": "Let me try again" }
+            ],
+            "noteVi": "Nói sai không sao; nói câu này rồi diễn đạt lại."
+        },
+        {
+            "slug": "exactly",
+            "type": "LEXICAL",
+            "text": "exactly",
+            "meaningVi": "chính xác, đúng rồi",
+            "ipa": "/ɪɡˈzæktli/",
+            "examples": [
+                { "en": "Do you mean an umbrella? Exactly!", "vi": "Ý bạn là cái ô à? Đúng rồi!", "highlight": "Exactly" }
+            ],
+            "noteVi": "Đáp lại khi người kia đoán đúng ý mình. Nhấn âm thứ hai: ex-ACT-ly, ex đọc /ɪɡz/."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "a1-10-whats-the-word",
+            "title": "What's the word?",
+            "situationVi": "Bạn muốn mua nồi cơm điện ở một cửa hàng nhưng quên mất từ tiếng Anh.",
+            "lines": [
+                { "speaker": "Clerk", "en": "Hi. Can I help you?", "vi": "Chào bạn. Mình giúp gì được không?" },
+                { "speaker": "You", "en": "Yes. I'm looking for… what's the word? Let me think.", "vi": "Vâng. Mình đang tìm… từ đó là gì nhỉ? Để mình nghĩ đã.", "learnerTurn": true },
+                { "speaker": "Clerk", "en": "No problem.", "vi": "Không sao đâu." },
+                { "speaker": "You", "en": "Sorry, I forget the word. It's a thing you use to cook rice.", "vi": "Xin lỗi, mình quên mất từ. Nó là cái dùng để nấu cơm.", "learnerTurn": true },
+                { "speaker": "Clerk", "en": "Oh, do you mean a rice cooker?", "vi": "À, ý bạn là nồi cơm điện à?" },
+                { "speaker": "You", "en": "Exactly! A rice cooker. Thank you!", "vi": "Đúng rồi! Nồi cơm điện. Cảm ơn bạn!", "learnerTurn": true }
+            ]
+        },
+        {
+            "slug": "a1-10-do-you-mean",
+            "title": "Do you mean the pharmacy?",
+            "situationVi": "Một du khách hỏi bạn đường, nhưng không nhớ tên nơi họ cần tìm.",
+            "lines": [
+                { "speaker": "Tourist", "en": "Excuse me. I'm looking for a place… it's a place where you buy medicine.", "vi": "Xin lỗi. Tôi đang tìm một chỗ… chỗ người ta mua thuốc." },
+                { "speaker": "You", "en": "Do you mean a pharmacy?", "vi": "Ý anh là hiệu thuốc phải không?", "learnerTurn": true },
+                { "speaker": "Tourist", "en": "Yes, exactly! Is there one near here?", "vi": "Đúng rồi! Gần đây có không?" },
+                { "speaker": "You", "en": "Yes. Go straight and turn right. It's on the left. I mean, on the right. Sorry!", "vi": "Có. Đi thẳng rồi rẽ phải. Nó ở bên trái. À ý tôi là bên phải. Xin lỗi!", "learnerTurn": true },
+                { "speaker": "Tourist", "en": "Turn right, and it's on the right?", "vi": "Rẽ phải, và nó ở bên phải à?" },
+                { "speaker": "You", "en": "Yes, next to the bank. Does that make sense?", "vi": "Vâng, cạnh ngân hàng. Anh hiểu chứ?", "learnerTurn": true }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "a1-10-l1-describe-it",
+            "title": "It's a kind of fruit",
+            "titleVi": "Tả khi quên từ",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "thing", "role": "INTRODUCE" },
+                { "item": "something", "role": "INTRODUCE" },
+                { "item": "place", "role": "INTRODUCE" },
+                { "item": "person", "role": "INTRODUCE" },
+                { "item": "its-a-kind-of", "role": "INTRODUCE" },
+                { "item": "its-a-thing-you-use-to", "role": "INTRODUCE" },
+                { "item": "its-a-place-where", "role": "INTRODUCE" },
+                { "item": "its-a-person-who", "role": "INTRODUCE" },
+                { "item": "how-do-you-say", "role": "RECYCLE" },
+                { "item": "i-dont-know", "role": "RECYCLE" },
+                { "item": "present-simple-s", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["thing", "something", "place", "person", "its-a-kind-of", "its-a-thing-you-use-to", "its-a-place-where", "its-a-person-who"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Không biết từ? Tả nó!",
+                        "bodyVi": "Người bản xứ cũng hay quên từ. Thay vì dừng lại, hãy **tả** thứ bạn muốn nói:\n\n| muốn nói | mẫu câu |\n|---|---|\n| nó là loại gì | **It's a kind of** fruit. |\n| dùng để làm gì | **It's a thing you use to** cook rice. |\n| nơi chốn | **It's a place where you** buy medicine. |\n| người | **It's a person who** works in a hospital. |\n\nThêm chi tiết: màu (It's yellow), cỡ (It's big), ngược nghĩa (It's the opposite of …).\n\nLưu ý: **a person who** + động từ thêm **-s** (who work**s**), vì a person là số ít.",
+                        "items": ["its-a-kind-of", "its-a-thing-you-use-to", "its-a-place-where", "its-a-person-who", "present-simple-s", "how-do-you-say"],
+                        "examples": [
+                            { "en": "I don't know the word. It's a kind of fruit. It's small and red.", "vi": "Mình không biết từ đó. Nó là một loại trái cây, nhỏ và màu đỏ.", "highlight": "It's a kind of fruit" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "its-a-thing-you-use-to",
+                        "prompts": [
+                            { "cueVi": "Tả nồi cơm điện: cái dùng để nấu cơm.", "slots": { "verb": "cook rice" }, "answer": "It's a thing you use to cook rice." },
+                            { "cueVi": "Tả chìa khóa: cái dùng để mở cửa.", "slots": { "verb": "open the door" }, "answer": "It's a thing you use to open the door." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "its-a-place-where",
+                        "prompts": [
+                            { "cueVi": "Tả siêu thị: nơi bạn mua đồ ăn.", "slots": { "activity": "buy food" }, "answer": "It's a place where you buy food." },
+                            { "cueVi": "Tả trạm xe buýt: nơi bạn đợi xe buýt.", "slots": { "activity": "wait for the bus" }, "answer": "It's a place where you wait for the bus." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "its-a-person-who",
+                        "prompts": [
+                            { "cueVi": "Tả đầu bếp: người nấu đồ ăn.", "slots": { "does": "cooks food" }, "answer": "It's a person who cooks food." },
+                            { "cueVi": "Tả giáo viên tiếng Anh: người dạy tiếng Anh.", "slots": { "does": "teaches English" }, "answer": "It's a person who teaches English." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["thing", "something", "place", "person", "i-dont-know"]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn quên từ \"key\". Bạn tả:",
+                                "options": ["It's a thing you use to open the door.", "It's a place where you open the door.", "It's a person who opens the door."],
+                                "answer": 0,
+                                "item": "its-a-thing-you-use-to"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["It's a person who work in a bank.", "It's a person who works in a bank.", "It's a person where works in a bank."],
+                                "answer": 1,
+                                "item": "its-a-person-who"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "It's a place ___ you buy medicine.",
+                                "answers": ["where"],
+                                "item": "its-a-place-where"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Nó là một loại trái cây.",
+                                "answer": "It's a kind of fruit.",
+                                "item": "its-a-kind-of"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a1-10-l2-time-to-think",
+            "title": "Well, let me think",
+            "titleVi": "Câu đệm để có thời gian nghĩ",
+            "estimatedMinutes": 10,
+            "items": [
+                { "item": "well", "role": "INTRODUCE" },
+                { "item": "let-me-think", "role": "INTRODUCE" },
+                { "item": "whats-the-word", "role": "INTRODUCE" },
+                { "item": "i-forget-the-word", "role": "INTRODUCE" },
+                { "item": "you-know", "role": "INTRODUCE" },
+                { "item": "something-like-that", "role": "INTRODUCE" },
+                { "item": "opposite", "role": "INTRODUCE" },
+                { "item": "its-a-kind-of", "role": "RECYCLE" },
+                { "item": "its-a-thing-you-use-to", "role": "RECYCLE" },
+                { "item": "cheap", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["well", "let-me-think", "whats-the-word", "i-forget-the-word", "you-know", "something-like-that", "opposite"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Đừng im lặng: dùng câu đệm",
+                        "bodyVi": "Im lặng lâu khiến người nghe tưởng bạn không hiểu. Một câu đệm ngắn cho bạn thêm vài giây:\n\n- Bắt đầu trả lời: **Well, …**\n- Cần nghĩ: **Let me think.**\n- Quên từ: **What's the word?** / **I forget the word.**\n- Không chắc: … **or something like that.**\n\nSau câu đệm, **tả** thứ bạn muốn nói (It's a kind of… / It's a thing you use to…), hoặc nói ngược nghĩa: **It's the opposite of** cheap. (= expensive)\n\nTiếng Việt hay đệm \"ờ, kiểu\"; tiếng Anh thì **well**, **you know**, nhưng đừng lạm dụng.",
+                        "items": ["well", "let-me-think", "whats-the-word", "i-forget-the-word", "something-like-that", "opposite", "its-a-kind-of", "cheap"]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "context"],
+                        "items": ["well", "let-me-think", "whats-the-word", "i-forget-the-word", "you-know", "something-like-that", "opposite", "cheap"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a1-10-whats-the-word", "mode": "roleplay" }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "Well, let me think.", "vi": "À, để mình nghĩ đã." },
+                            { "en": "Sorry, I forget the word. It's a kind of drink.", "vi": "Xin lỗi, mình quên từ rồi. Nó là một loại đồ uống." },
+                            { "en": "It's the opposite of cheap.", "vi": "Nó ngược nghĩa với rẻ." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn cần vài giây để nghĩ câu trả lời. Bạn nói:",
+                                "options": ["Let me think.", "I don't think.", "Think me."],
+                                "answer": 0,
+                                "item": "let-me-think"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"It's the opposite of hot.\" Từ bạn muốn nói là:",
+                                "options": ["warm", "cold", "sunny"],
+                                "answer": 1,
+                                "item": "opposite"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "I forget the word.",
+                                "options": ["Mình không biết từ này.", "Mình quên mất từ đó rồi.", "Mình không hiểu từ này."],
+                                "answer": 1,
+                                "item": "i-forget-the-word"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Nó là một loại canh, hoặc đại loại vậy.",
+                                "answer": "It's a kind of soup, or something like that.",
+                                "item": "something-like-that"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a1-10-l3-check-and-fix",
+            "title": "Do you mean…?",
+            "titleVi": "Hỏi lại và tự sửa",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "i-mean", "role": "INTRODUCE" },
+                { "item": "do-you-mean", "role": "INTRODUCE" },
+                { "item": "does-that-make-sense", "role": "INTRODUCE" },
+                { "item": "in-other-words", "role": "INTRODUCE" },
+                { "item": "let-me-try-again", "role": "INTRODUCE" },
+                { "item": "exactly", "role": "INTRODUCE" },
+                { "item": "is-that-right", "role": "RECYCLE" },
+                { "item": "can-you-say-that-again", "role": "RECYCLE" },
+                { "item": "its-a-place-where", "role": "RECYCLE" },
+                { "item": "on-the-right", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["i-mean", "do-you-mean", "does-that-make-sense", "in-other-words", "let-me-try-again", "exactly"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Kiểm tra và sửa",
+                        "bodyVi": "Khi **bạn** nói:\n\n- Nói nhầm thì sửa ngay: It's on the left. **I mean**, on the right.\n- Nói lại dễ hơn: **In other words**, …\n- Nói rối quá: **Sorry. Let me try again.**\n- Hỏi người nghe đã hiểu chưa: **Does that make sense?**\n\nKhi **người khác** nói:\n\n- Đoán ý để kiểm tra: **Do you mean** a pharmacy?\n- Họ đoán đúng ý bạn: **Exactly!**\n- Không nghe rõ: **Can you say that again?** / **Is that right?**",
+                        "items": ["i-mean", "in-other-words", "let-me-try-again", "does-that-make-sense", "do-you-mean", "exactly", "can-you-say-that-again", "is-that-right"]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "do-you-mean",
+                        "prompts": [
+                            { "cueVi": "Người kia tả \"cái dùng khi trời mưa\". Hỏi: ý bạn là cái ô à?", "slots": { "thing": "an umbrella" }, "answer": "Do you mean an umbrella?" },
+                            { "cueVi": "Người kia tả \"nơi mua thuốc\". Hỏi: ý bạn là hiệu thuốc à?", "slots": { "thing": "the pharmacy" }, "answer": "Do you mean the pharmacy?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["i-mean", "does-that-make-sense", "in-other-words", "let-me-try-again", "exactly", "is-that-right", "can-you-say-that-again"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a1-10-do-you-mean", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn nói nhầm \"Tuesday\", ý là \"Thursday\". Bạn sửa:",
+                                "options": ["Tuesday. My mean is Thursday.", "Tuesday. I mean, Thursday.", "Tuesday. No mean Thursday."],
+                                "answer": 1,
+                                "item": "i-mean"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn vừa chỉ đường xong, muốn biết người kia hiểu chưa. Cách hỏi lịch sự:",
+                                "options": ["Do you understand me?", "Does that make sense?", "You know or not?"],
+                                "answer": 1,
+                                "item": "does-that-make-sense"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Người kia hỏi \"Do you mean a rice cooker?\" và họ đoán đúng. Bạn nói:",
+                                "options": ["Exactly!", "Let me try again.", "In other words."],
+                                "answer": 0,
+                                "item": "exactly"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Ý bạn là cái ô phải không?",
+                                "answer": "Do you mean an umbrella?",
+                                "item": "do-you-mean"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "a1-10-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Bạn quên từ \"supermarket\". Cách tả tốt nhất:",
+                "options": ["It's a person who buys food.", "It's a place where you buy food.", "It's a thing you use to buy food."],
+                "answer": 1,
+                "item": "its-a-place-where"
+            },
+            {
+                "kind": "gap",
+                "sentence": "It's a ___ of fruit. It's yellow and long.",
+                "hintVi": "loại",
+                "answers": ["kind"],
+                "item": "its-a-kind-of"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "Let me try again.",
+                "options": ["Để mình nói lại.", "Để mình nghĩ đã.", "Bạn nói lại được không?"],
+                "answer": 0,
+                "item": "let-me-try-again"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["It's a person who teach English.", "It's a person who teaches English.", "It's a person which teaches English."],
+                "answer": 1,
+                "item": "its-a-person-who"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Bạn không chắc người kia muốn nói \"hiệu thuốc\". Bạn hỏi:",
+                "options": ["Do you mean the pharmacy?", "What you mean pharmacy?", "You mean is pharmacy?"],
+                "answer": 0,
+                "item": "do-you-mean"
+            },
+            {
+                "kind": "order",
+                "vi": "Xin lỗi, mình quên mất từ đó rồi.",
+                "answer": "Sorry, I forget the word.",
+                "item": "i-forget-the-word"
+            }
+        ]
+    }
+}
