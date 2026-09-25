@@ -94,16 +94,17 @@ export class ReleaseService {
                     })),
                 });
                 await tx.publishedItem.createMany({
-                    data: snapshot.itemIds.map((itemId) => ({
+                    data: snapshot.items.map((i) => ({
                         releaseId,
-                        itemId,
+                        itemId: i.itemId,
+                        payload: json(i.payload),
                     })),
                 });
                 await this.point(tx, releaseId, options.createdBy);
 
                 this.logger.log(
                     `Published release v${release.version}: ` +
-                        `${snapshot.lessons.length} lessons, ${snapshot.itemIds.length} items`,
+                        `${snapshot.lessons.length} lessons, ${snapshot.items.length} items`,
                 );
                 return release;
             },

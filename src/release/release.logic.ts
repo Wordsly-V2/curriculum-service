@@ -147,7 +147,8 @@ export interface ReleaseSnapshot {
         unitId: string;
         payload: CheckpointSnapshot;
     }[];
-    itemIds: string[];
+    /** Every item in the release, for filter-published and hydrate. */
+    items: { itemId: string; payload: ItemView }[];
 }
 
 const itemId = (slug: string) => contentId('item', slug);
@@ -330,6 +331,9 @@ export function buildRelease(corpus: ContentCorpus): ReleaseSnapshot {
         tree: { snapshotVersion: SNAPSHOT_VERSION, stages },
         lessons,
         checkpoints,
-        itemIds: [...items.keys()].map(itemId),
+        items: [...items.values()].map((item) => ({
+            itemId: itemId(item.slug),
+            payload: itemView(item),
+        })),
     };
 }

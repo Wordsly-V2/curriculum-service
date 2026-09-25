@@ -81,7 +81,8 @@ describe('buildRelease', () => {
     });
 
     it('snapshots checkpoints and lists every item id', () => {
-        const { checkpoints, itemIds } = buildRelease(corpus);
+        const { checkpoints, items } = buildRelease(corpus);
+        const itemIds = items.map((i) => i.itemId);
         expect(checkpoints).toHaveLength(1);
         expect(checkpoints[0].payload).toMatchObject({
             passPercent: 70,
@@ -92,6 +93,13 @@ describe('buildRelease', () => {
         );
         expect(itemIds).toHaveLength(10);
         expect(itemIds).toContain(contentId('item', 'thank-you'));
+        expect(
+            items.find((i) => i.payload.slug === 'hi')?.payload,
+        ).toMatchObject({
+            id: contentId('item', 'hi'),
+            meaningVi: 'chào (thân mật)',
+        });
+        expect(items[0].payload).not.toHaveProperty('role');
     });
 
     it('is deterministic', () => {

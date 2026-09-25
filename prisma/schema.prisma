@@ -253,11 +253,12 @@ model PublishedLesson {
   @@map("published_lessons")
 }
 
-// Item ids in the release: what learning-service may keep FSRS cards for
-// (POST /path/items/filter-published).
+// Items in the release: what learning-service may keep FSRS cards for
+// (POST /path/items/filter-published), and their views for /path/items/hydrate.
 model PublishedItem {
   releaseId String @map("release_id") @db.Uuid
   itemId    String @map("item_id") @db.Uuid
+  payload   Json // ItemView (release.logic.ts)
 
   release Release @relation(fields: [releaseId], references: [id], onDelete: Cascade)
 
