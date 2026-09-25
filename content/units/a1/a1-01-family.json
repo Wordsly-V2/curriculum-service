@@ -1,0 +1,627 @@
+{
+    "slug": "a1-01-family",
+    "stage": "a1",
+    "order": 1,
+    "title": "My family",
+    "titleVi": "Gia đình tôi",
+    "descriptionVi": "Thành viên gia đình, tính từ sở hữu (my, his, her…), nói mình có mấy anh chị em.",
+    "canDo": [
+        "Tôi gọi tên được các thành viên trong gia đình.",
+        "Tôi giới thiệu được người thân: \"This is my mother.\"",
+        "Tôi nói được mình có bao nhiêu anh chị em và hỏi người khác."
+    ],
+    "items": [
+        {
+            "slug": "family",
+            "type": "LEXICAL",
+            "text": "family",
+            "meaningVi": "gia đình",
+            "ipa": "/ˈfæməli/",
+            "examples": [
+                { "en": "This is my family.", "vi": "Đây là gia đình mình.", "highlight": "family" }
+            ]
+        },
+        {
+            "slug": "mother",
+            "type": "LEXICAL",
+            "text": "mother",
+            "meaningVi": "mẹ",
+            "ipa": "/ˈmʌðər/",
+            "examples": [
+                { "en": "My mother is a teacher.", "vi": "Mẹ mình là giáo viên.", "highlight": "mother" }
+            ],
+            "noteVi": "Âm /ð/ ở giữa từ: lưỡi chạm răng, rung. Gọi thân mật: mom (Mỹ), mum (Anh)."
+        },
+        {
+            "slug": "father",
+            "type": "LEXICAL",
+            "text": "father",
+            "meaningVi": "bố, cha",
+            "ipa": "/ˈfɑːðər/",
+            "examples": [
+                { "en": "My father is an engineer.", "vi": "Bố mình là kỹ sư.", "highlight": "father" }
+            ],
+            "noteVi": "Gọi thân mật: dad."
+        },
+        {
+            "slug": "parents",
+            "type": "LEXICAL",
+            "text": "parents",
+            "meaningVi": "bố mẹ",
+            "ipa": "/ˈperənts/",
+            "examples": [
+                { "en": "My parents live in Hue.", "vi": "Bố mẹ mình sống ở Huế.", "highlight": "parents" }
+            ],
+            "noteVi": "Luôn ở số nhiều khi nói cả bố và mẹ. Đọc rõ cụm âm cuối /nts/."
+        },
+        {
+            "slug": "brother",
+            "type": "LEXICAL",
+            "text": "brother",
+            "meaningVi": "anh trai hoặc em trai",
+            "ipa": "/ˈbrʌðər/",
+            "examples": [
+                { "en": "I have one brother.", "vi": "Mình có một anh (em) trai.", "highlight": "brother" }
+            ],
+            "noteVi": "Tiếng Anh không phân biệt anh hay em. Muốn rõ thì nói older brother (anh trai) hoặc younger brother (em trai)."
+        },
+        {
+            "slug": "sister",
+            "type": "LEXICAL",
+            "text": "sister",
+            "meaningVi": "chị gái hoặc em gái",
+            "ipa": "/ˈsɪstər/",
+            "examples": [
+                { "en": "She's my sister.", "vi": "Cô ấy là chị (em) gái mình.", "highlight": "sister" }
+            ],
+            "noteVi": "older sister: chị gái; younger sister: em gái."
+        },
+        {
+            "slug": "husband",
+            "type": "LEXICAL",
+            "text": "husband",
+            "meaningVi": "chồng",
+            "ipa": "/ˈhʌzbənd/",
+            "examples": [
+                { "en": "This is my husband, Minh.", "vi": "Đây là chồng mình, Minh.", "highlight": "husband" }
+            ]
+        },
+        {
+            "slug": "wife",
+            "type": "LEXICAL",
+            "text": "wife",
+            "meaningVi": "vợ",
+            "ipa": "/waɪf/",
+            "examples": [
+                { "en": "His wife is a doctor.", "vi": "Vợ anh ấy là bác sĩ.", "highlight": "wife" }
+            ],
+            "noteVi": "Giữ âm cuối /f/. Số nhiều bất quy tắc: wives."
+        },
+        {
+            "slug": "possessive-adjectives",
+            "type": "GRAMMAR",
+            "text": "my / your / his / her / our / their",
+            "meaningVi": "tính từ sở hữu: của tôi, của bạn, của anh ấy…",
+            "examples": [
+                { "en": "Tom is my brother. His wife is Anna.", "vi": "Tom là anh mình. Vợ anh ấy là Anna.", "highlight": "His" }
+            ],
+            "grammar": {
+                "ruleVi": "Tính từ sở hữu đứng trước danh từ và theo người sở hữu, không theo vật được sở hữu: I → my, you → your, he → his, she → her, we → our, they → their.",
+                "forms": [
+                    { "label": "I → my, you → your", "example": "my mother, your father" },
+                    { "label": "he → his, she → her", "example": "his sister, her brother" },
+                    { "label": "we → our, they → their", "example": "our family, their parents" }
+                ],
+                "pitfallsVi": [
+                    "Nhầm his và her: dùng his khi người sở hữu là nam, her khi là nữ. \"Lan and her brother\" (không phải his brother).",
+                    "Dịch theo thứ tự tiếng Việt: \"mother my\" → \"my mother\".",
+                    "Nhầm với đại từ: \"I mother\", \"me mother\" → \"my mother\"."
+                ]
+            }
+        },
+        {
+            "slug": "his",
+            "type": "LEXICAL",
+            "text": "his",
+            "meaningVi": "của anh ấy, của ông ấy",
+            "ipa": "/hɪz/",
+            "examples": [
+                { "en": "This is Tom and his sister.", "vi": "Đây là Tom và em gái của cậu ấy.", "highlight": "his" }
+            ]
+        },
+        {
+            "slug": "her",
+            "type": "LEXICAL",
+            "text": "her",
+            "meaningVi": "của cô ấy, của bà ấy",
+            "ipa": "/hɜːr/",
+            "examples": [
+                { "en": "Lan and her mother.", "vi": "Lan và mẹ của cô ấy.", "highlight": "her" }
+            ]
+        },
+        {
+            "slug": "our",
+            "type": "LEXICAL",
+            "text": "our",
+            "meaningVi": "của chúng tôi, của chúng ta",
+            "ipa": "/aʊər/",
+            "examples": [
+                { "en": "Our family is small.", "vi": "Gia đình mình nhỏ.", "highlight": "Our" }
+            ],
+            "noteVi": "Đọc /aʊər/ giống \"hour\"; chữ h trong hour câm."
+        },
+        {
+            "slug": "their",
+            "type": "LEXICAL",
+            "text": "their",
+            "meaningVi": "của họ",
+            "ipa": "/ðer/",
+            "examples": [
+                { "en": "Their son is five.", "vi": "Con trai họ năm tuổi.", "highlight": "Their" }
+            ],
+            "noteVi": "their, there và they're đọc giống nhau nhưng nghĩa khác."
+        },
+        {
+            "slug": "this-is-my",
+            "type": "PATTERN",
+            "text": "This is my …",
+            "meaningVi": "Đây là … của tôi",
+            "examples": [
+                { "en": "This is my father.", "vi": "Đây là bố mình.", "highlight": "This is my" }
+            ],
+            "pattern": {
+                "template": "This is my {person}.",
+                "slots": [
+                    { "name": "person", "hintVi": "người thân", "options": ["mother", "brother", "wife"] }
+                ]
+            }
+        },
+        {
+            "slug": "whos-this",
+            "type": "PHRASE",
+            "text": "Who's this?",
+            "meaningVi": "Đây là ai?",
+            "examples": [
+                { "en": "Who's this? Is she your sister?", "vi": "Đây là ai? Cô ấy là chị bạn à?", "highlight": "Who's this?" }
+            ],
+            "noteVi": "Hỏi người dùng \"Who\", hỏi vật dùng \"What\" (What's this?)."
+        },
+        {
+            "slug": "i-have",
+            "type": "PATTERN",
+            "text": "I have …",
+            "meaningVi": "Tôi có …",
+            "examples": [
+                { "en": "I have two sisters.", "vi": "Mình có hai chị em gái.", "highlight": "I have" }
+            ],
+            "pattern": {
+                "template": "I have {things}.",
+                "slots": [
+                    { "name": "things", "hintVi": "số + người/vật (nhớ -s số nhiều)", "options": ["one brother", "two sisters", "three children"] }
+                ]
+            },
+            "noteVi": "Với he/she dùng has: \"She has one brother.\" Nhớ -s: two sister → two sisters."
+        },
+        {
+            "slug": "do-you-have-brothers-sisters",
+            "type": "PHRASE",
+            "text": "Do you have any brothers or sisters?",
+            "meaningVi": "Bạn có anh chị em không?",
+            "examples": [
+                { "en": "Do you have any brothers or sisters? Yes, I have one sister.", "vi": "Bạn có anh chị em không? Có, mình có một chị gái.", "highlight": "Do you have any brothers or sisters?" }
+            ],
+            "noteVi": "Trả lời ngắn: \"Yes, I do.\" / \"No, I don't.\""
+        },
+        {
+            "slug": "older",
+            "type": "LEXICAL",
+            "text": "older",
+            "meaningVi": "lớn tuổi hơn",
+            "ipa": "/ˈoʊldər/",
+            "examples": [
+                { "en": "I have an older brother.", "vi": "Mình có một anh trai.", "highlight": "older" }
+            ],
+            "noteVi": "older brother = anh trai, older sister = chị gái."
+        },
+        {
+            "slug": "younger",
+            "type": "LEXICAL",
+            "text": "younger",
+            "meaningVi": "nhỏ tuổi hơn",
+            "ipa": "/ˈjʌŋɡər/",
+            "examples": [
+                { "en": "My younger sister is a student.", "vi": "Em gái mình là sinh viên.", "highlight": "younger" }
+            ],
+            "noteVi": "younger brother = em trai, younger sister = em gái."
+        },
+        {
+            "slug": "children",
+            "type": "LEXICAL",
+            "text": "children",
+            "meaningVi": "con cái, trẻ em (số nhiều)",
+            "ipa": "/ˈtʃɪldrən/",
+            "examples": [
+                { "en": "They have two children.", "vi": "Họ có hai con.", "highlight": "children" }
+            ],
+            "noteVi": "Số nhiều bất quy tắc của child (một đứa trẻ). Không nói \"childs\" hay \"childrens\"."
+        },
+        {
+            "slug": "only-child",
+            "type": "PHRASE",
+            "text": "I'm an only child.",
+            "meaningVi": "Tôi là con một.",
+            "examples": [
+                { "en": "No, I don't. I'm an only child.", "vi": "Không, mình là con một.", "highlight": "only child" }
+            ],
+            "noteVi": "Nhớ \"an\" vì only bắt đầu bằng nguyên âm."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "a1-01-family-photo",
+            "title": "A family photo",
+            "situationVi": "Bạn cho một người bạn xem ảnh gia đình trên điện thoại.",
+            "lines": [
+                { "speaker": "Anna", "en": "Who's this?", "vi": "Đây là ai?" },
+                { "speaker": "You", "en": "This is my mother. She's a nurse.", "vi": "Đây là mẹ mình. Mẹ mình là y tá.", "learnerTurn": true },
+                { "speaker": "Anna", "en": "And who's this?", "vi": "Còn đây là ai?" },
+                { "speaker": "You", "en": "That's my father, and this is my younger brother, Nam.", "vi": "Đó là bố mình, còn đây là em trai mình, Nam.", "learnerTurn": true },
+                { "speaker": "Anna", "en": "How old is he?", "vi": "Em ấy bao nhiêu tuổi?" },
+                { "speaker": "You", "en": "He's fifteen. His school is in Hue.", "vi": "Em ấy mười lăm tuổi. Trường của em ấy ở Huế.", "learnerTurn": true }
+            ]
+        },
+        {
+            "slug": "a1-01-brothers-and-sisters",
+            "title": "Brothers and sisters",
+            "situationVi": "Hai người mới quen hỏi nhau về anh chị em.",
+            "lines": [
+                { "speaker": "Tom", "en": "Do you have any brothers or sisters?", "vi": "Bạn có anh chị em không?" },
+                { "speaker": "You", "en": "Yes, I have an older sister. And you?", "vi": "Có, mình có một chị gái. Còn bạn?", "learnerTurn": true },
+                { "speaker": "Tom", "en": "No, I'm an only child. Is your sister married?", "vi": "Không, mình là con một. Chị bạn lập gia đình chưa?" },
+                { "speaker": "You", "en": "Yes. Her husband is a doctor. They have two children.", "vi": "Rồi. Chồng chị ấy là bác sĩ. Họ có hai con.", "learnerTurn": true }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "a1-01-l1-family-members",
+            "title": "My family",
+            "titleVi": "Thành viên gia đình",
+            "estimatedMinutes": 10,
+            "items": [
+                { "item": "family", "role": "INTRODUCE" },
+                { "item": "mother", "role": "INTRODUCE" },
+                { "item": "father", "role": "INTRODUCE" },
+                { "item": "parents", "role": "INTRODUCE" },
+                { "item": "brother", "role": "INTRODUCE" },
+                { "item": "sister", "role": "INTRODUCE" },
+                { "item": "husband", "role": "INTRODUCE" },
+                { "item": "wife", "role": "INTRODUCE" },
+                { "item": "teacher", "role": "RECYCLE" },
+                { "item": "a-an", "role": "RECYCLE" },
+                { "item": "i-live-in", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 8 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["family", "mother", "father", "parents", "brother", "sister", "husband", "wife"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Anh hay em? Tiếng Anh không phân biệt",
+                        "bodyVi": "Tiếng Việt phân biệt anh/em, chị/em. Tiếng Anh chỉ phân biệt nam/nữ:\n\n- **brother**: anh trai hoặc em trai\n- **sister**: chị gái hoặc em gái\n\nCần nói rõ thì thêm **older** (lớn hơn) hoặc **younger** (nhỏ hơn); bạn sẽ học ở bài 3.\n\n**parents** là \"bố mẹ\", luôn ở số nhiều. Đọc rõ các âm cuối: paren**ts**, wi**fe**, husban**d**.",
+                        "items": ["brother", "sister", "parents", "wife", "husband"]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["family", "mother", "father", "parents", "brother", "sister", "husband", "wife"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "My mother is a teacher.", "vi": "Mẹ mình là giáo viên." },
+                            { "en": "My parents live in Da Nang.", "vi": "Bố mẹ mình sống ở Đà Nẵng." },
+                            { "en": "I have one brother and one sister.", "vi": "Mình có một anh (em) trai và một chị (em) gái." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "\"em gái\" tiếng Anh là:",
+                                "options": ["brother", "sister", "mother"],
+                                "answer": 1,
+                                "item": "sister"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "parents",
+                                "options": ["bố", "bố mẹ", "gia đình"],
+                                "answer": 1,
+                                "item": "parents"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "This is my ___. She's a doctor.",
+                                "hintVi": "vợ",
+                                "answers": ["wife"],
+                                "item": "wife"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Mẹ mình là giáo viên.",
+                                "answer": "My mother is a teacher.",
+                                "item": "mother"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a1-01-l2-his-and-her",
+            "title": "This is my mother",
+            "titleVi": "Giới thiệu người thân",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "possessive-adjectives", "role": "INTRODUCE" },
+                { "item": "his", "role": "INTRODUCE" },
+                { "item": "her", "role": "INTRODUCE" },
+                { "item": "our", "role": "INTRODUCE" },
+                { "item": "their", "role": "INTRODUCE" },
+                { "item": "this-is-my", "role": "INTRODUCE" },
+                { "item": "whos-this", "role": "INTRODUCE" },
+                { "item": "mother", "role": "RECYCLE" },
+                { "item": "brother", "role": "RECYCLE" },
+                { "item": "he", "role": "RECYCLE" },
+                { "item": "she", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 8 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["his", "her", "our", "their", "this-is-my", "whos-this"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "my, your, his, her, our, their",
+                        "bodyVi": "| Người | Sở hữu | Ví dụ |\n|---|---|---|\n| I | **my** | my mother |\n| you | **your** | your father |\n| he | **his** | his wife |\n| she | **her** | her husband |\n| we | **our** | our family |\n| they | **their** | their children |\n\nTừ sở hữu đứng **trước** danh từ (ngược với tiếng Việt \"mẹ **tôi**\").\n\nLỗi hay gặp nhất: chọn his/her theo người được nhắc tới. Phải chọn theo **người sở hữu**: Lan (nữ) → **her** brother; Tom (nam) → **his** sister.",
+                        "items": ["possessive-adjectives", "his", "her", "our", "their"],
+                        "examples": [
+                            { "en": "Lan and her brother.", "vi": "Lan và anh trai cô ấy.", "highlight": "her" },
+                            { "en": "Tom and his sister.", "vi": "Tom và chị gái cậu ấy.", "highlight": "his" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "this-is-my",
+                        "prompts": [
+                            { "cueVi": "Đây là bố tôi.", "slots": { "person": "father" }, "answer": "This is my father." },
+                            { "cueVi": "Đây là chị gái tôi.", "slots": { "person": "sister" }, "answer": "This is my sister." },
+                            { "cueVi": "Đây là vợ tôi.", "slots": { "person": "wife" }, "answer": "This is my wife." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["cloze", "listening", "sentence-build"],
+                        "items": ["his", "her", "our", "their", "whos-this", "mother", "brother"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a1-01-family-photo", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "gap",
+                                "sentence": "Lan is with ___ brother.",
+                                "hintVi": "của cô ấy",
+                                "answers": ["her"],
+                                "item": "her"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Tom is with ___ mother.",
+                                "hintVi": "của cậu ấy",
+                                "answers": ["his"],
+                                "item": "his"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["This is mother my.", "This is my mother.", "This is me mother."],
+                                "answer": 1,
+                                "item": "possessive-adjectives"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn chỉ vào một người trong ảnh và hỏi:",
+                                "options": ["What's this?", "Who's this?", "How are you?"],
+                                "answer": 1,
+                                "item": "whos-this"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a1-01-l3-brothers-and-sisters",
+            "title": "Do you have any brothers or sisters?",
+            "titleVi": "Anh chị em",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "i-have", "role": "INTRODUCE" },
+                { "item": "do-you-have-brothers-sisters", "role": "INTRODUCE" },
+                { "item": "older", "role": "INTRODUCE" },
+                { "item": "younger", "role": "INTRODUCE" },
+                { "item": "children", "role": "INTRODUCE" },
+                { "item": "only-child", "role": "INTRODUCE" },
+                { "item": "brother", "role": "RECYCLE" },
+                { "item": "sister", "role": "RECYCLE" },
+                { "item": "plural-s", "role": "RECYCLE" },
+                { "item": "husband", "role": "RECYCLE" },
+                { "item": "two", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 8 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["i-have", "do-you-have-brothers-sisters", "older", "younger", "children", "only-child"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "I have … và older / younger",
+                        "bodyVi": "- **I have** + số + danh từ số nhiều: I have two sister**s**.\n- He/she dùng **has**: She **has** one brother.\n- Hỏi: **Do you have any brothers or sisters?** Trả lời: Yes, I do. / No, I don't. I'm an only child.\n\nNói anh/chị/em cho rõ:\n\n| Tiếng Việt | Tiếng Anh |\n|---|---|\n| anh trai | older brother |\n| em trai | younger brother |\n| chị gái | older sister |\n| em gái | younger sister |\n\n**children** là số nhiều của child, không thêm -s.",
+                        "items": ["i-have", "older", "younger", "children", "plural-s"]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "i-have",
+                        "prompts": [
+                            { "cueVi": "Tôi có một anh trai.", "slots": { "things": "an older brother" }, "answer": "I have an older brother." },
+                            { "cueVi": "Tôi có hai em gái.", "slots": { "things": "two younger sisters" }, "answer": "I have two younger sisters." },
+                            { "cueVi": "Tôi có ba con.", "slots": { "things": "three children" }, "answer": "I have three children." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["listening", "cloze", "sentence-build"],
+                        "items": ["do-you-have-brothers-sisters", "older", "younger", "children", "only-child", "husband"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a1-01-brothers-and-sisters", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "\"em trai\" tiếng Anh là:",
+                                "options": ["older brother", "younger brother", "younger sister"],
+                                "answer": 1,
+                                "item": "younger"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["They have two childs.", "They have two children.", "They have two childrens."],
+                                "answer": 1,
+                                "item": "children"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Bạn có anh chị em không?",
+                                "answer": "Do you have any brothers or sisters?",
+                                "item": "do-you-have-brothers-sisters"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "No, I don't. I'm an only ___.",
+                                "hintVi": "con (một)",
+                                "answers": ["child"],
+                                "item": "only-child"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "a1-01-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "husband",
+                "options": ["chồng", "vợ", "anh trai"],
+                "answer": 0,
+                "item": "husband"
+            },
+            {
+                "kind": "gap",
+                "sentence": "Anna and ___ husband live in London.",
+                "hintVi": "của cô ấy",
+                "answers": ["her"],
+                "item": "possessive-adjectives"
+            },
+            {
+                "kind": "choice",
+                "prompt": "\"chị gái\" tiếng Anh là:",
+                "options": ["younger sister", "older sister", "older brother"],
+                "answer": 1,
+                "item": "older"
+            },
+            {
+                "kind": "order",
+                "vi": "Đây là bố tôi.",
+                "answer": "This is my father.",
+                "item": "this-is-my"
+            },
+            {
+                "kind": "gap",
+                "sentence": "I ___ two brothers.",
+                "hintVi": "có",
+                "answers": ["have"],
+                "item": "i-have"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nói về bố và mẹ, bạn dùng:",
+                "options": ["parent", "parents", "family"],
+                "answer": 1,
+                "item": "parents"
+            }
+        ]
+    }
+}

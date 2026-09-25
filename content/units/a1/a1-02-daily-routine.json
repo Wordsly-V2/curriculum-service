@@ -1,0 +1,675 @@
+{
+    "slug": "a1-02-daily-routine",
+    "stage": "a1",
+    "order": 2,
+    "title": "My day",
+    "titleVi": "Một ngày của tôi",
+    "descriptionVi": "Hoạt động hằng ngày, thì hiện tại đơn (kể cả he/she + -s), hỏi và nói giờ, trạng từ tần suất.",
+    "canDo": [
+        "Tôi kể được những việc mình làm hằng ngày.",
+        "Tôi hỏi và nói được giờ, và nói mình làm gì lúc mấy giờ.",
+        "Tôi kể được thói quen của người khác (he/she + -s) với always, usually, sometimes, never."
+    ],
+    "items": [
+        {
+            "slug": "get-up",
+            "type": "PHRASE",
+            "text": "get up",
+            "meaningVi": "thức dậy, ra khỏi giường",
+            "examples": [
+                { "en": "I get up at six o'clock.", "vi": "Mình dậy lúc sáu giờ.", "highlight": "get up" }
+            ]
+        },
+        {
+            "slug": "have-breakfast",
+            "type": "PHRASE",
+            "text": "have breakfast",
+            "meaningVi": "ăn sáng",
+            "examples": [
+                { "en": "We have breakfast at home.", "vi": "Nhà mình ăn sáng ở nhà.", "highlight": "have breakfast" }
+            ],
+            "noteVi": "Với bữa ăn, người bản xứ hay dùng \"have\": have breakfast, have lunch, have dinner. Không có \"a/the\" trước tên bữa ăn."
+        },
+        {
+            "slug": "go-to-work",
+            "type": "PHRASE",
+            "text": "go to work",
+            "meaningVi": "đi làm",
+            "examples": [
+                { "en": "My father goes to work at seven.", "vi": "Bố mình đi làm lúc bảy giờ.", "highlight": "to work" }
+            ],
+            "noteVi": "Không có \"the\": go to work, go to school, go to bed."
+        },
+        {
+            "slug": "go-to-school",
+            "type": "PHRASE",
+            "text": "go to school",
+            "meaningVi": "đi học",
+            "examples": [
+                { "en": "I go to school by bike.", "vi": "Mình đi học bằng xe đạp.", "highlight": "go to school" }
+            ]
+        },
+        {
+            "slug": "go-home",
+            "type": "PHRASE",
+            "text": "go home",
+            "meaningVi": "về nhà",
+            "examples": [
+                { "en": "I go home at five.", "vi": "Mình về nhà lúc năm giờ.", "highlight": "go home" }
+            ],
+            "noteVi": "Không có \"to\": \"go home\", không nói \"go to home\"."
+        },
+        {
+            "slug": "go-to-bed",
+            "type": "PHRASE",
+            "text": "go to bed",
+            "meaningVi": "đi ngủ",
+            "examples": [
+                { "en": "I go to bed at eleven.", "vi": "Mình đi ngủ lúc mười một giờ.", "highlight": "go to bed" }
+            ]
+        },
+        {
+            "slug": "watch-tv",
+            "type": "PHRASE",
+            "text": "watch TV",
+            "meaningVi": "xem tivi",
+            "examples": [
+                { "en": "We watch TV in the evening.", "vi": "Nhà mình xem tivi vào buổi tối.", "highlight": "watch TV" }
+            ],
+            "noteVi": "Âm cuối /tʃ/ trong watch: chu môi và bật hơi, đừng bỏ."
+        },
+        {
+            "slug": "study",
+            "type": "LEXICAL",
+            "text": "study",
+            "meaningVi": "học (bài)",
+            "ipa": "/ˈstʌdi/",
+            "examples": [
+                { "en": "I study English every day.", "vi": "Mình học tiếng Anh mỗi ngày.", "highlight": "study" }
+            ],
+            "noteVi": "He/she + studies (y đổi thành ies)."
+        },
+        {
+            "slug": "present-simple",
+            "type": "GRAMMAR",
+            "text": "Present simple (I / you / we / they)",
+            "meaningVi": "thì hiện tại đơn: thói quen, việc thường ngày",
+            "examples": [
+                { "en": "I get up at six. I don't watch TV.", "vi": "Mình dậy lúc sáu giờ. Mình không xem tivi.", "highlight": "don't" }
+            ],
+            "grammar": {
+                "ruleVi": "Dùng hiện tại đơn để nói thói quen và việc lặp đi lặp lại. Với I, you, we, they: dùng động từ nguyên dạng. Phủ định thêm don't trước động từ. Câu hỏi đặt Do lên đầu.",
+                "forms": [
+                    { "label": "Khẳng định", "example": "I get up at six. They study English." },
+                    { "label": "Phủ định: don't + động từ", "example": "We don't watch TV." },
+                    { "label": "Câu hỏi: Do … + động từ?", "example": "Do you go to work by bus? Yes, I do. / No, I don't." }
+                ],
+                "pitfallsVi": [
+                    "Thêm be vào trước động từ: \"I'm get up at six\" → \"I get up at six\".",
+                    "Phủ định bằng not: \"I not watch TV\" → \"I don't watch TV\".",
+                    "Quên Do trong câu hỏi: \"You go to school?\" → \"Do you go to school?\"."
+                ]
+            }
+        },
+        {
+            "slug": "what-time-is-it",
+            "type": "PHRASE",
+            "text": "What time is it?",
+            "meaningVi": "Mấy giờ rồi?",
+            "examples": [
+                { "en": "Excuse me, what time is it?", "vi": "Xin lỗi, cho hỏi mấy giờ rồi?", "highlight": "what time is it?" }
+            ]
+        },
+        {
+            "slug": "its-time",
+            "type": "PATTERN",
+            "text": "It's … (time)",
+            "meaningVi": "Bây giờ là … giờ",
+            "examples": [
+                { "en": "It's seven o'clock.", "vi": "Bảy giờ rồi.", "highlight": "It's" }
+            ],
+            "pattern": {
+                "template": "It's {time}.",
+                "slots": [
+                    { "name": "time", "hintVi": "giờ", "options": ["seven o'clock", "half past six", "ten fifteen"] }
+                ]
+            },
+            "noteVi": "Nói giờ luôn bắt đầu bằng \"It's\" (it là chủ ngữ giả). Không nói \"Now is seven o'clock\"."
+        },
+        {
+            "slug": "o-clock",
+            "type": "LEXICAL",
+            "text": "o'clock",
+            "meaningVi": "giờ đúng",
+            "ipa": "/əˈklɑːk/",
+            "examples": [
+                { "en": "It's nine o'clock.", "vi": "Chín giờ đúng.", "highlight": "o'clock" }
+            ],
+            "noteVi": "Chỉ dùng cho giờ đúng: seven o'clock. Không nói \"seven thirty o'clock\"."
+        },
+        {
+            "slug": "half-past",
+            "type": "PHRASE",
+            "text": "half past",
+            "meaningVi": "… giờ rưỡi",
+            "examples": [
+                { "en": "It's half past eight.", "vi": "Tám giờ rưỡi.", "highlight": "half past" }
+            ],
+            "noteVi": "half past + giờ: half past eight = 8:30. Cách nói đơn giản hơn: eight thirty."
+        },
+        {
+            "slug": "i-do-at",
+            "type": "PATTERN",
+            "text": "I … at … (time)",
+            "meaningVi": "Tôi (làm gì) lúc … giờ",
+            "examples": [
+                { "en": "I go to work at half past seven.", "vi": "Mình đi làm lúc bảy rưỡi.", "highlight": "at" }
+            ],
+            "pattern": {
+                "template": "I {activity} at {time}.",
+                "slots": [
+                    { "name": "activity", "hintVi": "việc làm hằng ngày", "options": ["get up", "go to work", "go to bed"] },
+                    { "name": "time", "hintVi": "giờ", "options": ["six o'clock", "half past seven", "eleven o'clock"] }
+                ]
+            },
+            "noteVi": "Giờ đi với \"at\": at six o'clock. Không nói \"in six o'clock\"."
+        },
+        {
+            "slug": "in-the-morning",
+            "type": "PHRASE",
+            "text": "in the morning",
+            "meaningVi": "vào buổi sáng",
+            "examples": [
+                { "en": "I study in the morning.", "vi": "Mình học vào buổi sáng.", "highlight": "in the morning" }
+            ],
+            "noteVi": "in the morning, in the afternoon, in the evening, nhưng at night (ban đêm)."
+        },
+        {
+            "slug": "every-day",
+            "type": "PHRASE",
+            "text": "every day",
+            "meaningVi": "mỗi ngày, hằng ngày",
+            "examples": [
+                { "en": "I study English every day.", "vi": "Mình học tiếng Anh mỗi ngày.", "highlight": "every day" }
+            ],
+            "noteVi": "Viết tách hai từ khi có nghĩa \"mỗi ngày\" và thường đứng cuối câu."
+        },
+        {
+            "slug": "present-simple-s",
+            "type": "GRAMMAR",
+            "text": "Present simple (he / she / it + -s)",
+            "meaningVi": "hiện tại đơn với he, she, it: động từ thêm -s",
+            "examples": [
+                { "en": "She gets up at six. He doesn't watch TV.", "vi": "Cô ấy dậy lúc sáu giờ. Anh ấy không xem tivi.", "highlight": "gets" }
+            ],
+            "grammar": {
+                "ruleVi": "Với he, she, it (và một người như my mother, Tom), động từ ở hiện tại đơn thêm -s hoặc -es. Phủ định và câu hỏi dùng does/doesn't, khi đó động từ quay về nguyên dạng.",
+                "forms": [
+                    { "label": "+ -s", "example": "gets up, works, goes → goes, watches, studies" },
+                    { "label": "Phủ định: doesn't + nguyên dạng", "example": "She doesn't watch TV." },
+                    { "label": "Câu hỏi: Does … + nguyên dạng?", "example": "What time does he get up?" },
+                    { "label": "have → has", "example": "She has breakfast at seven." }
+                ],
+                "pitfallsVi": [
+                    "Quên -s, đây là lỗi phổ biến nhất của người Việt: \"She get up\" → \"She gets up\". Nhớ đọc rõ âm -s.",
+                    "Thêm -s cả khi đã có doesn't: \"He doesn't gets up\" → \"He doesn't get up\".",
+                    "Đuôi -es sau o, ch, sh, s, x: goes, watches. Phụ âm + y thì đổi thành -ies: studies."
+                ]
+            }
+        },
+        {
+            "slug": "always",
+            "type": "LEXICAL",
+            "text": "always",
+            "meaningVi": "luôn luôn",
+            "ipa": "/ˈɔːlweɪz/",
+            "examples": [
+                { "en": "I always get up at six.", "vi": "Mình luôn dậy lúc sáu giờ.", "highlight": "always" }
+            ],
+            "noteVi": "Trạng từ tần suất đứng trước động từ thường nhưng sau be: \"I always get up…\", \"He is always late.\""
+        },
+        {
+            "slug": "usually",
+            "type": "LEXICAL",
+            "text": "usually",
+            "meaningVi": "thường thường",
+            "ipa": "/ˈjuːʒuəli/",
+            "examples": [
+                { "en": "She usually goes to work by bus.", "vi": "Cô ấy thường đi làm bằng xe buýt.", "highlight": "usually" }
+            ]
+        },
+        {
+            "slug": "sometimes",
+            "type": "LEXICAL",
+            "text": "sometimes",
+            "meaningVi": "thỉnh thoảng",
+            "ipa": "/ˈsʌmtaɪmz/",
+            "examples": [
+                { "en": "We sometimes watch TV.", "vi": "Thỉnh thoảng nhà mình xem tivi.", "highlight": "sometimes" }
+            ]
+        },
+        {
+            "slug": "never",
+            "type": "LEXICAL",
+            "text": "never",
+            "meaningVi": "không bao giờ",
+            "ipa": "/ˈnevər/",
+            "examples": [
+                { "en": "He never has breakfast.", "vi": "Anh ấy không bao giờ ăn sáng.", "highlight": "never" }
+            ],
+            "noteVi": "never đã mang nghĩa phủ định, không thêm don't: \"I never don't…\" là sai."
+        },
+        {
+            "slug": "what-time-do-you",
+            "type": "PATTERN",
+            "text": "What time do you …?",
+            "meaningVi": "Bạn (làm gì) lúc mấy giờ?",
+            "examples": [
+                { "en": "What time do you get up?", "vi": "Bạn dậy lúc mấy giờ?", "highlight": "What time do you" }
+            ],
+            "pattern": {
+                "template": "What time do you {activity}?",
+                "slots": [
+                    { "name": "activity", "hintVi": "việc làm hằng ngày", "options": ["get up", "go to work", "go to bed"] }
+                ]
+            },
+            "noteVi": "Hỏi về he/she thì đổi do thành does: \"What time does she get up?\""
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "a1-02-what-time",
+            "title": "What time is it?",
+            "situationVi": "Buổi sáng, bạn hỏi giờ người bạn cùng phòng và nói về lịch của mình.",
+            "lines": [
+                { "speaker": "You", "en": "What time is it?", "vi": "Mấy giờ rồi?", "learnerTurn": true },
+                { "speaker": "Tom", "en": "It's half past seven.", "vi": "Bảy rưỡi rồi." },
+                { "speaker": "You", "en": "Oh no! I go to work at eight.", "vi": "Ôi không! Mình đi làm lúc tám giờ.", "learnerTurn": true },
+                { "speaker": "Tom", "en": "Do you have breakfast?", "vi": "Bạn có ăn sáng không?" },
+                { "speaker": "You", "en": "Not today. See you later!", "vi": "Hôm nay thì không. Hẹn gặp lại nhé!", "learnerTurn": true }
+            ]
+        },
+        {
+            "slug": "a1-02-my-sisters-day",
+            "title": "My sister's day",
+            "situationVi": "Bạn kể với đồng nghiệp về một ngày của chị gái mình, một y tá làm ca đêm.",
+            "lines": [
+                { "speaker": "Anna", "en": "What time do you get up?", "vi": "Bạn dậy lúc mấy giờ?" },
+                { "speaker": "You", "en": "I usually get up at six. My sister never gets up at six!", "vi": "Mình thường dậy lúc sáu giờ. Chị mình thì không bao giờ dậy lúc sáu giờ!", "learnerTurn": true },
+                { "speaker": "Anna", "en": "Really? What does she do?", "vi": "Thật à? Chị ấy làm nghề gì?" },
+                { "speaker": "You", "en": "She's a nurse. She goes to work at nine in the evening.", "vi": "Chị ấy là y tá. Chị ấy đi làm lúc chín giờ tối.", "learnerTurn": true },
+                { "speaker": "Anna", "en": "And what time does she go to bed?", "vi": "Thế chị ấy đi ngủ lúc mấy giờ?" },
+                { "speaker": "You", "en": "She goes to bed at eight in the morning.", "vi": "Chị ấy đi ngủ lúc tám giờ sáng.", "learnerTurn": true }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "a1-02-l1-my-day",
+            "title": "I get up at six",
+            "titleVi": "Việc làm hằng ngày",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "get-up", "role": "INTRODUCE" },
+                { "item": "have-breakfast", "role": "INTRODUCE" },
+                { "item": "go-to-work", "role": "INTRODUCE" },
+                { "item": "go-to-school", "role": "INTRODUCE" },
+                { "item": "go-home", "role": "INTRODUCE" },
+                { "item": "go-to-bed", "role": "INTRODUCE" },
+                { "item": "watch-tv", "role": "INTRODUCE" },
+                { "item": "study", "role": "INTRODUCE" },
+                { "item": "present-simple", "role": "INTRODUCE" },
+                { "item": "be-present", "role": "RECYCLE" },
+                { "item": "english", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 8 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["get-up", "have-breakfast", "go-to-work", "go-to-school", "go-home", "go-to-bed", "watch-tv", "study"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Hiện tại đơn: nói về thói quen",
+                        "bodyVi": "Việc làm **thường ngày** dùng thì hiện tại đơn. Với I, you, we, they, động từ giữ nguyên:\n\n- I **get up** at six. We **watch** TV.\n- Phủ định: I **don't** watch TV.\n- Câu hỏi: **Do** you study English? Yes, I do. / No, I don't.\n\nĐừng thêm \"be\" vào trước động từ: ❌ I'm get up. ❌ I'm study English.\n\n\"be\" (am/is/are) dùng với danh từ, tính từ, nơi chốn (I'm a student, I'm from Hue); còn hành động thì dùng động từ.",
+                        "items": ["present-simple", "be-present"],
+                        "examples": [
+                            { "en": "I go to school. I don't go to work.", "vi": "Mình đi học. Mình không đi làm.", "highlight": "don't" },
+                            { "en": "Do you watch TV? No, I don't.", "vi": "Bạn có xem tivi không? Không.", "highlight": "Do you" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "cloze"],
+                        "items": ["get-up", "have-breakfast", "go-to-work", "go-to-school", "go-home", "go-to-bed", "watch-tv", "study"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "I get up and have breakfast.", "vi": "Mình dậy và ăn sáng." },
+                            { "en": "I go to work. I don't go to school.", "vi": "Mình đi làm. Mình không đi học." },
+                            { "en": "I go home, watch TV and go to bed.", "vi": "Mình về nhà, xem tivi rồi đi ngủ." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I'm get up at six.", "I get up at six.", "I getting up at six."],
+                                "answer": 1,
+                                "item": "present-simple"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I go to home.", "I go home.", "I go the home."],
+                                "answer": 1,
+                                "item": "go-home"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I ___ watch TV. (không)",
+                                "answers": ["don't", "do not"],
+                                "item": "present-simple"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "go to bed",
+                                "options": ["đi ngủ", "đi làm", "thức dậy"],
+                                "answer": 0,
+                                "item": "go-to-bed"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a1-02-l2-what-time",
+            "title": "What time is it?",
+            "titleVi": "Giờ giấc",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "what-time-is-it", "role": "INTRODUCE" },
+                { "item": "its-time", "role": "INTRODUCE" },
+                { "item": "o-clock", "role": "INTRODUCE" },
+                { "item": "half-past", "role": "INTRODUCE" },
+                { "item": "i-do-at", "role": "INTRODUCE" },
+                { "item": "in-the-morning", "role": "INTRODUCE" },
+                { "item": "every-day", "role": "INTRODUCE" },
+                { "item": "get-up", "role": "RECYCLE" },
+                { "item": "go-to-work", "role": "RECYCLE" },
+                { "item": "seven", "role": "RECYCLE" },
+                { "item": "excuse-me", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 8 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["what-time-is-it", "its-time", "o-clock", "half-past", "i-do-at", "in-the-morning", "every-day"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Nói giờ và \"at\"",
+                        "bodyVi": "Hỏi: **What time is it?** Trả lời bắt đầu bằng **It's**:\n\n| Giờ | Cách nói |\n|---|---|\n| 7:00 | It's seven **o'clock**. |\n| 7:30 | It's **half past** seven. / It's seven thirty. |\n| 7:15 | It's seven fifteen. |\n\nLàm gì lúc mấy giờ: **at** + giờ: I get up **at** six o'clock.\n\nBuổi trong ngày: **in the** morning / afternoon / evening, nhưng **at** night.",
+                        "items": ["its-time", "o-clock", "half-past", "i-do-at", "in-the-morning"]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "its-time",
+                        "prompts": [
+                            { "cueVi": "Bây giờ là 9 giờ.", "slots": { "time": "nine o'clock" }, "answer": "It's nine o'clock." },
+                            { "cueVi": "Bây giờ là 6 giờ rưỡi.", "slots": { "time": "half past six" }, "answer": "It's half past six." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "i-do-at",
+                        "prompts": [
+                            { "cueVi": "Tôi dậy lúc 6 giờ.", "slots": { "activity": "get up", "time": "six o'clock" }, "answer": "I get up at six o'clock." },
+                            { "cueVi": "Tôi đi làm lúc 7 rưỡi.", "slots": { "activity": "go to work", "time": "half past seven" }, "answer": "I go to work at half past seven." },
+                            { "cueVi": "Tôi đi ngủ lúc 11 giờ.", "slots": { "activity": "go to bed", "time": "eleven o'clock" }, "answer": "I go to bed at eleven o'clock." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["listening", "cloze", "sentence-build"],
+                        "items": ["what-time-is-it", "o-clock", "half-past", "in-the-morning", "every-day", "get-up", "go-to-work"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a1-02-what-time", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn giờ đúng.",
+                                "audioText": "It's half past eight.",
+                                "options": ["8:00", "8:30", "7:30"],
+                                "answer": 1,
+                                "item": "half-past"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I get up ___ six o'clock.",
+                                "hintVi": "lúc",
+                                "answers": ["at"],
+                                "item": "i-do-at"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["Now is ten o'clock.", "It's ten o'clock.", "It ten o'clock."],
+                                "answer": 1,
+                                "item": "its-time"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I study ___ the morning.",
+                                "answers": ["in"],
+                                "item": "in-the-morning"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a1-02-l3-she-gets-up",
+            "title": "She gets up at seven",
+            "titleVi": "Thói quen của người khác",
+            "estimatedMinutes": 14,
+            "items": [
+                { "item": "present-simple-s", "role": "INTRODUCE" },
+                { "item": "always", "role": "INTRODUCE" },
+                { "item": "usually", "role": "INTRODUCE" },
+                { "item": "sometimes", "role": "INTRODUCE" },
+                { "item": "never", "role": "INTRODUCE" },
+                { "item": "what-time-do-you", "role": "INTRODUCE" },
+                { "item": "present-simple", "role": "RECYCLE" },
+                { "item": "go-to-bed", "role": "RECYCLE" },
+                { "item": "have-breakfast", "role": "RECYCLE" },
+                { "item": "sister", "role": "RECYCLE" },
+                { "item": "nurse", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 8 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["always", "usually", "sometimes", "never", "what-time-do-you"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "He / she + động từ thêm -s",
+                        "bodyVi": "Khi chủ ngữ là **he, she, it** hoặc một người (my sister, Tom), động từ thêm **-s**:\n\n- I get up → She get**s** up\n- I watch → He watch**es** (sau ch, sh, s, x, o thêm -es: go**es**)\n- I study → She stud**ies**\n- I have → She **has**\n\nPhủ định và câu hỏi dùng **doesn't / does**, động từ **bỏ -s**: She **doesn't** get up. **Does** he watch TV?\n\nTiếng Việt không đổi động từ nên người Việt rất hay quên -s. Hãy đọc thật rõ âm -s ở cuối.",
+                        "items": ["present-simple-s", "present-simple"],
+                        "examples": [
+                            { "en": "My sister gets up at seven.", "vi": "Chị mình dậy lúc bảy giờ.", "highlight": "gets" },
+                            { "en": "She doesn't have breakfast.", "vi": "Chị ấy không ăn sáng.", "highlight": "doesn't" }
+                        ]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "always, usually, sometimes, never",
+                        "bodyVi": "always (100%) → usually → sometimes → never (0%)\n\nĐặt **trước động từ thường**: I **always** get up at six. She **never** has breakfast.\n\nĐặt **sau be**: He **is always** tired.\n\n**never** đã là phủ định: ❌ I don't never watch TV.",
+                        "items": ["always", "usually", "sometimes", "never"]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "what-time-do-you",
+                        "prompts": [
+                            { "cueVi": "Hỏi: bạn dậy lúc mấy giờ?", "slots": { "activity": "get up" }, "answer": "What time do you get up?" },
+                            { "cueVi": "Hỏi: bạn đi ngủ lúc mấy giờ?", "slots": { "activity": "go to bed" }, "answer": "What time do you go to bed?" },
+                            { "cueVi": "Hỏi: bạn ăn sáng lúc mấy giờ?", "slots": { "activity": "have breakfast" }, "answer": "What time do you have breakfast?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["cloze", "listening", "sentence-build"],
+                        "items": ["always", "usually", "sometimes", "never", "go-to-bed", "have-breakfast", "sister"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a1-02-my-sisters-day", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "gap",
+                                "sentence": "My brother ___ up at six. (get)",
+                                "answers": ["gets"],
+                                "item": "present-simple-s"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "She ___ TV in the evening. (watch)",
+                                "answers": ["watches"],
+                                "item": "present-simple-s"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["He doesn't gets up early.", "He don't get up early.", "He doesn't get up early."],
+                                "answer": 2,
+                                "item": "present-simple-s"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Tôi luôn dậy lúc sáu giờ.",
+                                "answer": "I always get up at six.",
+                                "item": "always"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"sometimes\" nghĩa là:",
+                                "options": ["luôn luôn", "thỉnh thoảng", "không bao giờ"],
+                                "answer": 1,
+                                "item": "sometimes"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "a1-02-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "gap",
+                "sentence": "She ___ to work by bus. (go)",
+                "answers": ["goes"],
+                "item": "present-simple-s"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["I'm study English every day.", "I study English every day.", "I studies English every day."],
+                "answer": 1,
+                "item": "present-simple"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn giờ đúng.",
+                "audioText": "It's eleven o'clock.",
+                "options": ["7:00", "11:00", "11:30"],
+                "answer": 1,
+                "item": "o-clock"
+            },
+            {
+                "kind": "order",
+                "vi": "Bạn dậy lúc mấy giờ?",
+                "answer": "What time do you get up?",
+                "item": "what-time-do-you"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["He never has breakfast.", "He doesn't never have breakfast.", "He has never breakfast."],
+                "answer": 0,
+                "item": "never"
+            },
+            {
+                "kind": "gap",
+                "sentence": "I go to bed ___ eleven o'clock.",
+                "answers": ["at"],
+                "item": "i-do-at"
+            }
+        ]
+    }
+}
