@@ -1,16 +1,23 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { Prisma } from '@prisma/client';
-import { contentId, stepId } from '@/content/content-id';
+import {
+    checkpointColumns,
+    dialogueColumns,
+    itemColumns,
+    lessonChildren,
+    lessonColumns,
+    stageColumns,
+    unitColumns,
+} from '@/content/content-rows';
 import type { ContentCorpus } from '@/content/content.schema';
 import { PrismaService } from '@/prisma/prisma.service';
+import { type SeedRecord, toSeedRecords } from '@/content/content-records';
 import {
     type ExistingRow,
     type PlanAction,
     type PlanEntry,
-    type SeedRecord,
     planImport,
     summarizePlan,
-    toSeedRecords,
 } from './content-import.logic';
 
 type Tx = Prisma.TransactionClient;
@@ -115,100 +122,45 @@ export class ContentImportService {
 
         switch (seed.kind) {
             case 'stage': {
-                const r = seed.record;
-                const data = {
-                    ...meta,
-                    cefr: r.cefr,
-                    order: r.order,
-                    title: r.title,
-                    titleVi: r.titleVi,
-                    descriptionVi: r.descriptionVi ?? null,
-                };
+                const data = { ...meta, ...stageColumns(seed.record) };
                 await (insert
                     ? tx.stage.create({ data: { id, ...data } })
                     : tx.stage.update({ where: { id }, data }));
                 return;
             }
             case 'unit': {
-                const r = seed.record;
-                const data = {
-                    ...meta,
-                    stageId: contentId('stage', r.stage),
-                    order: r.order,
-                    title: r.title,
-                    titleVi: r.titleVi,
-                    descriptionVi: r.descriptionVi ?? null,
-                    canDo: r.canDo,
-                };
+                const data = { ...meta, ...unitColumns(seed.record) };
                 await (insert
                     ? tx.unit.create({ data: { id, ...data } })
                     : tx.unit.update({ where: { id }, data }));
                 return;
             }
             case 'item': {
-                const r = seed.record;
-                const data = {
-                    ...meta,
-                    unitId: contentId('unit', r.unit),
-                    type: r.type,
-                    text: r.text,
-                    meaningVi: r.meaningVi,
-                    ipa: r.ipa ?? null,
-                    audioUrl: r.audioUrl ?? null,
-                    examples: json(r.examples),
-                    pattern: r.pattern ? json(r.pattern) : Prisma.DbNull,
-                    grammar: r.grammar ? json(r.grammar) : Prisma.DbNull,
-                    collocations: r.collocations ?? [],
-                    noteVi: r.noteVi ?? null,
-                };
+                const data = { ...meta, ...itemColumns(seed.record) };
                 await (insert
                     ? tx.learnItem.create({ data: { id, ...data } })
                     : tx.learnItem.update({ where: { id }, data }));
                 return;
             }
             case 'dialogue': {
-                const r = seed.record;
-                const data = {
-                    ...meta,
-                    unitId: contentId('unit', r.unit),
-                    title: r.title,
-                    situationVi: r.situationVi,
-                    lines: json(r.lines),
-                };
+                const data = { ...meta, ...dialogueColumns(seed.record) };
                 await (insert
                     ? tx.dialogue.create({ data: { id, ...data } })
                     : tx.dialogue.update({ where: { id }, data }));
                 return;
             }
             case 'lesson': {
-                const r = seed.record;
                 // Steps and item links belong to the lesson's hash: replace them.
                 if (!insert) {
                     await tx.lessonStep.deleteMany({ where: { lessonId: id } });
                     await tx.lessonItem.deleteMany({ where: { lessonId: id } });
                 }
+                const { steps, items } = lessonChildren(seed.record);
                 const data = {
                     ...meta,
-                    unitId: contentId('unit', r.unit),
-                    order: r.order,
-                    title: r.title,
-                    titleVi: r.titleVi,
-                    estimatedMinutes: r.estimatedMinutes,
-                    steps: {
-                        create: r.steps.map((step, order) => ({
-                            id: stepId(r.slug, order),
-                            order,
-                            type: step.type,
-                            payload: json(step.payload),
-                        })),
-                    },
-                    items: {
-                        create: r.items.map((link, order) => ({
-                            itemId: contentId('item', link.item),
-                            role: link.role,
-                            order,
-                        })),
-                    },
+                    ...lessonColumns(seed.record),
+                    steps: { create: steps },
+                    items: { create: items },
                 };
                 await (insert
                     ? tx.lesson.create({ data: { id, ...data } })
@@ -216,13 +168,7 @@ export class ContentImportService {
                 return;
             }
             case 'checkpoint': {
-                const r = seed.record;
-                const data = {
-                    ...meta,
-                    unitId: contentId('unit', r.unit),
-                    passPercent: r.passPercent,
-                    questions: json(r.questions),
-                };
+                const data = { ...meta, ...checkpointColumns(seed.record) };
                 await (insert
                     ? tx.checkpoint.create({ data: { id, ...data } })
                     : tx.checkpoint.update({ where: { id }, data }));
@@ -230,8 +176,4 @@ export class ContentImportService {
             }
         }
     }
-}
-
-function json(value: unknown): Prisma.InputJsonValue {
-    return value as Prisma.InputJsonValue;
 }

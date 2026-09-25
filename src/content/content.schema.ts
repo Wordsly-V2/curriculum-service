@@ -141,7 +141,8 @@ export const itemSchema = z
         examples: z.array(exampleSchema),
         pattern: patternSchema.optional(),
         grammar: grammarSchema.optional(),
-        collocations: z.array(text).optional(),
+        // Omit rather than [], so a record has one seed shape (and one hash).
+        collocations: z.array(text).min(1).optional(),
         /** A mistake Vietnamese learners typically make with this item. */
         noteVi: text.optional(),
     })

@@ -22,7 +22,7 @@ npm run lint               # eslint --fix
 npm run test               # jest (rootDir=src, *.spec.ts)
 npx prisma migrate dev     # create/apply migrations
 npm run content:import     # load content/ into the working copy (idempotent)
-npm run content:import -- --dry-run | --force <slug|kind:slug> | --dir <path>
+npm run content:import -- --dry-run | --publish | --force <slug|kind:slug> | --dir <path>
 ```
 
 ## Auth
@@ -42,8 +42,9 @@ The learner is always `@CurrentUser()` (the token's `sub`).
 | Module | Role |
 |---|---|
 | `path-content/` | Learner reads under `/path` (the gateway routes `/path` and `/admin/path` here). |
-| `content/` | Seed format and rules: `content.schema.ts` (zod; the admin API reuses it), `content-refs.logic.ts` (cross-record rules), `content-id.ts` (uuidv5), `content-hash.ts`, `content-loader.ts` (reads `<repo>/content`). |
-| `content-import/` | `content-import.logic.ts` plans insert/update/skip/conflict from hashes; `content-import.service.ts` applies the plan in one transaction. Driven by `scripts/import-content.ts`. |
+| `content/` | Seed format and rules: `content.schema.ts` (zod + the allowed values of every enumerated column; the admin API reuses it), `content-refs.logic.ts` (cross-record rules), `content-records.ts` (`toSeedRecords`: the canonical seed shape that is hashed), `content-rows.ts` (record ⇄ row, `rowsToCorpus` validates rows like a seed), `content-id.ts` (uuidv5), `content-hash.ts`, `content-loader.ts` (reads `<repo>/content`). |
+| `content-import/` | `content-import.logic.ts` plans insert/update/skip/conflict from hashes; `content-import.service.ts` applies the plan in one transaction. Driven by `scripts/import-content.ts`, and at boot when `CONTENT_IMPORT_ON_BOOT=true` (dev compose; imports, then publishes if anything changed). |
+| `release/` | `ReleaseService.publish` (advisory-locked transaction: validate every non-archived row with `rowsToCorpus`, DRAFT → PUBLISHED, write the snapshot, move `PathState`), `activate` (rollback), `activeRelease` (cached pointer, 30 s TTL + delete on change). `release.logic.ts` builds the snapshot: tree, one payload per lesson and checkpoint, item id set, with every slug reference turned into an id. |
 | `cache/` | Redis. Prefix `curr`. `getOrSetGlobal` for published content, which is the same for everyone; `getOrSet` + `invalidateUser` for learner state. |
 | `messaging/` | Kafka producer only. `PATH_ITEMS_RETIRED_TOPIC` tells learning-service to drop progress for archived items. It no-ops without `KAFKA_BROKERS`. |
 | `config/`, `health/`, `prisma/`, `common/` | Same patterns as vocabulary-service. |
@@ -59,7 +60,9 @@ Import rules, per row: new → insert as DRAFT; untouched since the last import 
 - Content ids are `contentId(kind, slug)` = uuidv5 of `<kind>:<slug>` under a fixed namespace (steps: `step:<lessonSlug>#<index>`), stable across environments and re-seeds, because learning-service keys FSRS cards by them. Never hand-assign them, and never change the namespace or name format. Renaming a slug makes a new item.
 - `contentHash` is sha256 of the stable-stringified record **in seed shape** (references by slug; see `toSeedRecords`). Admin writes must hash that same shape, or every edit looks like a conflict.
 - Published items are never hard-deleted, only archived with a retire event, or learners' review cards would point at nothing.
-- Learners read only the active release snapshot. Admin edits touch the working copy and become visible only when published.
+- Learners read only the active release snapshot (`PublishedTree`, `PublishedLesson`, `PublishedCheckpoint`, `PublishedItem` of `PathState.activeReleaseId`). Admin edits touch the working copy and become visible only when published. Snapshots are never edited.
+- Publishing is all or nothing: the whole non-archived working copy must pass the seed rules, so a lesson still linking an archived item blocks the publish.
+- `PublishedCheckpoint` holds the answers: never send it to a client as is.
 
 ## Conventions
 

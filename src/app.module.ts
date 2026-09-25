@@ -8,12 +8,14 @@ import { UserScopeGuard } from './auth/jwt/user-scope.guard';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { CacheModule } from './cache/cache.module';
+import { ContentImportModule } from './content-import/content-import.module';
 import configuration from './config/configuration';
 import { validateEnv } from './config/validate-env';
 import { HealthModule } from './health/health.module';
 import { MessagingModule } from './messaging/messaging.module';
 import { PathContentModule } from './path-content/path-content.module';
 import { PrismaModule } from './prisma/prisma.module';
+import { ReleaseModule } from './release/release.module';
 import { AllExceptionsFilter } from './common/all-exceptions.filter';
 import { RequestContextLogger } from './common/request-context-logger';
 
@@ -30,6 +32,8 @@ import { RequestContextLogger } from './common/request-context-logger';
         PrismaModule,
         MessagingModule,
         PathContentModule,
+        ReleaseModule,
+        ContentImportModule,
     ],
     controllers: [AppController],
     providers: [

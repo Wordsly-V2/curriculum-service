@@ -221,8 +221,10 @@ model Release {
   createdBy String?  @map("created_by") @db.Uuid // null = importer
   createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz
 
-  tree    PublishedTree?
-  lessons PublishedLesson[]
+  tree        PublishedTree?
+  lessons     PublishedLesson[]
+  items       PublishedItem[]
+  checkpoints PublishedCheckpoint[]
 
   @@map("releases")
 }
@@ -249,6 +251,33 @@ model PublishedLesson {
   @@id([releaseId, lessonId])
   @@index([releaseId, unitId])
   @@map("published_lessons")
+}
+
+// Item ids in the release: what learning-service may keep FSRS cards for
+// (POST /path/items/filter-published).
+model PublishedItem {
+  releaseId String @map("release_id") @db.Uuid
+  itemId    String @map("item_id") @db.Uuid
+
+  release Release @relation(fields: [releaseId], references: [id], onDelete: Cascade)
+
+  @@id([releaseId, itemId])
+  @@map("published_items")
+}
+
+// A unit's checkpoint with its answers. Server-side only: the answers never
+// go to the client before an attempt is graded.
+model PublishedCheckpoint {
+  releaseId    String @map("release_id") @db.Uuid
+  checkpointId String @map("checkpoint_id") @db.Uuid
+  unitId       String @map("unit_id") @db.Uuid
+  payload      Json
+
+  release Release @relation(fields: [releaseId], references: [id], onDelete: Cascade)
+
+  @@id([releaseId, checkpointId])
+  @@unique([releaseId, unitId])
+  @@map("published_checkpoints")
 }
 
 // Singleton row (id = 1): which release learners see.

@@ -1,12 +1,11 @@
 import { contentHash } from '@/content/content-hash';
 import { contentId } from '@/content/content-id';
 import type { ContentCorpus } from '@/content/content.schema';
+import { type SeedRecord, toSeedRecords } from '@/content/content-records';
 import {
     type ExistingRow,
-    type SeedRecord,
     planImport,
     summarizePlan,
-    toSeedRecords,
 } from './content-import.logic';
 
 const corpus: ContentCorpus = {
