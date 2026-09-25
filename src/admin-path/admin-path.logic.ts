@@ -43,11 +43,23 @@ export interface AdminLessonNode extends AdminNode {
     title: string;
 }
 
+export interface AdminItemNode extends AdminNode {
+    type: string;
+    text: string;
+}
+
+export interface AdminDialogueNode extends AdminNode {
+    title: string;
+}
+
 export interface AdminUnitNode extends AdminNode {
     order: number;
     title: string;
     lessons: AdminLessonNode[];
     items: { total: number; draft: number; edited: number };
+    /** Every item of the unit, archived included, by slug. */
+    itemList: AdminItemNode[];
+    dialogues: AdminDialogueNode[];
     dialogueCount: number;
     checkpoint: AdminNode | null;
 }
@@ -69,8 +81,8 @@ export interface AdminRows {
     stages: (Row & { order: number; title: string; cefr: string })[];
     units: (Row & { stageId: string; order: number; title: string })[];
     lessons: (Row & { unitId: string; order: number; title: string })[];
-    items: (Row & { unitId: string | null })[];
-    dialogues: (Row & { unitId: string })[];
+    items: (Row & { unitId: string | null; type: string; text: string })[];
+    dialogues: (Row & { unitId: string; title: string })[];
     checkpoints: (Row & { unitId: string })[];
 }
 
@@ -132,6 +144,13 @@ export function buildAdminTree(rows: AdminRows): AdminTree {
                         edited: items.filter((i) => rowOrigin(i) !== 'seed')
                             .length,
                     },
+                    itemList: [...items]
+                        .sort((a, b) => a.slug.localeCompare(b.slug))
+                        .map((i) => ({ ...node(i), type: i.type, text: i.text })),
+                    dialogues: (dialoguesByUnit.get(unit.id) ?? []).map((d) => ({
+                        ...node(d),
+                        title: d.title,
+                    })),
                     dialogueCount: (dialoguesByUnit.get(unit.id) ?? []).length,
                     checkpoint: checkpoint ? node(checkpoint) : null,
                 };
