@@ -1,0 +1,740 @@
+{
+    "slug": "a1-07-right-now",
+    "stage": "a1",
+    "order": 7,
+    "title": "Right now",
+    "titleVi": "Ngay lúc này",
+    "descriptionVi": "Hiện tại tiếp diễn: nói việc đang làm, phân biệt với việc làm hằng ngày, nói chuyện điện thoại.",
+    "canDo": [
+        "Tôi nói được mình và người khác đang làm gì ngay lúc này.",
+        "Tôi phân biệt được việc làm hằng ngày (hiện tại đơn) và việc đang làm (hiện tại tiếp diễn).",
+        "Tôi gọi và nghe được một cuộc điện thoại ngắn: xin gặp ai, nhờ gọi lại."
+    ],
+    "items": [
+        {
+            "slug": "cook",
+            "type": "LEXICAL",
+            "text": "cook",
+            "meaningVi": "nấu ăn",
+            "ipa": "/kʊk/",
+            "examples": [
+                { "en": "My father is cooking dinner.", "vi": "Bố mình đang nấu bữa tối.", "highlight": "cooking" }
+            ],
+            "noteVi": "cook cũng là danh từ \"đầu bếp\". Nồi cơm điện là rice cooker, không phải \"rice cook\"."
+        },
+        {
+            "slug": "eat",
+            "type": "LEXICAL",
+            "text": "eat",
+            "meaningVi": "ăn",
+            "ipa": "/iːt/",
+            "examples": [
+                { "en": "We're eating lunch now.", "vi": "Bọn mình đang ăn trưa.", "highlight": "eating" }
+            ],
+            "noteVi": "Giữ âm cuối /t/. Ăn bữa sáng, trưa, tối hay dùng have: have lunch."
+        },
+        {
+            "slug": "drink",
+            "type": "LEXICAL",
+            "text": "drink",
+            "meaningVi": "uống; đồ uống",
+            "ipa": "/drɪŋk/",
+            "examples": [
+                { "en": "She's drinking coffee.", "vi": "Cô ấy đang uống cà phê.", "highlight": "drinking" }
+            ],
+            "noteVi": "Cụm âm cuối /ŋk/. Tiếng Việt \"ăn\" phở, canh; tiếng Anh: eat pho, have soup."
+        },
+        {
+            "slug": "wait",
+            "type": "LEXICAL",
+            "text": "wait",
+            "meaningVi": "chờ, đợi",
+            "ipa": "/weɪt/",
+            "examples": [
+                { "en": "I'm waiting for the bus.", "vi": "Mình đang đợi xe buýt.", "highlight": "waiting for" }
+            ],
+            "noteVi": "Chờ ai, cái gì: wait for. \"I'm waiting for you\", không nói \"waiting you\"."
+        },
+        {
+            "slug": "sleep",
+            "type": "LEXICAL",
+            "text": "sleep",
+            "meaningVi": "ngủ",
+            "ipa": "/sliːp/",
+            "examples": [
+                { "en": "Shh! The baby is sleeping.", "vi": "Suỵt! Em bé đang ngủ.", "highlight": "sleeping" }
+            ],
+            "noteVi": "Đi ngủ là go to bed; đang ngủ là be sleeping. Giữ âm cuối /p/."
+        },
+        {
+            "slug": "right-now",
+            "type": "PHRASE",
+            "text": "right now",
+            "meaningVi": "ngay lúc này",
+            "examples": [
+                { "en": "I'm busy right now.", "vi": "Lúc này mình đang bận.", "highlight": "right now" }
+            ],
+            "noteVi": "Mạnh hơn now một chút. Hay đi với hiện tại tiếp diễn: \"I'm working right now.\""
+        },
+        {
+            "slug": "what-are-you-doing",
+            "type": "PHRASE",
+            "text": "What are you doing?",
+            "meaningVi": "Bạn đang làm gì thế?",
+            "examples": [
+                { "en": "What are you doing? I'm cooking.", "vi": "Bạn đang làm gì thế? Mình đang nấu ăn.", "highlight": "What are you doing?" }
+            ],
+            "noteVi": "Khác \"What do you do?\" (Bạn làm nghề gì?). Câu này hỏi việc đang làm lúc nói."
+        },
+        {
+            "slug": "present-continuous",
+            "type": "GRAMMAR",
+            "text": "am / is / are + -ing",
+            "meaningVi": "thì hiện tại tiếp diễn: việc đang xảy ra",
+            "examples": [
+                { "en": "I'm reading. She's sleeping. They're eating.", "vi": "Mình đang đọc. Cô ấy đang ngủ. Họ đang ăn.", "highlight": "She's sleeping" }
+            ],
+            "grammar": {
+                "ruleVi": "Dùng cho việc đang diễn ra lúc nói. Cấu tạo: am/is/are + động từ thêm -ing. Phủ định thêm not (I'm not working); câu hỏi đảo be lên đầu (Are you working?).",
+                "forms": [
+                    { "label": "khẳng định", "example": "I'm cooking. He's working. We're eating." },
+                    { "label": "phủ định", "example": "I'm not sleeping. She isn't working." },
+                    { "label": "câu hỏi", "example": "Are you studying? Yes, I am. / No, I'm not." },
+                    { "label": "chính tả -ing", "example": "cook → cooking, write → writing, sit → sitting" }
+                ],
+                "pitfallsVi": [
+                    "Thiếu be: \"I cooking\" → I'm cooking.",
+                    "Thiếu -ing: \"I'm cook\" → I'm cooking.",
+                    "Động từ tận cùng e thì bỏ e: \"writeing\" → writing; nguyên âm + phụ âm ngắn thì gấp đôi: \"siting\" → sitting.",
+                    "Không dùng tiếp diễn với like, want, know: \"I'm liking it\" → I like it."
+                ]
+            }
+        },
+        {
+            "slug": "im-doing-right-now",
+            "type": "PATTERN",
+            "text": "I'm … right now.",
+            "meaningVi": "Lúc này tôi đang …",
+            "examples": [
+                { "en": "I'm watching TV right now.", "vi": "Lúc này mình đang xem TV.", "highlight": "I'm watching" }
+            ],
+            "pattern": {
+                "template": "I'm {doing} right now.",
+                "slots": [
+                    { "name": "doing", "hintVi": "động từ -ing (+ tân ngữ)", "options": ["cooking", "eating lunch", "watching TV"] }
+                ]
+            },
+            "noteVi": "I'm = I am. Nói về người khác: He's / She's / They're + -ing."
+        },
+        {
+            "slug": "now",
+            "type": "LEXICAL",
+            "text": "now",
+            "meaningVi": "bây giờ",
+            "ipa": "/naʊ/",
+            "examples": [
+                { "en": "She's working now.", "vi": "Bây giờ cô ấy đang làm việc.", "highlight": "now" }
+            ],
+            "noteVi": "Đọc /naʊ/ như \"nao\", không đọc \"nâu\"."
+        },
+        {
+            "slug": "at-the-moment",
+            "type": "PHRASE",
+            "text": "at the moment",
+            "meaningVi": "lúc này, hiện giờ",
+            "examples": [
+                { "en": "He isn't at home at the moment.", "vi": "Hiện giờ anh ấy không có nhà.", "highlight": "at the moment" }
+            ],
+            "noteVi": "Lịch sự hơn now một chút, hay dùng khi nghe điện thoại hoặc ở chỗ làm."
+        },
+        {
+            "slug": "play",
+            "type": "LEXICAL",
+            "text": "play",
+            "meaningVi": "chơi (thể thao, trò chơi, nhạc cụ)",
+            "ipa": "/pleɪ/",
+            "examples": [
+                { "en": "The children are playing in the park.", "vi": "Bọn trẻ đang chơi trong công viên.", "highlight": "playing" }
+            ],
+            "noteVi": "play soccer, play games, play the guitar. Không nói \"play\" cho đi chơi với bạn: dùng hang out."
+        },
+        {
+            "slug": "talk",
+            "type": "LEXICAL",
+            "text": "talk",
+            "meaningVi": "nói chuyện",
+            "ipa": "/tɔːk/",
+            "examples": [
+                { "en": "She's talking on the phone.", "vi": "Cô ấy đang nói chuyện điện thoại.", "highlight": "talking" }
+            ],
+            "noteVi": "Chữ l câm: /tɔːk/. Nói chuyện với ai: talk to someone."
+        },
+        {
+            "slug": "walk",
+            "type": "LEXICAL",
+            "text": "walk",
+            "meaningVi": "đi bộ",
+            "ipa": "/wɔːk/",
+            "examples": [
+                { "en": "I usually walk to work.", "vi": "Mình thường đi bộ đi làm.", "highlight": "walk" }
+            ],
+            "noteVi": "Chữ l câm: /wɔːk/. Đi bộ đến đâu: walk to school (không có go)."
+        },
+        {
+            "slug": "take-a-shower",
+            "type": "PHRASE",
+            "text": "take a shower",
+            "meaningVi": "tắm (vòi sen)",
+            "examples": [
+                { "en": "I can't talk now. I'm taking a shower.", "vi": "Giờ mình không nói chuyện được. Mình đang tắm.", "highlight": "taking a shower" }
+            ],
+            "noteVi": "Người Việt hay nói \"I'm bathing\"; người Mỹ nói take a shower."
+        },
+        {
+            "slug": "do-homework",
+            "type": "PHRASE",
+            "text": "do homework",
+            "meaningVi": "làm bài tập về nhà",
+            "examples": [
+                { "en": "My son is doing his homework.", "vi": "Con trai mình đang làm bài tập.", "highlight": "doing his homework" }
+            ],
+            "noteVi": "Dùng do, không dùng make. homework không đếm được: không nói \"homeworks\"."
+        },
+        {
+            "slug": "simple-vs-continuous",
+            "type": "GRAMMAR",
+            "text": "I work / I'm working",
+            "meaningVi": "hiện tại đơn và hiện tại tiếp diễn",
+            "examples": [
+                { "en": "I usually walk to work, but today I'm taking a taxi.", "vi": "Mình thường đi bộ đi làm, nhưng hôm nay mình đi taxi.", "highlight": "I'm taking" }
+            ],
+            "grammar": {
+                "ruleVi": "Hiện tại đơn cho thói quen, việc lặp lại, sự thật (every day, usually, always). Hiện tại tiếp diễn cho việc đang diễn ra lúc nói (now, right now, at the moment).",
+                "forms": [
+                    { "label": "thói quen", "example": "I drink coffee every morning." },
+                    { "label": "đang xảy ra", "example": "I'm drinking tea now." },
+                    { "label": "câu hỏi", "example": "What do you do? (nghề) / What are you doing? (đang làm)" }
+                ],
+                "pitfallsVi": [
+                    "Dùng tiếp diễn cho thói quen: \"I'm going to work every day\" → I go to work every day.",
+                    "Dùng hiện tại đơn cho việc đang làm: \"Look! It rains.\" → It's raining.",
+                    "Nhầm What do you do? với What are you doing?"
+                ]
+            }
+        },
+        {
+            "slug": "are-you-doing",
+            "type": "PATTERN",
+            "text": "Are you … now?",
+            "meaningVi": "Bây giờ bạn có đang … không?",
+            "examples": [
+                { "en": "Are you working now? No, I'm not.", "vi": "Bây giờ bạn đang làm việc à? Không.", "highlight": "Are you working" }
+            ],
+            "pattern": {
+                "template": "Are you {doing} now?",
+                "slots": [
+                    { "name": "doing", "hintVi": "động từ -ing", "options": ["working", "studying", "cooking"] }
+                ]
+            },
+            "noteVi": "Trả lời ngắn: \"Yes, I am.\" / \"No, I'm not.\" Không trả lời \"Yes, I do.\""
+        },
+        {
+            "slug": "call",
+            "type": "LEXICAL",
+            "text": "call",
+            "meaningVi": "gọi điện; cuộc gọi",
+            "ipa": "/kɔːl/",
+            "examples": [
+                { "en": "I'll call you tonight.", "vi": "Tối nay mình sẽ gọi cho bạn.", "highlight": "call" }
+            ],
+            "noteVi": "Gọi cho ai: call someone (không có to). \"Call me\", không nói \"call to me\"."
+        },
+        {
+            "slug": "message",
+            "type": "LEXICAL",
+            "text": "message",
+            "meaningVi": "tin nhắn, lời nhắn",
+            "ipa": "/ˈmesɪdʒ/",
+            "examples": [
+                { "en": "Can I take a message?", "vi": "Anh/chị có muốn để lại lời nhắn không?", "highlight": "message" }
+            ],
+            "noteVi": "Đọc /ˈmesɪdʒ/ (\"me-sịch\"), không đọc \"mét-xa-giơ\". Nhắn tin: send a message, hoặc text."
+        },
+        {
+            "slug": "later",
+            "type": "LEXICAL",
+            "text": "later",
+            "meaningVi": "lát nữa, sau",
+            "ipa": "/ˈleɪtər/",
+            "examples": [
+                { "en": "I'm busy now. Can I call you later?", "vi": "Giờ mình bận. Lát nữa mình gọi lại nhé?", "highlight": "later" }
+            ]
+        },
+        {
+            "slug": "hello-this-is",
+            "type": "PATTERN",
+            "text": "Hello, this is …",
+            "meaningVi": "Alô, tôi là … (khi gọi điện)",
+            "examples": [
+                { "en": "Hello, this is Lan.", "vi": "Alô, mình là Lan.", "highlight": "this is" }
+            ],
+            "pattern": {
+                "template": "Hello, this is {name}.",
+                "slots": [
+                    { "name": "name", "hintVi": "tên của bạn", "options": ["Lan", "Minh", "Tom"] }
+                ]
+            },
+            "noteVi": "Trên điện thoại nói \"this is …\", không nói \"I am …\" hay \"My name is …\"."
+        },
+        {
+            "slug": "can-i-speak-to",
+            "type": "PATTERN",
+            "text": "Can I speak to …, please?",
+            "meaningVi": "Cho tôi gặp … được không?",
+            "examples": [
+                { "en": "Can I speak to Mr. Nam, please?", "vi": "Cho mình gặp anh Nam được không ạ?", "highlight": "Can I speak to" }
+            ],
+            "pattern": {
+                "template": "Can I speak to {name}, please?",
+                "slots": [
+                    { "name": "name", "hintVi": "người bạn muốn gặp", "options": ["Anna", "Mr. Nam", "your manager"] }
+                ]
+            },
+            "noteVi": "Dùng speak to, không nói \"meet\" (gặp mặt) khi gọi điện."
+        },
+        {
+            "slug": "hold-on",
+            "type": "PHRASE",
+            "text": "Hold on, please.",
+            "meaningVi": "Vui lòng chờ máy.",
+            "examples": [
+                { "en": "Hold on, please. I'll get her.", "vi": "Chờ chút nhé. Để mình gọi cô ấy.", "highlight": "Hold on" }
+            ],
+            "noteVi": "Cũng hay nói \"One moment, please.\" hoặc \"Just a second.\""
+        },
+        {
+            "slug": "can-you-call-me-back",
+            "type": "PHRASE",
+            "text": "Can you call me back?",
+            "meaningVi": "Bạn gọi lại cho tôi được không?",
+            "examples": [
+                { "en": "I'm driving right now. Can you call me back?", "vi": "Mình đang lái xe. Bạn gọi lại sau được không?", "highlight": "call me back" }
+            ],
+            "noteVi": "call back = gọi lại. Mình gọi lại cho họ: \"I'll call you back.\""
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "a1-07-what-are-you-doing",
+            "title": "What are you doing?",
+            "situationVi": "Buổi tối, một người bạn nhắn video hỏi bạn đang làm gì.",
+            "lines": [
+                { "speaker": "Linh", "en": "Hi! What are you doing?", "vi": "Chào! Bạn đang làm gì đấy?" },
+                { "speaker": "You", "en": "I'm cooking dinner. What are you doing?", "vi": "Mình đang nấu bữa tối. Còn bạn đang làm gì?", "learnerTurn": true },
+                { "speaker": "Linh", "en": "I'm waiting for the bus. Are you at home?", "vi": "Mình đang đợi xe buýt. Bạn đang ở nhà à?" },
+                { "speaker": "You", "en": "Yes, I am. My sister is doing her homework.", "vi": "Ừ. Em gái mình đang làm bài tập.", "learnerTurn": true },
+                { "speaker": "Linh", "en": "And your parents?", "vi": "Còn bố mẹ bạn?" },
+                { "speaker": "You", "en": "They're watching TV in the living room.", "vi": "Bố mẹ đang xem TV ở phòng khách.", "learnerTurn": true }
+            ]
+        },
+        {
+            "slug": "a1-07-on-the-phone",
+            "title": "On the phone",
+            "situationVi": "Bạn gọi đến văn phòng để gặp một đồng nghiệp.",
+            "lines": [
+                { "speaker": "Receptionist", "en": "Good morning, ABC Company.", "vi": "Chào buổi sáng, công ty ABC xin nghe." },
+                { "speaker": "You", "en": "Hello, this is Minh. Can I speak to Anna, please?", "vi": "Alô, tôi là Minh. Cho tôi gặp Anna được không ạ?", "learnerTurn": true },
+                { "speaker": "Receptionist", "en": "Hold on, please. … Sorry, she's in a meeting at the moment.", "vi": "Anh chờ chút nhé. … Xin lỗi, chị ấy đang họp." },
+                { "speaker": "You", "en": "OK. Can she call me back later?", "vi": "Vâng. Lát nữa chị ấy gọi lại cho tôi được không?", "learnerTurn": true },
+                { "speaker": "Receptionist", "en": "Sure. What's your phone number?", "vi": "Được ạ. Số điện thoại của anh là gì?" },
+                { "speaker": "You", "en": "It's 0912 345 678. Thank you!", "vi": "Số 0912 345 678. Cảm ơn chị!", "learnerTurn": true }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "a1-07-l1-what-are-you-doing",
+            "title": "What are you doing?",
+            "titleVi": "Bạn đang làm gì?",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "cook", "role": "INTRODUCE" },
+                { "item": "eat", "role": "INTRODUCE" },
+                { "item": "drink", "role": "INTRODUCE" },
+                { "item": "wait", "role": "INTRODUCE" },
+                { "item": "sleep", "role": "INTRODUCE" },
+                { "item": "right-now", "role": "INTRODUCE" },
+                { "item": "what-are-you-doing", "role": "INTRODUCE" },
+                { "item": "present-continuous", "role": "INTRODUCE" },
+                { "item": "im-doing-right-now", "role": "INTRODUCE" },
+                { "item": "watch-tv", "role": "RECYCLE" },
+                { "item": "be-present", "role": "RECYCLE" },
+                { "item": "study", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 8 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["cook", "eat", "drink", "wait", "sleep", "right-now", "what-are-you-doing", "im-doing-right-now"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Đang làm gì: am / is / are + -ing",
+                        "bodyVi": "Tiếng Việt thêm chữ **đang**; tiếng Anh cần **hai phần**: **be** (am/is/are) + động từ **-ing**.\n\n| chủ ngữ | be + -ing |\n|---|---|\n| I | **am** cook**ing** |\n| he / she / it | **is** sleep**ing** |\n| you / we / they | **are** eat**ing** |\n\n❌ I cooking. I'm cook. ✅ I**'m** cook**ing**.\n\nChính tả -ing: thường chỉ thêm -ing (eat → eating); bỏ **e** câm (write → writ**ing**); một nguyên âm + một phụ âm thì gấp đôi (sit → si**tt**ing).\n\nHỏi: **What are you doing?** → **I'm** watch**ing** TV.",
+                        "items": ["present-continuous", "be-present", "what-are-you-doing", "im-doing-right-now"],
+                        "examples": [
+                            { "en": "I'm eating. She's sleeping.", "vi": "Mình đang ăn. Cô ấy đang ngủ.", "highlight": "She's sleeping" },
+                            { "en": "What are you doing? I'm studying.", "vi": "Bạn đang làm gì? Mình đang học bài.", "highlight": "I'm studying" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "im-doing-right-now",
+                        "prompts": [
+                            { "cueVi": "Lúc này mình đang nấu ăn.", "slots": { "doing": "cooking" }, "answer": "I'm cooking right now." },
+                            { "cueVi": "Lúc này mình đang xem TV.", "slots": { "doing": "watching TV" }, "answer": "I'm watching TV right now." },
+                            { "cueVi": "Lúc này mình đang học bài.", "slots": { "doing": "studying" }, "answer": "I'm studying right now." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["cook", "eat", "drink", "wait", "sleep", "right-now", "what-are-you-doing", "watch-tv"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a1-07-what-are-you-doing", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I cooking dinner.", "I'm cook dinner.", "I'm cooking dinner."],
+                                "answer": 2,
+                                "item": "present-continuous"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "My brother ___ sleeping.",
+                                "answers": ["is"],
+                                "item": "present-continuous"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"What are you doing?\" nghĩa là:",
+                                "options": ["Bạn làm nghề gì?", "Bạn đang làm gì thế?", "Bạn thích làm gì?"],
+                                "answer": 1,
+                                "item": "what-are-you-doing"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "I'm waiting for the bus.",
+                                "options": ["Mình đang đợi xe buýt.", "Mình đang đi xe buýt.", "Mình đang ngủ trên xe buýt."],
+                                "answer": 0,
+                                "item": "wait"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Lúc này mình đang ăn trưa.",
+                                "answer": "I'm eating lunch right now.",
+                                "item": "im-doing-right-now"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a1-07-l2-every-day-or-now",
+            "title": "Every day or right now?",
+            "titleVi": "Hằng ngày hay đang làm",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "now", "role": "INTRODUCE" },
+                { "item": "at-the-moment", "role": "INTRODUCE" },
+                { "item": "play", "role": "INTRODUCE" },
+                { "item": "talk", "role": "INTRODUCE" },
+                { "item": "walk", "role": "INTRODUCE" },
+                { "item": "take-a-shower", "role": "INTRODUCE" },
+                { "item": "do-homework", "role": "INTRODUCE" },
+                { "item": "simple-vs-continuous", "role": "INTRODUCE" },
+                { "item": "are-you-doing", "role": "INTRODUCE" },
+                { "item": "present-simple", "role": "RECYCLE" },
+                { "item": "usually", "role": "RECYCLE" },
+                { "item": "every-day", "role": "RECYCLE" },
+                { "item": "present-continuous", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 8 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["now", "at-the-moment", "play", "talk", "walk", "take-a-shower", "do-homework", "are-you-doing"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "I work hay I'm working?",
+                        "bodyVi": "| hiện tại đơn | hiện tại tiếp diễn |\n|---|---|\n| thói quen, việc lặp lại | việc đang xảy ra lúc nói |\n| every day, usually, always | now, right now, at the moment |\n| I **walk** to work every day. | I**'m walking** to work now. |\n| What **do** you **do**? (nghề) | What **are** you **doing**? (đang làm) |\n\n❌ I'm going to work every day. ✅ I **go** to work every day.\n\nHỏi đang làm không: **Are you** work**ing** now? → **Yes, I am.** / **No, I'm not.**",
+                        "items": ["simple-vs-continuous", "present-simple", "present-continuous", "usually", "every-day", "are-you-doing"],
+                        "examples": [
+                            { "en": "She usually walks to school, but today she's taking a taxi.", "vi": "Cô ấy thường đi bộ đến trường, nhưng hôm nay cô ấy đi taxi.", "highlight": "she's taking" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "are-you-doing",
+                        "prompts": [
+                            { "cueVi": "Hỏi: bây giờ bạn đang làm việc à?", "slots": { "doing": "working" }, "answer": "Are you working now?" },
+                            { "cueVi": "Hỏi: bây giờ bạn đang học bài à?", "slots": { "doing": "studying" }, "answer": "Are you studying now?" },
+                            { "cueVi": "Hỏi: bây giờ bạn đang làm bài tập à?", "slots": { "doing": "doing your homework" }, "answer": "Are you doing your homework now?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "cloze", "sentence-build"],
+                        "items": ["now", "at-the-moment", "play", "talk", "walk", "take-a-shower", "do-homework", "every-day"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "I usually walk to work, but today I'm taking a taxi.", "vi": "Mình thường đi bộ đi làm, nhưng hôm nay mình đi taxi." },
+                            { "en": "The children are playing in the park.", "vi": "Bọn trẻ đang chơi trong công viên." },
+                            { "en": "Are you working now? No, I'm not.", "vi": "Bây giờ bạn đang làm việc à? Không." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I'm drinking coffee every morning.", "I drink coffee every morning.", "I drinking coffee every morning."],
+                                "answer": 1,
+                                "item": "simple-vs-continuous"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Chọn câu đúng: \"Suỵt! Em bé ___.\"",
+                                "options": ["sleeps", "is sleeping", "sleep"],
+                                "answer": 1,
+                                "item": "simple-vs-continuous"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Are you studying now?\" Đúng vậy. Bạn trả lời:",
+                                "options": ["Yes, I do.", "Yes, I am.", "Yes, I studying."],
+                                "answer": 1,
+                                "item": "are-you-doing"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "My son is ___ his homework.",
+                                "hintVi": "làm (bài tập)",
+                                "answers": ["doing"],
+                                "item": "do-homework"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Hiện giờ anh ấy không có nhà.",
+                                "answer": "He isn't at home at the moment.",
+                                "item": "at-the-moment"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a1-07-l3-on-the-phone",
+            "title": "Can I speak to Anna?",
+            "titleVi": "Gọi điện thoại",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "call", "role": "INTRODUCE" },
+                { "item": "message", "role": "INTRODUCE" },
+                { "item": "later", "role": "INTRODUCE" },
+                { "item": "hello-this-is", "role": "INTRODUCE" },
+                { "item": "can-i-speak-to", "role": "INTRODUCE" },
+                { "item": "hold-on", "role": "INTRODUCE" },
+                { "item": "can-you-call-me-back", "role": "INTRODUCE" },
+                { "item": "phone", "role": "RECYCLE" },
+                { "item": "busy", "role": "RECYCLE" },
+                { "item": "at-the-moment", "role": "RECYCLE" },
+                { "item": "whats-your-phone-number", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["call", "message", "later", "hello-this-is", "can-i-speak-to", "hold-on", "can-you-call-me-back"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Nói chuyện điện thoại",
+                        "bodyVi": "Gọi đi:\n\n1. Xưng tên: **Hello, this is** Minh. (không nói \"I am Minh\")\n2. Xin gặp: **Can I speak to** Anna, **please?**\n3. Người đó bận: nhờ **Can she call me back later?**\n\nNghe máy:\n\n- Chờ máy: **Hold on, please.**\n- Người kia vắng: She's in a meeting **at the moment**. **Can I take a message?**\n- Mình đang bận: I'm **busy** right now. **I'll call you back.**\n\ncall ai đó không có **to**: **call me**, ❌ call to me.",
+                        "items": ["hello-this-is", "can-i-speak-to", "hold-on", "can-you-call-me-back", "message", "at-the-moment", "busy"]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "hello-this-is",
+                        "prompts": [
+                            { "cueVi": "Bạn là Lan, đang gọi điện. Xưng tên.", "slots": { "name": "Lan" }, "answer": "Hello, this is Lan." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "can-i-speak-to",
+                        "prompts": [
+                            { "cueVi": "Xin gặp Anna.", "slots": { "name": "Anna" }, "answer": "Can I speak to Anna, please?" },
+                            { "cueVi": "Xin gặp anh Nam.", "slots": { "name": "Mr. Nam" }, "answer": "Can I speak to Mr. Nam, please?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "context"],
+                        "items": ["call", "message", "later", "hold-on", "can-you-call-me-back", "phone", "busy"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a1-07-on-the-phone", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Gọi điện và xưng tên. Bạn nói:",
+                                "options": ["Hello, I am Minh.", "Hello, this is Minh.", "Hello, here Minh."],
+                                "answer": 1,
+                                "item": "hello-this-is"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn muốn người kia chờ máy. Bạn nói:",
+                                "options": ["Hold on, please.", "Stop, please.", "Wait me."],
+                                "answer": 0,
+                                "item": "hold-on"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Can I ___ to Anna, please?",
+                                "answers": ["speak", "talk"],
+                                "item": "can-i-speak-to"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["Please call to me later.", "Please call me later.", "Please call for me later."],
+                                "answer": 1,
+                                "item": "call"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Bạn gọi lại cho mình được không?",
+                                "answer": "Can you call me back?",
+                                "item": "can-you-call-me-back"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "a1-07-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["They playing soccer now.", "They're playing soccer now.", "They play soccer now."],
+                "answer": 1,
+                "item": "present-continuous"
+            },
+            {
+                "kind": "gap",
+                "sentence": "I usually ___ to work. (walk)",
+                "answers": ["walk"],
+                "item": "simple-vs-continuous"
+            },
+            {
+                "kind": "choice",
+                "prompt": "\"What do you do?\" nghĩa là:",
+                "options": ["Bạn đang làm gì?", "Bạn làm nghề gì?", "Bạn làm gì hôm nay?"],
+                "answer": 1,
+                "item": "what-are-you-doing"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "at the moment",
+                "options": ["lúc này", "lát nữa", "mỗi ngày"],
+                "answer": 0,
+                "item": "at-the-moment"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Gọi điện đến công ty để gặp Anna. Bạn nói:",
+                "options": ["Can I meet Anna?", "Can I speak to Anna, please?", "Give me Anna, please."],
+                "answer": 1,
+                "item": "can-i-speak-to"
+            },
+            {
+                "kind": "order",
+                "vi": "Lúc này mình đang bận. Mình gọi lại sau nhé.",
+                "answer": "I'm busy right now. I'll call you later.",
+                "item": "later"
+            }
+        ]
+    }
+}
