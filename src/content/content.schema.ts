@@ -66,6 +66,7 @@ export const PRACTICE_MODES = [
     'listening',
     'cloze',
     'sentence-build',
+    'speaking',
 ] as const;
 
 // ─── Items ──────────────────────────────────────────────────────────────────
