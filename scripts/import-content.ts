@@ -17,6 +17,7 @@ import { resolve } from 'node:path';
 import { DEFAULT_CONTENT_DIR, loadContent } from '@/content/content-loader';
 import { CacheService } from '@/cache/cache.service';
 import { ContentImportService } from '@/content-import/content-import.service';
+import { KafkaProducerService } from '@/messaging/kafka-producer.service';
 import { PrismaService } from '@/prisma/prisma.service';
 import { ContentInvalidError, ReleaseService } from '@/release/release.service';
 
@@ -77,18 +78,31 @@ async function main(): Promise<void> {
         }
 
         if (publish) {
-            // Only to drop the cached release pointer after publishing.
-            const cache = new CacheService({
-                get: (key: string) =>
-                    key === 'redis.url' ? process.env.REDIS_URL : undefined,
-            } as never);
+            // The cache only to drop the release pointer after publishing; Kafka
+            // to retire items the release drops (a no-op without KAFKA_BROKERS).
+            const env: Record<string, string | undefined> = {
+                'redis.url': process.env.REDIS_URL,
+                'kafka.brokers': process.env.KAFKA_BROKERS,
+                'kafka.ca': process.env.KAFKA_CA,
+                'kafka.cert': process.env.KAFKA_CERT,
+                'kafka.key': process.env.KAFKA_KEY,
+            };
+            const config = { get: (key: string) => env[key] } as never;
+            const cache = new CacheService(config);
+            const kafka = new KafkaProducerService(config);
             await cache.onModuleInit();
+            await kafka.onModuleInit();
             try {
-                const release = await new ReleaseService(prisma, cache).publish(
-                    { note: 'npm run content:import --publish' },
-                );
+                const release = await new ReleaseService(
+                    prisma,
+                    cache,
+                    kafka,
+                ).publish({ note: 'npm run content:import --publish' });
                 console.log(
-                    `Published release v${release.version} (${release.id})`,
+                    `Published release v${release.version} (${release.id})` +
+                        (release.retiredItemIds.length > 0
+                            ? `, retired ${release.retiredItemIds.length} items`
+                            : ''),
                 );
             } catch (err: unknown) {
                 if (!(err instanceof ContentInvalidError)) throw err;
@@ -97,6 +111,7 @@ async function main(): Promise<void> {
                 process.exitCode = 1;
             } finally {
                 await cache.onModuleDestroy();
+                await kafka.onModuleDestroy();
             }
         }
     } finally {

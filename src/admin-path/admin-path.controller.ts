@@ -6,6 +6,7 @@ import {
     Get,
     HttpCode,
     Param,
+    ParseUUIDPipe,
     PipeTransform,
     Post,
     Put,
@@ -13,7 +14,13 @@ import {
 import { ApiOperation, ApiTags } from '@nestjs/swagger';
 import { CurrentUser } from '@/auth/jwt/current-user.decorator';
 import { Roles } from '@/auth/jwt/roles.decorator';
-import { type ReleaseSummary, ReleaseService } from '@/release/release.service';
+import {
+    type PublishResult,
+    type ReleaseInfo,
+    type ReleaseSummary,
+    ReleaseService,
+} from '@/release/release.service';
+import { PublishReleaseDto } from './dto/publish-release.dto';
 import {
     AdminContentService,
     type AdminRecord,
@@ -78,6 +85,33 @@ export class AdminPathController {
     @ApiOperation({ summary: 'Every release, newest first' })
     list(): Promise<ReleaseSummary[]> {
         return this.releases.list();
+    }
+
+    @Post('releases')
+    @ApiOperation({
+        summary: 'Publish the working copy as a new release and make it live',
+        description:
+            'All or nothing: 400 with `errors` when the working copy fails validation. ' +
+            'Items the previous release had and this one drops are retired (learners lose their cards).',
+    })
+    publish(
+        @Body() body: PublishReleaseDto,
+        @CurrentUser() adminId: string,
+    ): Promise<PublishResult> {
+        return this.releases.publish({ note: body.note, createdBy: adminId });
+    }
+
+    @Post('releases/:id/activate')
+    @HttpCode(200)
+    @ApiOperation({
+        summary:
+            'Make an existing release live (rollback or roll forward); retires nothing',
+    })
+    activate(
+        @Param('id', ParseUUIDPipe) id: string,
+        @CurrentUser() adminId: string,
+    ): Promise<ReleaseInfo> {
+        return this.releases.activate(id, adminId);
     }
 
     // ─── Content (the working copy) ────────────────────────────────────────
