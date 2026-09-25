@@ -42,7 +42,7 @@ The learner is always `@CurrentUser()` (the token's `sub`).
 | Module | Role |
 |---|---|
 | `path-content/` | Content reads under `/path` (the gateway routes `/path` and `/admin/path` here): `GET /path` (tree), `POST /path/items/filter-published` (learning-service calls it with the learner's token), `POST /path/items/hydrate`. `PublishedContentService` reads one release's snapshot, cached under keys that carry the release id (never invalidated). |
-| `path-progress/` | The learner's own state under `/path`: `me`, `enroll`, `units/:id`, `lessons/:id` (403 while locked), `lessons/:id/complete` (idempotent per `clientRequestId`). Unlocking is `unit.logic.ts` (pure); the learner view is cached per user and release and dropped on every write. |
+| `path-progress/` | The learner's own state under `/path`: `me`, `enroll`, `units/:id`, `lessons/:id` (403 while locked), `lessons/:id/complete` (idempotent per `clientRequestId`), `units/:id/checkpoint` (questions without answers, 403 while locked) and `…/checkpoint/submit` (`CheckpointService`: graded on the server by `checkpoint.logic.ts`, every attempt kept, idempotent per `clientRequestId`, 409 when the client's `releaseId` is no longer active; answers are revealed only on a pass). Unlocking is `unit.logic.ts` (pure); the learner view is cached per user and release and dropped on every write. |
 | `content/` | Seed format and rules: `content.schema.ts` (zod + the allowed values of every enumerated column; the admin API reuses it), `content-refs.logic.ts` (cross-record rules), `content-records.ts` (`toSeedRecords`: the canonical seed shape that is hashed), `content-rows.ts` (record ⇄ row, `rowsToCorpus` validates rows like a seed), `content-id.ts` (uuidv5), `content-hash.ts`, `content-loader.ts` (reads `<repo>/content`). |
 | `content-import/` | `content-import.logic.ts` plans insert/update/skip/conflict from hashes; `content-import.service.ts` applies the plan in one transaction. Driven by `scripts/import-content.ts`, and at boot when `CONTENT_IMPORT_ON_BOOT=true` (dev compose; imports, then publishes if anything changed, then polls `content/` every second and does the same on each save, so an edited unit is live without a restart). |
 | `release/` | `ReleaseService.publish` (advisory-locked transaction: validate every non-archived row with `rowsToCorpus`, DRAFT → PUBLISHED, write the snapshot, move `PathState`), `activate` (rollback), `activeRelease` (cached pointer, 30 s TTL + delete on change). `release.logic.ts` builds the snapshot: tree, one payload per lesson and checkpoint, item id set, with every slug reference turned into an id. |
@@ -65,7 +65,8 @@ Import rules, per row: new → insert as DRAFT; untouched since the last import 
 - Published items are never hard-deleted, only archived with a retire event, or learners' review cards would point at nothing.
 - Learners read only the active release snapshot (`PublishedTree`, `PublishedLesson`, `PublishedCheckpoint`, `PublishedItem` of `PathState.activeReleaseId`). Admin edits touch the working copy and become visible only when published. Snapshots are never edited.
 - Publishing is all or nothing: the whole non-archived working copy must pass the seed rules, so a lesson still linking an archived item blocks the publish.
-- `PublishedCheckpoint` holds the answers: never send it to a client as is.
+- `PublishedCheckpoint` holds the answers: never send it to a client as is. Learners get `learnerQuestions()` (order questions carry their words sorted, as `tiles`), and a failed attempt's results say only right or wrong.
+- Typed answers are compared with `normalizeAnswer` in `checkpoint.logic.ts`, which must match the frontend's `lib/path/quiz.ts`.
 
 ## Conventions
 

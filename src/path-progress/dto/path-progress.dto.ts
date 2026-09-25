@@ -1,5 +1,15 @@
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
-import { IsInt, IsOptional, IsString, Length, Max, Min } from 'class-validator';
+import {
+    ArrayMaxSize,
+    IsArray,
+    IsInt,
+    IsOptional,
+    IsString,
+    IsUUID,
+    Length,
+    Max,
+    Min,
+} from 'class-validator';
 
 export class CompleteLessonDto {
     @ApiProperty({
@@ -16,4 +26,32 @@ export class CompleteLessonDto {
     @Min(0)
     @Max(100)
     scorePercent?: number;
+}
+
+export class SubmitCheckpointDto {
+    @ApiProperty({
+        description:
+            'Client-generated id of this attempt; resending it returns the first grade.',
+    })
+    @IsString()
+    @Length(1, 100)
+    clientRequestId: string;
+
+    @ApiPropertyOptional({
+        description:
+            'Release the questions came from (GET …/checkpoint); 409 if another release is active now.',
+    })
+    @IsOptional()
+    @IsUUID()
+    releaseId?: string;
+
+    @ApiProperty({
+        description:
+            'One per question, in order: option index (choice), typed text (gap), words in order (order).',
+        type: 'array',
+        items: {},
+    })
+    @IsArray()
+    @ArrayMaxSize(100)
+    answers: unknown[];
 }
