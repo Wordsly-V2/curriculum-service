@@ -1,0 +1,703 @@
+{
+    "slug": "a1-03-food-and-drink",
+    "stage": "a1",
+    "order": 3,
+    "title": "Food and drink",
+    "titleVi": "Đồ ăn thức uống",
+    "descriptionVi": "Món ăn và đồ uống quen thuộc, gọi món lịch sự, nói mình thích và không thích gì.",
+    "canDo": [
+        "Tôi gọi tên được các món ăn, đồ uống quen thuộc.",
+        "Tôi gọi được đồ uống, món ăn một cách lịch sự ở quán.",
+        "Tôi nói được mình thích và không thích gì, và hỏi người khác."
+    ],
+    "items": [
+        {
+            "slug": "rice",
+            "type": "LEXICAL",
+            "text": "rice",
+            "meaningVi": "cơm, gạo",
+            "ipa": "/raɪs/",
+            "examples": [
+                { "en": "We eat rice every day.", "vi": "Nhà mình ăn cơm hằng ngày.", "highlight": "rice" }
+            ],
+            "noteVi": "Danh từ không đếm được: không nói \"a rice\" hay \"rices\". Giữ âm cuối /s/: rice khác rye, rise."
+        },
+        {
+            "slug": "bread",
+            "type": "LEXICAL",
+            "text": "bread",
+            "meaningVi": "bánh mì",
+            "ipa": "/bred/",
+            "examples": [
+                { "en": "I have bread for breakfast.", "vi": "Mình ăn bánh mì vào bữa sáng.", "highlight": "bread" }
+            ],
+            "noteVi": "Không đếm được: \"some bread\", không nói \"a bread\"."
+        },
+        {
+            "slug": "egg",
+            "type": "LEXICAL",
+            "text": "egg",
+            "meaningVi": "quả trứng",
+            "ipa": "/eɡ/",
+            "examples": [
+                { "en": "I'd like two eggs, please.", "vi": "Cho mình hai quả trứng.", "highlight": "eggs" }
+            ],
+            "noteVi": "Đếm được: an egg, two eggs."
+        },
+        {
+            "slug": "chicken",
+            "type": "LEXICAL",
+            "text": "chicken",
+            "meaningVi": "thịt gà; con gà",
+            "ipa": "/ˈtʃɪkɪn/",
+            "examples": [
+                { "en": "Chicken and rice, please.", "vi": "Cho mình cơm gà.", "highlight": "Chicken" }
+            ]
+        },
+        {
+            "slug": "fish",
+            "type": "LEXICAL",
+            "text": "fish",
+            "meaningVi": "cá",
+            "ipa": "/fɪʃ/",
+            "examples": [
+                { "en": "My mother likes fish.", "vi": "Mẹ mình thích cá.", "highlight": "fish" }
+            ],
+            "noteVi": "Âm cuối /ʃ/ (chu môi, \"sh\"). Số nhiều vẫn là fish."
+        },
+        {
+            "slug": "noodles",
+            "type": "LEXICAL",
+            "text": "noodles",
+            "meaningVi": "mì, bún, phở (sợi)",
+            "ipa": "/ˈnuːdəlz/",
+            "examples": [
+                { "en": "I usually have noodles for breakfast.", "vi": "Mình thường ăn bún phở vào bữa sáng.", "highlight": "noodles" }
+            ],
+            "noteVi": "Thường dùng số nhiều. Phở, bún có thể giữ tên tiếng Việt: \"pho\", \"bun cha\"."
+        },
+        {
+            "slug": "vegetables",
+            "type": "LEXICAL",
+            "text": "vegetables",
+            "meaningVi": "rau, rau củ",
+            "ipa": "/ˈvedʒtəbəlz/",
+            "examples": [
+                { "en": "Vegetables are good for you.", "vi": "Rau tốt cho sức khỏe.", "highlight": "Vegetables" }
+            ],
+            "noteVi": "Đọc 3 âm tiết: VEG-ta-bles, không đọc \"ve-giê-ta-bồ\"."
+        },
+        {
+            "slug": "fruit",
+            "type": "LEXICAL",
+            "text": "fruit",
+            "meaningVi": "trái cây, hoa quả",
+            "ipa": "/fruːt/",
+            "examples": [
+                { "en": "I eat fruit every day.", "vi": "Mình ăn trái cây mỗi ngày.", "highlight": "fruit" }
+            ],
+            "noteVi": "Thường không đếm được: \"some fruit\". Chữ i câm: /fruːt/."
+        },
+        {
+            "slug": "water",
+            "type": "LEXICAL",
+            "text": "water",
+            "meaningVi": "nước (uống)",
+            "ipa": "/ˈwɔːtər/",
+            "examples": [
+                { "en": "Can I have some water, please?", "vi": "Cho mình xin ít nước nhé?", "highlight": "water" }
+            ],
+            "noteVi": "Không đếm được: \"some water\" hoặc \"a glass of water\", không nói \"a water\" (trừ khi gọi một chai ở quán)."
+        },
+        {
+            "slug": "coffee",
+            "type": "LEXICAL",
+            "text": "coffee",
+            "meaningVi": "cà phê",
+            "ipa": "/ˈkɔːfi/",
+            "examples": [
+                { "en": "I'd like a coffee, please.", "vi": "Cho mình một ly cà phê.", "highlight": "coffee" }
+            ],
+            "noteVi": "Ở quán, gọi \"a coffee\" (một ly) là tự nhiên. Cà phê sữa đá: \"iced coffee with milk\"."
+        },
+        {
+            "slug": "tea",
+            "type": "LEXICAL",
+            "text": "tea",
+            "meaningVi": "trà",
+            "ipa": "/tiː/",
+            "examples": [
+                { "en": "Green tea, please.", "vi": "Cho mình trà xanh.", "highlight": "tea" }
+            ]
+        },
+        {
+            "slug": "milk",
+            "type": "LEXICAL",
+            "text": "milk",
+            "meaningVi": "sữa",
+            "ipa": "/mɪlk/",
+            "examples": [
+                { "en": "Coffee with milk, please.", "vi": "Cho mình cà phê sữa.", "highlight": "milk" }
+            ],
+            "noteVi": "Cụm âm cuối /lk/: cong lưỡi cho âm /l/ rồi bật /k/."
+        },
+        {
+            "slug": "juice",
+            "type": "LEXICAL",
+            "text": "juice",
+            "meaningVi": "nước ép, nước trái cây",
+            "ipa": "/dʒuːs/",
+            "examples": [
+                { "en": "An orange juice, please.", "vi": "Cho mình một ly nước cam.", "highlight": "juice" }
+            ]
+        },
+        {
+            "slug": "id-like",
+            "type": "PATTERN",
+            "text": "I'd like …, please.",
+            "meaningVi": "Cho tôi …; tôi muốn … (lịch sự)",
+            "examples": [
+                { "en": "I'd like a tea, please.", "vi": "Cho mình một ly trà.", "highlight": "I'd like" }
+            ],
+            "pattern": {
+                "template": "I'd like {thing}, please.",
+                "slots": [
+                    { "name": "thing", "hintVi": "món hoặc đồ uống (có a/an nếu đếm được)", "options": ["a coffee", "some water", "chicken and rice"] }
+                ]
+            },
+            "noteVi": "I'd like = I would like, lịch sự hơn nhiều so với \"I want\". Khi gọi món, \"I want…\" nghe cộc."
+        },
+        {
+            "slug": "can-i-have",
+            "type": "PATTERN",
+            "text": "Can I have …, please?",
+            "meaningVi": "Cho tôi … được không?",
+            "examples": [
+                { "en": "Can I have some bread, please?", "vi": "Cho mình ít bánh mì được không?", "highlight": "Can I have" }
+            ],
+            "pattern": {
+                "template": "Can I have {thing}, please?",
+                "slots": [
+                    { "name": "thing", "hintVi": "món hoặc đồ uống", "options": ["a juice", "some water", "the menu"] }
+                ]
+            },
+            "noteVi": "Không nói \"Give me …\" ở quán; nghe như ra lệnh."
+        },
+        {
+            "slug": "anything-else",
+            "type": "PHRASE",
+            "text": "Anything else?",
+            "meaningVi": "Còn gì nữa không ạ?",
+            "examples": [
+                { "en": "Anything else? No, thank you.", "vi": "Còn gì nữa không ạ? Không, cảm ơn.", "highlight": "Anything else?" }
+            ],
+            "noteVi": "Nhân viên quán hay hỏi câu này. Đáp: \"No, thank you.\" hoặc \"Yes, a water, please.\""
+        },
+        {
+            "slug": "i-like",
+            "type": "PATTERN",
+            "text": "I like …",
+            "meaningVi": "Tôi thích …",
+            "examples": [
+                { "en": "I like coffee.", "vi": "Mình thích cà phê.", "highlight": "I like" }
+            ],
+            "pattern": {
+                "template": "I like {thing}.",
+                "slots": [
+                    { "name": "thing", "hintVi": "đồ ăn, đồ uống (nói chung: không có a/the)", "options": ["fish", "coffee", "noodles"] }
+                ]
+            },
+            "noteVi": "Nói chung về một loại thì không dùng a/the: \"I like coffee\", \"I like eggs\" (số nhiều). He/she + likes."
+        },
+        {
+            "slug": "i-dont-like",
+            "type": "PATTERN",
+            "text": "I don't like …",
+            "meaningVi": "Tôi không thích …",
+            "examples": [
+                { "en": "I don't like milk.", "vi": "Mình không thích sữa.", "highlight": "I don't like" }
+            ],
+            "pattern": {
+                "template": "I don't like {thing}.",
+                "slots": [
+                    { "name": "thing", "hintVi": "đồ ăn, đồ uống", "options": ["milk", "tea", "vegetables"] }
+                ]
+            },
+            "noteVi": "Không nói \"I not like\". He/she: \"She doesn't like fish.\""
+        },
+        {
+            "slug": "do-you-like",
+            "type": "PATTERN",
+            "text": "Do you like …?",
+            "meaningVi": "Bạn có thích … không?",
+            "examples": [
+                { "en": "Do you like fish? Yes, I do.", "vi": "Bạn có thích cá không? Có.", "highlight": "Do you like" }
+            ],
+            "pattern": {
+                "template": "Do you like {thing}?",
+                "slots": [
+                    { "name": "thing", "hintVi": "đồ ăn, đồ uống", "options": ["coffee", "chicken", "fruit"] }
+                ]
+            },
+            "noteVi": "Trả lời ngắn: \"Yes, I do.\" / \"No, I don't.\" Không trả lời \"Yes, I like.\""
+        },
+        {
+            "slug": "hungry",
+            "type": "LEXICAL",
+            "text": "hungry",
+            "meaningVi": "đói",
+            "ipa": "/ˈhʌŋɡri/",
+            "examples": [
+                { "en": "I'm hungry.", "vi": "Mình đói.", "highlight": "hungry" }
+            ],
+            "noteVi": "Dùng với be: \"I'm hungry\", không nói \"I hungry\" hay \"I have hungry\"."
+        },
+        {
+            "slug": "thirsty",
+            "type": "LEXICAL",
+            "text": "thirsty",
+            "meaningVi": "khát",
+            "ipa": "/ˈθɜːrsti/",
+            "examples": [
+                { "en": "Are you thirsty? Have some water.", "vi": "Bạn khát không? Uống chút nước đi.", "highlight": "thirsty" }
+            ],
+            "noteVi": "Âm /θ/ đầu từ. Dùng với be: \"I'm thirsty\"."
+        },
+        {
+            "slug": "delicious",
+            "type": "LEXICAL",
+            "text": "delicious",
+            "meaningVi": "ngon",
+            "ipa": "/dɪˈlɪʃəs/",
+            "examples": [
+                { "en": "This pho is delicious!", "vi": "Bát phở này ngon quá!", "highlight": "delicious" }
+            ],
+            "noteVi": "Đã mang nghĩa \"rất ngon\", nên không nói \"very delicious\". Nói thường ngày: \"It's really good.\""
+        },
+        {
+            "slug": "lunch",
+            "type": "LEXICAL",
+            "text": "lunch",
+            "meaningVi": "bữa trưa",
+            "ipa": "/lʌntʃ/",
+            "examples": [
+                { "en": "We have lunch at twelve.", "vi": "Bọn mình ăn trưa lúc mười hai giờ.", "highlight": "lunch" }
+            ]
+        },
+        {
+            "slug": "dinner",
+            "type": "LEXICAL",
+            "text": "dinner",
+            "meaningVi": "bữa tối",
+            "ipa": "/ˈdɪnər/",
+            "examples": [
+                { "en": "What do you have for dinner?", "vi": "Bữa tối bạn ăn gì?", "highlight": "dinner" }
+            ]
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "a1-03-at-the-cafe",
+            "title": "At the café",
+            "situationVi": "Bạn gọi đồ uống và đồ ăn ở một quán cà phê.",
+            "lines": [
+                { "speaker": "Waiter", "en": "Good morning. What would you like?", "vi": "Chào buổi sáng. Anh/chị dùng gì ạ?" },
+                { "speaker": "You", "en": "I'd like a coffee with milk, please.", "vi": "Cho mình một ly cà phê sữa.", "learnerTurn": true },
+                { "speaker": "Waiter", "en": "Anything else?", "vi": "Còn gì nữa không ạ?" },
+                { "speaker": "You", "en": "Can I have some bread and two eggs, please?", "vi": "Cho mình ít bánh mì và hai quả trứng nhé?", "learnerTurn": true },
+                { "speaker": "Waiter", "en": "Sure. Anything else?", "vi": "Vâng. Còn gì nữa không ạ?" },
+                { "speaker": "You", "en": "No, thank you.", "vi": "Không, cảm ơn.", "learnerTurn": true }
+            ]
+        },
+        {
+            "slug": "a1-03-lunch-time",
+            "title": "Lunch time",
+            "situationVi": "Giờ nghỉ trưa, bạn và đồng nghiệp nói chuyện về món ăn.",
+            "lines": [
+                { "speaker": "Tom", "en": "I'm hungry. What time is it?", "vi": "Mình đói rồi. Mấy giờ rồi?" },
+                { "speaker": "You", "en": "It's twelve o'clock. It's lunch time!", "vi": "Mười hai giờ rồi. Đến giờ ăn trưa!", "learnerTurn": true },
+                { "speaker": "Tom", "en": "Do you like noodles?", "vi": "Bạn có thích bún phở không?" },
+                { "speaker": "You", "en": "Yes, I do. I love pho. Do you like fish?", "vi": "Có. Mình rất thích phở. Bạn có thích cá không?", "learnerTurn": true },
+                { "speaker": "Tom", "en": "No, I don't. I like chicken.", "vi": "Không. Mình thích gà." },
+                { "speaker": "You", "en": "OK. Chicken noodle soup is delicious!", "vi": "Được. Phở gà ngon lắm!", "learnerTurn": true }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "a1-03-l1-food",
+            "title": "Rice, bread and eggs",
+            "titleVi": "Món ăn",
+            "estimatedMinutes": 10,
+            "items": [
+                { "item": "rice", "role": "INTRODUCE" },
+                { "item": "bread", "role": "INTRODUCE" },
+                { "item": "egg", "role": "INTRODUCE" },
+                { "item": "chicken", "role": "INTRODUCE" },
+                { "item": "fish", "role": "INTRODUCE" },
+                { "item": "noodles", "role": "INTRODUCE" },
+                { "item": "vegetables", "role": "INTRODUCE" },
+                { "item": "fruit", "role": "INTRODUCE" },
+                { "item": "have-breakfast", "role": "RECYCLE" },
+                { "item": "every-day", "role": "RECYCLE" },
+                { "item": "plural-s", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 8 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["rice", "bread", "egg", "chicken", "fish", "noodles", "vegetables", "fruit"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Đếm được hay không đếm được?",
+                        "bodyVi": "Một số món **đếm được**: an egg, two eggs.\n\nNhiều món **không đếm được**, nên không có a/an và không thêm -s: **rice, bread, fruit, water, milk**. Muốn nói \"một ít\" thì dùng **some**: some rice, some bread.\n\n❌ a rice, two breads ✅ some rice, some bread\n\nMột số từ thường ở số nhiều: **noodles, vegetables**.",
+                        "items": ["rice", "bread", "egg", "fruit", "plural-s"]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["rice", "bread", "egg", "chicken", "fish", "noodles", "vegetables", "fruit"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "I have bread and eggs for breakfast.", "vi": "Mình ăn bánh mì và trứng vào bữa sáng." },
+                            { "en": "We eat rice every day.", "vi": "Nhà mình ăn cơm hằng ngày." },
+                            { "en": "Chicken, fish and vegetables.", "vi": "Gà, cá và rau." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I'd like a rice.", "I'd like some rice.", "I'd like two rices."],
+                                "answer": 1,
+                                "item": "rice"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "vegetables",
+                                "options": ["trái cây", "rau", "thịt gà"],
+                                "answer": 1,
+                                "item": "vegetables"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I'd like two ___, please.",
+                                "hintVi": "quả trứng",
+                                "answers": ["eggs"],
+                                "item": "egg"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"cá\" tiếng Anh là:",
+                                "options": ["fish", "chicken", "fruit"],
+                                "answer": 0,
+                                "item": "fish"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a1-03-l2-ordering",
+            "title": "I'd like a coffee, please",
+            "titleVi": "Gọi đồ uống ở quán",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "water", "role": "INTRODUCE" },
+                { "item": "coffee", "role": "INTRODUCE" },
+                { "item": "tea", "role": "INTRODUCE" },
+                { "item": "milk", "role": "INTRODUCE" },
+                { "item": "juice", "role": "INTRODUCE" },
+                { "item": "id-like", "role": "INTRODUCE" },
+                { "item": "can-i-have", "role": "INTRODUCE" },
+                { "item": "anything-else", "role": "INTRODUCE" },
+                { "item": "please", "role": "RECYCLE" },
+                { "item": "bread", "role": "RECYCLE" },
+                { "item": "egg", "role": "RECYCLE" },
+                { "item": "a-an", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 8 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["water", "coffee", "tea", "milk", "juice", "id-like", "can-i-have", "anything-else"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Gọi món lịch sự",
+                        "bodyVi": "Hai cách gọi món an toàn:\n\n- **I'd like** + món **, please.** (I'd = I would)\n- **Can I have** + món **, please?**\n\nTránh \"I want…\" hay \"Give me…\": trong tiếng Anh nghe khá cộc, dù tiếng Việt \"cho tôi…\" hoàn toàn lịch sự.\n\nỞ quán, gọi đồ uống theo ly thì dùng **a**: a coffee, a tea, an orange juice. Nói chung chung thì dùng **some**: some water.",
+                        "items": ["id-like", "can-i-have", "please", "a-an"],
+                        "examples": [
+                            { "en": "I'd like a tea, please.", "vi": "Cho mình một ly trà.", "highlight": "I'd like" },
+                            { "en": "Can I have some water, please?", "vi": "Cho mình ít nước được không?", "highlight": "Can I have" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "id-like",
+                        "prompts": [
+                            { "cueVi": "Gọi một ly cà phê.", "slots": { "thing": "a coffee" }, "answer": "I'd like a coffee, please." },
+                            { "cueVi": "Gọi một ly nước ép.", "slots": { "thing": "a juice" }, "answer": "I'd like a juice, please." },
+                            { "cueVi": "Gọi cơm gà.", "slots": { "thing": "chicken and rice" }, "answer": "I'd like chicken and rice, please." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "can-i-have",
+                        "prompts": [
+                            { "cueVi": "Xin ít nước.", "slots": { "thing": "some water" }, "answer": "Can I have some water, please?" },
+                            { "cueVi": "Xin một ly trà.", "slots": { "thing": "a tea" }, "answer": "Can I have a tea, please?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "context"],
+                        "items": ["water", "coffee", "tea", "milk", "juice", "anything-else", "bread", "egg"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a1-03-at-the-cafe", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Cách gọi nào lịch sự nhất?",
+                                "options": ["Give me a coffee.", "I want coffee.", "I'd like a coffee, please."],
+                                "answer": 2,
+                                "item": "id-like"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Cho mình ít nước được không?",
+                                "answer": "Can I have some water, please?",
+                                "item": "can-i-have"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nhân viên hỏi \"Anything else?\". Bạn không cần gì thêm. Bạn nói:",
+                                "options": ["No, thank you.", "Yes, I do.", "I'm fine."],
+                                "answer": 0,
+                                "item": "anything-else"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "milk",
+                                "options": ["nước", "sữa", "trà"],
+                                "answer": 1,
+                                "item": "milk"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a1-03-l3-likes",
+            "title": "Do you like fish?",
+            "titleVi": "Thích và không thích",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "i-like", "role": "INTRODUCE" },
+                { "item": "i-dont-like", "role": "INTRODUCE" },
+                { "item": "do-you-like", "role": "INTRODUCE" },
+                { "item": "hungry", "role": "INTRODUCE" },
+                { "item": "thirsty", "role": "INTRODUCE" },
+                { "item": "delicious", "role": "INTRODUCE" },
+                { "item": "lunch", "role": "INTRODUCE" },
+                { "item": "dinner", "role": "INTRODUCE" },
+                { "item": "present-simple", "role": "RECYCLE" },
+                { "item": "present-simple-s", "role": "RECYCLE" },
+                { "item": "fish", "role": "RECYCLE" },
+                { "item": "noodles", "role": "RECYCLE" },
+                { "item": "what-time-is-it", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["i-like", "i-dont-like", "do-you-like", "hungry", "thirsty", "delicious", "lunch", "dinner"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "like: nói về sở thích",
+                        "bodyVi": "**like** là động từ thường, nên chia như mọi động từ ở hiện tại đơn:\n\n- I **like** fish. I **don't like** milk.\n- **Do you like** coffee? Yes, I **do**. / No, I **don't**.\n- She **likes** tea. He **doesn't like** vegetables.\n\nNói chung về một loại thì **không dùng a/the**: I like coffee (không phải \"I like the coffee\"). Món đếm được thì dùng số nhiều: I like egg**s**.\n\nĐói, khát dùng **be**: I**'m** hungry. I**'m** thirsty. (Không nói \"I have hungry\".)",
+                        "items": ["i-like", "i-dont-like", "do-you-like", "present-simple", "present-simple-s", "hungry", "thirsty"]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "i-like",
+                        "prompts": [
+                            { "cueVi": "Tôi thích cá.", "slots": { "thing": "fish" }, "answer": "I like fish." },
+                            { "cueVi": "Tôi thích trái cây.", "slots": { "thing": "fruit" }, "answer": "I like fruit." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "i-dont-like",
+                        "prompts": [
+                            { "cueVi": "Tôi không thích sữa.", "slots": { "thing": "milk" }, "answer": "I don't like milk." },
+                            { "cueVi": "Tôi không thích trà.", "slots": { "thing": "tea" }, "answer": "I don't like tea." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "do-you-like",
+                        "prompts": [
+                            { "cueVi": "Hỏi: bạn có thích cà phê không?", "slots": { "thing": "coffee" }, "answer": "Do you like coffee?" },
+                            { "cueVi": "Hỏi: bạn có thích bún phở không?", "slots": { "thing": "noodles" }, "answer": "Do you like noodles?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["listening", "cloze", "sentence-build"],
+                        "items": ["hungry", "thirsty", "delicious", "lunch", "dinner", "fish", "noodles"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a1-03-lunch-time", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Do you like tea?\" Bạn thích. Bạn trả lời:",
+                                "options": ["Yes, I like.", "Yes, I do.", "Yes, I am."],
+                                "answer": 1,
+                                "item": "do-you-like"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "My sister ___ fish. (like)",
+                                "answers": ["likes"],
+                                "item": "present-simple-s"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I have hungry.", "I'm hungry.", "I hungry."],
+                                "answer": 1,
+                                "item": "hungry"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Tôi không thích sữa.",
+                                "answer": "I don't like milk.",
+                                "item": "i-dont-like"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "a1-03-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Ở quán, bạn muốn gọi nước cam. Bạn nói:",
+                "options": ["Give me orange juice.", "I'd like an orange juice, please.", "I want juice."],
+                "answer": 1,
+                "item": "id-like"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "bread",
+                "options": ["bánh mì", "cơm", "trứng"],
+                "answer": 0,
+                "item": "bread"
+            },
+            {
+                "kind": "gap",
+                "sentence": "Can I ___ some water, please?",
+                "answers": ["have"],
+                "item": "can-i-have"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["She don't like coffee.", "She doesn't like coffee.", "She not like coffee."],
+                "answer": 1,
+                "item": "i-dont-like"
+            },
+            {
+                "kind": "choice",
+                "prompt": "\"thirsty\" nghĩa là:",
+                "options": ["đói", "khát", "ngon"],
+                "answer": 1,
+                "item": "thirsty"
+            },
+            {
+                "kind": "gap",
+                "sentence": "We have ___ at twelve o'clock.",
+                "hintVi": "bữa trưa",
+                "answers": ["lunch"],
+                "item": "lunch"
+            }
+        ]
+    }
+}
