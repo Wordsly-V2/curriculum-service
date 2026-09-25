@@ -40,11 +40,22 @@ describe('buildAdminTree', () => {
             row('l1', { unitId: 'u1', order: 1, title: 'L1' }),
         ],
         items: [
-            row('i1', { unitId: 'u1' }),
-            row('i2', { unitId: 'u1', status: 'DRAFT', contentHash: 'x' }),
-            row('i3', { unitId: 'u1', status: 'ARCHIVED' }),
+            row('i3', {
+                unitId: 'u1',
+                status: 'ARCHIVED',
+                type: 'LEXICAL',
+                text: 'c',
+            }),
+            row('i1', { unitId: 'u1', type: 'LEXICAL', text: 'a' }),
+            row('i2', {
+                unitId: 'u1',
+                status: 'DRAFT',
+                contentHash: 'x',
+                type: 'PHRASE',
+                text: 'b',
+            }),
         ],
-        dialogues: [row('d1', { unitId: 'u1' })],
+        dialogues: [row('d1', { unitId: 'u1', title: 'Hi' })],
         checkpoints: [row('c1', { unitId: 'u1' })],
     };
     const tree = buildAdminTree(rows);
@@ -63,6 +74,14 @@ describe('buildAdminTree', () => {
         const unit = tree.stages[0].units[0];
         expect(unit.items).toEqual({ total: 3, draft: 1, edited: 1 });
         expect(unit.dialogueCount).toBe(1);
+        expect(unit.itemList.map((i) => [i.slug, i.text, i.origin])).toEqual([
+            ['i1', 'a', 'seed'],
+            ['i2', 'b', 'edited'],
+            ['i3', 'c', 'seed'],
+        ]);
+        expect(unit.dialogues).toEqual([
+            expect.objectContaining({ slug: 'd1', title: 'Hi' }),
+        ]);
         expect(unit.checkpoint).toMatchObject({ id: 'c1', origin: 'seed' });
         expect(unit.lessons[1]).toMatchObject({
             status: 'DRAFT',

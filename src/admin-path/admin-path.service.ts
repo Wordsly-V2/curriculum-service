@@ -68,10 +68,10 @@ export class AdminPathService {
                     select: { ...NODE, unitId: true, order: true, title: true },
                 }),
                 this.prisma.learnItem.findMany({
-                    select: { ...NODE, unitId: true },
+                    select: { ...NODE, unitId: true, type: true, text: true },
                 }),
                 this.prisma.dialogue.findMany({
-                    select: { ...NODE, unitId: true },
+                    select: { ...NODE, unitId: true, title: true },
                 }),
                 this.prisma.checkpoint.findMany({
                     select: { ...NODE, unitId: true },

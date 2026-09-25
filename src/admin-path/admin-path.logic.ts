@@ -146,11 +146,17 @@ export function buildAdminTree(rows: AdminRows): AdminTree {
                     },
                     itemList: [...items]
                         .sort((a, b) => a.slug.localeCompare(b.slug))
-                        .map((i) => ({ ...node(i), type: i.type, text: i.text })),
-                    dialogues: (dialoguesByUnit.get(unit.id) ?? []).map((d) => ({
-                        ...node(d),
-                        title: d.title,
-                    })),
+                        .map((i) => ({
+                            ...node(i),
+                            type: i.type,
+                            text: i.text,
+                        })),
+                    dialogues: (dialoguesByUnit.get(unit.id) ?? []).map(
+                        (d) => ({
+                            ...node(d),
+                            title: d.title,
+                        }),
+                    ),
                     dialogueCount: (dialoguesByUnit.get(unit.id) ?? []).length,
                     checkpoint: checkpoint ? node(checkpoint) : null,
                 };
