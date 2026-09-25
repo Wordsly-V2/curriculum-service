@@ -56,7 +56,8 @@ export const IMPORT_ORDER: readonly ContentTable[] = [
     'checkpoint',
 ];
 
-function seed<K extends ContentTable, R extends { slug: string }>(
+/** A record with its id and hash, as the importer and the admin API write it. */
+export function seed<K extends ContentTable, R extends { slug: string }>(
     kind: K,
     record: R,
 ): Seed<K, R> {

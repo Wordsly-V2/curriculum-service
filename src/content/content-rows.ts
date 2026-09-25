@@ -148,6 +148,86 @@ function present<T extends Record<string, unknown>>(record: T): T {
 
 const byOrder = (a: { order: number }, b: { order: number }) =>
     a.order - b.order;
+
+// ─── One row → its seed shape (unvalidated; zod runs on the whole unit) ────
+// Used by rowsToCorpus and by the admin API's reads, so both describe a row
+// the same way. Children leave out `unit`; the caller adds it.
+
+export function itemRowToSeed(item: LearnItem): Record<string, unknown> {
+    return present({
+        slug: item.slug,
+        type: item.type,
+        text: item.text,
+        meaningVi: item.meaningVi,
+        ipa: item.ipa,
+        audioUrl: item.audioUrl,
+        examples: item.examples,
+        pattern: item.pattern,
+        grammar: item.grammar,
+        collocations:
+            item.collocations.length > 0 ? item.collocations : undefined,
+        noteVi: item.noteVi,
+    });
+}
+
+export function dialogueRowToSeed(d: Dialogue): Record<string, unknown> {
+    return {
+        slug: d.slug,
+        title: d.title,
+        situationVi: d.situationVi,
+        lines: d.lines,
+    };
+}
+
+/**
+ * Item links are written back as slugs; a link to an item missing from
+ * `itemSlug` (archived or deleted) keeps its id and is reported.
+ */
+export function lessonRowToSeed(
+    lesson: Lesson & { steps: LessonStep[]; items: LessonItem[] },
+    itemSlug: ReadonlyMap<string, string>,
+    onMissingItem: (itemId: string) => void = () => {},
+): Record<string, unknown> {
+    return {
+        slug: lesson.slug,
+        title: lesson.title,
+        titleVi: lesson.titleVi,
+        estimatedMinutes: lesson.estimatedMinutes,
+        items: [...lesson.items].sort(byOrder).map((link) => {
+            const item = itemSlug.get(link.itemId);
+            if (!item) onMissingItem(link.itemId);
+            return { item: item ?? link.itemId, role: link.role };
+        }),
+        steps: [...lesson.steps].sort(byOrder).map((step) => ({
+            type: step.type,
+            payload: step.payload,
+        })),
+    };
+}
+
+export function checkpointRowToSeed(c: Checkpoint): Record<string, unknown> {
+    return {
+        slug: c.slug,
+        passPercent: c.passPercent,
+        questions: c.questions,
+    };
+}
+
+/** A unit's own fields (UnitRecord), without its children. */
+export function unitRowToRecord(
+    row: Unit,
+    stageSlug: string,
+): Record<string, unknown> {
+    return present({
+        slug: row.slug,
+        stage: stageSlug,
+        order: row.order,
+        title: row.title,
+        titleVi: row.titleVi,
+        descriptionVi: row.descriptionVi,
+        canDo: row.canDo,
+    });
+}
 const bySlug = (a: { slug: string }, b: { slug: string }) =>
     a.slug < b.slug ? -1 : a.slug > b.slug ? 1 : 0;
 
@@ -215,56 +295,20 @@ export function rowsToCorpus(rows: WorkingCopy): CorpusFromRows {
             titleVi: row.titleVi,
             descriptionVi: row.descriptionVi,
             canDo: row.canDo,
-            items: (itemsByUnit.get(row.id) ?? []).map((item) =>
-                present({
-                    slug: item.slug,
-                    type: item.type,
-                    text: item.text,
-                    meaningVi: item.meaningVi,
-                    ipa: item.ipa,
-                    audioUrl: item.audioUrl,
-                    examples: item.examples,
-                    pattern: item.pattern,
-                    grammar: item.grammar,
-                    collocations:
-                        item.collocations.length > 0
-                            ? item.collocations
-                            : undefined,
-                    noteVi: item.noteVi,
-                }),
+            items: (itemsByUnit.get(row.id) ?? []).map(itemRowToSeed),
+            dialogues: (dialoguesByUnit.get(row.id) ?? []).map(
+                dialogueRowToSeed,
             ),
-            dialogues: (dialoguesByUnit.get(row.id) ?? []).map((d) => ({
-                slug: d.slug,
-                title: d.title,
-                situationVi: d.situationVi,
-                lines: d.lines,
-            })),
             lessons: (lessonsByUnit.get(row.id) ?? [])
                 .sort(byOrder)
-                .map((lesson) => ({
-                    slug: lesson.slug,
-                    title: lesson.title,
-                    titleVi: lesson.titleVi,
-                    estimatedMinutes: lesson.estimatedMinutes,
-                    items: [...lesson.items].sort(byOrder).map((link) => {
-                        const item = itemSlug.get(link.itemId);
-                        if (!item) {
-                            errors.push(
-                                `lesson ${lesson.slug}: links item ${link.itemId}, which is archived or missing`,
-                            );
-                        }
-                        return { item: item ?? link.itemId, role: link.role };
-                    }),
-                    steps: [...lesson.steps].sort(byOrder).map((step) => ({
-                        type: step.type,
-                        payload: step.payload,
-                    })),
-                })),
-            checkpoint: checkpoint && {
-                slug: checkpoint.slug,
-                passPercent: checkpoint.passPercent,
-                questions: checkpoint.questions,
-            },
+                .map((lesson) =>
+                    lessonRowToSeed(lesson, itemSlug, (itemId) =>
+                        errors.push(
+                            `lesson ${lesson.slug}: links item ${itemId}, which is archived or missing`,
+                        ),
+                    ),
+                ),
+            checkpoint: checkpoint && checkpointRowToSeed(checkpoint),
         });
 
         const parsed = unitFileSchema.safeParse(unit);

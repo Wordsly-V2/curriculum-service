@@ -19,6 +19,8 @@ import { getRequestId } from './request-context';
  * carries the request id so a user-visible error can be found in the logs.
  *
  * Only the status and a safe message cross the boundary. The detail is logged.
+ * A 4xx that deliberately carries `errors` (a list of validation messages the
+ * code wrote itself, e.g. an invalid admin record) passes that list through.
  */
 @Catch()
 export class AllExceptionsFilter implements ExceptionFilter {
@@ -35,6 +37,7 @@ export class AllExceptionsFilter implements ExceptionFilter {
         const requestId = getRequestId();
 
         const { status, message } = this.resolve(exception);
+        const errors = status < 500 ? clientErrors(exception) : undefined;
 
         const detail =
             exception instanceof Error ? exception.stack : String(exception);
@@ -51,6 +54,7 @@ export class AllExceptionsFilter implements ExceptionFilter {
         response.status(status).json({
             statusCode: status,
             message,
+            ...(errors && { errors }),
             requestId,
         });
     }
@@ -96,4 +100,16 @@ export class AllExceptionsFilter implements ExceptionFilter {
             message: 'Something went wrong on our side.',
         };
     }
+}
+
+/** The `errors: string[]` an HttpException was built with, if any. */
+function clientErrors(exception: unknown): string[] | undefined {
+    if (!(exception instanceof HttpException)) return undefined;
+    const body = exception.getResponse();
+    if (typeof body !== 'object' || body === null || !('errors' in body))
+        return undefined;
+    const errors = (body as { errors: unknown }).errors;
+    return Array.isArray(errors) && errors.every((e) => typeof e === 'string')
+        ? errors
+        : undefined;
 }
