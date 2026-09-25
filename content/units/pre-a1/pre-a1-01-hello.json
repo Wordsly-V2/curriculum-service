@@ -1,0 +1,328 @@
+{
+    "slug": "pre-a1-01-hello",
+    "stage": "pre-a1",
+    "order": 1,
+    "title": "Hello!",
+    "titleVi": "Xin chào!",
+    "descriptionVi": "Chào hỏi, tạm biệt, nói tên mình và hỏi thăm sức khỏe.",
+    "canDo": [
+        "Tôi chào và tạm biệt được người khác.",
+        "Tôi nói được tên mình và hỏi tên người khác.",
+        "Tôi hỏi thăm và trả lời được câu \"How are you?\"."
+    ],
+    "items": [
+        {
+            "slug": "hello",
+            "type": "LEXICAL",
+            "text": "hello",
+            "meaningVi": "xin chào",
+            "ipa": "/həˈloʊ/",
+            "examples": [
+                { "en": "Hello, Lan!", "vi": "Chào Lan!", "highlight": "Hello" }
+            ]
+        },
+        {
+            "slug": "hi",
+            "type": "LEXICAL",
+            "text": "hi",
+            "meaningVi": "chào (thân mật)",
+            "ipa": "/haɪ/",
+            "examples": [
+                { "en": "Hi, Tom!", "vi": "Chào Tom!", "highlight": "Hi" }
+            ],
+            "noteVi": "Dùng với bạn bè, người ngang hàng. Với người lớn tuổi hoặc lần đầu gặp, dùng \"Hello\"."
+        },
+        {
+            "slug": "goodbye",
+            "type": "LEXICAL",
+            "text": "goodbye",
+            "meaningVi": "tạm biệt",
+            "ipa": "/ɡʊdˈbaɪ/",
+            "examples": [
+                { "en": "Goodbye, see you tomorrow.", "vi": "Tạm biệt, mai gặp lại.", "highlight": "Goodbye" }
+            ]
+        },
+        {
+            "slug": "bye",
+            "type": "LEXICAL",
+            "text": "bye",
+            "meaningVi": "tạm biệt (thân mật)",
+            "ipa": "/baɪ/",
+            "examples": [
+                { "en": "Bye, Mai!", "vi": "Tạm biệt Mai!", "highlight": "Bye" }
+            ]
+        },
+        {
+            "slug": "thank-you",
+            "type": "PHRASE",
+            "text": "thank you",
+            "meaningVi": "cảm ơn",
+            "ipa": "/ˈθæŋk juː/",
+            "examples": [
+                { "en": "Thank you, teacher.", "vi": "Em cảm ơn cô.", "highlight": "Thank you" }
+            ],
+            "noteVi": "Âm /θ/ đặt đầu lưỡi giữa hai hàm răng rồi thổi hơi, không đọc thành \"t\" hay \"th\" tiếng Việt."
+        },
+        {
+            "slug": "my-name-is",
+            "type": "PATTERN",
+            "text": "My name is …",
+            "meaningVi": "Tên tôi là …",
+            "examples": [
+                { "en": "My name is Nam.", "vi": "Tên tôi là Nam.", "highlight": "My name is" }
+            ],
+            "pattern": {
+                "template": "My name is {name}.",
+                "slots": [
+                    { "name": "name", "hintVi": "tên của bạn", "options": ["Nam", "Lan", "Minh"] }
+                ]
+            }
+        },
+        {
+            "slug": "whats-your-name",
+            "type": "PHRASE",
+            "text": "What's your name?",
+            "meaningVi": "Bạn tên là gì?",
+            "examples": [
+                { "en": "Hi! What's your name?", "vi": "Chào bạn! Bạn tên là gì?", "highlight": "What's your name?" }
+            ]
+        },
+        {
+            "slug": "nice-to-meet-you",
+            "type": "PHRASE",
+            "text": "Nice to meet you.",
+            "meaningVi": "Rất vui được gặp bạn.",
+            "examples": [
+                { "en": "I'm Lan. Nice to meet you.", "vi": "Mình là Lan. Rất vui được gặp bạn.", "highlight": "Nice to meet you" }
+            ],
+            "noteVi": "Chỉ nói lần đầu gặp. Người kia thường đáp \"Nice to meet you, too.\""
+        },
+        {
+            "slug": "how-are-you",
+            "type": "PHRASE",
+            "text": "How are you?",
+            "meaningVi": "Bạn khỏe không?",
+            "examples": [
+                { "en": "Hello, Tom. How are you?", "vi": "Chào Tom. Bạn khỏe không?", "highlight": "How are you?" }
+            ]
+        },
+        {
+            "slug": "im-fine-thanks",
+            "type": "PHRASE",
+            "text": "I'm fine, thanks.",
+            "meaningVi": "Mình khỏe, cảm ơn.",
+            "examples": [
+                { "en": "I'm fine, thanks. And you?", "vi": "Mình khỏe, cảm ơn. Còn bạn?", "highlight": "I'm fine, thanks" }
+            ],
+            "noteVi": "Nhớ hỏi lại \"And you?\" cho lịch sự."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "pre-a1-01-first-day",
+            "title": "First day at class",
+            "situationVi": "Buổi học đầu tiên, bạn gặp một bạn cùng lớp.",
+            "lines": [
+                { "speaker": "Tom", "en": "Hi! What's your name?", "vi": "Chào bạn! Bạn tên là gì?" },
+                { "speaker": "You", "en": "Hello. My name is Lan.", "vi": "Xin chào. Mình tên là Lan.", "learnerTurn": true },
+                { "speaker": "Tom", "en": "Nice to meet you, Lan. I'm Tom.", "vi": "Rất vui được gặp bạn, Lan. Mình là Tom." },
+                { "speaker": "You", "en": "Nice to meet you, too.", "vi": "Mình cũng rất vui được gặp bạn.", "learnerTurn": true },
+                { "speaker": "Tom", "en": "How are you?", "vi": "Bạn khỏe không?" },
+                { "speaker": "You", "en": "I'm fine, thanks. And you?", "vi": "Mình khỏe, cảm ơn. Còn bạn?", "learnerTurn": true }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "pre-a1-01-l1-greetings",
+            "title": "Hello and goodbye",
+            "titleVi": "Chào và tạm biệt",
+            "estimatedMinutes": 10,
+            "items": [
+                { "item": "hello", "role": "INTRODUCE" },
+                { "item": "hi", "role": "INTRODUCE" },
+                { "item": "goodbye", "role": "INTRODUCE" },
+                { "item": "bye", "role": "INTRODUCE" },
+                { "item": "thank-you", "role": "INTRODUCE" }
+            ],
+            "steps": [
+                {
+                    "type": "INTRO",
+                    "payload": { "schemaVersion": 1, "items": ["hello", "hi", "goodbye", "bye", "thank-you"] }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Trang trọng hay thân mật?",
+                        "bodyVi": "**Hello** và **goodbye** dùng được với mọi người. **Hi** và **bye** thân mật hơn, dùng với bạn bè.\n\nTiếng Anh không có đại từ nhân xưng theo vai vế như tiếng Việt: \"Hello, teacher\" đã đủ lịch sự.",
+                        "items": ["hello", "hi", "goodbye", "bye"]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["hello", "hi", "goodbye", "bye", "thank-you"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "Hello!", "vi": "Xin chào!" },
+                            { "en": "Thank you.", "vi": "Cảm ơn." },
+                            { "en": "Goodbye!", "vi": "Tạm biệt!" }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn gặp thầy giáo buổi sáng. Bạn nói:",
+                                "options": ["Hello!", "Bye!", "Thank you!"],
+                                "answer": 0,
+                                "item": "hello"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Goodbye",
+                                "options": ["xin chào", "tạm biệt", "cảm ơn"],
+                                "answer": 1,
+                                "item": "goodbye"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "___ you, teacher.",
+                                "hintVi": "cảm ơn",
+                                "answers": ["Thank"],
+                                "item": "thank-you"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "pre-a1-01-l2-names",
+            "title": "What's your name?",
+            "titleVi": "Bạn tên là gì?",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "my-name-is", "role": "INTRODUCE" },
+                { "item": "whats-your-name", "role": "INTRODUCE" },
+                { "item": "nice-to-meet-you", "role": "INTRODUCE" },
+                { "item": "how-are-you", "role": "INTRODUCE" },
+                { "item": "im-fine-thanks", "role": "INTRODUCE" },
+                { "item": "hello", "role": "RECYCLE" },
+                { "item": "hi", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 5 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["my-name-is", "whats-your-name", "nice-to-meet-you", "how-are-you", "im-fine-thanks"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Mẫu câu \"My name is …\"",
+                        "bodyVi": "Thay tên của bạn vào chỗ trống: **My name is** + tên.\n\nCách nói ngắn, tự nhiên hơn: **I'm** + tên (\"I'm Lan\").",
+                        "items": ["my-name-is"],
+                        "examples": [
+                            { "en": "My name is Minh.", "vi": "Tên tôi là Minh.", "highlight": "My name is" },
+                            { "en": "I'm Minh.", "vi": "Tôi là Minh.", "highlight": "I'm" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "my-name-is",
+                        "prompts": [
+                            { "cueVi": "Tên tôi là Nam.", "slots": { "name": "Nam" }, "answer": "My name is Nam." },
+                            { "cueVi": "Tên tôi là Hoa.", "slots": { "name": "Hoa" }, "answer": "My name is Hoa." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["listening", "sentence-build", "cloze"],
+                        "items": ["whats-your-name", "nice-to-meet-you", "how-are-you", "im-fine-thanks", "hello", "hi"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "pre-a1-01-first-day", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "\"How are you?\" Bạn trả lời:",
+                                "options": ["My name is Lan.", "I'm fine, thanks.", "Goodbye."],
+                                "answer": 1,
+                                "item": "im-fine-thanks"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Rất vui được gặp bạn.",
+                                "answer": "Nice to meet you.",
+                                "item": "nice-to-meet-you"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "pre-a1-01-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Câu nào dùng để hỏi tên?",
+                "options": ["How are you?", "What's your name?", "Nice to meet you."],
+                "answer": 1,
+                "item": "whats-your-name"
+            },
+            {
+                "kind": "gap",
+                "sentence": "My ___ is Lan.",
+                "answers": ["name"],
+                "item": "my-name-is"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Bạn chia tay một người bạn thân. Bạn nói:",
+                "options": ["Bye!", "Nice to meet you.", "Thank you."],
+                "answer": 0,
+                "item": "bye"
+            },
+            {
+                "kind": "order",
+                "vi": "Mình khỏe, cảm ơn.",
+                "answer": "I'm fine, thanks.",
+                "item": "im-fine-thanks"
+            }
+        ]
+    }
+}

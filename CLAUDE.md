@@ -21,6 +21,8 @@ npm run build              # prisma generate + nest build
 npm run lint               # eslint --fix
 npm run test               # jest (rootDir=src, *.spec.ts)
 npx prisma migrate dev     # create/apply migrations
+npm run content:import     # load content/ into the working copy (idempotent)
+npm run content:import -- --dry-run | --force <slug|kind:slug> | --dir <path>
 ```
 
 ## Auth
@@ -40,13 +42,22 @@ The learner is always `@CurrentUser()` (the token's `sub`).
 | Module | Role |
 |---|---|
 | `path-content/` | Learner reads under `/path` (the gateway routes `/path` and `/admin/path` here). |
+| `content/` | Seed format and rules: `content.schema.ts` (zod; the admin API reuses it), `content-refs.logic.ts` (cross-record rules), `content-id.ts` (uuidv5), `content-hash.ts`, `content-loader.ts` (reads `<repo>/content`). |
+| `content-import/` | `content-import.logic.ts` plans insert/update/skip/conflict from hashes; `content-import.service.ts` applies the plan in one transaction. Driven by `scripts/import-content.ts`. |
 | `cache/` | Redis. Prefix `curr`. `getOrSetGlobal` for published content, which is the same for everyone; `getOrSet` + `invalidateUser` for learner state. |
 | `messaging/` | Kafka producer only. `PATH_ITEMS_RETIRED_TOPIC` tells learning-service to drop progress for archived items. It no-ops without `KAFKA_BROKERS`. |
 | `config/`, `health/`, `prisma/`, `common/` | Same patterns as vocabulary-service. |
 
+## Content seed
+
+`content/stages.json` and `content/units/<stage-slug>/<unit-slug>.json` (the folder must be the unit's stage, the file name its slug). Records reference each other by slug only. Lesson and step order is array order. Step payloads carry `schemaVersion: 1`.
+
+Import rules, per row: new → insert as DRAFT; untouched since the last import (`contentHash == seedHash`) → take the seed; edited by an admin → keep the edit, and report a conflict if the seed changed too (`--force` lets the seed win). The importer never deletes and never changes `status`. A lesson row owns its steps and item links: they are hashed and rewritten together.
+
 ## Invariants
 
-- Content ids are `uuidv5(namespace, slug)`, stable across environments and re-seeds, because learning-service keys FSRS cards by them. Never hand-assign or regenerate them.
+- Content ids are `contentId(kind, slug)` = uuidv5 of `<kind>:<slug>` under a fixed namespace (steps: `step:<lessonSlug>#<index>`), stable across environments and re-seeds, because learning-service keys FSRS cards by them. Never hand-assign them, and never change the namespace or name format. Renaming a slug makes a new item.
+- `contentHash` is sha256 of the stable-stringified record **in seed shape** (references by slug; see `toSeedRecords`). Admin writes must hash that same shape, or every edit looks like a conflict.
 - Published items are never hard-deleted, only archived with a retire event, or learners' review cards would point at nothing.
 - Learners read only the active release snapshot. Admin edits touch the working copy and become visible only when published.
 
@@ -56,3 +67,7 @@ The learner is always `@CurrentUser()` (the token's `sub`).
 - Controllers are thin and logic lives in services. Pure logic goes in `*.logic.ts` with a spec.
 - DTOs use class-validator.
 - Folders are kebab-case. Indent is 4 spaces, with single quotes.
+
+## Database rules
+
+- **Never use database enums** (workspace-wide rule, see `../../CLAUDE.md`): no Prisma `enum`, no `CREATE TYPE … AS ENUM`. Use `String` columns; the allowed values live in code as an `as const` list + union type and are validated at the boundary.
