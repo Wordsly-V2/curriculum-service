@@ -41,7 +41,11 @@ export interface ItemView {
 export type DialogueView = DialogueSeed & { id: string };
 
 /** A question with its tested item as an id. */
-export type QuestionView = Omit<Question, 'item'> & { itemId?: string };
+export type QuestionView = Question extends infer Q
+    ? Q extends Question
+        ? Omit<Q, 'item'> & { itemId?: string }
+        : never
+    : never;
 
 /** Step payloads with references resolved: `items` → `itemIds`, etc. */
 export type StepPayloadView =

@@ -224,6 +224,20 @@ export class PathProgressService {
         return state;
     }
 
+    /** The active release, its tree and the learner's view of it. */
+    async context(userLoginId: string): Promise<{
+        release: ReleaseInfo;
+        tree: TreeSnapshot;
+        me: PathMe;
+    }> {
+        const { release, tree } = await this.active();
+        return {
+            release,
+            tree,
+            me: await this.meFor(userLoginId, release, tree),
+        };
+    }
+
     private async active(): Promise<{
         release: ReleaseInfo;
         tree: TreeSnapshot;

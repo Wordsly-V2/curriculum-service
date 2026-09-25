@@ -3,6 +3,7 @@ import { CacheKind } from '@/cache/cache-ttl';
 import { CacheService } from '@/cache/cache.service';
 import { PrismaService } from '@/prisma/prisma.service';
 import type {
+    CheckpointSnapshot,
     ItemView,
     LessonSnapshot,
     TreeSnapshot,
@@ -49,6 +50,26 @@ export class PublishedContentService {
             },
             CacheKind.Release,
             { shouldCache: (lesson) => lesson !== null },
+        );
+    }
+
+    /** With its answers: grade with it, never send it to a client as is. */
+    async checkpoint(
+        releaseId: string,
+        checkpointId: string,
+    ): Promise<CheckpointSnapshot | null> {
+        return this.cache.getOrSetGlobal(
+            ['release', releaseId, 'checkpoint', checkpointId],
+            async () => {
+                const row = await this.prisma.publishedCheckpoint.findUnique({
+                    where: {
+                        releaseId_checkpointId: { releaseId, checkpointId },
+                    },
+                });
+                return (row?.payload as CheckpointSnapshot | undefined) ?? null;
+            },
+            CacheKind.Release,
+            { shouldCache: (checkpoint) => checkpoint !== null },
         );
     }
 
