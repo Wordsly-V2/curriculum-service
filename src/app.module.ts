@@ -5,6 +5,7 @@ import { AuthModule } from './auth/jwt/auth.module';
 import { AccessGuard } from './auth/jwt/access.guard';
 import { RolesGuard } from './auth/jwt/roles.guard';
 import { UserScopeGuard } from './auth/jwt/user-scope.guard';
+import { AdminPathModule } from './admin-path/admin-path.module';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { CacheModule } from './cache/cache.module';
@@ -36,6 +37,7 @@ import { RequestContextLogger } from './common/request-context-logger';
         PathProgressModule,
         ReleaseModule,
         ContentImportModule,
+        AdminPathModule,
     ],
     controllers: [AppController],
     providers: [

@@ -22,6 +22,15 @@ export interface ReleaseInfo {
     version: number;
 }
 
+export interface ReleaseSummary extends ReleaseInfo {
+    note: string | null;
+    /** Admin's userLoginId; null for the importer. */
+    createdBy: string | null;
+    createdAt: Date;
+    /** The release learners read now. */
+    active: boolean;
+}
+
 /** The working copy fails the seed rules; nothing was published. */
 export class ContentInvalidError extends BadRequestException {
     constructor(readonly errors: string[]) {
@@ -153,6 +162,27 @@ export class ReleaseService {
         );
     }
 
+    /** Every release, newest first, with the active one marked. */
+    async list(): Promise<ReleaseSummary[]> {
+        const [releases, state] = await Promise.all([
+            this.prisma.release.findMany({
+                orderBy: { version: 'desc' },
+                select: {
+                    id: true,
+                    version: true,
+                    note: true,
+                    createdBy: true,
+                    createdAt: true,
+                },
+            }),
+            this.prisma.pathState.findUnique({ where: { id: 1 } }),
+        ]);
+        return releases.map((r) => ({
+            ...r,
+            active: r.id === state?.activeReleaseId,
+        }));
+    }
+
     private async point(
         tx: Tx,
         releaseId: string,
@@ -169,8 +199,11 @@ export class ReleaseService {
         });
     }
 
-    /** Every row that is not archived, with each lesson's steps and links. */
-    private async workingCopy(tx: Tx): Promise<WorkingCopy> {
+    /**
+     * Every row that is not archived, with each lesson's steps and links: what
+     * a publish would validate and snapshot.
+     */
+    async workingCopy(tx: Tx = this.prisma): Promise<WorkingCopy> {
         const where = { status: { not: 'ARCHIVED' } };
         const [stages, units, items, dialogues, lessons, checkpoints] =
             await Promise.all([
