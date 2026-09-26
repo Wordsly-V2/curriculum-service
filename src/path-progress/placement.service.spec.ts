@@ -108,13 +108,15 @@ function setup(
         ),
         tree: jest.fn(() => Promise.resolve(tree)),
     };
+    const events = { publish: jest.fn() };
     const service = new PlacementService(
         prisma as never,
         cache as never,
         progress as never,
         published as never,
+        events as never,
     );
-    return { service, tx, cache };
+    return { service, tx, cache, events };
 }
 
 describe('PlacementService', () => {
@@ -137,7 +139,7 @@ describe('PlacementService', () => {
     });
 
     it('enrolls at the placed unit and drops the learner cache', async () => {
-        const { service, tx, cache } = setup();
+        const { service, tx, cache, events } = setup();
         const result = await service.submit(USER, {
             clientRequestId: 'req-1',
             releaseId: 'r1',
@@ -158,6 +160,7 @@ describe('PlacementService', () => {
             }) as unknown,
         });
         expect(cache.invalidateUser).toHaveBeenCalledWith(USER);
+        expect(events.publish).toHaveBeenCalledTimes(1);
     });
 
     it('never moves an enrolled learner back', async () => {
@@ -171,7 +174,7 @@ describe('PlacementService', () => {
     });
 
     it('returns the first grade for a resent request', async () => {
-        const { service, tx } = setup();
+        const { service, tx, events } = setup();
         await service.submit(USER, {
             clientRequestId: 'req-1',
             answers: [1, 1, 1, 1],
@@ -182,6 +185,7 @@ describe('PlacementService', () => {
         });
         expect(again).toMatchObject({ replayed: true, placedUnitId: 'u3' });
         expect(tx.placementResult.create).toHaveBeenCalledTimes(1);
+        expect(events.publish).toHaveBeenCalledTimes(1);
     });
 
     it('refuses answers for another release or of the wrong shape', async () => {

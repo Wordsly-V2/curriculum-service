@@ -10,6 +10,7 @@ import { PublishedContentService } from '@/path-content/published-content.servic
 import { PrismaService } from '@/prisma/prisma.service';
 import type { PlacementSnapshot, TreeSnapshot } from '@/release/release.logic';
 import { isCheckpointResponse } from './checkpoint.logic';
+import { PathProgressEvents } from './path-progress-events';
 import { type PathMe, PathProgressService } from './path-progress.service';
 import {
     type PlacementGrade,
@@ -58,6 +59,7 @@ export class PlacementService {
         private readonly cache: CacheService,
         private readonly progress: PathProgressService,
         private readonly published: PublishedContentService,
+        private readonly events: PathProgressEvents,
     ) {}
 
     async view(userLoginId: string): Promise<PlacementView> {
@@ -146,6 +148,9 @@ export class PlacementService {
 
         await this.cache.invalidateUser(userLoginId);
         const me = await this.progress.me(userLoginId);
+        // A placement earns nothing itself, but it can clear the last units
+        // of a stage the learner had started.
+        await this.events.publish(userLoginId, tree, me);
         return { ...grade, startUnitId: me.startUnitId, replayed: false, me };
     }
 

@@ -121,13 +121,15 @@ function setup(
             }),
         ),
     };
+    const events = { publish: jest.fn() };
     const service = new PathProgressService(
         prisma as never,
         cache as never,
         releases as never,
         published as never,
+        events as never,
     );
-    return { service, prisma, cache, releases };
+    return { service, prisma, cache, releases, events };
 }
 
 describe('PathProgressService', () => {
@@ -175,7 +177,7 @@ describe('PathProgressService', () => {
     });
 
     it('records a first completion and unlocks the next lesson', async () => {
-        const { service, prisma, cache } = setup();
+        const { service, prisma, cache, events } = setup();
         const result = await service.complete(USER, 'l1', {
             clientRequestId: 'req-1',
             scorePercent: 90,
@@ -192,10 +194,15 @@ describe('PathProgressService', () => {
         });
         expect(cache.invalidateUser).toHaveBeenCalledWith(USER);
         expect(result.me.progress.currentLessonId).toBe('l2');
+        expect(events.publish).toHaveBeenCalledWith(
+            USER,
+            expect.anything(),
+            result.me,
+        );
     });
 
     it('treats a resent clientRequestId as a replay', async () => {
-        const { service, prisma, cache } = setup({
+        const { service, prisma, cache, events } = setup({
             completed: [
                 { lessonId: 'l1', lastClientRequestId: 'req-1', bestScore: 90 },
             ],
@@ -207,6 +214,7 @@ describe('PathProgressService', () => {
         expect(result.replayed).toBe(true);
         expect(prisma.lessonCompletion.update).not.toHaveBeenCalled();
         expect(cache.invalidateUser).not.toHaveBeenCalled();
+        expect(events.publish).not.toHaveBeenCalled();
     });
 
     it('counts a repeat and keeps the best score', async () => {

@@ -51,7 +51,7 @@ export class KafkaProducerService implements OnModuleInit, OnModuleDestroy {
             this.kafka = null;
             this.logger.error(
                 `Kafka producer could not connect to ${brokerList.join(',')}; ` +
-                    `retire events will not be sent until it is reachable. ${String(error)}`,
+                    `events will not be sent until it is reachable. ${String(error)}`,
             );
         }
     }
@@ -66,13 +66,15 @@ export class KafkaProducerService implements OnModuleInit, OnModuleDestroy {
 
     /**
      * Sends a single message to the given topic. No-op if Kafka is not configured.
+     * Messages with the same `key` land on the same partition, in order.
      */
-    async send(topic: string, payload: object): Promise<void> {
+    async send(topic: string, payload: object, key?: string): Promise<void> {
         if (!this.producer) return;
         await this.producer.send({
             topic,
             messages: [
                 {
+                    key,
                     value: JSON.stringify(payload),
                 },
             ],

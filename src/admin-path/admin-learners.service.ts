@@ -3,6 +3,7 @@ import { CacheService } from '@/cache/cache.service';
 import { PrismaService } from '@/prisma/prisma.service';
 import type { TreeSnapshot } from '@/release/release.logic';
 import { ReleaseService } from '@/release/release.service';
+import { PathProgressEvents } from '@/path-progress/path-progress-events';
 import {
     addDaysUtc,
     fillDailyCounts,
@@ -118,6 +119,7 @@ export class AdminLearnersService {
         private readonly prisma: PrismaService,
         private readonly releases: ReleaseService,
         private readonly cache: CacheService,
+        private readonly events: PathProgressEvents,
     ) {}
 
     async stats(from?: string, to?: string): Promise<PathStats> {
@@ -455,6 +457,7 @@ export class AdminLearnersService {
             };
         });
         await this.cache.invalidateUser(userLoginId);
+        await this.events.publishReset(userLoginId);
         this.logger.log(
             `admin_action ${JSON.stringify({ actor: actorId, action: 'reset_path', target: userLoginId, affected })}`,
         );

@@ -156,3 +156,52 @@ export function computeProgress(
         totalLessonCount,
     };
 }
+
+/** What a learner has finished themselves, for achievements. */
+export interface PathTotals {
+    lessonsCompleted: number;
+    /** Checkpoint passed, or every lesson done in a unit without one. */
+    unitsCompleted: number;
+    /** Every unit cleared, at least one of them by the learner. */
+    stagesCompleted: number;
+}
+
+/**
+ * Counts only what the learner earned: a unit placement skipped (or one before
+ * the start unit) is cleared but not completed, so it earns nothing. A stage
+ * still counts when placement cleared part of it and the learner finished the
+ * rest.
+ */
+export function pathTotals(
+    tree: TreeSnapshot,
+    progress: PathProgress,
+): PathTotals {
+    const byUnit = new Map(progress.units.map((u) => [u.unitId, u]));
+    const earned = (unit: UnitProgress): boolean =>
+        unit.checkpoint
+            ? unit.checkpoint.state === 'completed'
+            : unit.lessons.length > 0 &&
+              unit.lessons.every((l) => l.state === 'completed');
+
+    let unitsCompleted = 0;
+    let stagesCompleted = 0;
+    for (const stage of tree.stages) {
+        const units = stage.units
+            .map((u) => byUnit.get(u.id))
+            .filter((u): u is UnitProgress => u !== undefined);
+        const earnedHere = units.filter(earned).length;
+        unitsCompleted += earnedHere;
+        if (
+            earnedHere > 0 &&
+            units.length === stage.units.length &&
+            units.every((u) => u.state === 'completed')
+        ) {
+            stagesCompleted += 1;
+        }
+    }
+    return {
+        lessonsCompleted: progress.completedLessonCount,
+        unitsCompleted,
+        stagesCompleted,
+    };
+}
