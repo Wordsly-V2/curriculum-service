@@ -206,4 +206,26 @@ describe('checkContentRefs', () => {
             'checkpoint u1-cp: question 0 tests unknown item nope',
         ]);
     });
+
+    it('checks placement questions: units, path order, count, items', () => {
+        const c = valid();
+        const q = (unitSlug: string, item?: string) => ({
+            unit: unitSlug,
+            kind: 'gap' as const,
+            sentence: '___',
+            answers: ['x'],
+            ...(item ? { item } : {}),
+        });
+        c.placement = {
+            slug: 'pl',
+            title: 'Placement',
+            questions: [q('u2'), q('u2'), q('u1', 'nope'), q('ghost')],
+        };
+        expect(checkContentRefs(c)).toEqual([
+            'placement pl: question 2 tests unknown item nope',
+            'placement pl: question 2 (u1) is out of path order',
+            'placement pl: question 3 probes unknown unit ghost',
+            'placement pl: unit u1 has 1 question(s), needs at least 2',
+        ]);
+    });
 });

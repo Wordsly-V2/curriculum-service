@@ -71,8 +71,15 @@ export interface AdminStageNode extends AdminNode {
     units: AdminUnitNode[];
 }
 
+export interface AdminPlacementNode extends AdminNode {
+    title: string;
+    questionCount: number;
+}
+
 export interface AdminTree {
     stages: AdminStageNode[];
+    /** Placement tests, archived included; at most one is live. */
+    placements: AdminPlacementNode[];
     /** Rows per status and origin across every table. */
     totals: Record<ContentStatus | RowOrigin, number>;
 }
@@ -84,6 +91,7 @@ export interface AdminRows {
     items: (Row & { unitId: string | null; type: string; text: string })[];
     dialogues: (Row & { unitId: string; title: string })[];
     checkpoints: (Row & { unitId: string })[];
+    placements: (Row & { title: string; questions: unknown })[];
 }
 
 function node(row: Row): AdminNode {
@@ -178,10 +186,19 @@ export function buildAdminTree(rows: AdminRows): AdminTree {
         ...rows.items,
         ...rows.dialogues,
         ...rows.checkpoints,
+        ...rows.placements,
     ]) {
         totals[row.status as ContentStatus] += 1;
         totals[rowOrigin(row)] += 1;
     }
 
-    return { stages, totals };
+    const placements = [...rows.placements]
+        .sort((a, b) => a.slug.localeCompare(b.slug))
+        .map((p) => ({
+            ...node(p),
+            title: p.title,
+            questionCount: Array.isArray(p.questions) ? p.questions.length : 0,
+        }));
+
+    return { stages, placements, totals };
 }

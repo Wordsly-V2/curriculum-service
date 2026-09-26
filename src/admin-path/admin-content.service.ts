@@ -12,6 +12,7 @@ import {
     dialogueRowToSeed,
     itemRowToSeed,
     lessonRowToSeed,
+    placementRowToSeed,
     unitRowToRecord,
 } from '@/content/content-rows';
 import { writeRecord } from '@/content/content-writer';
@@ -189,6 +190,15 @@ export class AdminContentService {
                 where: { slug: seed.record.stage, ...live },
             });
             if (!stage) missing.push(`stage ${seed.record.stage}`);
+        } else if (seed.kind === 'placement') {
+            // Its units and items are checked by validate, like a lesson's rules.
+            const other = await tx.placementTest.findFirst({
+                where: { slug: { not: seed.slug }, ...live },
+            });
+            if (other)
+                throw new ConflictException(
+                    `placement ${other.slug} is live; archive it first (one placement test at a time)`,
+                );
         } else if (seed.kind !== 'stage') {
             const unit = await tx.unit.findFirst({
                 where: { slug: seed.record.unit, ...live },
@@ -270,6 +280,9 @@ export class AdminContentService {
             case 'checkpoint':
                 await tx.checkpoint.update({ where: { id }, data });
                 return;
+            case 'placement':
+                await tx.placementTest.update({ where: { id }, data });
+                return;
         }
     }
 
@@ -300,6 +313,8 @@ export class AdminContentService {
                 return tx.lesson.findUnique({ where });
             case 'checkpoint':
                 return tx.checkpoint.findUnique({ where });
+            case 'placement':
+                return tx.placementTest.findUnique({ where });
         }
     }
 
@@ -384,6 +399,16 @@ export class AdminContentService {
                     ...checkpointRowToSeed(row),
                     unit: await unitSlug(row.unitId),
                 };
+                break;
+            }
+            case 'placement': {
+                const row = await tx.placementTest.findUnique({
+                    where: { slug },
+                });
+                if (!row)
+                    throw new NotFoundException(`placement ${slug} not found`);
+                meta = row;
+                record = placementRowToSeed(row);
                 break;
             }
         }

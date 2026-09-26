@@ -5,6 +5,7 @@ import type {
     Lesson,
     LessonItem,
     LessonStep,
+    PlacementTest,
     Stage,
     Unit,
 } from '@prisma/client';
@@ -20,8 +21,10 @@ import type {
 import { checkContentRefs } from './content-refs.logic';
 import {
     type ContentCorpus,
+    type PlacementSeed,
     type StageSeed,
     type UnitFile,
+    placementSchema,
     stageSchema,
     unitFileSchema,
 } from './content.schema';
@@ -122,6 +125,10 @@ export function checkpointColumns(r: CheckpointRecord) {
     };
 }
 
+export function placementColumns(r: PlacementSeed) {
+    return { title: r.title, questions: json(r.questions) };
+}
+
 // ─── Rows → corpus ──────────────────────────────────────────────────────────
 
 export interface WorkingCopy {
@@ -131,6 +138,7 @@ export interface WorkingCopy {
     dialogues: Dialogue[];
     lessons: (Lesson & { steps: LessonStep[]; items: LessonItem[] })[];
     checkpoints: Checkpoint[];
+    placements: PlacementTest[];
 }
 
 export interface CorpusFromRows {
@@ -211,6 +219,10 @@ export function checkpointRowToSeed(c: Checkpoint): Record<string, unknown> {
         passPercent: c.passPercent,
         questions: c.questions,
     };
+}
+
+export function placementRowToSeed(p: PlacementTest): Record<string, unknown> {
+    return { slug: p.slug, title: p.title, questions: p.questions };
 }
 
 /** A unit's own fields (UnitRecord), without its children. */
@@ -316,7 +328,26 @@ export function rowsToCorpus(rows: WorkingCopy): CorpusFromRows {
         else pushIssues(errors, `unit ${row.slug}`, parsed.error.issues);
     }
 
-    const corpus = { stages, units };
+    let placement: PlacementSeed | undefined;
+    if (rows.placements.length > 1) {
+        errors.push(
+            `placement: only one test may be live, found ${rows.placements
+                .map((p) => p.slug)
+                .sort()
+                .join(', ')}`,
+        );
+    } else if (rows.placements.length === 1) {
+        const row = rows.placements[0];
+        const parsed = placementSchema.safeParse(placementRowToSeed(row));
+        if (parsed.success) placement = parsed.data;
+        else pushIssues(errors, `placement ${row.slug}`, parsed.error.issues);
+    }
+
+    const corpus: ContentCorpus = {
+        stages,
+        units,
+        ...(placement ? { placement } : {}),
+    };
     if (errors.length === 0) errors.push(...checkContentRefs(corpus));
     return { corpus, errors };
 }

@@ -6,6 +6,7 @@ import type {
     CheckpointSnapshot,
     ItemView,
     LessonSnapshot,
+    PlacementSnapshot,
     TreeSnapshot,
 } from '@/release/release.logic';
 
@@ -70,6 +71,21 @@ export class PublishedContentService {
             },
             CacheKind.Release,
             { shouldCache: (checkpoint) => checkpoint !== null },
+        );
+    }
+
+    /** The release's placement test, with its answers; null when it has none. */
+    async placement(releaseId: string): Promise<PlacementSnapshot | null> {
+        return this.cache.getOrSetGlobal(
+            ['release', releaseId, 'placement'],
+            async () => {
+                const row = await this.prisma.publishedPlacement.findUnique({
+                    where: { releaseId },
+                });
+                return (row?.payload as PlacementSnapshot | undefined) ?? null;
+            },
+            CacheKind.Release,
+            { shouldCache: (placement) => placement !== null },
         );
     }
 

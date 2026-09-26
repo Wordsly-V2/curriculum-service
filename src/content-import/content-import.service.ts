@@ -83,15 +83,23 @@ export class ContentImportService {
 
     private async existingRows(tx: Tx): Promise<ExistingRow[]> {
         const select = { slug: true, contentHash: true, seedHash: true };
-        const [stages, units, items, dialogues, lessons, checkpoints] =
-            await Promise.all([
-                tx.stage.findMany({ select }),
-                tx.unit.findMany({ select }),
-                tx.learnItem.findMany({ select }),
-                tx.dialogue.findMany({ select }),
-                tx.lesson.findMany({ select }),
-                tx.checkpoint.findMany({ select }),
-            ]);
+        const [
+            stages,
+            units,
+            items,
+            dialogues,
+            lessons,
+            checkpoints,
+            placements,
+        ] = await Promise.all([
+            tx.stage.findMany({ select }),
+            tx.unit.findMany({ select }),
+            tx.learnItem.findMany({ select }),
+            tx.dialogue.findMany({ select }),
+            tx.lesson.findMany({ select }),
+            tx.checkpoint.findMany({ select }),
+            tx.placementTest.findMany({ select }),
+        ]);
         const tag = <K extends ExistingRow['kind']>(
             kind: K,
             rows: Omit<ExistingRow, 'kind'>[],
@@ -104,6 +112,7 @@ export class ContentImportService {
             ...tag('dialogue', dialogues),
             ...tag('lesson', lessons),
             ...tag('checkpoint', checkpoints),
+            ...tag('placement', placements),
         ];
     }
 }

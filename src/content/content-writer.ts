@@ -6,6 +6,7 @@ import {
     itemColumns,
     lessonChildren,
     lessonColumns,
+    placementColumns,
     stageColumns,
     unitColumns,
 } from './content-rows';
@@ -100,6 +101,13 @@ export async function writeRecord(
             await (insert
                 ? tx.checkpoint.create({ data: { id, ...data } })
                 : tx.checkpoint.update({ where: { id }, data }));
+            return;
+        }
+        case 'placement': {
+            const data = { ...meta, ...placementColumns(seed.record) };
+            await (insert
+                ? tx.placementTest.create({ data: { id, ...data } })
+                : tx.placementTest.update({ where: { id }, data }));
             return;
         }
     }

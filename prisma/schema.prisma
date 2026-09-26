@@ -225,6 +225,7 @@ model Release {
   lessons     PublishedLesson[]
   items       PublishedItem[]
   checkpoints PublishedCheckpoint[]
+  placement   PublishedPlacement?
 
   @@map("releases")
 }
@@ -279,6 +280,18 @@ model PublishedCheckpoint {
   @@id([releaseId, checkpointId])
   @@unique([releaseId, unitId])
   @@map("published_checkpoints")
+}
+
+// The release's placement test (at most one), with its answers. Server-side
+// only, like PublishedCheckpoint.
+model PublishedPlacement {
+  releaseId   String @id @map("release_id") @db.Uuid
+  placementId String @map("placement_id") @db.Uuid
+  payload     Json
+
+  release Release @relation(fields: [releaseId], references: [id], onDelete: Cascade)
+
+  @@map("published_placements")
 }
 
 // Singleton row (id = 1): which release learners see.

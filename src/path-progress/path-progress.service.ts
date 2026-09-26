@@ -73,7 +73,7 @@ export class PathProgressService {
         return this.meFor(userLoginId, release, tree);
     }
 
-    /** Idempotent. Placement (later) may set the start unit. */
+    /** Idempotent. Placement (placement.service.ts) moves the start unit. */
     async enroll(userLoginId: string): Promise<PathMe> {
         await this.active();
         await this.prisma.enrollment.upsert({

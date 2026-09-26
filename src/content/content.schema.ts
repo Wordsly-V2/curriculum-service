@@ -174,43 +174,64 @@ const questionBase = {
     explanationVi: text.optional(),
 };
 
+const choiceQuestion = z.strictObject({
+    kind: z.literal('choice'),
+    prompt: text,
+    /** Played with TTS before the options (listening question). */
+    audioText: text.optional(),
+    options: z.array(text).min(2).max(6),
+    answer: z.int().min(0),
+    ...questionBase,
+});
+
+const gapQuestion = z.strictObject({
+    kind: z.literal('gap'),
+    /** English sentence with one `___` gap. */
+    sentence: text.regex(/^[^_]*___[^_]*$/, 'needs exactly one ___'),
+    hintVi: text.optional(),
+    /** Accepted answers, compared case-insensitively. */
+    answers: z.array(text).min(1),
+    ...questionBase,
+});
+
+const orderQuestion = z.strictObject({
+    kind: z.literal('order'),
+    /** Vietnamese meaning; the learner orders the words of `answer`. */
+    vi: text,
+    answer: text,
+    ...questionBase,
+});
+
+function checkChoiceAnswer(
+    q: { kind: string } & Partial<{ answer: unknown; options: unknown[] }>,
+    ctx: z.RefinementCtx,
+): void {
+    if (
+        q.kind === 'choice' &&
+        typeof q.answer === 'number' &&
+        q.answer >= (q.options?.length ?? 0)
+    ) {
+        ctx.addIssue({
+            code: 'custom',
+            message: 'answer is not an option index',
+            path: ['answer'],
+        });
+    }
+}
+
 export const questionSchema = z
+    .discriminatedUnion('kind', [choiceQuestion, gapQuestion, orderQuestion])
+    .superRefine(checkChoiceAnswer);
+
+/** A placement question probes one unit: whoever answers it knows that unit. */
+const probes = { unit: slugSchema };
+export const placementQuestionSchema = z
     .discriminatedUnion('kind', [
-        z.strictObject({
-            kind: z.literal('choice'),
-            prompt: text,
-            /** Played with TTS before the options (listening question). */
-            audioText: text.optional(),
-            options: z.array(text).min(2).max(6),
-            answer: z.int().min(0),
-            ...questionBase,
-        }),
-        z.strictObject({
-            kind: z.literal('gap'),
-            /** English sentence with one `___` gap. */
-            sentence: text.regex(/^[^_]*___[^_]*$/, 'needs exactly one ___'),
-            hintVi: text.optional(),
-            /** Accepted answers, compared case-insensitively. */
-            answers: z.array(text).min(1),
-            ...questionBase,
-        }),
-        z.strictObject({
-            kind: z.literal('order'),
-            /** Vietnamese meaning; the learner orders the words of `answer`. */
-            vi: text,
-            answer: text,
-            ...questionBase,
-        }),
+        choiceQuestion.extend(probes),
+        gapQuestion.extend(probes),
+        orderQuestion.extend(probes),
     ])
-    .superRefine((q, ctx) => {
-        if (q.kind === 'choice' && q.answer >= q.options.length) {
-            ctx.addIssue({
-                code: 'custom',
-                message: 'answer is not an option index',
-                path: ['answer'],
-            });
-        }
-    });
+    .superRefine(checkChoiceAnswer);
 
 // ─── Steps ──────────────────────────────────────────────────────────────────
 
@@ -364,6 +385,17 @@ export const stageSchema = z.strictObject({
     descriptionVi: text.optional(),
 });
 
+/**
+ * `content/placement.json`: one test for the whole path. Questions are in path
+ * order and each names the unit it probes; grading (placement.logic.ts) walks
+ * the units in order and places the learner after the last one they know.
+ */
+export const placementSchema = z.strictObject({
+    slug: slugSchema,
+    title: text,
+    questions: z.array(placementQuestionSchema).min(1),
+});
+
 /** `content/stages.json`. */
 export const stagesFileSchema = z.array(stageSchema).min(1);
 
@@ -373,6 +405,8 @@ export type ItemSeed = z.infer<typeof itemSchema>;
 export type DialogueSeed = z.infer<typeof dialogueSchema>;
 export type LessonSeed = z.infer<typeof lessonSchema>;
 export type CheckpointSeed = z.infer<typeof checkpointSchema>;
+export type PlacementQuestion = z.infer<typeof placementQuestionSchema>;
+export type PlacementSeed = z.infer<typeof placementSchema>;
 export type UnitFile = z.infer<typeof unitFileSchema>;
 export type StageSeed = z.infer<typeof stageSchema>;
 
@@ -380,4 +414,6 @@ export type StageSeed = z.infer<typeof stageSchema>;
 export interface ContentCorpus {
     stages: StageSeed[];
     units: UnitFile[];
+    /** At most one placement test; the path works without it. */
+    placement?: PlacementSeed;
 }

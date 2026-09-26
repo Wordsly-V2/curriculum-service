@@ -11,6 +11,15 @@ Trạng thái: `draft` đã soạn, qua validator · `reviewed` đã có ngườ
 | Pre-A1 | 6 | 6 | 18 | 128 | 86 | 28 | 10 | 4 |
 | A1 | 10 | 10 | 31 | 260 | 166 | 49 | 33 | 12 |
 
+## Placement (`placement.json`)
+
+Một bài xếp lớp cho cả lộ trình, 2 câu mỗi unit, theo thứ tự lộ trình. Thêm câu cho unit mới khi soạn stage mới.
+
+| Stage | Unit có câu | Câu |
+|---|---|---|
+| Pre-A1 | 6/6 | 12 |
+| A1 | 10/10 | 20 |
+
 ## Pre-A1: Foundations
 
 | # | Unit | Can-do (tóm tắt) | Bài | Item (L/Ph/Pa/G) | Dialogue | Trạng thái |

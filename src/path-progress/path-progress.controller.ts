@@ -17,6 +17,7 @@ import {
 import {
     CompleteLessonDto,
     SubmitCheckpointDto,
+    SubmitPlacementDto,
 } from './dto/path-progress.dto';
 import {
     type CompleteResult,
@@ -25,6 +26,11 @@ import {
     PathProgressService,
     type UnitView,
 } from './path-progress.service';
+import {
+    type PlacementSubmitResult,
+    type PlacementView,
+    PlacementService,
+} from './placement.service';
 
 /** The caller's own progress on the path. Locked units and lessons are 403. */
 @ApiTags('path')
@@ -33,6 +39,7 @@ export class PathProgressController {
     constructor(
         private readonly progress: PathProgressService,
         private readonly checkpoints: CheckpointService,
+        private readonly placements: PlacementService,
     ) {}
 
     @Get('me')
@@ -102,5 +109,26 @@ export class PathProgressController {
         @Body() body: SubmitCheckpointDto,
     ): Promise<CheckpointSubmitResult> {
         return this.checkpoints.submit(userLoginId, unitId, body);
+    }
+
+    @Get('placement')
+    @ApiOperation({ summary: 'The placement test, without the answers' })
+    @ApiResponse({ status: 404, description: 'No placement test published' })
+    placement(@CurrentUser() userLoginId: string): Promise<PlacementView> {
+        return this.placements.view(userLoginId);
+    }
+
+    @Post('placement/submit')
+    @HttpCode(200)
+    @ApiOperation({
+        summary:
+            'Grade the placement test, enroll and move the start unit forward (idempotent per clientRequestId)',
+    })
+    @ApiResponse({ status: 409, description: 'A newer release is active' })
+    submitPlacement(
+        @CurrentUser() userLoginId: string,
+        @Body() body: SubmitPlacementDto,
+    ): Promise<PlacementSubmitResult> {
+        return this.placements.submit(userLoginId, body);
     }
 }

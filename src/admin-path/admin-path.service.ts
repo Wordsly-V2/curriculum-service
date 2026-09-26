@@ -51,32 +51,42 @@ export class AdminPathService {
 
     /** The whole working copy, archived rows included. */
     async overview(): Promise<AdminTree> {
-        const [stages, units, lessons, items, dialogues, checkpoints] =
-            await Promise.all([
-                this.prisma.stage.findMany({
-                    select: { ...NODE, order: true, title: true, cefr: true },
-                }),
-                this.prisma.unit.findMany({
-                    select: {
-                        ...NODE,
-                        stageId: true,
-                        order: true,
-                        title: true,
-                    },
-                }),
-                this.prisma.lesson.findMany({
-                    select: { ...NODE, unitId: true, order: true, title: true },
-                }),
-                this.prisma.learnItem.findMany({
-                    select: { ...NODE, unitId: true, type: true, text: true },
-                }),
-                this.prisma.dialogue.findMany({
-                    select: { ...NODE, unitId: true, title: true },
-                }),
-                this.prisma.checkpoint.findMany({
-                    select: { ...NODE, unitId: true },
-                }),
-            ]);
+        const [
+            stages,
+            units,
+            lessons,
+            items,
+            dialogues,
+            checkpoints,
+            placements,
+        ] = await Promise.all([
+            this.prisma.stage.findMany({
+                select: { ...NODE, order: true, title: true, cefr: true },
+            }),
+            this.prisma.unit.findMany({
+                select: {
+                    ...NODE,
+                    stageId: true,
+                    order: true,
+                    title: true,
+                },
+            }),
+            this.prisma.lesson.findMany({
+                select: { ...NODE, unitId: true, order: true, title: true },
+            }),
+            this.prisma.learnItem.findMany({
+                select: { ...NODE, unitId: true, type: true, text: true },
+            }),
+            this.prisma.dialogue.findMany({
+                select: { ...NODE, unitId: true, title: true },
+            }),
+            this.prisma.checkpoint.findMany({
+                select: { ...NODE, unitId: true },
+            }),
+            this.prisma.placementTest.findMany({
+                select: { ...NODE, title: true, questions: true },
+            }),
+        ]);
         return buildAdminTree({
             stages,
             units,
@@ -84,6 +94,7 @@ export class AdminPathService {
             items,
             dialogues,
             checkpoints,
+            placements,
         });
     }
 

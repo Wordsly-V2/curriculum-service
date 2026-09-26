@@ -6,6 +6,7 @@ import type {
     DialogueSeed,
     ItemSeed,
     LessonSeed,
+    PlacementSeed,
     StageSeed,
     UnitFile,
 } from './content.schema';
@@ -42,7 +43,8 @@ export type SeedRecord =
     | Seed<'item', ItemRecord>
     | Seed<'dialogue', DialogueRecord>
     | Seed<'lesson', LessonRecord>
-    | Seed<'checkpoint', CheckpointRecord>;
+    | Seed<'checkpoint', CheckpointRecord>
+    | Seed<'placement', PlacementSeed>;
 
 export type ContentTable = SeedRecord['kind'];
 
@@ -54,6 +56,7 @@ export const IMPORT_ORDER: readonly ContentTable[] = [
     'dialogue',
     'lesson',
     'checkpoint',
+    'placement',
 ];
 
 /** A record with its id and hash, as the importer and the admin API write it. */
@@ -101,6 +104,8 @@ export function toSeedRecords(corpus: ContentCorpus): SeedRecord[] {
         if (checkpoint)
             records.push(seed('checkpoint', { ...checkpoint, ...ref }));
     }
+
+    if (corpus.placement) records.push(seed('placement', corpus.placement));
 
     const rank = (kind: ContentTable) => IMPORT_ORDER.indexOf(kind);
     // Array.prototype.sort is stable: file order is kept within a kind.

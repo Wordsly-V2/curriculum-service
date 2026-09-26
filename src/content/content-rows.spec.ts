@@ -9,6 +9,7 @@ import {
     itemColumns,
     lessonChildren,
     lessonColumns,
+    placementColumns,
     rowsToCorpus,
     stageColumns,
     unitColumns,
@@ -23,6 +24,7 @@ function toRows(seeds: SeedRecord[]): WorkingCopy {
         dialogues: [],
         lessons: [],
         checkpoints: [],
+        placements: [],
     };
     const base = (seed: SeedRecord) => ({
         id: seed.id,
@@ -80,6 +82,12 @@ function toRows(seeds: SeedRecord[]): WorkingCopy {
                     ...checkpointColumns(seed.record),
                 } as never);
                 break;
+            case 'placement':
+                rows.placements.push({
+                    ...base(seed),
+                    ...placementColumns(seed.record),
+                } as never);
+                break;
         }
     }
     return rows;
@@ -115,6 +123,15 @@ describe('rowsToCorpus', () => {
         expect(hashes(toSeedRecords(rowsToCorpus(rows).corpus))).toEqual(
             hashes(seeds),
         );
+    });
+
+    it('allows one live placement test only', () => {
+        const rows = toRows(seeds);
+        expect(rows.placements).toHaveLength(1);
+        rows.placements.push({ ...rows.placements[0], slug: 'other' });
+        expect(rowsToCorpus(rows).errors).toEqual([
+            'placement: only one test may be live, found other, path-placement',
+        ]);
     });
 
     it('reports a lesson linking an item that is no longer there', () => {

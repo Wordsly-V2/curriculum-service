@@ -16,6 +16,9 @@ import type {
  *   lesson of that unit; a RECYCLE comes after the lesson that introduced it
  * - steps only use items linked to their lesson, and dialogues of their unit
  * - questions reference existing items
+ * - placement questions probe existing units, each with at least
+ *   PLACEMENT_MIN_QUESTIONS_PER_UNIT questions (one lucky guess must not skip
+ *   a unit), in path order
  */
 export function checkContentRefs(corpus: ContentCorpus): string[] {
     const errors: string[] = [];
@@ -143,7 +146,53 @@ export function checkContentRefs(corpus: ContentCorpus): string[] {
         }
     }
 
+    if (corpus.placement) checkPlacement(errors, corpus, ordered, items);
+
     return errors;
+}
+
+/** A unit needs this many placement questions to be probed at all. */
+export const PLACEMENT_MIN_QUESTIONS_PER_UNIT = 2;
+
+function checkPlacement(
+    errors: string[],
+    corpus: ContentCorpus,
+    ordered: { unit: UnitFile }[],
+    items: Map<string, ItemSeed>,
+): void {
+    const placement = corpus.placement!;
+    const where = `placement ${placement.slug}`;
+    checkQuestions(errors, where, placement.questions, items);
+
+    const unitRank = new Map<string, number>();
+    for (const { unit } of ordered) {
+        if (!unitRank.has(unit.slug)) unitRank.set(unit.slug, unitRank.size);
+    }
+    const counts = new Map<string, number>();
+    let previousRank = -1;
+    placement.questions.forEach((q, i) => {
+        const rank = unitRank.get(q.unit);
+        if (rank === undefined) {
+            errors.push(
+                `${where}: question ${i} probes unknown unit ${q.unit}`,
+            );
+            return;
+        }
+        if (rank < previousRank) {
+            errors.push(
+                `${where}: question ${i} (${q.unit}) is out of path order`,
+            );
+        }
+        previousRank = Math.max(previousRank, rank);
+        counts.set(q.unit, (counts.get(q.unit) ?? 0) + 1);
+    });
+    for (const [unit, count] of counts) {
+        if (count < PLACEMENT_MIN_QUESTIONS_PER_UNIT) {
+            errors.push(
+                `${where}: unit ${unit} has ${count} question(s), needs at least ${PLACEMENT_MIN_QUESTIONS_PER_UNIT}`,
+            );
+        }
+    }
 }
 
 function checkSteps(

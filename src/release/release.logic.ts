@@ -6,6 +6,7 @@ import type {
     ItemSeed,
     ItemType,
     LessonItemRole,
+    PlacementQuestion,
     Question,
     StepSeed,
     StepType,
@@ -104,6 +105,18 @@ export interface CheckpointSnapshot {
     questions: QuestionView[];
 }
 
+/** A placement question with its probed unit (and tested item) as ids. */
+export type PlacementQuestionView = QuestionView & { unitId: string };
+
+export interface PlacementSnapshot {
+    snapshotVersion: number;
+    id: string;
+    slug: string;
+    title: string;
+    /** In path order (checkContentRefs). */
+    questions: PlacementQuestionView[];
+}
+
 export interface TreeLesson {
     id: string;
     slug: string;
@@ -153,6 +166,7 @@ export interface ReleaseSnapshot {
     }[];
     /** Every item in the release, for filter-published and hydrate. */
     items: { itemId: string; payload: ItemView }[];
+    placement: { placementId: string; payload: PlacementSnapshot } | null;
 }
 
 const itemId = (slug: string) => contentId('item', slug);
@@ -163,6 +177,16 @@ function itemView(item: ItemSeed): ItemView {
 
 function questionView({ item, ...rest }: Question): QuestionView {
     return item ? { ...rest, itemId: itemId(item) } : rest;
+}
+
+function placementQuestionView({
+    unit,
+    ...question
+}: PlacementQuestion): PlacementQuestionView {
+    return {
+        ...questionView(question as Question),
+        unitId: contentId('unit', unit),
+    };
 }
 
 function stepView(
@@ -331,10 +355,22 @@ export function buildRelease(corpus: ContentCorpus): ReleaseSnapshot {
             };
         });
 
+    const placement = corpus.placement && {
+        placementId: contentId('placement', corpus.placement.slug),
+        payload: {
+            snapshotVersion: SNAPSHOT_VERSION,
+            id: contentId('placement', corpus.placement.slug),
+            slug: corpus.placement.slug,
+            title: corpus.placement.title,
+            questions: corpus.placement.questions.map(placementQuestionView),
+        },
+    };
+
     return {
         tree: { snapshotVersion: SNAPSHOT_VERSION, stages },
         lessons,
         checkpoints,
+        placement: placement ?? null,
         items: [...items.values()].map((item) => ({
             itemId: itemId(item.slug),
             payload: itemView(item),

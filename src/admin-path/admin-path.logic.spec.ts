@@ -57,6 +57,9 @@ describe('buildAdminTree', () => {
         ],
         dialogues: [row('d1', { unitId: 'u1', title: 'Hi' })],
         checkpoints: [row('c1', { unitId: 'u1' })],
+        placements: [
+            row('p1', { title: 'Placement', questions: [{}, {}, {}] }),
+        ],
     };
     const tree = buildAdminTree(rows);
 
@@ -90,12 +93,23 @@ describe('buildAdminTree', () => {
         expect(tree.stages[0].units[1].checkpoint).toBeNull();
     });
 
+    it('lists placement tests with their question count', () => {
+        expect(tree.placements).toEqual([
+            expect.objectContaining({
+                slug: 'p1',
+                title: 'Placement',
+                questionCount: 3,
+                origin: 'seed',
+            }),
+        ]);
+    });
+
     it('counts every row by status and origin', () => {
         expect(tree.totals).toEqual({
             DRAFT: 2,
-            PUBLISHED: 8,
+            PUBLISHED: 9,
             ARCHIVED: 1,
-            seed: 9,
+            seed: 10,
             edited: 1,
             admin: 1,
         });

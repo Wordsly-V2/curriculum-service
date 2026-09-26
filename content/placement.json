@@ -1,0 +1,280 @@
+{
+    "slug": "path-placement",
+    "title": "Placement test",
+    "questions": [
+        {
+            "unit": "pre-a1-01-hello",
+            "kind": "choice",
+            "prompt": "Người mới gặp nói: \"Nice to meet you.\" Bạn đáp:",
+            "options": ["I'm fine, thanks.", "Nice to meet you, too.", "Goodbye."],
+            "answer": 1,
+            "item": "nice-to-meet-you"
+        },
+        {
+            "unit": "pre-a1-01-hello",
+            "kind": "choice",
+            "prompt": "Nghe và chọn câu đáp phù hợp.",
+            "audioText": "How are you?",
+            "options": ["My name is Lan.", "Good night.", "I'm fine, thanks. And you?"],
+            "answer": 2,
+            "item": "how-are-you"
+        },
+        {
+            "unit": "pre-a1-02-alphabet",
+            "kind": "choice",
+            "prompt": "Chữ cái nào đọc là /dʒeɪ/?",
+            "options": ["G", "J", "Y"],
+            "answer": 1,
+            "item": "letter-j"
+        },
+        {
+            "unit": "pre-a1-02-alphabet",
+            "kind": "order",
+            "vi": "Bạn đánh vần từ đó thế nào?",
+            "answer": "How do you spell that?",
+            "item": "how-do-you-spell"
+        },
+        {
+            "unit": "pre-a1-03-numbers",
+            "kind": "choice",
+            "prompt": "Nghe và chọn số đúng.",
+            "audioText": "fifteen",
+            "options": ["50", "5", "15"],
+            "answer": 2,
+            "item": "fifteen"
+        },
+        {
+            "unit": "pre-a1-03-numbers",
+            "kind": "gap",
+            "sentence": "I'm twenty ___ old.",
+            "hintVi": "Tôi hai mươi tuổi.",
+            "answers": ["years"],
+            "item": "im-years-old"
+        },
+        {
+            "unit": "pre-a1-04-about-me",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["She is a teacher.", "She are a teacher.", "She am a teacher."],
+            "answer": 0,
+            "item": "be-present"
+        },
+        {
+            "unit": "pre-a1-04-about-me",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["I'm a engineer.", "I'm engineer.", "I'm an engineer."],
+            "answer": 2,
+            "item": "a-an"
+        },
+        {
+            "unit": "pre-a1-05-classroom",
+            "kind": "gap",
+            "sentence": "one pen, two ___",
+            "hintVi": "một cây bút, hai cây bút",
+            "answers": ["pens"],
+            "item": "plural-s"
+        },
+        {
+            "unit": "pre-a1-05-classroom",
+            "kind": "choice",
+            "prompt": "Cô giáo nói: \"Sit down, please.\" Bạn làm gì?",
+            "options": ["Ngồi xuống", "Đứng lên", "Mở cửa sổ"],
+            "answer": 0,
+            "item": "sit-down"
+        },
+        {
+            "unit": "pre-a1-06-help",
+            "kind": "choice",
+            "prompt": "Bạn nghe không rõ. Bạn nói:",
+            "options": ["I see.", "Can you say that again, please?", "Exactly."],
+            "answer": 1,
+            "item": "can-you-say-that-again"
+        },
+        {
+            "unit": "pre-a1-06-help",
+            "kind": "order",
+            "vi": "\"Book\" nghĩa là gì?",
+            "answer": "What does book mean?",
+            "item": "what-does-mean"
+        },
+        {
+            "unit": "a1-01-family",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": [
+                "This is my sister. His name is Mai.",
+                "This is my sister. She name is Mai.",
+                "This is my sister. Her name is Mai."
+            ],
+            "answer": 2,
+            "item": "possessive-adjectives"
+        },
+        {
+            "unit": "a1-01-family",
+            "kind": "gap",
+            "sentence": "Do you ___ any brothers or sisters?",
+            "hintVi": "Bạn có anh chị em nào không?",
+            "answers": ["have"],
+            "item": "do-you-have-brothers-sisters"
+        },
+        {
+            "unit": "a1-02-daily-routine",
+            "kind": "gap",
+            "sentence": "He ___ TV every evening. (watch)",
+            "answers": ["watches"],
+            "item": "present-simple-s"
+        },
+        {
+            "unit": "a1-02-daily-routine",
+            "kind": "order",
+            "vi": "Bạn thường dậy lúc mấy giờ?",
+            "answer": "What time do you usually get up?",
+            "item": "what-time-do-you"
+        },
+        {
+            "unit": "a1-03-food-and-drink",
+            "kind": "choice",
+            "prompt": "Ở quán cà phê, câu nào lịch sự nhất?",
+            "options": ["I'd like a coffee, please.", "Give me a coffee.", "I want coffee now."],
+            "answer": 0,
+            "item": "id-like"
+        },
+        {
+            "unit": "a1-03-food-and-drink",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["Are you like fish?", "Does you like fish?", "Do you like fish?"],
+            "answer": 2,
+            "item": "do-you-like"
+        },
+        {
+            "unit": "a1-04-shopping",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["How much are these shoes?", "How much is these shoes?", "How many are these shoes?"],
+            "answer": 0,
+            "item": "how-much-are"
+        },
+        {
+            "unit": "a1-04-shopping",
+            "kind": "choice",
+            "prompt": "Nghe và chọn giá đúng.",
+            "audioText": "It's fifty thousand dong.",
+            "options": ["15.000 đồng", "500.000 đồng", "50.000 đồng"],
+            "answer": 2,
+            "item": "thousand"
+        },
+        {
+            "unit": "a1-05-home",
+            "kind": "gap",
+            "sentence": "___ two bedrooms in my apartment.",
+            "hintVi": "Căn hộ của tôi có hai phòng ngủ.",
+            "answers": ["There are"],
+            "item": "there-are"
+        },
+        {
+            "unit": "a1-05-home",
+            "kind": "choice",
+            "prompt": "\"Điện thoại ở cạnh cái đèn.\" Tiếng Anh là:",
+            "options": [
+                "The phone is behind the lamp.",
+                "The phone is next to the lamp.",
+                "The phone is under the lamp."
+            ],
+            "answer": 1,
+            "item": "next-to"
+        },
+        {
+            "unit": "a1-06-days-and-dates",
+            "kind": "gap",
+            "sentence": "My birthday is ___ May 5th.",
+            "hintVi": "Sinh nhật tôi vào ngày 5 tháng 5.",
+            "answers": ["on"],
+            "item": "prepositions-of-time"
+        },
+        {
+            "unit": "a1-06-days-and-dates",
+            "kind": "choice",
+            "prompt": "Ngày ngay sau thứ Ba là:",
+            "options": ["Thursday", "Monday", "Wednesday"],
+            "answer": 2,
+            "item": "wednesday"
+        },
+        {
+            "unit": "a1-07-right-now",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["Look! It's raining.", "Look! It rains.", "Look! It raining."],
+            "answer": 0,
+            "item": "present-continuous"
+        },
+        {
+            "unit": "a1-07-right-now",
+            "kind": "gap",
+            "sentence": "She usually ___ to work by bus, but today she's walking. (go)",
+            "answers": ["goes"],
+            "item": "simple-vs-continuous"
+        },
+        {
+            "unit": "a1-08-weather-and-clothes",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": [
+                "I'm wear a jacket because it's cold.",
+                "I'm wearing a jacket because it's cold.",
+                "I wearing a jacket because it's cold."
+            ],
+            "answer": 1,
+            "item": "im-wearing"
+        },
+        {
+            "unit": "a1-08-weather-and-clothes",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["It's a blue shirt.", "It's a shirt blue.", "It's blue a shirt."],
+            "answer": 0,
+            "item": "adjectives"
+        },
+        {
+            "unit": "a1-09-directions",
+            "kind": "order",
+            "vi": "Gần đây có hiệu thuốc nào không?",
+            "answer": "Is there a pharmacy near here?",
+            "item": "is-there-a-near-here"
+        },
+        {
+            "unit": "a1-09-directions",
+            "kind": "choice",
+            "prompt": "Nghe chỉ đường và chọn nghĩa đúng.",
+            "audioText": "Go straight and turn left. It's on the right.",
+            "options": [
+                "Đi thẳng, rẽ phải, nó ở bên trái.",
+                "Đi thẳng, rẽ trái, nó ở bên phải.",
+                "Rẽ trái, đi thẳng, nó ở bên trái."
+            ],
+            "answer": 1,
+            "item": "turn-left"
+        },
+        {
+            "unit": "a1-10-say-it-another-way",
+            "kind": "choice",
+            "prompt": "Bạn quên từ \"scissors\" (cái kéo). Câu nào giúp người nghe hiểu?",
+            "options": [
+                "It's a place where you cut paper.",
+                "It's a person who cuts paper.",
+                "It's a thing you use to cut paper."
+            ],
+            "answer": 2,
+            "item": "its-a-thing-you-use-to"
+        },
+        {
+            "unit": "a1-10-say-it-another-way",
+            "kind": "gap",
+            "sentence": "A pharmacy? It's a ___ where you can buy medicine.",
+            "hintVi": "một nơi mà bạn mua được thuốc",
+            "answers": ["place"],
+            "item": "its-a-place-where"
+        }
+    ]
+}

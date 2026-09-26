@@ -113,6 +113,28 @@ describe('buildRelease', () => {
         expect(items[0].payload).not.toHaveProperty('role');
     });
 
+    it('snapshots the placement test with unit and item ids', () => {
+        const { placement, tree } = buildRelease(corpus);
+        const unitIds = new Set(
+            tree.stages.flatMap((s) => s.units.map((u) => u.id)),
+        );
+        expect(placement?.placementId).toBe(
+            contentId('placement', 'path-placement'),
+        );
+        const questions = placement!.payload.questions;
+        expect(questions).toHaveLength(corpus.placement!.questions.length);
+        expect(questions.every((q) => unitIds.has(q.unitId))).toBe(true);
+        expect(questions[0]).not.toHaveProperty('unit');
+        expect(questions[0].itemId).toBe(
+            contentId('item', corpus.placement!.questions[0].item!),
+        );
+    });
+
+    it('has no placement when the corpus has none', () => {
+        const { placement } = buildRelease({ ...corpus, placement: undefined });
+        expect(placement).toBeNull();
+    });
+
     it('is deterministic', () => {
         expect(JSON.stringify(buildRelease(corpus))).toBe(
             JSON.stringify(buildRelease(corpus)),

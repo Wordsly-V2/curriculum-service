@@ -1,10 +1,12 @@
-import { readdir, readFile } from 'node:fs/promises';
+import { access, readdir, readFile } from 'node:fs/promises';
 import { basename, dirname, join, relative } from 'node:path';
 import type { ZodType } from 'zod';
 import { checkContentRefs } from './content-refs.logic';
 import {
     type ContentCorpus,
+    type PlacementSeed,
     type UnitFile,
+    placementSchema,
     stagesFileSchema,
     unitFileSchema,
 } from './content.schema';
@@ -19,7 +21,8 @@ export interface LoadedContent {
 }
 
 /**
- * Reads `stages.json` and every `units/<stage>/<unit-slug>.json` under `dir`,
+ * Reads `stages.json`, every `units/<stage>/<unit-slug>.json` and the optional
+ * `placement.json` under `dir`,
  * validates each file with zod, then the corpus as a whole. A unit file's
  * folder must be its stage slug and its name its own slug.
  */
@@ -56,10 +59,35 @@ export async function loadContent(
         units.push(unit);
     }
 
-    const corpus = { stages, units };
+    // Optional: the path works without a placement test.
+    const placementPath = join(dir, 'placement.json');
+    let placement: PlacementSeed | undefined;
+    if (await exists(placementPath)) {
+        placement = await parseFile(
+            placementPath,
+            placementSchema,
+            dir,
+            errors,
+        );
+    }
+
+    const corpus: ContentCorpus = {
+        stages,
+        units,
+        ...(placement ? { placement } : {}),
+    };
     // Reference checks on a partly invalid corpus only add noise.
     if (errors.length === 0) errors.push(...checkContentRefs(corpus));
     return { corpus, errors };
+}
+
+async function exists(path: string): Promise<boolean> {
+    try {
+        await access(path);
+        return true;
+    } catch {
+        return false;
+    }
 }
 
 async function parseFile<T>(

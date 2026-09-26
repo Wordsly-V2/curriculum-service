@@ -5,6 +5,7 @@ import {
     dialogueSchema,
     itemSchema,
     lessonSchema,
+    placementSchema,
     unitFileSchema,
 } from '@/content/content.schema';
 
@@ -21,6 +22,7 @@ export const ADMIN_KINDS = [
     'dialogue',
     'lesson',
     'checkpoint',
+    'placement',
 ] as const;
 export type AdminKind = (typeof ADMIN_KINDS)[number];
 
@@ -114,6 +116,12 @@ export function parseAdminRecord(kind: AdminKind, body: unknown): ParsedRecord {
             return parsed.ok
                 ? { ok: true, seed: seed('checkpoint', parsed.record) }
                 : parsed;
+        }
+        case 'placement': {
+            const parsed = placementSchema.safeParse(input);
+            return parsed.success
+                ? { ok: true, seed: seed('placement', parsed.data) }
+                : { ok: false, errors: issues(parsed.error) };
         }
     }
 }

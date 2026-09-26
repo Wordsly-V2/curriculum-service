@@ -95,6 +95,7 @@ export class ReleaseService {
                 await tx.dialogue.updateMany(draft);
                 await tx.lesson.updateMany(draft);
                 await tx.checkpoint.updateMany(draft);
+                await tx.placementTest.updateMany(draft);
 
                 const release = await tx.release.create({
                     data: { note: options.note, createdBy: options.createdBy },
@@ -119,6 +120,15 @@ export class ReleaseService {
                         payload: json(c.payload),
                     })),
                 });
+                if (snapshot.placement) {
+                    await tx.publishedPlacement.create({
+                        data: {
+                            releaseId,
+                            placementId: snapshot.placement.placementId,
+                            payload: json(snapshot.placement.payload),
+                        },
+                    });
+                }
                 await tx.publishedItem.createMany({
                     data: snapshot.items.map((i) => ({
                         releaseId,
@@ -267,19 +277,35 @@ export class ReleaseService {
      */
     async workingCopy(tx: Tx = this.prisma): Promise<WorkingCopy> {
         const where = { status: { not: 'ARCHIVED' } };
-        const [stages, units, items, dialogues, lessons, checkpoints] =
-            await Promise.all([
-                tx.stage.findMany({ where }),
-                tx.unit.findMany({ where }),
-                tx.learnItem.findMany({ where }),
-                tx.dialogue.findMany({ where }),
-                tx.lesson.findMany({
-                    where,
-                    include: { steps: true, items: true },
-                }),
-                tx.checkpoint.findMany({ where }),
-            ]);
-        return { stages, units, items, dialogues, lessons, checkpoints };
+        const [
+            stages,
+            units,
+            items,
+            dialogues,
+            lessons,
+            checkpoints,
+            placements,
+        ] = await Promise.all([
+            tx.stage.findMany({ where }),
+            tx.unit.findMany({ where }),
+            tx.learnItem.findMany({ where }),
+            tx.dialogue.findMany({ where }),
+            tx.lesson.findMany({
+                where,
+                include: { steps: true, items: true },
+            }),
+            tx.checkpoint.findMany({ where }),
+            tx.placementTest.findMany({ where }),
+        ]);
+        return {
+            stages,
+            units,
+            items,
+            dialogues,
+            lessons,
+            checkpoints,
+            placements,
+        };
     }
 }
 
