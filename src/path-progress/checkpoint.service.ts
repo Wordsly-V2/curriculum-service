@@ -18,6 +18,7 @@ import {
     isCheckpointResponse,
     learnerQuestions,
 } from './checkpoint.logic';
+import { PathProgressEvents } from './path-progress-events';
 import { type PathMe, PathProgressService } from './path-progress.service';
 import { type NodeState, findUnit } from './unit.logic';
 
@@ -54,6 +55,7 @@ export class CheckpointService {
         private readonly cache: CacheService,
         private readonly progress: PathProgressService,
         private readonly published: PublishedContentService,
+        private readonly events: PathProgressEvents,
     ) {}
 
     async view(userLoginId: string, unitId: string): Promise<CheckpointView> {
@@ -125,7 +127,8 @@ export class CheckpointService {
         }
 
         if (grade.passed) await this.cache.invalidateUser(userLoginId);
-        const { me } = await this.progress.context(userLoginId);
+        const { tree, me } = await this.progress.context(userLoginId);
+        if (grade.passed) await this.events.publish(userLoginId, tree, me);
         return { ...grade, replayed: false, me };
     }
 

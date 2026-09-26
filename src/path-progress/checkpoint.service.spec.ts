@@ -89,13 +89,15 @@ function setup(state: NodeState = 'available') {
     const published = {
         checkpoint: jest.fn(() => Promise.resolve(checkpoint)),
     };
+    const events = { publish: jest.fn() };
     const service = new CheckpointService(
         prisma as never,
         cache as never,
         progress as never,
         published as never,
+        events as never,
     );
-    return { service, prisma, cache, attempts };
+    return { service, prisma, cache, attempts, events };
 }
 
 describe('CheckpointService', () => {
@@ -128,7 +130,7 @@ describe('CheckpointService', () => {
     });
 
     it('records a pass and drops the learner cache', async () => {
-        const { service, prisma, cache } = setup();
+        const { service, prisma, cache, events } = setup();
         const result = await service.submit(USER, 'u1', {
             clientRequestId: 'req-1',
             releaseId: 'r1',
@@ -148,10 +150,15 @@ describe('CheckpointService', () => {
             }) as unknown,
         });
         expect(cache.invalidateUser).toHaveBeenCalledWith(USER);
+        expect(events.publish).toHaveBeenCalledWith(
+            USER,
+            expect.anything(),
+            result.me,
+        );
     });
 
     it('keeps the cache on a fail', async () => {
-        const { service, cache } = setup();
+        const { service, cache, events } = setup();
         const result = await service.submit(USER, 'u1', {
             clientRequestId: 'req-1',
             answers: [0, 'nope'],
@@ -162,6 +169,7 @@ describe('CheckpointService', () => {
             { correct: false },
         ]);
         expect(cache.invalidateUser).not.toHaveBeenCalled();
+        expect(events.publish).not.toHaveBeenCalled();
     });
 
     it('returns the first grade for a resent request', async () => {

@@ -14,6 +14,7 @@ import type {
     TreeUnit,
 } from '@/release/release.logic';
 import { type ReleaseInfo, ReleaseService } from '@/release/release.service';
+import { PathProgressEvents } from './path-progress-events';
 import {
     type NodeState,
     type PathProgress,
@@ -66,6 +67,7 @@ export class PathProgressService {
         private readonly cache: CacheService,
         private readonly releases: ReleaseService,
         private readonly published: PublishedContentService,
+        private readonly events: PathProgressEvents,
     ) {}
 
     async me(userLoginId: string): Promise<PathMe> {
@@ -137,7 +139,9 @@ export class PathProgressService {
             input,
         );
         if (!replayed) await this.cache.invalidateUser(userLoginId);
-        return { replayed, me: await this.meFor(userLoginId, release, tree) };
+        const me = await this.meFor(userLoginId, release, tree);
+        if (!replayed) await this.events.publish(userLoginId, tree, me);
+        return { replayed, me };
     }
 
     private async recordCompletion(

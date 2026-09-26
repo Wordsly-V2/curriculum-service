@@ -4,6 +4,7 @@ import {
     computeProgress,
     findLessonUnit,
     findUnit,
+    pathTotals,
 } from './unit.logic';
 
 const unit = (id: string, lessons: number, checkpoint = true): TreeUnit => ({
@@ -166,5 +167,81 @@ describe('tree lookups', () => {
         expect(findUnit(tree, 'nope')).toBeNull();
         expect(findLessonUnit(tree, 'u2-l2')?.id).toBe('u2');
         expect(findLessonUnit(tree, 'nope')).toBeNull();
+    });
+});
+
+describe('pathTotals', () => {
+    const totals = (p: LearnerProgress) =>
+        pathTotals(tree, computeProgress(tree, p));
+
+    it('is all zero before anything is done', () => {
+        expect(totals(learner())).toEqual({
+            lessonsCompleted: 0,
+            unitsCompleted: 0,
+            stagesCompleted: 0,
+        });
+    });
+
+    it('counts a unit once its checkpoint is passed, not when its lessons are done', () => {
+        const done = new Set(['u1-l1', 'u1-l2']);
+        expect(totals(learner({ completedLessonIds: done }))).toMatchObject({
+            lessonsCompleted: 2,
+            unitsCompleted: 0,
+        });
+        expect(
+            totals(
+                learner({
+                    completedLessonIds: done,
+                    passedCheckpointIds: new Set(['u1-cp']),
+                }),
+            ),
+        ).toMatchObject({ unitsCompleted: 1, stagesCompleted: 0 });
+    });
+
+    it('counts a unit without a checkpoint when every lesson is done', () => {
+        expect(
+            totals(
+                learner({
+                    startUnitId: 'u3',
+                    completedLessonIds: new Set(['u3-l1', 'u3-l2']),
+                }),
+            ),
+        ).toMatchObject({ lessonsCompleted: 2, unitsCompleted: 1 });
+    });
+
+    it('completes a stage when every unit is cleared by the learner', () => {
+        expect(
+            totals(
+                learner({
+                    passedCheckpointIds: new Set(['u1-cp', 'u2-cp']),
+                }),
+            ),
+        ).toEqual({
+            lessonsCompleted: 0,
+            unitsCompleted: 2,
+            stagesCompleted: 1,
+        });
+    });
+
+    it('earns nothing for units placement cleared', () => {
+        expect(totals(learner({ startUnitId: 'u3' }))).toEqual({
+            lessonsCompleted: 0,
+            unitsCompleted: 0,
+            stagesCompleted: 0,
+        });
+        expect(
+            totals(learner({ skippedUnitIds: new Set(['u1', 'u2']) })),
+        ).toMatchObject({ unitsCompleted: 0, stagesCompleted: 0 });
+    });
+
+    it('completes a stage placement cleared in part once the learner finishes the rest', () => {
+        expect(
+            totals(
+                learner({
+                    skippedUnitIds: new Set(['u1']),
+                    passedCheckpointIds: new Set(['u2-cp']),
+                }),
+            ),
+        ).toMatchObject({ unitsCompleted: 1, stagesCompleted: 1 });
     });
 });
