@@ -33,7 +33,7 @@ The global guards in `src/auth/jwt/` are copied verbatim from learning-service a
 |---|---|
 | `AccessGuard` | Deny-by-default. Admits a request only with `@Public()` or a valid RS256 access token verified against `AUTH_JWKS_URI`. |
 | `RolesGuard` | Enforces `@Roles('admin')` using the token's `roles` claim. Put it on every admin controller at class level. |
-| `UserScopeGuard` | Rejects any path or query parameter naming a user. |
+| `UserScopeGuard` | Rejects any path or query parameter naming a user, except on an `@Roles('admin')` route called by an admin (admin routes act on a named user by design). |
 
 The learner is always `@CurrentUser()` (the token's `sub`).
 
