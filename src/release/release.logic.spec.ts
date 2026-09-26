@@ -2,7 +2,12 @@ import { join } from 'node:path';
 import { contentId, stepId } from '@/content/content-id';
 import { loadContent } from '@/content/content-loader';
 import type { ContentCorpus } from '@/content/content.schema';
-import { SNAPSHOT_VERSION, buildRelease } from './release.logic';
+import {
+    SNAPSHOT_VERSION,
+    buildRelease,
+    chunk,
+    retiredItemIds,
+} from './release.logic';
 
 describe('buildRelease', () => {
     let corpus: ContentCorpus;
@@ -112,5 +117,27 @@ describe('buildRelease', () => {
         expect(JSON.stringify(buildRelease(corpus))).toBe(
             JSON.stringify(buildRelease(corpus)),
         );
+    });
+});
+
+describe('retiredItemIds', () => {
+    it('lists what the previous release had and the next one lacks', () => {
+        expect(retiredItemIds(['a', 'b', 'c'], ['a', 'c', 'd'])).toEqual(['b']);
+    });
+
+    it('is empty for a first release or when nothing was dropped', () => {
+        expect(retiredItemIds([], ['a'])).toEqual([]);
+        expect(retiredItemIds(['a'], ['a', 'b'])).toEqual([]);
+    });
+
+    it('lists each id once', () => {
+        expect(retiredItemIds(['x', 'x'], [])).toEqual(['x']);
+    });
+});
+
+describe('chunk', () => {
+    it('splits into batches of at most `size`', () => {
+        expect(chunk([1, 2, 3, 4, 5], 2)).toEqual([[1, 2], [3, 4], [5]]);
+        expect(chunk([], 3)).toEqual([]);
     });
 });

@@ -1,17 +1,9 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { Prisma } from '@prisma/client';
-import {
-    checkpointColumns,
-    dialogueColumns,
-    itemColumns,
-    lessonChildren,
-    lessonColumns,
-    stageColumns,
-    unitColumns,
-} from '@/content/content-rows';
+import { writeRecord } from '@/content/content-writer';
 import type { ContentCorpus } from '@/content/content.schema';
 import { PrismaService } from '@/prisma/prisma.service';
-import { type SeedRecord, toSeedRecords } from '@/content/content-records';
+import { toSeedRecords } from '@/content/content-records';
 import {
     type ExistingRow,
     type PlanAction,
@@ -62,9 +54,17 @@ export class ContentImportService {
                 if (!options.dryRun) {
                     for (const entry of plan) {
                         if (entry.action === 'insert') {
-                            await this.write(tx, entry.seed, true);
+                            await writeRecord(tx, entry.seed, {
+                                insert: true,
+                                seedHash: entry.seed.hash,
+                                updatedBy: null,
+                            });
                         } else if (entry.action === 'update') {
-                            await this.write(tx, entry.seed, false);
+                            await writeRecord(tx, entry.seed, {
+                                insert: false,
+                                seedHash: entry.seed.hash,
+                                updatedBy: null,
+                            });
                         }
                     }
                 }
@@ -105,75 +105,5 @@ export class ContentImportService {
             ...tag('lesson', lessons),
             ...tag('checkpoint', checkpoints),
         ];
-    }
-
-    private async write(
-        tx: Tx,
-        seed: SeedRecord,
-        insert: boolean,
-    ): Promise<void> {
-        const id = seed.id;
-        const meta = {
-            slug: seed.slug,
-            contentHash: seed.hash,
-            seedHash: seed.hash,
-            updatedBy: null,
-        };
-
-        switch (seed.kind) {
-            case 'stage': {
-                const data = { ...meta, ...stageColumns(seed.record) };
-                await (insert
-                    ? tx.stage.create({ data: { id, ...data } })
-                    : tx.stage.update({ where: { id }, data }));
-                return;
-            }
-            case 'unit': {
-                const data = { ...meta, ...unitColumns(seed.record) };
-                await (insert
-                    ? tx.unit.create({ data: { id, ...data } })
-                    : tx.unit.update({ where: { id }, data }));
-                return;
-            }
-            case 'item': {
-                const data = { ...meta, ...itemColumns(seed.record) };
-                await (insert
-                    ? tx.learnItem.create({ data: { id, ...data } })
-                    : tx.learnItem.update({ where: { id }, data }));
-                return;
-            }
-            case 'dialogue': {
-                const data = { ...meta, ...dialogueColumns(seed.record) };
-                await (insert
-                    ? tx.dialogue.create({ data: { id, ...data } })
-                    : tx.dialogue.update({ where: { id }, data }));
-                return;
-            }
-            case 'lesson': {
-                // Steps and item links belong to the lesson's hash: replace them.
-                if (!insert) {
-                    await tx.lessonStep.deleteMany({ where: { lessonId: id } });
-                    await tx.lessonItem.deleteMany({ where: { lessonId: id } });
-                }
-                const { steps, items } = lessonChildren(seed.record);
-                const data = {
-                    ...meta,
-                    ...lessonColumns(seed.record),
-                    steps: { create: steps },
-                    items: { create: items },
-                };
-                await (insert
-                    ? tx.lesson.create({ data: { id, ...data } })
-                    : tx.lesson.update({ where: { id }, data }));
-                return;
-            }
-            case 'checkpoint': {
-                const data = { ...meta, ...checkpointColumns(seed.record) };
-                await (insert
-                    ? tx.checkpoint.create({ data: { id, ...data } })
-                    : tx.checkpoint.update({ where: { id }, data }));
-                return;
-            }
-        }
     }
 }

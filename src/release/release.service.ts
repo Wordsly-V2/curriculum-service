@@ -9,8 +9,15 @@ import { cacheKeys } from '@/cache/cache-keys';
 import { CacheKind } from '@/cache/cache-ttl';
 import { CacheService } from '@/cache/cache.service';
 import { type WorkingCopy, rowsToCorpus } from '@/content/content-rows';
+import { PATH_ITEMS_RETIRED_TOPIC } from '@/messaging/constants';
+import { KafkaProducerService } from '@/messaging/kafka-producer.service';
 import { PrismaService } from '@/prisma/prisma.service';
-import { buildRelease } from './release.logic';
+import {
+    buildRelease,
+    chunk,
+    RETIRE_BATCH_SIZE,
+    retiredItemIds,
+} from './release.logic';
 
 type Tx = Prisma.TransactionClient;
 
@@ -20,6 +27,20 @@ const PUBLISH_LOCK_KEY = 0x70617468; // 'path'
 export interface ReleaseInfo {
     id: string;
     version: number;
+}
+
+export interface PublishResult extends ReleaseInfo {
+    /** Items the previous release had and this one dropped (archived). */
+    retiredItemIds: string[];
+}
+
+export interface ReleaseSummary extends ReleaseInfo {
+    note: string | null;
+    /** Admin's userLoginId; null for the importer. */
+    createdBy: string | null;
+    createdAt: Date;
+    /** The release learners read now. */
+    active: boolean;
 }
 
 /** The working copy fails the seed rules; nothing was published. */
@@ -42,14 +63,15 @@ export class ReleaseService {
     constructor(
         private readonly prisma: PrismaService,
         private readonly cache: CacheService,
+        private readonly kafka: KafkaProducerService,
     ) {}
 
     async publish(options: {
         note?: string;
         /** Admin's userLoginId; omitted for the importer. */
         createdBy?: string;
-    }): Promise<ReleaseInfo> {
-        const release = await this.prisma.$transaction(
+    }): Promise<PublishResult> {
+        const { release, retired } = await this.prisma.$transaction(
             async (tx) => {
                 await tx.$executeRaw`SELECT pg_advisory_xact_lock(${PUBLISH_LOCK_KEY}::bigint)`;
 
@@ -58,6 +80,10 @@ export class ReleaseService {
                 );
                 if (errors.length > 0) throw new ContentInvalidError(errors);
                 const snapshot = buildRelease(corpus);
+                const retired = retiredItemIds(
+                    await this.activeItemIds(tx),
+                    snapshot.items.map((i) => i.itemId),
+                );
 
                 const draft = {
                     where: { status: 'DRAFT' },
@@ -104,15 +130,60 @@ export class ReleaseService {
 
                 this.logger.log(
                     `Published release v${release.version}: ` +
-                        `${snapshot.lessons.length} lessons, ${snapshot.items.length} items`,
+                        `${snapshot.lessons.length} lessons, ${snapshot.items.length} items` +
+                        (retired.length > 0
+                            ? `, ${retired.length} retired`
+                            : ''),
                 );
-                return release;
+                return { release, retired };
             },
             { timeout: 120_000 },
         );
 
         await this.cache.delGlobal(...cacheKeys.activeRelease);
-        return { id: release.id, version: release.version };
+        await this.sendRetired(release.version, retired);
+        return {
+            id: release.id,
+            version: release.version,
+            retiredItemIds: retired,
+        };
+    }
+
+    /**
+     * After the commit, so learning-service never drops progress for a publish
+     * that rolled back. A failed send is logged, not thrown: the release is
+     * live, and learning-service already hides unpublished items from reviews
+     * (filter-published), so the cards only linger until an operator replays.
+     */
+    private async sendRetired(
+        version: number,
+        itemIds: string[],
+    ): Promise<void> {
+        if (itemIds.length === 0) return;
+        try {
+            await this.kafka.sendBatch(
+                PATH_ITEMS_RETIRED_TOPIC,
+                chunk(itemIds, RETIRE_BATCH_SIZE).map((batch) => ({
+                    itemIds: batch,
+                })),
+            );
+        } catch (error) {
+            this.logger.error(
+                `Release v${version}: could not send ${PATH_ITEMS_RETIRED_TOPIC} ` +
+                    `for ${JSON.stringify(itemIds)}: ${String(error)}`,
+            );
+        }
+    }
+
+    /** Item ids of the release learners have now; empty before the first. */
+    private async activeItemIds(tx: Tx): Promise<string[]> {
+        const state = await tx.pathState.findUnique({ where: { id: 1 } });
+        if (!state?.activeReleaseId) return [];
+        const rows = await tx.publishedItem.findMany({
+            where: { releaseId: state.activeReleaseId },
+            select: { itemId: true },
+        });
+        return rows.map((r) => r.itemId);
     }
 
     /** Makes an existing release the one learners see (rollback or roll forward). */
@@ -153,6 +224,27 @@ export class ReleaseService {
         );
     }
 
+    /** Every release, newest first, with the active one marked. */
+    async list(): Promise<ReleaseSummary[]> {
+        const [releases, state] = await Promise.all([
+            this.prisma.release.findMany({
+                orderBy: { version: 'desc' },
+                select: {
+                    id: true,
+                    version: true,
+                    note: true,
+                    createdBy: true,
+                    createdAt: true,
+                },
+            }),
+            this.prisma.pathState.findUnique({ where: { id: 1 } }),
+        ]);
+        return releases.map((r) => ({
+            ...r,
+            active: r.id === state?.activeReleaseId,
+        }));
+    }
+
     private async point(
         tx: Tx,
         releaseId: string,
@@ -169,8 +261,11 @@ export class ReleaseService {
         });
     }
 
-    /** Every row that is not archived, with each lesson's steps and links. */
-    private async workingCopy(tx: Tx): Promise<WorkingCopy> {
+    /**
+     * Every row that is not archived, with each lesson's steps and links: what
+     * a publish would validate and snapshot.
+     */
+    async workingCopy(tx: Tx = this.prisma): Promise<WorkingCopy> {
         const where = { status: { not: 'ARCHIVED' } };
         const [stages, units, items, dialogues, lessons, checkpoints] =
             await Promise.all([

@@ -341,3 +341,27 @@ export function buildRelease(corpus: ContentCorpus): ReleaseSnapshot {
         })),
     };
 }
+
+/**
+ * Items a new release drops from the one learners had: archived since. Their
+ * FSRS cards can go (PATH_ITEMS_RETIRED_TOPIC). Only publishing retires;
+ * rolling back to an older release must not, or rolling forward again would
+ * find the learners' progress gone.
+ */
+export function retiredItemIds(
+    previous: readonly string[],
+    next: readonly string[],
+): string[] {
+    const kept = new Set(next);
+    return [...new Set(previous)].filter((id) => !kept.has(id));
+}
+
+/** Retire messages carry at most this many ids each. */
+export const RETIRE_BATCH_SIZE = 500;
+
+export function chunk<T>(list: readonly T[], size: number): T[][] {
+    const out: T[][] = [];
+    for (let i = 0; i < list.length; i += size)
+        out.push(list.slice(i, i + size));
+    return out;
+}
