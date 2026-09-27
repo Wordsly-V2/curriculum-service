@@ -1,0 +1,762 @@
+{
+    "slug": "a2-09-experiences",
+    "stage": "a2",
+    "order": 9,
+    "title": "Experiences",
+    "titleVi": "Trải nghiệm",
+    "descriptionVi": "Hỏi và kể những việc đã từng làm (Have you ever…? I've never…), nói đã làm bao nhiêu lần, lần đầu, đã làm chưa (already, yet), và kể thêm chi tiết bằng quá khứ đơn.",
+    "canDo": [
+        "Tôi hỏi được người khác đã từng làm gì và trả lời Yes, I have / No, I haven't.",
+        "Tôi kể được những nơi mình đã đến, món mình đã ăn, và việc mình chưa bao giờ làm.",
+        "Tôi nói được đã làm bao nhiêu lần, lần đầu tiên, và kể thêm lúc nào, như thế nào bằng quá khứ đơn."
+    ],
+    "items": [
+        {
+            "slug": "present-perfect-experience",
+            "type": "GRAMMAR",
+            "text": "have / has + past participle (experience)",
+            "meaningVi": "hiện tại hoàn thành: đã từng",
+            "examples": [
+                { "en": "I've been to Japan, but I've never seen snow.", "vi": "Mình đã từng đến Nhật, nhưng chưa bao giờ thấy tuyết.", "highlight": "I've been" }
+            ],
+            "grammar": {
+                "ruleVi": "Nói về trải nghiệm trong đời, không nói lúc nào: have / has + quá khứ phân từ (V3). Câu hỏi: Have you ever + V3? Phủ định: haven't, hoặc never + V3. Tiếng Việt chỉ cần \"đã từng\", \"chưa bao giờ\"; tiếng Anh phải có have / has.",
+                "forms": [
+                    { "label": "khẳng định", "example": "I've (I have) eaten durian. She's (She has) been to Korea." },
+                    { "label": "chưa bao giờ", "example": "I've never been on a plane. He has never seen snow." },
+                    { "label": "câu hỏi", "example": "Have you ever tried karaoke? Has she ever been abroad?" },
+                    { "label": "trả lời ngắn", "example": "Yes, I have. / No, I haven't. Yes, she has. / No, she hasn't." },
+                    { "label": "been to", "example": "been to = đã đến rồi về: I've been to Hanoi. (gone to = đi và chưa về)" }
+                ],
+                "pitfallsVi": [
+                    "Quên have: \"I ever been to Japan\" → I've been to Japan.",
+                    "Dùng dạng quá khứ: \"Have you ever went / ate…?\" → Have you ever been / eaten…?",
+                    "Hai lần phủ định: \"I haven't never…\" → I've never… hoặc I haven't ever…",
+                    "Nói thời điểm cụ thể: \"I've been to Japan last year\" → I went to Japan last year."
+                ]
+            }
+        },
+        {
+            "slug": "have-you-ever",
+            "type": "PATTERN",
+            "text": "Have you ever …?",
+            "meaningVi": "Bạn đã bao giờ … chưa?",
+            "examples": [
+                { "en": "Have you ever eaten durian?", "vi": "Bạn đã bao giờ ăn sầu riêng chưa?", "highlight": "Have you ever" }
+            ],
+            "pattern": {
+                "template": "Have you ever {experience}?",
+                "slots": [
+                    { "name": "experience", "hintVi": "quá khứ phân từ + phần còn lại", "options": ["been to Japan", "eaten durian", "seen snow", "tried karaoke", "been on a plane"] }
+                ]
+            },
+            "noteVi": "Lên giọng ở cuối câu. ever đứng giữa you và V3. ❌ \"Have you ever go…?\", \"Did you ever…?\" khi hỏi trải nghiệm."
+        },
+        {
+            "slug": "ive-never",
+            "type": "PATTERN",
+            "text": "I've never ….",
+            "meaningVi": "Mình chưa bao giờ ….",
+            "examples": [
+                { "en": "I've never been abroad.", "vi": "Mình chưa bao giờ ra nước ngoài.", "highlight": "I've never" }
+            ],
+            "pattern": {
+                "template": "I've never {experience}.",
+                "slots": [
+                    { "name": "experience", "hintVi": "quá khứ phân từ + phần còn lại", "options": ["been abroad", "seen snow", "eaten sushi", "been on a plane", "tried surfing"] }
+                ]
+            },
+            "noteVi": "never đã là phủ định, không thêm not: ❌ \"I haven't never\". Đọc nối: I've never = /aɪv ˈnevər/, giữ âm /v/ của I've."
+        },
+        {
+            "slug": "ever",
+            "type": "LEXICAL",
+            "text": "ever",
+            "meaningVi": "đã bao giờ, từng (trong câu hỏi)",
+            "ipa": "/ˈevər/",
+            "examples": [
+                { "en": "Have you ever been to Da Lat?", "vi": "Bạn từng đến Đà Lạt chưa?", "highlight": "ever" }
+            ],
+            "noteVi": "Dùng trong câu hỏi, không dùng trong câu khẳng định: ❌ \"I've ever been to Da Lat\" → I've been to Da Lat."
+        },
+        {
+            "slug": "been",
+            "type": "LEXICAL",
+            "text": "been",
+            "meaningVi": "quá khứ phân từ của be; been to = đã từng đến",
+            "ipa": "/bɪn/",
+            "examples": [
+                { "en": "I've been to Hue three times.", "vi": "Mình đã đến Huế ba lần.", "highlight": "been to" }
+            ],
+            "noteVi": "been to + nơi (❌ \"been in\" khi nói đã đến chơi). Người Mỹ đọc ngắn /bɪn/ như \"bin\". She's been to Paris (đã về) khác She's gone to Paris (đang ở đó)."
+        },
+        {
+            "slug": "once",
+            "type": "LEXICAL",
+            "text": "once",
+            "meaningVi": "một lần",
+            "ipa": "/wʌns/",
+            "examples": [
+                { "en": "I've been on a plane only once.", "vi": "Mình mới đi máy bay có một lần.", "highlight": "once" }
+            ],
+            "noteVi": "Đọc /wʌns/ như \"oăn-s\", không đọc theo chữ \"ôn-xờ\". ❌ \"one time\" cũng được nhưng once tự nhiên hơn."
+        },
+        {
+            "slug": "twice",
+            "type": "LEXICAL",
+            "text": "twice",
+            "meaningVi": "hai lần",
+            "ipa": "/twaɪs/",
+            "examples": [
+                { "en": "We've visited Phu Quoc twice.", "vi": "Bọn mình đã đi Phú Quốc hai lần.", "highlight": "twice" }
+            ],
+            "noteVi": "Từ ba lần trở đi: three times, four times. Giữ âm cuối /s/."
+        },
+        {
+            "slug": "yes-i-have",
+            "type": "PHRASE",
+            "text": "Yes, I have. / No, I haven't.",
+            "meaningVi": "Có, mình từng rồi. / Chưa, mình chưa.",
+            "examples": [
+                { "en": "Have you ever tried pho? Yes, I have. It's delicious.", "vi": "Bạn ăn phở bao giờ chưa? Rồi. Ngon lắm.", "highlight": "Yes, I have" }
+            ],
+            "noteVi": "Câu hỏi có have thì trả lời bằng have: ❌ \"Yes, I did.\", \"Yes, I ever.\" Trả lời xong nên kể thêm một câu."
+        },
+        {
+            "slug": "past-participles",
+            "type": "GRAMMAR",
+            "text": "past participles (V3)",
+            "meaningVi": "quá khứ phân từ",
+            "examples": [
+                { "en": "Have you ever seen a Vietnamese water puppet show?", "vi": "Bạn đã bao giờ xem múa rối nước chưa?", "highlight": "seen" }
+            ],
+            "grammar": {
+                "ruleVi": "Động từ có quy tắc: V3 giống quá khứ đơn (-ed). Động từ bất quy tắc: phải học thuộc; nhiều từ khác dạng quá khứ.",
+                "forms": [
+                    { "label": "có quy tắc", "example": "visit → visited → visited, try → tried → tried, travel → traveled → traveled" },
+                    { "label": "giống quá khứ", "example": "have → had → had, buy → bought → bought, meet → met → met" },
+                    { "label": "khác quá khứ", "example": "be → was/were → been, see → saw → seen, eat → ate → eaten" },
+                    { "label": "khác quá khứ", "example": "go → went → gone/been, do → did → done, take → took → taken, ride → rode → ridden" }
+                ],
+                "pitfallsVi": [
+                    "Dùng dạng quá khứ sau have: \"I've saw\", \"I've ate\", \"I've went\" → I've seen, I've eaten, I've been.",
+                    "\"I've goed\", \"I've eated\" → I've been / gone, I've eaten."
+                ]
+            }
+        },
+        {
+            "slug": "perfect-vs-past",
+            "type": "GRAMMAR",
+            "text": "present perfect vs past simple",
+            "meaningVi": "đã từng (không nói lúc nào) và kể chi tiết (có lúc nào)",
+            "examples": [
+                { "en": "I've been to Korea. I went there in 2019.", "vi": "Mình từng đi Hàn. Mình đi năm 2019.", "highlight": "I went there in 2019" }
+            ],
+            "grammar": {
+                "ruleVi": "Mở đầu bằng hiện tại hoàn thành (có từng hay không). Khi kể thêm lúc nào, ở đâu, thế nào thì chuyển sang quá khứ đơn. Có mốc thời gian (yesterday, last year, in 2019, ago, When…?) thì luôn là quá khứ đơn.",
+                "forms": [
+                    { "label": "hỏi trải nghiệm", "example": "Have you ever been to Korea? Yes, I have." },
+                    { "label": "hỏi chi tiết", "example": "When did you go? Who did you go with? What was it like?" },
+                    { "label": "kể chi tiết", "example": "I went there in 2019. It was cold, but I loved it." }
+                ],
+                "pitfallsVi": [
+                    "Hiện tại hoàn thành với mốc thời gian: \"I've gone there last year\" → I went there last year.",
+                    "\"When have you been there?\" → When did you go there?",
+                    "Kể chi tiết vẫn dùng have: \"I've eaten it yesterday\" → I ate it yesterday."
+                ]
+            }
+        },
+        {
+            "slug": "when-did-you",
+            "type": "PATTERN",
+            "text": "When did you …?",
+            "meaningVi": "Bạn … khi nào?",
+            "examples": [
+                { "en": "When did you go to Korea?", "vi": "Bạn đi Hàn khi nào?", "highlight": "When did you" }
+            ],
+            "pattern": {
+                "template": "When did you {do}?",
+                "slots": [
+                    { "name": "do", "hintVi": "động từ nguyên mẫu + phần còn lại", "options": ["go there", "try it", "see it", "learn to swim", "go to Japan"] }
+                ]
+            },
+            "noteVi": "Sau did là nguyên mẫu: ❌ \"When did you went?\" ❌ \"When have you been…?\""
+        },
+        {
+            "slug": "what-was-it-like",
+            "type": "PHRASE",
+            "text": "What was it like?",
+            "meaningVi": "Nó thế nào? (hỏi cảm nhận)",
+            "examples": [
+                { "en": "You went to Sapa? What was it like?", "vi": "Bạn đi Sa Pa à? Ở đó thế nào?", "highlight": "What was it like" }
+            ],
+            "noteVi": "like ở đây là \"giống, như thế nào\", không phải \"thích\". ❌ \"How was it like?\" → What was it like? hoặc How was it?"
+        },
+        {
+            "slug": "try",
+            "type": "LEXICAL",
+            "text": "try",
+            "meaningVi": "thử, ăn thử",
+            "ipa": "/traɪ/",
+            "examples": [
+                { "en": "Have you ever tried bun cha?", "vi": "Bạn ăn thử bún chả bao giờ chưa?", "highlight": "tried" }
+            ],
+            "noteVi": "Quá khứ và V3: tried (y → ied). Thử món ăn: try (❌ \"test\" the food). You should try it!"
+        },
+        {
+            "slug": "amazing",
+            "type": "LEXICAL",
+            "text": "amazing",
+            "meaningVi": "tuyệt vời, đáng kinh ngạc",
+            "ipa": "/əˈmeɪzɪŋ/",
+            "examples": [
+                { "en": "Ha Long Bay was amazing.", "vi": "Vịnh Hạ Long tuyệt vời lắm.", "highlight": "amazing" }
+            ],
+            "noteVi": "Mạnh hơn good, great. Nhấn âm giữa: a-MA-zing. Không cần very: ❌ \"very amazing\" → really amazing hoặc just amazing."
+        },
+        {
+            "slug": "scary",
+            "type": "LEXICAL",
+            "text": "scary",
+            "meaningVi": "đáng sợ",
+            "ipa": "/ˈskeri/",
+            "examples": [
+                { "en": "My first flight was a little scary.", "vi": "Chuyến bay đầu tiên của mình hơi sợ.", "highlight": "scary" }
+            ],
+            "noteVi": "Thứ gây sợ: scary. Người thấy sợ: scared (I was scared). ❌ \"I was scary\" nghĩa là mình đáng sợ."
+        },
+        {
+            "slug": "experience",
+            "type": "LEXICAL",
+            "text": "experience",
+            "meaningVi": "trải nghiệm; kinh nghiệm",
+            "ipa": "/ɪkˈspɪriəns/",
+            "examples": [
+                { "en": "Living abroad was a great experience.", "vi": "Sống ở nước ngoài là một trải nghiệm tuyệt vời.", "highlight": "experience" }
+            ],
+            "noteVi": "Một trải nghiệm: an experience (đếm được). Kinh nghiệm làm việc: work experience (không đếm được, ❌ \"experiences\"). Nhấn âm hai: ex-PE-ri-ence."
+        },
+        {
+            "slug": "how-many-times",
+            "type": "PATTERN",
+            "text": "How many times have you …?",
+            "meaningVi": "Bạn đã … bao nhiêu lần rồi?",
+            "examples": [
+                { "en": "How many times have you been to Hanoi?", "vi": "Bạn đến Hà Nội bao nhiêu lần rồi?", "highlight": "How many times" }
+            ],
+            "pattern": {
+                "template": "How many times have you {experience}?",
+                "slots": [
+                    { "name": "experience", "hintVi": "quá khứ phân từ + phần còn lại", "options": ["been to Hanoi", "seen that movie", "been on a plane", "tried pho", "climbed Fansipan"] }
+                ]
+            },
+            "noteVi": "times có -s. Trả lời: once, twice, three times, many times, a few times. ❌ \"How many time\"."
+        },
+        {
+            "slug": "a-few-times",
+            "type": "PHRASE",
+            "text": "a few times / many times",
+            "meaningVi": "vài lần / nhiều lần",
+            "examples": [
+                { "en": "I've seen that movie a few times.", "vi": "Phim đó mình xem vài lần rồi.", "highlight": "a few times" }
+            ],
+            "noteVi": "Đặt ở cuối câu. \"a few\" là vài (khá ít), \"many\" là nhiều. ❌ \"I've many times been\"."
+        },
+        {
+            "slug": "its-my-first-time",
+            "type": "PHRASE",
+            "text": "It's my first time.",
+            "meaningVi": "Đây là lần đầu của mình.",
+            "examples": [
+                { "en": "Is this your first time in Vietnam? Yes, it's my first time.", "vi": "Đây là lần đầu bạn đến Việt Nam à? Vâng, lần đầu.", "highlight": "it's my first time" }
+            ],
+            "noteVi": "first time + in (nơi chốn) hoặc + V-ing: my first time in Hanoi, my first time eating durian. ❌ \"the first time I come here\"."
+        },
+        {
+            "slug": "in-my-life",
+            "type": "PHRASE",
+            "text": "in my life",
+            "meaningVi": "trong đời mình",
+            "examples": [
+                { "en": "It was the best trip in my life.", "vi": "Đó là chuyến đi tuyệt nhất đời mình.", "highlight": "in my life" }
+            ],
+            "noteVi": "Hay đi với so sánh nhất và never: I've never been so tired in my life. Cũng nói: of my life (the best day of my life)."
+        },
+        {
+            "slug": "already",
+            "type": "LEXICAL",
+            "text": "already",
+            "meaningVi": "rồi, đã … rồi",
+            "ipa": "/ɔːlˈredi/",
+            "examples": [
+                { "en": "I've already had lunch, thanks.", "vi": "Mình ăn trưa rồi, cảm ơn nhé.", "highlight": "already" }
+            ],
+            "noteVi": "Đứng giữa have và V3: I've already eaten. ❌ \"I already have eaten\". Tiếng Việt \"rồi\" ở cuối câu, tiếng Anh already ở giữa."
+        },
+        {
+            "slug": "not-yet",
+            "type": "PHRASE",
+            "text": "Not yet. / … yet?",
+            "meaningVi": "Chưa. / … chưa?",
+            "examples": [
+                { "en": "Have you tried banh xeo yet? Not yet.", "vi": "Bạn ăn bánh xèo chưa? Chưa.", "highlight": "yet" }
+            ],
+            "noteVi": "yet đứng cuối câu hỏi và câu phủ định: I haven't tried it yet. ❌ \"I didn't try yet\" (dùng haven't). Câu khẳng định dùng already."
+        },
+        {
+            "slug": "mountain",
+            "type": "LEXICAL",
+            "text": "mountain",
+            "meaningVi": "núi",
+            "ipa": "/ˈmaʊntn/",
+            "examples": [
+                { "en": "Have you ever climbed a mountain?", "vi": "Bạn từng leo núi bao giờ chưa?", "highlight": "mountain" }
+            ],
+            "noteVi": "Người Mỹ đọc -tain rất nhẹ: \"MAO-n\". Leo núi: climb a mountain (b câm: /klaɪm/)."
+        },
+        {
+            "slug": "snow",
+            "type": "LEXICAL",
+            "text": "snow",
+            "meaningVi": "tuyết; tuyết rơi",
+            "ipa": "/snoʊ/",
+            "examples": [
+                { "en": "I've never seen snow in my life.", "vi": "Cả đời mình chưa thấy tuyết bao giờ.", "highlight": "snow" }
+            ],
+            "noteVi": "Không đếm được: ❌ \"a snow\". Động từ: It's snowing. Đọc /snoʊ/, không phải \"xờ-nô\" hai âm tiết."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "a2-09-have-you-ever-been-abroad",
+            "title": "Have you ever been abroad?",
+            "situationVi": "Giờ nghỉ trưa, Lisa, đồng nghiệp người Mỹ, hỏi bạn về những chuyến đi.",
+            "lines": [
+                { "speaker": "Lisa", "en": "Have you ever been abroad?", "vi": "Bạn từng ra nước ngoài bao giờ chưa?" },
+                { "speaker": "You", "en": "Yes, I have. I've been to Thailand twice.", "vi": "Có. Mình đi Thái Lan hai lần rồi.", "learnerTurn": true },
+                { "speaker": "Lisa", "en": "Oh, nice! When did you go?", "vi": "Ồ, hay quá! Bạn đi khi nào?" },
+                { "speaker": "You", "en": "I went there last year with my family.", "vi": "Năm ngoái mình đi với gia đình.", "learnerTurn": true },
+                { "speaker": "Lisa", "en": "What was it like?", "vi": "Ở đó thế nào?" },
+                { "speaker": "You", "en": "It was amazing. The food was great. Have you ever been there?", "vi": "Tuyệt lắm. Đồ ăn ngon. Bạn đến đó bao giờ chưa?", "learnerTurn": true },
+                { "speaker": "Lisa", "en": "No, I haven't. I've never been to Asia before Vietnam!", "vi": "Chưa. Trước Việt Nam mình chưa bao giờ đến châu Á!" }
+            ]
+        },
+        {
+            "slug": "a2-09-first-time-in-vietnam",
+            "title": "Is this your first time?",
+            "situationVi": "Ở một quán cà phê tại Hội An, bạn bắt chuyện với Mark, một du khách người Mỹ.",
+            "lines": [
+                { "speaker": "You", "en": "Hi! Is this your first time in Vietnam?", "vi": "Chào anh! Đây là lần đầu anh đến Việt Nam à?", "learnerTurn": true },
+                { "speaker": "Mark", "en": "Yes, it's my first time. I arrived last week.", "vi": "Ừ, lần đầu. Tôi đến tuần trước." },
+                { "speaker": "You", "en": "Have you tried banh mi yet?", "vi": "Anh ăn bánh mì chưa?", "learnerTurn": true },
+                { "speaker": "Mark", "en": "Yes, I've already had it three times! It's amazing.", "vi": "Rồi, tôi ăn ba lần rồi! Ngon tuyệt." },
+                { "speaker": "You", "en": "How about cao lau? It's the most famous dish in Hoi An.", "vi": "Còn cao lầu thì sao? Đó là món nổi tiếng nhất Hội An.", "learnerTurn": true },
+                { "speaker": "Mark", "en": "No, not yet. What's it like?", "vi": "Chưa. Món đó thế nào?" },
+                { "speaker": "You", "en": "It's noodles with pork and vegetables. You should try it!", "vi": "Là mì với thịt heo và rau. Anh nên ăn thử!", "learnerTurn": true },
+                { "speaker": "Mark", "en": "OK, I will. Thanks!", "vi": "Được, tôi sẽ thử. Cảm ơn nhé!" }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "a2-09-l1-have-you-ever",
+            "title": "Have you ever…?",
+            "titleVi": "Đã bao giờ … chưa?",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "present-perfect-experience", "role": "INTRODUCE" },
+                { "item": "have-you-ever", "role": "INTRODUCE" },
+                { "item": "ive-never", "role": "INTRODUCE" },
+                { "item": "ever", "role": "INTRODUCE" },
+                { "item": "been", "role": "INTRODUCE" },
+                { "item": "once", "role": "INTRODUCE" },
+                { "item": "twice", "role": "INTRODUCE" },
+                { "item": "yes-i-have", "role": "INTRODUCE" },
+                { "item": "never", "role": "RECYCLE" },
+                { "item": "abroad", "role": "RECYCLE" },
+                { "item": "went", "role": "RECYCLE" },
+                { "item": "saw", "role": "RECYCLE" },
+                { "item": "ate", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["have-you-ever", "ive-never", "ever", "been", "once", "twice", "yes-i-have"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Đã từng: have / has + V3",
+                        "bodyVi": "Tiếng Việt: \"mình **đã từng** đến Nhật\", \"mình **chưa bao giờ** thấy tuyết\". Tiếng Anh dùng **have / has + quá khứ phân từ (V3)**, không nói lúc nào:\n\n| | ví dụ |\n|---|---|\n| đã từng | I**'ve been** to Japan. She**'s eaten** durian. |\n| chưa bao giờ | I**'ve never seen** snow. |\n| hỏi | **Have** you **ever been** abroad? |\n| trả lời | Yes, I **have**. / No, I **haven't**. |\n| số lần | once, twice, three times |\n\nV3 của be là **been**, của see là **seen**, của eat là **eaten** (không phải went, saw, ate).\n\n❌ I ever been to Japan ❌ Have you ever went…? ❌ I haven't never ❌ Yes, I did. ✅ **I've been**, **Have you ever been…?**, **I've never**, **Yes, I have.**",
+                        "items": ["present-perfect-experience", "have-you-ever", "ive-never", "been", "ever", "never", "went", "saw", "ate"],
+                        "examples": [
+                            { "en": "Have you ever been to Japan? No, I haven't.", "vi": "Bạn từng đến Nhật chưa? Chưa.", "highlight": "Have you ever been" },
+                            { "en": "I've eaten durian once. I didn't like it!", "vi": "Mình ăn sầu riêng một lần rồi. Không thích!", "highlight": "I've eaten" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "have-you-ever",
+                        "prompts": [
+                            { "cueVi": "Hỏi: bạn từng đến Nhật chưa?", "slots": { "experience": "been to Japan" }, "answer": "Have you ever been to Japan?" },
+                            { "cueVi": "Hỏi: bạn từng ăn sầu riêng chưa?", "slots": { "experience": "eaten durian" }, "answer": "Have you ever eaten durian?" },
+                            { "cueVi": "Hỏi: bạn từng đi máy bay chưa?", "slots": { "experience": "been on a plane" }, "answer": "Have you ever been on a plane?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "ive-never",
+                        "prompts": [
+                            { "cueVi": "Mình chưa bao giờ ra nước ngoài.", "slots": { "experience": "been abroad" }, "answer": "I've never been abroad." },
+                            { "cueVi": "Mình chưa bao giờ thấy tuyết.", "slots": { "experience": "seen snow" }, "answer": "I've never seen snow." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["ever", "been", "once", "twice", "yes-i-have", "never", "abroad", "saw"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "Have you ever been abroad?", "vi": "Bạn từng ra nước ngoài chưa?" },
+                            { "en": "Yes, I have. I've been to Thailand twice.", "vi": "Có. Mình đi Thái Lan hai lần rồi." },
+                            { "en": "I've never seen snow.", "vi": "Mình chưa bao giờ thấy tuyết." },
+                            { "en": "I've been on a plane only once.", "vi": "Mình mới đi máy bay có một lần." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["Have you ever went to Japan?", "Did you ever been to Japan?", "Have you ever been to Japan?"],
+                                "answer": 2,
+                                "item": "present-perfect-experience"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Have you ever eaten durian?\" Trả lời \"Rồi\":",
+                                "options": ["Yes, I have.", "Yes, I did.", "Yes, I ever."],
+                                "answer": 0,
+                                "item": "yes-i-have"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I've ___ seen snow.",
+                                "hintVi": "chưa bao giờ",
+                                "answers": ["never"],
+                                "item": "ive-never"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "We've been to Phu Quoc twice.",
+                                "options": ["Bọn mình sắp đi Phú Quốc hai lần.", "Bọn mình đã đi Phú Quốc hai lần.", "Bọn mình chưa đi Phú Quốc bao giờ."],
+                                "answer": 1,
+                                "item": "twice"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Bạn từng ra nước ngoài bao giờ chưa?",
+                                "answer": "Have you ever been abroad?",
+                                "item": "have-you-ever"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a2-09-l2-what-was-it-like",
+            "title": "What was it like?",
+            "titleVi": "Kể thêm: khi nào, thế nào",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "past-participles", "role": "INTRODUCE" },
+                { "item": "perfect-vs-past", "role": "INTRODUCE" },
+                { "item": "when-did-you", "role": "INTRODUCE" },
+                { "item": "what-was-it-like", "role": "INTRODUCE" },
+                { "item": "try", "role": "INTRODUCE" },
+                { "item": "amazing", "role": "INTRODUCE" },
+                { "item": "scary", "role": "INTRODUCE" },
+                { "item": "experience", "role": "INTRODUCE" },
+                { "item": "present-perfect-experience", "role": "RECYCLE" },
+                { "item": "have-you-ever", "role": "RECYCLE" },
+                { "item": "been", "role": "RECYCLE" },
+                { "item": "past-simple-did", "role": "RECYCLE" },
+                { "item": "ago", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["when-did-you", "what-was-it-like", "try", "amazing", "scary", "experience"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "V3 và khi nào đổi sang quá khứ đơn",
+                        "bodyVi": "Động từ có quy tắc: V3 = -ed (visited, tried). Bất quy tắc hay gặp:\n\n| nguyên mẫu | quá khứ | V3 |\n|---|---|---|\n| be | was / were | **been** |\n| see | saw | **seen** |\n| eat | ate | **eaten** |\n| do | did | **done** |\n| take | took | **taken** |\n| have | had | **had** |\n| meet | met | **met** |\n\nMở đầu bằng **Have you ever…?** Khi hỏi và kể **lúc nào, thế nào** thì chuyển sang quá khứ đơn:\n\nHave you ever **been** to Korea? Yes, I have. → When **did** you **go**? I **went** in 2019. → What **was** it like? It **was** amazing.\n\n❌ I've been there last year ❌ When have you been…? ❌ I've saw ✅ I **went** there last year. **When did you go?** I've **seen**.",
+                        "items": ["past-participles", "perfect-vs-past", "present-perfect-experience", "have-you-ever", "when-did-you", "what-was-it-like", "been", "past-simple-did", "ago"],
+                        "examples": [
+                            { "en": "I've been to Korea. I went there two years ago.", "vi": "Mình từng đi Hàn. Mình đi hai năm trước.", "highlight": "I went there two years ago" },
+                            { "en": "Have you ever tried snails? Yes. What was it like? It was amazing!", "vi": "Bạn ăn ốc bao giờ chưa? Rồi. Thế nào? Ngon tuyệt!", "highlight": "What was it like" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "when-did-you",
+                        "prompts": [
+                            { "cueVi": "Hỏi: bạn đến đó khi nào?", "slots": { "do": "go there" }, "answer": "When did you go there?" },
+                            { "cueVi": "Hỏi: bạn ăn thử nó khi nào?", "slots": { "do": "try it" }, "answer": "When did you try it?" },
+                            { "cueVi": "Hỏi: bạn học bơi khi nào?", "slots": { "do": "learn to swim" }, "answer": "When did you learn to swim?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["try", "amazing", "scary", "experience", "what-was-it-like", "been", "ago"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a2-09-have-you-ever-been-abroad", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I've saw that movie.", "I've seen that movie.", "I've see that movie."],
+                                "answer": 1,
+                                "item": "past-participles"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I went to Korea last year.", "I've been to Korea last year.", "I've gone to Korea last year."],
+                                "answer": 0,
+                                "item": "perfect-vs-past"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Have you ever ___ pho?",
+                                "hintVi": "ăn (V3 của eat)",
+                                "answers": ["eaten", "tried", "had"],
+                                "item": "past-participles"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "My first flight was a little scary.",
+                                "options": ["Chuyến bay đầu tiên của mình hơi sợ.", "Chuyến bay đầu tiên của mình bị trễ.", "Chuyến bay đầu tiên của mình rất vui."],
+                                "answer": 0,
+                                "item": "scary"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Bạn đến đó khi nào?",
+                                "answer": "When did you go there?",
+                                "item": "when-did-you"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a2-09-l3-first-time",
+            "title": "My first time",
+            "titleVi": "Bao nhiêu lần, lần đầu, rồi hay chưa",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "how-many-times", "role": "INTRODUCE" },
+                { "item": "a-few-times", "role": "INTRODUCE" },
+                { "item": "its-my-first-time", "role": "INTRODUCE" },
+                { "item": "in-my-life", "role": "INTRODUCE" },
+                { "item": "already", "role": "INTRODUCE" },
+                { "item": "not-yet", "role": "INTRODUCE" },
+                { "item": "mountain", "role": "INTRODUCE" },
+                { "item": "snow", "role": "INTRODUCE" },
+                { "item": "present-perfect-experience", "role": "RECYCLE" },
+                { "item": "once", "role": "RECYCLE" },
+                { "item": "twice", "role": "RECYCLE" },
+                { "item": "try", "role": "RECYCLE" },
+                { "item": "amazing", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["how-many-times", "a-few-times", "its-my-first-time", "in-my-life", "already", "not-yet", "mountain", "snow"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Bao nhiêu lần, already, yet",
+                        "bodyVi": "**How many times have you…?** Trả lời: **once**, **twice**, three **times**, **a few times**, many times.\n\nLần đầu: **It's my first time** (in Hanoi / eating durian).\n\n| | vị trí | ví dụ |\n|---|---|---|\n| already (rồi) | giữa have và V3 | I've **already** tried it. |\n| yet (chưa) | cuối câu hỏi, câu phủ định | Have you tried it **yet**? I haven't tried it **yet**. |\n| trả lời ngắn | | **Not yet.** / Yes, **already**. |\n\n❌ How many time ❌ I already have eaten ❌ I didn't try yet ✅ **How many times**, **I've already eaten**, **I haven't tried it yet**",
+                        "items": ["how-many-times", "a-few-times", "its-my-first-time", "already", "not-yet", "once", "twice", "present-perfect-experience"],
+                        "examples": [
+                            { "en": "How many times have you been to Da Lat? A few times.", "vi": "Bạn đến Đà Lạt mấy lần rồi? Vài lần.", "highlight": "How many times" },
+                            { "en": "Have you seen the new Marvel movie yet? No, not yet.", "vi": "Bạn xem phim Marvel mới chưa? Chưa.", "highlight": "not yet" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "how-many-times",
+                        "prompts": [
+                            { "cueVi": "Hỏi: bạn đến Hà Nội mấy lần rồi?", "slots": { "experience": "been to Hanoi" }, "answer": "How many times have you been to Hanoi?" },
+                            { "cueVi": "Hỏi: bạn xem phim đó mấy lần rồi?", "slots": { "experience": "seen that movie" }, "answer": "How many times have you seen that movie?" },
+                            { "cueVi": "Hỏi: bạn đi máy bay mấy lần rồi?", "slots": { "experience": "been on a plane" }, "answer": "How many times have you been on a plane?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["a-few-times", "its-my-first-time", "in-my-life", "already", "not-yet", "mountain", "snow", "try"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a2-09-first-time-in-vietnam", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["How many time have you been to Hanoi?", "How many times have you been to Hanoi?", "How many times did you ever been to Hanoi?"],
+                                "answer": 1,
+                                "item": "how-many-times"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Mình ăn trưa rồi.\"",
+                                "options": ["I already have eaten lunch.", "I've already had lunch.", "I've had lunch yet."],
+                                "answer": 1,
+                                "item": "already"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Have you tried banh xeo ___?",
+                                "hintVi": "chưa (cuối câu hỏi)",
+                                "answers": ["yet"],
+                                "item": "not-yet"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "It's my first time in Hanoi.",
+                                "options": ["Đây là lần đầu mình đến Hà Nội.", "Mình đã đến Hà Nội nhiều lần.", "Mình chưa bao giờ đến Hà Nội."],
+                                "answer": 0,
+                                "item": "its-my-first-time"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Cả đời mình chưa thấy tuyết bao giờ.",
+                                "answer": "I've never seen snow in my life.",
+                                "item": "in-my-life"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "a2-09-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["I ever been to Da Nang.", "I've been to Da Nang.", "I've went to Da Nang."],
+                "answer": 1,
+                "item": "present-perfect-experience"
+            },
+            {
+                "kind": "choice",
+                "prompt": "\"Have you ever seen snow?\" Trả lời \"Chưa\":",
+                "options": ["No, I didn't.", "No, I haven't.", "No, I haven't never."],
+                "answer": 1,
+                "item": "yes-i-have"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["When have you been to Korea?", "When did you go to Korea?", "When did you went to Korea?"],
+                "answer": 1,
+                "item": "perfect-vs-past"
+            },
+            {
+                "kind": "gap",
+                "sentence": "I've ___ that movie three times.",
+                "hintVi": "xem (V3 của see)",
+                "answers": ["seen"],
+                "item": "past-participles"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "I haven't tried it yet.",
+                "options": ["Mình thử rồi.", "Mình chưa thử.", "Mình không muốn thử."],
+                "answer": 1,
+                "item": "not-yet"
+            },
+            {
+                "kind": "order",
+                "vi": "Bạn đến Hà Nội mấy lần rồi?",
+                "answer": "How many times have you been to Hanoi?",
+                "item": "how-many-times"
+            }
+        ]
+    }
+}

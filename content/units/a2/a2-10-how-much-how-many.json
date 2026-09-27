@@ -1,0 +1,778 @@
+{
+    "slug": "a2-10-how-much-how-many",
+    "stage": "a2",
+    "order": 10,
+    "title": "How much? How many?",
+    "titleVi": "Bao nhiêu? Nấu ăn",
+    "descriptionVi": "Phân biệt danh từ đếm được và không đếm được, dùng some / any, hỏi số lượng với How much / How many, đi chợ theo danh sách, và hướng dẫn một công thức nấu ăn đơn giản.",
+    "canDo": [
+        "Tôi nói được trong bếp có gì, không có gì (some, any) với cả danh từ đếm được và không đếm được.",
+        "Tôi hỏi và trả lời được cần bao nhiêu (How much / How many) khi đi chợ.",
+        "Tôi hướng dẫn được cách nấu một món đơn giản theo từng bước."
+    ],
+    "items": [
+        {
+            "slug": "countable-uncountable",
+            "type": "GRAMMAR",
+            "text": "countable / uncountable nouns",
+            "meaningVi": "danh từ đếm được / không đếm được",
+            "examples": [
+                { "en": "I bought two eggs and some rice.", "vi": "Mình mua hai quả trứng và ít gạo.", "highlight": "two eggs and some rice" }
+            ],
+            "grammar": {
+                "ruleVi": "Đếm được: có a/an và số nhiều -s (an egg, two tomatoes). Không đếm được: không có a/an, không thêm -s, động từ chia số ít (rice, water, milk, sugar, salt, meat, cheese). Muốn đếm thì dùng đơn vị: a bottle of water, two kilos of rice.",
+                "forms": [
+                    { "label": "đếm được", "example": "an onion, two onions; a tomato, three tomatoes" },
+                    { "label": "không đếm được", "example": "rice, water, milk, sugar, salt, meat, cheese, bread" },
+                    { "label": "động từ", "example": "The eggs are in the fridge. The milk is in the fridge." },
+                    { "label": "đơn vị", "example": "a bottle of water, a kilo of meat, a piece of cheese, a cup of sugar" }
+                ],
+                "pitfallsVi": [
+                    "\"a rice\", \"two breads\", \"many sugars\" → some rice, two pieces of bread, a lot of sugar.",
+                    "\"The rice are…\" → The rice is…",
+                    "Tiếng Việt không đổi danh từ theo số lượng; tiếng Anh đếm được thì phải thêm -s: \"three tomato\" → three tomatoes."
+                ]
+            }
+        },
+        {
+            "slug": "some-any",
+            "type": "GRAMMAR",
+            "text": "some / any",
+            "meaningVi": "một ít, vài / chút nào",
+            "examples": [
+                { "en": "There's some milk, but there aren't any eggs.", "vi": "Còn ít sữa, nhưng không còn quả trứng nào.", "highlight": "any eggs" }
+            ],
+            "grammar": {
+                "ruleVi": "some trong câu khẳng định; any trong câu phủ định và câu hỏi. Dùng với danh từ số nhiều và không đếm được. Mời hoặc xin thì vẫn dùng some.",
+                "forms": [
+                    { "label": "khẳng định", "example": "There are some tomatoes. We need some salt." },
+                    { "label": "phủ định", "example": "There isn't any cheese. We don't have any onions." },
+                    { "label": "câu hỏi", "example": "Is there any rice? Are there any eggs?" },
+                    { "label": "mời / xin", "example": "Would you like some coffee? Can I have some water?" }
+                ],
+                "pitfallsVi": [
+                    "\"There isn't some milk\" → There isn't any milk.",
+                    "\"Is there some eggs?\" → Are there any eggs? (số nhiều dùng are).",
+                    "\"any\" với danh từ đếm được số ít: \"any egg\" → any eggs."
+                ]
+            }
+        },
+        {
+            "slug": "is-there-any",
+            "type": "PATTERN",
+            "text": "Is there any … in the fridge?",
+            "meaningVi": "Trong tủ lạnh còn … không?",
+            "examples": [
+                { "en": "Is there any milk in the fridge?", "vi": "Trong tủ lạnh còn sữa không?", "highlight": "Is there any" }
+            ],
+            "pattern": {
+                "template": "Is there any {food} in the fridge?",
+                "slots": [
+                    { "name": "food", "hintVi": "danh từ không đếm được", "options": ["milk", "rice", "cheese", "meat", "juice"] }
+                ]
+            },
+            "noteVi": "Danh từ số nhiều thì đổi thành Are there any…?: Are there any eggs in the fridge? Trả lời: Yes, there is some. / No, there isn't any."
+        },
+        {
+            "slug": "sugar",
+            "type": "LEXICAL",
+            "text": "sugar",
+            "meaningVi": "đường",
+            "ipa": "/ˈʃʊɡər/",
+            "examples": [
+                { "en": "Do you take sugar in your coffee?", "vi": "Bạn uống cà phê có đường không?", "highlight": "sugar" }
+            ],
+            "noteVi": "Đọc /ʃ/ như \"su\" uốn lưỡi: SHU-gơ. Không đếm được: ❌ \"a sugar\", \"two sugars\" (trừ khi gọi cà phê: two sugars = hai muỗng)."
+        },
+        {
+            "slug": "salt",
+            "type": "LEXICAL",
+            "text": "salt",
+            "meaningVi": "muối",
+            "ipa": "/sɔːlt/",
+            "examples": [
+                { "en": "Add a little salt.", "vi": "Cho một chút muối.", "highlight": "salt" }
+            ],
+            "noteVi": "Giữ âm cuối /lt/. Không đếm được. Mặn: salty."
+        },
+        {
+            "slug": "meat",
+            "type": "LEXICAL",
+            "text": "meat",
+            "meaningVi": "thịt",
+            "ipa": "/miːt/",
+            "examples": [
+                { "en": "I don't eat much meat.", "vi": "Mình không ăn nhiều thịt.", "highlight": "meat" }
+            ],
+            "noteVi": "Không đếm được. Thịt heo: pork, thịt bò: beef (❌ \"pig meat\", \"cow meat\"). Đọc giống meet."
+        },
+        {
+            "slug": "cheese",
+            "type": "LEXICAL",
+            "text": "cheese",
+            "meaningVi": "phô mai",
+            "ipa": "/tʃiːz/",
+            "examples": [
+                { "en": "There isn't any cheese in the fridge.", "vi": "Trong tủ lạnh không còn phô mai.", "highlight": "cheese" }
+            ],
+            "noteVi": "Không đếm được: a piece of cheese. Âm cuối là /z/, không phải /s/."
+        },
+        {
+            "slug": "onion",
+            "type": "LEXICAL",
+            "text": "onion",
+            "meaningVi": "hành tây",
+            "ipa": "/ˈʌnjən/",
+            "examples": [
+                { "en": "Cut two onions.", "vi": "Cắt hai củ hành tây.", "highlight": "onions" }
+            ],
+            "noteVi": "Đếm được: an onion (an vì bắt đầu bằng nguyên âm), two onions. Hành lá: green onions (Mỹ)."
+        },
+        {
+            "slug": "tomato",
+            "type": "LEXICAL",
+            "text": "tomato",
+            "meaningVi": "cà chua",
+            "ipa": "/təˈmeɪtoʊ/",
+            "examples": [
+                { "en": "We need three tomatoes.", "vi": "Mình cần ba quả cà chua.", "highlight": "tomatoes" }
+            ],
+            "noteVi": "Số nhiều thêm -es: tomatoes. Người Mỹ đọc to-MAY-to, t giữa nhẹ như /d/."
+        },
+        {
+            "slug": "how-much-how-many",
+            "type": "GRAMMAR",
+            "text": "how much / how many, much / many / a lot of",
+            "meaningVi": "bao nhiêu; nhiều",
+            "examples": [
+                { "en": "How many eggs do we need? And how much milk?", "vi": "Mình cần mấy quả trứng? Còn sữa bao nhiêu?", "highlight": "How many eggs" }
+            ],
+            "grammar": {
+                "ruleVi": "How many + danh từ đếm được số nhiều; How much + danh từ không đếm được. many / much hay dùng trong câu hỏi và phủ định; câu khẳng định dùng a lot of (cho cả hai loại). Một ít: a few (đếm được), a little (không đếm được).",
+                "forms": [
+                    { "label": "hỏi", "example": "How many tomatoes? How much rice?" },
+                    { "label": "nhiều", "example": "We have a lot of eggs. We don't have much time. Are there many people?" },
+                    { "label": "một ít", "example": "a few onions, a little salt" },
+                    { "label": "quá nhiều", "example": "too many eggs, too much sugar" },
+                    { "label": "giá tiền", "example": "How much is it? (giá) khác How much milk? (lượng)" }
+                ],
+                "pitfallsVi": [
+                    "\"How many water\", \"How much eggs\" → How much water, How many eggs.",
+                    "\"I have much money\" (câu khẳng định) → I have a lot of money.",
+                    "\"a few salt\", \"a little eggs\" → a little salt, a few eggs.",
+                    "\"a lot eggs\" (thiếu of) → a lot of eggs."
+                ]
+            }
+        },
+        {
+            "slug": "how-many-do-we-need",
+            "type": "PATTERN",
+            "text": "How many … do we need?",
+            "meaningVi": "Mình cần bao nhiêu …?",
+            "examples": [
+                { "en": "How many eggs do we need?", "vi": "Mình cần mấy quả trứng?", "highlight": "How many eggs" }
+            ],
+            "pattern": {
+                "template": "How many {things} do we need?",
+                "slots": [
+                    { "name": "things", "hintVi": "danh từ đếm được, số nhiều", "options": ["eggs", "tomatoes", "onions", "bottles of water"] }
+                ]
+            },
+            "noteVi": "Danh từ luôn ở số nhiều: ❌ \"How many egg\". Hỏi đơn vị cho thứ không đếm được: How many bottles of water?"
+        },
+        {
+            "slug": "how-much-do-we-need",
+            "type": "PATTERN",
+            "text": "How much … do we need?",
+            "meaningVi": "Mình cần bao nhiêu … (không đếm được)?",
+            "examples": [
+                { "en": "How much rice do we need?", "vi": "Mình cần bao nhiêu gạo?", "highlight": "How much rice" }
+            ],
+            "pattern": {
+                "template": "How much {thing} do we need?",
+                "slots": [
+                    { "name": "thing", "hintVi": "danh từ không đếm được", "options": ["rice", "sugar", "milk", "cheese", "meat"] }
+                ]
+            },
+            "noteVi": "Danh từ không thêm -s. Trả lời: a lot, not much, a little, two kilos, a bottle."
+        },
+        {
+            "slug": "a-lot-of",
+            "type": "PHRASE",
+            "text": "a lot of",
+            "meaningVi": "nhiều",
+            "examples": [
+                { "en": "Vietnamese food uses a lot of vegetables.", "vi": "Món Việt dùng nhiều rau.", "highlight": "a lot of" }
+            ],
+            "noteVi": "Dùng với cả đếm được và không đếm được, hợp nhất trong câu khẳng định. Đọc nối: a-lo-dof. Đứng cuối câu thì bỏ of: I like it a lot."
+        },
+        {
+            "slug": "a-bottle-of",
+            "type": "PHRASE",
+            "text": "a bottle of / a kilo of / a piece of",
+            "meaningVi": "một chai / một ký / một miếng …",
+            "examples": [
+                { "en": "Can I have a kilo of pork and a bottle of fish sauce?", "vi": "Cho tôi một ký thịt heo và một chai nước mắm.", "highlight": "a kilo of" }
+            ],
+            "noteVi": "Đếm thứ không đếm được qua đơn vị; đơn vị mới thêm -s: two bottles of water (❌ \"two waters bottle\"). Nửa ký: half a kilo."
+        },
+        {
+            "slug": "enough",
+            "type": "LEXICAL",
+            "text": "enough",
+            "meaningVi": "đủ",
+            "ipa": "/ɪˈnʌf/",
+            "examples": [
+                { "en": "Do we have enough rice for dinner?", "vi": "Mình có đủ gạo cho bữa tối không?", "highlight": "enough" }
+            ],
+            "noteVi": "Đứng trước danh từ (enough rice) nhưng sau tính từ (big enough, ❌ \"enough big\"). gh đọc /f/: i-NẮP."
+        },
+        {
+            "slug": "too-much-too-many",
+            "type": "PHRASE",
+            "text": "too much / too many",
+            "meaningVi": "quá nhiều",
+            "examples": [
+                { "en": "There's too much salt in this soup.", "vi": "Canh này cho quá nhiều muối.", "highlight": "too much salt" }
+            ],
+            "noteVi": "too much + không đếm được, too many + số nhiều. Mang ý chê (nhiều quá mức). ❌ \"too much people\" → too many people."
+        },
+        {
+            "slug": "shopping-list",
+            "type": "LEXICAL",
+            "text": "shopping list",
+            "meaningVi": "danh sách đồ cần mua",
+            "ipa": "/ˈʃɑːpɪŋ lɪst/",
+            "examples": [
+                { "en": "Put cheese on the shopping list.", "vi": "Thêm phô mai vào danh sách đi chợ.", "highlight": "shopping list" }
+            ],
+            "noteVi": "Viết danh sách: make / write a shopping list. Thêm vào danh sách: put / add … on the list (❌ \"in the list\")."
+        },
+        {
+            "slug": "recipe",
+            "type": "LEXICAL",
+            "text": "recipe",
+            "meaningVi": "công thức nấu ăn",
+            "ipa": "/ˈresəpi/",
+            "examples": [
+                { "en": "This is my mom's recipe for fried rice.", "vi": "Đây là công thức cơm chiên của mẹ mình.", "highlight": "recipe" }
+            ],
+            "noteVi": "Ba âm tiết: RE-xơ-pi, e cuối có đọc. ❌ \"re-xai-p\". recipe for + món ăn."
+        },
+        {
+            "slug": "cut",
+            "type": "LEXICAL",
+            "text": "cut",
+            "meaningVi": "cắt, thái",
+            "ipa": "/kʌt/",
+            "examples": [
+                { "en": "Cut the onions into small pieces.", "vi": "Thái hành tây thành miếng nhỏ.", "highlight": "Cut" }
+            ],
+            "noteVi": "Quá khứ và V3 vẫn là cut. Cắt thành: cut into (❌ \"cut to pieces\" khi nấu ăn). Giữ âm cuối /t/."
+        },
+        {
+            "slug": "boil",
+            "type": "LEXICAL",
+            "text": "boil",
+            "meaningVi": "luộc, đun sôi",
+            "ipa": "/bɔɪl/",
+            "examples": [
+                { "en": "Boil the eggs for ten minutes.", "vi": "Luộc trứng mười phút.", "highlight": "Boil" }
+            ],
+            "noteVi": "Trứng luộc: boiled eggs. Nước sôi: boiling water. Âm cuối /l/ nhẹ, đừng bỏ."
+        },
+        {
+            "slug": "fry",
+            "type": "LEXICAL",
+            "text": "fry",
+            "meaningVi": "chiên, rán",
+            "ipa": "/fraɪ/",
+            "examples": [
+                { "en": "Fry the garlic in a little oil.", "vi": "Phi tỏi với một chút dầu.", "highlight": "Fry" }
+            ],
+            "noteVi": "Cơm chiên: fried rice; trứng chiên: fried eggs (quá khứ fried, y → ied). ❌ \"fry rice\" khi gọi món."
+        },
+        {
+            "slug": "add",
+            "type": "LEXICAL",
+            "text": "add",
+            "meaningVi": "thêm, cho vào",
+            "ipa": "/æd/",
+            "examples": [
+                { "en": "Add some salt and pepper.", "vi": "Cho thêm ít muối và tiêu.", "highlight": "Add" }
+            ],
+            "noteVi": "Cho vào đâu: add … to … (add the eggs to the rice). ❌ \"add in\" không sai nhưng hay thừa. Âm cuối /d/."
+        },
+        {
+            "slug": "mix",
+            "type": "LEXICAL",
+            "text": "mix",
+            "meaningVi": "trộn, đảo đều",
+            "ipa": "/mɪks/",
+            "examples": [
+                { "en": "Mix the eggs and the rice together.", "vi": "Đảo đều trứng với cơm.", "highlight": "Mix" }
+            ],
+            "noteVi": "x đọc /ks/, giữ đủ hai âm. mix … with … / mix … together."
+        },
+        {
+            "slug": "taste",
+            "type": "LEXICAL",
+            "text": "taste",
+            "meaningVi": "nếm; có vị",
+            "ipa": "/teɪst/",
+            "examples": [
+                { "en": "Taste it. Does it need more salt?", "vi": "Nếm thử đi. Có cần thêm muối không?", "highlight": "Taste" }
+            ],
+            "noteVi": "Có vị thế nào: It tastes good / salty (❌ \"It tastes goodly\", \"It's taste good\"). Giữ cụm /st/ cuối."
+        },
+        {
+            "slug": "add-some",
+            "type": "PATTERN",
+            "text": "Add … ….",
+            "meaningVi": "Cho (bao nhiêu) … vào.",
+            "examples": [
+                { "en": "Add a little sugar.", "vi": "Cho một chút đường.", "highlight": "Add a little" }
+            ],
+            "pattern": {
+                "template": "Add {amount} {food}.",
+                "slots": [
+                    { "name": "amount", "hintVi": "lượng: some, a little, a lot of, two…", "options": ["some", "a little", "a lot of", "two"] },
+                    { "name": "food", "hintVi": "nguyên liệu", "options": ["salt", "sugar", "eggs", "onions", "fish sauce"] }
+                ]
+            },
+            "noteVi": "Câu hướng dẫn dùng mệnh lệnh, không cần you: ❌ \"You add some salt\" (không sai nhưng không giống công thức). a little + không đếm được, two + số nhiều."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "a2-10-shopping-for-dinner",
+            "title": "What do we need?",
+            "situationVi": "Emma, bạn cùng nhà người Mỹ, muốn nấu mì Ý tối nay. Hai bạn kiểm tra tủ lạnh trước khi đi chợ.",
+            "lines": [
+                { "speaker": "Emma", "en": "Let's make spaghetti tonight. Is there any meat in the fridge?", "vi": "Tối nay làm mì Ý đi. Tủ lạnh còn thịt không?" },
+                { "speaker": "You", "en": "Yes, there's some beef. But there aren't any tomatoes.", "vi": "Còn ít thịt bò. Nhưng hết cà chua rồi.", "learnerTurn": true },
+                { "speaker": "Emma", "en": "OK. How many tomatoes do we need?", "vi": "Ừ. Mình cần mấy quả cà chua?" },
+                { "speaker": "You", "en": "About five. And we need some cheese too.", "vi": "Khoảng năm quả. Mình cũng cần ít phô mai nữa.", "learnerTurn": true },
+                { "speaker": "Emma", "en": "How much cheese?", "vi": "Phô mai bao nhiêu?" },
+                { "speaker": "You", "en": "Not much. A small piece is enough.", "vi": "Không nhiều đâu. Một miếng nhỏ là đủ.", "learnerTurn": true },
+                { "speaker": "Emma", "en": "Great. I'll write a shopping list.", "vi": "Tuyệt. Để mình viết danh sách đi chợ." }
+            ]
+        },
+        {
+            "slug": "a2-10-how-do-you-make-it",
+            "title": "How do you make it?",
+            "situationVi": "Tom, bạn người Mỹ, ăn cơm chiên bạn nấu và hỏi công thức.",
+            "lines": [
+                { "speaker": "Tom", "en": "This fried rice is delicious! How do you make it?", "vi": "Cơm chiên này ngon quá! Bạn làm thế nào vậy?" },
+                { "speaker": "You", "en": "It's easy. First, cut an onion and fry it in a little oil.", "vi": "Dễ lắm. Đầu tiên, thái một củ hành tây rồi phi với chút dầu.", "learnerTurn": true },
+                { "speaker": "Tom", "en": "How much oil?", "vi": "Bao nhiêu dầu?" },
+                { "speaker": "You", "en": "Just two spoons. Then add two eggs and mix them.", "vi": "Hai muỗng thôi. Rồi cho hai quả trứng vào và đảo đều.", "learnerTurn": true },
+                { "speaker": "Tom", "en": "And then?", "vi": "Rồi sao nữa?" },
+                { "speaker": "You", "en": "Add the rice and a little salt. Taste it, and it's ready!", "vi": "Cho cơm và chút muối vào. Nếm thử là xong!", "learnerTurn": true },
+                { "speaker": "Tom", "en": "That's easy! I'll try it this weekend.", "vi": "Dễ thật! Cuối tuần này mình sẽ thử." }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "a2-10-l1-in-the-fridge",
+            "title": "What's in the fridge?",
+            "titleVi": "Đếm được, không đếm được, some / any",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "countable-uncountable", "role": "INTRODUCE" },
+                { "item": "some-any", "role": "INTRODUCE" },
+                { "item": "is-there-any", "role": "INTRODUCE" },
+                { "item": "sugar", "role": "INTRODUCE" },
+                { "item": "salt", "role": "INTRODUCE" },
+                { "item": "meat", "role": "INTRODUCE" },
+                { "item": "cheese", "role": "INTRODUCE" },
+                { "item": "onion", "role": "INTRODUCE" },
+                { "item": "tomato", "role": "INTRODUCE" },
+                { "item": "there-is-there-are", "role": "RECYCLE" },
+                { "item": "rice", "role": "RECYCLE" },
+                { "item": "egg", "role": "RECYCLE" },
+                { "item": "milk", "role": "RECYCLE" },
+                { "item": "fridge", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["is-there-any", "sugar", "salt", "meat", "cheese", "onion", "tomato"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Đếm được hay không, some hay any",
+                        "bodyVi": "Tiếng Việt nói \"hai quả trứng\", \"ít gạo\" mà danh từ không đổi. Tiếng Anh chia hai loại:\n\n| | đếm được | không đếm được |\n|---|---|---|\n| ví dụ | an egg, two **eggs**, tomato**es** | rice, milk, sugar, salt, meat, cheese |\n| a / an | có | **không** |\n| động từ | The eggs **are**… | The milk **is**… |\n\n**some** trong câu khẳng định, **any** trong câu phủ định và câu hỏi:\n\nThere's **some** milk. There are**n't any** eggs. **Is there any** cheese? **Are there any** tomatoes?\n\n❌ a rice ❌ three tomato ❌ There isn't some milk ❌ Is there any eggs? ✅ **some rice**, **three tomatoes**, **There isn't any milk**, **Are there any eggs?**",
+                        "items": ["countable-uncountable", "some-any", "is-there-any", "there-is-there-are", "egg", "rice", "milk", "sugar", "tomato"],
+                        "examples": [
+                            { "en": "There's some rice, but there aren't any onions.", "vi": "Còn ít gạo, nhưng hết hành tây rồi.", "highlight": "any onions" },
+                            { "en": "Are there any eggs in the fridge?", "vi": "Trong tủ lạnh còn trứng không?", "highlight": "Are there any eggs" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "is-there-any",
+                        "prompts": [
+                            { "cueVi": "Hỏi: tủ lạnh còn sữa không?", "slots": { "food": "milk" }, "answer": "Is there any milk in the fridge?" },
+                            { "cueVi": "Hỏi: tủ lạnh còn phô mai không?", "slots": { "food": "cheese" }, "answer": "Is there any cheese in the fridge?" },
+                            { "cueVi": "Hỏi: tủ lạnh còn thịt không?", "slots": { "food": "meat" }, "answer": "Is there any meat in the fridge?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["sugar", "salt", "meat", "cheese", "onion", "tomato", "rice", "milk"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "Is there any milk in the fridge?", "vi": "Tủ lạnh còn sữa không?" },
+                            { "en": "There's some rice, but there aren't any eggs.", "vi": "Còn ít gạo, nhưng hết trứng rồi." },
+                            { "en": "We need three tomatoes and an onion.", "vi": "Mình cần ba quả cà chua và một củ hành tây." },
+                            { "en": "Do you take sugar in your coffee?", "vi": "Bạn uống cà phê có đường không?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I bought a rice and two egg.", "I bought some rice and two eggs.", "I bought some rices and two eggs."],
+                                "answer": 1,
+                                "item": "countable-uncountable"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["There isn't some cheese.", "There isn't any cheese.", "There aren't any cheese."],
+                                "answer": 1,
+                                "item": "some-any"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Are there ___ tomatoes?",
+                                "hintVi": "câu hỏi: some hay any?",
+                                "answers": ["any"],
+                                "item": "some-any"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Is there any meat in the fridge?",
+                                "options": ["Tủ lạnh còn thịt không?", "Tủ lạnh có nhiều thịt không?", "Thịt trong tủ lạnh còn ngon không?"],
+                                "answer": 0,
+                                "item": "is-there-any"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Mình cần ba quả cà chua.",
+                                "answer": "We need three tomatoes.",
+                                "item": "tomato"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a2-10-l2-how-many",
+            "title": "How many do we need?",
+            "titleVi": "How much, how many, đi chợ",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "how-much-how-many", "role": "INTRODUCE" },
+                { "item": "how-many-do-we-need", "role": "INTRODUCE" },
+                { "item": "how-much-do-we-need", "role": "INTRODUCE" },
+                { "item": "a-lot-of", "role": "INTRODUCE" },
+                { "item": "a-bottle-of", "role": "INTRODUCE" },
+                { "item": "enough", "role": "INTRODUCE" },
+                { "item": "too-much-too-many", "role": "INTRODUCE" },
+                { "item": "shopping-list", "role": "INTRODUCE" },
+                { "item": "countable-uncountable", "role": "RECYCLE" },
+                { "item": "some-any", "role": "RECYCLE" },
+                { "item": "how-much-is", "role": "RECYCLE" },
+                { "item": "buy", "role": "RECYCLE" },
+                { "item": "market", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["how-many-do-we-need", "how-much-do-we-need", "a-lot-of", "a-bottle-of", "enough", "too-much-too-many", "shopping-list"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "How much hay How many",
+                        "bodyVi": "| | đếm được (số nhiều) | không đếm được |\n|---|---|---|\n| bao nhiêu? | **How many** eggs? | **How much** rice? |\n| nhiều | **many** / **a lot of** eggs | **much** / **a lot of** rice |\n| một ít | **a few** onions | **a little** salt |\n| quá nhiều | **too many** people | **too much** sugar |\n\nCâu khẳng định nói **a lot of**: We have **a lot of** eggs (❌ We have much eggs). **much**, **many** hợp với câu hỏi và phủ định: We don't have **much** time.\n\nĐếm thứ không đếm được qua đơn vị: **a bottle of** water, **a kilo of** meat, **a piece of** cheese.\n\nChú ý: **How much is it?** là hỏi giá; **How much milk?** là hỏi lượng.\n\n❌ How many water ❌ How much eggs ❌ a little eggs ✅ **How much water**, **How many eggs**, **a few eggs**",
+                        "items": ["how-much-how-many", "how-many-do-we-need", "how-much-do-we-need", "a-lot-of", "a-bottle-of", "too-much-too-many", "countable-uncountable", "how-much-is"],
+                        "examples": [
+                            { "en": "How much rice do we need? Two kilos.", "vi": "Mình cần bao nhiêu gạo? Hai ký.", "highlight": "How much rice" },
+                            { "en": "We don't need many onions. Just a few.", "vi": "Không cần nhiều hành tây đâu. Vài củ thôi.", "highlight": "many onions" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "how-many-do-we-need",
+                        "prompts": [
+                            { "cueVi": "Hỏi: mình cần mấy quả trứng?", "slots": { "things": "eggs" }, "answer": "How many eggs do we need?" },
+                            { "cueVi": "Hỏi: mình cần mấy chai nước?", "slots": { "things": "bottles of water" }, "answer": "How many bottles of water do we need?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "how-much-do-we-need",
+                        "prompts": [
+                            { "cueVi": "Hỏi: mình cần bao nhiêu gạo?", "slots": { "thing": "rice" }, "answer": "How much rice do we need?" },
+                            { "cueVi": "Hỏi: mình cần bao nhiêu đường?", "slots": { "thing": "sugar" }, "answer": "How much sugar do we need?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["a-lot-of", "a-bottle-of", "enough", "too-much-too-many", "shopping-list", "buy", "market"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a2-10-shopping-for-dinner", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["How many milk do we need?", "How much milk do we need?", "How much milks do we need?"],
+                                "answer": 1,
+                                "item": "how-much-how-many"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào tự nhiên nhất?",
+                                "options": ["We have much eggs.", "We have a lot of eggs.", "We have a lot eggs."],
+                                "answer": 1,
+                                "item": "a-lot-of"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "There's too ___ salt in this soup.",
+                                "hintVi": "quá nhiều (không đếm được)",
+                                "answers": ["much"],
+                                "item": "too-much-too-many"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Do we have enough rice for dinner?",
+                                "options": ["Mình có đủ gạo cho bữa tối không?", "Bữa tối mình ăn cơm không?", "Mình mua thêm gạo cho bữa tối nhé?"],
+                                "answer": 0,
+                                "item": "enough"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Mình cần mấy quả trứng?",
+                                "answer": "How many eggs do we need?",
+                                "item": "how-many-do-we-need"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a2-10-l3-recipe",
+            "title": "A simple recipe",
+            "titleVi": "Công thức nấu ăn",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "recipe", "role": "INTRODUCE" },
+                { "item": "cut", "role": "INTRODUCE" },
+                { "item": "boil", "role": "INTRODUCE" },
+                { "item": "fry", "role": "INTRODUCE" },
+                { "item": "add", "role": "INTRODUCE" },
+                { "item": "mix", "role": "INTRODUCE" },
+                { "item": "taste", "role": "INTRODUCE" },
+                { "item": "add-some", "role": "INTRODUCE" },
+                { "item": "imperatives", "role": "RECYCLE" },
+                { "item": "sequencing", "role": "RECYCLE" },
+                { "item": "cook", "role": "RECYCLE" },
+                { "item": "how-much-how-many", "role": "RECYCLE" },
+                { "item": "salt", "role": "RECYCLE" },
+                { "item": "onion", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["recipe", "cut", "boil", "fry", "add", "mix", "taste", "add-some"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Hướng dẫn nấu ăn: mệnh lệnh + trình tự",
+                        "bodyVi": "Công thức dùng **câu mệnh lệnh** (động từ nguyên mẫu đầu câu, không có you) và từ nối trình tự:\n\n| bước | ví dụ |\n|---|---|\n| **First,** | **cut** an onion. |\n| **Then** | **fry** it in a little oil. |\n| **After that,** | **add** two eggs and **mix** them. |\n| **Finally,** | **add** a little salt and **taste** it. |\n\nLượng: **a little** salt, **some** oil, **two** eggs, **a lot of** vegetables.\n\n❌ You cut the onion (không sai nhưng không giống công thức) ❌ fry rice (món) ❌ It's taste good ✅ **Cut the onion.** **fried rice**, **It tastes good.**",
+                        "items": ["imperatives", "sequencing", "add-some", "cut", "fry", "add", "mix", "taste", "salt", "onion"],
+                        "examples": [
+                            { "en": "First, boil some water. Then add the noodles.", "vi": "Đầu tiên, đun sôi nước. Rồi cho mì vào.", "highlight": "First, boil" },
+                            { "en": "Taste it. It needs a little more salt.", "vi": "Nếm thử đi. Cần thêm chút muối.", "highlight": "Taste it" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "add-some",
+                        "prompts": [
+                            { "cueVi": "Cho một chút muối.", "slots": { "amount": "a little", "food": "salt" }, "answer": "Add a little salt." },
+                            { "cueVi": "Cho hai quả trứng.", "slots": { "amount": "two", "food": "eggs" }, "answer": "Add two eggs." },
+                            { "cueVi": "Cho ít nước mắm.", "slots": { "amount": "some", "food": "fish sauce" }, "answer": "Add some fish sauce." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["recipe", "cut", "boil", "fry", "add", "mix", "taste", "cook"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a2-10-how-do-you-make-it", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Luộc trứng mười phút.\"",
+                                "options": ["Fry the eggs for ten minutes.", "Boil the eggs for ten minutes.", "Mix the eggs for ten minutes."],
+                                "answer": 1,
+                                "item": "boil"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["It's taste good.", "It tastes good.", "It tastes goodly."],
+                                "answer": 1,
+                                "item": "taste"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Cut the onions ___ small pieces.",
+                                "hintVi": "cắt thành",
+                                "answers": ["into"],
+                                "item": "cut"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "This is my mom's recipe.",
+                                "options": ["Đây là món mẹ mình thích.", "Đây là công thức của mẹ mình.", "Đây là bếp của mẹ mình."],
+                                "answer": 1,
+                                "item": "recipe"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Cho một chút đường.",
+                                "answer": "Add a little sugar.",
+                                "item": "add-some"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "a2-10-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["We need three tomato.", "We need three tomatoes.", "We need three tomatos."],
+                "answer": 1,
+                "item": "countable-uncountable"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["Is there any eggs?", "Are there some eggs?", "Are there any eggs?"],
+                "answer": 2,
+                "item": "some-any"
+            },
+            {
+                "kind": "gap",
+                "sentence": "How ___ sugar do you want?",
+                "answers": ["much"],
+                "item": "how-much-how-many"
+            },
+            {
+                "kind": "choice",
+                "prompt": "\"Một chút muối\" là:",
+                "options": ["a few salt", "a little salt", "a little salts"],
+                "answer": 1,
+                "item": "how-much-how-many"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "Fry the onions in a little oil.",
+                "options": ["Luộc hành với chút nước.", "Phi hành với chút dầu.", "Trộn hành với chút dầu."],
+                "answer": 1,
+                "item": "fry"
+            },
+            {
+                "kind": "order",
+                "vi": "Mình cần bao nhiêu gạo?",
+                "answer": "How much rice do we need?",
+                "item": "how-much-do-we-need"
+            }
+        ]
+    }
+}

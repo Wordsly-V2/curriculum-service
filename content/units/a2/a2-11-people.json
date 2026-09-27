@@ -1,0 +1,766 @@
+{
+    "slug": "a2-11-people",
+    "stage": "a2",
+    "order": 11,
+    "title": "People",
+    "titleVi": "Tả người",
+    "descriptionVi": "Tả ngoại hình (tall, long black hair, glasses) và tính cách (friendly, funny, hard-working), phân biệt What does she look like? và What's she like?, và nói rõ mình đang nói về ai, cái gì, chỗ nào bằng who / which / where.",
+    "canDo": [
+        "Tôi tả được ngoại hình một người: dáng người, tóc, kính, tuổi.",
+        "Tôi tả được tính cách một người và nói mình có hợp với họ không.",
+        "Tôi chỉ rõ được người, vật, nơi mình đang nói đến bằng who, which, where."
+    ],
+    "items": [
+        {
+            "slug": "describing-people",
+            "type": "GRAMMAR",
+            "text": "be / have / look like / be like",
+            "meaningVi": "tả người: be + tính từ, have + tóc / mắt",
+            "examples": [
+                { "en": "She's tall and she has long black hair.", "vi": "Cô ấy cao và tóc dài đen.", "highlight": "she has long black hair" }
+            ],
+            "grammar": {
+                "ruleVi": "Dáng người, tuổi, tính cách: be + tính từ (She's tall, He's young, They're friendly). Tóc, mắt: have / has (She has long hair). Kính: wear glasses. Nhiều tính từ tả tóc thì theo thứ tự dài ngắn → kiểu → màu.",
+                "forms": [
+                    { "label": "be", "example": "He's tall. She's young. My boss is very friendly." },
+                    { "label": "have", "example": "She has short curly hair. He has brown eyes." },
+                    { "label": "thứ tự", "example": "long black hair, short curly hair (dài ngắn → kiểu → màu)" },
+                    { "label": "ngoại hình", "example": "What does she look like? She's tall and has short hair." },
+                    { "label": "tính cách", "example": "What's she like? She's funny and kind." }
+                ],
+                "pitfallsVi": [
+                    "\"She is long hair\" → She has long hair.",
+                    "\"black long hair\" → long black hair; \"hairs\" → hair (không đếm được).",
+                    "Nhầm ba câu hỏi: What does she like? (thích gì), What's she like? (tính cách), What does she look like? (ngoại hình).",
+                    "\"He is fat\", \"She is old\" nghe thô; nói nhẹ hơn: He's a little heavy, She's older."
+                ]
+            }
+        },
+        {
+            "slug": "what-does-look-like",
+            "type": "PATTERN",
+            "text": "What does … look like?",
+            "meaningVi": "… trông như thế nào?",
+            "examples": [
+                { "en": "What does your brother look like?", "vi": "Anh bạn trông thế nào?", "highlight": "What does your brother look like" }
+            ],
+            "pattern": {
+                "template": "What does {person} look like?",
+                "slots": [
+                    { "name": "person", "hintVi": "một người (số ít)", "options": ["your brother", "she", "your new boss", "he", "your teacher"] }
+                ]
+            },
+            "noteVi": "Hỏi ngoại hình. Số nhiều: What do they look like? ❌ \"How does she look like?\" → What does she look like?"
+        },
+        {
+            "slug": "has-hair",
+            "type": "PATTERN",
+            "text": "… has … hair.",
+            "meaningVi": "… có tóc …",
+            "examples": [
+                { "en": "My sister has long straight hair.", "vi": "Chị mình tóc dài thẳng.", "highlight": "has long straight hair" }
+            ],
+            "pattern": {
+                "template": "{person} has {hair} hair.",
+                "slots": [
+                    { "name": "person", "hintVi": "he / she / tên người", "options": ["She", "He", "My sister", "Our teacher"] },
+                    { "name": "hair", "hintVi": "dài ngắn → kiểu → màu", "options": ["long black", "short", "short curly", "long straight", "gray"] }
+                ]
+            },
+            "noteVi": "Dùng has, không dùng is: ❌ \"She is long hair\". I / you / they thì have: I have short hair."
+        },
+        {
+            "slug": "hair",
+            "type": "LEXICAL",
+            "text": "hair",
+            "meaningVi": "tóc",
+            "ipa": "/her/",
+            "examples": [
+                { "en": "I had my hair cut yesterday.", "vi": "Hôm qua mình mới cắt tóc.", "highlight": "hair" }
+            ],
+            "noteVi": "Cả mái tóc là không đếm được: ❌ \"her hairs are long\" → her hair is long. hairs chỉ là vài sợi tóc."
+        },
+        {
+            "slug": "long",
+            "type": "LEXICAL",
+            "text": "long",
+            "meaningVi": "dài",
+            "ipa": "/lɔːŋ/",
+            "examples": [
+                { "en": "She has long hair.", "vi": "Cô ấy tóc dài.", "highlight": "long" }
+            ],
+            "noteVi": "Âm cuối /ŋ/ như \"ng\", không bật \"g\". So sánh: longer, the longest. Trái nghĩa: short."
+        },
+        {
+            "slug": "short",
+            "type": "LEXICAL",
+            "text": "short",
+            "meaningVi": "ngắn; thấp (người)",
+            "ipa": "/ʃɔːrt/",
+            "examples": [
+                { "en": "He's short and he has short hair.", "vi": "Anh ấy thấp và tóc ngắn.", "highlight": "short" }
+            ],
+            "noteVi": "Người thấp: short (❌ \"low\"). Trái nghĩa: tall (người), long (tóc, đường). Giữ âm cuối /t/."
+        },
+        {
+            "slug": "curly",
+            "type": "LEXICAL",
+            "text": "curly",
+            "meaningVi": "xoăn",
+            "ipa": "/ˈkɜːrli/",
+            "examples": [
+                { "en": "The baby has curly hair.", "vi": "Em bé tóc xoăn.", "highlight": "curly" }
+            ],
+            "noteVi": "Tóc thẳng: straight; tóc gợn sóng: wavy. Uốn lưỡi /ɜːr/: KƠ-li."
+        },
+        {
+            "slug": "glasses",
+            "type": "LEXICAL",
+            "text": "glasses",
+            "meaningVi": "kính (đeo mắt)",
+            "ipa": "/ˈɡlæsɪz/",
+            "examples": [
+                { "en": "He wears glasses.", "vi": "Anh ấy đeo kính.", "highlight": "glasses" }
+            ],
+            "noteVi": "Luôn số nhiều: glasses, a pair of glasses. Đeo kính: wear glasses (❌ \"put on glasses\" khi tả người). a glass là cái ly."
+        },
+        {
+            "slug": "young",
+            "type": "LEXICAL",
+            "text": "young",
+            "meaningVi": "trẻ",
+            "ipa": "/jʌŋ/",
+            "examples": [
+                { "en": "Our new teacher is very young.", "vi": "Cô giáo mới của bọn mình trẻ lắm.", "highlight": "young" }
+            ],
+            "noteVi": "Đọc /jʌŋ/ như \"dâng\", không đọc \"dung\". Trẻ hơn: younger (em: younger brother). Nói tuổi lịch sự: in her twenties (khoảng 20–29)."
+        },
+        {
+            "slug": "whats-like",
+            "type": "PATTERN",
+            "text": "What's … like?",
+            "meaningVi": "… là người thế nào? (tính cách)",
+            "examples": [
+                { "en": "What's your new roommate like?", "vi": "Bạn cùng phòng mới của bạn là người thế nào?", "highlight": "What's your new roommate like" }
+            ],
+            "pattern": {
+                "template": "What's {person} like?",
+                "slots": [
+                    { "name": "person", "hintVi": "một người", "options": ["your boss", "your new roommate", "she", "your teacher", "he"] }
+                ]
+            },
+            "noteVi": "Hỏi tính cách, không phải sở thích: What does she like? là \"cô ấy thích gì\". Số nhiều: What are they like?"
+        },
+        {
+            "slug": "friendly",
+            "type": "LEXICAL",
+            "text": "friendly",
+            "meaningVi": "thân thiện",
+            "ipa": "/ˈfrendli/",
+            "examples": [
+                { "en": "People in Hue are very friendly.", "vi": "Người Huế rất thân thiện.", "highlight": "friendly" }
+            ],
+            "noteVi": "Là tính từ dù có đuôi -ly: ❌ \"She talks friendly\". Giữ âm /d/ giữa: FREND-li."
+        },
+        {
+            "slug": "kind",
+            "type": "LEXICAL",
+            "text": "kind",
+            "meaningVi": "tốt bụng",
+            "ipa": "/kaɪnd/",
+            "examples": [
+                { "en": "My grandmother is very kind to everyone.", "vi": "Bà mình tốt với mọi người lắm.", "highlight": "kind" }
+            ],
+            "noteVi": "kind to + người. Danh từ kind = loại (a kind of fruit). Cảm ơn lịch sự: That's very kind of you."
+        },
+        {
+            "slug": "funny",
+            "type": "LEXICAL",
+            "text": "funny",
+            "meaningVi": "vui tính, buồn cười",
+            "ipa": "/ˈfʌni/",
+            "examples": [
+                { "en": "My dad is really funny. He always makes us laugh.", "vi": "Bố mình vui tính lắm. Lúc nào cũng làm cả nhà cười.", "highlight": "funny" }
+            ],
+            "noteVi": "funny là làm người khác cười; fun là vui (hoạt động): The party was fun. ❌ \"He is fun\" khi ý là hài hước (fun nghĩa là chơi cùng vui)."
+        },
+        {
+            "slug": "smart",
+            "type": "LEXICAL",
+            "text": "smart",
+            "meaningVi": "thông minh",
+            "ipa": "/smɑːrt/",
+            "examples": [
+                { "en": "She's very smart. She speaks four languages.", "vi": "Cô ấy rất thông minh. Nói được bốn thứ tiếng.", "highlight": "smart" }
+            ],
+            "noteVi": "Mỹ hay dùng smart hơn intelligent khi nói chuyện. Giữ cụm /sm/ đầu và /t/ cuối."
+        },
+        {
+            "slug": "lazy",
+            "type": "LEXICAL",
+            "text": "lazy",
+            "meaningVi": "lười",
+            "ipa": "/ˈleɪzi/",
+            "examples": [
+                { "en": "I'm a little lazy on Sundays.", "vi": "Chủ nhật mình hơi lười.", "highlight": "lazy" }
+            ],
+            "noteVi": "z đọc /z/: LÂY-zi. Nói về người khác nên nhẹ nhàng: a little lazy. Trái nghĩa: hard-working."
+        },
+        {
+            "slug": "hard-working",
+            "type": "LEXICAL",
+            "text": "hard-working",
+            "meaningVi": "chăm chỉ",
+            "ipa": "/ˌhɑːrdˈwɜːrkɪŋ/",
+            "examples": [
+                { "en": "Our boss is very hard-working.", "vi": "Sếp bọn mình rất chăm chỉ.", "highlight": "hard-working" }
+            ],
+            "noteVi": "Tính từ có gạch nối. Làm việc chăm: work hard (❌ \"work hardly\", hardly nghĩa là hầu như không)."
+        },
+        {
+            "slug": "get-along-with",
+            "type": "PHRASE",
+            "text": "get along with",
+            "meaningVi": "hợp với, hòa thuận với",
+            "examples": [
+                { "en": "I get along well with my colleagues.", "vi": "Mình hợp với đồng nghiệp.", "highlight": "get along well with" }
+            ],
+            "noteVi": "well đứng giữa: get along well with. Hỏi: Do you get along with your boss? ❌ \"I'm get along\"."
+        },
+        {
+            "slug": "relative-clauses",
+            "type": "GRAMMAR",
+            "text": "who / which / where",
+            "meaningVi": "mệnh đề quan hệ: người mà, cái mà, nơi mà",
+            "examples": [
+                { "en": "That's the restaurant where we met.", "vi": "Đó là nhà hàng nơi bọn mình gặp nhau.", "highlight": "where we met" }
+            ],
+            "grammar": {
+                "ruleVi": "Nói rõ đang nói về người, vật hay nơi nào bằng một câu nhỏ ngay sau danh từ: who cho người, which cho vật, where cho nơi chốn. Nói chuyện hằng ngày có thể dùng that thay who và which. Không lặp lại đại từ trong câu nhỏ.",
+                "forms": [
+                    { "label": "who (người)", "example": "She's the woman who lives next door." },
+                    { "label": "which (vật)", "example": "This is the phone which I bought last week." },
+                    { "label": "where (nơi)", "example": "That's the school where I studied." },
+                    { "label": "that (thân mật)", "example": "the man that works at the bank, the book that you gave me" }
+                ],
+                "pitfallsVi": [
+                    "\"the man which\" → the man who; \"the phone who\" → the phone which.",
+                    "Lặp đại từ: \"the woman who she lives next door\" → the woman who lives next door.",
+                    "\"the restaurant where we ate there\" → the restaurant where we ate.",
+                    "\"the place which I was born\" → the place where I was born."
+                ]
+            }
+        },
+        {
+            "slug": "the-person-who",
+            "type": "PATTERN",
+            "text": "… is the … who ….",
+            "meaningVi": "… là người mà …",
+            "examples": [
+                { "en": "Minh is the guy who works at the bank.", "vi": "Minh là anh làm ở ngân hàng đó.", "highlight": "the guy who works" }
+            ],
+            "pattern": {
+                "template": "{person} is the {noun} who {does}.",
+                "slots": [
+                    { "name": "person", "hintVi": "tên hoặc he / she", "options": ["Minh", "She", "Lan", "He"] },
+                    { "name": "noun", "hintVi": "danh từ chỉ người", "options": ["guy", "woman", "teacher", "neighbor"] },
+                    { "name": "does", "hintVi": "động từ chia theo he / she", "options": ["works at the bank", "lives next door", "teaches us English", "helped me yesterday"] }
+                ]
+            },
+            "noteVi": "Động từ sau who chia theo người được nói đến: the woman who lives (❌ \"who live\"). Nói nhanh: She's the one who …"
+        },
+        {
+            "slug": "neighbor",
+            "type": "LEXICAL",
+            "text": "neighbor",
+            "meaningVi": "hàng xóm",
+            "ipa": "/ˈneɪbər/",
+            "examples": [
+                { "en": "Our neighbors are very quiet.", "vi": "Hàng xóm nhà mình rất yên lặng.", "highlight": "neighbors" }
+            ],
+            "noteVi": "gh câm: NÂY-bơ. Mỹ viết neighbor, Anh viết neighbour. Nhà bên cạnh: next door (She lives next door)."
+        },
+        {
+            "slug": "classmate",
+            "type": "LEXICAL",
+            "text": "classmate",
+            "meaningVi": "bạn cùng lớp",
+            "ipa": "/ˈklæsmeɪt/",
+            "examples": [
+                { "en": "She was my classmate in high school.", "vi": "Cô ấy là bạn cùng lớp cấp ba của mình.", "highlight": "classmate" }
+            ],
+            "noteVi": "Cùng kiểu ghép: roommate (bạn cùng phòng), teammate (đồng đội). Cấp ba ở Mỹ: high school."
+        },
+        {
+            "slug": "personality",
+            "type": "LEXICAL",
+            "text": "personality",
+            "meaningVi": "tính cách",
+            "ipa": "/ˌpɜːrsəˈnæləti/",
+            "examples": [
+                { "en": "He has a great personality.", "vi": "Anh ấy tính cách tuyệt lắm.", "highlight": "personality" }
+            ],
+            "noteVi": "Nhấn âm thứ ba: per-so-NAL-i-ty. Người Mỹ đọc t giữa nhẹ như /d/. ❌ \"His character is funny\" không sai nhưng personality tự nhiên hơn."
+        },
+        {
+            "slug": "best-friend",
+            "type": "PHRASE",
+            "text": "best friend",
+            "meaningVi": "bạn thân nhất",
+            "examples": [
+                { "en": "Linh is my best friend. We met at university.", "vi": "Linh là bạn thân nhất của mình. Bọn mình quen nhau ở đại học.", "highlight": "best friend" }
+            ],
+            "noteVi": "Thường có my / his…: my best friend (❌ \"a best friend of me\"). Bạn thân nói chung: a close friend."
+        },
+        {
+            "slug": "look-like",
+            "type": "PHRASE",
+            "text": "look like",
+            "meaningVi": "trông giống",
+            "examples": [
+                { "en": "You look like your mother.", "vi": "Bạn trông giống mẹ.", "highlight": "look like" }
+            ],
+            "noteVi": "look like + danh từ (giống ai); look + tính từ (trông có vẻ): You look tired. ❌ \"You look like tired\", \"You like your mother\"."
+        },
+        {
+            "slug": "have-in-common",
+            "type": "PHRASE",
+            "text": "have a lot in common",
+            "meaningVi": "có nhiều điểm chung",
+            "examples": [
+                { "en": "We have a lot in common. We both love music.", "vi": "Bọn mình có nhiều điểm chung. Cả hai đều mê nhạc.", "highlight": "have a lot in common" }
+            ],
+            "noteVi": "Phủ định: We don't have much in common. Có điểm chung với ai: have … in common with … ❌ \"have a lot of common\"."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "a2-11-whats-she-like",
+            "title": "What's she like?",
+            "situationVi": "Anna, bạn người Mỹ, hỏi về sếp mới của bạn.",
+            "lines": [
+                { "speaker": "Anna", "en": "So, you have a new boss. What's she like?", "vi": "Nghe nói bạn có sếp mới. Chị ấy là người thế nào?" },
+                { "speaker": "You", "en": "She's really nice. She's friendly and very smart.", "vi": "Chị ấy tốt lắm. Thân thiện và rất thông minh.", "learnerTurn": true },
+                { "speaker": "Anna", "en": "That's great. What does she look like?", "vi": "Hay quá. Chị ấy trông thế nào?" },
+                { "speaker": "You", "en": "She's tall and she has short black hair. She wears glasses.", "vi": "Chị ấy cao, tóc ngắn đen. Chị ấy đeo kính.", "learnerTurn": true },
+                { "speaker": "Anna", "en": "Do you get along with her?", "vi": "Bạn có hợp với chị ấy không?" },
+                { "speaker": "You", "en": "Yes, I do. She's hard-working, but she's funny too.", "vi": "Có. Chị ấy chăm chỉ, nhưng cũng vui tính nữa.", "learnerTurn": true },
+                { "speaker": "Anna", "en": "Lucky you! My boss isn't funny at all.", "vi": "Sướng nhé! Sếp mình chẳng vui tính chút nào." }
+            ]
+        },
+        {
+            "slug": "a2-11-whos-that",
+            "title": "Who's that?",
+            "situationVi": "Ở tiệc cưới của một người bạn, Ben (người Mỹ) hỏi bạn về những người khách.",
+            "lines": [
+                { "speaker": "Ben", "en": "Who's that man with the curly hair?", "vi": "Anh tóc xoăn kia là ai vậy?" },
+                { "speaker": "You", "en": "That's Minh. He's the guy who lives next door to me.", "vi": "Đó là Minh. Anh ấy là người ở nhà bên cạnh mình.", "learnerTurn": true },
+                { "speaker": "Ben", "en": "And the woman who's talking to him?", "vi": "Còn cô đang nói chuyện với anh ấy?" },
+                { "speaker": "You", "en": "That's his wife, Lan. She teaches at the school where I studied.", "vi": "Đó là vợ anh ấy, chị Lan. Chị ấy dạy ở trường mình từng học.", "learnerTurn": true },
+                { "speaker": "Ben", "en": "They look really friendly.", "vi": "Trông họ thân thiện ghê." },
+                { "speaker": "You", "en": "They are. We have a lot in common, so we're good friends.", "vi": "Đúng vậy. Bọn mình có nhiều điểm chung nên chơi thân lắm.", "learnerTurn": true },
+                { "speaker": "Ben", "en": "You know everyone here!", "vi": "Bạn quen hết mọi người ở đây!" }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "a2-11-l1-look-like",
+            "title": "What does she look like?",
+            "titleVi": "Tả ngoại hình",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "describing-people", "role": "INTRODUCE" },
+                { "item": "what-does-look-like", "role": "INTRODUCE" },
+                { "item": "has-hair", "role": "INTRODUCE" },
+                { "item": "hair", "role": "INTRODUCE" },
+                { "item": "long", "role": "INTRODUCE" },
+                { "item": "short", "role": "INTRODUCE" },
+                { "item": "curly", "role": "INTRODUCE" },
+                { "item": "glasses", "role": "INTRODUCE" },
+                { "item": "young", "role": "INTRODUCE" },
+                { "item": "tall", "role": "RECYCLE" },
+                { "item": "old", "role": "RECYCLE" },
+                { "item": "adjectives", "role": "RECYCLE" },
+                { "item": "her", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["what-does-look-like", "has-hair", "hair", "long", "short", "curly", "glasses", "young"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Tả ngoại hình: be hay have?",
+                        "bodyVi": "Tiếng Việt: \"cô ấy **tóc dài**\", không cần động từ. Tiếng Anh cần **be** hoặc **have**:\n\n| tả gì | dùng | ví dụ |\n|---|---|---|\n| dáng, tuổi | **be** + tính từ | She**'s** tall. He**'s** young. |\n| tóc, mắt | **have / has** | She **has** long hair. He **has** brown eyes. |\n| kính | **wear** | He **wears** glasses. |\n\nTóc: **dài ngắn → kiểu → màu**: long **black** hair, short **curly** hair. hair không đếm được (❌ hairs).\n\nHỏi: **What does she look like?**\n\n❌ She is long hair ❌ black long hair ❌ How does she look like? ✅ **She has long black hair.** **What does she look like?**",
+                        "items": ["describing-people", "what-does-look-like", "has-hair", "hair", "long", "curly", "glasses", "tall", "adjectives"],
+                        "examples": [
+                            { "en": "What does your sister look like? She's tall and has long hair.", "vi": "Chị bạn trông thế nào? Chị ấy cao, tóc dài.", "highlight": "has long hair" },
+                            { "en": "My grandfather is old, but he doesn't wear glasses.", "vi": "Ông mình già rồi nhưng không đeo kính.", "highlight": "wear glasses" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "what-does-look-like",
+                        "prompts": [
+                            { "cueVi": "Hỏi: anh bạn trông thế nào?", "slots": { "person": "your brother" }, "answer": "What does your brother look like?" },
+                            { "cueVi": "Hỏi: sếp mới của bạn trông thế nào?", "slots": { "person": "your new boss" }, "answer": "What does your new boss look like?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "has-hair",
+                        "prompts": [
+                            { "cueVi": "Cô ấy tóc dài đen.", "slots": { "person": "She", "hair": "long black" }, "answer": "She has long black hair." },
+                            { "cueVi": "Anh ấy tóc ngắn xoăn.", "slots": { "person": "He", "hair": "short curly" }, "answer": "He has short curly hair." },
+                            { "cueVi": "Chị mình tóc dài thẳng.", "slots": { "person": "My sister", "hair": "long straight" }, "answer": "My sister has long straight hair." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["hair", "long", "short", "curly", "glasses", "young", "tall", "old"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "What does she look like?", "vi": "Cô ấy trông thế nào?" },
+                            { "en": "She's tall and she has long black hair.", "vi": "Cô ấy cao, tóc dài đen." },
+                            { "en": "He's young and he wears glasses.", "vi": "Anh ấy trẻ và đeo kính." },
+                            { "en": "My brother has short curly hair.", "vi": "Anh mình tóc ngắn xoăn." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["She is long hair.", "She has long hair.", "She has long hairs."],
+                                "answer": 1,
+                                "item": "describing-people"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["He has black short hair.", "He has short black hair.", "He is short black hair."],
+                                "answer": 1,
+                                "item": "has-hair"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "What does your teacher ___ like?",
+                                "hintVi": "trông (ngoại hình)",
+                                "answers": ["look"],
+                                "item": "what-does-look-like"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "He wears glasses.",
+                                "options": ["Anh ấy đeo kính.", "Anh ấy uống hai ly.", "Anh ấy mặc áo khoác."],
+                                "answer": 0,
+                                "item": "glasses"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Anh ấy thấp và tóc xoăn.",
+                                "answer": "He's short and he has curly hair.",
+                                "item": "short"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a2-11-l2-whats-she-like",
+            "title": "What's she like?",
+            "titleVi": "Tả tính cách",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "whats-like", "role": "INTRODUCE" },
+                { "item": "friendly", "role": "INTRODUCE" },
+                { "item": "kind", "role": "INTRODUCE" },
+                { "item": "funny", "role": "INTRODUCE" },
+                { "item": "smart", "role": "INTRODUCE" },
+                { "item": "lazy", "role": "INTRODUCE" },
+                { "item": "hard-working", "role": "INTRODUCE" },
+                { "item": "get-along-with", "role": "INTRODUCE" },
+                { "item": "describing-people", "role": "RECYCLE" },
+                { "item": "what-does-look-like", "role": "RECYCLE" },
+                { "item": "shy", "role": "RECYCLE" },
+                { "item": "boring", "role": "RECYCLE" },
+                { "item": "colleague", "role": "RECYCLE" },
+                { "item": "boss", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["whats-like", "friendly", "kind", "funny", "smart", "lazy", "hard-working", "get-along-with"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Ba câu hỏi dễ nhầm",
+                        "bodyVi": "| câu hỏi | hỏi gì | trả lời |\n|---|---|---|\n| **What's** she **like**? | tính cách | She's friendly and funny. |\n| What does she **look like**? | ngoại hình | She's tall with short hair. |\n| What does she **like**? | sở thích | She likes music. |\n\nTính cách dùng **be** + tính từ: She's **kind**. He's a little **lazy**. They're **hard-working**.\n\nNói nhẹ nhàng khi chê: **a little** shy, **not very** friendly.\n\nHợp nhau: I **get along** well **with** my boss.\n\n❌ How is she like? ❌ He is fun (ý là hài hước) ❌ work hardly ✅ **What's she like?** **He's funny.** **She works hard.**",
+                        "items": ["whats-like", "what-does-look-like", "describing-people", "friendly", "kind", "funny", "lazy", "hard-working", "get-along-with", "shy"],
+                        "examples": [
+                            { "en": "What's your roommate like? He's friendly, but a little lazy.", "vi": "Bạn cùng phòng là người thế nào? Thân thiện, nhưng hơi lười.", "highlight": "What's your roommate like" },
+                            { "en": "I get along well with my colleagues.", "vi": "Mình hợp với đồng nghiệp.", "highlight": "get along well with" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "whats-like",
+                        "prompts": [
+                            { "cueVi": "Hỏi: sếp bạn là người thế nào?", "slots": { "person": "your boss" }, "answer": "What's your boss like?" },
+                            { "cueVi": "Hỏi: bạn cùng phòng mới là người thế nào?", "slots": { "person": "your new roommate" }, "answer": "What's your new roommate like?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["friendly", "kind", "funny", "smart", "lazy", "hard-working", "get-along-with", "shy"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a2-11-whats-she-like", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn muốn hỏi về tính cách của sếp. Câu nào đúng?",
+                                "options": ["What does your boss like?", "What's your boss like?", "How is your boss like?"],
+                                "answer": 1,
+                                "item": "whats-like"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Bố mình vui tính lắm.\"",
+                                "options": ["My dad is very fun.", "My dad is really funny.", "My dad is very funnily."],
+                                "answer": 1,
+                                "item": "funny"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I get along well ___ my colleagues.",
+                                "answers": ["with"],
+                                "item": "get-along-with"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Our boss is very hard-working.",
+                                "options": ["Sếp bọn mình rất khó tính.", "Sếp bọn mình rất chăm chỉ.", "Sếp bọn mình làm việc rất vất vả."],
+                                "answer": 1,
+                                "item": "hard-working"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Người Huế rất thân thiện.",
+                                "answer": "People in Hue are very friendly.",
+                                "item": "friendly"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a2-11-l3-the-one-who",
+            "title": "The one who…",
+            "titleVi": "who, which, where",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "relative-clauses", "role": "INTRODUCE" },
+                { "item": "the-person-who", "role": "INTRODUCE" },
+                { "item": "neighbor", "role": "INTRODUCE" },
+                { "item": "classmate", "role": "INTRODUCE" },
+                { "item": "personality", "role": "INTRODUCE" },
+                { "item": "best-friend", "role": "INTRODUCE" },
+                { "item": "look-like", "role": "INTRODUCE" },
+                { "item": "have-in-common", "role": "INTRODUCE" },
+                { "item": "its-a-person-who", "role": "RECYCLE" },
+                { "item": "its-a-place-where", "role": "RECYCLE" },
+                { "item": "friend", "role": "RECYCLE" },
+                { "item": "friendly", "role": "RECYCLE" },
+                { "item": "curly", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["the-person-who", "neighbor", "classmate", "personality", "best-friend", "look-like", "have-in-common"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "who, which, where: người, vật, nơi",
+                        "bodyVi": "Ở A1 bạn đã dùng *It's a person who…*, *It's a place where…*. Giờ dùng cho mọi danh từ: câu nhỏ đứng **ngay sau** danh từ, nói rõ đó là ai, cái gì, chỗ nào.\n\n| cho | dùng | ví dụ |\n|---|---|---|\n| người | **who** | the woman **who** lives next door |\n| vật | **which** | the phone **which** I bought |\n| nơi | **where** | the school **where** I studied |\n\nNói chuyện hằng ngày có thể dùng **that** thay who và which.\n\nKhông lặp lại đại từ: ❌ the woman who **she** lives… ❌ the restaurant where we ate **there** ❌ the man **which** ❌ the place **which** I was born ✅ the woman **who lives** next door, the place **where** I was born",
+                        "items": ["relative-clauses", "the-person-who", "its-a-person-who", "its-a-place-where", "neighbor"],
+                        "examples": [
+                            { "en": "She's the neighbor who helped me yesterday.", "vi": "Cô ấy là người hàng xóm hôm qua đã giúp mình.", "highlight": "who helped me" },
+                            { "en": "This is the café where I met my best friend.", "vi": "Đây là quán cà phê nơi mình gặp bạn thân.", "highlight": "where I met" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "the-person-who",
+                        "prompts": [
+                            { "cueVi": "Minh là anh làm ở ngân hàng.", "slots": { "person": "Minh", "noun": "guy", "does": "works at the bank" }, "answer": "Minh is the guy who works at the bank." },
+                            { "cueVi": "Cô ấy là người ở nhà bên cạnh.", "slots": { "person": "She", "noun": "woman", "does": "lives next door" }, "answer": "She is the woman who lives next door." },
+                            { "cueVi": "Lan là cô giáo dạy bọn mình tiếng Anh.", "slots": { "person": "Lan", "noun": "teacher", "does": "teaches us English" }, "answer": "Lan is the teacher who teaches us English." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["neighbor", "classmate", "personality", "best-friend", "look-like", "have-in-common", "friend", "friendly"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a2-11-whos-that", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["She's the woman which lives next door.", "She's the woman who lives next door.", "She's the woman who she lives next door."],
+                                "answer": 1,
+                                "item": "relative-clauses"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["That's the school where I studied.", "That's the school which I studied there.", "That's the school where I studied there."],
+                                "answer": 0,
+                                "item": "relative-clauses"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "You look ___ your mother.",
+                                "hintVi": "trông giống",
+                                "answers": ["like"],
+                                "item": "look-like"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "We have a lot in common.",
+                                "options": ["Bọn mình có nhiều bạn chung.", "Bọn mình có nhiều điểm chung.", "Bọn mình hay đi chơi chung."],
+                                "answer": 1,
+                                "item": "have-in-common"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Linh là bạn thân nhất của mình.",
+                                "answer": "Linh is my best friend.",
+                                "item": "best-friend"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "a2-11-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["My sister is long black hair.", "My sister has black long hair.", "My sister has long black hair."],
+                "answer": 2,
+                "item": "describing-people"
+            },
+            {
+                "kind": "choice",
+                "prompt": "\"What's he like?\" hỏi về:",
+                "options": ["Ngoại hình của anh ấy", "Tính cách của anh ấy", "Sở thích của anh ấy"],
+                "answer": 1,
+                "item": "whats-like"
+            },
+            {
+                "kind": "gap",
+                "sentence": "He's the guy ___ works at the bank.",
+                "answers": ["who", "that"],
+                "item": "relative-clauses"
+            },
+            {
+                "kind": "choice",
+                "prompt": "\"Anh ấy thấp.\"",
+                "options": ["He's low.", "He's short.", "He's small height."],
+                "answer": 1,
+                "item": "short"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "I don't get along with my neighbor.",
+                "options": ["Mình không hợp với hàng xóm.", "Mình không biết hàng xóm.", "Mình không đi chơi với hàng xóm."],
+                "answer": 0,
+                "item": "get-along-with"
+            },
+            {
+                "kind": "order",
+                "vi": "Bạn cùng phòng mới của bạn là người thế nào?",
+                "answer": "What's your new roommate like?",
+                "item": "whats-like"
+            }
+        ]
+    }
+}
