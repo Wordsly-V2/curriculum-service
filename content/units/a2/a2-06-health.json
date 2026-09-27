@@ -1,0 +1,769 @@
+{
+    "slug": "a2-06-health",
+    "stage": "a2",
+    "order": 6,
+    "title": "Health",
+    "titleVi": "Sức khỏe",
+    "descriptionVi": "Gọi tên bộ phận cơ thể, nói chỗ đau và triệu chứng (My back hurts, I have a headache), đi khám bệnh, khuyên người khác với should / shouldn't.",
+    "canDo": [
+        "Tôi nói được mình đau ở đâu và có triệu chứng gì (đau đầu, sốt, ho, cảm).",
+        "Tôi hỏi thăm được người đang mệt và nói được mình không khỏe.",
+        "Tôi khuyên được người khác nên hoặc không nên làm gì, và hiểu lời khuyên của bác sĩ."
+    ],
+    "items": [
+        {
+            "slug": "body",
+            "type": "LEXICAL",
+            "text": "body",
+            "meaningVi": "cơ thể",
+            "ipa": "/ˈbɑːdi/",
+            "examples": [
+                { "en": "Exercise is good for your body.", "vi": "Tập thể dục tốt cho cơ thể.", "highlight": "body" }
+            ],
+            "noteVi": "Người Mỹ đọc o như /ɑː/ và t, d giữa nhẹ: \"ba-di\"."
+        },
+        {
+            "slug": "head",
+            "type": "LEXICAL",
+            "text": "head",
+            "meaningVi": "đầu",
+            "ipa": "/hed/",
+            "examples": [
+                { "en": "My head hurts.", "vi": "Mình đau đầu.", "highlight": "head" }
+            ],
+            "noteVi": "ea đọc /e/ ngắn. Giữ âm cuối /d/."
+        },
+        {
+            "slug": "eye",
+            "type": "LEXICAL",
+            "text": "eye",
+            "meaningVi": "mắt",
+            "ipa": "/aɪ/",
+            "examples": [
+                { "en": "My eyes are tired from the computer.", "vi": "Mắt mình mỏi vì máy tính.", "highlight": "eyes" }
+            ],
+            "noteVi": "Đọc giống chữ I. Số nhiều eyes /aɪz/."
+        },
+        {
+            "slug": "tooth",
+            "type": "LEXICAL",
+            "text": "tooth",
+            "meaningVi": "răng (số nhiều: teeth)",
+            "ipa": "/tuːθ/",
+            "examples": [
+                { "en": "I brush my teeth twice a day.", "vi": "Mình đánh răng hai lần một ngày.", "highlight": "teeth" }
+            ],
+            "noteVi": "Số nhiều bất quy tắc: one tooth, two teeth (❌ tooths). Âm cuối /θ/ đặt lưỡi giữa răng, không đọc thành \"tút\"."
+        },
+        {
+            "slug": "back",
+            "type": "LEXICAL",
+            "text": "back",
+            "meaningVi": "lưng",
+            "ipa": "/bæk/",
+            "examples": [
+                { "en": "I sit at a desk all day, so my back hurts.", "vi": "Mình ngồi bàn cả ngày nên đau lưng.", "highlight": "back" }
+            ],
+            "noteVi": "Giữ âm cuối /k/. back còn nghĩa \"trở lại\" (come back), đoán theo ngữ cảnh."
+        },
+        {
+            "slug": "stomach",
+            "type": "LEXICAL",
+            "text": "stomach",
+            "meaningVi": "bụng, dạ dày",
+            "ipa": "/ˈstʌmək/",
+            "examples": [
+                { "en": "I ate too much and now my stomach hurts.", "vi": "Mình ăn nhiều quá nên giờ đau bụng.", "highlight": "stomach" }
+            ],
+            "noteVi": "ch đọc /k/: \"STUM-ợk\" (❌ \"stô-mách\")."
+        },
+        {
+            "slug": "arm",
+            "type": "LEXICAL",
+            "text": "arm",
+            "meaningVi": "cánh tay",
+            "ipa": "/ɑːrm/",
+            "examples": [
+                { "en": "He broke his arm playing soccer.", "vi": "Anh ấy bị gãy tay khi đá bóng.", "highlight": "arm" }
+            ],
+            "noteVi": "arm là cả cánh tay; bàn tay là hand. Tiếng Việt \"tay\" dùng chung cho cả hai."
+        },
+        {
+            "slug": "leg",
+            "type": "LEXICAL",
+            "text": "leg",
+            "meaningVi": "chân (cả cái chân)",
+            "ipa": "/leɡ/",
+            "examples": [
+                { "en": "My legs are tired after the long walk.", "vi": "Đi bộ xa nên chân mình mỏi.", "highlight": "legs" }
+            ],
+            "noteVi": "leg là cả cái chân; bàn chân là foot (số nhiều feet). Giữ âm cuối /ɡ/."
+        },
+        {
+            "slug": "my-hurts",
+            "type": "PATTERN",
+            "text": "My … hurts.",
+            "meaningVi": "Tôi bị đau …",
+            "examples": [
+                { "en": "My back hurts.", "vi": "Mình đau lưng.", "highlight": "My back hurts" }
+            ],
+            "pattern": {
+                "template": "My {bodyPart} hurts.",
+                "slots": [
+                    { "name": "bodyPart", "hintVi": "bộ phận cơ thể (số ít)", "options": ["head", "back", "stomach", "leg", "arm"] }
+                ]
+            },
+            "noteVi": "Chủ ngữ là bộ phận bị đau, không phải I: ❌ \"I hurt my head\" khi ý là đang đau đầu. Số nhiều: My eyes hurt (không -s)."
+        },
+        {
+            "slug": "whats-wrong",
+            "type": "PHRASE",
+            "text": "What's wrong?",
+            "meaningVi": "Bạn bị sao vậy?",
+            "examples": [
+                { "en": "You look tired. What's wrong?", "vi": "Trông bạn mệt quá. Bị sao vậy?", "highlight": "What's wrong" }
+            ],
+            "noteVi": "Cùng nghĩa: What's the matter? Bác sĩ hay hỏi: What seems to be the problem?"
+        },
+        {
+            "slug": "i-dont-feel-well",
+            "type": "PHRASE",
+            "text": "I don't feel well.",
+            "meaningVi": "Tôi thấy không khỏe.",
+            "examples": [
+                { "en": "I don't feel well. I'm going to go home early.", "vi": "Mình thấy không khỏe. Mình sẽ về sớm.", "highlight": "I don't feel well" }
+            ],
+            "noteVi": "well ở đây là \"khỏe\". ❌ \"I feel not well\", \"I'm not feel well\"."
+        },
+        {
+            "slug": "sick",
+            "type": "LEXICAL",
+            "text": "sick",
+            "meaningVi": "ốm, bệnh",
+            "ipa": "/sɪk/",
+            "examples": [
+                { "en": "She's sick today, so she's at home.", "vi": "Hôm nay cô ấy ốm nên ở nhà.", "highlight": "sick" }
+            ],
+            "noteVi": "Bị ốm: be sick hoặc get sick (❌ \"I sick\"). Nghỉ ốm: take a sick day. Giữ âm cuối /k/."
+        },
+        {
+            "slug": "headache",
+            "type": "LEXICAL",
+            "text": "headache",
+            "meaningVi": "chứng đau đầu",
+            "ipa": "/ˈhedeɪk/",
+            "examples": [
+                { "en": "I have a terrible headache.", "vi": "Mình đau đầu kinh khủng.", "highlight": "headache" }
+            ],
+            "noteVi": "ache đọc /eɪk/ (ch là /k/). Cùng kiểu: stomachache, toothache, backache."
+        },
+        {
+            "slug": "fever",
+            "type": "LEXICAL",
+            "text": "fever",
+            "meaningVi": "sốt",
+            "ipa": "/ˈfiːvər/",
+            "examples": [
+                { "en": "The baby has a fever.", "vi": "Em bé bị sốt.", "highlight": "fever" }
+            ],
+            "noteVi": "Bị sốt: have a fever (❌ \"I'm fever\"). Âm /v/ chạm môi dưới vào răng trên."
+        },
+        {
+            "slug": "cough",
+            "type": "LEXICAL",
+            "text": "cough",
+            "meaningVi": "ho; cơn ho",
+            "ipa": "/kɔːf/",
+            "examples": [
+                { "en": "I have a bad cough.", "vi": "Mình ho nhiều.", "highlight": "cough" }
+            ],
+            "noteVi": "gh đọc /f/: \"coff\". Vừa là danh từ (have a cough) vừa là động từ (I cough a lot at night)."
+        },
+        {
+            "slug": "sore-throat",
+            "type": "PHRASE",
+            "text": "a sore throat",
+            "meaningVi": "đau họng",
+            "examples": [
+                { "en": "I have a sore throat, so I can't talk much.", "vi": "Mình bị đau họng nên không nói nhiều được.", "highlight": "a sore throat" }
+            ],
+            "noteVi": "throat /θroʊt/ bắt đầu bằng /θ/ (lưỡi giữa răng). sore là đau rát; ❌ \"my throat is sick\"."
+        },
+        {
+            "slug": "have-a-cold",
+            "type": "PHRASE",
+            "text": "have a cold",
+            "meaningVi": "bị cảm",
+            "examples": [
+                { "en": "I have a cold, so I'm staying home today.", "vi": "Mình bị cảm nên hôm nay ở nhà.", "highlight": "have a cold" }
+            ],
+            "noteVi": "Bắt đầu bị cảm: catch a cold. Khác \"I'm cold\" (mình lạnh). Cảm cúm: the flu."
+        },
+        {
+            "slug": "have-for-illness",
+            "type": "GRAMMAR",
+            "text": "have + a + illness / body part + hurts",
+            "meaningVi": "cách nói bị bệnh, bị đau",
+            "examples": [
+                { "en": "I have a fever and my throat hurts.", "vi": "Mình bị sốt và đau họng.", "highlight": "I have a fever" }
+            ],
+            "grammar": {
+                "ruleVi": "Tiếng Việt nói \"bị\" + bệnh; tiếng Anh dùng have + a + tên bệnh, triệu chứng (I have a cold). Nói chỗ đau thì bộ phận cơ thể làm chủ ngữ + hurts (My leg hurts), hoặc have a + …ache.",
+                "forms": [
+                    { "label": "have a + bệnh", "example": "I have a cold / a fever / a cough / a sore throat." },
+                    { "label": "have a + …ache", "example": "I have a headache / a stomachache / a toothache." },
+                    { "label": "… hurts / hurt", "example": "My back hurts. My eyes hurt." },
+                    { "label": "he / she", "example": "She has a fever. His arm hurts." },
+                    { "label": "quá khứ", "example": "I had a cold last week." }
+                ],
+                "pitfallsVi": [
+                    "Dùng be thay have: \"I'm fever\", \"I'm headache\" → I have a fever, I have a headache.",
+                    "Quên a: \"I have headache\" → I have a headache.",
+                    "\"I have a cold\" (bị cảm) khác \"I'm cold\" (thấy lạnh)."
+                ]
+            }
+        },
+        {
+            "slug": "i-have-a",
+            "type": "PATTERN",
+            "text": "I have a ….",
+            "meaningVi": "Tôi bị …",
+            "examples": [
+                { "en": "I have a stomachache.", "vi": "Mình bị đau bụng.", "highlight": "I have a stomachache" }
+            ],
+            "pattern": {
+                "template": "I have a {symptom}.",
+                "slots": [
+                    { "name": "symptom", "hintVi": "bệnh, triệu chứng", "options": ["headache", "fever", "cough", "cold", "sore throat", "stomachache"] }
+                ]
+            },
+            "noteVi": "Với he/she: She has a …. Đừng bỏ a."
+        },
+        {
+            "slug": "should-shouldnt",
+            "type": "GRAMMAR",
+            "text": "should / shouldn't + verb",
+            "meaningVi": "nên / không nên",
+            "examples": [
+                { "en": "You should drink more water, and you shouldn't stay up late.", "vi": "Bạn nên uống nhiều nước hơn, và không nên thức khuya.", "highlight": "You should drink" }
+            ],
+            "grammar": {
+                "ruleVi": "Khuyên: should + động từ nguyên mẫu (nên), shouldn't + động từ nguyên mẫu (không nên). should giống nhau với mọi chủ ngữ, không thêm -s, không dùng do/does.",
+                "forms": [
+                    { "label": "khẳng định", "example": "You should see a doctor." },
+                    { "label": "phủ định", "example": "He shouldn't eat so much sugar." },
+                    { "label": "câu hỏi", "example": "Should I take some medicine? Yes, you should. / No, you shouldn't." },
+                    { "label": "hỏi ý kiến", "example": "What should I do?" },
+                    { "label": "mềm hơn", "example": "Maybe you should get some rest." }
+                ],
+                "pitfallsVi": [
+                    "Thêm to: \"You should to rest\" → You should rest.",
+                    "Thêm -s: \"She shoulds\", \"She should goes\" → She should go.",
+                    "Hỏi bằng do: \"Do I should…?\" → Should I…?",
+                    "l câm: should /ʃʊd/, shouldn't /ˈʃʊdənt/."
+                ]
+            }
+        },
+        {
+            "slug": "you-should",
+            "type": "PATTERN",
+            "text": "You should ….",
+            "meaningVi": "Bạn nên …",
+            "examples": [
+                { "en": "You should go to bed early tonight.", "vi": "Tối nay bạn nên đi ngủ sớm.", "highlight": "You should go" }
+            ],
+            "pattern": {
+                "template": "You should {do}.",
+                "slots": [
+                    { "name": "do", "hintVi": "động từ nguyên mẫu (+ tân ngữ)", "options": ["see a doctor", "get some rest", "drink more water", "take some medicine", "stay home today"] }
+                ]
+            },
+            "noteVi": "Mềm hơn: Maybe you should… Khuyên không nên: You shouldn't …"
+        },
+        {
+            "slug": "see-a-doctor",
+            "type": "PHRASE",
+            "text": "see a doctor",
+            "meaningVi": "đi khám bác sĩ",
+            "examples": [
+                { "en": "You have a fever. You should see a doctor.", "vi": "Bạn bị sốt rồi. Bạn nên đi khám.", "highlight": "see a doctor" }
+            ],
+            "noteVi": "Tiếng Anh nói \"gặp\" bác sĩ: see a doctor, go to the doctor. ❌ \"check a doctor\"."
+        },
+        {
+            "slug": "appointment",
+            "type": "LEXICAL",
+            "text": "appointment",
+            "meaningVi": "cuộc hẹn (khám, làm việc)",
+            "ipa": "/əˈpɔɪntmənt/",
+            "examples": [
+                { "en": "I have a doctor's appointment at three.", "vi": "Ba giờ mình có hẹn khám bác sĩ.", "highlight": "appointment" }
+            ],
+            "noteVi": "Đặt lịch: make an appointment. Hẹn hò với người yêu là a date, không phải appointment."
+        },
+        {
+            "slug": "medicine",
+            "type": "LEXICAL",
+            "text": "medicine",
+            "meaningVi": "thuốc",
+            "ipa": "/ˈmedəsən/",
+            "examples": [
+                { "en": "Take this medicine three times a day.", "vi": "Uống thuốc này ngày ba lần.", "highlight": "medicine" }
+            ],
+            "noteVi": "Uống thuốc là take medicine (❌ \"drink medicine\"). Thuốc viên: a pill. Nhấn âm đầu: MED-i-cine."
+        },
+        {
+            "slug": "rest",
+            "type": "LEXICAL",
+            "text": "rest",
+            "meaningVi": "nghỉ ngơi; sự nghỉ ngơi",
+            "ipa": "/rest/",
+            "examples": [
+                { "en": "You need to get some rest.", "vi": "Bạn cần nghỉ ngơi một chút.", "highlight": "rest" }
+            ],
+            "noteVi": "get some rest hoặc rest (động từ). Giữ cả /s/ và /t/ cuối."
+        },
+        {
+            "slug": "feel-better",
+            "type": "PHRASE",
+            "text": "feel better",
+            "meaningVi": "thấy đỡ hơn",
+            "examples": [
+                { "en": "I took some medicine, and now I feel better.", "vi": "Mình uống thuốc rồi, giờ thấy đỡ hơn.", "highlight": "feel better" }
+            ],
+            "noteVi": "Chúc người ốm: I hope you feel better soon. Hỏi thăm: Are you feeling better?"
+        },
+        {
+            "slug": "get-well-soon",
+            "type": "PHRASE",
+            "text": "Get well soon!",
+            "meaningVi": "Mau khỏe nhé!",
+            "examples": [
+                { "en": "Get some rest. Get well soon!", "vi": "Nghỉ ngơi đi nhé. Mau khỏe nhé!", "highlight": "Get well soon" }
+            ],
+            "noteVi": "Câu chúc cố định, hay viết trong tin nhắn hoặc thiệp."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "a2-06-you-dont-look-well",
+            "title": "You don't look well",
+            "situationVi": "Ở chỗ làm, chị Sarah thấy bạn có vẻ mệt và hỏi thăm.",
+            "lines": [
+                { "speaker": "Sarah", "en": "Are you OK? You don't look well.", "vi": "Em ổn không? Trông em không khỏe lắm." },
+                { "speaker": "You", "en": "I don't feel well. I have a headache.", "vi": "Em thấy không khỏe. Em bị đau đầu.", "learnerTurn": true },
+                { "speaker": "Sarah", "en": "Oh no. Do you have a fever?", "vi": "Ôi. Em có sốt không?" },
+                { "speaker": "You", "en": "I don't think so, but I have a sore throat.", "vi": "Chắc là không, nhưng em bị đau họng.", "learnerTurn": true },
+                { "speaker": "Sarah", "en": "Maybe you have a cold. It's going around the office.", "vi": "Chắc em bị cảm rồi. Văn phòng đang có nhiều người bị." },
+                { "speaker": "You", "en": "Yes, and I was sick last week too.", "vi": "Vâng, tuần trước em cũng bị ốm.", "learnerTurn": true },
+                { "speaker": "Sarah", "en": "Go home early today. Get well soon!", "vi": "Hôm nay em về sớm đi. Mau khỏe nhé!" }
+            ]
+        },
+        {
+            "slug": "a2-06-at-the-doctor",
+            "title": "At the doctor's",
+            "situationVi": "Bạn đi khám vì ho và sốt hai ngày nay. Kể triệu chứng và nghe lời khuyên của bác sĩ.",
+            "lines": [
+                { "speaker": "Doctor", "en": "Hello. What seems to be the problem?", "vi": "Chào bạn. Bạn bị sao vậy?" },
+                { "speaker": "You", "en": "I have a bad cough and a fever.", "vi": "Tôi ho nhiều và bị sốt.", "learnerTurn": true },
+                { "speaker": "Doctor", "en": "How long have you had it?", "vi": "Bạn bị bao lâu rồi?" },
+                { "speaker": "You", "en": "Two days. And my head hurts too.", "vi": "Hai ngày rồi. Và tôi cũng đau đầu.", "learnerTurn": true },
+                { "speaker": "Doctor", "en": "It's the flu. Take this medicine three times a day. You should get some rest and drink a lot of water.", "vi": "Bạn bị cúm. Uống thuốc này ngày ba lần. Bạn nên nghỉ ngơi và uống nhiều nước." },
+                { "speaker": "You", "en": "Should I stay home from work?", "vi": "Tôi có nên nghỉ làm ở nhà không?", "learnerTurn": true },
+                { "speaker": "Doctor", "en": "Yes, you should. And you shouldn't drink cold drinks. I hope you feel better soon.", "vi": "Có, bạn nên nghỉ. Và bạn không nên uống đồ lạnh. Mong bạn sớm khỏe." }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "a2-06-l1-my-body",
+            "title": "My head hurts",
+            "titleVi": "Cơ thể và chỗ đau",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "body", "role": "INTRODUCE" },
+                { "item": "head", "role": "INTRODUCE" },
+                { "item": "eye", "role": "INTRODUCE" },
+                { "item": "tooth", "role": "INTRODUCE" },
+                { "item": "back", "role": "INTRODUCE" },
+                { "item": "stomach", "role": "INTRODUCE" },
+                { "item": "arm", "role": "INTRODUCE" },
+                { "item": "leg", "role": "INTRODUCE" },
+                { "item": "my-hurts", "role": "INTRODUCE" },
+                { "item": "plural-s", "role": "RECYCLE" },
+                { "item": "possessive-adjectives", "role": "RECYCLE" },
+                { "item": "tired", "role": "RECYCLE" },
+                { "item": "doctor", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["body", "head", "eye", "tooth", "back", "stomach", "arm", "leg", "my-hurts"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Đau ở đâu: My … hurts",
+                        "bodyVi": "Nói chỗ đau: bộ phận cơ thể làm **chủ ngữ** + **hurts**.\n\n| | |\n|---|---|\n| **My head hurts.** | Mình đau đầu. |\n| **My back hurts.** | Mình đau lưng. |\n| **My eyes hurt.** | Mình đau mắt. (số nhiều, không -s) |\n| **His leg hurts.** | Anh ấy đau chân. |\n\nTiếng Anh tách rõ: **arm** (cánh tay) / hand (bàn tay), **leg** (cái chân) / foot (bàn chân).\n\nSố nhiều bất quy tắc: one **tooth** → two **teeth**, one foot → two feet.\n\n❌ I hurt head. ❌ My eyes hurts. ✅ **My head hurts.** **My eyes hurt.**",
+                        "items": ["my-hurts", "possessive-adjectives", "plural-s", "tooth", "arm", "leg"],
+                        "examples": [
+                            { "en": "I played soccer yesterday, and now my legs hurt.", "vi": "Hôm qua mình đá bóng, giờ đau chân.", "highlight": "my legs hurt" },
+                            { "en": "Her tooth hurts, so she can't eat.", "vi": "Cô ấy đau răng nên không ăn được.", "highlight": "Her tooth hurts" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "my-hurts",
+                        "prompts": [
+                            { "cueVi": "Mình đau lưng.", "slots": { "bodyPart": "back" }, "answer": "My back hurts." },
+                            { "cueVi": "Mình đau bụng.", "slots": { "bodyPart": "stomach" }, "answer": "My stomach hurts." },
+                            { "cueVi": "Mình đau tay (cánh tay).", "slots": { "bodyPart": "arm" }, "answer": "My arm hurts." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["body", "head", "eye", "tooth", "back", "stomach", "arm", "leg"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "My head hurts.", "vi": "Mình đau đầu." },
+                            { "en": "I sit at a desk all day, so my back hurts.", "vi": "Mình ngồi bàn cả ngày nên đau lưng." },
+                            { "en": "My eyes are tired.", "vi": "Mắt mình mỏi." },
+                            { "en": "I brush my teeth twice a day.", "vi": "Mình đánh răng hai lần một ngày." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Mình đau lưng.\"",
+                                "options": ["I hurt back.", "My back hurts.", "My back is hurt me."],
+                                "answer": 1,
+                                "item": "my-hurts"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I brush my ___ every morning.",
+                                "hintVi": "răng (số nhiều)",
+                                "answers": ["teeth"],
+                                "item": "tooth"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Cánh tay\" là:",
+                                "options": ["hand", "leg", "arm"],
+                                "answer": 2,
+                                "item": "arm"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "My stomach hurts.",
+                                "options": ["Mình đau bụng.", "Mình đói bụng.", "Mình đau lưng."],
+                                "answer": 0,
+                                "item": "stomach"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Mắt mình mỏi vì máy tính.",
+                                "answer": "My eyes are tired from the computer.",
+                                "item": "eye"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a2-06-l2-i-dont-feel-well",
+            "title": "I don't feel well",
+            "titleVi": "Mình thấy không khỏe",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "have-for-illness", "role": "INTRODUCE" },
+                { "item": "i-have-a", "role": "INTRODUCE" },
+                { "item": "whats-wrong", "role": "INTRODUCE" },
+                { "item": "i-dont-feel-well", "role": "INTRODUCE" },
+                { "item": "sick", "role": "INTRODUCE" },
+                { "item": "headache", "role": "INTRODUCE" },
+                { "item": "fever", "role": "INTRODUCE" },
+                { "item": "cough", "role": "INTRODUCE" },
+                { "item": "sore-throat", "role": "INTRODUCE" },
+                { "item": "have-a-cold", "role": "INTRODUCE" },
+                { "item": "my-hurts", "role": "RECYCLE" },
+                { "item": "cold", "role": "RECYCLE" },
+                { "item": "tired", "role": "RECYCLE" },
+                { "item": "head", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["whats-wrong", "i-dont-feel-well", "sick", "headache", "fever", "cough", "sore-throat", "have-a-cold", "i-have-a"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Bị bệnh: have a …",
+                        "bodyVi": "Tiếng Việt \"**bị** sốt\"; tiếng Anh **have a** + bệnh (không dùng be):\n\n| | |\n|---|---|\n| I **have a** cold. | Mình bị cảm. |\n| I **have a** fever. | Mình bị sốt. |\n| I **have a** cough. | Mình bị ho. |\n| I **have a** sore throat. | Mình đau họng. |\n| I **have a** headache. | Mình đau đầu. |\n\nhe / she: She **has a** fever. Quá khứ: I **had a** cold last week.\n\nHỏi thăm: **What's wrong?** → **I don't feel well.** I have a headache.\n\n**I have a cold** (bị cảm) khác **I'm cold** (thấy lạnh).\n\n❌ I'm fever. ❌ I have headache. ✅ I **have a fever**. I **have a headache**.",
+                        "items": ["have-for-illness", "i-have-a", "whats-wrong", "i-dont-feel-well", "have-a-cold", "cold", "my-hurts"],
+                        "examples": [
+                            { "en": "What's wrong? I have a fever and my head hurts.", "vi": "Bạn bị sao vậy? Mình bị sốt và đau đầu.", "highlight": "I have a fever" },
+                            { "en": "I'm not cold. I have a cold!", "vi": "Mình không lạnh. Mình bị cảm!", "highlight": "I have a cold" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "i-have-a",
+                        "prompts": [
+                            { "cueVi": "Mình bị sốt.", "slots": { "symptom": "fever" }, "answer": "I have a fever." },
+                            { "cueVi": "Mình bị cảm.", "slots": { "symptom": "cold" }, "answer": "I have a cold." },
+                            { "cueVi": "Mình bị đau họng.", "slots": { "symptom": "sore throat" }, "answer": "I have a sore throat." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["whats-wrong", "i-dont-feel-well", "sick", "headache", "fever", "cough", "sore-throat", "have-a-cold"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a2-06-you-dont-look-well", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Mình bị sốt.\"",
+                                "options": ["I'm fever.", "I have fever.", "I have a fever."],
+                                "answer": 2,
+                                "item": "have-for-illness"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"I have a cold\" nghĩa là:",
+                                "options": ["Mình bị cảm.", "Mình thấy lạnh.", "Mình có đồ uống lạnh."],
+                                "answer": 0,
+                                "item": "have-a-cold"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I don't feel ___. I'm going to go home.",
+                                "hintVi": "khỏe",
+                                "answers": ["well", "good"],
+                                "item": "i-dont-feel-well"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "You look tired. What's wrong?",
+                                "options": ["Trông bạn mệt quá. Bạn bị sao vậy?", "Bạn mệt à? Bạn làm sai gì à?", "Trông bạn buồn quá. Có chuyện gì thế?"],
+                                "answer": 0,
+                                "item": "whats-wrong"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Hôm nay cô ấy ốm nên ở nhà.",
+                                "answer": "She's sick today, so she's at home.",
+                                "item": "sick"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a2-06-l3-you-should",
+            "title": "You should see a doctor",
+            "titleVi": "Nên và không nên",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "should-shouldnt", "role": "INTRODUCE" },
+                { "item": "you-should", "role": "INTRODUCE" },
+                { "item": "see-a-doctor", "role": "INTRODUCE" },
+                { "item": "appointment", "role": "INTRODUCE" },
+                { "item": "medicine", "role": "INTRODUCE" },
+                { "item": "rest", "role": "INTRODUCE" },
+                { "item": "feel-better", "role": "INTRODUCE" },
+                { "item": "get-well-soon", "role": "INTRODUCE" },
+                { "item": "i-have-a", "role": "RECYCLE" },
+                { "item": "pharmacy", "role": "RECYCLE" },
+                { "item": "water", "role": "RECYCLE" },
+                { "item": "sleep", "role": "RECYCLE" },
+                { "item": "hope", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["you-should", "see-a-doctor", "appointment", "medicine", "rest", "feel-better", "get-well-soon"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Khuyên: should / shouldn't",
+                        "bodyVi": "**should** + động từ nguyên mẫu = nên; **shouldn't** = không nên. Giống nhau với mọi chủ ngữ.\n\n| | ví dụ |\n|---|---|\n| nên | You **should see** a doctor. |\n| không nên | You **shouldn't drink** cold drinks. |\n| hỏi | **Should I take** some medicine? → Yes, you **should**. |\n| hỏi ý kiến | What **should I do**? |\n\nMềm hơn: **Maybe you should** get some rest.\n\nUống thuốc là **take** medicine (không phải drink).\n\n❌ You should to rest. ❌ She should goes. ❌ Do I should…? ✅ You **should rest**. She **should go**. **Should I**…?",
+                        "items": ["should-shouldnt", "you-should", "medicine", "rest", "see-a-doctor", "water"],
+                        "examples": [
+                            { "en": "You have a fever. You should see a doctor.", "vi": "Bạn bị sốt rồi. Bạn nên đi khám.", "highlight": "You should see" },
+                            { "en": "You shouldn't go to work today. Get some rest.", "vi": "Hôm nay bạn không nên đi làm. Nghỉ ngơi đi.", "highlight": "You shouldn't go" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "you-should",
+                        "prompts": [
+                            { "cueVi": "Khuyên: bạn nên đi khám.", "slots": { "do": "see a doctor" }, "answer": "You should see a doctor." },
+                            { "cueVi": "Khuyên: bạn nên nghỉ ngơi.", "slots": { "do": "get some rest" }, "answer": "You should get some rest." },
+                            { "cueVi": "Khuyên: bạn nên uống nhiều nước hơn.", "slots": { "do": "drink more water" }, "answer": "You should drink more water." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["see-a-doctor", "appointment", "medicine", "rest", "feel-better", "get-well-soon", "pharmacy", "sleep"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a2-06-at-the-doctor", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["You should to see a doctor.", "You should see a doctor.", "You should seeing a doctor."],
+                                "answer": 1,
+                                "item": "should-shouldnt"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["Do I should take medicine?", "Should I take medicine?", "Should I to take medicine?"],
+                                "answer": 1,
+                                "item": "should-shouldnt"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "___ this medicine twice a day.",
+                                "hintVi": "uống (thuốc)",
+                                "answers": ["Take"],
+                                "item": "medicine"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "I have an appointment at the hospital tomorrow.",
+                                "options": ["Ngày mai mình đi thăm người ở bệnh viện.", "Ngày mai mình có hẹn khám ở bệnh viện.", "Ngày mai mình làm ở bệnh viện."],
+                                "answer": 1,
+                                "item": "appointment"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Mong bạn sớm khỏe.",
+                                "answer": "I hope you feel better soon.",
+                                "item": "feel-better"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "a2-06-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "\"Mình đau đầu.\" Câu nào đúng?",
+                "options": ["I'm headache.", "My head hurts.", "My head is hurt me."],
+                "answer": 1,
+                "item": "my-hurts"
+            },
+            {
+                "kind": "gap",
+                "sentence": "She ___ a bad cough.",
+                "hintVi": "bị (he/she)",
+                "answers": ["has"],
+                "item": "have-for-illness"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["He should rests.", "He shoulds rest.", "He should rest."],
+                "answer": 2,
+                "item": "should-shouldnt"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "You shouldn't stay up late.",
+                "options": ["Bạn không nên thức khuya.", "Bạn không nên đến muộn.", "Bạn không cần ở lại muộn."],
+                "answer": 0,
+                "item": "should-shouldnt"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Đồng nghiệp trông mệt. Bạn hỏi:",
+                "options": ["What's wrong?", "What's wrong with you do?", "Are you wrong?"],
+                "answer": 0,
+                "item": "whats-wrong"
+            },
+            {
+                "kind": "order",
+                "vi": "Bạn nên đi khám bác sĩ.",
+                "answer": "You should see a doctor.",
+                "item": "you-should"
+            }
+        ]
+    }
+}

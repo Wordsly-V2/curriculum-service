@@ -1,0 +1,816 @@
+{
+    "slug": "a2-07-work",
+    "stage": "a2",
+    "order": 7,
+    "title": "Work",
+    "titleVi": "Công việc",
+    "descriptionVi": "Nói mình làm ở đâu, với ai, làm toàn thời gian hay bán thời gian; kể việc phải làm và không phải làm (have to / don't have to); nói mình làm được gì (can / can't) khi đi phỏng vấn.",
+    "canDo": [
+        "Tôi nói được mình làm ở đâu, cho công ty nào, và kể về sếp, đồng nghiệp.",
+        "Tôi nói được việc mình phải làm và không phải làm ở chỗ làm, và hỏi người khác.",
+        "Tôi nói được mình làm được gì và làm tốt đến đâu, trả lời được câu hỏi đơn giản khi phỏng vấn."
+    ],
+    "items": [
+        {
+            "slug": "job",
+            "type": "LEXICAL",
+            "text": "job",
+            "meaningVi": "công việc, việc làm",
+            "ipa": "/dʒɑːb/",
+            "examples": [
+                { "en": "I like my job, but it's very busy.", "vi": "Mình thích công việc của mình, nhưng nó rất bận.", "highlight": "job" }
+            ],
+            "noteVi": "job đếm được (a job, two jobs); work thường không đếm được (❌ \"a work\"). Giữ âm cuối /b/."
+        },
+        {
+            "slug": "company",
+            "type": "LEXICAL",
+            "text": "company",
+            "meaningVi": "công ty",
+            "ipa": "/ˈkʌmpəni/",
+            "examples": [
+                { "en": "She works for a big software company.", "vi": "Cô ấy làm cho một công ty phần mềm lớn.", "highlight": "company" }
+            ],
+            "noteVi": "Nhấn âm đầu: COM-pa-ny, o đọc /ʌ/ như \"ă\"."
+        },
+        {
+            "slug": "office",
+            "type": "LEXICAL",
+            "text": "office",
+            "meaningVi": "văn phòng",
+            "ipa": "/ˈɔːfɪs/",
+            "examples": [
+                { "en": "Our office is on the tenth floor.", "vi": "Văn phòng bọn mình ở tầng mười.", "highlight": "office" }
+            ],
+            "noteVi": "Ở văn phòng: at the office, in the office. Giữ âm cuối /s/."
+        },
+        {
+            "slug": "boss",
+            "type": "LEXICAL",
+            "text": "boss",
+            "meaningVi": "sếp",
+            "ipa": "/bɔːs/",
+            "examples": [
+                { "en": "My boss is strict, but she's fair.", "vi": "Sếp mình nghiêm nhưng công bằng.", "highlight": "boss" }
+            ],
+            "noteVi": "Trang trọng hơn: manager. Người Mỹ gọi sếp bằng tên, không gọi \"Boss\"."
+        },
+        {
+            "slug": "colleague",
+            "type": "LEXICAL",
+            "text": "colleague",
+            "meaningVi": "đồng nghiệp",
+            "ipa": "/ˈkɑːliːɡ/",
+            "examples": [
+                { "en": "I have lunch with my colleagues every day.", "vi": "Mình ăn trưa với đồng nghiệp mỗi ngày.", "highlight": "colleagues" }
+            ],
+            "noteVi": "Đọc \"KA-li-g\", ue câm. Nói thân mật hơn: coworker."
+        },
+        {
+            "slug": "part-time",
+            "type": "PHRASE",
+            "text": "part-time / full-time",
+            "meaningVi": "bán thời gian / toàn thời gian",
+            "examples": [
+                { "en": "I work part-time at a café on weekends.", "vi": "Cuối tuần mình làm bán thời gian ở một quán cà phê.", "highlight": "part-time" }
+            ],
+            "noteVi": "Dùng như trạng từ (work part-time) hoặc tính từ (a part-time job). Người Việt hay nói \"làm part-time\", tiếng Anh cần động từ: I work part-time / I have a part-time job."
+        },
+        {
+            "slug": "work-from-home",
+            "type": "PHRASE",
+            "text": "work from home",
+            "meaningVi": "làm việc ở nhà",
+            "examples": [
+                { "en": "I work from home on Fridays.", "vi": "Thứ Sáu mình làm việc ở nhà.", "highlight": "work from home" }
+            ],
+            "noteVi": "work at home cũng đúng, nhưng work from home là cách nói quen thuộc ở công sở (viết tắt WFH)."
+        },
+        {
+            "slug": "work-prepositions",
+            "type": "GRAMMAR",
+            "text": "work at / in / for / as",
+            "meaningVi": "giới từ đi với work",
+            "examples": [
+                { "en": "I work as a nurse at a hospital in Da Nang.", "vi": "Mình làm y tá ở một bệnh viện ở Đà Nẵng.", "highlight": "work as a nurse" }
+            ],
+            "grammar": {
+                "ruleVi": "Tiếng Việt chỉ cần \"làm ở\"; tiếng Anh chọn giới từ theo thứ theo sau: at + nơi làm cụ thể, in + thành phố hoặc ngành, for + công ty hoặc người thuê mình, as + nghề.",
+                "forms": [
+                    { "label": "at + nơi làm", "example": "I work at a bank. She works at a hospital." },
+                    { "label": "in + thành phố, ngành", "example": "I work in Ho Chi Minh City. He works in IT." },
+                    { "label": "for + công ty", "example": "I work for Samsung. She works for a small company." },
+                    { "label": "as + nghề", "example": "I work as an engineer." },
+                    { "label": "hỏi", "example": "Where do you work? Who do you work for?" }
+                ],
+                "pitfallsVi": [
+                    "\"I work in a bank\" vẫn đúng, nhưng \"I work at Samsung\" nghe như nói địa điểm; nói công ty thì dùng for.",
+                    "Quên a/an sau as: \"I work as engineer\" → I work as an engineer.",
+                    "Quên -s: \"She work at a school\" → She works at a school."
+                ]
+            }
+        },
+        {
+            "slug": "i-work-at",
+            "type": "PATTERN",
+            "text": "I work at ….",
+            "meaningVi": "Tôi làm ở …",
+            "examples": [
+                { "en": "I work at a bank downtown.", "vi": "Mình làm ở một ngân hàng trung tâm thành phố.", "highlight": "I work at" }
+            ],
+            "pattern": {
+                "template": "I work at {place}.",
+                "slots": [
+                    { "name": "place", "hintVi": "nơi làm (a/an + danh từ)", "options": ["a bank", "a hospital", "a school", "a hotel", "an IT company"] }
+                ]
+            },
+            "noteVi": "Hỏi: Where do you work? Trả lời ngắn cũng được: At a bank."
+        },
+        {
+            "slug": "have-to",
+            "type": "GRAMMAR",
+            "text": "have to / don't have to",
+            "meaningVi": "phải / không phải",
+            "examples": [
+                { "en": "I have to wear a uniform, but I don't have to work on Sundays.", "vi": "Mình phải mặc đồng phục, nhưng không phải làm Chủ nhật.", "highlight": "have to wear" }
+            ],
+            "grammar": {
+                "ruleVi": "have to + động từ nguyên mẫu: phải làm (quy định, bắt buộc). don't have to: không cần, không bắt buộc (khác \"không được\"). Chia như động từ thường: he/she has to, câu hỏi và phủ định dùng do/does.",
+                "forms": [
+                    { "label": "khẳng định", "example": "I have to get up at six. She has to work late." },
+                    { "label": "phủ định", "example": "We don't have to wear a uniform. He doesn't have to work on Saturday." },
+                    { "label": "câu hỏi", "example": "Do you have to work on weekends? Yes, I do. / No, I don't." },
+                    { "label": "quá khứ", "example": "I had to stay late yesterday." },
+                    { "label": "đọc", "example": "have to /ˈhæftə/, has to /ˈhæstə/ (v đọc thành f khi nói nhanh)" }
+                ],
+                "pitfallsVi": [
+                    "Quên to: \"I have work late\" → I have to work late.",
+                    "\"She have to\" → She has to. \"She doesn't has to\" → She doesn't have to.",
+                    "don't have to là không cần, không phải là cấm: You don't have to come (đến cũng được, không đến cũng được)."
+                ]
+            }
+        },
+        {
+            "slug": "i-have-to",
+            "type": "PATTERN",
+            "text": "I have to … (when).",
+            "meaningVi": "Tôi phải … (khi nào).",
+            "examples": [
+                { "en": "I have to go to a meeting at nine.", "vi": "Chín giờ mình phải đi họp.", "highlight": "I have to go" }
+            ],
+            "pattern": {
+                "template": "I have to {do} {when}.",
+                "slots": [
+                    { "name": "do", "hintVi": "động từ nguyên mẫu (+ tân ngữ)", "options": ["get up early", "work late", "answer emails", "go to a meeting"] },
+                    { "name": "when", "hintVi": "thời gian", "options": ["every day", "tonight", "on Mondays", "tomorrow morning"] }
+                ]
+            },
+            "noteVi": "Từ chối lịch sự: Sorry, I can't. I have to work late."
+        },
+        {
+            "slug": "do-you-have-to",
+            "type": "PATTERN",
+            "text": "Do you have to …?",
+            "meaningVi": "Bạn có phải … không?",
+            "examples": [
+                { "en": "Do you have to wear a uniform at work?", "vi": "Đi làm bạn có phải mặc đồng phục không?", "highlight": "Do you have to wear" }
+            ],
+            "pattern": {
+                "template": "Do you have to {do}?",
+                "slots": [
+                    { "name": "do", "hintVi": "động từ nguyên mẫu (+ tân ngữ, thời gian)", "options": ["wear a uniform", "work on weekends", "speak English at work", "get up early"] }
+                ]
+            },
+            "noteVi": "Trả lời ngắn: Yes, I do. / No, I don't. (❌ \"Yes, I have.\")"
+        },
+        {
+            "slug": "meeting",
+            "type": "LEXICAL",
+            "text": "meeting",
+            "meaningVi": "cuộc họp",
+            "ipa": "/ˈmiːtɪŋ/",
+            "examples": [
+                { "en": "I have a meeting with my boss this afternoon.", "vi": "Chiều nay mình có cuộc họp với sếp.", "highlight": "meeting" }
+            ],
+            "noteVi": "Có họp: have a meeting (❌ \"I have meeting\"). Đang họp: I'm in a meeting."
+        },
+        {
+            "slug": "email",
+            "type": "LEXICAL",
+            "text": "email",
+            "meaningVi": "thư điện tử; gửi email",
+            "ipa": "/ˈiːmeɪl/",
+            "examples": [
+                { "en": "I answer emails every morning.", "vi": "Sáng nào mình cũng trả lời email.", "highlight": "emails" }
+            ],
+            "noteVi": "Vừa là danh từ vừa là động từ: I'll email you. Gửi email cho ai: email someone (❌ \"email to someone\")."
+        },
+        {
+            "slug": "uniform",
+            "type": "LEXICAL",
+            "text": "uniform",
+            "meaningVi": "đồng phục",
+            "ipa": "/ˈjuːnɪfɔːrm/",
+            "examples": [
+                { "en": "Nurses have to wear a uniform.", "vi": "Y tá phải mặc đồng phục.", "highlight": "uniform" }
+            ],
+            "noteVi": "u đầu đọc /juː/ nên dùng a: a uniform (❌ an uniform). Mặc: wear a uniform."
+        },
+        {
+            "slug": "customer",
+            "type": "LEXICAL",
+            "text": "customer",
+            "meaningVi": "khách hàng",
+            "ipa": "/ˈkʌstəmər/",
+            "examples": [
+                { "en": "I talk to customers on the phone all day.", "vi": "Cả ngày mình nói chuyện điện thoại với khách hàng.", "highlight": "customers" }
+            ],
+            "noteVi": "Khách mua hàng: customer; khách được mời đến nhà hoặc khách khách sạn: guest; khách của luật sư, công ty dịch vụ: client."
+        },
+        {
+            "slug": "early",
+            "type": "LEXICAL",
+            "text": "early",
+            "meaningVi": "sớm",
+            "ipa": "/ˈɜːrli/",
+            "examples": [
+                { "en": "I have to get up early tomorrow.", "vi": "Mai mình phải dậy sớm.", "highlight": "early" }
+            ],
+            "noteVi": "Dậy sớm: get up early (❌ \"get up soon\"). Trái nghĩa: late."
+        },
+        {
+            "slug": "work-late",
+            "type": "PHRASE",
+            "text": "work late",
+            "meaningVi": "làm muộn, tăng ca",
+            "examples": [
+                { "en": "Sorry, I can't come. I have to work late tonight.", "vi": "Xin lỗi, mình không đến được. Tối nay mình phải làm muộn.", "highlight": "work late" }
+            ],
+            "noteVi": "Làm thêm giờ có lương: work overtime. Tiếng Việt \"tăng ca\" thường dịch là work late hoặc work overtime."
+        },
+        {
+            "slug": "can-ability",
+            "type": "GRAMMAR",
+            "text": "can / can't (ability)",
+            "meaningVi": "có thể, biết (làm gì) / không biết",
+            "examples": [
+                { "en": "I can speak English, but I can't speak Japanese.", "vi": "Mình nói được tiếng Anh, nhưng không nói được tiếng Nhật.", "highlight": "can speak" }
+            ],
+            "grammar": {
+                "ruleVi": "can + động từ nguyên mẫu: biết, làm được. can't (cannot): không biết, không làm được. Giống nhau với mọi chủ ngữ, không có to, không thêm -s. Nói mức độ thêm well, a little ở cuối.",
+                "forms": [
+                    { "label": "khẳng định", "example": "She can drive. I can swim a little." },
+                    { "label": "phủ định", "example": "I can't cook." },
+                    { "label": "câu hỏi", "example": "Can you use Excel? Yes, I can. / No, I can't." },
+                    { "label": "mức độ", "example": "He can speak English very well." },
+                    { "label": "đọc", "example": "khẳng định can đọc nhẹ /kən/; can't đọc rõ, kéo dài /kænt/" }
+                ],
+                "pitfallsVi": [
+                    "Thêm to hoặc -s: \"I can to swim\", \"She cans\", \"She can drives\" → I can swim, She can drive.",
+                    "Dịch \"biết\" thành know: \"I know swim\" → I can swim.",
+                    "Nuốt âm /t/ của can't khiến người nghe hiểu thành can: nhấn và kéo dài can't."
+                ]
+            }
+        },
+        {
+            "slug": "i-can",
+            "type": "PATTERN",
+            "text": "I can … (well / a little).",
+            "meaningVi": "Tôi biết / làm được …",
+            "examples": [
+                { "en": "I can use Excel very well.", "vi": "Mình dùng Excel rất thạo.", "highlight": "I can use" }
+            ],
+            "pattern": {
+                "template": "I can {do}.",
+                "slots": [
+                    { "name": "do", "hintVi": "động từ nguyên mẫu (+ mức độ)", "options": ["speak English a little", "drive a car", "swim very well", "use a computer well"] }
+                ]
+            },
+            "noteVi": "Không làm được: I can't … Đừng bỏ động từ: ❌ \"I can English\" → I can speak English."
+        },
+        {
+            "slug": "can-you",
+            "type": "PATTERN",
+            "text": "Can you …?",
+            "meaningVi": "Bạn có biết / làm được … không?",
+            "examples": [
+                { "en": "Can you speak Chinese?", "vi": "Bạn có nói được tiếng Trung không?", "highlight": "Can you speak" }
+            ],
+            "pattern": {
+                "template": "Can you {do}?",
+                "slots": [
+                    { "name": "do", "hintVi": "động từ nguyên mẫu (+ tân ngữ)", "options": ["drive", "swim", "speak Japanese", "cook Vietnamese food"] }
+                ]
+            },
+            "noteVi": "Trả lời ngắn: Yes, I can. / No, I can't. Can you…? cũng dùng để nhờ (Can you help me?); ở đây là hỏi khả năng."
+        },
+        {
+            "slug": "speak",
+            "type": "LEXICAL",
+            "text": "speak",
+            "meaningVi": "nói (một ngôn ngữ)",
+            "ipa": "/spiːk/",
+            "examples": [
+                { "en": "How many languages can you speak?", "vi": "Bạn nói được mấy thứ tiếng?", "highlight": "speak" }
+            ],
+            "noteVi": "Nói ngôn ngữ dùng speak, không dùng say hoặc talk: speak English (❌ \"talk English\"). Quá khứ: spoke."
+        },
+        {
+            "slug": "drive",
+            "type": "LEXICAL",
+            "text": "drive",
+            "meaningVi": "lái (ô tô)",
+            "ipa": "/draɪv/",
+            "examples": [
+                { "en": "My sister can drive, but I can't.", "vi": "Chị mình biết lái ô tô, còn mình thì không.", "highlight": "drive" }
+            ],
+            "noteVi": "drive a car; xe máy, xe đạp dùng ride (ride a motorbike). Quá khứ: drove. Giữ âm cuối /v/."
+        },
+        {
+            "slug": "swim",
+            "type": "LEXICAL",
+            "text": "swim",
+            "meaningVi": "bơi",
+            "ipa": "/swɪm/",
+            "examples": [
+                { "en": "Can you swim? Yes, but not very well.", "vi": "Bạn biết bơi không? Biết, nhưng không giỏi lắm.", "highlight": "swim" }
+            ],
+            "noteVi": "Đi bơi: go swimming. Quá khứ: swam. Giữ âm cuối /m/."
+        },
+        {
+            "slug": "a-little",
+            "type": "PHRASE",
+            "text": "a little",
+            "meaningVi": "một chút, hơi",
+            "examples": [
+                { "en": "I can speak a little Korean.", "vi": "Mình nói được một chút tiếng Hàn.", "highlight": "a little" }
+            ],
+            "noteVi": "a little là \"một chút\" (tích cực); little không có a là \"rất ít\". Đứng trước danh từ (a little Korean) hoặc cuối câu (I can cook a little)."
+        },
+        {
+            "slug": "very-well",
+            "type": "PHRASE",
+            "text": "very well",
+            "meaningVi": "rất giỏi, rất tốt",
+            "examples": [
+                { "en": "She speaks English very well.", "vi": "Cô ấy nói tiếng Anh rất giỏi.", "highlight": "very well" }
+            ],
+            "noteVi": "well (trạng từ) đứng sau động từ và tân ngữ: speak English very well (❌ \"speak very well English\", \"speak English very good\")."
+        },
+        {
+            "slug": "interview",
+            "type": "LEXICAL",
+            "text": "interview",
+            "meaningVi": "cuộc phỏng vấn; phỏng vấn",
+            "ipa": "/ˈɪntərvjuː/",
+            "examples": [
+                { "en": "I have a job interview on Monday.", "vi": "Thứ Hai mình có buổi phỏng vấn xin việc.", "highlight": "interview" }
+            ],
+            "noteVi": "Nhấn âm đầu: IN-ter-view. Có buổi phỏng vấn: have an interview."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "a2-07-so-what-do-you-do",
+            "title": "So, what do you do?",
+            "situationVi": "Ở tiệc của một người bạn, Tom hỏi bạn làm nghề gì và công việc thế nào.",
+            "lines": [
+                { "speaker": "Tom", "en": "So, what do you do?", "vi": "Vậy bạn làm nghề gì?" },
+                { "speaker": "You", "en": "I'm an accountant. I work for a small company in District 3.", "vi": "Mình là kế toán. Mình làm cho một công ty nhỏ ở Quận 3.", "learnerTurn": true },
+                { "speaker": "Tom", "en": "Do you like it?", "vi": "Bạn có thích không?" },
+                { "speaker": "You", "en": "Yes, my colleagues are nice. But I have to work late a lot.", "vi": "Có, đồng nghiệp dễ thương. Nhưng mình hay phải làm muộn.", "learnerTurn": true },
+                { "speaker": "Tom", "en": "Do you have to work on weekends too?", "vi": "Cuối tuần bạn cũng phải làm à?" },
+                { "speaker": "You", "en": "No, I don't. And I work from home on Fridays.", "vi": "Không. Mà thứ Sáu mình làm ở nhà.", "learnerTurn": true },
+                { "speaker": "Tom", "en": "Lucky you! I have to be at the office every day.", "vi": "Sướng thế! Mình ngày nào cũng phải lên văn phòng." }
+            ]
+        },
+        {
+            "slug": "a2-07-job-interview",
+            "title": "A job interview",
+            "situationVi": "Bạn phỏng vấn làm lễ tân ở một khách sạn. Người phỏng vấn hỏi về kinh nghiệm và kỹ năng.",
+            "lines": [
+                { "speaker": "Interviewer", "en": "Thanks for coming in. Do you have a job right now?", "vi": "Cảm ơn bạn đã đến. Hiện giờ bạn có đang đi làm không?" },
+                { "speaker": "You", "en": "Yes. I work part-time at a café.", "vi": "Có ạ. Em làm bán thời gian ở một quán cà phê.", "learnerTurn": true },
+                { "speaker": "Interviewer", "en": "OK. We have a lot of guests from Korea and Japan. Can you speak any other languages?", "vi": "Được. Chỗ chúng tôi có nhiều khách Hàn và Nhật. Bạn có nói được thứ tiếng nào khác không?" },
+                { "speaker": "You", "en": "I can speak English very well, and I can speak a little Korean.", "vi": "Em nói tiếng Anh rất tốt, và nói được một chút tiếng Hàn.", "learnerTurn": true },
+                { "speaker": "Interviewer", "en": "Great. In this job, you have to work some nights. Is that OK?", "vi": "Tốt. Việc này bạn phải làm một số ca đêm. Được không?" },
+                { "speaker": "You", "en": "Yes, that's fine. Do I have to wear a uniform?", "vi": "Dạ được ạ. Em có phải mặc đồng phục không?", "learnerTurn": true },
+                { "speaker": "Interviewer", "en": "Yes, you do. We give you one. We'll call you next week.", "vi": "Có. Chúng tôi phát cho bạn. Tuần sau chúng tôi sẽ gọi cho bạn." }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "a2-07-l1-where-do-you-work",
+            "title": "Where do you work?",
+            "titleVi": "Bạn làm ở đâu?",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "work-prepositions", "role": "INTRODUCE" },
+                { "item": "i-work-at", "role": "INTRODUCE" },
+                { "item": "job", "role": "INTRODUCE" },
+                { "item": "company", "role": "INTRODUCE" },
+                { "item": "office", "role": "INTRODUCE" },
+                { "item": "boss", "role": "INTRODUCE" },
+                { "item": "colleague", "role": "INTRODUCE" },
+                { "item": "part-time", "role": "INTRODUCE" },
+                { "item": "work-from-home", "role": "INTRODUCE" },
+                { "item": "what-do-you-do", "role": "RECYCLE" },
+                { "item": "im-a-job", "role": "RECYCLE" },
+                { "item": "present-simple-s", "role": "RECYCLE" },
+                { "item": "at-work", "role": "RECYCLE" },
+                { "item": "get-a-job", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["i-work-at", "job", "company", "office", "boss", "colleague", "part-time", "work-from-home"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Làm ở đâu: at, in, for, as",
+                        "bodyVi": "Tiếng Việt chỉ nói \"làm ở\"; tiếng Anh chọn giới từ:\n\n| | ví dụ |\n|---|---|\n| **at** + nơi làm | I work **at** a bank. |\n| **in** + thành phố, ngành | I work **in** Da Nang. He works **in** IT. |\n| **for** + công ty | She works **for** a Japanese company. |\n| **as** + nghề | I work **as** a nurse. |\n\nHỏi: **What do you do?** (nghề gì) · **Where do you work?** (ở đâu).\n\n**job** đếm được (a job); **work** không đếm được (❌ a work).\n\n❌ She work at a school. ❌ I work as engineer. ✅ She **works at** a school. I work **as an** engineer.",
+                        "items": ["work-prepositions", "i-work-at", "what-do-you-do", "im-a-job", "present-simple-s", "job"],
+                        "examples": [
+                            { "en": "I'm an engineer. I work for a software company in Ho Chi Minh City.", "vi": "Mình là kỹ sư. Mình làm cho một công ty phần mềm ở TP.HCM.", "highlight": "I work for" },
+                            { "en": "My sister works part-time at a hotel.", "vi": "Chị mình làm bán thời gian ở một khách sạn.", "highlight": "works part-time at a hotel" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "i-work-at",
+                        "prompts": [
+                            { "cueVi": "Mình làm ở một ngân hàng.", "slots": { "place": "a bank" }, "answer": "I work at a bank." },
+                            { "cueVi": "Mình làm ở một bệnh viện.", "slots": { "place": "a hospital" }, "answer": "I work at a hospital." },
+                            { "cueVi": "Mình làm ở một công ty IT.", "slots": { "place": "an IT company" }, "answer": "I work at an IT company." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["job", "company", "office", "boss", "colleague", "part-time", "work-from-home", "at-work"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "Where do you work?", "vi": "Bạn làm ở đâu?" },
+                            { "en": "I work for a small company in Hanoi.", "vi": "Mình làm cho một công ty nhỏ ở Hà Nội." },
+                            { "en": "My colleagues are really nice.", "vi": "Đồng nghiệp của mình rất dễ thương." },
+                            { "en": "I work from home on Fridays.", "vi": "Thứ Sáu mình làm việc ở nhà." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I work as engineer.", "I work as an engineer.", "I work like an engineer."],
+                                "answer": 1,
+                                "item": "work-prepositions"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "She works ___ a big Japanese company.",
+                                "hintVi": "cho (công ty)",
+                                "answers": ["for"],
+                                "item": "work-prepositions"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Đồng nghiệp\" là:",
+                                "options": ["colleague", "customer", "boss"],
+                                "answer": 0,
+                                "item": "colleague"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "I have a part-time job at a café.",
+                                "options": ["Mình có một quán cà phê nhỏ.", "Mình làm bán thời gian ở một quán cà phê.", "Mình hay ngồi cà phê sau giờ làm."],
+                                "answer": 1,
+                                "item": "part-time"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Thứ Sáu mình làm việc ở nhà.",
+                                "answer": "I work from home on Fridays.",
+                                "item": "work-from-home"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a2-07-l2-have-to",
+            "title": "I have to work late",
+            "titleVi": "Phải và không phải",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "have-to", "role": "INTRODUCE" },
+                { "item": "i-have-to", "role": "INTRODUCE" },
+                { "item": "do-you-have-to", "role": "INTRODUCE" },
+                { "item": "meeting", "role": "INTRODUCE" },
+                { "item": "email", "role": "INTRODUCE" },
+                { "item": "uniform", "role": "INTRODUCE" },
+                { "item": "customer", "role": "INTRODUCE" },
+                { "item": "early", "role": "INTRODUCE" },
+                { "item": "work-late", "role": "INTRODUCE" },
+                { "item": "get-up", "role": "RECYCLE" },
+                { "item": "every-day", "role": "RECYCLE" },
+                { "item": "sorry-i-cant", "role": "RECYCLE" },
+                { "item": "colleague", "role": "RECYCLE" },
+                { "item": "work-from-home", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["i-have-to", "do-you-have-to", "meeting", "email", "uniform", "customer", "early", "work-late"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "have to: phải · don't have to: không cần",
+                        "bodyVi": "**have to** + động từ nguyên mẫu: phải làm. Chia như động từ thường.\n\n| | phải | không phải (không cần) |\n|---|---|---|\n| I / you / we / they | **have to** work | **don't have to** work |\n| he / she | **has to** work | **doesn't have to** work |\n\nHỏi: **Do you have to** wear a uniform? → **Yes, I do.** / **No, I don't.**\n\nQuá khứ: I **had to** stay late yesterday.\n\n**don't have to** là *không cần*, không phải *cấm*: You don't have to come = đến hay không cũng được.\n\n❌ I have work late. ❌ She have to go. ❌ She doesn't has to. ✅ I **have to** work late. She **has to** go. She **doesn't have to**.",
+                        "items": ["have-to", "i-have-to", "do-you-have-to", "work-late", "early", "get-up"],
+                        "examples": [
+                            { "en": "I have to get up early, but I don't have to wear a uniform.", "vi": "Mình phải dậy sớm, nhưng không phải mặc đồng phục.", "highlight": "don't have to wear" },
+                            { "en": "Does she have to work on Saturday? No, she doesn't.", "vi": "Thứ Bảy cô ấy có phải làm không? Không.", "highlight": "Does she have to work" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "i-have-to",
+                        "prompts": [
+                            { "cueVi": "Ngày nào mình cũng phải dậy sớm.", "slots": { "do": "get up early", "when": "every day" }, "answer": "I have to get up early every day." },
+                            { "cueVi": "Tối nay mình phải làm muộn.", "slots": { "do": "work late", "when": "tonight" }, "answer": "I have to work late tonight." },
+                            { "cueVi": "Sáng mai mình phải đi họp.", "slots": { "do": "go to a meeting", "when": "tomorrow morning" }, "answer": "I have to go to a meeting tomorrow morning." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "do-you-have-to",
+                        "prompts": [
+                            { "cueVi": "Hỏi: bạn có phải mặc đồng phục không?", "slots": { "do": "wear a uniform" }, "answer": "Do you have to wear a uniform?" },
+                            { "cueVi": "Hỏi: cuối tuần bạn có phải làm không?", "slots": { "do": "work on weekends" }, "answer": "Do you have to work on weekends?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["meeting", "email", "uniform", "customer", "early", "work-late", "get-up", "every-day"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a2-07-so-what-do-you-do", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["She have to work late.", "She has to work late.", "She has work late."],
+                                "answer": 1,
+                                "item": "have-to"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"You don't have to come.\" nghĩa là:",
+                                "options": ["Bạn không được đến.", "Bạn không cần đến (đến cũng được).", "Bạn chưa đến à?"],
+                                "answer": 1,
+                                "item": "have-to"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Do you have to wear a uniform? No, I ___.",
+                                "answers": ["don't", "do not"],
+                                "item": "do-you-have-to"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "I'm in a meeting. Can I call you back?",
+                                "options": ["Mình đang gặp khách. Mình gọi lại sau nhé?", "Mình đang họp. Mình gọi lại cho bạn sau được không?", "Mình sắp họp. Bạn gọi lại được không?"],
+                                "answer": 1,
+                                "item": "meeting"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Mai mình phải dậy sớm.",
+                                "answer": "I have to get up early tomorrow.",
+                                "item": "early"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a2-07-l3-what-can-you-do",
+            "title": "What can you do?",
+            "titleVi": "Bạn làm được gì?",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "can-ability", "role": "INTRODUCE" },
+                { "item": "i-can", "role": "INTRODUCE" },
+                { "item": "can-you", "role": "INTRODUCE" },
+                { "item": "speak", "role": "INTRODUCE" },
+                { "item": "drive", "role": "INTRODUCE" },
+                { "item": "swim", "role": "INTRODUCE" },
+                { "item": "a-little", "role": "INTRODUCE" },
+                { "item": "very-well", "role": "INTRODUCE" },
+                { "item": "interview", "role": "INTRODUCE" },
+                { "item": "english", "role": "RECYCLE" },
+                { "item": "learn", "role": "RECYCLE" },
+                { "item": "cook", "role": "RECYCLE" },
+                { "item": "job", "role": "RECYCLE" },
+                { "item": "have-to", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["i-can", "can-you", "speak", "drive", "swim", "a-little", "very-well", "interview"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Khả năng: can / can't",
+                        "bodyVi": "**can** + động từ nguyên mẫu: biết, làm được. Giống nhau với mọi chủ ngữ, không to, không -s.\n\n| | ví dụ |\n|---|---|\n| làm được | I **can** drive. She **can** swim. |\n| không làm được | I **can't** cook. |\n| hỏi | **Can you** speak Chinese? → **Yes, I can.** / **No, I can't.** |\n| mức độ | I can speak English **very well** / **a little**. |\n\nPhát âm: **can** trong câu khẳng định đọc nhẹ /kən/; **can't** đọc rõ và dài /kænt/, giữ âm /t/.\n\nNói ngôn ngữ dùng **speak** (❌ talk English).\n\n❌ I can to swim. ❌ She can drives. ❌ I know swim. ❌ I speak very well English. ✅ I **can swim**. She **can drive**. I speak English **very well**.",
+                        "items": ["can-ability", "i-can", "can-you", "speak", "very-well", "a-little"],
+                        "examples": [
+                            { "en": "I can read Japanese a little, but I can't speak it.", "vi": "Mình đọc được chút tiếng Nhật, nhưng không nói được.", "highlight": "can't speak" },
+                            { "en": "Can you drive? Yes, I can.", "vi": "Bạn biết lái ô tô không? Biết.", "highlight": "Can you drive" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "i-can",
+                        "prompts": [
+                            { "cueVi": "Mình nói được một chút tiếng Anh.", "slots": { "do": "speak English a little" }, "answer": "I can speak English a little." },
+                            { "cueVi": "Mình bơi rất giỏi.", "slots": { "do": "swim very well" }, "answer": "I can swim very well." },
+                            { "cueVi": "Mình biết lái ô tô.", "slots": { "do": "drive a car" }, "answer": "I can drive a car." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "can-you",
+                        "prompts": [
+                            { "cueVi": "Hỏi: bạn có biết bơi không?", "slots": { "do": "swim" }, "answer": "Can you swim?" },
+                            { "cueVi": "Hỏi: bạn có nói được tiếng Nhật không?", "slots": { "do": "speak Japanese" }, "answer": "Can you speak Japanese?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["speak", "drive", "swim", "a-little", "very-well", "interview", "cook", "learn"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a2-07-job-interview", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["She can drives.", "She can to drive.", "She can drive."],
+                                "answer": 2,
+                                "item": "can-ability"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Mình biết bơi.\"",
+                                "options": ["I know swim.", "I can swim.", "I can swimming."],
+                                "answer": 1,
+                                "item": "can-ability"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "She speaks English very ___.",
+                                "hintVi": "giỏi",
+                                "answers": ["well"],
+                                "item": "very-well"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "I can't drive, but I can ride a motorbike.",
+                                "options": ["Mình biết lái ô tô và đi xe máy.", "Mình không biết lái ô tô, nhưng đi được xe máy.", "Mình không thích lái xe, mình thích đi xe máy."],
+                                "answer": 1,
+                                "item": "drive"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Mình nói được một chút tiếng Hàn.",
+                                "answer": "I can speak a little Korean.",
+                                "item": "a-little"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "a2-07-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["He work for a bank.", "He works for a bank.", "He works as bank."],
+                "answer": 1,
+                "item": "work-prepositions"
+            },
+            {
+                "kind": "gap",
+                "sentence": "I can't come tonight. I have ___ work late.",
+                "answers": ["to"],
+                "item": "have-to"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["Does she has to wear a uniform?", "Does she have to wear a uniform?", "Do she have to wear a uniform?"],
+                "answer": 1,
+                "item": "have-to"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "We don't have to work on Saturdays.",
+                "options": ["Thứ Bảy bọn mình không được làm việc.", "Thứ Bảy bọn mình không phải làm.", "Thứ Bảy bọn mình không muốn làm."],
+                "answer": 1,
+                "item": "have-to"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["I can speak very well English.", "I can speak English very good.", "I can speak English very well."],
+                "answer": 2,
+                "item": "very-well"
+            },
+            {
+                "kind": "order",
+                "vi": "Bạn có nói được tiếng Nhật không?",
+                "answer": "Can you speak Japanese?",
+                "item": "can-you"
+            }
+        ]
+    }
+}

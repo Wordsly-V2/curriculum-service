@@ -338,6 +338,70 @@
             "options": ["Yes, I would like.", "I'd love to!", "Yes, I like party."],
             "answer": 1,
             "item": "id-love-to"
+        },
+        {
+            "unit": "a2-05-travel",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["I usually go to work by the bus.", "I usually go to work by bus.", "I usually go to work with bus."],
+            "answer": 1,
+            "item": "by-transport"
+        },
+        {
+            "unit": "a2-05-travel",
+            "kind": "choice",
+            "prompt": "Bạn muốn nhờ lễ tân khách sạn gọi taxi một cách lịch sự. Bạn nói:",
+            "options": ["Call me a taxi.", "Could you call a taxi, please?", "You can call taxi?"],
+            "answer": 1,
+            "item": "could-requests"
+        },
+        {
+            "unit": "a2-06-health",
+            "kind": "choice",
+            "prompt": "\"Mình bị sốt và đau đầu.\"",
+            "options": ["I'm fever and my head hurts.", "I have a fever and my head hurts.", "I have fever and my head hurt."],
+            "answer": 1,
+            "item": "have-for-illness"
+        },
+        {
+            "unit": "a2-06-health",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["You should to drink more water.", "You should drinking more water.", "You should drink more water."],
+            "answer": 2,
+            "item": "should-shouldnt"
+        },
+        {
+            "unit": "a2-07-work",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["She has to get up early.", "She have to get up early.", "She has get up early."],
+            "answer": 0,
+            "item": "have-to"
+        },
+        {
+            "unit": "a2-07-work",
+            "kind": "choice",
+            "prompt": "\"You don't have to come.\" nghĩa là:",
+            "options": ["Bạn không được đến.", "Bạn không cần đến.", "Bạn không muốn đến à?"],
+            "answer": 1,
+            "item": "have-to"
+        },
+        {
+            "unit": "a2-08-comparing",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["The train is more cheaper than the plane.", "The train is cheaper than the plane.", "The train is cheaper that the plane."],
+            "answer": 1,
+            "item": "comparatives"
+        },
+        {
+            "unit": "a2-08-comparing",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["It's the biggest city in Vietnam.", "It's biggest city of Vietnam.", "It's the most big city in Vietnam."],
+            "answer": 0,
+            "item": "superlatives"
         }
     ]
 }
