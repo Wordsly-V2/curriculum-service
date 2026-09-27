@@ -1,0 +1,813 @@
+{
+    "slug": "b1-08-made-in",
+    "stage": "b1",
+    "order": 8,
+    "title": "Made in Vietnam",
+    "titleVi": "Được làm ở đâu, xây khi nào",
+    "descriptionVi": "Dùng câu bị động để nói về sản phẩm (Coffee is grown in…, It's made of wood), giới thiệu địa danh và lịch sử (It was built in 1902, It was designed by…) và kể tin ngắn (My bike was stolen, Our flight was canceled).",
+    "canDo": [
+        "Tôi nói được một sản phẩm được làm ở đâu, bằng gì, được trồng và xuất khẩu ra sao.",
+        "Tôi giới thiệu được một địa danh: được xây khi nào, do ai thiết kế, đã trải qua chuyện gì.",
+        "Tôi kể lại được tin ngắn và sự cố bằng câu bị động (was stolen, was canceled, were injured)."
+    ],
+    "items": [
+        {
+            "slug": "passive-present",
+            "type": "GRAMMAR",
+            "text": "am / is / are + V3",
+            "meaningVi": "bị động ở hiện tại",
+            "examples": [
+                { "en": "Coffee is grown in the Central Highlands.", "vi": "Cà phê được trồng ở Tây Nguyên.", "highlight": "is grown" }
+            ],
+            "grammar": {
+                "ruleVi": "Dùng bị động khi điều quan trọng là sự vật, không phải ai làm: be + V3. Muốn nói ai làm thì thêm by. Số nhiều dùng are. made in + nơi, made of + chất liệu, made by + người làm.",
+                "forms": [
+                    { "label": "khẳng định", "example": "This phone is made in Vietnam. Rice is grown in the Mekong Delta." },
+                    { "label": "số nhiều", "example": "These shoes are made in Italy." },
+                    { "label": "phủ định", "example": "It isn't made of plastic." },
+                    { "label": "câu hỏi", "example": "Where is it made? What is it made of?" }
+                ],
+                "pitfallsVi": [
+                    "Quên be: \"It made in Vietnam\" → It's made in Vietnam.",
+                    "Dùng V2 thay V3: \"Coffee is grew\" → Coffee is grown.",
+                    "Nhầm giới từ: \"made from Japan\" → made in Japan; \"made in wood\" → made of wood."
+                ]
+            }
+        },
+        {
+            "slug": "is-made-in",
+            "type": "PATTERN",
+            "text": "… is made in ….",
+            "meaningVi": "… được làm ở ….",
+            "examples": [
+                { "en": "This phone is made in Vietnam.", "vi": "Cái điện thoại này được làm ở Việt Nam.", "highlight": "is made in" }
+            ],
+            "pattern": {
+                "template": "{thing} is made in {place}.",
+                "slots": [
+                    { "name": "thing", "hintVi": "sản phẩm (số ít)", "options": ["This phone", "This shirt", "This car", "My laptop", "This bag"] },
+                    { "name": "place", "hintVi": "quốc gia", "options": ["Vietnam", "China", "Japan", "Korea", "Italy"] }
+                ]
+            },
+            "noteVi": "Nhiều thứ thì are: These shoes are made in Italy. Hỏi: Where is it made?"
+        },
+        {
+            "slug": "its-made-of",
+            "type": "PATTERN",
+            "text": "It's made of ….",
+            "meaningVi": "Nó làm bằng ….",
+            "examples": [
+                { "en": "This chair looks nice. It's made of wood.", "vi": "Cái ghế này đẹp nhỉ. Nó làm bằng gỗ.", "highlight": "It's made of wood" }
+            ],
+            "pattern": {
+                "template": "It's made of {material}.",
+                "slots": [
+                    { "name": "material", "hintVi": "chất liệu", "options": ["wood", "plastic", "glass", "cotton", "metal"] }
+                ]
+            },
+            "noteVi": "made of + chất liệu, made in + nơi, made by + người làm. Hỏi: What is it made of?"
+        },
+        {
+            "slug": "grow",
+            "type": "LEXICAL",
+            "text": "grow",
+            "meaningVi": "trồng; mọc, lớn",
+            "ipa": "/ɡroʊ/",
+            "examples": [
+                { "en": "My grandparents grow rice and vegetables.", "vi": "Ông bà mình trồng lúa và rau.", "highlight": "grow" }
+            ],
+            "noteVi": "grow – grew – grown. Lớn lên: grow up (A2). Trồng lúa, cà phê, rau dùng grow; trồng một cái cây thì plant a tree."
+        },
+        {
+            "slug": "produce",
+            "type": "LEXICAL",
+            "text": "produce",
+            "meaningVi": "sản xuất",
+            "ipa": "/prəˈduːs/",
+            "examples": [
+                { "en": "Vietnam produces a lot of rice and coffee.", "vi": "Việt Nam sản xuất nhiều gạo và cà phê.", "highlight": "produces" }
+            ],
+            "noteVi": "Động từ nhấn âm hai: pro-DUCE. Sản phẩm: product. Ở siêu thị Mỹ, produce (nhấn âm đầu) là khu rau quả tươi."
+        },
+        {
+            "slug": "export",
+            "type": "LEXICAL",
+            "text": "export",
+            "meaningVi": "xuất khẩu",
+            "ipa": "/ɪkˈspɔːrt/",
+            "examples": [
+                { "en": "Vietnam exports coffee to many countries.", "vi": "Việt Nam xuất khẩu cà phê sang nhiều nước.", "highlight": "exports" }
+            ],
+            "noteVi": "Động từ nhấn âm hai (ex-PORT), danh từ nhấn âm đầu (EX-port). Nhập khẩu: import."
+        },
+        {
+            "slug": "factory",
+            "type": "LEXICAL",
+            "text": "factory",
+            "meaningVi": "nhà máy",
+            "ipa": "/ˈfæktəri/",
+            "examples": [
+                { "en": "These shoes are made in a factory near Ho Chi Minh City.", "vi": "Những đôi giày này được làm ở một nhà máy gần Thành phố Hồ Chí Minh.", "highlight": "factory" }
+            ],
+            "noteVi": "Số nhiều: factories. Công nhân nhà máy: factory worker."
+        },
+        {
+            "slug": "wood",
+            "type": "LEXICAL",
+            "text": "wood",
+            "meaningVi": "gỗ",
+            "ipa": "/wʊd/",
+            "examples": [
+                { "en": "The old houses in Hoi An are made of wood.", "vi": "Những ngôi nhà cổ ở Hội An làm bằng gỗ.", "highlight": "wood" }
+            ],
+            "noteVi": "Không đếm được. Đọc /wʊd/ giống would. Bằng gỗ (tính từ): wooden: a wooden table."
+        },
+        {
+            "slug": "passive-past",
+            "type": "GRAMMAR",
+            "text": "was / were + V3",
+            "meaningVi": "bị động ở quá khứ",
+            "examples": [
+                { "en": "The Opera House was built by the French.", "vi": "Nhà hát Lớn do người Pháp xây.", "highlight": "was built" }
+            ],
+            "grammar": {
+                "ruleVi": "Việc đã xảy ra với sự vật trong quá khứ: was / were + V3. Người làm đứng sau by (nếu cần nói). Câu hỏi đảo was / were lên trước: When was it built?",
+                "forms": [
+                    { "label": "khẳng định", "example": "The bridge was built in 1902." },
+                    { "label": "số nhiều", "example": "Many old houses were destroyed in the war." },
+                    { "label": "có by", "example": "It was designed by a French architect." },
+                    { "label": "câu hỏi", "example": "When was it built? Who was it designed by?" }
+                ],
+                "pitfallsVi": [
+                    "\"It built in 1902\" → It was built in 1902.",
+                    "\"When did it build?\" → When was it built?",
+                    "\"It was builded\" → It was built (build là động từ bất quy tắc)."
+                ]
+            }
+        },
+        {
+            "slug": "it-was-built-in",
+            "type": "PATTERN",
+            "text": "It was built in ….",
+            "meaningVi": "Nó được xây vào ….",
+            "examples": [
+                { "en": "The Temple of Literature was built in 1070.", "vi": "Văn Miếu được xây năm 1070.", "highlight": "was built in" }
+            ],
+            "pattern": {
+                "template": "It was built in {when}.",
+                "slots": [
+                    { "name": "when", "hintVi": "năm hoặc thế kỷ", "options": ["1902", "the 11th century", "1975", "the 1800s", "2010"] }
+                ]
+            },
+            "noteVi": "Đọc năm: nineteen oh-two (1902), ten seventy (1070); the 1800s: the eighteen hundreds; the 11th century: the eleventh century."
+        },
+        {
+            "slug": "was-done-by",
+            "type": "PATTERN",
+            "text": "It was … by ….",
+            "meaningVi": "Nó do … (làm).",
+            "examples": [
+                { "en": "It was designed by a famous architect.", "vi": "Nó do một kiến trúc sư nổi tiếng thiết kế.", "highlight": "was designed by" }
+            ],
+            "pattern": {
+                "template": "It was {done} by {someone}.",
+                "slots": [
+                    { "name": "done", "hintVi": "V3", "options": ["built", "designed", "written", "painted", "discovered"] },
+                    { "name": "someone", "hintVi": "người làm", "options": ["the French", "a famous architect", "a young student", "my grandfather", "a local artist"] }
+                ]
+            },
+            "noteVi": "Chỉ thêm by khi người làm đáng nói. Tiếng Việt \"do … làm\" nên hay thành ❌ \"It was designed from…\"."
+        },
+        {
+            "slug": "build",
+            "type": "LEXICAL",
+            "text": "build",
+            "meaningVi": "xây",
+            "ipa": "/bɪld/",
+            "examples": [
+                { "en": "They're building a new bridge across the river.", "vi": "Họ đang xây một cây cầu mới qua sông.", "highlight": "building" }
+            ],
+            "noteVi": "build – built – built. u câm: /bɪld/. Tòa nhà: building."
+        },
+        {
+            "slug": "design",
+            "type": "LEXICAL",
+            "text": "design",
+            "meaningVi": "thiết kế",
+            "ipa": "/dɪˈzaɪn/",
+            "examples": [
+                { "en": "The building was designed by French architects.", "vi": "Tòa nhà do các kiến trúc sư người Pháp thiết kế.", "highlight": "designed" }
+            ],
+            "noteVi": "g câm: /dɪˈzaɪn/. Người thiết kế: designer. Danh từ cũng là design: I love the design."
+        },
+        {
+            "slug": "century",
+            "type": "LEXICAL",
+            "text": "century",
+            "meaningVi": "thế kỷ",
+            "ipa": "/ˈsentʃəri/",
+            "examples": [
+                { "en": "The One Pillar Pagoda was built in the 11th century.", "vi": "Chùa Một Cột được xây vào thế kỷ 11.", "highlight": "century" }
+            ],
+            "noteVi": "the + số thứ tự + century: the 21st century. Tiếng Việt hay dùng số La Mã (thế kỷ XI); tiếng Anh viết the 11th century. Đọc SEN-chờ-ri."
+        },
+        {
+            "slug": "destroy",
+            "type": "LEXICAL",
+            "text": "destroy",
+            "meaningVi": "phá hủy",
+            "ipa": "/dɪˈstrɔɪ/",
+            "examples": [
+                { "en": "The old market was destroyed in a fire.", "vi": "Khu chợ cũ bị một trận hỏa hoạn phá hủy.", "highlight": "destroyed" }
+            ],
+            "noteVi": "Hay dùng bị động: was destroyed by a storm / in the war. Xây lại: rebuild – rebuilt."
+        },
+        {
+            "slug": "tourist-attraction",
+            "type": "PHRASE",
+            "text": "tourist attraction",
+            "meaningVi": "điểm tham quan du lịch",
+            "examples": [
+                { "en": "Ha Long Bay is a famous tourist attraction.", "vi": "Vịnh Hạ Long là một điểm du lịch nổi tiếng.", "highlight": "tourist attraction" }
+            ],
+            "noteVi": "Số nhiều: tourist attractions. Chỗ đông khách du lịch quá: touristy (thân mật)."
+        },
+        {
+            "slug": "passive-or-active",
+            "type": "GRAMMAR",
+            "text": "passive or active?",
+            "meaningVi": "chọn bị động hay chủ động khi kể tin",
+            "examples": [
+                { "en": "My bike was stolen last night.", "vi": "Xe đạp của mình bị trộm tối qua.", "highlight": "was stolen" }
+            ],
+            "grammar": {
+                "ruleVi": "Dùng bị động khi không biết hoặc không cần nói ai làm, hay gặp trong tin tức: was stolen, was canceled, were injured. Biết người làm và muốn nói về họ thì dùng chủ động. Động từ không có tân ngữ (happen, arrive, die) không có dạng bị động.",
+                "forms": [
+                    { "label": "không biết ai làm", "example": "My bike was stolen." },
+                    { "label": "tin tức", "example": "Two people were injured in the accident." },
+                    { "label": "biết người làm", "example": "The police arrested two men." },
+                    { "label": "không có bị động", "example": "The accident happened at 8 a.m." }
+                ],
+                "pitfallsVi": [
+                    "\"What was happened?\" → What happened?",
+                    "\"My bike stole\" → My bike was stolen.",
+                    "\"The flight is canceled yesterday\" → The flight was canceled yesterday."
+                ]
+            }
+        },
+        {
+            "slug": "news",
+            "type": "LEXICAL",
+            "text": "news",
+            "meaningVi": "tin tức",
+            "ipa": "/nuːz/",
+            "examples": [
+                { "en": "Did you see the news last night?", "vi": "Tối qua bạn có xem thời sự không?", "highlight": "news" }
+            ],
+            "noteVi": "Không đếm được, dù có -s: ❌ \"a news\", ❌ \"the news are\" → The news is… Một tin: a piece of news. Người Mỹ đọc /nuːz/."
+        },
+        {
+            "slug": "injured",
+            "type": "LEXICAL",
+            "text": "injured",
+            "meaningVi": "bị thương",
+            "ipa": "/ˈɪndʒərd/",
+            "examples": [
+                { "en": "Two people were injured in the accident.", "vi": "Hai người bị thương trong vụ tai nạn.", "highlight": "injured" }
+            ],
+            "noteVi": "Vết thương, chấn thương: injury. Nói nhẹ, thân mật hơn: hurt: Nobody was hurt."
+        },
+        {
+            "slug": "arrest",
+            "type": "LEXICAL",
+            "text": "arrest",
+            "meaningVi": "bắt (giữ)",
+            "ipa": "/əˈrest/",
+            "examples": [
+                { "en": "The police arrested two men.", "vi": "Công an đã bắt hai người đàn ông.", "highlight": "arrested" }
+            ],
+            "noteVi": "Bị bắt: was arrested. Nhấn âm hai: a-REST. police luôn số nhiều: The police are…"
+        },
+        {
+            "slug": "steal",
+            "type": "LEXICAL",
+            "text": "steal",
+            "meaningVi": "ăn trộm, lấy cắp",
+            "ipa": "/stiːl/",
+            "examples": [
+                { "en": "Someone stole my wallet on the bus.", "vi": "Ai đó lấy cắp ví của mình trên xe buýt.", "highlight": "stole" }
+            ],
+            "noteVi": "steal – stole – stolen. Lấy cắp đồ: steal something; cướp của ai: rob someone. Kẻ trộm: thief."
+        },
+        {
+            "slug": "cancel",
+            "type": "LEXICAL",
+            "text": "cancel",
+            "meaningVi": "hủy",
+            "ipa": "/ˈkænsl/",
+            "examples": [
+                { "en": "Our flight was canceled because of the storm.", "vi": "Chuyến bay của tụi mình bị hủy vì bão.", "highlight": "canceled" }
+            ],
+            "noteVi": "Mỹ viết canceled (một l), Anh viết cancelled. Nhấn âm đầu: CAN-cel. Hủy hẹn: cancel a meeting."
+        },
+        {
+            "slug": "my-was-stolen",
+            "type": "PATTERN",
+            "text": "My … was stolen.",
+            "meaningVi": "… của mình bị trộm.",
+            "examples": [
+                { "en": "My bike was stolen last night.", "vi": "Xe đạp của mình bị trộm tối qua.", "highlight": "was stolen" }
+            ],
+            "pattern": {
+                "template": "My {thing} was stolen.",
+                "slots": [
+                    { "name": "thing", "hintVi": "đồ vật", "options": ["bike", "wallet", "phone", "bag", "laptop"] }
+                ]
+            },
+            "noteVi": "Không biết ai lấy nên dùng bị động. Số nhiều: My keys were stolen. ❌ \"My bike stole\" (nghĩa là xe đạp đi ăn trộm)."
+        },
+        {
+            "slug": "did-you-hear-about",
+            "type": "PATTERN",
+            "text": "Did you hear about …?",
+            "meaningVi": "Bạn nghe tin … chưa?",
+            "examples": [
+                { "en": "Did you hear about the fire downtown?", "vi": "Bạn nghe tin vụ cháy ở trung tâm chưa?", "highlight": "Did you hear about" }
+            ],
+            "pattern": {
+                "template": "Did you hear about {news}?",
+                "slots": [
+                    { "name": "news", "hintVi": "the + sự việc", "options": ["the fire downtown", "the new mall", "the storm", "the accident on the highway", "the concert"] }
+                ]
+            },
+            "noteVi": "Mở đầu kể tin. Đáp: No, what happened? Tin gây bất ngờ: Guess what! / You won't believe… (unit 02)."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "b1-08-old-quarter-walk",
+            "title": "When was it built?",
+            "situationVi": "Bạn dẫn Tom, bạn người Mỹ, đi dạo Hà Nội và giới thiệu các địa danh.",
+            "lines": [
+                { "speaker": "Tom", "en": "Wow, what's that big yellow building?", "vi": "Ồ, tòa nhà to màu vàng kia là gì thế?" },
+                { "speaker": "You", "en": "That's the Opera House. It was built by the French.", "vi": "Đó là Nhà hát Lớn. Nó do người Pháp xây.", "learnerTurn": true },
+                { "speaker": "Tom", "en": "It's beautiful. When was it built?", "vi": "Đẹp thật. Nó được xây khi nào?" },
+                { "speaker": "You", "en": "It was finished in 1911, so it's more than a hundred years old.", "vi": "Nó hoàn thành năm 1911, nên đã hơn một trăm năm tuổi rồi.", "learnerTurn": true },
+                { "speaker": "Tom", "en": "Amazing. And that old bridge we saw this morning, is it from the same time?", "vi": "Tuyệt thật. Còn cây cầu cũ sáng nay mình thấy, có phải cùng thời không?" },
+                { "speaker": "You", "en": "Yes. The Long Bien Bridge was designed by a French company. Part of it was destroyed in the war.", "vi": "Đúng rồi. Cầu Long Biên do một công ty Pháp thiết kế. Một phần cầu bị phá hủy trong chiến tranh.", "learnerTurn": true },
+                { "speaker": "Tom", "en": "Really? But people still use it?", "vi": "Thật à? Mà người ta vẫn đi qua à?" },
+                { "speaker": "You", "en": "Yes, they do. It was repaired, and now it's a popular tourist attraction.", "vi": "Có chứ. Nó được sửa lại, giờ là điểm du lịch nhiều người đến.", "learnerTurn": true },
+                { "speaker": "Tom", "en": "Let's walk across it tomorrow!", "vi": "Mai mình đi bộ qua cầu đi!" },
+                { "speaker": "You", "en": "Sure, but be careful. It's always crowded with motorbikes.", "vi": "Được, nhưng cẩn thận nhé. Lúc nào cũng đông xe máy.", "learnerTurn": true }
+            ]
+        },
+        {
+            "slug": "b1-08-bad-weekend",
+            "title": "You won't believe what happened",
+            "situationVi": "Sáng thứ Hai, Chris, đồng nghiệp người Mỹ, thấy bạn trông mệt mỏi. Bạn kể chuyện cuối tuần.",
+            "lines": [
+                { "speaker": "Chris", "en": "Hey, you look tired. Is everything OK?", "vi": "Này, trông bạn mệt thế. Mọi chuyện ổn chứ?" },
+                { "speaker": "You", "en": "Not really. You won't believe what happened. My motorbike was stolen on Saturday night.", "vi": "Không ổn lắm. Bạn không tin nổi đâu. Tối thứ Bảy mình bị trộm mất xe máy.", "learnerTurn": true },
+                { "speaker": "Chris", "en": "Oh no! Where was it?", "vi": "Trời ơi! Xe để ở đâu?" },
+                { "speaker": "You", "en": "It was parked outside a restaurant. When we came out, it was gone.", "vi": "Xe đỗ ngoài một nhà hàng. Lúc tụi mình ra thì xe mất rồi.", "learnerTurn": true },
+                { "speaker": "Chris", "en": "That's terrible. Did you call the police?", "vi": "Tệ thật. Bạn có báo công an không?" },
+                { "speaker": "You", "en": "Yes. And luckily, it was found the next day. The thief was arrested near the river.", "vi": "Có. May là hôm sau tìm được xe. Tên trộm bị bắt gần bờ sông.", "learnerTurn": true },
+                { "speaker": "Chris", "en": "Wow, what a relief! By the way, did you hear about the storm this weekend?", "vi": "Ôi, may quá! À mà, bạn nghe tin cơn bão cuối tuần này chưa?" },
+                { "speaker": "You", "en": "Yes, I saw it on the news. A lot of flights were canceled.", "vi": "Có, mình xem trên thời sự. Nhiều chuyến bay bị hủy.", "learnerTurn": true },
+                { "speaker": "Chris", "en": "I know. My sister's flight home was canceled, so she's stuck in Da Nang.", "vi": "Đúng thế. Chuyến bay về của em gái mình bị hủy, giờ kẹt ở Đà Nẵng." },
+                { "speaker": "You", "en": "That's too bad. I hope nobody was injured in the storm.", "vi": "Tiếc quá. Mong là không ai bị thương vì bão.", "learnerTurn": true }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "b1-08-l1-made-in",
+            "title": "It's made in Vietnam",
+            "titleVi": "Sản phẩm: làm ở đâu, bằng gì",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "passive-present", "role": "INTRODUCE" },
+                { "item": "is-made-in", "role": "INTRODUCE" },
+                { "item": "its-made-of", "role": "INTRODUCE" },
+                { "item": "grow", "role": "INTRODUCE" },
+                { "item": "produce", "role": "INTRODUCE" },
+                { "item": "export", "role": "INTRODUCE" },
+                { "item": "factory", "role": "INTRODUCE" },
+                { "item": "wood", "role": "INTRODUCE" },
+                { "item": "past-participles", "role": "RECYCLE" },
+                { "item": "coffee", "role": "RECYCLE" },
+                { "item": "famous", "role": "RECYCLE" },
+                { "item": "plastic", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["is-made-in", "its-made-of", "grow", "produce", "export", "factory", "wood"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Bị động: be + V3",
+                        "bodyVi": "Câu bị động đưa **sự vật** lên đầu câu, khi ai làm không quan trọng hoặc ai cũng biết.\n\n| chủ động | bị động |\n|---|---|\n| Farmers **grow** coffee in Dak Lak. | Coffee **is grown** in Dak Lak. |\n| A factory in Bac Ninh **makes** these phones. | These phones **are made** in Bac Ninh. |\n\nCông thức: **am / is / are + V3** (dạng V3 đã học ở A2: grown, made, built, sold…).\n\n| giới từ | nghĩa | ví dụ |\n|---|---|---|\n| made **in** | làm ở (nơi) | It's made **in** Japan. |\n| made **of** | làm bằng (chất liệu) | It's made **of** wood. |\n| made **by** | do (ai) làm | It's made **by** a local artist. |\n\nTiếng Việt có khi dùng \"được\", \"bị\", có khi không có chữ nào (\"Cà phê trồng ở Đắk Lắk\"), nhưng tiếng Anh luôn cần **be**.\n\n❌ It made in Vietnam ❌ Coffee is grew ❌ made from Japan ✅ **It's made in Vietnam.** **Coffee is grown.**",
+                        "items": ["passive-present", "is-made-in", "its-made-of", "grow", "produce", "factory", "wood", "past-participles", "plastic"],
+                        "examples": [
+                            { "en": "Vietnam is famous for its coffee. Most of it is grown in the Central Highlands.", "vi": "Việt Nam nổi tiếng về cà phê. Phần lớn được trồng ở Tây Nguyên.", "highlight": "is grown" },
+                            { "en": "Is this bag made of leather? — No, it's made of plastic.", "vi": "Túi này bằng da à? — Không, bằng nhựa.", "highlight": "made of plastic" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "is-made-in",
+                        "prompts": [
+                            { "cueVi": "Cái điện thoại này được làm ở Việt Nam.", "slots": { "thing": "This phone", "place": "Vietnam" }, "answer": "This phone is made in Vietnam." },
+                            { "cueVi": "Cái áo sơ mi này được may ở Trung Quốc.", "slots": { "thing": "This shirt", "place": "China" }, "answer": "This shirt is made in China." },
+                            { "cueVi": "Chiếc ô tô này được sản xuất ở Nhật.", "slots": { "thing": "This car", "place": "Japan" }, "answer": "This car is made in Japan." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "its-made-of",
+                        "prompts": [
+                            { "cueVi": "Nó làm bằng gỗ.", "slots": { "material": "wood" }, "answer": "It's made of wood." },
+                            { "cueVi": "Nó làm bằng thủy tinh.", "slots": { "material": "glass" }, "answer": "It's made of glass." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["grow", "produce", "export", "factory", "wood", "coffee", "famous", "plastic"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "This phone is made in Vietnam.", "vi": "Cái điện thoại này được làm ở Việt Nam." },
+                            { "en": "Coffee is grown in the Central Highlands.", "vi": "Cà phê được trồng ở Tây Nguyên." },
+                            { "en": "Vietnam exports rice to many countries.", "vi": "Việt Nam xuất khẩu gạo sang nhiều nước." },
+                            { "en": "What is it made of? It's made of wood.", "vi": "Nó làm bằng gì? Nó làm bằng gỗ." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["This shirt made in Vietnam.", "This shirt is made in Vietnam.", "This shirt is make in Vietnam."],
+                                "answer": 1,
+                                "item": "passive-present"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Cái bàn này làm bằng gỗ.\"",
+                                "options": ["This table is made in wood.", "This table is made of wood.", "This table is made by wood."],
+                                "answer": 1,
+                                "item": "its-made-of"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Rice is ___ in the Mekong Delta.",
+                                "hintVi": "grow",
+                                "answers": ["grown"],
+                                "item": "passive-present"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Vietnam exports coffee to many countries.",
+                                "options": ["Việt Nam xuất khẩu cà phê sang nhiều nước.", "Việt Nam nhập khẩu cà phê từ nhiều nước.", "Nhiều nước trồng cà phê giống Việt Nam."],
+                                "answer": 0,
+                                "item": "export"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Những đôi giày này được làm ở một nhà máy.",
+                                "answer": "These shoes are made in a factory.",
+                                "item": "factory"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b1-08-l2-built-in",
+            "title": "It was built in 1902",
+            "titleVi": "Địa danh và lịch sử",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "passive-past", "role": "INTRODUCE" },
+                { "item": "it-was-built-in", "role": "INTRODUCE" },
+                { "item": "was-done-by", "role": "INTRODUCE" },
+                { "item": "build", "role": "INTRODUCE" },
+                { "item": "design", "role": "INTRODUCE" },
+                { "item": "century", "role": "INTRODUCE" },
+                { "item": "destroy", "role": "INTRODUCE" },
+                { "item": "tourist-attraction", "role": "INTRODUCE" },
+                { "item": "passive-present", "role": "RECYCLE" },
+                { "item": "saying-years", "role": "RECYCLE" },
+                { "item": "past-simple-irregular", "role": "RECYCLE" },
+                { "item": "crowded", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["it-was-built-in", "was-done-by", "build", "design", "century", "destroy", "tourist-attraction"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Bị động quá khứ: was / were + V3",
+                        "bodyVi": "Giới thiệu địa danh, lịch sử: dùng **was / were + V3**.\n\n| hiện tại | quá khứ |\n|---|---|\n| It **is made** in Japan. | It **was built** in 1902. |\n| They **are sold** everywhere. | They **were destroyed** in the war. |\n\n**Hỏi**: **When was** it **built**? **Who was** it **designed by**?\n\n**Mốc thời gian**: in 1902 (nineteen oh-two), in the 1800s (the eighteen hundreds), in **the 11th century** (the eleventh century). Tiếng Việt hay dùng số La Mã (thế kỷ XI), tiếng Anh dùng số thứ tự.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| It built in 1902. | It **was built** in 1902. |\n| When did it build? | **When was** it **built**? |\n| It was builded by the French. | It **was built** by the French. |\n\n❌ It built in 1902 ❌ When did it build? ✅ **It was built in 1902.** **When was it built?**",
+                        "items": ["passive-past", "it-was-built-in", "was-done-by", "build", "design", "century", "destroy", "passive-present", "saying-years", "past-simple-irregular"],
+                        "examples": [
+                            { "en": "The Long Bien Bridge was built by the French. It was finished in 1902.", "vi": "Cầu Long Biên do người Pháp xây. Nó hoàn thành năm 1902.", "highlight": "was built by the French" },
+                            { "en": "When was the Opera House built?", "vi": "Nhà hát Lớn được xây khi nào?", "highlight": "When was" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "it-was-built-in",
+                        "prompts": [
+                            { "cueVi": "Nó được xây năm 1902.", "slots": { "when": "1902" }, "answer": "It was built in 1902." },
+                            { "cueVi": "Nó được xây vào thế kỷ 11.", "slots": { "when": "the 11th century" }, "answer": "It was built in the 11th century." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "was-done-by",
+                        "prompts": [
+                            { "cueVi": "Nó do một kiến trúc sư nổi tiếng thiết kế.", "slots": { "done": "designed", "someone": "a famous architect" }, "answer": "It was designed by a famous architect." },
+                            { "cueVi": "Nó do ông mình xây.", "slots": { "done": "built", "someone": "my grandfather" }, "answer": "It was built by my grandfather." },
+                            { "cueVi": "Nó do một họa sĩ địa phương vẽ.", "slots": { "done": "painted", "someone": "a local artist" }, "answer": "It was painted by a local artist." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["build", "design", "century", "destroy", "tourist-attraction", "crowded"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "It was built in 1902.", "vi": "Nó được xây năm 1902." },
+                            { "en": "When was it built?", "vi": "Nó được xây khi nào?" },
+                            { "en": "It was designed by a French architect.", "vi": "Nó do một kiến trúc sư người Pháp thiết kế." },
+                            { "en": "Ha Long Bay is a famous tourist attraction.", "vi": "Vịnh Hạ Long là một điểm du lịch nổi tiếng." }
+                        ]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b1-08-old-quarter-walk", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["It built in 1902.", "It was built in 1902.", "It was build in 1902."],
+                                "answer": 1,
+                                "item": "passive-past"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Hỏi năm xây:",
+                                "options": ["When did it build?", "When was it built?", "When was it build?"],
+                                "answer": 1,
+                                "item": "passive-past"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "It was designed ___ a French architect.",
+                                "answers": ["by"],
+                                "item": "was-done-by"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "The old market was destroyed in a fire.",
+                                "options": ["Khu chợ cũ bị một trận hỏa hoạn phá hủy.", "Khu chợ cũ được xây lại sau trận hỏa hoạn.", "Khu chợ cũ bán đồ chữa cháy."],
+                                "answer": 0,
+                                "item": "destroy"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Vịnh Hạ Long là một điểm du lịch nổi tiếng.",
+                                "answer": "Ha Long Bay is a famous tourist attraction.",
+                                "item": "tourist-attraction"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b1-08-l3-news",
+            "title": "Did you hear about…?",
+            "titleVi": "Kể tin ngắn",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "passive-or-active", "role": "INTRODUCE" },
+                { "item": "news", "role": "INTRODUCE" },
+                { "item": "injured", "role": "INTRODUCE" },
+                { "item": "arrest", "role": "INTRODUCE" },
+                { "item": "steal", "role": "INTRODUCE" },
+                { "item": "cancel", "role": "INTRODUCE" },
+                { "item": "my-was-stolen", "role": "INTRODUCE" },
+                { "item": "did-you-hear-about", "role": "INTRODUCE" },
+                { "item": "passive-past", "role": "RECYCLE" },
+                { "item": "happen", "role": "RECYCLE" },
+                { "item": "you-wont-believe", "role": "RECYCLE" },
+                { "item": "accident", "role": "RECYCLE" },
+                { "item": "luckily", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["news", "injured", "arrest", "steal", "cancel", "my-was-stolen", "did-you-hear-about"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Kể tin: bị động hay chủ động?",
+                        "bodyVi": "Tin tức hay dùng bị động vì **không biết** hoặc **không cần nói** ai làm:\n\n| tin | vì sao |\n|---|---|\n| My bike **was stolen** last night. | không biết ai lấy |\n| Our flight **was canceled**. | ai hủy không quan trọng |\n| Two people **were injured**. | nhấn vào người bị thương |\n| The police **arrested** two men. | biết người làm → chủ động |\n\n**happen** không có bị động: The accident **happened** at 8 a.m. **What happened?**\n\nMở đầu kể tin: **Did you hear about** the storm? **You won't believe** what happened! Kể thêm: **Luckily**, nobody was injured.\n\n**news** không đếm được: The **news is** bad.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| What was happened? | **What happened?** |\n| My bike stole. | My bike **was stolen**. |\n| I have a news. | I have **some news**. |\n\n❌ What was happened? ❌ My bike stole ❌ a news ✅ **What happened?** **My bike was stolen.** **some news**",
+                        "items": ["passive-or-active", "news", "injured", "arrest", "steal", "cancel", "my-was-stolen", "did-you-hear-about", "passive-past", "happen", "you-wont-believe", "luckily"],
+                        "examples": [
+                            { "en": "Did you hear about the accident? Luckily, nobody was injured.", "vi": "Bạn nghe tin vụ tai nạn chưa? May là không ai bị thương.", "highlight": "nobody was injured" },
+                            { "en": "My phone was stolen on the bus, but the police arrested the thief.", "vi": "Điện thoại mình bị trộm trên xe buýt, nhưng công an đã bắt được tên trộm.", "highlight": "was stolen" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "my-was-stolen",
+                        "prompts": [
+                            { "cueVi": "Xe đạp của mình bị trộm.", "slots": { "thing": "bike" }, "answer": "My bike was stolen." },
+                            { "cueVi": "Ví của mình bị trộm.", "slots": { "thing": "wallet" }, "answer": "My wallet was stolen." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "did-you-hear-about",
+                        "prompts": [
+                            { "cueVi": "Hỏi: bạn nghe tin cơn bão chưa?", "slots": { "news": "the storm" }, "answer": "Did you hear about the storm?" },
+                            { "cueVi": "Hỏi: bạn nghe tin vụ cháy ở trung tâm chưa?", "slots": { "news": "the fire downtown" }, "answer": "Did you hear about the fire downtown?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["news", "injured", "arrest", "steal", "cancel", "accident", "luckily", "happen"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b1-08-bad-weekend", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["What was happened?", "What happened?", "What did happened?"],
+                                "answer": 1,
+                                "item": "passive-or-active"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["My wallet stole on the bus.", "My wallet was stolen on the bus.", "My wallet was stole on the bus."],
+                                "answer": 1,
+                                "item": "my-was-stolen"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Our flight was ___ because of the storm.",
+                                "hintVi": "hủy",
+                                "answers": ["canceled", "cancelled"],
+                                "item": "cancel"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Two people were injured in the accident.",
+                                "options": ["Hai người bị thương trong vụ tai nạn.", "Hai người gây ra vụ tai nạn.", "Hai người chứng kiến vụ tai nạn."],
+                                "answer": 0,
+                                "item": "injured"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Bạn nghe tin cơn bão chưa?",
+                                "answer": "Did you hear about the storm?",
+                                "item": "did-you-hear-about"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "b1-08-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "\"Cái áo này được may ở Việt Nam.\"",
+                "options": ["This shirt made in Vietnam.", "This shirt is made in Vietnam.", "This shirt is making in Vietnam."],
+                "answer": 1,
+                "item": "passive-present"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Hỏi về một ngôi chùa:",
+                "options": ["When did this pagoda build?", "When was this pagoda built?", "When this pagoda was built?"],
+                "answer": 1,
+                "item": "passive-past"
+            },
+            {
+                "kind": "gap",
+                "sentence": "It's made ___ wood.",
+                "answers": ["of"],
+                "item": "its-made-of"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["The news are very bad today.", "The news is very bad today.", "A news is very bad today."],
+                "answer": 1,
+                "item": "news"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "Coffee is grown in the Central Highlands and exported to many countries.",
+                "options": ["Cà phê được trồng ở Tây Nguyên và xuất khẩu sang nhiều nước.", "Cà phê được nhập từ nhiều nước về Tây Nguyên.", "Tây Nguyên trồng cà phê nhưng không xuất khẩu."],
+                "answer": 0,
+                "item": "export"
+            },
+            {
+                "kind": "order",
+                "vi": "Xe đạp của mình bị trộm tối qua.",
+                "answer": "My bike was stolen last night.",
+                "item": "my-was-stolen"
+            }
+        ]
+    }
+}
