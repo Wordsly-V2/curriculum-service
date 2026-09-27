@@ -11,7 +11,7 @@ Trạng thái: `draft` đã soạn, qua validator · `reviewed` đã có ngườ
 | Pre-A1 | 6 | 6 | 18 | 128 | 86 | 28 | 10 | 4 |
 | A1 | 10 | 10 | 31 | 260 | 166 | 49 | 33 | 12 |
 | A2 | 12 | 12 | 36 | 301 | 155 | 70 | 49 | 27 |
-| B1 | 12 | 4 | 12 | 95 | 36 | 28 | 19 | 12 |
+| B1 | 12 | 8 | 24 | 191 | 80 | 47 | 41 | 23 |
 
 ## Placement (`placement.json`)
 
@@ -22,7 +22,7 @@ Một bài xếp lớp cho cả lộ trình, 2 câu mỗi unit, theo thứ tự 
 | Pre-A1 | 6/6 | 12 |
 | A1 | 10/10 | 20 |
 | A2 | 12/12 | 24 |
-| B1 | 4/12 | 8 |
+| B1 | 8/12 | 16 |
 
 ## Pre-A1: Foundations
 
@@ -314,10 +314,10 @@ Mốc của stage: "Tôi bày tỏ và bảo vệ được ý kiến đơn giả
 | 2 | `b1-02-what-happened` | quá khứ tiếp diễn, was doing when… / while, kể chuyện có đầu có đuôi, phản ứng khi nghe (How awful!, What a relief!) | 3 | 23 (10/7/4/2) | 2 | draft |
 | 3 | `b1-03-future` | will dự đoán (probably, definitely), I'll / Shall I…? (đề nghị, hứa, quyết định ngay), lịch hẹn bằng hiện tại tiếp diễn, chọn will / going to | 3 | 24 (8/8/5/3) | 2 | draft |
 | 4 | `b1-04-in-my-opinion` | nêu và hỏi ý kiến, đồng ý / phản đối lịch sự, because / so / although / on the other hand; mốc của stage | 3 | 24 (9/8/4/3) | 2 | draft |
-| 5 | `b1-05-if-and-when` | câu điều kiện loại 1, unless, when / as soon as; môi trường, hậu quả | | | | dự kiến |
-| 6 | `b1-06-if-i-were-you` | câu điều kiện loại 2, lời khuyên (If I were you, Why don't you…?, You'd better), I wish | | | | dự kiến |
-| 7 | `b1-07-problems` | phàn nàn và xử lý sự cố (đồ hỏng, dịch vụ, chủ nhà), I'm afraid…, đổi / trả hàng, xin lỗi và đưa giải pháp | | | | dự kiến |
-| 8 | `b1-08-made-in` | bị động hiện tại và quá khứ: sản phẩm, địa danh, lịch sử, tin ngắn | | | | dự kiến |
+| 5 | `b1-05-if-and-when` | câu điều kiện loại 1, What will you do if…?, when / as soon as / until / unless + hiện tại đơn, môi trường và hậu quả | 3 | 24 (8/10/4/2) | 2 | draft |
+| 6 | `b1-06-if-i-were-you` | câu điều kiện loại 2, What would you do if…?, lời khuyên (Why don't you…?, If I were you, You'd better), I wish / hope | 3 | 24 (9/6/6/3) | 2 | draft |
+| 7 | `b1-07-problems` | báo đồ hỏng (isn't working, keeps + V-ing, chủ nhà), đổi / trả hàng (Would you mind + V-ing?), xin lỗi, I'm afraid…, đưa giải pháp (vai lễ tân) | 3 | 24 (13/2/6/3) | 2 | draft |
+| 8 | `b1-08-made-in` | bị động hiện tại (made in / of, grown, exported) và quá khứ (was built, designed by), địa danh Hà Nội, kể tin ngắn (was stolen, was canceled) | 3 | 24 (14/1/6/3) | 2 | draft |
 | 9 | `b1-09-she-said` | câu tường thuật đơn giản (said, told, asked if), chuyển lời nhắn, kể lại tin | | | | dự kiến |
 | 10 | `b1-10-work-and-study` | gerund và to-infinitive (enjoy doing, decide to), tính từ -ed / -ing, phỏng vấn, điểm mạnh | | | | dự kiến |
 | 11 | `b1-11-must-be` | modal suy đoán (must, might, can't be), đoán chuyện, tìm đồ mất | | | | dự kiến |
@@ -346,6 +346,28 @@ Mốc của stage: "Tôi bày tỏ và bảo vệ được ý kiến đơn giả
 | `i-dont-think` | I don't think {opinion}. | 04 |
 | `how-do-you-feel-about` | How do you feel about {topic}? | 04 |
 | `the-main-reason` | The main reason is that {reason}. | 04 |
+| `if-ill` | If {condition}, I'll {do}. | 05 |
+| `what-will-you-do-if` | What will you do if {condition}? | 05 |
+| `ill-call-you-when` | I'll call you when {event}. | 05 |
+| `if-we-dont` | If we don't {action}, {result}. | 05 |
+| `if-i-had-id` | If I had {thing}, I'd {do}. | 06 |
+| `what-would-you-do-if` | What would you do if {situation}? | 06 |
+| `if-i-were-you` | If I were you, I'd {do}. | 06 |
+| `why-dont-you` | Why don't you {do}? | 06 |
+| `youd-better` | You'd better {do}. | 06 |
+| `i-wish-i` | I wish I {wish}. | 06 |
+| `isnt-working` | The {thing} isn't working. | 07 |
+| `theres-something-wrong-with` | There's something wrong with {thing}. | 07 |
+| `id-like-to-return` | I'd like to return {thing}. | 07 |
+| `would-you-mind` | Would you mind {doing}? | 07 |
+| `im-afraid` | I'm afraid {problem}. | 07 |
+| `im-sorry-for` | I'm sorry for {what}. | 07 |
+| `is-made-in` | {thing} is made in {place}. | 08 |
+| `its-made-of` | It's made of {material}. | 08 |
+| `it-was-built-in` | It was built in {when}. | 08 |
+| `was-done-by` | It was {done} by {someone}. | 08 |
+| `my-was-stolen` | My {thing} was stolen. | 08 |
+| `did-you-hear-about` | Did you hear about {news}? | 08 |
 
 ### Ngữ pháp (GRAMMAR)
 
@@ -363,6 +385,17 @@ Mốc của stage: "Tôi bày tỏ và bảo vệ được ý kiến đơn giả
 | `giving-opinions` | I think / I believe / In my opinion, I don't think…, hỏi ý kiến | 04 |
 | `agree-disagree` | I agree (không có am), đồng ý một phần, phản đối mềm | 04 |
 | `linking-reasons` | because / because of, so, but, although; không ghép Vì… nên…, Mặc dù… nhưng… | 04 |
+| `first-conditional` | If + hiện tại đơn, will + V; không will trong vế if | 05 |
+| `time-clauses` | when / as soon as / until / before / after / unless + hiện tại đơn khi nói tương lai; if và when | 05 |
+| `second-conditional` | If + quá khứ đơn, would + V; If I were; loại 1 và loại 2 | 06 |
+| `giving-advice` | Why don't you…?, should, If I were you, I'd…, You'd better (not) + V | 06 |
+| `i-wish` | I wish + quá khứ đơn / could / were; wish và hope | 06 |
+| `describing-problems` | isn't working / doesn't work, is broken, keep + V-ing, There's something wrong with…, hasn't worked since | 07 |
+| `polite-requests` | Could you…?, Is it possible to…?, Would you mind + V-ing? (đáp No, not at all) | 07 |
+| `apologizing` | I'm sorry for + danh từ / V-ing, I'm afraid…, Let me…, It won't happen again | 07 |
+| `passive-present` | am / is / are + V3; made in / of / by | 08 |
+| `passive-past` | was / were + V3, When was it built?, by | 08 |
+| `passive-or-active` | bị động khi không biết / không cần người làm; happen không có bị động | 08 |
 
 ### Lỗi thường gặp của người Việt (B1)
 
@@ -370,6 +403,10 @@ Mốc của stage: "Tôi bày tỏ và bảo vệ được ý kiến đơn giả
 - "I watching TV at 8", "I was watch", "They was", "What did you doing?", "What was happened?", "I cooked when the phone rang" (ý là đang nấu), while với việc ngắn, "falled", "at the end" thay cho in the end, "How is awful!", "How relief!", "I was embarrassing" (unit 02).
 - "It will rains", "I think it won't rain", "It will rain probably", won't và want, "after ten years" (ý là mười năm nữa), "I don't hope so", "I carry it for you" (đề nghị), "I will to call", "Don't worry for me", "That's kind for you", "I will meet Lan tonight" (đã hẹn), "What will you do this weekend?", "I don't sure", "I'll let you to know" (unit 03).
 - "In my opinion, I think", "According to me", "I think it's not a good idea", "How do you think about…?", "I'm agree", "I'm not agree", "I understand what do you mean", "Good idea" khi người kia chỉ nêu ý kiến, "Because…, so…", "Although…, but…", "because the traffic", "In the other hand", convenient và comfortable (unit 04).
+- "If it will rain", "If it rain", "when I will get home", "unless it doesn't rain", "until I don't come back", "lose the bus", "get to home", "remind me call", "close the light", "open the TV", "a pollution", "the climate change" (unit 05).
+- "If I have more money, I'd…", "If I would have", "If I am you", "You'd better to go", "an advice", "advices", "I'm stress", "I wish I have", "I wish I can", "I wish you pass the exam" (ý là hope), "I'm possible to come" (unit 06).
+- "It's not work", "It is broken since Monday", "It keeps to turn off", "Would you mind to check", đáp Yes cho Would you mind…?, "It's not fit", nhầm receipt và recipe, "Sorry for late", "Sorry for make a mistake", "Let me to check", I'm afraid hiểu là sợ, "do a mistake" (unit 07).
+- "It made in Vietnam", "Coffee is grew", "made from Japan", "made in wood", "It built in 1902", "When did it build?", "builded", "It was designed from…", "What was happened?", "My bike stole", "a news", "the news are", "cancelled" / "canceled" (Anh / Mỹ) (unit 08).
 
 ### Ghi chú B1
 
@@ -377,3 +414,7 @@ Mốc của stage: "Tôi bày tỏ và bảo vệ được ý kiến đơn giả
 - `b1-02`: `fell`, `lost` là item theo dạng quá khứ như động từ bất quy tắc A2; rang chỉ nằm trong item `ring`. `embarrassed` dạy ở đây; cặp -ed / -ing đầy đủ để unit 10. "You won't believe…" là cụm cố định, will dạy ở unit 03.
 - `b1-03`: hiện tại tiếp diễn cho lịch hẹn (chưa dạy ở A2) nằm trong `future-forms`; lịch tàu xe hiện tại đơn chỉ nhắc lại (đã có ở `a2-05`).
 - `b1-04`: `what-do-you-think-of` (A2) RECYCLE, không làm item "What do you think about…?" riêng. because, although là item LEXICAL; so, but chỉ nằm trong `linking-reasons`. Checkpoint 6 câu như các unit thường; câu hỏi ôn cả stage để `b1-12`.
+- `b1-05`: hiện tại đơn sau when / as soon as / until / unless nằm chung GRAMMAR `time-clauses`; `as-soon-as` là PHRASE, `until`, `unless` là LEXICAL. `miss-the-bus` là PHRASE vì `miss` (nhớ) đã là item A2. Chủ đề môi trường ở bài 3 dùng lại `in-my-opinion`, `linking-reasons`.
+- `b1-06`: loại 1 và loại 2 so sánh trong EXPLAIN bài 1. `should-shouldnt`, `you-should` (A2) RECYCLE, lời khuyên mới gom trong `giving-advice`. hope (A2) chỉ nhắc trong EXPLAIN để phân biệt với wish.
+- `b1-07`: bài 3 cho người học đóng vai lễ tân (người xử lý phàn nàn) để luyện phía xin lỗi và đưa giải pháp. `air-conditioner` là LEXICAL hai chữ như `living-room`. Thì hiện tại hoàn thành (hasn't worked since) RECYCLE từ `b1-01`.
+- `b1-08`: V3 lấy từ `past-participles` (A2); build, steal có dạng bất quy tắc trong `noteVi`. Hội thoại địa danh dùng Nhà hát Lớn (1911) và cầu Long Biên (1902) ở Hà Nội. Chính tả Mỹ canceled; gap chấp nhận cả cancelled.

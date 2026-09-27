@@ -1,0 +1,758 @@
+{
+    "slug": "b1-05-if-and-when",
+    "stage": "b1",
+    "order": 5,
+    "title": "If and when",
+    "titleVi": "Nếu… thì…, khi nào… thì…",
+    "descriptionVi": "Nói điều gì sẽ xảy ra nếu một việc có thể xảy ra (If it rains, we'll stay home), hẹn việc sẽ làm khi hoặc ngay khi việc khác xảy ra (I'll call you when…, as soon as…, unless…), và nêu hậu quả của các vấn đề môi trường.",
+    "canDo": [
+        "Tôi nói được điều sẽ xảy ra nếu một việc có thể xảy ra, và hỏi người khác sẽ làm gì trong tình huống đó.",
+        "Tôi hẹn được việc sẽ làm khi hoặc ngay khi việc khác xảy ra (I'll call you when…, as soon as…, unless…).",
+        "Tôi nói được hậu quả của các vấn đề môi trường và đề xuất việc nên làm."
+    ],
+    "items": [
+        {
+            "slug": "first-conditional",
+            "type": "GRAMMAR",
+            "text": "If + present simple, … will + V",
+            "meaningVi": "câu điều kiện loại 1: việc có thể xảy ra",
+            "examples": [
+                { "en": "If it rains tomorrow, we'll stay home.", "vi": "Nếu mai trời mưa, tụi mình sẽ ở nhà.", "highlight": "If it rains" }
+            ],
+            "grammar": {
+                "ruleVi": "Nói về việc có thể xảy ra trong tương lai và kết quả của nó. Vế if dùng hiện tại đơn (dù nghĩa là tương lai), vế kết quả dùng will / won't + V. Hai vế đổi chỗ được; if đứng đầu thì có dấu phẩy.",
+                "forms": [
+                    { "label": "khẳng định", "example": "If it rains, we'll stay home." },
+                    { "label": "phủ định", "example": "If you don't hurry, you'll miss the bus." },
+                    { "label": "đảo vế", "example": "We'll stay home if it rains." },
+                    { "label": "câu hỏi", "example": "What will you do if it rains?" }
+                ],
+                "pitfallsVi": [
+                    "\"If it will rain, we'll stay home\" → If it rains, we'll stay home. Không dùng will trong vế if.",
+                    "\"If it rain\" → If it rains: vế if vẫn chia như hiện tại đơn.",
+                    "Quên will ở vế kết quả: \"If it rains tomorrow, we stay home\" → we'll stay home."
+                ]
+            }
+        },
+        {
+            "slug": "if-ill",
+            "type": "PATTERN",
+            "text": "If …, I'll ….",
+            "meaningVi": "Nếu …, mình sẽ ….",
+            "examples": [
+                { "en": "If I have time, I'll call you.", "vi": "Nếu có thời gian, mình sẽ gọi cho bạn.", "highlight": "If I have time, I'll" }
+            ],
+            "pattern": {
+                "template": "If {condition}, I'll {do}.",
+                "slots": [
+                    { "name": "condition", "hintVi": "hiện tại đơn", "options": ["it rains", "I have time", "I finish early", "I get the job", "the bus is late"] },
+                    { "name": "do", "hintVi": "động từ nguyên mẫu", "options": ["stay home", "call you", "help you", "move to Hanoi", "take a taxi"] }
+                ]
+            },
+            "noteVi": "Vế if để hiện tại đơn: ❌ \"If I will have time\". I'll đọc nối thành /aɪl/."
+        },
+        {
+            "slug": "what-will-you-do-if",
+            "type": "PATTERN",
+            "text": "What will you do if …?",
+            "meaningVi": "Bạn sẽ làm gì nếu …?",
+            "examples": [
+                { "en": "What will you do if you don't get the job?", "vi": "Bạn sẽ làm gì nếu không được nhận việc?", "highlight": "What will you do if" }
+            ],
+            "pattern": {
+                "template": "What will you do if {condition}?",
+                "slots": [
+                    { "name": "condition", "hintVi": "hiện tại đơn", "options": ["it rains tomorrow", "you miss the bus", "you don't get the job", "the shop is closed", "your flight is late"] }
+                ]
+            },
+            "noteVi": "Hỏi về tình huống có thể xảy ra thật. Tình huống tưởng tượng (trúng số, biết bay) dùng would, học ở unit sau."
+        },
+        {
+            "slug": "weather-forecast",
+            "type": "PHRASE",
+            "text": "weather forecast",
+            "meaningVi": "dự báo thời tiết",
+            "examples": [
+                { "en": "The weather forecast says it will rain tomorrow.", "vi": "Dự báo thời tiết nói mai trời mưa.", "highlight": "weather forecast" }
+            ],
+            "noteVi": "Nói gọn: The forecast says… (dự báo nói…). forecast nhấn âm đầu: FORE-cast."
+        },
+        {
+            "slug": "get-wet",
+            "type": "PHRASE",
+            "text": "get wet",
+            "meaningVi": "bị ướt",
+            "examples": [
+                { "en": "Take an umbrella, or you'll get wet.", "vi": "Mang ô đi, không thì bị ướt đấy.", "highlight": "get wet" }
+            ],
+            "noteVi": "get + tính từ = bị, trở nên: get wet, get cold, get lost. Ướt sũng: get soaked."
+        },
+        {
+            "slug": "miss-the-bus",
+            "type": "PHRASE",
+            "text": "miss the bus / train / flight",
+            "meaningVi": "lỡ xe buýt / tàu / chuyến bay",
+            "examples": [
+                { "en": "Hurry up, or we'll miss the bus.", "vi": "Nhanh lên, không thì lỡ xe buýt.", "highlight": "miss the bus" }
+            ],
+            "noteVi": "miss ở đây là lỡ, không phải nhớ (I miss you). ❌ \"lose the bus\"."
+        },
+        {
+            "slug": "on-time",
+            "type": "PHRASE",
+            "text": "on time",
+            "meaningVi": "đúng giờ",
+            "examples": [
+                { "en": "If we leave now, we'll get there on time.", "vi": "Nếu đi bây giờ, tụi mình sẽ tới đúng giờ.", "highlight": "on time" }
+            ],
+            "noteVi": "on time = đúng giờ hẹn; in time = kịp (trước khi quá muộn): We got there just in time."
+        },
+        {
+            "slug": "hurry-up",
+            "type": "PHRASE",
+            "text": "Hurry up!",
+            "meaningVi": "Nhanh lên!",
+            "examples": [
+                { "en": "Hurry up! The movie starts in ten minutes.", "vi": "Nhanh lên! Mười phút nữa phim bắt đầu rồi.", "highlight": "Hurry up" }
+            ],
+            "noteVi": "Thân mật. Mềm hơn: We need to hurry. Không cần vội: There's no hurry. / Take your time."
+        },
+        {
+            "slug": "time-clauses",
+            "type": "GRAMMAR",
+            "text": "when / as soon as / until / unless + present simple",
+            "meaningVi": "nói về tương lai sau when, as soon as, until, unless",
+            "examples": [
+                { "en": "I'll call you when I get home.", "vi": "Về tới nhà mình sẽ gọi bạn.", "highlight": "when I get home" }
+            ],
+            "grammar": {
+                "ruleVi": "Sau when, as soon as, until, before, after và unless, nói về tương lai vẫn dùng hiện tại đơn (giống vế if); will chỉ ở vế còn lại. unless = if … not (trừ khi, nếu không). when dùng cho việc chắc sẽ xảy ra, if cho việc chưa chắc.",
+                "forms": [
+                    { "label": "when", "example": "I'll call you when I get home." },
+                    { "label": "as soon as", "example": "I'll text you as soon as I land." },
+                    { "label": "until", "example": "Please wait here until I come back." },
+                    { "label": "unless", "example": "We'll go to the beach unless it rains. (= if it doesn't rain)" }
+                ],
+                "pitfallsVi": [
+                    "\"when I will get home\" → when I get home.",
+                    "\"unless it doesn't rain\" → unless it rains: unless đã mang nghĩa phủ định.",
+                    "if hay when: If I see Tom, I'll tell him (chưa chắc gặp). When I see Tom, I'll tell him (chắc sẽ gặp)."
+                ]
+            }
+        },
+        {
+            "slug": "ill-call-you-when",
+            "type": "PATTERN",
+            "text": "I'll call you when ….",
+            "meaningVi": "Khi … mình sẽ gọi bạn.",
+            "examples": [
+                { "en": "I'll call you when the meeting finishes.", "vi": "Họp xong mình sẽ gọi bạn.", "highlight": "I'll call you when" }
+            ],
+            "pattern": {
+                "template": "I'll call you when {event}.",
+                "slots": [
+                    { "name": "event", "hintVi": "hiện tại đơn", "options": ["I get home", "I arrive", "the meeting finishes", "I land", "I know more"] }
+                ]
+            },
+            "noteVi": "Vế sau when để hiện tại đơn: ❌ \"when I will arrive\". Nhắn tin thay vì gọi: I'll text you when…"
+        },
+        {
+            "slug": "as-soon-as",
+            "type": "PHRASE",
+            "text": "as soon as",
+            "meaningVi": "ngay khi",
+            "examples": [
+                { "en": "I'll text you as soon as I land.", "vi": "Máy bay hạ cánh là mình nhắn bạn ngay.", "highlight": "as soon as" }
+            ],
+            "noteVi": "Nhanh hơn when. Cũng + hiện tại đơn: ❌ \"as soon as I will land\". Càng sớm càng tốt: as soon as possible (ASAP)."
+        },
+        {
+            "slug": "until",
+            "type": "LEXICAL",
+            "text": "until",
+            "meaningVi": "cho đến khi",
+            "ipa": "/ənˈtɪl/",
+            "examples": [
+                { "en": "Please wait here until I come back.", "vi": "Bạn đợi ở đây cho đến khi mình quay lại nhé.", "highlight": "until" }
+            ],
+            "noteVi": "Không thêm not như tiếng Việt \"cho đến khi mình chưa về\": ❌ \"until I don't come back\". + giờ: until 5 p.m. Nói tắt: till."
+        },
+        {
+            "slug": "unless",
+            "type": "LEXICAL",
+            "text": "unless",
+            "meaningVi": "trừ khi, nếu không",
+            "ipa": "/ənˈles/",
+            "examples": [
+                { "en": "We'll go to the beach unless it rains.", "vi": "Tụi mình sẽ đi biển, trừ khi trời mưa.", "highlight": "unless" }
+            ],
+            "noteVi": "unless = if … not. Không thêm not sau unless: ❌ \"unless it doesn't rain\". Nhấn âm hai: un-LESS."
+        },
+        {
+            "slug": "get-home",
+            "type": "PHRASE",
+            "text": "get home",
+            "meaningVi": "về tới nhà",
+            "examples": [
+                { "en": "Text me when you get home.", "vi": "Về tới nhà thì nhắn mình nhé.", "highlight": "get home" }
+            ],
+            "noteVi": "home không có to: ❌ \"get to home\", ❌ \"go to home\". Nơi khác thì có to: get to work, get to the airport."
+        },
+        {
+            "slug": "remind",
+            "type": "LEXICAL",
+            "text": "remind",
+            "meaningVi": "nhắc",
+            "ipa": "/rɪˈmaɪnd/",
+            "examples": [
+                { "en": "Can you remind me to call Mom tonight?", "vi": "Tối nay bạn nhắc mình gọi cho mẹ được không?", "highlight": "remind" }
+            ],
+            "noteVi": "remind someone to + V / about + việc. ❌ \"remind me call\". Khác remember (nhớ): Remind me = nhắc mình."
+        },
+        {
+            "slug": "be-careful",
+            "type": "PHRASE",
+            "text": "Be careful!",
+            "meaningVi": "Cẩn thận nhé!",
+            "examples": [
+                { "en": "Be careful when you cross the street.", "vi": "Qua đường thì cẩn thận nhé.", "highlight": "Be careful" }
+            ],
+            "noteVi": "careful một chữ l. Dặn người sắp đi xa: Take care! / Drive safely!"
+        },
+        {
+            "slug": "environment",
+            "type": "LEXICAL",
+            "text": "environment",
+            "meaningVi": "môi trường",
+            "ipa": "/ɪnˈvaɪrənmənt/",
+            "examples": [
+                { "en": "We all need to protect the environment.", "vi": "Tất cả chúng ta cần bảo vệ môi trường.", "highlight": "environment" }
+            ],
+            "noteVi": "Có the: protect the environment. Nhấn âm hai: en-VI-ron-ment; đừng bỏ âm /n/ giữa từ khi viết: environ-ment."
+        },
+        {
+            "slug": "pollution",
+            "type": "LEXICAL",
+            "text": "pollution",
+            "meaningVi": "ô nhiễm",
+            "ipa": "/pəˈluːʃn/",
+            "examples": [
+                { "en": "Air pollution in big cities is getting worse.", "vi": "Ô nhiễm không khí ở các thành phố lớn ngày càng tệ.", "highlight": "pollution" }
+            ],
+            "noteVi": "Không đếm được: ❌ \"a pollution\", ❌ \"pollutions\". Ô nhiễm không khí: air pollution. Động từ: pollute."
+        },
+        {
+            "slug": "plastic",
+            "type": "LEXICAL",
+            "text": "plastic",
+            "meaningVi": "nhựa; bằng nhựa",
+            "ipa": "/ˈplæstɪk/",
+            "examples": [
+                { "en": "Try to use fewer plastic bags.", "vi": "Cố gắng dùng ít túi ni-lông hơn.", "highlight": "plastic" }
+            ],
+            "noteVi": "Nhấn âm đầu: PLAS-tic. Túi ni-lông: plastic bag; chai nhựa: plastic bottle. Chỉ chất liệu thì không đếm được."
+        },
+        {
+            "slug": "recycle",
+            "type": "LEXICAL",
+            "text": "recycle",
+            "meaningVi": "tái chế",
+            "ipa": "/ˌriːˈsaɪkl/",
+            "examples": [
+                { "en": "We recycle paper, glass and plastic.", "vi": "Nhà mình tái chế giấy, thủy tinh và nhựa.", "highlight": "recycle" }
+            ],
+            "noteVi": "Đọc ri-SAI-cồl. Thùng rác tái chế: recycling bin. Dùng lại: reuse."
+        },
+        {
+            "slug": "waste",
+            "type": "LEXICAL",
+            "text": "waste",
+            "meaningVi": "lãng phí; rác thải",
+            "ipa": "/weɪst/",
+            "examples": [
+                { "en": "Don't waste water. Turn off the tap.", "vi": "Đừng lãng phí nước. Khóa vòi lại.", "highlight": "waste" }
+            ],
+            "noteVi": "Động từ: waste time / money / water. Danh từ: food waste (thức ăn bỏ đi). Đọc giống waist (vòng eo)."
+        },
+        {
+            "slug": "climate-change",
+            "type": "PHRASE",
+            "text": "climate change",
+            "meaningVi": "biến đổi khí hậu",
+            "examples": [
+                { "en": "Climate change is a serious problem for Vietnam.", "vi": "Biến đổi khí hậu là vấn đề nghiêm trọng với Việt Nam.", "highlight": "Climate change" }
+            ],
+            "noteVi": "Không có the: ❌ \"the climate change\". climate đọc /ˈklaɪmət/ (KLAI-mợt)."
+        },
+        {
+            "slug": "if-we-dont",
+            "type": "PATTERN",
+            "text": "If we don't …, ….",
+            "meaningVi": "Nếu chúng ta không …, ….",
+            "examples": [
+                { "en": "If we don't save water, there won't be enough for everyone.", "vi": "Nếu chúng ta không tiết kiệm nước, sẽ không đủ cho mọi người.", "highlight": "If we don't save water" }
+            ],
+            "pattern": {
+                "template": "If we don't {action}, {result}.",
+                "slots": [
+                    { "name": "action", "hintVi": "động từ nguyên mẫu", "options": ["stop using plastic", "save water", "plant more trees", "recycle more", "act now"] },
+                    { "name": "result", "hintVi": "câu với will / won't", "options": ["the ocean will be full of plastic", "there won't be enough water", "the air will get worse", "the city will get dirtier", "it will be too late"] }
+                ]
+            },
+            "noteVi": "Nêu hậu quả để thuyết phục. Gọn hơn với unless: Unless we act now, it will be too late."
+        },
+        {
+            "slug": "turn-off",
+            "type": "PHRASE",
+            "text": "turn off",
+            "meaningVi": "tắt",
+            "examples": [
+                { "en": "Turn off the lights when you leave the room.", "vi": "Ra khỏi phòng thì tắt đèn.", "highlight": "Turn off" }
+            ],
+            "noteVi": "Ngược lại: turn on. ❌ \"close the light\", ❌ \"open the TV\". Tân ngữ là đại từ thì kẹp giữa: turn it off."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "b1-05-airport-goodbye",
+            "title": "Text me when you get there",
+            "situationVi": "Bạn sắp bay vào Đà Nẵng công tác. Sam, bạn cùng nhà người Mỹ, chở bạn ra sân bay và dặn dò.",
+            "lines": [
+                { "speaker": "Sam", "en": "Do you have everything? Your ID, your phone, your charger?", "vi": "Mang đủ chưa? Giấy tờ, điện thoại, sạc?" },
+                { "speaker": "You", "en": "Yes, I think so. Thanks for driving me.", "vi": "Rồi, chắc đủ rồi. Cảm ơn bạn chở mình nhé.", "learnerTurn": true },
+                { "speaker": "Sam", "en": "No problem. Text me when you get to the hotel, OK?", "vi": "Không có gì. Tới khách sạn thì nhắn mình nhé?" },
+                { "speaker": "You", "en": "Sure. I'll text you as soon as I land.", "vi": "Ừ. Máy bay hạ cánh là mình nhắn ngay.", "learnerTurn": true },
+                { "speaker": "Sam", "en": "And what will you do if your flight is late again?", "vi": "Mà nếu chuyến bay lại trễ thì bạn làm sao?" },
+                { "speaker": "You", "en": "I'll call my boss. Unless it's very late, I'll get to the meeting on time.", "vi": "Mình sẽ gọi sếp. Trừ khi trễ nhiều, còn không thì mình vẫn tới họp đúng giờ.", "learnerTurn": true },
+                { "speaker": "Sam", "en": "Good. Be careful, and don't work too hard!", "vi": "Ổn. Cẩn thận nhé, đừng làm việc quá sức!" },
+                { "speaker": "You", "en": "Don't worry. I'll call you when I get home on Friday.", "vi": "Đừng lo. Thứ Sáu về tới nhà mình sẽ gọi bạn.", "learnerTurn": true },
+                { "speaker": "Sam", "en": "Have a good trip!", "vi": "Đi vui vẻ nhé!" }
+            ]
+        },
+        {
+            "slug": "b1-05-beach-clean-up",
+            "title": "Look at all this plastic!",
+            "situationVi": "Sáng Chủ nhật, bạn tham gia nhặt rác ở bãi biển. Emma, một tình nguyện viên người Mỹ, bắt chuyện với bạn.",
+            "lines": [
+                { "speaker": "Emma", "en": "Wow, look at all this plastic! Where does it all come from?", "vi": "Trời, nhìn đống nhựa này kìa! Ở đâu ra nhiều thế?" },
+                { "speaker": "You", "en": "A lot of it comes from the city. People don't recycle enough.", "vi": "Phần lớn từ thành phố. Mọi người không tái chế đủ.", "learnerTurn": true },
+                { "speaker": "Emma", "en": "It's the same in my country. Do you think things will get better?", "vi": "Nước mình cũng vậy. Bạn nghĩ mọi chuyện sẽ khá hơn không?" },
+                { "speaker": "You", "en": "I'm not so sure. If we don't stop using plastic, the ocean will be full of it.", "vi": "Mình không chắc lắm. Nếu chúng ta không ngừng dùng nhựa, đại dương sẽ đầy nhựa.", "learnerTurn": true },
+                { "speaker": "Emma", "en": "That's scary. So what can people do?", "vi": "Nghe đáng sợ thật. Vậy mọi người làm được gì?" },
+                { "speaker": "You", "en": "Small things help. For example, bring your own bag and don't waste water.", "vi": "Việc nhỏ cũng có ích. Ví dụ, tự mang túi và đừng lãng phí nước.", "learnerTurn": true },
+                { "speaker": "Emma", "en": "Good point. And what about the government?", "vi": "Có lý. Còn chính phủ thì sao?" },
+                { "speaker": "You", "en": "In my opinion, unless the government acts now, it will be too late. Climate change is already a big problem here.", "vi": "Theo mình, nếu chính phủ không hành động ngay, sẽ quá muộn. Biến đổi khí hậu ở đây đã là vấn đề lớn rồi.", "learnerTurn": true },
+                { "speaker": "Emma", "en": "I totally agree. Well, let's get back to work!", "vi": "Mình hoàn toàn đồng ý. Thôi, làm tiếp nào!" }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "b1-05-l1-if-it-rains",
+            "title": "If it rains…",
+            "titleVi": "Nếu… thì…: việc có thể xảy ra",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "first-conditional", "role": "INTRODUCE" },
+                { "item": "if-ill", "role": "INTRODUCE" },
+                { "item": "what-will-you-do-if", "role": "INTRODUCE" },
+                { "item": "weather-forecast", "role": "INTRODUCE" },
+                { "item": "get-wet", "role": "INTRODUCE" },
+                { "item": "miss-the-bus", "role": "INTRODUCE" },
+                { "item": "on-time", "role": "INTRODUCE" },
+                { "item": "hurry-up", "role": "INTRODUCE" },
+                { "item": "will-future", "role": "RECYCLE" },
+                { "item": "probably", "role": "RECYCLE" },
+                { "item": "umbrella", "role": "RECYCLE" },
+                { "item": "ill-do", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["if-ill", "what-will-you-do-if", "weather-forecast", "get-wet", "miss-the-bus", "on-time", "hurry-up"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Nếu… thì…: việc có thể xảy ra",
+                        "bodyVi": "Câu điều kiện loại 1 nói về việc **có thể xảy ra** và kết quả của nó.\n\n| vế if (hiện tại đơn) | vế kết quả (will + V) |\n|---|---|\n| **If** it **rains**, | we**'ll stay** home. |\n| **If** you **don't hurry**, | you**'ll miss** the bus. |\n| **If** I **have** time, | I**'ll call** you. |\n\nVế if dùng **hiện tại đơn** dù nói chuyện ngày mai. Tiếng Việt \"nếu mai trời mưa\" không chia thì, nên người Việt hay thêm will vào cả hai vế.\n\nĐổi chỗ hai vế thì bỏ dấu phẩy: We'll stay home **if** it rains.\n\nHỏi: **What will you do if** you miss the bus? Trả lời bằng I'll…, hoặc chưa chắc thì I'll **probably**…\n\n❌ If it will rain, we'll stay home ❌ If it rain ✅ **If it rains, we'll stay home.**",
+                        "items": ["first-conditional", "if-ill", "what-will-you-do-if", "will-future", "probably", "ill-do"],
+                        "examples": [
+                            { "en": "The weather forecast says it will rain. If it rains, we'll stay home.", "vi": "Dự báo nói trời sẽ mưa. Nếu mưa thì tụi mình ở nhà.", "highlight": "If it rains, we'll stay home" },
+                            { "en": "Hurry up! If we don't leave now, we'll miss the bus.", "vi": "Nhanh lên! Không đi ngay thì lỡ xe buýt.", "highlight": "If we don't leave now" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "if-ill",
+                        "prompts": [
+                            { "cueVi": "Nếu trời mưa, mình sẽ ở nhà.", "slots": { "condition": "it rains", "do": "stay home" }, "answer": "If it rains, I'll stay home." },
+                            { "cueVi": "Nếu có thời gian, mình sẽ gọi cho bạn.", "slots": { "condition": "I have time", "do": "call you" }, "answer": "If I have time, I'll call you." },
+                            { "cueVi": "Nếu xe buýt trễ, mình sẽ đi taxi.", "slots": { "condition": "the bus is late", "do": "take a taxi" }, "answer": "If the bus is late, I'll take a taxi." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "what-will-you-do-if",
+                        "prompts": [
+                            { "cueVi": "Hỏi: bạn sẽ làm gì nếu lỡ xe buýt?", "slots": { "condition": "you miss the bus" }, "answer": "What will you do if you miss the bus?" },
+                            { "cueVi": "Hỏi: bạn sẽ làm gì nếu không được nhận việc?", "slots": { "condition": "you don't get the job" }, "answer": "What will you do if you don't get the job?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["weather-forecast", "get-wet", "miss-the-bus", "on-time", "hurry-up", "umbrella", "probably"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "If it rains tomorrow, we'll stay home.", "vi": "Nếu mai trời mưa, tụi mình sẽ ở nhà." },
+                            { "en": "Hurry up, or we'll miss the bus.", "vi": "Nhanh lên, không thì lỡ xe buýt." },
+                            { "en": "What will you do if you don't get the job?", "vi": "Bạn sẽ làm gì nếu không được nhận việc?" },
+                            { "en": "If we leave now, we'll get there on time.", "vi": "Nếu đi bây giờ, tụi mình sẽ tới đúng giờ." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["If it will rain, we'll stay home.", "If it rains, we'll stay home.", "If it rain, we'll stay home."],
+                                "answer": 1,
+                                "item": "first-conditional"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "If you don't hurry, you ___ miss the bus.",
+                                "answers": ["will"],
+                                "item": "first-conditional"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"lỡ chuyến bay\" tiếng Anh là:",
+                                "options": ["lose the flight", "miss the flight", "late the flight"],
+                                "answer": 1,
+                                "item": "miss-the-bus"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "The weather forecast says it will be sunny tomorrow.",
+                                "options": ["Dự báo thời tiết nói mai trời nắng.", "Dự báo thời tiết nói mai trời mưa.", "Hôm nay trời nắng như dự báo."],
+                                "answer": 0,
+                                "item": "weather-forecast"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Bạn sẽ làm gì nếu mai trời mưa?",
+                                "answer": "What will you do if it rains tomorrow?",
+                                "item": "what-will-you-do-if"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b1-05-l2-when-and-unless",
+            "title": "I'll call you when I get home",
+            "titleVi": "Khi nào, ngay khi, trừ khi",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "time-clauses", "role": "INTRODUCE" },
+                { "item": "ill-call-you-when", "role": "INTRODUCE" },
+                { "item": "as-soon-as", "role": "INTRODUCE" },
+                { "item": "until", "role": "INTRODUCE" },
+                { "item": "unless", "role": "INTRODUCE" },
+                { "item": "get-home", "role": "INTRODUCE" },
+                { "item": "remind", "role": "INTRODUCE" },
+                { "item": "be-careful", "role": "INTRODUCE" },
+                { "item": "first-conditional", "role": "RECYCLE" },
+                { "item": "i-promise", "role": "RECYCLE" },
+                { "item": "dont-worry", "role": "RECYCLE" },
+                { "item": "arrive", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["ill-call-you-when", "as-soon-as", "until", "unless", "get-home", "remind", "be-careful"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "when, as soon as, until, unless",
+                        "bodyVi": "Sau **when, as soon as, until, before, after** và **unless**, nói về tương lai vẫn dùng **hiện tại đơn**, giống vế if. **will** chỉ ở vế còn lại.\n\n| từ | nghĩa | ví dụ |\n|---|---|---|\n| **when** | khi (chắc sẽ xảy ra) | I'll call you **when** I get home. |\n| **as soon as** | ngay khi | I'll text you **as soon as** I land. |\n| **until** | cho đến khi | Wait here **until** I come back. |\n| **unless** | trừ khi, nếu không | We'll go **unless** it rains. |\n\n**if hay when?** **If** I see Tom, I'll tell him (chưa chắc gặp). **When** I see Tom, I'll tell him (chắc sẽ gặp).\n\n**unless = if … not**: Unless you hurry = If you don't hurry.\n\nHứa cho người kia yên tâm: **Don't worry.** **I promise** I'll call you when I **arrive**.\n\n❌ when I will get home ❌ unless it doesn't rain ❌ get to home ✅ **when I get home** **unless it rains** **get home**",
+                        "items": ["time-clauses", "ill-call-you-when", "as-soon-as", "until", "unless", "get-home", "first-conditional", "i-promise", "dont-worry", "arrive"],
+                        "examples": [
+                            { "en": "Don't worry. I'll call you as soon as I get home.", "vi": "Đừng lo. Về tới nhà là mình gọi ngay.", "highlight": "as soon as I get home" },
+                            { "en": "You'll miss the bus unless you leave now.", "vi": "Không đi ngay thì bạn sẽ lỡ xe buýt đấy.", "highlight": "unless you leave now" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "ill-call-you-when",
+                        "prompts": [
+                            { "cueVi": "Về tới nhà mình sẽ gọi bạn.", "slots": { "event": "I get home" }, "answer": "I'll call you when I get home." },
+                            { "cueVi": "Họp xong mình sẽ gọi bạn.", "slots": { "event": "the meeting finishes" }, "answer": "I'll call you when the meeting finishes." },
+                            { "cueVi": "Máy bay hạ cánh mình sẽ gọi bạn.", "slots": { "event": "I land" }, "answer": "I'll call you when I land." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["as-soon-as", "until", "unless", "get-home", "remind", "be-careful", "dont-worry", "arrive"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "I'll call you when I get home.", "vi": "Về tới nhà mình sẽ gọi bạn." },
+                            { "en": "I'll text you as soon as I land.", "vi": "Máy bay hạ cánh là mình nhắn bạn ngay." },
+                            { "en": "Please wait here until I come back.", "vi": "Bạn đợi ở đây cho đến khi mình quay lại nhé." },
+                            { "en": "We'll go to the beach unless it rains.", "vi": "Tụi mình sẽ đi biển, trừ khi trời mưa." }
+                        ]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b1-05-airport-goodbye", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I'll call you when I will get home.", "I'll call you when I get home.", "I call you when I'll get home."],
+                                "answer": 1,
+                                "item": "time-clauses"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Tụi mình sẽ đi biển, trừ khi trời mưa.\"",
+                                "options": ["We'll go to the beach unless it rains.", "We'll go to the beach unless it doesn't rain.", "We'll go to the beach if it rains."],
+                                "answer": 0,
+                                "item": "unless"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I'll text you as ___ as I land.",
+                                "answers": ["soon"],
+                                "item": "as-soon-as"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Can you remind me to call Mom tonight?",
+                                "options": ["Tối nay bạn nhắc mình gọi cho mẹ được không?", "Bạn có nhớ gọi cho mẹ tối nay không?", "Tối nay mẹ sẽ gọi cho bạn."],
+                                "answer": 0,
+                                "item": "remind"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Về tới nhà thì nhắn mình nhé.",
+                                "answer": "Text me when you get home.",
+                                "item": "get-home"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b1-05-l3-environment",
+            "title": "If we don't act now…",
+            "titleVi": "Môi trường và hậu quả",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "environment", "role": "INTRODUCE" },
+                { "item": "pollution", "role": "INTRODUCE" },
+                { "item": "plastic", "role": "INTRODUCE" },
+                { "item": "recycle", "role": "INTRODUCE" },
+                { "item": "waste", "role": "INTRODUCE" },
+                { "item": "climate-change", "role": "INTRODUCE" },
+                { "item": "if-we-dont", "role": "INTRODUCE" },
+                { "item": "turn-off", "role": "INTRODUCE" },
+                { "item": "first-conditional", "role": "RECYCLE" },
+                { "item": "unless", "role": "RECYCLE" },
+                { "item": "in-my-opinion", "role": "RECYCLE" },
+                { "item": "linking-reasons", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["environment", "pollution", "plastic", "recycle", "waste", "climate-change", "if-we-dont", "turn-off"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Nêu hậu quả, đưa đề xuất",
+                        "bodyVi": "Nói về môi trường, câu điều kiện loại 1 dùng để **nêu hậu quả** và **thuyết phục**:\n\n| điều kiện | hậu quả |\n|---|---|\n| **If we don't** stop using plastic, | the ocean **will** be full of it. |\n| **If** everyone **recycles**, | there **will** be less waste. |\n| **Unless** we act now, | it **will** be too late. |\n\nThêm ý kiến và lý do (unit 04): **In my opinion**, we should use less plastic **because**…\n\n**pollution, waste, plastic** (chỉ chất liệu) không đếm được: không có a, không thêm -s.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| close the light, open the TV | **turn off** the light, **turn on** the TV |\n| the climate change | **climate change** |\n| a pollution | **pollution**, **air pollution** |\n\n❌ If we will not stop… ❌ close the light ✅ **If we don't stop…** **turn off the light**",
+                        "items": ["if-we-dont", "environment", "pollution", "plastic", "recycle", "waste", "climate-change", "turn-off", "first-conditional", "unless", "in-my-opinion", "linking-reasons"],
+                        "examples": [
+                            { "en": "If we don't save water, there won't be enough for everyone.", "vi": "Nếu chúng ta không tiết kiệm nước, sẽ không đủ cho mọi người.", "highlight": "If we don't save water" },
+                            { "en": "Unless we recycle more, the city will get dirtier.", "vi": "Nếu không tái chế nhiều hơn, thành phố sẽ ngày càng bẩn.", "highlight": "Unless we recycle more" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "if-we-dont",
+                        "prompts": [
+                            { "cueVi": "Nếu chúng ta không ngừng dùng nhựa, đại dương sẽ đầy nhựa.", "slots": { "action": "stop using plastic", "result": "the ocean will be full of plastic" }, "answer": "If we don't stop using plastic, the ocean will be full of plastic." },
+                            { "cueVi": "Nếu chúng ta không tiết kiệm nước, sẽ không đủ nước.", "slots": { "action": "save water", "result": "there won't be enough water" }, "answer": "If we don't save water, there won't be enough water." },
+                            { "cueVi": "Nếu chúng ta không hành động ngay, sẽ quá muộn.", "slots": { "action": "act now", "result": "it will be too late" }, "answer": "If we don't act now, it will be too late." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["environment", "pollution", "plastic", "recycle", "waste", "climate-change", "turn-off", "unless"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b1-05-beach-clean-up", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["Please close the light.", "Please turn off the light.", "Please turn the light out off."],
+                                "answer": 1,
+                                "item": "turn-off"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["Air pollution is getting worse.", "An air pollution is getting worse.", "Air pollutions are getting worse."],
+                                "answer": 0,
+                                "item": "pollution"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "If we don't ___ water, there won't be enough for everyone.",
+                                "hintVi": "tiết kiệm",
+                                "answers": ["save"],
+                                "item": "if-we-dont"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "We recycle paper, glass and plastic.",
+                                "options": ["Nhà mình tái chế giấy, thủy tinh và nhựa.", "Nhà mình vứt giấy, thủy tinh và nhựa.", "Nhà mình mua giấy, thủy tinh và nhựa."],
+                                "answer": 0,
+                                "item": "recycle"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Biến đổi khí hậu là một vấn đề nghiêm trọng.",
+                                "answer": "Climate change is a serious problem.",
+                                "item": "climate-change"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "b1-05-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "\"Nếu mai trời mưa, tụi mình sẽ ở nhà.\"",
+                "options": ["If it will rain tomorrow, we'll stay home.", "If it rains tomorrow, we'll stay home.", "If it rains tomorrow, we stayed home."],
+                "answer": 1,
+                "item": "first-conditional"
+            },
+            {
+                "kind": "gap",
+                "sentence": "I'll call you when I ___ home.",
+                "hintVi": "về tới",
+                "answers": ["get"],
+                "item": "time-clauses"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["Unless you hurry, you'll miss the bus.", "Unless you don't hurry, you'll miss the bus.", "Unless you will hurry, you miss the bus."],
+                "answer": 0,
+                "item": "unless"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nhắc bạn mang ô kẻo bị ướt:",
+                "options": ["Take an umbrella, or you'll get wet.", "Take an umbrella, or you'll be wet by the rain.", "Take an umbrella, so you get wet."],
+                "answer": 0,
+                "item": "get-wet"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "Turn off the lights when you leave the room.",
+                "options": ["Ra khỏi phòng thì tắt đèn.", "Vào phòng thì bật đèn.", "Đừng tắt đèn khi ra khỏi phòng."],
+                "answer": 0,
+                "item": "turn-off"
+            },
+            {
+                "kind": "order",
+                "vi": "Máy bay hạ cánh là mình nhắn bạn ngay.",
+                "answer": "I'll text you as soon as I land.",
+                "item": "as-soon-as"
+            }
+        ]
+    }
+}

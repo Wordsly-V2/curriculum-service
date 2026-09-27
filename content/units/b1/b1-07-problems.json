@@ -1,0 +1,812 @@
+{
+    "slug": "b1-07-problems",
+    "stage": "b1",
+    "order": 7,
+    "title": "Problems",
+    "titleVi": "Phàn nàn và xử lý sự cố",
+    "descriptionVi": "Báo đồ hỏng với chủ nhà hay khách sạn (The air conditioner isn't working, There's something wrong with…), đổi trả hàng lịch sự (I'd like to return…, Would you mind…?), và xin lỗi, báo tin không vui, đưa giải pháp khi mình là người xử lý (I'm sorry for…, I'm afraid…, Let me check).",
+    "canDo": [
+        "Tôi báo được đồ trong nhà hay khách sạn bị hỏng, hỏng từ khi nào, và nhờ người đến sửa.",
+        "Tôi đổi, trả hàng và xin hoàn tiền được một cách lịch sự.",
+        "Tôi xin lỗi, báo tin không vui và đưa ra được giải pháp khi xử lý phàn nàn."
+    ],
+    "items": [
+        {
+            "slug": "describing-problems",
+            "type": "GRAMMAR",
+            "text": "isn't working, is broken, keeps + V-ing, There's something wrong with…",
+            "meaningVi": "mô tả sự cố",
+            "examples": [
+                { "en": "My laptop keeps turning off.", "vi": "Laptop của mình cứ tự tắt.", "highlight": "keeps turning off" }
+            ],
+            "grammar": {
+                "ruleVi": "Đồ không chạy: isn't working / doesn't work. Vỡ, gãy, hỏng hẳn: is broken. Lỗi lặp đi lặp lại: keep + V-ing. Chưa rõ lỗi gì: There's something wrong with… Hỏng từ bao giờ: hiện tại hoàn thành với since / for (unit 01).",
+                "forms": [
+                    { "label": "không chạy", "example": "The air conditioner isn't working." },
+                    { "label": "vỡ, gãy", "example": "The window is broken." },
+                    { "label": "lặp lại", "example": "My laptop keeps turning off." },
+                    { "label": "chưa rõ lỗi", "example": "There's something wrong with my phone." },
+                    { "label": "từ bao giờ", "example": "It hasn't worked since Monday." }
+                ],
+                "pitfallsVi": [
+                    "\"The air conditioner is not work\" → isn't working / doesn't work.",
+                    "\"It is broken since Monday\" → It's been broken since Monday / It hasn't worked since Monday.",
+                    "\"It keeps to turn off\" → It keeps turning off."
+                ]
+            }
+        },
+        {
+            "slug": "isnt-working",
+            "type": "PATTERN",
+            "text": "The … isn't working.",
+            "meaningVi": "… bị hỏng, không chạy.",
+            "examples": [
+                { "en": "The air conditioner isn't working.", "vi": "Máy lạnh bị hỏng rồi.", "highlight": "isn't working" }
+            ],
+            "pattern": {
+                "template": "The {thing} isn't working.",
+                "slots": [
+                    { "name": "thing", "hintVi": "đồ vật", "options": ["air conditioner", "shower", "Wi-Fi", "TV", "elevator"] }
+                ]
+            },
+            "noteVi": "❌ \"is not work\". Cũng nói: doesn't work. Thang máy người Mỹ gọi là elevator (người Anh: lift)."
+        },
+        {
+            "slug": "theres-something-wrong-with",
+            "type": "PATTERN",
+            "text": "There's something wrong with ….",
+            "meaningVi": "… có vấn đề gì đó.",
+            "examples": [
+                { "en": "There's something wrong with my phone.", "vi": "Điện thoại mình có vấn đề gì đó.", "highlight": "There's something wrong with" }
+            ],
+            "pattern": {
+                "template": "There's something wrong with {thing}.",
+                "slots": [
+                    { "name": "thing", "hintVi": "đồ vật", "options": ["my phone", "the sink", "the car", "my laptop", "the lights"] }
+                ]
+            },
+            "noteVi": "Dùng khi chưa biết lỗi cụ thể. Người kia hỏi lại: What's wrong with it?"
+        },
+        {
+            "slug": "broken",
+            "type": "LEXICAL",
+            "text": "broken",
+            "meaningVi": "hỏng, vỡ, gãy",
+            "ipa": "/ˈbroʊkən/",
+            "examples": [
+                { "en": "The window in my bedroom is broken.", "vi": "Cửa sổ phòng ngủ của mình bị vỡ.", "highlight": "broken" }
+            ],
+            "noteVi": "V3 của break. Gãy tay: I broke my arm / My arm is broken. Đồ điện chỉ không chạy thì hay nói isn't working hơn."
+        },
+        {
+            "slug": "leak",
+            "type": "LEXICAL",
+            "text": "leak",
+            "meaningVi": "rò, rỉ (nước, khí)",
+            "ipa": "/liːk/",
+            "examples": [
+                { "en": "The pipe under the sink is leaking.", "vi": "Ống nước dưới bồn rửa bị rò.", "highlight": "leaking" }
+            ],
+            "noteVi": "Vừa là động từ vừa là danh từ: There's a leak in the roof. Đọc dài /iː/, khác lick /lɪk/."
+        },
+        {
+            "slug": "landlord",
+            "type": "LEXICAL",
+            "text": "landlord",
+            "meaningVi": "chủ nhà (cho thuê)",
+            "ipa": "/ˈlændlɔːrd/",
+            "examples": [
+                { "en": "I called my landlord about the broken window.", "vi": "Mình gọi cho chủ nhà về cái cửa sổ bị vỡ.", "highlight": "landlord" }
+            ],
+            "noteVi": "Chủ nhà nữ có thể gọi là landlady. Người thuê nhà: tenant. Tiền thuê: rent."
+        },
+        {
+            "slug": "fix",
+            "type": "LEXICAL",
+            "text": "fix",
+            "meaningVi": "sửa",
+            "ipa": "/fɪks/",
+            "examples": [
+                { "en": "Could you send someone to fix it?", "vi": "Anh cho người đến sửa được không ạ?", "highlight": "fix" }
+            ],
+            "noteVi": "Thân mật hơn repair. Sửa xong: It's fixed. Nhờ người sửa: get it fixed."
+        },
+        {
+            "slug": "air-conditioner",
+            "type": "LEXICAL",
+            "text": "air conditioner",
+            "meaningVi": "máy lạnh, điều hòa",
+            "ipa": "/ˈer kənˌdɪʃənər/",
+            "examples": [
+                { "en": "It's so hot, and the air conditioner isn't working.", "vi": "Nóng quá mà máy lạnh lại hỏng.", "highlight": "air conditioner" }
+            ],
+            "noteVi": "Người Mỹ nói tắt: AC /ˌeɪ ˈsiː/ (người Anh, Úc hay nói air-con). Bật máy lạnh: turn on the AC."
+        },
+        {
+            "slug": "polite-requests",
+            "type": "GRAMMAR",
+            "text": "Could you…? / Is it possible to…? / Would you mind + V-ing?",
+            "meaningVi": "yêu cầu lịch sự",
+            "examples": [
+                { "en": "Would you mind checking again?", "vi": "Phiền bạn kiểm tra lại giúp được không?", "highlight": "Would you mind checking" }
+            ],
+            "grammar": {
+                "ruleVi": "Khi phàn nàn, càng lịch sự càng dễ được giúp. Could you + V? (đã học ở A2). Is it possible to + V? hỏi có được phép không. Would you mind + V-ing? lịch sự hơn nữa; muốn giúp thì trả lời No, not at all (không phiền gì).",
+                "forms": [
+                    { "label": "Could you", "example": "Could you give me a refund?" },
+                    { "label": "Is it possible", "example": "Is it possible to exchange it?" },
+                    { "label": "Would you mind", "example": "Would you mind changing it for a bigger size?" },
+                    { "label": "I'd like to", "example": "I'd like to return this, please." }
+                ],
+                "pitfallsVi": [
+                    "\"Would you mind to check\" → Would you mind checking?",
+                    "Đáp Would you mind…? bằng \"Yes\" nghĩa là CÓ phiền (từ chối). Đồng ý: No, not at all. / Sure.",
+                    "Nói trống không \"Give me a refund\" nghe như ra lệnh → Could I get a refund, please?"
+                ]
+            }
+        },
+        {
+            "slug": "id-like-to-return",
+            "type": "PATTERN",
+            "text": "I'd like to return ….",
+            "meaningVi": "Mình muốn trả lại ….",
+            "examples": [
+                { "en": "I'd like to return this jacket, please.", "vi": "Mình muốn trả lại cái áo khoác này.", "highlight": "I'd like to return" }
+            ],
+            "pattern": {
+                "template": "I'd like to return {thing}.",
+                "slots": [
+                    { "name": "thing", "hintVi": "this / these + đồ vật", "options": ["this jacket", "these shoes", "this phone", "this lamp", "these headphones"] }
+                ]
+            },
+            "noteVi": "Trả lấy tiền: return; đổi sang cái khác: exchange. Nhớ mang hóa đơn: I have the receipt."
+        },
+        {
+            "slug": "would-you-mind",
+            "type": "PATTERN",
+            "text": "Would you mind …?",
+            "meaningVi": "Phiền bạn … được không?",
+            "examples": [
+                { "en": "Would you mind waiting a moment?", "vi": "Phiền anh đợi một chút được không ạ?", "highlight": "Would you mind" }
+            ],
+            "pattern": {
+                "template": "Would you mind {doing}?",
+                "slots": [
+                    { "name": "doing", "hintVi": "V-ing", "options": ["checking again", "changing it", "waiting a moment", "speaking more slowly", "closing the window"] }
+                ]
+            },
+            "noteVi": "Sau mind là V-ing: ❌ \"Would you mind to check\". Đồng ý giúp: No, not at all. / Of course not."
+        },
+        {
+            "slug": "exchange",
+            "type": "LEXICAL",
+            "text": "exchange",
+            "meaningVi": "đổi (hàng, tiền)",
+            "ipa": "/ɪksˈtʃeɪndʒ/",
+            "examples": [
+                { "en": "Can I exchange it for a smaller size?", "vi": "Mình đổi sang cỡ nhỏ hơn được không?", "highlight": "exchange" }
+            ],
+            "noteVi": "exchange A for B. Đổi tiền cũng dùng exchange: exchange money. Nhấn âm hai: ex-CHANGE."
+        },
+        {
+            "slug": "refund",
+            "type": "LEXICAL",
+            "text": "refund",
+            "meaningVi": "tiền hoàn lại",
+            "ipa": "/ˈriːfʌnd/",
+            "examples": [
+                { "en": "Can I get a refund?", "vi": "Mình được hoàn tiền không?", "highlight": "refund" }
+            ],
+            "noteVi": "Danh từ nhấn âm đầu: RE-fund. Hoàn toàn bộ: a full refund. Xin hoàn tiền: Can I get a refund?"
+        },
+        {
+            "slug": "receipt",
+            "type": "LEXICAL",
+            "text": "receipt",
+            "meaningVi": "hóa đơn, biên lai",
+            "ipa": "/rɪˈsiːt/",
+            "examples": [
+                { "en": "Do you have the receipt?", "vi": "Bạn có hóa đơn không?", "highlight": "receipt" }
+            ],
+            "noteVi": "p câm: /rɪˈsiːt/. Đừng nhầm với recipe (công thức nấu ăn). Không có hóa đơn, nhiều cửa hàng chỉ cho đổi, không hoàn tiền."
+        },
+        {
+            "slug": "fit",
+            "type": "LEXICAL",
+            "text": "fit",
+            "meaningVi": "vừa (cỡ)",
+            "ipa": "/fɪt/",
+            "examples": [
+                { "en": "These shoes don't fit. They're too small.", "vi": "Đôi giày này không vừa. Chật quá.", "highlight": "fit" }
+            ],
+            "noteVi": "fit là vừa về cỡ; hợp màu, hợp kiểu thì nói look good on: This color looks good on you. ❌ \"It's not fit\" → It doesn't fit."
+        },
+        {
+            "slug": "size",
+            "type": "LEXICAL",
+            "text": "size",
+            "meaningVi": "cỡ, kích cỡ",
+            "ipa": "/saɪz/",
+            "examples": [
+                { "en": "Do you have this in a bigger size?", "vi": "Cái này có cỡ to hơn không?", "highlight": "size" }
+            ],
+            "noteVi": "Hỏi cỡ: What size are you? Đổi cỡ: in a smaller / bigger size. Cỡ giày Mỹ đánh số khác Việt Nam: size 8 ≈ 41."
+        },
+        {
+            "slug": "apologizing",
+            "type": "GRAMMAR",
+            "text": "I'm sorry for…, I'm afraid…, Let me…, It won't happen again.",
+            "meaningVi": "xin lỗi, báo tin không vui, đưa giải pháp",
+            "examples": [
+                { "en": "I'm sorry for the delay.", "vi": "Xin lỗi vì để anh chờ lâu.", "highlight": "I'm sorry for" }
+            ],
+            "grammar": {
+                "ruleVi": "Xử lý phàn nàn có ba bước: xin lỗi (I'm sorry for + danh từ / V-ing), báo tin không vui cho nhẹ (I'm afraid + câu), đưa giải pháp (Let me…, I'll…, Shall I…?). Hứa không lặp lại: It won't happen again.",
+                "forms": [
+                    { "label": "xin lỗi", "example": "I'm sorry for the mistake. I'm sorry about the noise." },
+                    { "label": "báo tin không vui", "example": "I'm afraid the room isn't ready yet." },
+                    { "label": "giải pháp", "example": "Let me check. I'll call the manager. Shall I bring you another one?" },
+                    { "label": "hứa", "example": "It won't happen again." }
+                ],
+                "pitfallsVi": [
+                    "\"Sorry for late\" → Sorry I'm late. / I'm sorry for being late.",
+                    "\"I'm sorry for make a mistake\" → I'm sorry for making a mistake.",
+                    "I'm afraid ở đây không phải \"mình sợ\": I'm afraid… = Rất tiếc là…"
+                ]
+            }
+        },
+        {
+            "slug": "im-afraid",
+            "type": "PATTERN",
+            "text": "I'm afraid ….",
+            "meaningVi": "Rất tiếc là ….",
+            "examples": [
+                { "en": "I'm afraid we're sold out.", "vi": "Rất tiếc là hết hàng rồi ạ.", "highlight": "I'm afraid" }
+            ],
+            "pattern": {
+                "template": "I'm afraid {problem}.",
+                "slots": [
+                    { "name": "problem", "hintVi": "một câu đầy đủ", "options": ["we're sold out", "the room isn't ready yet", "there's a problem with your order", "I can't help you with that", "the manager isn't here"] }
+                ]
+            },
+            "noteVi": "Không phải \"mình sợ\": mở đầu tin không vui cho nhẹ. Đáp ngắn: I'm afraid not (Rất tiếc là không), I'm afraid so (Rất tiếc là có)."
+        },
+        {
+            "slug": "im-sorry-for",
+            "type": "PATTERN",
+            "text": "I'm sorry for ….",
+            "meaningVi": "Xin lỗi vì ….",
+            "examples": [
+                { "en": "I'm sorry for being late.", "vi": "Xin lỗi vì mình đến muộn.", "highlight": "I'm sorry for" }
+            ],
+            "pattern": {
+                "template": "I'm sorry for {what}.",
+                "slots": [
+                    { "name": "what", "hintVi": "danh từ hoặc V-ing", "options": ["being late", "the mistake", "the delay", "the noise", "not calling you"] }
+                ]
+            },
+            "noteVi": "Sau for là danh từ hoặc V-ing: ❌ \"sorry for late\", ❌ \"sorry for make\". Thân mật: Sorry about that!"
+        },
+        {
+            "slug": "it-wont-happen-again",
+            "type": "PHRASE",
+            "text": "It won't happen again.",
+            "meaningVi": "Sẽ không có lần sau đâu.",
+            "examples": [
+                { "en": "I'm really sorry. It won't happen again.", "vi": "Thật sự xin lỗi. Sẽ không có lần sau đâu.", "highlight": "It won't happen again" }
+            ],
+            "noteVi": "Lời hứa sau khi xin lỗi. won't /woʊnt/ đọc khác want /wɑːnt/."
+        },
+        {
+            "slug": "let-me-check",
+            "type": "PHRASE",
+            "text": "Let me check.",
+            "meaningVi": "Để mình kiểm tra.",
+            "examples": [
+                { "en": "Let me check your reservation.", "vi": "Để em kiểm tra đặt phòng của anh.", "highlight": "Let me check" }
+            ],
+            "noteVi": "Let me + V (không có to): Let me see, Let me help you. ❌ \"Let me to check\"."
+        },
+        {
+            "slug": "mistake",
+            "type": "LEXICAL",
+            "text": "mistake",
+            "meaningVi": "lỗi, sai sót",
+            "ipa": "/mɪˈsteɪk/",
+            "examples": [
+                { "en": "Sorry, there's a mistake on your bill.", "vi": "Xin lỗi, hóa đơn của anh có sai sót.", "highlight": "mistake" }
+            ],
+            "noteVi": "make a mistake (❌ do a mistake). Làm nhầm, vô tình: by mistake."
+        },
+        {
+            "slug": "delay",
+            "type": "LEXICAL",
+            "text": "delay",
+            "meaningVi": "sự chậm trễ; hoãn",
+            "ipa": "/dɪˈleɪ/",
+            "examples": [
+                { "en": "Sorry for the delay. Your food is coming now.", "vi": "Xin lỗi để anh chờ lâu. Đồ ăn của anh ra ngay đây ạ.", "highlight": "delay" }
+            ],
+            "noteVi": "Chuyến bay bị hoãn: The flight is delayed. Nhấn âm hai: de-LAY."
+        },
+        {
+            "slug": "manager",
+            "type": "LEXICAL",
+            "text": "manager",
+            "meaningVi": "quản lý",
+            "ipa": "/ˈmænɪdʒər/",
+            "examples": [
+                { "en": "Can I speak to the manager, please?", "vi": "Cho tôi nói chuyện với quản lý được không?", "highlight": "manager" }
+            ],
+            "noteVi": "Nhấn âm đầu: MA-na-ger, g đọc /dʒ/. Khách phàn nàn lên trên: Can I speak to the manager?"
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "b1-07-return-shoes",
+            "title": "They don't fit",
+            "situationVi": "Bạn mua đôi giày chạy bộ, về thử thì chật. Bạn mang ra cửa hàng ở trung tâm thương mại để đổi.",
+            "lines": [
+                { "speaker": "Sales clerk", "en": "Hi, how can I help you?", "vi": "Chào bạn, mình giúp gì được ạ?" },
+                { "speaker": "You", "en": "Hi. I'd like to return these shoes, please. They don't fit.", "vi": "Chào bạn. Mình muốn trả lại đôi giày này. Nó không vừa.", "learnerTurn": true },
+                { "speaker": "Sales clerk", "en": "I'm sorry to hear that. Do you have the receipt?", "vi": "Tiếc quá. Bạn có hóa đơn không?" },
+                { "speaker": "You", "en": "Yes, here you are. I bought them last Saturday.", "vi": "Có, đây ạ. Mình mua thứ Bảy tuần trước.", "learnerTurn": true },
+                { "speaker": "Sales clerk", "en": "Thanks. Would you like a refund, or do you want to exchange them?", "vi": "Cảm ơn bạn. Bạn muốn hoàn tiền hay đổi đôi khác?" },
+                { "speaker": "You", "en": "Can I exchange them for a bigger size? Size nine, please.", "vi": "Mình đổi sang cỡ to hơn được không? Cỡ 9 ạ.", "learnerTurn": true },
+                { "speaker": "Sales clerk", "en": "Let me see… We don't have size nine in white here. We only have black.", "vi": "Để mình xem… Ở đây không còn cỡ 9 màu trắng. Chỉ còn màu đen." },
+                { "speaker": "You", "en": "Hmm. Would you mind checking your other stores? If not, I'll take the black ones.", "vi": "Hừm. Phiền bạn kiểm tra giúp các cửa hàng khác được không? Không có thì mình lấy đôi đen.", "learnerTurn": true },
+                { "speaker": "Sales clerk", "en": "No, not at all. OK, our downtown store has them. We can send them to your house by Friday.", "vi": "Không phiền gì đâu. Rồi, cửa hàng ở trung tâm có. Bọn mình gửi về nhà bạn trước thứ Sáu nhé." },
+                { "speaker": "You", "en": "That's perfect. Thank you so much.", "vi": "Tuyệt quá. Cảm ơn bạn nhiều.", "learnerTurn": true }
+            ]
+        },
+        {
+            "slug": "b1-07-hotel-front-desk",
+            "title": "I'm sorry about that",
+            "situationVi": "Bạn làm lễ tân ở một khách sạn tại Hội An. Ông Harris, khách người Mỹ, xuống quầy phàn nàn về phòng.",
+            "lines": [
+                { "speaker": "Mr. Harris", "en": "Excuse me. The air conditioner in my room isn't working, and it's really hot.", "vi": "Xin lỗi. Máy lạnh trong phòng tôi bị hỏng, nóng lắm." },
+                { "speaker": "You", "en": "I'm so sorry about that. What's your room number, please?", "vi": "Thành thật xin lỗi ông. Ông ở phòng số mấy ạ?", "learnerTurn": true },
+                { "speaker": "Mr. Harris", "en": "Room 305. And there's something wrong with the shower, too. The water keeps turning cold.", "vi": "Phòng 305. Vòi sen cũng có vấn đề. Nước cứ bị lạnh." },
+                { "speaker": "You", "en": "I'm sorry for the trouble. Let me check… I'm afraid our technician isn't here until six.", "vi": "Xin lỗi đã làm phiền ông. Để tôi kiểm tra… Rất tiếc là thợ kỹ thuật sáu giờ mới có mặt.", "learnerTurn": true },
+                { "speaker": "Mr. Harris", "en": "Six? I can't wait that long. I have a meeting at four.", "vi": "Sáu giờ? Tôi không đợi lâu vậy được. Bốn giờ tôi có cuộc họp." },
+                { "speaker": "You", "en": "I understand. Shall I move you to another room? We have a nice room on the fifth floor.", "vi": "Tôi hiểu ạ. Tôi chuyển ông sang phòng khác nhé? Chúng tôi có một phòng đẹp trên tầng năm.", "learnerTurn": true },
+                { "speaker": "Mr. Harris", "en": "Yes, that would be great. Is it ready now?", "vi": "Được, vậy thì tốt quá. Phòng sẵn sàng chưa?" },
+                { "speaker": "You", "en": "Yes, it is. I'll send someone to help with your bags right away.", "vi": "Rồi ạ. Tôi sẽ cho người lên mang hành lý giúp ông ngay.", "learnerTurn": true },
+                { "speaker": "Mr. Harris", "en": "Thank you. I appreciate it.", "vi": "Cảm ơn. Tôi rất cảm kích." },
+                { "speaker": "You", "en": "You're welcome. Again, I'm sorry. It won't happen again.", "vi": "Không có gì ạ. Một lần nữa xin lỗi ông. Sẽ không có lần sau đâu ạ.", "learnerTurn": true }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "b1-07-l1-its-not-working",
+            "title": "It isn't working",
+            "titleVi": "Báo đồ hỏng",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "describing-problems", "role": "INTRODUCE" },
+                { "item": "isnt-working", "role": "INTRODUCE" },
+                { "item": "theres-something-wrong-with", "role": "INTRODUCE" },
+                { "item": "broken", "role": "INTRODUCE" },
+                { "item": "leak", "role": "INTRODUCE" },
+                { "item": "landlord", "role": "INTRODUCE" },
+                { "item": "fix", "role": "INTRODUCE" },
+                { "item": "air-conditioner", "role": "INTRODUCE" },
+                { "item": "present-perfect-duration", "role": "RECYCLE" },
+                { "item": "could-you", "role": "RECYCLE" },
+                { "item": "as-soon-as", "role": "RECYCLE" },
+                { "item": "ill-do", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["isnt-working", "theres-something-wrong-with", "broken", "leak", "landlord", "fix", "air-conditioner"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Báo đồ hỏng",
+                        "bodyVi": "| tình huống | nói |\n|---|---|\n| đồ không chạy | The AC **isn't working**. / It **doesn't work**. |\n| vỡ, gãy | The window **is broken**. |\n| rò nước | The pipe **is leaking**. |\n| lỗi lặp đi lặp lại | My laptop **keeps turning** off. |\n| chưa rõ lỗi | **There's something wrong with** my phone. |\n| hỏng từ bao giờ | It **hasn't worked since** Monday. |\n\nBáo xong thì nhờ sửa lịch sự: **Could you** send someone to **fix** it **as soon as** possible?\n\nChủ nhà thường hứa: **I'll** send someone tomorrow.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| The AC is broken. (chỉ là không mát) | The AC **isn't working** (properly). |\n| It's not work. | It **isn't working**. / It **doesn't work**. |\n| It keeps to turn off. | It **keeps turning** off. |\n\n❌ It's not work ❌ It is broken since Monday ✅ **It isn't working.** **It hasn't worked since Monday.**",
+                        "items": ["describing-problems", "isnt-working", "theres-something-wrong-with", "broken", "leak", "fix", "present-perfect-duration", "could-you", "as-soon-as", "ill-do"],
+                        "examples": [
+                            { "en": "Hi, this is Lan in apartment 5B. The air conditioner isn't working.", "vi": "Chào anh, em là Lan ở căn 5B. Máy lạnh bị hỏng ạ.", "highlight": "isn't working" },
+                            { "en": "It hasn't worked since Monday. Could you send someone to fix it?", "vi": "Nó hỏng từ thứ Hai rồi. Anh cho người đến sửa được không ạ?", "highlight": "hasn't worked since Monday" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "isnt-working",
+                        "prompts": [
+                            { "cueVi": "Báo: máy lạnh bị hỏng.", "slots": { "thing": "air conditioner" }, "answer": "The air conditioner isn't working." },
+                            { "cueVi": "Báo: vòi sen bị hỏng.", "slots": { "thing": "shower" }, "answer": "The shower isn't working." },
+                            { "cueVi": "Báo: thang máy bị hỏng.", "slots": { "thing": "elevator" }, "answer": "The elevator isn't working." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "theres-something-wrong-with",
+                        "prompts": [
+                            { "cueVi": "Điện thoại mình có vấn đề gì đó.", "slots": { "thing": "my phone" }, "answer": "There's something wrong with my phone." },
+                            { "cueVi": "Bồn rửa có vấn đề gì đó.", "slots": { "thing": "the sink" }, "answer": "There's something wrong with the sink." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["broken", "leak", "landlord", "fix", "air-conditioner", "as-soon-as"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "The air conditioner isn't working.", "vi": "Máy lạnh bị hỏng rồi." },
+                            { "en": "There's something wrong with the shower.", "vi": "Vòi sen có vấn đề gì đó." },
+                            { "en": "It hasn't worked since Monday.", "vi": "Nó hỏng từ thứ Hai rồi." },
+                            { "en": "Could you send someone to fix it as soon as possible?", "vi": "Anh cho người đến sửa sớm nhất có thể được không ạ?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["The TV is not work.", "The TV isn't working.", "The TV not working."],
+                                "answer": 1,
+                                "item": "isnt-working"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Laptop cứ tự tắt hoài. Bạn nói:",
+                                "options": ["My laptop keeps turning off.", "My laptop keeps to turn off.", "My laptop is keep turning off."],
+                                "answer": 0,
+                                "item": "describing-problems"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Could you send someone to ___ it?",
+                                "hintVi": "sửa",
+                                "answers": ["fix", "repair"],
+                                "item": "fix"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "The pipe under the sink is leaking.",
+                                "options": ["Ống nước dưới bồn rửa bị rò.", "Bồn rửa bị tắc.", "Ống nước dưới bồn rửa bị vỡ."],
+                                "answer": 0,
+                                "item": "leak"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Mình gọi cho chủ nhà về cái cửa sổ bị vỡ.",
+                                "answer": "I called my landlord about the broken window.",
+                                "item": "landlord"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b1-07-l2-returns",
+            "title": "I'd like to return this",
+            "titleVi": "Đổi và trả hàng",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "polite-requests", "role": "INTRODUCE" },
+                { "item": "id-like-to-return", "role": "INTRODUCE" },
+                { "item": "would-you-mind", "role": "INTRODUCE" },
+                { "item": "exchange", "role": "INTRODUCE" },
+                { "item": "refund", "role": "INTRODUCE" },
+                { "item": "receipt", "role": "INTRODUCE" },
+                { "item": "fit", "role": "INTRODUCE" },
+                { "item": "size", "role": "INTRODUCE" },
+                { "item": "describing-problems", "role": "RECYCLE" },
+                { "item": "broken", "role": "RECYCLE" },
+                { "item": "id-like", "role": "RECYCLE" },
+                { "item": "here-you-are", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["id-like-to-return", "would-you-mind", "exchange", "refund", "receipt", "fit", "size"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Đổi trả hàng lịch sự",
+                        "bodyVi": "**Nêu việc muốn làm**: **I'd like to return** this jacket. (trả) / I'd like to **exchange** it **for** a bigger **size**. (đổi)\n\n**Nêu lý do**: It **doesn't fit**. It's too small. It's **broken**. There's something wrong with it.\n\n**Nhờ lịch sự**, từ thường đến lịch sự hơn:\n\n| cách hỏi | theo sau | ví dụ |\n|---|---|---|\n| **Could you**…? | nguyên mẫu | Could you check again? |\n| **Is it possible to**…? | nguyên mẫu | Is it possible to get a **refund**? |\n| **Would you mind**…? | **V-ing** | Would you mind **checking** again? |\n\nĐáp Would you mind…? mà muốn giúp thì nói **No, not at all** (không phiền gì), không nói Yes.\n\nNhân viên sẽ hỏi: Do you have the **receipt**? Đưa hóa đơn: **Here you are.**\n\n❌ Would you mind to check ❌ It's not fit ❌ Give me my money back ✅ **Would you mind checking?** **It doesn't fit.** **Could I get a refund, please?**",
+                        "items": ["polite-requests", "id-like-to-return", "would-you-mind", "exchange", "refund", "receipt", "fit", "size", "broken", "id-like", "here-you-are"],
+                        "examples": [
+                            { "en": "I'd like to return these shoes. They don't fit.", "vi": "Mình muốn trả lại đôi giày này. Nó không vừa.", "highlight": "I'd like to return these shoes" },
+                            { "en": "Would you mind changing it for a bigger size?", "vi": "Phiền bạn đổi giúp cỡ to hơn được không?", "highlight": "Would you mind changing it" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "id-like-to-return",
+                        "prompts": [
+                            { "cueVi": "Mình muốn trả lại cái áo khoác này.", "slots": { "thing": "this jacket" }, "answer": "I'd like to return this jacket." },
+                            { "cueVi": "Mình muốn trả lại đôi giày này.", "slots": { "thing": "these shoes" }, "answer": "I'd like to return these shoes." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "would-you-mind",
+                        "prompts": [
+                            { "cueVi": "Phiền bạn kiểm tra lại giúp được không?", "slots": { "doing": "checking again" }, "answer": "Would you mind checking again?" },
+                            { "cueVi": "Phiền bạn đợi một chút được không?", "slots": { "doing": "waiting a moment" }, "answer": "Would you mind waiting a moment?" },
+                            { "cueVi": "Phiền bạn nói chậm hơn được không?", "slots": { "doing": "speaking more slowly" }, "answer": "Would you mind speaking more slowly?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["exchange", "refund", "receipt", "fit", "size", "broken", "here-you-are"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "I'd like to return this jacket, please.", "vi": "Mình muốn trả lại cái áo khoác này." },
+                            { "en": "Can I exchange it for a smaller size?", "vi": "Mình đổi sang cỡ nhỏ hơn được không?" },
+                            { "en": "Would you mind checking again?", "vi": "Phiền bạn kiểm tra lại giúp được không?" },
+                            { "en": "Can I get a refund?", "vi": "Mình được hoàn tiền không?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b1-07-return-shoes", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["Would you mind to check again?", "Would you mind checking again?", "Would you mind check again?"],
+                                "answer": 1,
+                                "item": "would-you-mind"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nhân viên hỏi \"Would you mind waiting a moment?\". Bạn đồng ý:",
+                                "options": ["Yes, I would.", "No, not at all.", "Yes, I mind."],
+                                "answer": 1,
+                                "item": "polite-requests"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Giày chật, bạn nói:",
+                                "options": ["These shoes don't fit.", "These shoes are not fit.", "These shoes don't fit size."],
+                                "answer": 0,
+                                "item": "fit"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Do you have the receipt?",
+                                "options": ["Bạn có hóa đơn không?", "Bạn có công thức nấu ăn không?", "Bạn đã nhận hàng chưa?"],
+                                "answer": 0,
+                                "item": "receipt"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Mình đổi sang cỡ nhỏ hơn được không?",
+                                "answer": "Can I exchange it for a smaller size?",
+                                "item": "exchange"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b1-07-l3-sorry",
+            "title": "I'm afraid…",
+            "titleVi": "Xin lỗi và đưa giải pháp",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "apologizing", "role": "INTRODUCE" },
+                { "item": "im-afraid", "role": "INTRODUCE" },
+                { "item": "im-sorry-for", "role": "INTRODUCE" },
+                { "item": "it-wont-happen-again", "role": "INTRODUCE" },
+                { "item": "let-me-check", "role": "INTRODUCE" },
+                { "item": "mistake", "role": "INTRODUCE" },
+                { "item": "delay", "role": "INTRODUCE" },
+                { "item": "manager", "role": "INTRODUCE" },
+                { "item": "polite-requests", "role": "RECYCLE" },
+                { "item": "shall-i", "role": "RECYCLE" },
+                { "item": "will-offers-promises", "role": "RECYCLE" },
+                { "item": "dont-worry", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["im-afraid", "im-sorry-for", "it-wont-happen-again", "let-me-check", "mistake", "delay", "manager"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Khi mình là người phải xin lỗi",
+                        "bodyVi": "Làm ở nhà hàng, khách sạn hay cửa hàng, xử lý phàn nàn thường có **ba bước**:\n\n| bước | nói |\n|---|---|\n| 1. xin lỗi | **I'm sorry for** the **delay**. / **I'm sorry for** being late. |\n| 2. báo tin không vui | **I'm afraid** the room isn't ready yet. |\n| 3. đưa giải pháp | **Let me check.** **I'll** call the **manager**. **Shall I** bring you another one? |\n\nKết bằng lời hứa: **It won't happen again.**\n\n**I'm afraid** ở đây không phải \"mình sợ\", mà là \"rất tiếc là\": tin không vui nghe nhẹ hơn.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| Sorry for late. | **Sorry I'm late.** / **I'm sorry for being late.** |\n| Sorry for make a mistake. | **I'm sorry for making a mistake.** / **Sorry about the mistake.** |\n| We don't have. | **I'm afraid we're sold out.** |\n\n❌ Sorry for late ❌ Let me to check ✅ **I'm sorry for being late.** **Let me check.**",
+                        "items": ["apologizing", "im-afraid", "im-sorry-for", "it-wont-happen-again", "let-me-check", "mistake", "delay", "manager", "shall-i", "will-offers-promises"],
+                        "examples": [
+                            { "en": "I'm afraid there's a problem with your order. Let me check.", "vi": "Rất tiếc là đơn hàng của anh có trục trặc. Để em kiểm tra.", "highlight": "I'm afraid" },
+                            { "en": "I'm sorry for the mistake. It won't happen again.", "vi": "Xin lỗi vì sai sót. Sẽ không có lần sau đâu ạ.", "highlight": "It won't happen again" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "im-afraid",
+                        "prompts": [
+                            { "cueVi": "Rất tiếc là hết hàng rồi.", "slots": { "problem": "we're sold out" }, "answer": "I'm afraid we're sold out." },
+                            { "cueVi": "Rất tiếc là phòng chưa sẵn sàng.", "slots": { "problem": "the room isn't ready yet" }, "answer": "I'm afraid the room isn't ready yet." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "im-sorry-for",
+                        "prompts": [
+                            { "cueVi": "Xin lỗi vì đến muộn.", "slots": { "what": "being late" }, "answer": "I'm sorry for being late." },
+                            { "cueVi": "Xin lỗi vì để bạn chờ lâu.", "slots": { "what": "the delay" }, "answer": "I'm sorry for the delay." },
+                            { "cueVi": "Xin lỗi vì đã không gọi cho bạn.", "slots": { "what": "not calling you" }, "answer": "I'm sorry for not calling you." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["it-wont-happen-again", "let-me-check", "mistake", "delay", "manager", "dont-worry"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b1-07-hotel-front-desk", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["Sorry for late.", "I'm sorry for being late.", "I'm sorry for be late."],
+                                "answer": 1,
+                                "item": "im-sorry-for"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"I'm afraid we're sold out.\" nghĩa là:",
+                                "options": ["Mình sợ hết hàng.", "Rất tiếc là hết hàng rồi.", "Mình sợ phải bán hết hàng."],
+                                "answer": 1,
+                                "item": "im-afraid"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I'm really sorry. It won't ___ again.",
+                                "answers": ["happen"],
+                                "item": "it-wont-happen-again"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Can I speak to the manager, please?",
+                                "options": ["Cho tôi nói chuyện với quản lý được không?", "Quản lý có muốn nói chuyện với tôi không?", "Tôi là quản lý ở đây."],
+                                "answer": 0,
+                                "item": "manager"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Xin lỗi, hóa đơn của anh có sai sót.",
+                                "answer": "Sorry, there's a mistake on your bill.",
+                                "item": "mistake"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "b1-07-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Máy lạnh không chạy. Bạn báo:",
+                "options": ["The air conditioner is not work.", "The air conditioner isn't working.", "The air conditioner doesn't working."],
+                "answer": 1,
+                "item": "isnt-working"
+            },
+            {
+                "kind": "gap",
+                "sentence": "Would you mind ___ again?",
+                "hintVi": "check",
+                "answers": ["checking"],
+                "item": "would-you-mind"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["These jeans are not fit.", "These jeans don't fit.", "These jeans aren't fitting size."],
+                "answer": 1,
+                "item": "fit"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Báo tin không vui cho nhẹ:",
+                "options": ["I'm afraid the room isn't ready yet.", "I'm scared the room isn't ready yet.", "The room is not ready, you wait."],
+                "answer": 0,
+                "item": "im-afraid"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "It hasn't worked since Monday. Could you send someone to fix it?",
+                "options": ["Nó hỏng từ thứ Hai. Anh cho người đến sửa được không?", "Thứ Hai nó sẽ được sửa xong.", "Thứ Hai anh ấy sẽ đến sửa."],
+                "answer": 0,
+                "item": "describing-problems"
+            },
+            {
+                "kind": "order",
+                "vi": "Mình muốn trả lại cái áo khoác này.",
+                "answer": "I'd like to return this jacket.",
+                "item": "id-like-to-return"
+            }
+        ]
+    }
+}

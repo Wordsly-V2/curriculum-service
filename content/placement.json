@@ -529,6 +529,69 @@
             "options": ["Although it's cheap, but it's slow.", "Because it's cheap, so I take the bus.", "Although it's cheap, it's slow."],
             "answer": 2,
             "item": "linking-reasons"
+        },
+        {
+            "unit": "b1-05-if-and-when",
+            "kind": "choice",
+            "prompt": "\"Nếu có thời gian, mình sẽ gọi cho bạn.\"",
+            "options": ["If I will have time, I'll call you.", "If I have time, I'll call you.", "If I have time, I call you tomorrow."],
+            "answer": 1,
+            "item": "first-conditional"
+        },
+        {
+            "unit": "b1-05-if-and-when",
+            "kind": "gap",
+            "sentence": "We'll go to the beach ___ it rains.",
+            "hintVi": "trừ khi",
+            "answers": ["unless"],
+            "item": "unless"
+        },
+        {
+            "unit": "b1-06-if-i-were-you",
+            "kind": "choice",
+            "prompt": "Bạn không có nhiều tiền. Nói điều tưởng tượng:",
+            "options": ["If I have more money, I'll travel.", "If I had more money, I'd travel.", "If I had more money, I'll travel."],
+            "answer": 1,
+            "item": "second-conditional"
+        },
+        {
+            "unit": "b1-06-if-i-were-you",
+            "kind": "choice",
+            "prompt": "\"Ước gì mình nói được tiếng Nhật.\"",
+            "options": ["I wish I can speak Japanese.", "I hope I could speak Japanese.", "I wish I could speak Japanese."],
+            "answer": 2,
+            "item": "i-wish"
+        },
+        {
+            "unit": "b1-07-problems",
+            "kind": "choice",
+            "prompt": "Nhờ nhân viên kiểm tra lại, thật lịch sự:",
+            "options": ["Would you mind checking again?", "Would you mind to check again?", "You check again, OK?"],
+            "answer": 0,
+            "item": "would-you-mind"
+        },
+        {
+            "unit": "b1-07-problems",
+            "kind": "choice",
+            "prompt": "Bạn đến muộn và xin lỗi:",
+            "options": ["Sorry for late.", "I'm sorry for being late.", "I'm sorry for be late."],
+            "answer": 1,
+            "item": "im-sorry-for"
+        },
+        {
+            "unit": "b1-08-made-in",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["This bridge built in 1902.", "This bridge was built in 1902.", "This bridge was build in 1902."],
+            "answer": 1,
+            "item": "passive-past"
+        },
+        {
+            "unit": "b1-08-made-in",
+            "kind": "gap",
+            "sentence": "Rice ___ grown in the Mekong Delta.",
+            "answers": ["is"],
+            "item": "passive-present"
         }
     ]
 }

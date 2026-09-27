@@ -1,0 +1,805 @@
+{
+    "slug": "b1-06-if-i-were-you",
+    "stage": "b1",
+    "order": 6,
+    "title": "If I were you",
+    "titleVi": "Nếu mình là bạn…",
+    "descriptionVi": "Nói về điều tưởng tượng (If I had more money, I'd…, What would you do if…?), cho lời khuyên với nhiều mức độ (If I were you, Why don't you…?, You'd better), và nói điều ước ở hiện tại (I wish I had…, I wish I could…).",
+    "canDo": [
+        "Tôi nói được điều tưởng tượng, không có thật ở hiện tại, và hỏi người khác sẽ làm gì trong tình huống đó.",
+        "Tôi cho được lời khuyên với nhiều mức độ (Why don't you…?, should, If I were you, You'd better).",
+        "Tôi nói được điều mình ước khác đi ở hiện tại (I wish I had…, I wish I could…)."
+    ],
+    "items": [
+        {
+            "slug": "second-conditional",
+            "type": "GRAMMAR",
+            "text": "If + past simple, … would + V",
+            "meaningVi": "câu điều kiện loại 2: điều tưởng tượng",
+            "examples": [
+                { "en": "If I had more money, I'd travel around the world.", "vi": "Nếu có nhiều tiền hơn, mình sẽ đi du lịch vòng quanh thế giới.", "highlight": "If I had more money" }
+            ],
+            "grammar": {
+                "ruleVi": "Nói về điều không có thật hoặc khó xảy ra ở hiện tại, tương lai. Vế if dùng quá khứ đơn (nhưng không nói về quá khứ), vế kết quả dùng would / wouldn't + V (viết tắt 'd). Với be dùng were cho mọi ngôi: If I were…",
+                "forms": [
+                    { "label": "khẳng định", "example": "If I had a car, I'd drive to work." },
+                    { "label": "phủ định", "example": "If I didn't have to work, I'd sleep all day." },
+                    { "label": "câu hỏi", "example": "What would you do if you won the lottery?" },
+                    { "label": "be", "example": "If I were rich, I'd buy a house by the sea." }
+                ],
+                "pitfallsVi": [
+                    "\"If I would have money\" → If I had money: không dùng would trong vế if.",
+                    "\"If I have more money, I'd…\" → If I had more money, I'd…: vế if phải lùi về quá khứ.",
+                    "Loại 1 hay loại 2: If I get the job (có thể xảy ra) → I'll…; If I won the lottery (khó xảy ra) → I'd…"
+                ]
+            }
+        },
+        {
+            "slug": "if-i-had-id",
+            "type": "PATTERN",
+            "text": "If I had …, I'd ….",
+            "meaningVi": "Nếu mình có …, mình sẽ ….",
+            "examples": [
+                { "en": "If I had more time, I'd learn to play the guitar.", "vi": "Nếu có nhiều thời gian hơn, mình sẽ học chơi guitar.", "highlight": "If I had more time, I'd" }
+            ],
+            "pattern": {
+                "template": "If I had {thing}, I'd {do}.",
+                "slots": [
+                    { "name": "thing", "hintVi": "danh từ", "options": ["more money", "more time", "a car", "a big house", "a day off"] },
+                    { "name": "do", "hintVi": "động từ nguyên mẫu", "options": ["travel around the world", "learn to play the guitar", "drive to the beach", "invite all my friends", "sleep all day"] }
+                ]
+            },
+            "noteVi": "Hiện giờ mình không có, nên lùi thì: ❌ \"If I have more time, I'd…\". I'd = I would, đọc /aɪd/."
+        },
+        {
+            "slug": "what-would-you-do-if",
+            "type": "PATTERN",
+            "text": "What would you do if …?",
+            "meaningVi": "Bạn sẽ làm gì nếu …? (tưởng tượng)",
+            "examples": [
+                { "en": "What would you do if you won the lottery?", "vi": "Bạn sẽ làm gì nếu trúng xổ số?", "highlight": "What would you do if" }
+            ],
+            "pattern": {
+                "template": "What would you do if {situation}?",
+                "slots": [
+                    { "name": "situation", "hintVi": "quá khứ đơn", "options": ["you won the lottery", "you lost your job", "you could fly", "you met a famous person", "you had a year off"] }
+                ]
+            },
+            "noteVi": "Trả lời: I'd… hoặc I think I'd… Tình huống có thể xảy ra thật thì hỏi What will you do if…? (unit 05)."
+        },
+        {
+            "slug": "win-the-lottery",
+            "type": "PHRASE",
+            "text": "win the lottery",
+            "meaningVi": "trúng xổ số",
+            "examples": [
+                { "en": "If I won the lottery, I'd buy a house for my parents.", "vi": "Nếu trúng xổ số, mình sẽ mua nhà cho bố mẹ.", "highlight": "won the lottery" }
+            ],
+            "noteVi": "win → won /wʌn/, đọc như one. Trúng giải: win a prize; thắng trận: win a game."
+        },
+        {
+            "slug": "imagine",
+            "type": "LEXICAL",
+            "text": "imagine",
+            "meaningVi": "tưởng tượng",
+            "ipa": "/ɪˈmædʒɪn/",
+            "examples": [
+                { "en": "Imagine you could live anywhere. Where would you go?", "vi": "Tưởng tượng bạn sống ở đâu cũng được. Bạn sẽ đi đâu?", "highlight": "Imagine" }
+            ],
+            "noteVi": "Nhấn âm hai: i-MA-gine. imagine + V-ing: Imagine living by the sea! Trí tưởng tượng: imagination."
+        },
+        {
+            "slug": "rich",
+            "type": "LEXICAL",
+            "text": "rich",
+            "meaningVi": "giàu",
+            "ipa": "/rɪtʃ/",
+            "examples": [
+                { "en": "If I were rich, I'd help poor families in my village.", "vi": "Nếu giàu, mình sẽ giúp những gia đình nghèo ở làng mình.", "highlight": "rich" }
+            ],
+            "noteVi": "Ngược lại: poor. Người giàu: rich people (rich không thêm -s). Đồ ăn nhiều béo, ngậy cũng gọi là rich."
+        },
+        {
+            "slug": "quit",
+            "type": "LEXICAL",
+            "text": "quit",
+            "meaningVi": "nghỉ (việc), bỏ (thói quen)",
+            "ipa": "/kwɪt/",
+            "examples": [
+                { "en": "If I didn't like my job, I'd quit.", "vi": "Nếu không thích công việc, mình sẽ nghỉ.", "highlight": "quit" }
+            ],
+            "noteVi": "Quá khứ vẫn là quit. quit my job = nghỉ việc; quit smoking = bỏ thuốc (quit + V-ing)."
+        },
+        {
+            "slug": "anywhere",
+            "type": "LEXICAL",
+            "text": "anywhere",
+            "meaningVi": "bất cứ đâu",
+            "ipa": "/ˈeniwer/",
+            "examples": [
+                { "en": "If you could live anywhere, where would you live?", "vi": "Nếu sống ở đâu cũng được, bạn sẽ sống ở đâu?", "highlight": "anywhere" }
+            ],
+            "noteVi": "Câu hỏi và phủ định: I didn't go anywhere. Câu khẳng định nghĩa là đâu cũng được: Sit anywhere you like."
+        },
+        {
+            "slug": "giving-advice",
+            "type": "GRAMMAR",
+            "text": "Why don't you…?, should, If I were you, You'd better",
+            "meaningVi": "cho lời khuyên, từ nhẹ đến mạnh",
+            "examples": [
+                { "en": "If I were you, I'd talk to your boss.", "vi": "Mình mà là bạn thì mình sẽ nói chuyện với sếp.", "highlight": "If I were you" }
+            ],
+            "grammar": {
+                "ruleVi": "Mấy cách khuyên, từ nhẹ đến mạnh: Why don't you…? (gợi ý), You should… (khuyên), If I were you, I'd… (đặt mình vào chỗ người kia), You'd better… (cảnh báo: không làm thì có chuyện). Tất cả đi với động từ nguyên mẫu, không có to.",
+                "forms": [
+                    { "label": "gợi ý", "example": "Why don't you take a day off?" },
+                    { "label": "khuyên", "example": "You should see a doctor." },
+                    { "label": "đặt mình vào", "example": "If I were you, I'd look for a new job." },
+                    { "label": "cảnh báo", "example": "You'd better hurry, or you'll miss the train." }
+                ],
+                "pitfallsVi": [
+                    "\"If I am you\" → If I were you.",
+                    "\"You'd better to go\", \"You better going\" → You'd better go. Phủ định: You'd better not…",
+                    "You'd better với sếp hay người lớn tuổi nghe như ra lệnh; dùng Maybe you should… cho mềm."
+                ]
+            }
+        },
+        {
+            "slug": "if-i-were-you",
+            "type": "PATTERN",
+            "text": "If I were you, I'd ….",
+            "meaningVi": "Mình mà là bạn thì mình sẽ ….",
+            "examples": [
+                { "en": "If I were you, I'd take a break.", "vi": "Mình mà là bạn thì mình sẽ nghỉ một chút.", "highlight": "If I were you, I'd" }
+            ],
+            "pattern": {
+                "template": "If I were you, I'd {do}.",
+                "slots": [
+                    { "name": "do", "hintVi": "động từ nguyên mẫu", "options": ["talk to your boss", "take a break", "look for a new job", "see a doctor", "say sorry"] }
+                ]
+            },
+            "noteVi": "❌ \"If I am you\". If I was you cũng nghe thấy trong văn nói, nhưng If I were you là cách chuẩn."
+        },
+        {
+            "slug": "why-dont-you",
+            "type": "PATTERN",
+            "text": "Why don't you …?",
+            "meaningVi": "Sao bạn không … thử?",
+            "examples": [
+                { "en": "Why don't you ask your teacher?", "vi": "Sao bạn không hỏi thầy cô thử?", "highlight": "Why don't you" }
+            ],
+            "pattern": {
+                "template": "Why don't you {do}?",
+                "slots": [
+                    { "name": "do", "hintVi": "động từ nguyên mẫu", "options": ["ask your teacher", "take a day off", "try again", "call her", "join a club"] }
+                ]
+            },
+            "noteVi": "Là lời gợi ý, không phải hỏi lý do. Rủ cả hai: Why don't we…? Đáp: That's a good idea."
+        },
+        {
+            "slug": "youd-better",
+            "type": "PATTERN",
+            "text": "You'd better ….",
+            "meaningVi": "Bạn nên … đi (kẻo có chuyện).",
+            "examples": [
+                { "en": "You'd better hurry, or you'll be late.", "vi": "Bạn nhanh lên đi, kẻo muộn.", "highlight": "You'd better" }
+            ],
+            "pattern": {
+                "template": "You'd better {do}.",
+                "slots": [
+                    { "name": "do", "hintVi": "động từ nguyên mẫu, hoặc not + V", "options": ["hurry", "leave now", "not be late", "take an umbrella", "call him back"] }
+                ]
+            },
+            "noteVi": "'d better = had better, theo sau là nguyên mẫu: ❌ \"You'd better to go\". Phủ định: You'd better not be late. Mạnh hơn should."
+        },
+        {
+            "slug": "advice",
+            "type": "LEXICAL",
+            "text": "advice",
+            "meaningVi": "lời khuyên",
+            "ipa": "/ədˈvaɪs/",
+            "examples": [
+                { "en": "Can I ask you for some advice?", "vi": "Mình xin bạn một lời khuyên được không?", "highlight": "advice" }
+            ],
+            "noteVi": "Không đếm được: ❌ \"an advice\", ❌ \"advices\" → some advice, a piece of advice. Động từ: advise /ədˈvaɪz/ (s đọc /z/)."
+        },
+        {
+            "slug": "what-should-i-do",
+            "type": "PHRASE",
+            "text": "What should I do?",
+            "meaningVi": "Mình nên làm gì đây?",
+            "examples": [
+                { "en": "My roommate is really noisy. What should I do?", "vi": "Bạn cùng phòng mình ồn lắm. Mình nên làm gì đây?", "highlight": "What should I do" }
+            ],
+            "noteVi": "Hỏi xin lời khuyên. Hỏi kiểu đặt người kia vào chỗ mình: What would you do?"
+        },
+        {
+            "slug": "stressed",
+            "type": "LEXICAL",
+            "text": "stressed",
+            "meaningVi": "căng thẳng",
+            "ipa": "/strest/",
+            "examples": [
+                { "en": "I'm really stressed about my exams.", "vi": "Mình rất căng thẳng vì mấy kỳ thi.", "highlight": "stressed" }
+            ],
+            "noteVi": "Người: I'm stressed (-ed). Việc gây căng thẳng: It's stressful. ❌ \"I'm stress\". stressed about + việc."
+        },
+        {
+            "slug": "give-it-a-try",
+            "type": "PHRASE",
+            "text": "Give it a try.",
+            "meaningVi": "Cứ thử xem.",
+            "examples": [
+                { "en": "You've never done yoga? Give it a try!", "vi": "Bạn chưa tập yoga bao giờ à? Cứ thử xem!", "highlight": "Give it a try" }
+            ],
+            "noteVi": "Khuyến khích ai thử cái mới. Cũng nói: Try it! / Why not give it a try?"
+        },
+        {
+            "slug": "i-wish",
+            "type": "GRAMMAR",
+            "text": "I wish + past simple / could",
+            "meaningVi": "ước điều ở hiện tại khác đi",
+            "examples": [
+                { "en": "I wish I had more free time.", "vi": "Ước gì mình có nhiều thời gian rảnh hơn.", "highlight": "I wish I had" }
+            ],
+            "grammar": {
+                "ruleVi": "Ước điều ở hiện tại khác đi: I wish + quá khứ đơn (lùi thì giống vế if loại 2). Ước làm được: I wish I could + V. Với be dùng were. Mong điều có thể xảy ra thì dùng hope, không dùng wish.",
+                "forms": [
+                    { "label": "hiện tại", "example": "I wish I had a car. (Mình không có.)" },
+                    { "label": "khả năng", "example": "I wish I could speak Japanese." },
+                    { "label": "be", "example": "I wish I were taller." },
+                    { "label": "phủ định", "example": "I wish I didn't have to work today." }
+                ],
+                "pitfallsVi": [
+                    "\"I wish I have a car\" → I wish I had a car.",
+                    "\"I wish I can\" → I wish I could.",
+                    "\"I wish you pass the exam\" (điều có thể xảy ra) → I hope you pass the exam."
+                ]
+            }
+        },
+        {
+            "slug": "i-wish-i",
+            "type": "PATTERN",
+            "text": "I wish I ….",
+            "meaningVi": "Ước gì mình ….",
+            "examples": [
+                { "en": "I wish I could speak Japanese.", "vi": "Ước gì mình nói được tiếng Nhật.", "highlight": "I wish I could" }
+            ],
+            "pattern": {
+                "template": "I wish I {wish}.",
+                "slots": [
+                    { "name": "wish", "hintVi": "quá khứ đơn hoặc could + V", "options": ["had more time", "lived near the sea", "could speak Japanese", "didn't have to work today", "knew the answer"] }
+                ]
+            },
+            "noteVi": "Điều ước trái với hiện tại nên lùi thì: have → had, can → could. ❌ \"I wish I can\"."
+        },
+        {
+            "slug": "lucky",
+            "type": "LEXICAL",
+            "text": "lucky",
+            "meaningVi": "may mắn",
+            "ipa": "/ˈlʌki/",
+            "examples": [
+                { "en": "You're so lucky! I wish I had a job like yours.", "vi": "Bạn may thật! Ước gì mình có công việc như bạn.", "highlight": "lucky" }
+            ],
+            "noteVi": "Tính từ: lucky; trạng từ: luckily (unit 02). Chúc may mắn: Good luck!"
+        },
+        {
+            "slug": "jealous",
+            "type": "LEXICAL",
+            "text": "jealous",
+            "meaningVi": "ghen tị",
+            "ipa": "/ˈdʒeləs/",
+            "examples": [
+                { "en": "You're going to Japan? I'm so jealous!", "vi": "Bạn đi Nhật à? Ghen tị ghê!", "highlight": "jealous" }
+            ],
+            "noteVi": "Thân mật, nói đùa khi bạn có điều mình ước: I'm so jealous! jealous of + người. Đọc JE-lợt-s, âm đầu /dʒe/."
+        },
+        {
+            "slug": "it-would-be-nice",
+            "type": "PHRASE",
+            "text": "It would be nice to …",
+            "meaningVi": "Được … thì hay quá.",
+            "examples": [
+                { "en": "It would be nice to have a garden.", "vi": "Có một khu vườn thì hay quá.", "highlight": "It would be nice to" }
+            ],
+            "noteVi": "Nói điều mình mong một cách nhẹ nhàng. Nói tắt: It'd be nice to… Theo sau là to + V."
+        },
+        {
+            "slug": "in-real-life",
+            "type": "PHRASE",
+            "text": "in real life",
+            "meaningVi": "ngoài đời thật",
+            "examples": [
+                { "en": "He looks taller in real life.", "vi": "Ngoài đời anh ấy trông cao hơn.", "highlight": "in real life" }
+            ],
+            "noteVi": "Ngược với on TV, online, in the movies. Viết tắt trên mạng: IRL."
+        },
+        {
+            "slug": "possible",
+            "type": "LEXICAL",
+            "text": "possible",
+            "meaningVi": "có thể (xảy ra, làm được)",
+            "ipa": "/ˈpɑːsəbl/",
+            "examples": [
+                { "en": "Is it possible to learn English in three months?", "vi": "Học tiếng Anh trong ba tháng có được không?", "highlight": "possible" }
+            ],
+            "noteVi": "It's possible to + V. Ngược lại: impossible. Nói về người thì dùng can: ❌ \"I'm possible to come\" → I can come."
+        },
+        {
+            "slug": "dream-job",
+            "type": "PHRASE",
+            "text": "dream job",
+            "meaningVi": "công việc mơ ước",
+            "examples": [
+                { "en": "My dream job is to be a tour guide.", "vi": "Công việc mơ ước của mình là làm hướng dẫn viên du lịch.", "highlight": "dream job" }
+            ],
+            "noteVi": "dream đứng trước danh từ như tính từ: dream house, dream car. ❌ \"job dream\"."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "b1-06-stressed-at-work",
+            "title": "What should I do?",
+            "situationVi": "Mike, đồng nghiệp người Mỹ, than dạo này quá tải và hỏi xin lời khuyên của bạn.",
+            "lines": [
+                { "speaker": "Mike", "en": "I'm so stressed these days. My boss keeps giving me more work. What should I do?", "vi": "Dạo này mình căng thẳng quá. Sếp cứ giao thêm việc. Mình nên làm gì đây?" },
+                { "speaker": "You", "en": "If I were you, I'd talk to your boss. Maybe he doesn't know how busy you are.", "vi": "Mình mà là bạn thì mình sẽ nói với sếp. Có khi sếp không biết bạn bận thế nào.", "learnerTurn": true },
+                { "speaker": "Mike", "en": "I don't know. He's not very easy to talk to.", "vi": "Không biết nữa. Sếp khó nói chuyện lắm." },
+                { "speaker": "You", "en": "Why don't you write him an email first? It's easier than a meeting.", "vi": "Sao bạn không viết email cho sếp trước? Dễ hơn là họp.", "learnerTurn": true },
+                { "speaker": "Mike", "en": "Hmm, good point. But what if he gets angry?", "vi": "Hừm, có lý. Nhưng lỡ sếp giận thì sao?" },
+                { "speaker": "You", "en": "I don't think he will. And you'd better do it soon, before you get sick.", "vi": "Mình không nghĩ vậy đâu. Mà bạn làm sớm đi, kẻo ốm ra đấy.", "learnerTurn": true },
+                { "speaker": "Mike", "en": "You're right. I'll write it tonight.", "vi": "Bạn nói đúng. Tối nay mình sẽ viết." },
+                { "speaker": "You", "en": "Good. Give it a try, and tell me how it goes.", "vi": "Tốt. Cứ thử đi, rồi kể mình nghe thế nào nhé.", "learnerTurn": true },
+                { "speaker": "Mike", "en": "Thanks for the advice. I really needed it.", "vi": "Cảm ơn lời khuyên nhé. Mình đang cần lắm." }
+            ]
+        },
+        {
+            "slug": "b1-06-dream-job",
+            "title": "My dream job",
+            "situationVi": "Uống cà phê cuối tuần, Jenny, bạn người Mỹ, hỏi bạn có thích công việc hiện tại không.",
+            "lines": [
+                { "speaker": "Jenny", "en": "So, do you like your job?", "vi": "Thế bạn có thích công việc của mình không?" },
+                { "speaker": "You", "en": "It's OK, but it's not my dream job. I wish I didn't have to sit in an office all day.", "vi": "Cũng được, nhưng không phải việc mơ ước. Ước gì mình không phải ngồi văn phòng cả ngày.", "learnerTurn": true },
+                { "speaker": "Jenny", "en": "Really? What's your dream job, then?", "vi": "Thật à? Thế việc mơ ước của bạn là gì?" },
+                { "speaker": "You", "en": "I'd love to be a tour guide. If I were a tour guide, I'd travel all the time.", "vi": "Mình muốn làm hướng dẫn viên du lịch. Nếu làm hướng dẫn viên, mình sẽ được đi suốt.", "learnerTurn": true },
+                { "speaker": "Jenny", "en": "That sounds amazing. Why don't you try it?", "vi": "Nghe tuyệt thế. Sao bạn không thử?" },
+                { "speaker": "You", "en": "I wish I could, but my English isn't good enough yet.", "vi": "Ước gì được, nhưng tiếng Anh của mình chưa đủ tốt.", "learnerTurn": true },
+                { "speaker": "Jenny", "en": "Are you kidding? Your English is great! Give it a try.", "vi": "Đùa à? Tiếng Anh của bạn tốt mà! Cứ thử đi." },
+                { "speaker": "You", "en": "Thanks! Maybe it's possible. It would be nice to change jobs next year.", "vi": "Cảm ơn! Có khi cũng được. Năm sau đổi việc thì hay quá.", "learnerTurn": true },
+                { "speaker": "Jenny", "en": "You should! I'm a little jealous, actually.", "vi": "Nên thế! Thật ra mình hơi ghen tị đấy." }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "b1-06-l1-what-would-you-do",
+            "title": "What would you do?",
+            "titleVi": "Nếu… thì…: điều tưởng tượng",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "second-conditional", "role": "INTRODUCE" },
+                { "item": "if-i-had-id", "role": "INTRODUCE" },
+                { "item": "what-would-you-do-if", "role": "INTRODUCE" },
+                { "item": "win-the-lottery", "role": "INTRODUCE" },
+                { "item": "imagine", "role": "INTRODUCE" },
+                { "item": "rich", "role": "INTRODUCE" },
+                { "item": "quit", "role": "INTRODUCE" },
+                { "item": "anywhere", "role": "INTRODUCE" },
+                { "item": "first-conditional", "role": "RECYCLE" },
+                { "item": "travel", "role": "RECYCLE" },
+                { "item": "dream", "role": "RECYCLE" },
+                { "item": "save-money", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["if-i-had-id", "what-would-you-do-if", "win-the-lottery", "imagine", "rich", "quit", "anywhere"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Nếu… thì…: điều tưởng tượng",
+                        "bodyVi": "Câu điều kiện loại 2 nói về điều **không có thật** hoặc **khó xảy ra**. Vế if **lùi về quá khứ** dù nghĩa là hiện tại, vế kết quả dùng **would** ('d).\n\n| vế if (quá khứ đơn) | vế kết quả (would + V) |\n|---|---|\n| **If** I **had** more money, | I**'d travel** around the world. |\n| **If** I **won** the lottery, | I**'d quit** my job. |\n| **If** I **were** rich, | I**'d buy** a house by the sea. |\n\nVới be dùng **were** cho mọi ngôi: If I were, If she were.\n\n**Loại 1 hay loại 2?** Tiếng Việt đều là \"nếu\"; tiếng Anh chọn theo khả năng xảy ra:\n\n| có thể xảy ra (loại 1) | tưởng tượng (loại 2) |\n|---|---|\n| If I **get** the job, I**'ll** move to Hanoi. | If I **won** the lottery, I**'d** buy a house. |\n| What **will** you do if it rains? | What **would** you do if you could fly? |\n\n❌ If I would have money ❌ If I have more money, I'd… ✅ **If I had more money, I'd travel.**",
+                        "items": ["second-conditional", "if-i-had-id", "what-would-you-do-if", "win-the-lottery", "rich", "quit", "first-conditional", "travel"],
+                        "examples": [
+                            { "en": "What would you do if you won the lottery? I'd travel around the world.", "vi": "Bạn sẽ làm gì nếu trúng xổ số? Mình sẽ đi du lịch vòng quanh thế giới.", "highlight": "What would you do if you won the lottery" },
+                            { "en": "If I didn't have to work, I'd sleep all day.", "vi": "Nếu không phải đi làm, mình sẽ ngủ cả ngày.", "highlight": "If I didn't have to work" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "if-i-had-id",
+                        "prompts": [
+                            { "cueVi": "Nếu có nhiều tiền hơn, mình sẽ đi du lịch vòng quanh thế giới.", "slots": { "thing": "more money", "do": "travel around the world" }, "answer": "If I had more money, I'd travel around the world." },
+                            { "cueVi": "Nếu có ô tô, mình sẽ lái ra biển.", "slots": { "thing": "a car", "do": "drive to the beach" }, "answer": "If I had a car, I'd drive to the beach." },
+                            { "cueVi": "Nếu có một ngày nghỉ, mình sẽ ngủ cả ngày.", "slots": { "thing": "a day off", "do": "sleep all day" }, "answer": "If I had a day off, I'd sleep all day." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "what-would-you-do-if",
+                        "prompts": [
+                            { "cueVi": "Hỏi: bạn sẽ làm gì nếu trúng xổ số?", "slots": { "situation": "you won the lottery" }, "answer": "What would you do if you won the lottery?" },
+                            { "cueVi": "Hỏi: bạn sẽ làm gì nếu bay được?", "slots": { "situation": "you could fly" }, "answer": "What would you do if you could fly?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["win-the-lottery", "imagine", "rich", "quit", "anywhere", "travel", "dream", "save-money"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "What would you do if you won the lottery?", "vi": "Bạn sẽ làm gì nếu trúng xổ số?" },
+                            { "en": "If I had more money, I'd travel around the world.", "vi": "Nếu có nhiều tiền hơn, mình sẽ đi du lịch vòng quanh thế giới." },
+                            { "en": "If I were rich, I'd buy a house for my parents.", "vi": "Nếu giàu, mình sẽ mua nhà cho bố mẹ." },
+                            { "en": "If you could live anywhere, where would you live?", "vi": "Nếu sống ở đâu cũng được, bạn sẽ sống ở đâu?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Nếu có nhiều thời gian hơn, mình sẽ học guitar.\" (hiện giờ không có)",
+                                "options": ["If I have more time, I'd learn the guitar.", "If I had more time, I'd learn the guitar.", "If I would have more time, I'd learn the guitar."],
+                                "answer": 1,
+                                "item": "second-conditional"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "If I ___ rich, I'd buy a house by the sea.",
+                                "hintVi": "be",
+                                "answers": ["were", "was"],
+                                "item": "second-conditional"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Hỏi về một tình huống tưởng tượng:",
+                                "options": ["What will you do if you could fly?", "What would you do if you could fly?", "What do you do if you could fly?"],
+                                "answer": 1,
+                                "item": "what-would-you-do-if"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "If I won the lottery, I'd quit my job.",
+                                "options": ["Nếu trúng xổ số, mình sẽ nghỉ việc.", "Mình đã trúng xổ số và nghỉ việc.", "Nếu mất việc, mình sẽ mua xổ số."],
+                                "answer": 0,
+                                "item": "quit"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Nếu sống ở đâu cũng được, bạn sẽ sống ở đâu?",
+                                "answer": "If you could live anywhere, where would you live?",
+                                "item": "anywhere"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b1-06-l2-advice",
+            "title": "If I were you…",
+            "titleVi": "Cho lời khuyên",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "giving-advice", "role": "INTRODUCE" },
+                { "item": "if-i-were-you", "role": "INTRODUCE" },
+                { "item": "why-dont-you", "role": "INTRODUCE" },
+                { "item": "youd-better", "role": "INTRODUCE" },
+                { "item": "advice", "role": "INTRODUCE" },
+                { "item": "what-should-i-do", "role": "INTRODUCE" },
+                { "item": "stressed", "role": "INTRODUCE" },
+                { "item": "give-it-a-try", "role": "INTRODUCE" },
+                { "item": "second-conditional", "role": "RECYCLE" },
+                { "item": "should-shouldnt", "role": "RECYCLE" },
+                { "item": "you-should", "role": "RECYCLE" },
+                { "item": "have-to", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["if-i-were-you", "why-dont-you", "youd-better", "advice", "what-should-i-do", "stressed", "give-it-a-try"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Khuyên nhẹ đến khuyên mạnh",
+                        "bodyVi": "Hỏi xin lời khuyên: **What should I do?** Can I ask you for some **advice**?\n\n| mức độ | nói | ghi chú |\n|---|---|---|\n| gợi ý | **Why don't you** ask your teacher? | không phải hỏi lý do |\n| khuyên | You **should** see a doctor. | đã học ở A2 |\n| đặt mình vào | **If I were you, I'd** take a break. | luôn là were |\n| cảnh báo | **You'd better** hurry, or you'll be late. | mạnh: không làm thì có chuyện |\n\nTất cả đi với **động từ nguyên mẫu**, không có to: You'd better **go** (❌ to go). Phủ định: You **shouldn't**…, You'd better **not**…\n\nVới sếp hay người lớn tuổi, nói **Maybe you should**… cho mềm; You'd better nghe như ra lệnh.\n\n**advice** không đếm được: some advice, a piece of advice.\n\n❌ If I am you ❌ You'd better to go ❌ an advice ✅ **If I were you** **You'd better go** **some advice**",
+                        "items": ["giving-advice", "if-i-were-you", "why-dont-you", "youd-better", "advice", "what-should-i-do", "should-shouldnt", "you-should", "second-conditional"],
+                        "examples": [
+                            { "en": "I'm so stressed. What should I do? — If I were you, I'd take a break.", "vi": "Mình căng thẳng quá. Mình nên làm gì đây? — Mình mà là bạn thì mình sẽ nghỉ một chút.", "highlight": "If I were you, I'd take a break" },
+                            { "en": "You'd better not be late. The boss is in a bad mood.", "vi": "Bạn đừng có đến muộn nhé. Sếp đang không vui.", "highlight": "You'd better not be late" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "if-i-were-you",
+                        "prompts": [
+                            { "cueVi": "Mình mà là bạn thì mình sẽ nói chuyện với sếp.", "slots": { "do": "talk to your boss" }, "answer": "If I were you, I'd talk to your boss." },
+                            { "cueVi": "Mình mà là bạn thì mình sẽ đi khám bác sĩ.", "slots": { "do": "see a doctor" }, "answer": "If I were you, I'd see a doctor." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "why-dont-you",
+                        "prompts": [
+                            { "cueVi": "Gợi ý: sao bạn không hỏi thầy cô thử?", "slots": { "do": "ask your teacher" }, "answer": "Why don't you ask your teacher?" },
+                            { "cueVi": "Gợi ý: sao bạn không nghỉ một ngày?", "slots": { "do": "take a day off" }, "answer": "Why don't you take a day off?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "youd-better",
+                        "prompts": [
+                            { "cueVi": "Cảnh báo: bạn đi ngay đi.", "slots": { "do": "leave now" }, "answer": "You'd better leave now." },
+                            { "cueVi": "Cảnh báo: bạn đừng có đến muộn.", "slots": { "do": "not be late" }, "answer": "You'd better not be late." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["advice", "what-should-i-do", "stressed", "give-it-a-try"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "I'm so stressed. What should I do?", "vi": "Mình căng thẳng quá. Mình nên làm gì đây?" },
+                            { "en": "If I were you, I'd take a break.", "vi": "Mình mà là bạn thì mình sẽ nghỉ một chút." },
+                            { "en": "Why don't you ask your teacher?", "vi": "Sao bạn không hỏi thầy cô thử?" },
+                            { "en": "You'd better hurry, or you'll be late.", "vi": "Bạn nhanh lên đi, kẻo muộn." }
+                        ]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b1-06-stressed-at-work", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "I'm really stressed about my exams.",
+                                "options": ["Mình rất căng thẳng vì mấy kỳ thi.", "Mình rất thích các kỳ thi.", "Mình đã thi xong rồi."],
+                                "answer": 0,
+                                "item": "stressed"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["You'd better to leave now.", "You'd better leaving now.", "You'd better leave now."],
+                                "answer": 2,
+                                "item": "youd-better"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["Can I ask you for an advice?", "Can I ask you for some advice?", "Can I ask you for some advices?"],
+                                "answer": 1,
+                                "item": "advice"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "___ don't you take a day off?",
+                                "hintVi": "gợi ý: sao bạn không…",
+                                "answers": ["Why"],
+                                "item": "why-dont-you"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Mình mà là bạn thì mình sẽ đi khám bác sĩ.",
+                                "answer": "If I were you, I'd see a doctor.",
+                                "item": "if-i-were-you"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b1-06-l3-i-wish",
+            "title": "I wish I could…",
+            "titleVi": "Điều ước",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "i-wish", "role": "INTRODUCE" },
+                { "item": "i-wish-i", "role": "INTRODUCE" },
+                { "item": "lucky", "role": "INTRODUCE" },
+                { "item": "jealous", "role": "INTRODUCE" },
+                { "item": "it-would-be-nice", "role": "INTRODUCE" },
+                { "item": "in-real-life", "role": "INTRODUCE" },
+                { "item": "possible", "role": "INTRODUCE" },
+                { "item": "dream-job", "role": "INTRODUCE" },
+                { "item": "second-conditional", "role": "RECYCLE" },
+                { "item": "if-i-were-you", "role": "RECYCLE" },
+                { "item": "unfortunately", "role": "RECYCLE" },
+                { "item": "dream", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["i-wish-i", "lucky", "jealous", "it-would-be-nice", "in-real-life", "possible", "dream-job"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "I wish và I hope",
+                        "bodyVi": "**I wish** nói điều ước **trái với hiện tại**, nên lùi thì như vế if loại 2:\n\n| sự thật | điều ước |\n|---|---|\n| I **don't have** a car. | I wish I **had** a car. |\n| I **can't** speak Japanese. | I wish I **could** speak Japanese. |\n| I **have to** work today. | I wish I **didn't have to** work today. |\n| I'm not tall. | I wish I **were** taller. |\n\n**wish hay hope?** Tiếng Việt đều là \"mong, ước\":\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| I wish you pass the exam. | I **hope** you pass the exam. (có thể xảy ra) |\n| I wish I can go. | I wish I **could** go. (không đi được) |\n\nChúc thì vẫn dùng wish + người + danh từ: I **wish** you a happy birthday.\n\nNói điều mong một cách nhẹ nhàng: **It would be nice to** have a garden.\n\n❌ I wish I have a car ❌ I wish I can ✅ **I wish I had a car.** **I wish I could.**",
+                        "items": ["i-wish", "i-wish-i", "it-would-be-nice", "possible", "second-conditional", "dream"],
+                        "examples": [
+                            { "en": "You're going to Japan? I'm so jealous! I wish I could come with you.", "vi": "Bạn đi Nhật à? Ghen tị ghê! Ước gì mình đi cùng được.", "highlight": "I wish I could come with you" },
+                            { "en": "It would be nice to have a garden, but unfortunately it isn't possible in the city.", "vi": "Có một khu vườn thì hay quá, nhưng tiếc là ở thành phố thì không được.", "highlight": "It would be nice to have a garden" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "i-wish-i",
+                        "prompts": [
+                            { "cueVi": "Ước gì mình có nhiều thời gian hơn.", "slots": { "wish": "had more time" }, "answer": "I wish I had more time." },
+                            { "cueVi": "Ước gì mình nói được tiếng Nhật.", "slots": { "wish": "could speak Japanese" }, "answer": "I wish I could speak Japanese." },
+                            { "cueVi": "Ước gì hôm nay mình không phải đi làm.", "slots": { "wish": "didn't have to work today" }, "answer": "I wish I didn't have to work today." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["lucky", "jealous", "it-would-be-nice", "in-real-life", "possible", "dream-job", "unfortunately", "dream"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b1-06-dream-job", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Ước gì mình có ô tô.\"",
+                                "options": ["I wish I have a car.", "I wish I had a car.", "I hope I had a car."],
+                                "answer": 1,
+                                "item": "i-wish"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn mong bạn mình thi đỗ (có thể xảy ra):",
+                                "options": ["I wish you pass the exam.", "I hope you pass the exam.", "I wish you passed the exam."],
+                                "answer": 1,
+                                "item": "i-wish"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I wish I ___ speak Japanese.",
+                                "hintVi": "can",
+                                "answers": ["could"],
+                                "item": "i-wish-i"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "You're going to Japan? I'm so jealous!",
+                                "options": ["Bạn đi Nhật à? Ghen tị ghê!", "Bạn đi Nhật à? Mình lo cho bạn quá!", "Bạn không đi Nhật à? Tiếc quá!"],
+                                "answer": 0,
+                                "item": "jealous"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Công việc mơ ước của mình là làm hướng dẫn viên du lịch.",
+                                "answer": "My dream job is to be a tour guide.",
+                                "item": "dream-job"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "b1-06-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "\"Nếu giàu, mình sẽ mua nhà cho bố mẹ.\" (mình không giàu)",
+                "options": ["If I am rich, I'll buy a house for my parents.", "If I were rich, I'd buy a house for my parents.", "If I would be rich, I'd buy a house for my parents."],
+                "answer": 1,
+                "item": "second-conditional"
+            },
+            {
+                "kind": "gap",
+                "sentence": "What ___ you do if you won the lottery?",
+                "answers": ["would"],
+                "item": "what-would-you-do-if"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["You'd better not be late.", "You'd better not to be late.", "You'd not better be late."],
+                "answer": 0,
+                "item": "youd-better"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Hỏi xin lời khuyên:",
+                "options": ["Can you give me an advice?", "Can you give me some advice?", "Can you give me some advices?"],
+                "answer": 1,
+                "item": "advice"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "If I were you, I'd look for a new job.",
+                "options": ["Mình mà là bạn thì mình sẽ tìm việc mới.", "Mình đang tìm việc mới giống bạn.", "Bạn mà là mình thì bạn sẽ nghỉ việc."],
+                "answer": 0,
+                "item": "if-i-were-you"
+            },
+            {
+                "kind": "order",
+                "vi": "Ước gì hôm nay mình không phải đi làm.",
+                "answer": "I wish I didn't have to work today.",
+                "item": "i-wish-i"
+            }
+        ]
+    }
+}
