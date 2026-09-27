@@ -10,6 +10,7 @@ Trạng thái: `draft` đã soạn, qua validator · `reviewed` đã có ngườ
 |---|---|---|---|---|---|---|---|---|
 | Pre-A1 | 6 | 6 | 18 | 128 | 86 | 28 | 10 | 4 |
 | A1 | 10 | 10 | 31 | 260 | 166 | 49 | 33 | 12 |
+| A2 | 12 | 4 | 12 | 100 | 54 | 23 | 14 | 9 |
 
 ## Placement (`placement.json`)
 
@@ -19,6 +20,7 @@ Một bài xếp lớp cho cả lộ trình, 2 câu mỗi unit, theo thứ tự 
 |---|---|---|
 | Pre-A1 | 6/6 | 12 |
 | A1 | 10/10 | 20 |
+| A2 | 4/12 | 8 |
 
 ## Pre-A1: Foundations
 
@@ -163,3 +165,69 @@ Một bài xếp lớp cho cả lộ trình, 2 câu mỗi unit, theo thứ tự 
 - Slug tháng có tiền tố `month-` (`month-may`, `month-march`…) để `may`, `march` còn trống cho động từ; số thứ tự là `ordinal-first`, `ordinal-second`, `ordinal-third` (`second` còn là "giây"). Số thứ tự khác chỉ nằm trong `ordinal-numbers`.
 - `in`, `on` (LEXICAL) mang nghĩa nơi chốn (unit 05); nghĩa thời gian nằm trong GRAMMAR `prepositions-of-time`.
 - Đếm được/không đếm được vẫn chỉ nằm trong EXPLAIN của `a1-03-l1-food`; unit 04 không dạy How much/How many theo số lượng để khỏi lẫn với How much (giá).
+
+## A2: Elementary
+
+Mốc của stage: "Tôi kể được cuối tuần vừa rồi" (unit 02). Khung 12 unit (chốt ở P4-4a, P4-4b/c soạn theo):
+
+| # | Unit | Can-do (tóm tắt) | Bài | Item (L/Ph/Pa/G) | Dialogue | Trạng thái |
+|---|---|---|---|---|---|---|
+| 1 | `a2-01-where-were-you` | was/were, hôm qua ở đâu, It was great/boring…, sinh ở đâu năm nào, đọc năm | 3 | 26 (15/5/4/2) | 2 | draft |
+| 2 | `a2-02-last-weekend` | quá khứ đơn -ed (3 cách đọc), bất quy tắc hay gặp, did/didn't, kể cuối tuần | 3 | 24 (12/6/3/3) | 2 | draft |
+| 3 | `a2-03-my-story` | mốc trong đời + năm, kể theo trình tự (first, then…), used to, When I was… | 3 | 25 (15/5/3/2) | 2 | draft |
+| 4 | `a2-04-plans` | be going to, mời / nhận lời / từ chối, How about…?, want/hope/would like to | 3 | 25 (12/7/4/2) | 2 | draft |
+| 5 | `a2-05-travel` | phương tiện, sân bay, khách sạn, đặt phòng, hỏi thông tin chuyến đi | | | | chưa soạn |
+| 6 | `a2-06-health` | cơ thể, triệu chứng (I have a headache), đi khám, should / shouldn't | | | | chưa soạn |
+| 7 | `a2-07-work` | công việc, nơi làm, have to / don't have to, can / can't (khả năng) | | | | chưa soạn |
+| 8 | `a2-08-comparing` | so sánh hơn và nhất (-er/-est, more/most), as … as | | | | chưa soạn |
+| 9 | `a2-09-experiences` | hiện tại hoàn thành với ever / never, Have you ever…? | | | | chưa soạn |
+| 10 | `a2-10-how-much-how-many` | đếm được / không đếm được, some / any, much / many / a lot of, công thức nấu ăn | | | | chưa soạn |
+| 11 | `a2-11-people` | tả người: ngoại hình, tính cách; mệnh đề quan hệ who / which / where | | | | chưa soạn |
+| 12 | `a2-12-keep-it-going` | chiến lược: hỏi tiếp, thể hiện quan tâm (Really?), đổi chủ đề, kết thúc cuộc nói chuyện | | | | chưa soạn |
+
+### Mẫu câu (PATTERN)
+
+| Item | Template | Unit |
+|---|---|---|
+| `i-was-at` | I was at {place} {when}. | 01 |
+| `where-were-you` | Where were you {when}? | 01 |
+| `how-was` | How was {thing}? | 01 |
+| `i-was-born-in` | I was born in {placeOrYear}. | 01 |
+| `what-did-you-do` | What did you do {when}? | 02 |
+| `i-did-last-weekend` | I {did} last weekend. | 02 |
+| `did-you` | Did you {do}? | 02 |
+| `i-did-in-year` | I {did} in {year}. | 03 |
+| `i-used-to` | I used to {do}. | 03 |
+| `when-i-was` | When I was {age}, I {did}. | 03 |
+| `im-going-to` | I'm going to {do} {when}. | 04 |
+| `would-you-like-to` | Would you like to {do}? | 04 |
+| `how-about` | How about {suggestion}? | 04 |
+| `i-want-to` | I want to {do} someday. | 04 |
+
+### Ngữ pháp (GRAMMAR)
+
+| Item | Điểm ngữ pháp | Unit |
+|---|---|---|
+| `was-were` | quá khứ của be: was/were, wasn't/weren't, Were you…? | 01 |
+| `saying-years` | đọc năm (nineteen ninety-eight, two thousand five, twenty nineteen), in + năm | 01 |
+| `past-simple-regular` | quá khứ đơn -ed, chính tả, ba cách đọc /t/ /d/ /ɪd/ | 02 |
+| `past-simple-irregular` | went, had, saw, ate, bought, met, did | 02 |
+| `past-simple-did` | didn't + nguyên mẫu, Did…?, trả lời ngắn | 02 |
+| `sequencing` | first, then, after that, suddenly, finally; before/after | 03 |
+| `used-to` | used to + nguyên mẫu, didn't use to, Did you use to…? | 03 |
+| `be-going-to` | am/is/are going to + nguyên mẫu: kế hoạch | 04 |
+| `verb-to-infinitive` | want / hope / plan / would like + to + nguyên mẫu | 04 |
+
+### Lỗi thường gặp của người Việt (A2)
+
+- Giữ hiện tại khi kể quá khứ ("Yesterday I am at home"), "They was", "Yesterday I tired", "I was boring" thay cho bored, fun và funny, "in last week", "ago two days", "I born in…", đọc năm như số đếm (unit 01).
+- Nuốt đuôi -ed, đọc thừa /ɪd/ ("watch-ed"), "I was clean the house", "goed/buyed/eated", "went to home", "I didn't went", "Did you saw", "I didn't tired" (unit 02).
+- "I was graduated", "married with", đổi thì giữa câu chuyện, remember và miss (hai nghĩa của "nhớ"), "I use to" cho hiện tại, "used to playing", "drive a bike" (unit 03).
+- "I going to", "going to studying", "Would you like go", "Yes, I would like", từ chối cộc "No.", "How about go", "I want travel", "She want to goes", "go to abroad", "get up soon" (unit 04).
+
+### Ghi chú A2
+
+- Động từ bất quy tắc là item LEXICAL riêng theo dạng quá khứ (`went`, `had`, `saw`, `ate`, `bought`, `met`, `took`), nghĩa ghi rõ "quá khứ của …"; dạng nguyên mẫu go, have, see… chưa có item riêng. grew, got, rode chỉ nằm trong item cụm (`grow-up`, `get-a-job`, `ride-a-bike`).
+- `first` (LEXICAL, "đầu tiên" khi kể chuyện) khác `ordinal-first` (số thứ tự, A1).
+- `friend`, `school`, `happy` chưa có ở Pre-A1 và A1 nên được giới thiệu ở `a2-01`.
+- Hiện tại tiếp diễn cho lịch hẹn tương lai (I'm meeting Anna tomorrow) chưa dạy riêng; chỉ xuất hiện trong hội thoại.

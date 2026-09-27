@@ -137,6 +137,23 @@ describe('computeProgress', () => {
             'u3:L LL',
             'u4:L L L',
         ]);
+        expect(
+            computeProgress(tree, learner({ startUnitId: 'u2' }))
+                .currentLessonId,
+        ).toBe('u2-l1');
+    });
+
+    it('falls back to a lesson of a cleared unit when nothing else is open', () => {
+        const p = learner({
+            completedLessonIds: new Set(['u1-l1']),
+            passedCheckpointIds: new Set(['u1-cp']),
+        });
+        expect(computeProgress(tree, p).currentLessonId).toBe('u2-l1');
+        const onlyReview = learner({
+            startUnitId: 'u4',
+            completedLessonIds: new Set(['u4-l1']),
+        });
+        expect(computeProgress(tree, onlyReview).currentLessonId).toBe('u1-l1');
     });
 
     it('treats an unknown start unit as the first', () => {

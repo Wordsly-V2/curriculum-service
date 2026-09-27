@@ -1,0 +1,770 @@
+{
+    "slug": "a2-02-last-weekend",
+    "stage": "a2",
+    "order": 2,
+    "title": "Last weekend",
+    "titleVi": "Cuối tuần vừa rồi",
+    "descriptionVi": "Quá khứ đơn: động từ có quy tắc (-ed và cách đọc), động từ bất quy tắc hay gặp, câu hỏi và phủ định với did; kể lại cuối tuần của mình.",
+    "canDo": [
+        "Tôi kể được cuối tuần vừa rồi mình đã làm gì, bằng vài câu nối tiếp nhau.",
+        "Tôi đọc đúng đuôi -ed (/t/, /d/, /ɪd/) và dùng được các động từ bất quy tắc hay gặp: went, had, saw, ate, bought, met.",
+        "Tôi hỏi được người khác đã làm gì (What did you do? Did you…?) và phản hồi tự nhiên."
+    ],
+    "items": [
+        {
+            "slug": "past-simple-regular",
+            "type": "GRAMMAR",
+            "text": "verb + -ed",
+            "meaningVi": "quá khứ đơn với động từ có quy tắc",
+            "examples": [
+                { "en": "I cleaned the house and watched TV.", "vi": "Mình đã dọn nhà và xem TV.", "highlight": "cleaned" }
+            ],
+            "grammar": {
+                "ruleVi": "Việc đã xong trong quá khứ (yesterday, last week, … ago): động từ thêm -ed, giống nhau cho mọi chủ ngữ. Đuôi -ed có ba cách đọc, và phải đọc ra thì người nghe mới biết là quá khứ.",
+                "forms": [
+                    { "label": "thêm -ed", "example": "play → played, watch → watched" },
+                    { "label": "tận cùng e: thêm -d", "example": "live → lived, relax → relaxed" },
+                    { "label": "phụ âm + y: -ied", "example": "study → studied" },
+                    { "label": "đọc /t/", "example": "watched, cooked, walked, relaxed" },
+                    { "label": "đọc /d/", "example": "played, cleaned, stayed, listened" },
+                    { "label": "đọc /ɪd/ (sau t, d)", "example": "visited, waited, started" }
+                ],
+                "pitfallsVi": [
+                    "Nuốt đuôi -ed: \"Yesterday I watch TV\" nghe như hiện tại → watched /wɑːtʃt/.",
+                    "Đọc thừa âm: \"watch-ed\" /wɑːtʃɪd/ → chỉ đọc /ɪd/ sau t hoặc d.",
+                    "Dùng was + động từ: \"I was clean the house\" → I cleaned the house."
+                ]
+            }
+        },
+        {
+            "slug": "visit",
+            "type": "LEXICAL",
+            "text": "visit",
+            "meaningVi": "thăm, đến thăm",
+            "ipa": "/ˈvɪzɪt/",
+            "examples": [
+                { "en": "I visited my grandparents last weekend.", "vi": "Cuối tuần vừa rồi mình về thăm ông bà.", "highlight": "visited" }
+            ],
+            "noteVi": "Không có to: ❌ \"visit to my grandparents\". Quá khứ visited đọc /ˈvɪzɪtɪd/."
+        },
+        {
+            "slug": "clean",
+            "type": "LEXICAL",
+            "text": "clean",
+            "meaningVi": "dọn dẹp, lau chùi; sạch",
+            "ipa": "/kliːn/",
+            "examples": [
+                { "en": "We cleaned the house on Saturday.", "vi": "Thứ Bảy bọn mình dọn nhà.", "highlight": "cleaned" }
+            ],
+            "noteVi": "cleaned đọc /kliːnd/, một âm tiết, không đọc \"cờ-lin-đơ\"."
+        },
+        {
+            "slug": "relax",
+            "type": "LEXICAL",
+            "text": "relax",
+            "meaningVi": "nghỉ ngơi, thư giãn",
+            "ipa": "/rɪˈlæks/",
+            "examples": [
+                { "en": "On Sunday, I just relaxed at home.", "vi": "Chủ nhật mình chỉ nghỉ ngơi ở nhà.", "highlight": "relaxed" }
+            ],
+            "noteVi": "Nhấn âm sau: re-LAX. relaxed đọc /rɪˈlækst/, đuôi -ed là /t/."
+        },
+        {
+            "slug": "stay-home",
+            "type": "PHRASE",
+            "text": "stay home",
+            "meaningVi": "ở nhà (không đi đâu)",
+            "examples": [
+                { "en": "It was rainy, so I stayed home.", "vi": "Trời mưa nên mình ở nhà.", "highlight": "stayed home" }
+            ],
+            "noteVi": "Người Mỹ nói stay home (hoặc stay at home). ❌ \"stay in home\"."
+        },
+        {
+            "slug": "listen-to-music",
+            "type": "PHRASE",
+            "text": "listen to music",
+            "meaningVi": "nghe nhạc",
+            "examples": [
+                { "en": "I listened to music and read a book.", "vi": "Mình nghe nhạc và đọc sách.", "highlight": "listened to music" }
+            ],
+            "noteVi": "Luôn có to: ❌ \"listen music\". Không có the khi nói chung: listen to music."
+        },
+        {
+            "slug": "what-did-you-do",
+            "type": "PATTERN",
+            "text": "What did you do …?",
+            "meaningVi": "… bạn đã làm gì?",
+            "examples": [
+                { "en": "What did you do last weekend?", "vi": "Cuối tuần vừa rồi bạn làm gì?", "highlight": "What did you do" }
+            ],
+            "pattern": {
+                "template": "What did you do {when}?",
+                "slots": [
+                    { "name": "when", "hintVi": "thời gian đã qua", "options": ["last weekend", "yesterday", "last night"] }
+                ]
+            },
+            "noteVi": "did là trợ động từ quá khứ, nên do giữ nguyên mẫu: ❌ \"What did you did?\"."
+        },
+        {
+            "slug": "i-did-last-weekend",
+            "type": "PATTERN",
+            "text": "I … last weekend.",
+            "meaningVi": "Cuối tuần vừa rồi tôi đã …",
+            "examples": [
+                { "en": "I cleaned the house last weekend.", "vi": "Cuối tuần vừa rồi mình dọn nhà.", "highlight": "cleaned the house" }
+            ],
+            "pattern": {
+                "template": "I {did} last weekend.",
+                "slots": [
+                    { "name": "did", "hintVi": "động từ quá khứ (+ tân ngữ)", "options": ["cleaned the house", "visited my grandparents", "played soccer", "stayed home"] }
+                ]
+            },
+            "noteVi": "Có thể đưa thời gian lên đầu: Last weekend, I stayed home."
+        },
+        {
+            "slug": "past-simple-irregular",
+            "type": "GRAMMAR",
+            "text": "irregular past forms",
+            "meaningVi": "quá khứ đơn với động từ bất quy tắc",
+            "examples": [
+                { "en": "I went to the beach and ate seafood.", "vi": "Mình đi biển và ăn hải sản.", "highlight": "went" }
+            ],
+            "grammar": {
+                "ruleVi": "Nhiều động từ hay dùng không thêm -ed mà có dạng quá khứ riêng, phải học thuộc. Dạng này cũng giống nhau cho mọi chủ ngữ.",
+                "forms": [
+                    { "label": "go → went", "example": "We went to the movies." },
+                    { "label": "have → had", "example": "I had lunch with my friends." },
+                    { "label": "see → saw", "example": "She saw a good movie." },
+                    { "label": "eat → ate", "example": "They ate pho." },
+                    { "label": "buy → bought", "example": "He bought new shoes." },
+                    { "label": "meet → met", "example": "I met Anna at the park." },
+                    { "label": "do → did", "example": "I did my homework." }
+                ],
+                "pitfallsVi": [
+                    "Thêm -ed vào động từ bất quy tắc: \"goed\", \"buyed\", \"eated\" → went, bought, ate.",
+                    "Dùng nguyên mẫu vì đã có yesterday: \"Yesterday I go to the beach\" → I went.",
+                    "\"went to home\" → went home (home không có to)."
+                ]
+            }
+        },
+        {
+            "slug": "went",
+            "type": "LEXICAL",
+            "text": "went",
+            "meaningVi": "đã đi (quá khứ của go)",
+            "ipa": "/wɛnt/",
+            "examples": [
+                { "en": "We went to Vung Tau last weekend.", "vi": "Cuối tuần vừa rồi bọn mình đi Vũng Tàu.", "highlight": "went" }
+            ],
+            "noteVi": "Giữ âm cuối /nt/. went home, went to bed, went shopping."
+        },
+        {
+            "slug": "had",
+            "type": "LEXICAL",
+            "text": "had",
+            "meaningVi": "đã có; đã ăn, uống (quá khứ của have)",
+            "ipa": "/hæd/",
+            "examples": [
+                { "en": "I had dinner with my family.", "vi": "Mình ăn tối với gia đình.", "highlight": "had dinner" }
+            ],
+            "noteVi": "had a good time = đã có khoảng thời gian vui. Giữ âm cuối /d/."
+        },
+        {
+            "slug": "saw",
+            "type": "LEXICAL",
+            "text": "saw",
+            "meaningVi": "đã thấy, đã xem (quá khứ của see)",
+            "ipa": "/sɔː/",
+            "examples": [
+                { "en": "We saw a funny movie on Saturday.", "vi": "Thứ Bảy bọn mình xem một bộ phim hài.", "highlight": "saw" }
+            ],
+            "noteVi": "Xem phim ở rạp: see a movie (saw a movie); xem TV: watch TV (watched TV)."
+        },
+        {
+            "slug": "ate",
+            "type": "LEXICAL",
+            "text": "ate",
+            "meaningVi": "đã ăn (quá khứ của eat)",
+            "ipa": "/eɪt/",
+            "examples": [
+                { "en": "They ate seafood at the beach.", "vi": "Họ ăn hải sản ở biển.", "highlight": "ate" }
+            ],
+            "noteVi": "Đọc giống eight /eɪt/. ❌ \"eated\"."
+        },
+        {
+            "slug": "bought",
+            "type": "LEXICAL",
+            "text": "bought",
+            "meaningVi": "đã mua (quá khứ của buy)",
+            "ipa": "/bɔːt/",
+            "examples": [
+                { "en": "She bought a new phone yesterday.", "vi": "Hôm qua cô ấy mua điện thoại mới.", "highlight": "bought" }
+            ],
+            "noteVi": "Chữ gh câm: /bɔːt/. ❌ \"buyed\"."
+        },
+        {
+            "slug": "met",
+            "type": "LEXICAL",
+            "text": "met",
+            "meaningVi": "đã gặp (quá khứ của meet)",
+            "ipa": "/mɛt/",
+            "examples": [
+                { "en": "I met my friends at a coffee shop.", "vi": "Mình gặp bạn bè ở quán cà phê.", "highlight": "met" }
+            ],
+            "noteVi": "Gặp ai: meet someone, không có with: ❌ \"met with my friends\" (ý \"họp\" thì mới dùng meet with)."
+        },
+        {
+            "slug": "beach",
+            "type": "LEXICAL",
+            "text": "beach",
+            "meaningVi": "bãi biển",
+            "ipa": "/biːtʃ/",
+            "examples": [
+                { "en": "We went to the beach on Sunday.", "vi": "Chủ nhật bọn mình đi biển.", "highlight": "beach" }
+            ],
+            "noteVi": "Âm /iː/ dài. \"Đi biển\" là go to the beach (biển nói chung là the sea)."
+        },
+        {
+            "slug": "movie",
+            "type": "LEXICAL",
+            "text": "movie",
+            "meaningVi": "bộ phim",
+            "ipa": "/ˈmuːvi/",
+            "examples": [
+                { "en": "The movie was really interesting.", "vi": "Bộ phim rất hay.", "highlight": "movie" }
+            ],
+            "noteVi": "Đi xem phim ở rạp: go to the movies (Mỹ). Người Anh nói film, cinema."
+        },
+        {
+            "slug": "past-simple-did",
+            "type": "GRAMMAR",
+            "text": "did / didn't + verb",
+            "meaningVi": "quá khứ đơn: câu hỏi và phủ định với did",
+            "examples": [
+                { "en": "Did you go out? No, I didn't. I stayed home.", "vi": "Bạn có đi chơi không? Không, mình ở nhà.", "highlight": "Did you go out?" }
+            ],
+            "grammar": {
+                "ruleVi": "Câu hỏi và phủ định ở quá khứ dùng trợ động từ did / didn't, và động từ chính trở về nguyên mẫu (vì did đã mang nghĩa quá khứ). Giống do/does ở hiện tại.",
+                "forms": [
+                    { "label": "phủ định", "example": "I didn't go out. She didn't eat breakfast." },
+                    { "label": "câu hỏi", "example": "Did you see the movie?" },
+                    { "label": "trả lời ngắn", "example": "Yes, I did. / No, I didn't." },
+                    { "label": "hỏi Wh-", "example": "What did you do? Where did you go?" }
+                ],
+                "pitfallsVi": [
+                    "Chia quá khứ hai lần: \"I didn't went\", \"Did you saw…?\" → I didn't go, Did you see…?",
+                    "Dùng didn't với be: \"I didn't tired\" → I wasn't tired.",
+                    "Trả lời \"Yes, I went\" cho câu Did…? thì đúng nhưng ngắn gọn hơn là Yes, I did."
+                ]
+            }
+        },
+        {
+            "slug": "did-you",
+            "type": "PATTERN",
+            "text": "Did you …?",
+            "meaningVi": "Bạn có … không? (đã qua)",
+            "examples": [
+                { "en": "Did you have a good time?", "vi": "Bạn chơi có vui không?", "highlight": "Did you have" }
+            ],
+            "pattern": {
+                "template": "Did you {do}?",
+                "slots": [
+                    { "name": "do", "hintVi": "động từ nguyên mẫu (+ tân ngữ, thời gian)", "options": ["go out last night", "see the movie", "have lunch", "visit your parents"] }
+                ]
+            },
+            "noteVi": "Sau Did you luôn là nguyên mẫu: Did you go…?, ❌ \"Did you went…?\"."
+        },
+        {
+            "slug": "did-you-have-a-good-weekend",
+            "type": "PHRASE",
+            "text": "Did you have a good weekend?",
+            "meaningVi": "Cuối tuần của bạn vui chứ?",
+            "examples": [
+                { "en": "Hi Anna! Did you have a good weekend?", "vi": "Chào Anna! Cuối tuần vui chứ?", "highlight": "Did you have a good weekend?" }
+            ],
+            "noteVi": "Câu chào hỏi rất hay nghe ở chỗ làm sáng thứ Hai. Trả lời: Yes, thanks! I … rồi kể một hai câu."
+        },
+        {
+            "slug": "nothing-special",
+            "type": "PHRASE",
+            "text": "Nothing special.",
+            "meaningVi": "Không có gì đặc biệt.",
+            "examples": [
+                { "en": "What did you do yesterday? Nothing special. I stayed home.", "vi": "Hôm qua bạn làm gì? Không có gì đặc biệt. Mình ở nhà.", "highlight": "Nothing special" }
+            ],
+            "noteVi": "Nói xong nên thêm một câu nữa để cuộc trò chuyện không dừng lại."
+        },
+        {
+            "slug": "sounds-fun",
+            "type": "PHRASE",
+            "text": "That sounds fun!",
+            "meaningVi": "Nghe vui đấy!",
+            "examples": [
+                { "en": "We went to the beach. That sounds fun!", "vi": "Bọn mình đi biển. Nghe vui đấy!", "highlight": "That sounds fun!" }
+            ],
+            "noteVi": "sounds + tính từ: That sounds great / nice / terrible. Với danh từ thì thêm like: That sounds like a good idea. ❌ \"sounds like great\"."
+        },
+        {
+            "slug": "how-about-you",
+            "type": "PHRASE",
+            "text": "How about you?",
+            "meaningVi": "Còn bạn thì sao?",
+            "examples": [
+                { "en": "I stayed home. How about you?", "vi": "Mình ở nhà. Còn bạn thì sao?", "highlight": "How about you?" }
+            ],
+            "noteVi": "Hỏi lại để cuộc trò chuyện tiếp tục, giống And you? nhưng tự nhiên hơn khi đã kể dài."
+        },
+        {
+            "slug": "took",
+            "type": "LEXICAL",
+            "text": "took",
+            "meaningVi": "đã lấy, đã đi (xe), đã chụp (quá khứ của take)",
+            "ipa": "/tʊk/",
+            "examples": [
+                { "en": "We took a lot of photos at the beach.", "vi": "Bọn mình chụp rất nhiều ảnh ở biển.", "highlight": "took" }
+            ],
+            "noteVi": "took a taxi (đi taxi), took photos (chụp ảnh), took a shower (tắm). ❌ \"taked\"."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "a2-02-a-day-at-the-beach",
+            "title": "A day at the beach",
+            "situationVi": "Nam kể cho Lan nghe cuối tuần đi Vũng Tàu.",
+            "lines": [
+                { "speaker": "Lan", "en": "Hi Nam! How was your weekend?", "vi": "Chào Nam! Cuối tuần của bạn thế nào?" },
+                { "speaker": "Nam", "en": "It was great! I went to Vung Tau with my friends.", "vi": "Tuyệt lắm! Mình đi Vũng Tàu với bạn bè." },
+                { "speaker": "Lan", "en": "Wow! What did you do there?", "vi": "Ồ! Các bạn làm gì ở đó?" },
+                { "speaker": "Nam", "en": "We went to the beach and had lunch at a seafood restaurant.", "vi": "Bọn mình đi biển và ăn trưa ở một nhà hàng hải sản." },
+                { "speaker": "Lan", "en": "Nice!", "vi": "Hay quá!" },
+                { "speaker": "Nam", "en": "In the evening, we saw a movie. Oh, and I bought some coffee for you!", "vi": "Buổi tối bọn mình đi xem phim. À, mình mua cà phê cho bạn nữa!" },
+                { "speaker": "Lan", "en": "Oh, thank you!", "vi": "Ôi, cảm ơn bạn!" }
+            ]
+        },
+        {
+            "slug": "a2-02-did-you-have-a-good-weekend",
+            "title": "Did you have a good weekend?",
+            "situationVi": "Sáng thứ Hai ở chỗ làm, đồng nghiệp hỏi cuối tuần của bạn. Hãy kể lại.",
+            "lines": [
+                { "speaker": "Anna", "en": "Hi! Did you have a good weekend?", "vi": "Chào! Cuối tuần vui chứ?" },
+                { "speaker": "You", "en": "Yes, I did, thanks. I visited my grandparents.", "vi": "Vui lắm, cảm ơn. Mình về thăm ông bà.", "learnerTurn": true },
+                { "speaker": "Anna", "en": "That sounds nice. What did you do there?", "vi": "Nghe hay đấy. Bạn làm gì ở đó?" },
+                { "speaker": "You", "en": "We cooked dinner together and watched a movie. How about you?", "vi": "Cả nhà nấu bữa tối cùng nhau rồi xem phim. Còn bạn thì sao?", "learnerTurn": true },
+                { "speaker": "Anna", "en": "Nothing special. I stayed home and cleaned the house.", "vi": "Không có gì đặc biệt. Mình ở nhà dọn dẹp." },
+                { "speaker": "You", "en": "Did you go out on Sunday?", "vi": "Chủ nhật bạn có đi chơi không?", "learnerTurn": true },
+                { "speaker": "Anna", "en": "No, I didn't. I relaxed and listened to music. It was great!", "vi": "Không. Mình nghỉ ngơi và nghe nhạc. Tuyệt lắm!" }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "a2-02-l1-what-did-you-do",
+            "title": "What did you do?",
+            "titleVi": "Bạn đã làm gì?",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "past-simple-regular", "role": "INTRODUCE" },
+                { "item": "visit", "role": "INTRODUCE" },
+                { "item": "clean", "role": "INTRODUCE" },
+                { "item": "relax", "role": "INTRODUCE" },
+                { "item": "stay-home", "role": "INTRODUCE" },
+                { "item": "listen-to-music", "role": "INTRODUCE" },
+                { "item": "what-did-you-do", "role": "INTRODUCE" },
+                { "item": "i-did-last-weekend", "role": "INTRODUCE" },
+                { "item": "watch-tv", "role": "RECYCLE" },
+                { "item": "cook", "role": "RECYCLE" },
+                { "item": "play", "role": "RECYCLE" },
+                { "item": "weekend", "role": "RECYCLE" },
+                { "item": "grandparents", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["visit", "clean", "relax", "stay-home", "listen-to-music", "what-did-you-do", "i-did-last-weekend"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Quá khứ đơn: động từ + -ed",
+                        "bodyVi": "Việc **đã xong** trong quá khứ: động từ thêm **-ed**, mọi chủ ngữ như nhau.\n\nI **watch** TV every day. → I **watched** TV yesterday.\n\nĐuôi -ed có **ba cách đọc**. Người Việt hay bỏ âm cuối, nên câu nghe như hiện tại: hãy đọc rõ.\n\n| đọc | khi động từ tận cùng bằng âm | ví dụ |\n|---|---|---|\n| /t/ | p, k, s, ch, sh, f | watch**ed**, cook**ed**, relax**ed** |\n| /d/ | các âm còn lại | play**ed**, clean**ed**, stay**ed** |\n| /ɪd/ | t, d | visit**ed**, wait**ed** |\n\n❌ I was clean the house. ✅ I **cleaned** the house.\n\nHỏi: **What did you do** last weekend?",
+                        "items": ["past-simple-regular", "what-did-you-do", "watch-tv", "cook", "play", "visit", "clean", "relax"],
+                        "examples": [
+                            { "en": "I cooked dinner and watched a movie.", "vi": "Mình nấu bữa tối và xem phim.", "highlight": "cooked" },
+                            { "en": "We visited our grandparents.", "vi": "Bọn mình về thăm ông bà.", "highlight": "visited" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "i-did-last-weekend",
+                        "prompts": [
+                            { "cueVi": "Cuối tuần vừa rồi mình dọn nhà.", "slots": { "did": "cleaned the house" }, "answer": "I cleaned the house last weekend." },
+                            { "cueVi": "Cuối tuần vừa rồi mình về thăm ông bà.", "slots": { "did": "visited my grandparents" }, "answer": "I visited my grandparents last weekend." },
+                            { "cueVi": "Cuối tuần vừa rồi mình chơi bóng đá.", "slots": { "did": "played soccer" }, "answer": "I played soccer last weekend." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "what-did-you-do",
+                        "prompts": [
+                            { "cueVi": "Hỏi: cuối tuần vừa rồi bạn làm gì?", "slots": { "when": "last weekend" }, "answer": "What did you do last weekend?" },
+                            { "cueVi": "Hỏi: tối qua bạn làm gì?", "slots": { "when": "last night" }, "answer": "What did you do last night?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["visit", "clean", "relax", "stay-home", "listen-to-music", "watch-tv", "cook", "play"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "I watched TV and cooked dinner.", "vi": "Mình xem TV và nấu bữa tối." },
+                            { "en": "We played soccer on Saturday.", "vi": "Thứ Bảy bọn mình chơi bóng đá." },
+                            { "en": "She visited her parents last weekend.", "vi": "Cuối tuần vừa rồi cô ấy về thăm bố mẹ." },
+                            { "en": "It was rainy, so I stayed home and relaxed.", "vi": "Trời mưa nên mình ở nhà nghỉ ngơi." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["Yesterday I clean the house.", "Yesterday I was clean the house.", "Yesterday I cleaned the house."],
+                                "answer": 2,
+                                "item": "past-simple-regular"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Đuôi -ed trong \"visited\" đọc là:",
+                                "options": ["/t/", "/d/", "/ɪd/"],
+                                "answer": 2,
+                                "item": "past-simple-regular"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Last night I ___ to music.",
+                                "hintVi": "nghe (quá khứ)",
+                                "answers": ["listened"],
+                                "item": "listen-to-music"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "We stayed home and watched TV.",
+                                "options": ["Bọn mình ở nhà xem TV.", "Bọn mình ra ngoài xem phim.", "Bọn mình đang xem TV ở nhà."],
+                                "answer": 0,
+                                "item": "stay-home"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Cuối tuần vừa rồi bạn làm gì?",
+                                "answer": "What did you do last weekend?",
+                                "item": "what-did-you-do"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a2-02-l2-we-went-to-the-beach",
+            "title": "We went to the beach",
+            "titleVi": "Bọn mình đi biển",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "past-simple-irregular", "role": "INTRODUCE" },
+                { "item": "went", "role": "INTRODUCE" },
+                { "item": "had", "role": "INTRODUCE" },
+                { "item": "saw", "role": "INTRODUCE" },
+                { "item": "ate", "role": "INTRODUCE" },
+                { "item": "bought", "role": "INTRODUCE" },
+                { "item": "met", "role": "INTRODUCE" },
+                { "item": "beach", "role": "INTRODUCE" },
+                { "item": "movie", "role": "INTRODUCE" },
+                { "item": "past-simple-regular", "role": "RECYCLE" },
+                { "item": "friend", "role": "RECYCLE" },
+                { "item": "lunch", "role": "RECYCLE" },
+                { "item": "how-was", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["went", "had", "saw", "ate", "bought", "met", "beach", "movie"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Động từ bất quy tắc",
+                        "bodyVi": "Nhiều động từ hay dùng nhất **không thêm -ed** mà có dạng quá khứ riêng. Học thuộc 7 từ này là kể được hầu hết một ngày:\n\n| nguyên mẫu | quá khứ |\n|---|---|\n| go | **went** |\n| have | **had** |\n| see | **saw** |\n| eat | **ate** |\n| buy | **bought** |\n| meet | **met** |\n| do | **did** |\n\n❌ goed, buyed, eated. ❌ Yesterday I go to the beach. ✅ Yesterday I **went** to the beach.\n\nhome không có to: I **went home**.",
+                        "items": ["past-simple-irregular", "past-simple-regular", "went", "had", "saw", "ate", "bought", "met"],
+                        "examples": [
+                            { "en": "I met my friends and we had lunch together.", "vi": "Mình gặp bạn bè và bọn mình ăn trưa cùng nhau.", "highlight": "had lunch" },
+                            { "en": "She went home and saw a movie on TV.", "vi": "Cô ấy về nhà và xem một bộ phim trên TV.", "highlight": "went home" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "cloze", "sentence-build"],
+                        "items": ["went", "had", "saw", "ate", "bought", "met", "beach", "movie"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a2-02-a-day-at-the-beach", "mode": "listen" }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "We went to the beach on Sunday.", "vi": "Chủ nhật bọn mình đi biển." },
+                            { "en": "I met my friends and we had lunch together.", "vi": "Mình gặp bạn bè và bọn mình ăn trưa cùng nhau." },
+                            { "en": "She bought a new dress.", "vi": "Cô ấy mua một chiếc váy mới." },
+                            { "en": "We saw a movie in the evening.", "vi": "Buổi tối bọn mình đi xem phim." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Quá khứ của \"buy\" là:",
+                                "options": ["buyed", "bought", "brought"],
+                                "answer": 1,
+                                "item": "bought"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Last Sunday we ___ to the beach.",
+                                "hintVi": "đi (quá khứ)",
+                                "answers": ["went"],
+                                "item": "went"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I went to home at ten.", "I went home at ten.", "I goed home at ten."],
+                                "answer": 1,
+                                "item": "past-simple-irregular"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "I met Anna and we ate pho.",
+                                "options": ["Mình gặp Anna và bọn mình ăn phở.", "Mình gặp Anna rồi đi mua phở.", "Mình sẽ gặp Anna để ăn phở."],
+                                "answer": 0,
+                                "item": "met"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Bọn mình đã xem một bộ phim rất hay.",
+                                "answer": "We saw a really good movie.",
+                                "item": "saw"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a2-02-l3-did-you-have-a-good-weekend",
+            "title": "Did you have a good weekend?",
+            "titleVi": "Cuối tuần vui chứ?",
+            "estimatedMinutes": 14,
+            "items": [
+                { "item": "past-simple-did", "role": "INTRODUCE" },
+                { "item": "did-you", "role": "INTRODUCE" },
+                { "item": "did-you-have-a-good-weekend", "role": "INTRODUCE" },
+                { "item": "nothing-special", "role": "INTRODUCE" },
+                { "item": "sounds-fun", "role": "INTRODUCE" },
+                { "item": "how-about-you", "role": "INTRODUCE" },
+                { "item": "took", "role": "INTRODUCE" },
+                { "item": "what-did-you-do", "role": "RECYCLE" },
+                { "item": "went", "role": "RECYCLE" },
+                { "item": "stay-home", "role": "RECYCLE" },
+                { "item": "visit", "role": "RECYCLE" },
+                { "item": "present-simple", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["did-you", "did-you-have-a-good-weekend", "nothing-special", "sounds-fun", "how-about-you", "took"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Hỏi và phủ định: did / didn't",
+                        "bodyVi": "Giống **do / does** ở hiện tại, quá khứ dùng **did**. Có did rồi thì động từ chính **về nguyên mẫu**.\n\n| | hiện tại | quá khứ |\n|---|---|---|\n| hỏi | **Do** you go out? | **Did** you **go** out? |\n| phủ định | I **don't** go out. | I **didn't go** out. |\n| trả lời | Yes, I do. | **Yes, I did.** / **No, I didn't.** |\n\n❌ I didn't went. ❌ Did you saw…? ✅ I didn't **go**. Did you **see**…?\n\nVới be thì không dùng did: ❌ I didn't tired. ✅ I **wasn't** tired.\n\nKể xong thì hỏi lại: **How about you?**",
+                        "items": ["past-simple-did", "present-simple", "did-you", "how-about-you", "what-did-you-do"],
+                        "examples": [
+                            { "en": "Did you go out? No, I didn't. I stayed home.", "vi": "Bạn có đi chơi không? Không, mình ở nhà.", "highlight": "No, I didn't" },
+                            { "en": "We didn't take a taxi. We walked.", "vi": "Bọn mình không đi taxi. Bọn mình đi bộ.", "highlight": "didn't take" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "did-you",
+                        "prompts": [
+                            { "cueVi": "Hỏi: tối qua bạn có đi chơi không?", "slots": { "do": "go out last night" }, "answer": "Did you go out last night?" },
+                            { "cueVi": "Hỏi: bạn đã xem bộ phim đó chưa?", "slots": { "do": "see the movie" }, "answer": "Did you see the movie?" },
+                            { "cueVi": "Hỏi: bạn có về thăm bố mẹ không?", "slots": { "do": "visit your parents" }, "answer": "Did you visit your parents?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "word-bank"],
+                        "items": ["did-you-have-a-good-weekend", "nothing-special", "sounds-fun", "how-about-you", "took", "went", "stay-home", "visit"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a2-02-did-you-have-a-good-weekend", "mode": "roleplay" }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "Last weekend was great.", "vi": "Cuối tuần vừa rồi rất tuyệt." },
+                            { "en": "On Saturday, I met my friends and we went to the movies.", "vi": "Thứ Bảy mình gặp bạn bè và bọn mình đi xem phim." },
+                            { "en": "On Sunday, I didn't go out. I stayed home and relaxed.", "vi": "Chủ nhật mình không đi đâu. Mình ở nhà nghỉ ngơi." },
+                            { "en": "How about you? What did you do?", "vi": "Còn bạn thì sao? Bạn đã làm gì?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I didn't went out.", "I didn't go out.", "I not went out."],
+                                "answer": 1,
+                                "item": "past-simple-did"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Did you see the movie?\" Có. Bạn trả lời:",
+                                "options": ["Yes, I saw.", "Yes, I did.", "Yes, I was."],
+                                "answer": 1,
+                                "item": "did-you"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "___ you have a good weekend?",
+                                "answers": ["Did"],
+                                "item": "did-you-have-a-good-weekend"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn mình kể: \"We went to the beach.\" Bạn phản hồi:",
+                                "options": ["That sounds fun!", "That sounds like fun beach!", "It's funny!"],
+                                "answer": 0,
+                                "item": "sounds-fun"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Không có gì đặc biệt. Còn bạn thì sao?",
+                                "answer": "Nothing special. How about you?",
+                                "item": "how-about-you"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "a2-02-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["Last weekend I visit my parents.", "Last weekend I visited my parents.", "Last weekend I was visit my parents."],
+                "answer": 1,
+                "item": "past-simple-regular"
+            },
+            {
+                "kind": "gap",
+                "sentence": "Yesterday she ___ a new phone.",
+                "hintVi": "mua (quá khứ)",
+                "answers": ["bought"],
+                "item": "bought"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["Did you ate breakfast?", "Did you eat breakfast?", "Do you ate breakfast?"],
+                "answer": 1,
+                "item": "past-simple-did"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "We went to the beach and took a lot of photos.",
+                "options": ["Bọn mình đi biển và chụp rất nhiều ảnh.", "Bọn mình sẽ đi biển và chụp ảnh.", "Bọn mình ở biển và mua nhiều ảnh."],
+                "answer": 0,
+                "item": "took"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Đồng nghiệp hỏi \"Did you have a good weekend?\". Câu trả lời nào tự nhiên nhất?",
+                "options": ["Yes, I have.", "Yes, thanks! I met some friends.", "Yes, I had good weekend."],
+                "answer": 1,
+                "item": "did-you-have-a-good-weekend"
+            },
+            {
+                "kind": "order",
+                "vi": "Chủ nhật mình không đi đâu cả.",
+                "answer": "I didn't go out on Sunday.",
+                "item": "past-simple-did"
+            }
+        ]
+    }
+}

@@ -1,0 +1,771 @@
+{
+    "slug": "a2-01-where-were-you",
+    "stage": "a2",
+    "order": 1,
+    "title": "Where were you?",
+    "titleVi": "Hôm qua bạn ở đâu?",
+    "descriptionVi": "Quá khứ của be (was / were): nói hôm qua, tối qua mình ở đâu, mọi thứ thế nào; nơi sinh, năm sinh và tuổi thơ.",
+    "canDo": [
+        "Tôi nói được hôm qua, tối qua, tuần trước mình ở đâu và hỏi người khác điều đó.",
+        "Tôi nói được một việc, một ngày đã qua thế nào (It was great, It was boring…).",
+        "Tôi nói được mình sinh ở đâu, năm nào, và hồi nhỏ mình là đứa trẻ thế nào."
+    ],
+    "items": [
+        {
+            "slug": "yesterday",
+            "type": "LEXICAL",
+            "text": "yesterday",
+            "meaningVi": "hôm qua",
+            "ipa": "/ˈjɛstərdeɪ/",
+            "examples": [
+                { "en": "I was at home yesterday.", "vi": "Hôm qua mình ở nhà.", "highlight": "yesterday" }
+            ],
+            "noteVi": "Không có giới từ trước yesterday: ❌ \"on yesterday\". Hôm kia: the day before yesterday."
+        },
+        {
+            "slug": "last-night",
+            "type": "PHRASE",
+            "text": "last night",
+            "meaningVi": "tối qua, đêm qua",
+            "examples": [
+                { "en": "Where were you last night?", "vi": "Tối qua bạn ở đâu?", "highlight": "last night" }
+            ],
+            "noteVi": "last + thời gian = … trước, … vừa rồi. Không nói \"yesterday night\", cũng không có giới từ: ❌ \"in last night\"."
+        },
+        {
+            "slug": "last-week",
+            "type": "PHRASE",
+            "text": "last week",
+            "meaningVi": "tuần trước",
+            "examples": [
+                { "en": "My parents were in Da Nang last week.", "vi": "Tuần trước bố mẹ mình ở Đà Nẵng.", "highlight": "last week" }
+            ],
+            "noteVi": "Cùng kiểu: last month, last year, last weekend, last Monday. Không dùng giới từ: ❌ \"in last week\"."
+        },
+        {
+            "slug": "ago",
+            "type": "LEXICAL",
+            "text": "ago",
+            "meaningVi": "cách đây, trước (tính từ bây giờ)",
+            "ipa": "/əˈɡoʊ/",
+            "examples": [
+                { "en": "I was in Hanoi two years ago.", "vi": "Cách đây hai năm mình ở Hà Nội.", "highlight": "two years ago" }
+            ],
+            "noteVi": "ago đứng **sau** khoảng thời gian: two days ago, ten minutes ago. ❌ \"ago two days\", \"before two days\"."
+        },
+        {
+            "slug": "friend",
+            "type": "LEXICAL",
+            "text": "friend",
+            "meaningVi": "bạn, bạn bè",
+            "ipa": "/frɛnd/",
+            "examples": [
+                { "en": "I was with my friends last night.", "vi": "Tối qua mình đi với bạn bè.", "highlight": "friends" }
+            ],
+            "noteVi": "Chữ i câm: /frɛnd/, giữ âm cuối /nd/. Bạn thân: best friend."
+        },
+        {
+            "slug": "at-work",
+            "type": "PHRASE",
+            "text": "at work",
+            "meaningVi": "ở chỗ làm, đang đi làm",
+            "examples": [
+                { "en": "She was at work until eight.", "vi": "Cô ấy ở chỗ làm đến tám giờ.", "highlight": "at work" }
+            ],
+            "noteVi": "Không có the: ❌ \"at the work\". Giống at home, at school."
+        },
+        {
+            "slug": "was-were",
+            "type": "GRAMMAR",
+            "text": "was / were",
+            "meaningVi": "quá khứ của be: đã là, đã ở",
+            "examples": [
+                { "en": "I was tired. We were at the park.", "vi": "Mình đã mệt. Bọn mình đã ở công viên.", "highlight": "were" }
+            ],
+            "grammar": {
+                "ruleVi": "am/is → was; are → were. Tiếng Việt không đổi động từ theo thời gian (chỉ thêm \"hôm qua\", \"đã\"); tiếng Anh phải đổi be sang quá khứ. Phủ định thêm not (wasn't, weren't); câu hỏi đảo was/were lên đầu.",
+                "forms": [
+                    { "label": "I / he / she / it", "example": "I was at home. She was tired." },
+                    { "label": "you / we / they", "example": "You were late. They were at work." },
+                    { "label": "phủ định", "example": "It wasn't cold. We weren't at school." },
+                    { "label": "câu hỏi", "example": "Were you at home? Yes, I was. / No, I wasn't." },
+                    { "label": "hỏi Wh-", "example": "Where were you yesterday? How was the movie?" }
+                ],
+                "pitfallsVi": [
+                    "Giữ hiện tại khi nói quá khứ: \"Yesterday I am at home\" → Yesterday I was at home.",
+                    "Nhầm was/were: \"They was\", \"I were\" → They were, I was.",
+                    "Bỏ be: \"Yesterday I tired\" → Yesterday I was tired.",
+                    "Trả lời ngắn không lặp lại cả câu: \"Were you there?\" → Yes, I was."
+                ]
+            }
+        },
+        {
+            "slug": "i-was-at",
+            "type": "PATTERN",
+            "text": "I was at … yesterday.",
+            "meaningVi": "Hôm qua tôi ở …",
+            "examples": [
+                { "en": "I was at the bank yesterday.", "vi": "Hôm qua mình ở ngân hàng.", "highlight": "I was at" }
+            ],
+            "pattern": {
+                "template": "I was at {place} {when}.",
+                "slots": [
+                    { "name": "place", "hintVi": "nơi chốn (home, work không cần the)", "options": ["home", "work", "the bank", "the supermarket"] },
+                    { "name": "when", "hintVi": "thời gian đã qua", "options": ["yesterday", "last night", "last week"] }
+                ]
+            },
+            "noteVi": "at home, at work, at school không có the; nơi khác thường có the: at the bank, at the park."
+        },
+        {
+            "slug": "where-were-you",
+            "type": "PATTERN",
+            "text": "Where were you …?",
+            "meaningVi": "… bạn ở đâu?",
+            "examples": [
+                { "en": "Where were you last night? I called you.", "vi": "Tối qua bạn ở đâu? Mình có gọi cho bạn.", "highlight": "Where were you" }
+            ],
+            "pattern": {
+                "template": "Where were you {when}?",
+                "slots": [
+                    { "name": "when", "hintVi": "thời gian đã qua", "options": ["yesterday", "last night", "last weekend"] }
+                ]
+            },
+            "noteVi": "Hỏi về he/she thì dùng was: Where was he yesterday?"
+        },
+        {
+            "slug": "how-was",
+            "type": "PATTERN",
+            "text": "How was …?",
+            "meaningVi": "… thế nào?",
+            "examples": [
+                { "en": "How was your weekend? It was great!", "vi": "Cuối tuần của bạn thế nào? Tuyệt lắm!", "highlight": "How was your weekend?" }
+            ],
+            "pattern": {
+                "template": "How was {thing}?",
+                "slots": [
+                    { "name": "thing", "hintVi": "việc, sự kiện đã qua", "options": ["your weekend", "the movie", "your day", "the party"] }
+                ]
+            },
+            "noteVi": "Hỏi số nhiều dùng were: How were your holidays? Trả lời bằng It was + tính từ."
+        },
+        {
+            "slug": "great",
+            "type": "LEXICAL",
+            "text": "great",
+            "meaningVi": "tuyệt, rất tốt",
+            "ipa": "/ɡreɪt/",
+            "examples": [
+                { "en": "The party was great!", "vi": "Bữa tiệc tuyệt lắm!", "highlight": "great" }
+            ],
+            "noteVi": "Đọc /ɡreɪt/ như \"grết\", không đọc \"grít\". Giữ âm cuối /t/."
+        },
+        {
+            "slug": "terrible",
+            "type": "LEXICAL",
+            "text": "terrible",
+            "meaningVi": "tệ, kinh khủng",
+            "ipa": "/ˈtɛrəbəl/",
+            "examples": [
+                { "en": "The weather was terrible yesterday.", "vi": "Hôm qua thời tiết tệ quá.", "highlight": "terrible" }
+            ],
+            "noteVi": "Nhấn âm đầu: TER-ri-ble. Nhẹ hơn: bad, not very good."
+        },
+        {
+            "slug": "boring",
+            "type": "LEXICAL",
+            "text": "boring",
+            "meaningVi": "chán, tẻ nhạt (việc gì đó)",
+            "ipa": "/ˈbɔːrɪŋ/",
+            "examples": [
+                { "en": "The movie was boring.", "vi": "Bộ phim chán lắm.", "highlight": "boring" }
+            ],
+            "noteVi": "boring tả việc, thứ gây chán; người thấy chán là bored. ❌ \"I was boring\" (= tôi là người nhạt nhẽo) → I was bored."
+        },
+        {
+            "slug": "interesting",
+            "type": "LEXICAL",
+            "text": "interesting",
+            "meaningVi": "hay, thú vị",
+            "ipa": "/ˈɪntrəstɪŋ/",
+            "examples": [
+                { "en": "The class was really interesting.", "vi": "Buổi học rất hay.", "highlight": "interesting" }
+            ],
+            "noteVi": "Người Mỹ đọc 3 âm tiết: IN-tres-ting, nhấn âm đầu. Người thấy thích thú là interested."
+        },
+        {
+            "slug": "fun",
+            "type": "LEXICAL",
+            "text": "fun",
+            "meaningVi": "vui",
+            "ipa": "/fʌn/",
+            "examples": [
+                { "en": "The trip was so much fun.", "vi": "Chuyến đi vui lắm.", "highlight": "fun" }
+            ],
+            "noteVi": "fun là \"vui\" của hoạt động; funny là \"buồn cười\". ❌ \"It was very funny\" khi ý là chuyến đi vui → It was a lot of fun."
+        },
+        {
+            "slug": "tired",
+            "type": "LEXICAL",
+            "text": "tired",
+            "meaningVi": "mệt",
+            "ipa": "/ˈtaɪərd/",
+            "examples": [
+                { "en": "I was really tired after work.", "vi": "Sau giờ làm mình mệt lắm.", "highlight": "tired" }
+            ],
+            "noteVi": "Cần be: \"I tired\" → I'm tired, I was tired. Giữ âm cuối /d/."
+        },
+        {
+            "slug": "not-bad",
+            "type": "PHRASE",
+            "text": "Not bad.",
+            "meaningVi": "Cũng được, không tệ.",
+            "examples": [
+                { "en": "How was your day? Not bad, thanks.", "vi": "Hôm nay của bạn thế nào? Cũng được, cảm ơn.", "highlight": "Not bad" }
+            ],
+            "noteVi": "Câu trả lời rất hay gặp cho How was…? và How are you?, nghĩa hơi tích cực."
+        },
+        {
+            "slug": "i-was-born-in",
+            "type": "PATTERN",
+            "text": "I was born in …",
+            "meaningVi": "Tôi sinh ở / vào năm …",
+            "examples": [
+                { "en": "I was born in Hue in 1998.", "vi": "Mình sinh ở Huế năm 1998.", "highlight": "I was born in" }
+            ],
+            "pattern": {
+                "template": "I was born in {placeOrYear}.",
+                "slots": [
+                    { "name": "placeOrYear", "hintVi": "nơi sinh hoặc năm sinh", "options": ["Hanoi", "Vietnam", "1998", "2001"] }
+                ]
+            },
+            "noteVi": "Luôn có was: ❌ \"I born in…\". Ngày sinh cụ thể dùng on: I was born on May 5th."
+        },
+        {
+            "slug": "where-were-you-born",
+            "type": "PHRASE",
+            "text": "Where were you born?",
+            "meaningVi": "Bạn sinh ra ở đâu?",
+            "examples": [
+                { "en": "Where were you born? I was born in Can Tho.", "vi": "Bạn sinh ra ở đâu? Mình sinh ở Cần Thơ.", "highlight": "Where were you born?" }
+            ],
+            "noteVi": "Hỏi năm sinh: When were you born? (hoặc hỏi tuổi cho nhẹ nhàng hơn)."
+        },
+        {
+            "slug": "saying-years",
+            "type": "GRAMMAR",
+            "text": "saying years",
+            "meaningVi": "cách đọc năm",
+            "examples": [
+                { "en": "I was born in 1995: nineteen ninety-five.", "vi": "Mình sinh năm 1995: nineteen ninety-five.", "highlight": "nineteen ninety-five" }
+            ],
+            "grammar": {
+                "ruleVi": "Năm có 4 chữ số thường tách làm hai cặp: 19|95 → nineteen ninety-five. Từ 2000 đến 2009 đọc two thousand (and) …; từ 2010 trở đi đọc được cả hai cách, cách tách cặp phổ biến hơn. Trước năm dùng in.",
+                "forms": [
+                    { "label": "19xx", "example": "1998: nineteen ninety-eight" },
+                    { "label": "2000–2009", "example": "2005: two thousand five" },
+                    { "label": "2010 trở đi", "example": "2019: twenty nineteen (hoặc two thousand nineteen)" },
+                    { "label": "số 0 ở giữa", "example": "1905: nineteen oh five" },
+                    { "label": "giới từ", "example": "in 2020, in the 1990s (the nineties)" }
+                ],
+                "pitfallsVi": [
+                    "Đọc cả số như số đếm: \"one thousand nine hundred ninety-five\" → nineteen ninety-five.",
+                    "\"on 2020\", \"at 2020\" → in 2020.",
+                    "Nhầm -teen và -ty: nineteen /naɪnˈtiːn/ nhấn sau, ninety /ˈnaɪnti/ nhấn trước."
+                ]
+            }
+        },
+        {
+            "slug": "hometown",
+            "type": "LEXICAL",
+            "text": "hometown",
+            "meaningVi": "quê, quê nhà",
+            "ipa": "/ˈhoʊmtaʊn/",
+            "examples": [
+                { "en": "My hometown is a small city near the sea.", "vi": "Quê mình là một thành phố nhỏ gần biển.", "highlight": "hometown" }
+            ],
+            "noteVi": "Một từ, viết liền. \"Quê\" ở nông thôn cũng dùng hometown, không cần dịch \"my country\"."
+        },
+        {
+            "slug": "grandparents",
+            "type": "LEXICAL",
+            "text": "grandparents",
+            "meaningVi": "ông bà",
+            "ipa": "/ˈɡrænpɛrənts/",
+            "examples": [
+                { "en": "My grandparents live in the countryside.", "vi": "Ông bà mình sống ở quê.", "highlight": "grandparents" }
+            ],
+            "noteVi": "Ông: grandfather (grandpa), bà: grandmother (grandma). Không phân biệt nội, ngoại: my mom's mother."
+        },
+        {
+            "slug": "school",
+            "type": "LEXICAL",
+            "text": "school",
+            "meaningVi": "trường học",
+            "ipa": "/skuːl/",
+            "examples": [
+                { "en": "School was fun when I was a kid.", "vi": "Hồi nhỏ đi học vui lắm.", "highlight": "School" }
+            ],
+            "noteVi": "Chữ h câm: /skuːl/. Đi học, ở trường không có the: go to school, at school."
+        },
+        {
+            "slug": "happy",
+            "type": "LEXICAL",
+            "text": "happy",
+            "meaningVi": "vui, hạnh phúc",
+            "ipa": "/ˈhæpi/",
+            "examples": [
+                { "en": "I was a happy kid.", "vi": "Hồi nhỏ mình là một đứa trẻ vui vẻ.", "highlight": "happy" }
+            ],
+            "noteVi": "Âm /æ/ mở miệng rộng, không đọc \"háp-pi\" ngắn như tiếng Việt. Ngược nghĩa: sad."
+        },
+        {
+            "slug": "shy",
+            "type": "LEXICAL",
+            "text": "shy",
+            "meaningVi": "nhút nhát, ngại",
+            "ipa": "/ʃaɪ/",
+            "examples": [
+                { "en": "He was very shy at school.", "vi": "Hồi đi học cậu ấy rất nhút nhát.", "highlight": "shy" }
+            ],
+            "noteVi": "Âm /ʃ/ như \"s\" uốn lưỡi, không đọc \"sai\"."
+        },
+        {
+            "slug": "kid",
+            "type": "LEXICAL",
+            "text": "kid",
+            "meaningVi": "đứa trẻ, con (thân mật)",
+            "ipa": "/kɪd/",
+            "examples": [
+                { "en": "When I was a kid, I was afraid of dogs.", "vi": "Hồi nhỏ mình sợ chó.", "highlight": "When I was a kid" }
+            ],
+            "noteVi": "Thân mật hơn child. \"Hồi nhỏ\" nói When I was a kid (hoặc When I was little), ❌ \"When I small\"."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "a2-01-where-were-you-last-night",
+            "title": "Where were you last night?",
+            "situationVi": "Sáng thứ Hai, một người bạn hỏi vì sao tối qua bạn không đến bữa tiệc.",
+            "lines": [
+                { "speaker": "Mai", "en": "Hi! Where were you last night? I called you.", "vi": "Chào! Tối qua bạn ở đâu thế? Mình có gọi cho bạn." },
+                { "speaker": "You", "en": "Sorry, I was at work until nine. I was really tired.", "vi": "Xin lỗi, mình ở chỗ làm đến chín giờ. Mình mệt lắm.", "learnerTurn": true },
+                { "speaker": "Mai", "en": "Oh no. How was your day?", "vi": "Ôi. Hôm qua của bạn thế nào?" },
+                { "speaker": "You", "en": "It was terrible! How was the party?", "vi": "Tệ lắm! Còn bữa tiệc thế nào?", "learnerTurn": true },
+                { "speaker": "Mai", "en": "It was great. All our friends were there.", "vi": "Tuyệt lắm. Bạn bè mình ai cũng ở đó." },
+                { "speaker": "You", "en": "Oh, I'm sorry I wasn't there!", "vi": "Tiếc quá, mình đã không ở đó!", "learnerTurn": true }
+            ]
+        },
+        {
+            "slug": "a2-01-where-were-you-born",
+            "title": "Where were you born?",
+            "situationVi": "Giờ nghỉ trưa, một đồng nghiệp mới hỏi về quê bạn.",
+            "lines": [
+                { "speaker": "Tom", "en": "So, where are you from, Linh?", "vi": "Vậy Linh là người ở đâu?" },
+                { "speaker": "You", "en": "I'm from Vietnam. I was born in Hue, but I live in Hanoi now.", "vi": "Mình là người Việt Nam. Mình sinh ở Huế, nhưng giờ sống ở Hà Nội.", "learnerTurn": true },
+                { "speaker": "Tom", "en": "Hue! Is that your hometown?", "vi": "Huế à! Đó là quê bạn hả?" },
+                { "speaker": "You", "en": "Yes, it is. My grandparents are still there.", "vi": "Đúng rồi. Ông bà mình vẫn ở đó.", "learnerTurn": true },
+                { "speaker": "Tom", "en": "Were you happy there as a kid?", "vi": "Hồi nhỏ ở đó bạn có vui không?" },
+                { "speaker": "You", "en": "Yes, I was. I was a shy kid, but school was fun.", "vi": "Có chứ. Mình là đứa trẻ nhút nhát, nhưng đi học vui lắm.", "learnerTurn": true }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "a2-01-l1-yesterday",
+            "title": "Where were you yesterday?",
+            "titleVi": "Hôm qua bạn ở đâu?",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "yesterday", "role": "INTRODUCE" },
+                { "item": "last-night", "role": "INTRODUCE" },
+                { "item": "last-week", "role": "INTRODUCE" },
+                { "item": "ago", "role": "INTRODUCE" },
+                { "item": "friend", "role": "INTRODUCE" },
+                { "item": "at-work", "role": "INTRODUCE" },
+                { "item": "was-were", "role": "INTRODUCE" },
+                { "item": "i-was-at", "role": "INTRODUCE" },
+                { "item": "where-were-you", "role": "INTRODUCE" },
+                { "item": "at-home", "role": "RECYCLE" },
+                { "item": "be-present", "role": "RECYCLE" },
+                { "item": "today", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["yesterday", "last-night", "last-week", "ago", "friend", "at-work", "i-was-at", "where-were-you"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Quá khứ của be: was / were",
+                        "bodyVi": "Tiếng Việt chỉ cần thêm **hôm qua**; tiếng Anh phải **đổi động từ** sang quá khứ.\n\n| hiện tại | quá khứ |\n|---|---|\n| I **am** at home **today**. | I **was** at home **yesterday**. |\n| She **is** at work. | She **was** at work. |\n| We / you / they **are** … | We / you / they **were** … |\n\nPhủ định: **wasn't**, **weren't**. Câu hỏi: **Were you** at home? → **Yes, I was.** / **No, I wasn't.**\n\nThời gian đã qua không có giới từ: **yesterday**, **last night**, **last week**, **two days ago**. ❌ in last week, ago two days.",
+                        "items": ["was-were", "be-present", "yesterday", "last-night", "last-week", "ago", "today"],
+                        "examples": [
+                            { "en": "Today I'm at work, but yesterday I was at home.", "vi": "Hôm nay mình đi làm, nhưng hôm qua mình ở nhà.", "highlight": "I was at home" },
+                            { "en": "Were you at the park last week? No, I wasn't.", "vi": "Tuần trước bạn có ở công viên không? Không.", "highlight": "No, I wasn't" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "i-was-at",
+                        "prompts": [
+                            { "cueVi": "Hôm qua mình ở nhà.", "slots": { "place": "home", "when": "yesterday" }, "answer": "I was at home yesterday." },
+                            { "cueVi": "Tối qua mình ở chỗ làm.", "slots": { "place": "work", "when": "last night" }, "answer": "I was at work last night." },
+                            { "cueVi": "Tuần trước mình ở ngân hàng.", "slots": { "place": "the bank", "when": "last week" }, "answer": "I was at the bank last week." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "where-were-you",
+                        "prompts": [
+                            { "cueVi": "Hỏi: tối qua bạn ở đâu?", "slots": { "when": "last night" }, "answer": "Where were you last night?" },
+                            { "cueVi": "Hỏi: hôm qua bạn ở đâu?", "slots": { "when": "yesterday" }, "answer": "Where were you yesterday?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["yesterday", "last-night", "last-week", "ago", "friend", "at-work", "at-home", "today"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "I was at work yesterday.", "vi": "Hôm qua mình đi làm." },
+                            { "en": "We were at home last night.", "vi": "Tối qua bọn mình ở nhà." },
+                            { "en": "Where were you last week?", "vi": "Tuần trước bạn ở đâu?" },
+                            { "en": "I was in Da Nang two weeks ago.", "vi": "Cách đây hai tuần mình ở Đà Nẵng." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["Yesterday I am at home.", "Yesterday I was at home.", "Yesterday I were at home."],
+                                "answer": 1,
+                                "item": "was-were"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "My friends ___ at the park last night.",
+                                "hintVi": "quá khứ của are",
+                                "answers": ["were"],
+                                "item": "was-were"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Cách đây ba ngày\" là:",
+                                "options": ["ago three days", "three days ago", "before three days"],
+                                "answer": 1,
+                                "item": "ago"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "She was at work last night.",
+                                "options": ["Tối nay cô ấy đi làm.", "Tối qua cô ấy ở chỗ làm.", "Tuần trước cô ấy đi làm."],
+                                "answer": 1,
+                                "item": "last-night"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Hôm qua bạn ở đâu?",
+                                "answer": "Where were you yesterday?",
+                                "item": "where-were-you"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a2-01-l2-how-was-it",
+            "title": "How was it?",
+            "titleVi": "Thế nào?",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "how-was", "role": "INTRODUCE" },
+                { "item": "great", "role": "INTRODUCE" },
+                { "item": "terrible", "role": "INTRODUCE" },
+                { "item": "boring", "role": "INTRODUCE" },
+                { "item": "interesting", "role": "INTRODUCE" },
+                { "item": "fun", "role": "INTRODUCE" },
+                { "item": "tired", "role": "INTRODUCE" },
+                { "item": "not-bad", "role": "INTRODUCE" },
+                { "item": "was-were", "role": "RECYCLE" },
+                { "item": "weekend", "role": "RECYCLE" },
+                { "item": "nice", "role": "RECYCLE" },
+                { "item": "friend", "role": "RECYCLE" },
+                { "item": "where-were-you", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 8 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["how-was", "great", "terrible", "boring", "interesting", "fun", "tired", "not-bad"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "How was …? It was …",
+                        "bodyVi": "Hỏi một việc đã qua thế nào: **How was** your weekend? → **It was** + tính từ.\n\n| tốt | bình thường | không tốt |\n|---|---|---|\n| great, fun, interesting, nice | not bad, OK | boring, terrible |\n\nNói về cảm giác của mình: **I was** tired.\n\n**boring** hay **bored**? Việc gây chán là **boring**; người thấy chán là **bored**. ❌ I was boring. ✅ The movie was **boring**, so I was **bored**.\n\n**fun** hay **funny**? Chuyến đi vui: It was **fun**. Câu chuyện buồn cười: It was **funny**.",
+                        "items": ["how-was", "was-were", "boring", "fun", "tired", "great", "terrible", "not-bad"],
+                        "examples": [
+                            { "en": "How was the movie? It was boring.", "vi": "Phim thế nào? Chán lắm.", "highlight": "It was boring" },
+                            { "en": "How was your weekend? Not bad, thanks.", "vi": "Cuối tuần của bạn thế nào? Cũng được, cảm ơn.", "highlight": "How was your weekend?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "how-was",
+                        "prompts": [
+                            { "cueVi": "Hỏi: cuối tuần của bạn thế nào?", "slots": { "thing": "your weekend" }, "answer": "How was your weekend?" },
+                            { "cueVi": "Hỏi: bộ phim thế nào?", "slots": { "thing": "the movie" }, "answer": "How was the movie?" },
+                            { "cueVi": "Hỏi: bữa tiệc thế nào?", "slots": { "thing": "the party" }, "answer": "How was the party?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["great", "terrible", "boring", "interesting", "fun", "tired", "not-bad", "nice"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a2-01-where-were-you-last-night", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Bộ phim làm bạn chán. Câu nào đúng?",
+                                "options": ["I was boring.", "The movie was boring.", "The movie was bored."],
+                                "answer": 1,
+                                "item": "boring"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"How was your weekend?\" Cuối tuần của bạn rất vui. Bạn trả lời:",
+                                "options": ["It was a lot of fun!", "It is fun!", "It was very funny weekend!"],
+                                "answer": 0,
+                                "item": "fun"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "___ was the party? It was great.",
+                                "answers": ["How"],
+                                "item": "how-was"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "I was really tired after work.",
+                                "options": ["Sau giờ làm mình mệt lắm.", "Mình chán công việc lắm.", "Mình đi làm muộn."],
+                                "answer": 0,
+                                "item": "tired"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Buổi học rất thú vị.",
+                                "answer": "The class was really interesting.",
+                                "item": "interesting"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a2-01-l3-where-were-you-born",
+            "title": "Where were you born?",
+            "titleVi": "Bạn sinh ra ở đâu?",
+            "estimatedMinutes": 14,
+            "items": [
+                { "item": "i-was-born-in", "role": "INTRODUCE" },
+                { "item": "where-were-you-born", "role": "INTRODUCE" },
+                { "item": "saying-years", "role": "INTRODUCE" },
+                { "item": "hometown", "role": "INTRODUCE" },
+                { "item": "grandparents", "role": "INTRODUCE" },
+                { "item": "school", "role": "INTRODUCE" },
+                { "item": "happy", "role": "INTRODUCE" },
+                { "item": "shy", "role": "INTRODUCE" },
+                { "item": "kid", "role": "INTRODUCE" },
+                { "item": "was-were", "role": "RECYCLE" },
+                { "item": "ago", "role": "RECYCLE" },
+                { "item": "city", "role": "RECYCLE" },
+                { "item": "prepositions-of-time", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["i-was-born-in", "where-were-you-born", "hometown", "grandparents", "school", "happy", "shy", "kid"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Sinh ra: was born · đọc năm",
+                        "bodyVi": "\"Tôi sinh ra\" luôn là **I was born**. ❌ I born in 1998. ❌ I am born in 1998.\n\n- nơi, năm, tháng: **in** → I was born **in** Hue **in** 1998.\n- ngày cụ thể: **on** → I was born **on** May 5th.\n\nĐọc năm: tách làm **hai cặp** số.\n\n| năm | đọc |\n|---|---|\n| 1998 | nineteen ninety-eight |\n| 2005 | two thousand five |\n| 2019 | twenty nineteen |\n\nHồi nhỏ: **When I was a kid**, I was shy.",
+                        "items": ["i-was-born-in", "saying-years", "was-were", "prepositions-of-time", "kid"],
+                        "examples": [
+                            { "en": "I was born in Hanoi in 2001.", "vi": "Mình sinh ở Hà Nội năm 2001.", "highlight": "I was born in Hanoi" },
+                            { "en": "My mother was born in 1972: nineteen seventy-two.", "vi": "Mẹ mình sinh năm 1972.", "highlight": "nineteen seventy-two" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "i-was-born-in",
+                        "prompts": [
+                            { "cueVi": "Mình sinh ở Đà Lạt.", "slots": { "placeOrYear": "Da Lat" }, "answer": "I was born in Da Lat." },
+                            { "cueVi": "Mình sinh năm 1999.", "slots": { "placeOrYear": "1999" }, "answer": "I was born in 1999." },
+                            { "cueVi": "Mình sinh ở Việt Nam.", "slots": { "placeOrYear": "Vietnam" }, "answer": "I was born in Vietnam." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["where-were-you-born", "hometown", "grandparents", "school", "happy", "shy", "kid", "city"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a2-01-where-were-you-born", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I born in 1998.", "I was born in 1998.", "I am born on 1998."],
+                                "answer": 1,
+                                "item": "i-was-born-in"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Năm 1995 đọc là:",
+                                "options": ["one thousand nine hundred ninety-five", "nineteen ninety-five", "nineteen fifty-nine"],
+                                "answer": 1,
+                                "item": "saying-years"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn năm đúng.",
+                                "audioText": "I was born in twenty oh two.",
+                                "options": ["2020", "2012", "2002"],
+                                "answer": 2,
+                                "item": "saying-years"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "My ___ live in the countryside. They're my dad's parents.",
+                                "hintVi": "ông bà",
+                                "answers": ["grandparents"],
+                                "item": "grandparents"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Hồi nhỏ mình rất nhút nhát.",
+                                "answer": "When I was a kid, I was very shy.",
+                                "item": "shy"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "a2-01-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["They was at school yesterday.", "They were at school yesterday.", "They are at school yesterday."],
+                "answer": 1,
+                "item": "was-were"
+            },
+            {
+                "kind": "gap",
+                "sentence": "___ you at home last night? Yes, I was.",
+                "answers": ["Were"],
+                "item": "was-were"
+            },
+            {
+                "kind": "choice",
+                "prompt": "\"Tuần trước\" là:",
+                "options": ["in last week", "last week", "the week ago"],
+                "answer": 1,
+                "item": "last-week"
+            },
+            {
+                "kind": "choice",
+                "prompt": "\"How was the movie?\" Phim không hay, bạn buồn ngủ. Bạn trả lời:",
+                "options": ["I was boring.", "It was boring.", "It is bored."],
+                "answer": 1,
+                "item": "boring"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "I was born in Hue in nineteen ninety-seven.",
+                "options": ["Mình sinh ở Huế năm 1997.", "Mình sống ở Huế từ năm 1997.", "Mình sinh ở Huế năm 1977."],
+                "answer": 0,
+                "item": "i-was-born-in"
+            },
+            {
+                "kind": "order",
+                "vi": "Cách đây hai năm mình ở Hà Nội.",
+                "answer": "I was in Hanoi two years ago.",
+                "item": "ago"
+            }
+        ]
+    }
+}

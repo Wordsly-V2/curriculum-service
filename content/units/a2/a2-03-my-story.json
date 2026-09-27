@@ -1,0 +1,759 @@
+{
+    "slug": "a2-03-my-story",
+    "stage": "a2",
+    "order": 3,
+    "title": "My story",
+    "titleVi": "Chuyện của tôi",
+    "descriptionVi": "Những mốc trong đời (lớn lên, chuyển nhà, tốt nghiệp, đi làm, kết hôn), kể chuyện theo trình tự (first, then, after that, finally) và kể về tuổi thơ với used to.",
+    "canDo": [
+        "Tôi kể được các mốc chính trong đời mình kèm năm: sinh ra, lớn lên, học, đi làm.",
+        "Tôi kể được một câu chuyện ngắn theo đúng trình tự bằng first, then, after that, finally.",
+        "Tôi nói được hồi nhỏ mình hay làm gì, sống ở đâu (used to, When I was…)."
+    ],
+    "items": [
+        {
+            "slug": "grow-up",
+            "type": "PHRASE",
+            "text": "grow up",
+            "meaningVi": "lớn lên",
+            "examples": [
+                { "en": "I grew up in a small town.", "vi": "Mình lớn lên ở một thị trấn nhỏ.", "highlight": "grew up" }
+            ],
+            "noteVi": "Quá khứ bất quy tắc: grow → grew /ɡruː/. Hỏi: Where did you grow up?"
+        },
+        {
+            "slug": "move",
+            "type": "LEXICAL",
+            "text": "move",
+            "meaningVi": "chuyển (nhà, đến sống ở nơi khác)",
+            "ipa": "/muːv/",
+            "examples": [
+                { "en": "We moved to Ho Chi Minh City in 2015.", "vi": "Nhà mình chuyển vào TP. Hồ Chí Minh năm 2015.", "highlight": "moved to" }
+            ],
+            "noteVi": "Chuyển đến đâu: move to. Âm /uː/ dài và giữ âm cuối /v/: không đọc \"múp\"."
+        },
+        {
+            "slug": "start",
+            "type": "LEXICAL",
+            "text": "start",
+            "meaningVi": "bắt đầu",
+            "ipa": "/stɑːrt/",
+            "examples": [
+                { "en": "I started school when I was six.", "vi": "Mình bắt đầu đi học năm sáu tuổi.", "highlight": "started" }
+            ],
+            "noteVi": "started đọc /ˈstɑːrtɪd/ (sau t đọc /ɪd/). Bắt đầu làm gì: start working, start to work."
+        },
+        {
+            "slug": "graduate",
+            "type": "LEXICAL",
+            "text": "graduate",
+            "meaningVi": "tốt nghiệp",
+            "ipa": "/ˈɡrædʒueɪt/",
+            "examples": [
+                { "en": "She graduated from university in 2020.", "vi": "Cô ấy tốt nghiệp đại học năm 2020.", "highlight": "graduated from" }
+            ],
+            "noteVi": "Tốt nghiệp trường nào: graduate from. ❌ \"I graduated university\" (người Mỹ có nói, nhưng from luôn đúng)."
+        },
+        {
+            "slug": "university",
+            "type": "LEXICAL",
+            "text": "university",
+            "meaningVi": "trường đại học",
+            "ipa": "/ˌjuːnɪˈvɜːrsəti/",
+            "examples": [
+                { "en": "I studied English at university.", "vi": "Mình học tiếng Anh ở đại học.", "highlight": "university" }
+            ],
+            "noteVi": "Mạo từ a (không phải an) vì âm đầu là /j/: a university. Người Mỹ hay nói college: I went to college in Hanoi."
+        },
+        {
+            "slug": "get-a-job",
+            "type": "PHRASE",
+            "text": "get a job",
+            "meaningVi": "tìm được việc, có việc làm",
+            "examples": [
+                { "en": "He got a job at a bank after university.", "vi": "Sau đại học anh ấy xin được việc ở ngân hàng.", "highlight": "got a job" }
+            ],
+            "noteVi": "Quá khứ: get → got. get a job là \"có được\" việc; \"tìm việc\" (đang tìm) là look for a job."
+        },
+        {
+            "slug": "get-married",
+            "type": "PHRASE",
+            "text": "get married",
+            "meaningVi": "kết hôn, cưới",
+            "examples": [
+                { "en": "My parents got married in 1990.", "vi": "Bố mẹ mình cưới nhau năm 1990.", "highlight": "got married" }
+            ],
+            "noteVi": "Cưới ai: get married to someone (❌ \"married with\"). Đang có gia đình: I'm married."
+        },
+        {
+            "slug": "i-did-in-year",
+            "type": "PATTERN",
+            "text": "I … in (year).",
+            "meaningVi": "Năm … tôi đã …",
+            "examples": [
+                { "en": "I graduated in 2021.", "vi": "Mình tốt nghiệp năm 2021.", "highlight": "in 2021" }
+            ],
+            "pattern": {
+                "template": "I {did} in {year}.",
+                "slots": [
+                    { "name": "did", "hintVi": "một mốc trong đời (quá khứ)", "options": ["graduated", "moved to Hanoi", "got a job", "got married"] },
+                    { "name": "year", "hintVi": "năm", "options": ["2015", "2020", "2023"] }
+                ]
+            },
+            "noteVi": "Năm luôn đi với in và đọc tách cặp: in 2015 = in twenty fifteen."
+        },
+        {
+            "slug": "first",
+            "type": "LEXICAL",
+            "text": "first",
+            "meaningVi": "đầu tiên, trước hết",
+            "ipa": "/fɜːrst/",
+            "examples": [
+                { "en": "First, I got up and had breakfast.", "vi": "Đầu tiên, mình dậy và ăn sáng.", "highlight": "First" }
+            ],
+            "noteVi": "Đứng đầu câu, sau có dấu phẩy. Giữ cụm âm cuối /rst/."
+        },
+        {
+            "slug": "then",
+            "type": "LEXICAL",
+            "text": "then",
+            "meaningVi": "rồi, sau đó",
+            "ipa": "/ðɛn/",
+            "examples": [
+                { "en": "I had lunch, then I went back to work.", "vi": "Mình ăn trưa rồi quay lại làm việc.", "highlight": "then" }
+            ],
+            "noteVi": "Âm /ð/ (lưỡi giữa hai răng), không đọc \"den\". Khác than (hơn): then là \"rồi\"."
+        },
+        {
+            "slug": "after-that",
+            "type": "PHRASE",
+            "text": "after that",
+            "meaningVi": "sau đó",
+            "examples": [
+                { "en": "After that, we took a taxi home.", "vi": "Sau đó bọn mình đi taxi về nhà.", "highlight": "After that" }
+            ],
+            "noteVi": "Dùng xen với then để câu chuyện không lặp: First… Then… After that… Finally…"
+        },
+        {
+            "slug": "finally",
+            "type": "LEXICAL",
+            "text": "finally",
+            "meaningVi": "cuối cùng",
+            "ipa": "/ˈfaɪnəli/",
+            "examples": [
+                { "en": "Finally, I got home at midnight.", "vi": "Cuối cùng, nửa đêm mình mới về đến nhà.", "highlight": "Finally" }
+            ],
+            "noteVi": "Nhấn âm đầu: FI-nal-ly. Có nghĩa \"cuối cùng thì (sau khi chờ lâu)\" nữa: The bus finally came."
+        },
+        {
+            "slug": "before",
+            "type": "LEXICAL",
+            "text": "before",
+            "meaningVi": "trước, trước khi",
+            "ipa": "/bɪˈfɔːr/",
+            "examples": [
+                { "en": "I always drink coffee before work.", "vi": "Mình luôn uống cà phê trước giờ làm.", "highlight": "before" }
+            ],
+            "noteVi": "\"Cách đây hai ngày\" không dùng before mà dùng ago: two days ago (❌ before two days)."
+        },
+        {
+            "slug": "after",
+            "type": "LEXICAL",
+            "text": "after",
+            "meaningVi": "sau, sau khi",
+            "ipa": "/ˈæftər/",
+            "examples": [
+                { "en": "After dinner, we watched a movie.", "vi": "Sau bữa tối, bọn mình xem phim.", "highlight": "After dinner" }
+            ],
+            "noteVi": "after + danh từ (after lunch) hoặc + mệnh đề (after I got home). Âm /æ/ mở rộng miệng."
+        },
+        {
+            "slug": "suddenly",
+            "type": "LEXICAL",
+            "text": "suddenly",
+            "meaningVi": "đột nhiên, bỗng nhiên",
+            "ipa": "/ˈsʌdənli/",
+            "examples": [
+                { "en": "Suddenly, it started to rain.", "vi": "Bỗng nhiên trời đổ mưa.", "highlight": "Suddenly" }
+            ],
+            "noteVi": "Dùng để đưa một việc bất ngờ vào câu chuyện, hay đứng đầu câu."
+        },
+        {
+            "slug": "story",
+            "type": "LEXICAL",
+            "text": "story",
+            "meaningVi": "câu chuyện",
+            "ipa": "/ˈstɔːri/",
+            "examples": [
+                { "en": "Let me tell you a funny story.", "vi": "Để mình kể bạn nghe một chuyện buồn cười.", "highlight": "story" }
+            ],
+            "noteVi": "Kể chuyện: tell a story (❌ \"say a story\"). Số nhiều: stories."
+        },
+        {
+            "slug": "sequencing",
+            "type": "GRAMMAR",
+            "text": "first, then, after that, finally",
+            "meaningVi": "từ nối trình tự khi kể chuyện",
+            "examples": [
+                { "en": "First, I got up late. Then I missed the bus. Finally, I took a taxi.", "vi": "Đầu tiên mình dậy muộn. Rồi mình lỡ xe buýt. Cuối cùng mình đi taxi.", "highlight": "Then" }
+            ],
+            "grammar": {
+                "ruleVi": "Kể chuyện theo thứ tự thời gian: mở đầu bằng first, nối các việc bằng then / after that, kết bằng finally. Động từ cả chuỗi đều ở quá khứ đơn. before và after nối hai việc theo thứ tự.",
+                "forms": [
+                    { "label": "mở đầu", "example": "First, I …" },
+                    { "label": "nối tiếp", "example": "Then I … / After that, I …" },
+                    { "label": "bất ngờ", "example": "Suddenly, …" },
+                    { "label": "kết thúc", "example": "Finally, I …" },
+                    { "label": "before / after", "example": "After lunch, I … / Before I left, I …" }
+                ],
+                "pitfallsVi": [
+                    "Chuyển sang hiện tại giữa chừng: \"First I got up, then I go to work\" → then I went.",
+                    "Lặp and then ở mọi câu: xen first, after that, finally cho dễ nghe.",
+                    "Dùng at last cho bước cuối: at last là \"cuối cùng thì (sau khi chờ lâu)\"; bước cuối của chuỗi việc dùng finally."
+                ]
+            }
+        },
+        {
+            "slug": "used-to",
+            "type": "GRAMMAR",
+            "text": "used to + verb",
+            "meaningVi": "đã từng, hồi trước hay (nay không còn)",
+            "examples": [
+                { "en": "I used to live in the countryside.", "vi": "Hồi trước mình sống ở quê.", "highlight": "used to live" }
+            ],
+            "grammar": {
+                "ruleVi": "Thói quen hoặc tình trạng trong quá khứ mà nay không còn: used to + động từ nguyên mẫu. Giống \"hồi trước (hay)…\" trong tiếng Việt. Phủ định và câu hỏi dùng did, và used to thành use to.",
+                "forms": [
+                    { "label": "khẳng định", "example": "I used to play soccer every day." },
+                    { "label": "phủ định", "example": "I didn't use to like vegetables." },
+                    { "label": "câu hỏi", "example": "Did you use to live here?" },
+                    { "label": "phát âm", "example": "used to /ˈjuːstə/ (s, không phải z)" }
+                ],
+                "pitfallsVi": [
+                    "Dùng cho hiện tại: \"I use to drink coffee every day\" → I usually drink coffee every day.",
+                    "Thêm -ing: \"I used to playing\" → I used to play.",
+                    "Nhầm với be used to (quen với): chưa học ở đây."
+                ]
+            }
+        },
+        {
+            "slug": "i-used-to",
+            "type": "PATTERN",
+            "text": "I used to …",
+            "meaningVi": "Hồi trước tôi hay …",
+            "examples": [
+                { "en": "I used to ride my bike to school.", "vi": "Hồi trước mình hay đạp xe đi học.", "highlight": "I used to ride" }
+            ],
+            "pattern": {
+                "template": "I used to {do}.",
+                "slots": [
+                    { "name": "do", "hintVi": "động từ nguyên mẫu (+ tân ngữ)", "options": ["live in a village", "ride my bike to school", "play soccer every day", "be very shy"] }
+                ]
+            },
+            "noteVi": "Hàm ý bây giờ không còn nữa. Muốn nói rõ: I used to be shy, but now I'm not."
+        },
+        {
+            "slug": "when-i-was",
+            "type": "PATTERN",
+            "text": "When I was …, I …",
+            "meaningVi": "Khi tôi …, tôi đã …",
+            "examples": [
+                { "en": "When I was ten, I lived with my grandparents.", "vi": "Hồi mười tuổi, mình sống với ông bà.", "highlight": "When I was ten" }
+            ],
+            "pattern": {
+                "template": "When I was {age}, I {did}.",
+                "slots": [
+                    { "name": "age", "hintVi": "tuổi hoặc giai đoạn", "options": ["a kid", "ten", "in high school"] },
+                    { "name": "did", "hintVi": "việc đã làm (quá khứ)", "options": ["lived in the countryside", "played soccer every day", "wanted to be a doctor"] }
+                ]
+            },
+            "noteVi": "Tuổi không có years old ở đây cũng được: When I was ten. ❌ \"When I ten\", thiếu was."
+        },
+        {
+            "slug": "remember",
+            "type": "LEXICAL",
+            "text": "remember",
+            "meaningVi": "nhớ (không quên)",
+            "ipa": "/rɪˈmɛmbər/",
+            "examples": [
+                { "en": "I remember my first day at school.", "vi": "Mình nhớ ngày đầu tiên đi học.", "highlight": "remember" }
+            ],
+            "noteVi": "\"Nhớ\" trong tiếng Việt có hai nghĩa: không quên là remember; thấy thiếu, nhớ nhung là miss."
+        },
+        {
+            "slug": "miss",
+            "type": "LEXICAL",
+            "text": "miss",
+            "meaningVi": "nhớ (nhung), thấy thiếu; lỡ (xe)",
+            "ipa": "/mɪs/",
+            "examples": [
+                { "en": "I miss my hometown.", "vi": "Mình nhớ quê.", "highlight": "miss" }
+            ],
+            "noteVi": "❌ \"I remember my mom\" khi ý là nhớ nhung → I miss my mom. Lỡ xe buýt: miss the bus."
+        },
+        {
+            "slug": "village",
+            "type": "LEXICAL",
+            "text": "village",
+            "meaningVi": "làng, xã",
+            "ipa": "/ˈvɪlɪdʒ/",
+            "examples": [
+                { "en": "My father grew up in a village near the river.", "vi": "Bố mình lớn lên ở một ngôi làng gần sông.", "highlight": "village" }
+            ],
+            "noteVi": "Đọc /ˈvɪlɪdʒ/, âm cuối /dʒ/, không đọc \"vi-lây\"."
+        },
+        {
+            "slug": "countryside",
+            "type": "LEXICAL",
+            "text": "countryside",
+            "meaningVi": "nông thôn, vùng quê",
+            "ipa": "/ˈkʌntrisaɪd/",
+            "examples": [
+                { "en": "Life in the countryside was quiet.", "vi": "Cuộc sống ở quê yên bình.", "highlight": "countryside" }
+            ],
+            "noteVi": "Luôn có the: in the countryside. \"Về quê\" (thăm nhà) thường nói go back to my hometown."
+        },
+        {
+            "slug": "ride-a-bike",
+            "type": "PHRASE",
+            "text": "ride a bike",
+            "meaningVi": "đạp xe, đi xe đạp",
+            "examples": [
+                { "en": "I used to ride a bike to school every day.", "vi": "Hồi trước ngày nào mình cũng đạp xe đi học.", "highlight": "ride a bike" }
+            ],
+            "noteVi": "Quá khứ: ride → rode. Xe máy: ride a motorbike. ❌ \"drive a bike\" (drive dùng cho ô tô)."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "a2-03-a-bad-morning",
+            "title": "A bad morning",
+            "situationVi": "Ben đến chỗ làm muộn và kể cho Mai nghe chuyện buổi sáng.",
+            "lines": [
+                { "speaker": "Mai", "en": "You look tired, Ben. What happened?", "vi": "Trông bạn mệt quá, Ben. Có chuyện gì thế?" },
+                { "speaker": "Ben", "en": "I had a terrible morning! First, I got up late.", "vi": "Sáng nay tệ lắm! Đầu tiên, mình dậy muộn." },
+                { "speaker": "Mai", "en": "Oh no!", "vi": "Ôi không!" },
+                { "speaker": "Ben", "en": "Then I missed the bus, so I took a taxi. But the traffic was terrible.", "vi": "Rồi mình lỡ xe buýt, nên mình đi taxi. Nhưng tắc đường kinh khủng." },
+                { "speaker": "Mai", "en": "And after that?", "vi": "Rồi sau đó?" },
+                { "speaker": "Ben", "en": "After that, I walked the last part. Suddenly, it started to rain!", "vi": "Sau đó mình đi bộ đoạn cuối. Bỗng nhiên trời đổ mưa!" },
+                { "speaker": "Mai", "en": "Did you have an umbrella?", "vi": "Bạn có ô không?" },
+                { "speaker": "Ben", "en": "No, I didn't. Finally, I got to work at ten, and I was very wet.", "vi": "Không. Cuối cùng mình đến chỗ làm lúc mười giờ, ướt sũng." }
+            ]
+        },
+        {
+            "slug": "a2-03-where-did-you-grow-up",
+            "title": "Where did you grow up?",
+            "situationVi": "Một người bạn mới hỏi về tuổi thơ của bạn.",
+            "lines": [
+                { "speaker": "Linh", "en": "Where did you grow up?", "vi": "Bạn lớn lên ở đâu?" },
+                { "speaker": "You", "en": "I grew up in a small village near Hue.", "vi": "Mình lớn lên ở một ngôi làng nhỏ gần Huế.", "learnerTurn": true },
+                { "speaker": "Linh", "en": "Really? Did you like it?", "vi": "Thật à? Bạn có thích ở đó không?" },
+                { "speaker": "You", "en": "Yes, I loved it. I used to ride a bike to school every day.", "vi": "Có, mình rất thích. Hồi đó ngày nào mình cũng đạp xe đi học.", "learnerTurn": true },
+                { "speaker": "Linh", "en": "That sounds nice. When did you move to the city?", "vi": "Nghe hay đấy. Bạn chuyển lên thành phố khi nào?" },
+                { "speaker": "You", "en": "I moved to Hanoi in 2016. I started university there.", "vi": "Mình chuyển ra Hà Nội năm 2016. Mình bắt đầu học đại học ở đó.", "learnerTurn": true },
+                { "speaker": "Linh", "en": "Do you miss the countryside?", "vi": "Bạn có nhớ quê không?" },
+                { "speaker": "You", "en": "Yes, I do. I miss my grandparents a lot.", "vi": "Có chứ. Mình nhớ ông bà lắm.", "learnerTurn": true }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "a2-03-l1-life-events",
+            "title": "Life events",
+            "titleVi": "Những mốc trong đời",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "grow-up", "role": "INTRODUCE" },
+                { "item": "move", "role": "INTRODUCE" },
+                { "item": "start", "role": "INTRODUCE" },
+                { "item": "graduate", "role": "INTRODUCE" },
+                { "item": "university", "role": "INTRODUCE" },
+                { "item": "get-a-job", "role": "INTRODUCE" },
+                { "item": "get-married", "role": "INTRODUCE" },
+                { "item": "i-did-in-year", "role": "INTRODUCE" },
+                { "item": "i-was-born-in", "role": "RECYCLE" },
+                { "item": "saying-years", "role": "RECYCLE" },
+                { "item": "past-simple-irregular", "role": "RECYCLE" },
+                { "item": "school", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["grow-up", "move", "start", "graduate", "university", "get-a-job", "get-married", "i-did-in-year"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Kể các mốc trong đời",
+                        "bodyVi": "Kể đời mình theo thứ tự, mỗi mốc một câu quá khứ đơn + **in** + năm:\n\n1. I **was born** in 1998.\n2. I **grew up** in Hue. (grow → **grew**)\n3. I **started** school in 2004.\n4. I **moved to** Hanoi in 2016.\n5. I **graduated from** university in 2020.\n6. I **got a job** in 2020. (get → **got**)\n7. I **got married** in 2024.\n\nĐọc năm tách cặp: 2016 = **twenty sixteen**.\n\n❌ I was graduated. ❌ I married with him. ✅ I **graduated**. I **got married to** him.",
+                        "items": ["i-did-in-year", "i-was-born-in", "saying-years", "past-simple-irregular", "grow-up", "get-a-job", "get-married", "graduate"],
+                        "examples": [
+                            { "en": "I grew up in Hue and moved to Hanoi in 2016.", "vi": "Mình lớn lên ở Huế và chuyển ra Hà Nội năm 2016.", "highlight": "grew up" },
+                            { "en": "She graduated in 2020 and got a job at a bank.", "vi": "Cô ấy tốt nghiệp năm 2020 và xin được việc ở ngân hàng.", "highlight": "got a job" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "i-did-in-year",
+                        "prompts": [
+                            { "cueVi": "Mình tốt nghiệp năm 2021.", "slots": { "did": "graduated", "year": "2021" }, "answer": "I graduated in 2021." },
+                            { "cueVi": "Mình chuyển đến Đà Nẵng năm 2019.", "slots": { "did": "moved to Da Nang", "year": "2019" }, "answer": "I moved to Da Nang in 2019." },
+                            { "cueVi": "Mình có việc làm năm 2022.", "slots": { "did": "got a job", "year": "2022" }, "answer": "I got a job in 2022." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["grow-up", "move", "start", "graduate", "university", "get-a-job", "get-married", "school"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "I was born in 1998 and grew up in Hue.", "vi": "Mình sinh năm 1998 và lớn lên ở Huế." },
+                            { "en": "I moved to Hanoi in 2016.", "vi": "Mình chuyển ra Hà Nội năm 2016." },
+                            { "en": "I graduated from university in 2020.", "vi": "Mình tốt nghiệp đại học năm 2020." },
+                            { "en": "Then I got a job at a bank.", "vi": "Rồi mình xin được việc ở một ngân hàng." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I was graduated in 2020.", "I graduated in 2020.", "I graduate on 2020."],
+                                "answer": 1,
+                                "item": "graduate"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I ___ up in a small town.",
+                                "hintVi": "lớn (quá khứ của grow)",
+                                "answers": ["grew"],
+                                "item": "grow-up"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Bố mẹ mình cưới nhau năm 1995.\"",
+                                "options": ["My parents got married in 1995.", "My parents married with in 1995.", "My parents were marry in 1995."],
+                                "answer": 0,
+                                "item": "get-married"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "We moved to Can Tho in twenty eighteen.",
+                                "options": ["Nhà mình chuyển về Cần Thơ năm 2018.", "Nhà mình chuyển về Cần Thơ năm 2080.", "Nhà mình ở Cần Thơ 18 năm."],
+                                "answer": 0,
+                                "item": "move"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Anh ấy xin được việc sau khi học đại học.",
+                                "answer": "He got a job after university.",
+                                "item": "get-a-job"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a2-03-l2-first-then-finally",
+            "title": "First, then, finally",
+            "titleVi": "Kể theo trình tự",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "sequencing", "role": "INTRODUCE" },
+                { "item": "first", "role": "INTRODUCE" },
+                { "item": "then", "role": "INTRODUCE" },
+                { "item": "after-that", "role": "INTRODUCE" },
+                { "item": "finally", "role": "INTRODUCE" },
+                { "item": "before", "role": "INTRODUCE" },
+                { "item": "after", "role": "INTRODUCE" },
+                { "item": "suddenly", "role": "INTRODUCE" },
+                { "item": "story", "role": "INTRODUCE" },
+                { "item": "past-simple-did", "role": "RECYCLE" },
+                { "item": "took", "role": "RECYCLE" },
+                { "item": "get-up", "role": "RECYCLE" },
+                { "item": "terrible", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["first", "then", "after-that", "finally", "before", "after", "suddenly", "story"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Kể chuyện: first, then, after that, finally",
+                        "bodyVi": "Một câu chuyện dễ nghe có **khung**:\n\n| vị trí | từ nối |\n|---|---|\n| mở đầu | **First,** … |\n| giữa | **Then** … / **After that,** … |\n| bất ngờ | **Suddenly,** … |\n| kết | **Finally,** … |\n\nCả chuyện đều ở **quá khứ đơn**. ❌ First I got up late, then I **miss** the bus. ✅ then I **missed** the bus.\n\n**before / after** + danh từ: **after** lunch, **before** work.\n\n\"Cách đây hai ngày\" vẫn là **two days ago**, ❌ before two days.",
+                        "items": ["sequencing", "first", "then", "after-that", "finally", "suddenly", "before", "after"],
+                        "examples": [
+                            { "en": "First, I got up late. Then I missed the bus. Finally, I took a taxi.", "vi": "Đầu tiên mình dậy muộn. Rồi lỡ xe buýt. Cuối cùng mình đi taxi.", "highlight": "Finally" },
+                            { "en": "After lunch, we walked to the park.", "vi": "Sau bữa trưa, bọn mình đi bộ ra công viên.", "highlight": "After lunch" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "cloze", "sentence-build"],
+                        "items": ["first", "then", "after-that", "finally", "before", "after", "suddenly", "story"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a2-03-a-bad-morning", "mode": "listen" }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "First, I got up late.", "vi": "Đầu tiên, mình dậy muộn." },
+                            { "en": "Then I missed the bus, so I took a taxi.", "vi": "Rồi mình lỡ xe buýt, nên mình đi taxi." },
+                            { "en": "Suddenly, it started to rain.", "vi": "Bỗng nhiên trời đổ mưa." },
+                            { "en": "Finally, I got to work at ten.", "vi": "Cuối cùng mình đến chỗ làm lúc mười giờ." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Từ nào hợp để kết thúc câu chuyện?",
+                                "options": ["First,", "Then", "Finally,"],
+                                "answer": 2,
+                                "item": "finally"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["First I got up, then I go to work.", "First I got up, then I went to work.", "First I get up, then I went to work."],
+                                "answer": 1,
+                                "item": "sequencing"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "___ dinner, we watched a movie.",
+                                "hintVi": "sau (bữa tối)",
+                                "answers": ["After"],
+                                "item": "after"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Suddenly, the lights went out.",
+                                "options": ["Cuối cùng đèn cũng sáng.", "Bỗng nhiên đèn tắt.", "Sau đó mình tắt đèn."],
+                                "answer": 1,
+                                "item": "suddenly"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Sau đó, bọn mình đi taxi về nhà.",
+                                "answer": "After that, we took a taxi home.",
+                                "item": "after-that"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a2-03-l3-when-i-was-young",
+            "title": "When I was young",
+            "titleVi": "Hồi còn nhỏ",
+            "estimatedMinutes": 14,
+            "items": [
+                { "item": "used-to", "role": "INTRODUCE" },
+                { "item": "i-used-to", "role": "INTRODUCE" },
+                { "item": "when-i-was", "role": "INTRODUCE" },
+                { "item": "remember", "role": "INTRODUCE" },
+                { "item": "miss", "role": "INTRODUCE" },
+                { "item": "village", "role": "INTRODUCE" },
+                { "item": "countryside", "role": "INTRODUCE" },
+                { "item": "ride-a-bike", "role": "INTRODUCE" },
+                { "item": "kid", "role": "RECYCLE" },
+                { "item": "grow-up", "role": "RECYCLE" },
+                { "item": "grandparents", "role": "RECYCLE" },
+                { "item": "move", "role": "RECYCLE" },
+                { "item": "usually", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["i-used-to", "when-i-was", "remember", "miss", "village", "countryside", "ride-a-bike"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Hồi trước: used to",
+                        "bodyVi": "**used to** + động từ nguyên mẫu = hồi trước hay làm, **bây giờ không còn**.\n\n| hồi trước | bây giờ |\n|---|---|\n| I **used to** live in a village. | Now I live in Hanoi. |\n| I **used to** be shy. | Now I'm not. |\n\nPhủ định, câu hỏi dùng **did** (và bỏ d): I **didn't use to** like fish. **Did** you **use to** walk to school?\n\nThói quen **bây giờ** thì không dùng used to: ❌ I use to drink coffee every day. ✅ I **usually** drink coffee.\n\n\"Nhớ\" có hai từ: không quên là **remember**; nhớ nhung là **miss** (I **miss** my hometown).",
+                        "items": ["used-to", "i-used-to", "usually", "remember", "miss", "when-i-was"],
+                        "examples": [
+                            { "en": "When I was a kid, I used to ride a bike to school.", "vi": "Hồi nhỏ mình hay đạp xe đi học.", "highlight": "used to ride" },
+                            { "en": "I didn't use to like vegetables, but now I love them.", "vi": "Hồi trước mình không thích rau, nhưng giờ mình rất thích.", "highlight": "didn't use to" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "i-used-to",
+                        "prompts": [
+                            { "cueVi": "Hồi trước mình sống ở một ngôi làng.", "slots": { "do": "live in a village" }, "answer": "I used to live in a village." },
+                            { "cueVi": "Hồi trước mình hay đạp xe đi học.", "slots": { "do": "ride a bike to school" }, "answer": "I used to ride a bike to school." },
+                            { "cueVi": "Hồi trước mình rất nhút nhát.", "slots": { "do": "be very shy" }, "answer": "I used to be very shy." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "when-i-was",
+                        "prompts": [
+                            { "cueVi": "Hồi nhỏ, mình sống ở quê.", "slots": { "age": "a kid", "did": "lived in the countryside" }, "answer": "When I was a kid, I lived in the countryside." },
+                            { "cueVi": "Hồi mười tuổi, mình muốn làm bác sĩ.", "slots": { "age": "ten", "did": "wanted to be a doctor" }, "answer": "When I was ten, I wanted to be a doctor." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "context"],
+                        "items": ["remember", "miss", "village", "countryside", "ride-a-bike", "kid", "grow-up", "grandparents"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a2-03-where-did-you-grow-up", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I used to playing soccer.", "I use to play soccer when I was a kid.", "I used to play soccer when I was a kid."],
+                                "answer": 2,
+                                "item": "used-to"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Mình nhớ quê lắm\" (nhớ nhung):",
+                                "options": ["I remember my hometown a lot.", "I miss my hometown a lot.", "I forget my hometown a lot."],
+                                "answer": 1,
+                                "item": "miss"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Did you ___ to live here?",
+                                "answers": ["use"],
+                                "item": "used-to"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "When I was ten, I lived in the countryside.",
+                                "options": ["Mình sống ở quê được mười năm.", "Hồi mười tuổi, mình sống ở quê.", "Mình muốn về quê năm mười tuổi."],
+                                "answer": 1,
+                                "item": "when-i-was"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Hồi trước mình hay đạp xe đi học.",
+                                "answer": "I used to ride a bike to school.",
+                                "item": "ride-a-bike"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "a2-03-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["She graduated from university in 2019.", "She was graduated university on 2019.", "She graduate from university in 2019."],
+                "answer": 0,
+                "item": "graduate"
+            },
+            {
+                "kind": "gap",
+                "sentence": "He ___ a job at a hotel last year.",
+                "hintVi": "có được (quá khứ của get)",
+                "answers": ["got"],
+                "item": "get-a-job"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Sắp xếp một câu chuyện: từ nào đứng đầu?",
+                "options": ["Finally,", "After that,", "First,"],
+                "answer": 2,
+                "item": "sequencing"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "I used to live with my grandparents.",
+                "options": ["Hồi trước mình sống với ông bà.", "Mình đã quen sống với ông bà.", "Mình đang sống với ông bà."],
+                "answer": 0,
+                "item": "used-to"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào nói \"nhớ nhung\"?",
+                "options": ["I remember my old school.", "I miss my old school.", "I remind my old school."],
+                "answer": 1,
+                "item": "miss"
+            },
+            {
+                "kind": "order",
+                "vi": "Hồi nhỏ, mình sống ở một ngôi làng.",
+                "answer": "When I was a kid, I lived in a village.",
+                "item": "when-i-was"
+            }
+        ]
+    }
+}
