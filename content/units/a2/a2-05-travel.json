@@ -1,0 +1,791 @@
+{
+    "slug": "a2-05-travel",
+    "stage": "a2",
+    "order": 5,
+    "title": "Travel",
+    "titleVi": "Đi du lịch",
+    "descriptionVi": "Nói đi bằng phương tiện gì và mất bao lâu, làm thủ tục ở sân bay, hỏi giờ tàu xe, nhận phòng khách sạn và nhờ giúp lịch sự với Could you…?",
+    "canDo": [
+        "Tôi nói được mình đi bằng gì (by train, by plane) và mất bao lâu, hỏi được đường đi mất bao lâu.",
+        "Tôi làm được thủ tục ở sân bay hoặc nhà ga: đưa hộ chiếu, hỏi giờ bay, giờ tàu chạy, cửa lên máy bay.",
+        "Tôi đặt và nhận được phòng khách sạn, nhờ lễ tân giúp một cách lịch sự."
+    ],
+    "items": [
+        {
+            "slug": "by-transport",
+            "type": "GRAMMAR",
+            "text": "by + transport / take the + transport",
+            "meaningVi": "đi bằng phương tiện gì",
+            "examples": [
+                { "en": "I usually go to work by bus, but today I took a taxi.", "vi": "Mình thường đi làm bằng xe buýt, nhưng hôm nay mình đi taxi.", "highlight": "by bus" }
+            ],
+            "grammar": {
+                "ruleVi": "Nói phương tiện nói chung: by + phương tiện, không có a/the (by bus, by train, by plane, by car). Nói một chuyến cụ thể: take the bus, take a taxi. Đi bộ là on foot hoặc walk.",
+                "forms": [
+                    { "label": "by + phương tiện", "example": "I go to school by bike. We went to Da Lat by plane." },
+                    { "label": "take + a/the", "example": "Let's take a taxi. I take the train every day." },
+                    { "label": "đi bộ", "example": "I go on foot. / I walk to work." },
+                    { "label": "hỏi", "example": "How do you get to work? By motorbike." }
+                ],
+                "pitfallsVi": [
+                    "Thêm mạo từ sau by: \"by the bus\", \"by a taxi\" → by bus, by taxi.",
+                    "\"by foot\" → on foot.",
+                    "Dịch \"đi xe máy\" thành \"go motorbike\" → go by motorbike hoặc ride a motorbike."
+                ]
+            }
+        },
+        {
+            "slug": "plane",
+            "type": "LEXICAL",
+            "text": "plane",
+            "meaningVi": "máy bay",
+            "ipa": "/pleɪn/",
+            "examples": [
+                { "en": "It's faster to go by plane.", "vi": "Đi máy bay thì nhanh hơn.", "highlight": "plane" }
+            ],
+            "noteVi": "Giữ âm cuối /n/, đọc \"plein\". Lên máy bay: get on the plane."
+        },
+        {
+            "slug": "train",
+            "type": "LEXICAL",
+            "text": "train",
+            "meaningVi": "tàu hỏa",
+            "ipa": "/treɪn/",
+            "examples": [
+                { "en": "We took the night train to Hue.", "vi": "Bọn mình đi chuyến tàu đêm ra Huế.", "highlight": "train" }
+            ],
+            "noteVi": "Âm đầu /tr/ đọc liền, không thành \"tơ-rên\". Tàu thủy là boat hoặc ship."
+        },
+        {
+            "slug": "airport",
+            "type": "LEXICAL",
+            "text": "airport",
+            "meaningVi": "sân bay",
+            "ipa": "/ˈerpɔːrt/",
+            "examples": [
+                { "en": "Can you take me to the airport?", "vi": "Bạn đưa mình ra sân bay được không?", "highlight": "airport" }
+            ],
+            "noteVi": "Nhấn âm đầu: AIR-port. Ở sân bay: at the airport."
+        },
+        {
+            "slug": "station",
+            "type": "LEXICAL",
+            "text": "station",
+            "meaningVi": "nhà ga, bến",
+            "ipa": "/ˈsteɪʃən/",
+            "examples": [
+                { "en": "The train station is near the market.", "vi": "Ga tàu ở gần chợ.", "highlight": "station" }
+            ],
+            "noteVi": "train station (ga tàu), bus station (bến xe), gas station (cây xăng). Trạm xe buýt nhỏ bên đường là bus stop."
+        },
+        {
+            "slug": "trip",
+            "type": "LEXICAL",
+            "text": "trip",
+            "meaningVi": "chuyến đi",
+            "ipa": "/trɪp/",
+            "examples": [
+                { "en": "How was your trip to Da Nang?", "vi": "Chuyến đi Đà Nẵng của bạn thế nào?", "highlight": "trip" }
+            ],
+            "noteVi": "trip là danh từ (một chuyến), travel là động từ (đi du lịch): I'm going on a trip. ❌ \"I'm going on a travel\". Chúc: Have a nice trip!"
+        },
+        {
+            "slug": "hour",
+            "type": "LEXICAL",
+            "text": "hour",
+            "meaningVi": "giờ đồng hồ, tiếng",
+            "ipa": "/ˈaʊər/",
+            "examples": [
+                { "en": "The trip takes about two hours.", "vi": "Chuyến đi mất khoảng hai tiếng.", "highlight": "hours" }
+            ],
+            "noteVi": "h câm: đọc như \"our\", nên dùng an: an hour. Một tiếng rưỡi: an hour and a half."
+        },
+        {
+            "slug": "how-long-does-it-take",
+            "type": "PATTERN",
+            "text": "How long does it take to get to …?",
+            "meaningVi": "Đi đến … mất bao lâu?",
+            "examples": [
+                { "en": "How long does it take to get to the airport?", "vi": "Ra sân bay mất bao lâu?", "highlight": "How long does it take" }
+            ],
+            "pattern": {
+                "template": "How long does it take to get to {place}?",
+                "slots": [
+                    { "name": "place", "hintVi": "nơi muốn đến", "options": ["the airport", "the station", "your office", "Hoi An"] }
+                ]
+            },
+            "noteVi": "Chủ ngữ là it, không phải you: ❌ \"How long do you take…?\". Nhà thì bỏ to: get home."
+        },
+        {
+            "slug": "it-takes",
+            "type": "PATTERN",
+            "text": "It takes … by ….",
+            "meaningVi": "Mất … (đi bằng …).",
+            "examples": [
+                { "en": "It takes twenty minutes by taxi.", "vi": "Đi taxi mất hai mươi phút.", "highlight": "It takes" }
+            ],
+            "pattern": {
+                "template": "It takes {time} by {transport}.",
+                "slots": [
+                    { "name": "time", "hintVi": "khoảng thời gian", "options": ["twenty minutes", "an hour", "two hours", "about a day"] },
+                    { "name": "transport", "hintVi": "phương tiện (không a/the)", "options": ["bus", "taxi", "train", "plane"] }
+                ]
+            },
+            "noteVi": "takes có -s vì chủ ngữ là it. Quá khứ: It took three hours."
+        },
+        {
+            "slug": "passport",
+            "type": "LEXICAL",
+            "text": "passport",
+            "meaningVi": "hộ chiếu",
+            "ipa": "/ˈpæspɔːrt/",
+            "examples": [
+                { "en": "Can I see your passport, please?", "vi": "Cho tôi xem hộ chiếu của anh chị.", "highlight": "passport" }
+            ],
+            "noteVi": "Nhấn âm đầu: PASS-port. Thẻ căn cước là ID card."
+        },
+        {
+            "slug": "ticket",
+            "type": "LEXICAL",
+            "text": "ticket",
+            "meaningVi": "vé",
+            "ipa": "/ˈtɪkɪt/",
+            "examples": [
+                { "en": "I bought a train ticket to Hue.", "vi": "Mình đã mua vé tàu ra Huế.", "highlight": "ticket" }
+            ],
+            "noteVi": "Vé khứ hồi: a round-trip ticket; vé một chiều: a one-way ticket. Giữ âm cuối /t/."
+        },
+        {
+            "slug": "flight",
+            "type": "LEXICAL",
+            "text": "flight",
+            "meaningVi": "chuyến bay",
+            "ipa": "/flaɪt/",
+            "examples": [
+                { "en": "My flight leaves at 6:30 in the morning.", "vi": "Chuyến bay của mình cất cánh lúc 6 giờ 30 sáng.", "highlight": "flight" }
+            ],
+            "noteVi": "gh câm, đọc \"flai-t\" và giữ âm /t/. Chuyến bay bị hoãn: The flight is delayed."
+        },
+        {
+            "slug": "leave",
+            "type": "LEXICAL",
+            "text": "leave",
+            "meaningVi": "rời đi, khởi hành",
+            "ipa": "/liːv/",
+            "examples": [
+                { "en": "The bus leaves at eight o'clock.", "vi": "Xe buýt chạy lúc tám giờ.", "highlight": "leaves" }
+            ],
+            "noteVi": "Quá khứ bất quy tắc: left. Rời một nơi không có from: leave the hotel (❌ \"leave from the hotel\" khi ý là rời đi). Âm /iː/ dài, khác live /ɪ/."
+        },
+        {
+            "slug": "arrive",
+            "type": "LEXICAL",
+            "text": "arrive",
+            "meaningVi": "đến nơi",
+            "ipa": "/əˈraɪv/",
+            "examples": [
+                { "en": "We arrived in Hanoi at midnight.", "vi": "Bọn mình đến Hà Nội lúc nửa đêm.", "highlight": "arrived" }
+            ],
+            "noteVi": "arrive in + thành phố, nước; arrive at + sân bay, ga, khách sạn. ❌ \"arrive to\". Về đến nhà: arrive home (không giới từ)."
+        },
+        {
+            "slug": "late",
+            "type": "LEXICAL",
+            "text": "late",
+            "meaningVi": "muộn, trễ",
+            "ipa": "/leɪt/",
+            "examples": [
+                { "en": "Sorry, I'm late. The train was late.", "vi": "Xin lỗi mình đến muộn. Tàu bị trễ.", "highlight": "late" }
+            ],
+            "noteVi": "Đến muộn: be late (❌ \"I come late\" khi xin lỗi). Trái nghĩa: early, on time (đúng giờ)."
+        },
+        {
+            "slug": "gate",
+            "type": "LEXICAL",
+            "text": "gate",
+            "meaningVi": "cổng, cửa ra máy bay",
+            "ipa": "/ɡeɪt/",
+            "examples": [
+                { "en": "The flight to Da Nang leaves from gate 12.", "vi": "Chuyến bay đi Đà Nẵng ở cửa số 12.", "highlight": "gate" }
+            ],
+            "noteVi": "Số đứng sau: gate 12 (❌ \"12 gate\"). Giữ âm cuối /t/."
+        },
+        {
+            "slug": "check-in",
+            "type": "PHRASE",
+            "text": "check in",
+            "meaningVi": "làm thủ tục (lên máy bay, nhận phòng)",
+            "examples": [
+                { "en": "You need to check in two hours before your flight.", "vi": "Bạn cần làm thủ tục trước giờ bay hai tiếng.", "highlight": "check in" }
+            ],
+            "noteVi": "Dùng cho cả sân bay và khách sạn. Quầy làm thủ tục: the check-in desk (viết có gạch nối khi là danh từ)."
+        },
+        {
+            "slug": "what-time-does-leave",
+            "type": "PATTERN",
+            "text": "What time does the … leave?",
+            "meaningVi": "Mấy giờ … chạy / khởi hành?",
+            "examples": [
+                { "en": "What time does the next train leave?", "vi": "Mấy giờ chuyến tàu tiếp theo chạy?", "highlight": "What time does the next train leave" }
+            ],
+            "pattern": {
+                "template": "What time does the {transport} leave?",
+                "slots": [
+                    { "name": "transport", "hintVi": "chuyến tàu, xe, bay", "options": ["train", "bus", "flight", "next bus"] }
+                ]
+            },
+            "noteVi": "Lịch tàu xe dùng hiện tại đơn, nên có does và leave không -s. Hỏi giờ đến: What time does it arrive?"
+        },
+        {
+            "slug": "hotel",
+            "type": "LEXICAL",
+            "text": "hotel",
+            "meaningVi": "khách sạn",
+            "ipa": "/hoʊˈtel/",
+            "examples": [
+                { "en": "We stayed at a small hotel near the beach.", "vi": "Bọn mình ở một khách sạn nhỏ gần biển.", "highlight": "hotel" }
+            ],
+            "noteVi": "Nhấn âm sau: ho-TEL (❌ HÔ-ten). Ở khách sạn: stay at a hotel."
+        },
+        {
+            "slug": "night",
+            "type": "LEXICAL",
+            "text": "night",
+            "meaningVi": "đêm (đơn vị ở khách sạn)",
+            "ipa": "/naɪt/",
+            "examples": [
+                { "en": "A double room is fifty dollars a night.", "vi": "Phòng đôi năm mươi đô một đêm.", "highlight": "night" }
+            ],
+            "noteVi": "Ở khách sạn tính theo đêm: for three nights, fifty dollars a night. Giữ âm cuối /t/."
+        },
+        {
+            "slug": "book-a-room",
+            "type": "PHRASE",
+            "text": "book a room",
+            "meaningVi": "đặt phòng",
+            "examples": [
+                { "en": "I booked a room online.", "vi": "Mình đã đặt phòng trên mạng.", "highlight": "booked a room" }
+            ],
+            "noteVi": "book ở đây là động từ \"đặt trước\": book a table (đặt bàn), book a ticket, book a flight."
+        },
+        {
+            "slug": "id-like-a-room-for",
+            "type": "PATTERN",
+            "text": "I'd like a … room for … nights.",
+            "meaningVi": "Tôi muốn một phòng … cho … đêm.",
+            "examples": [
+                { "en": "I'd like a double room for two nights, please.", "vi": "Tôi muốn một phòng đôi cho hai đêm.", "highlight": "I'd like a double room" }
+            ],
+            "pattern": {
+                "template": "I'd like a {kind} room for {nights}.",
+                "slots": [
+                    { "name": "kind", "hintVi": "loại phòng", "options": ["single", "double", "quiet", "big"] },
+                    { "name": "nights", "hintVi": "số đêm", "options": ["one night", "two nights", "three nights", "a week"] }
+                ]
+            },
+            "noteVi": "single room (một giường đơn), double room (một giường đôi), twin room (hai giường đơn)."
+        },
+        {
+            "slug": "i-have-a-reservation",
+            "type": "PHRASE",
+            "text": "I have a reservation.",
+            "meaningVi": "Tôi đã đặt chỗ trước.",
+            "examples": [
+                { "en": "Hello, I have a reservation. My name is Lan Nguyen.", "vi": "Xin chào, tôi đã đặt phòng. Tên tôi là Lan Nguyễn.", "highlight": "I have a reservation" }
+            ],
+            "noteVi": "Nói ngay khi đến quầy lễ tân hoặc nhà hàng, rồi nói tên. Người Mỹ cũng hay nói I have a reservation under Nguyen (đặt dưới tên Nguyen)."
+        },
+        {
+            "slug": "check-out",
+            "type": "PHRASE",
+            "text": "check out",
+            "meaningVi": "trả phòng",
+            "examples": [
+                { "en": "What time do we have to check out?", "vi": "Mấy giờ bọn mình phải trả phòng?", "highlight": "check out" }
+            ],
+            "noteVi": "Ngược với check in (nhận phòng). Giờ trả phòng: checkout time."
+        },
+        {
+            "slug": "could-requests",
+            "type": "GRAMMAR",
+            "text": "Could you …? / Could I …?",
+            "meaningVi": "nhờ và xin phép lịch sự",
+            "examples": [
+                { "en": "Could you call a taxi for me, please?", "vi": "Anh chị gọi giúp tôi một chiếc taxi được không?", "highlight": "Could you call" }
+            ],
+            "grammar": {
+                "ruleVi": "Could + chủ ngữ + động từ nguyên mẫu để nhờ hoặc xin phép, lịch sự hơn Can. Could you…? là nhờ người khác làm; Could I…? là xin cho mình. Với người lạ, lễ tân, nhân viên thì nên dùng Could và thêm please.",
+                "forms": [
+                    { "label": "nhờ", "example": "Could you help me with my bag?" },
+                    { "label": "xin phép", "example": "Could I have a map, please?" },
+                    { "label": "trả lời đồng ý", "example": "Sure. / Of course. / No problem." },
+                    { "label": "trả lời từ chối", "example": "I'm sorry, I can't." }
+                ],
+                "pitfallsVi": [
+                    "Động từ sau could không đổi: \"Could you helping me?\", \"Could you to help me?\" → Could you help me?",
+                    "Ra lệnh thay vì nhờ: \"Give me the key.\" nghe cộc → Could I have the key, please?",
+                    "Trả lời \"Yes, I could.\" khi đồng ý giúp → Sure. / Of course."
+                ]
+            }
+        },
+        {
+            "slug": "could-you",
+            "type": "PATTERN",
+            "text": "Could you …, please?",
+            "meaningVi": "Bạn / Anh chị … giúp tôi được không?",
+            "examples": [
+                { "en": "Could you wake me up at six, please?", "vi": "Anh chị gọi tôi dậy lúc sáu giờ được không?", "highlight": "Could you wake me up" }
+            ],
+            "pattern": {
+                "template": "Could you {do}, please?",
+                "slots": [
+                    { "name": "do", "hintVi": "động từ nguyên mẫu (+ tân ngữ)", "options": ["call a taxi", "help me with my bag", "say that again", "write it down"] }
+                ]
+            },
+            "noteVi": "please đặt cuối câu, có dấu phẩy trước. Could đọc nhẹ /kəd/, l câm."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "a2-05-at-the-check-in-desk",
+            "title": "At the check-in desk",
+            "situationVi": "Bạn làm thủ tục bay ra Đà Nẵng ở sân bay Tân Sơn Nhất. Đưa hộ chiếu, hỏi cửa và giờ lên máy bay.",
+            "lines": [
+                { "speaker": "Agent", "en": "Good morning. Where are you flying today?", "vi": "Chào anh chị. Hôm nay anh chị bay đi đâu ạ?" },
+                { "speaker": "You", "en": "To Da Nang. Here's my passport.", "vi": "Đi Đà Nẵng. Đây là hộ chiếu của tôi.", "learnerTurn": true },
+                { "speaker": "Agent", "en": "Thank you. Do you have any bags to check?", "vi": "Cảm ơn. Anh chị có hành lý ký gửi không ạ?" },
+                { "speaker": "You", "en": "Just one. What time does the flight leave?", "vi": "Chỉ một cái. Mấy giờ chuyến bay cất cánh?", "learnerTurn": true },
+                { "speaker": "Agent", "en": "At 10:15. But it's a little late today, so boarding is at 10:05, gate 14.", "vi": "Lúc 10 giờ 15. Nhưng hôm nay hơi trễ, nên lên máy bay lúc 10 giờ 05, cửa 14." },
+                { "speaker": "You", "en": "Gate 14. How long does it take to get there?", "vi": "Cửa 14. Đi đến đó mất bao lâu?", "learnerTurn": true },
+                { "speaker": "Agent", "en": "About ten minutes on foot. Have a nice trip!", "vi": "Đi bộ khoảng mười phút. Chúc chuyến đi vui vẻ!" }
+            ]
+        },
+        {
+            "slug": "a2-05-at-the-hotel",
+            "title": "At the hotel",
+            "situationVi": "Bạn đến khách sạn ở Hội An buổi tối, nhận phòng đã đặt và nhờ lễ tân vài việc.",
+            "lines": [
+                { "speaker": "Receptionist", "en": "Good evening. Welcome to the Riverside Hotel.", "vi": "Chào buổi tối. Chào mừng đến khách sạn Riverside." },
+                { "speaker": "You", "en": "Hi. I have a reservation. My name is Minh Tran.", "vi": "Chào chị. Tôi đã đặt phòng. Tên tôi là Minh Trần.", "learnerTurn": true },
+                { "speaker": "Receptionist", "en": "Yes, a double room for three nights. Could I see your passport, please?", "vi": "Vâng, phòng đôi ba đêm. Cho tôi xem hộ chiếu của anh được không?" },
+                { "speaker": "You", "en": "Sure, here you are. What time is checkout?", "vi": "Được, đây ạ. Mấy giờ phải trả phòng?", "learnerTurn": true },
+                { "speaker": "Receptionist", "en": "At eleven. Here's your key. You're in room 305.", "vi": "Lúc mười một giờ. Đây là chìa khóa. Anh ở phòng 305." },
+                { "speaker": "You", "en": "Thanks. Could you call a taxi for me at seven tomorrow morning, please?", "vi": "Cảm ơn. Chị gọi giúp tôi một chiếc taxi lúc bảy giờ sáng mai được không?", "learnerTurn": true },
+                { "speaker": "Receptionist", "en": "Of course. Enjoy your stay!", "vi": "Tất nhiên rồi. Chúc anh ở vui vẻ!" }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "a2-05-l1-getting-there",
+            "title": "How do you get there?",
+            "titleVi": "Đi bằng gì, mất bao lâu?",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "by-transport", "role": "INTRODUCE" },
+                { "item": "plane", "role": "INTRODUCE" },
+                { "item": "train", "role": "INTRODUCE" },
+                { "item": "airport", "role": "INTRODUCE" },
+                { "item": "station", "role": "INTRODUCE" },
+                { "item": "trip", "role": "INTRODUCE" },
+                { "item": "hour", "role": "INTRODUCE" },
+                { "item": "how-long-does-it-take", "role": "INTRODUCE" },
+                { "item": "it-takes", "role": "INTRODUCE" },
+                { "item": "travel", "role": "RECYCLE" },
+                { "item": "bus", "role": "RECYCLE" },
+                { "item": "taxi", "role": "RECYCLE" },
+                { "item": "on-foot", "role": "RECYCLE" },
+                { "item": "minute", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["plane", "train", "airport", "station", "trip", "hour", "how-long-does-it-take", "it-takes"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Đi bằng gì? Mất bao lâu?",
+                        "bodyVi": "Phương tiện nói chung: **by** + phương tiện, **không có a/the**. Đi bộ là **on foot**.\n\n| nói chung | một chuyến cụ thể |\n|---|---|\n| I go to work **by bus**. | I **took the bus** today. |\n| We went **by plane**. | Let's **take a taxi**. |\n| I go **on foot**. | I **walked** to school. |\n\nHỏi thời gian đi đường, chủ ngữ là **it**:\n\n**How long does it take** to get to the airport? → **It takes** thirty minutes **by taxi**.\n\n**hour** có h câm: **an** hour.\n\n❌ by the bus ❌ by foot ❌ How long do you take? ✅ **by bus**, **on foot**, **How long does it take?**",
+                        "items": ["by-transport", "how-long-does-it-take", "it-takes", "hour", "on-foot", "bus", "taxi"],
+                        "examples": [
+                            { "en": "How long does it take to get to Hue by train? It takes about thirteen hours.", "vi": "Đi tàu ra Huế mất bao lâu? Mất khoảng mười ba tiếng.", "highlight": "How long does it take" },
+                            { "en": "I usually go by motorbike, but today I took a taxi.", "vi": "Mình thường đi xe máy, nhưng hôm nay mình đi taxi.", "highlight": "by motorbike" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "it-takes",
+                        "prompts": [
+                            { "cueVi": "Đi taxi mất hai mươi phút.", "slots": { "time": "twenty minutes", "transport": "taxi" }, "answer": "It takes twenty minutes by taxi." },
+                            { "cueVi": "Đi máy bay mất một tiếng.", "slots": { "time": "an hour", "transport": "plane" }, "answer": "It takes an hour by plane." },
+                            { "cueVi": "Đi tàu mất khoảng một ngày.", "slots": { "time": "about a day", "transport": "train" }, "answer": "It takes about a day by train." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "how-long-does-it-take",
+                        "prompts": [
+                            { "cueVi": "Hỏi: ra sân bay mất bao lâu?", "slots": { "place": "the airport" }, "answer": "How long does it take to get to the airport?" },
+                            { "cueVi": "Hỏi: đến Hội An mất bao lâu?", "slots": { "place": "Hoi An" }, "answer": "How long does it take to get to Hoi An?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["plane", "train", "airport", "station", "trip", "hour", "travel", "minute"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "How long does it take to get to the station?", "vi": "Ra ga mất bao lâu?" },
+                            { "en": "It takes about an hour by bus.", "vi": "Đi xe buýt mất khoảng một tiếng." },
+                            { "en": "We went to Da Lat by plane.", "vi": "Bọn mình đi Đà Lạt bằng máy bay." },
+                            { "en": "Have a nice trip!", "vi": "Chúc chuyến đi vui vẻ!" }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I go to work by the bus.", "I go to work by bus.", "I go to work by a bus."],
+                                "answer": 1,
+                                "item": "by-transport"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "How long does it ___ to get to the airport?",
+                                "answers": ["take"],
+                                "item": "how-long-does-it-take"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Một tiếng\" là:",
+                                "options": ["a hour", "one hours", "an hour"],
+                                "answer": 2,
+                                "item": "hour"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "It takes two hours by train.",
+                                "options": ["Tàu chạy lúc hai giờ.", "Đi tàu mất hai tiếng.", "Hai tiếng nữa có tàu."],
+                                "answer": 1,
+                                "item": "it-takes"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Chuyến đi của bạn thế nào?",
+                                "answer": "How was your trip?",
+                                "item": "trip"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a2-05-l2-at-the-airport",
+            "title": "At the airport",
+            "titleVi": "Ở sân bay",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "passport", "role": "INTRODUCE" },
+                { "item": "ticket", "role": "INTRODUCE" },
+                { "item": "flight", "role": "INTRODUCE" },
+                { "item": "leave", "role": "INTRODUCE" },
+                { "item": "arrive", "role": "INTRODUCE" },
+                { "item": "late", "role": "INTRODUCE" },
+                { "item": "gate", "role": "INTRODUCE" },
+                { "item": "check-in", "role": "INTRODUCE" },
+                { "item": "what-time-does-leave", "role": "INTRODUCE" },
+                { "item": "present-simple-s", "role": "RECYCLE" },
+                { "item": "airport", "role": "RECYCLE" },
+                { "item": "trip", "role": "RECYCLE" },
+                { "item": "how-long-does-it-take", "role": "RECYCLE" },
+                { "item": "on-foot", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["passport", "ticket", "flight", "leave", "arrive", "late", "gate", "check-in", "what-time-does-leave"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Giờ tàu xe: hiện tại đơn",
+                        "bodyVi": "Lịch tàu, xe, máy bay dùng **hiện tại đơn**, dù là chuyện sắp tới:\n\n| câu | |\n|---|---|\n| The flight **leaves** at 10:15. | (có -s) |\n| **What time does** the train **leave**? | (does + leave, không -s) |\n| It **arrives** at 6:00. | |\n\n**arrive in** + thành phố, nước · **arrive at** + sân bay, ga, khách sạn · **arrive home**.\n\nQuá khứ: leave → **left**, arrive → **arrived**.\n\n❌ What time does the bus leaves? ❌ We arrived to Hanoi. ✅ What time does the bus **leave**? We arrived **in** Hanoi.",
+                        "items": ["present-simple-s", "what-time-does-leave", "leave", "arrive", "flight"],
+                        "examples": [
+                            { "en": "The flight leaves at 7:00 and arrives in Hanoi at 9:00.", "vi": "Chuyến bay cất cánh lúc 7 giờ và đến Hà Nội lúc 9 giờ.", "highlight": "arrives in Hanoi" },
+                            { "en": "What time does the next bus leave?", "vi": "Mấy giờ chuyến xe buýt tiếp theo chạy?", "highlight": "What time does the next bus leave" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "what-time-does-leave",
+                        "prompts": [
+                            { "cueVi": "Hỏi: mấy giờ tàu chạy?", "slots": { "transport": "train" }, "answer": "What time does the train leave?" },
+                            { "cueVi": "Hỏi: mấy giờ chuyến bay cất cánh?", "slots": { "transport": "flight" }, "answer": "What time does the flight leave?" },
+                            { "cueVi": "Hỏi: mấy giờ chuyến xe buýt tiếp theo chạy?", "slots": { "transport": "next bus" }, "answer": "What time does the next bus leave?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["passport", "ticket", "flight", "leave", "arrive", "late", "gate", "check-in"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a2-05-at-the-check-in-desk", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["What time does the train leaves?", "What time the train leave?", "What time does the train leave?"],
+                                "answer": 2,
+                                "item": "what-time-does-leave"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "We arrived ___ Hanoi at midnight.",
+                                "answers": ["in"],
+                                "item": "arrive"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nhân viên nói \"Can I see your passport, please?\". Họ muốn xem:",
+                                "options": ["hộ chiếu", "vé tàu", "hành lý"],
+                                "answer": 0,
+                                "item": "passport"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Sorry, the flight is late. Please go to gate 9.",
+                                "options": ["Xin lỗi, chuyến bay bị hủy. Mời về cửa 9.", "Xin lỗi, chuyến bay bị trễ. Mời đến cửa 9.", "Xin lỗi, bạn đến muộn. Cửa 9 đã đóng."],
+                                "answer": 1,
+                                "item": "late"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Bạn cần làm thủ tục trước hai tiếng.",
+                                "answer": "You need to check in two hours before.",
+                                "item": "check-in"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a2-05-l3-at-the-hotel",
+            "title": "At the hotel",
+            "titleVi": "Ở khách sạn",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "hotel", "role": "INTRODUCE" },
+                { "item": "night", "role": "INTRODUCE" },
+                { "item": "book-a-room", "role": "INTRODUCE" },
+                { "item": "id-like-a-room-for", "role": "INTRODUCE" },
+                { "item": "i-have-a-reservation", "role": "INTRODUCE" },
+                { "item": "check-out", "role": "INTRODUCE" },
+                { "item": "could-requests", "role": "INTRODUCE" },
+                { "item": "could-you", "role": "INTRODUCE" },
+                { "item": "can-i-have", "role": "RECYCLE" },
+                { "item": "id-like", "role": "RECYCLE" },
+                { "item": "key", "role": "RECYCLE" },
+                { "item": "here-you-are", "role": "RECYCLE" },
+                { "item": "check-in", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["hotel", "night", "book-a-room", "id-like-a-room-for", "i-have-a-reservation", "check-out", "could-you"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Nhờ lịch sự: Could you…? Could I…?",
+                        "bodyVi": "**Could** + động từ nguyên mẫu: lịch sự hơn Can, dùng với lễ tân, nhân viên, người lạ.\n\n| | ví dụ |\n|---|---|\n| nhờ người khác | **Could you** call a taxi, please? |\n| xin cho mình | **Could I** have a map, please? |\n| đồng ý | **Sure.** / **Of course.** |\n\nỞ khách sạn: **I have a reservation.** → **check in** (nhận phòng) → **check out** (trả phòng).\n\nĐặt phòng: **I'd like a** double **room for** two **nights**.\n\n❌ Give me the key. (cộc) ❌ Could you helping me? ✅ **Could I have** the key, please? **Could you help** me?",
+                        "items": ["could-requests", "could-you", "can-i-have", "id-like-a-room-for", "i-have-a-reservation", "check-in", "check-out"],
+                        "examples": [
+                            { "en": "Could I have another towel, please?", "vi": "Cho tôi xin thêm một cái khăn được không?", "highlight": "Could I have" },
+                            { "en": "Could you help me with my bag, please? Sure.", "vi": "Anh giúp tôi mang túi được không? Được chứ.", "highlight": "Could you help" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "could-you",
+                        "prompts": [
+                            { "cueVi": "Nhờ lễ tân gọi taxi.", "slots": { "do": "call a taxi" }, "answer": "Could you call a taxi, please?" },
+                            { "cueVi": "Nhờ người ta nói lại.", "slots": { "do": "say that again" }, "answer": "Could you say that again, please?" },
+                            { "cueVi": "Nhờ người ta viết ra.", "slots": { "do": "write it down" }, "answer": "Could you write it down, please?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "id-like-a-room-for",
+                        "prompts": [
+                            { "cueVi": "Tôi muốn một phòng đôi cho hai đêm.", "slots": { "kind": "double", "nights": "two nights" }, "answer": "I'd like a double room for two nights." },
+                            { "cueVi": "Tôi muốn một phòng đơn cho một đêm.", "slots": { "kind": "single", "nights": "one night" }, "answer": "I'd like a single room for one night." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["hotel", "night", "book-a-room", "i-have-a-reservation", "check-out", "key", "here-you-are", "check-in"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a2-05-at-the-hotel", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn muốn nhờ lễ tân gọi taxi. Câu nào lịch sự nhất?",
+                                "options": ["Could you call a taxi, please?", "Call a taxi.", "You call a taxi for me."],
+                                "answer": 0,
+                                "item": "could-requests"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["Could you helping me?", "Could you help me?", "Could you to help me?"],
+                                "answer": 1,
+                                "item": "could-requests"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Hello, I have a ___. My name is Lan Nguyen.",
+                                "hintVi": "đặt chỗ trước",
+                                "answers": ["reservation"],
+                                "item": "i-have-a-reservation"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Checkout is at eleven.",
+                                "options": ["Nhận phòng lúc mười một giờ.", "Bữa sáng đến mười một giờ.", "Trả phòng lúc mười một giờ."],
+                                "answer": 2,
+                                "item": "check-out"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Tôi muốn một phòng đôi cho ba đêm.",
+                                "answer": "I'd like a double room for three nights.",
+                                "item": "id-like-a-room-for"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "a2-05-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["We went to Hue by the train.", "We went to Hue by train.", "We went to Hue by a train."],
+                "answer": 1,
+                "item": "by-transport"
+            },
+            {
+                "kind": "gap",
+                "sentence": "It ___ about three hours by bus.",
+                "hintVi": "mất (thời gian)",
+                "answers": ["takes"],
+                "item": "it-takes"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["What time does the flight leave?", "What time does the flight leaves?", "What time the flight leaves?"],
+                "answer": 0,
+                "item": "what-time-does-leave"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "Could you write it down, please?",
+                "options": ["Bạn đọc lại được không?", "Bạn viết ra giúp mình được không?", "Bạn ghi tên vào đây nhé."],
+                "answer": 1,
+                "item": "could-you"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Bạn đến quầy lễ tân khách sạn đã đặt phòng. Bạn nói:",
+                "options": ["I book a room.", "I have a reservation.", "I'd like a reservation yesterday."],
+                "answer": 1,
+                "item": "i-have-a-reservation"
+            },
+            {
+                "kind": "order",
+                "vi": "Ra sân bay mất bao lâu?",
+                "answer": "How long does it take to get to the airport?",
+                "item": "how-long-does-it-take"
+            }
+        ]
+    }
+}

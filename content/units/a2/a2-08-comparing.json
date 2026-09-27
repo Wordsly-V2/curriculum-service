@@ -1,0 +1,790 @@
+{
+    "slug": "a2-08-comparing",
+    "stage": "a2",
+    "order": 8,
+    "title": "Comparing",
+    "titleVi": "So sánh",
+    "descriptionVi": "So sánh hai thứ (cheaper than, more expensive than), nói cái nhất (the biggest, the most famous), so sánh bằng với as … as, và nói mình thích cái nào hơn.",
+    "canDo": [
+        "Tôi so sánh được hai thứ: giá, tốc độ, độ khó, kích thước.",
+        "Tôi nói được cái nhất trong một nhóm và hỏi được chỗ tốt nhất ở một nơi.",
+        "Tôi nói được hai thứ giống hoặc khác nhau, và giải thích vì sao mình thích cái này hơn."
+    ],
+    "items": [
+        {
+            "slug": "comparatives",
+            "type": "GRAMMAR",
+            "text": "-er than / more … than",
+            "meaningVi": "so sánh hơn",
+            "examples": [
+                { "en": "The train is cheaper than the plane, but it's slower.", "vi": "Tàu rẻ hơn máy bay, nhưng chậm hơn.", "highlight": "cheaper than" }
+            ],
+            "grammar": {
+                "ruleVi": "Tính từ ngắn (một âm tiết, hoặc hai âm tiết tận cùng -y) thêm -er; tính từ dài thêm more đứng trước. Sau đó là than + thứ được so sánh. Tiếng Việt chỉ cần \"hơn\"; tiếng Anh cần đổi tính từ và có than.",
+                "forms": [
+                    { "label": "ngắn: -er", "example": "cheap → cheaper, fast → faster, old → older" },
+                    { "label": "chính tả", "example": "big → bigger, hot → hotter; nice → nicer; easy → easier" },
+                    { "label": "dài: more", "example": "expensive → more expensive, difficult → more difficult, beautiful → more beautiful" },
+                    { "label": "bất quy tắc", "example": "good → better, bad → worse, far → farther" },
+                    { "label": "câu", "example": "My phone is older than yours. Is English more difficult than Chinese?" }
+                ],
+                "pitfallsVi": [
+                    "Dùng cả hai: \"more cheaper\", \"more better\" → cheaper, better.",
+                    "Thêm -er cho tính từ dài: \"expensiver\", \"beautifuler\" → more expensive, more beautiful.",
+                    "Quên than hoặc dùng that: \"cheaper that\" → cheaper than.",
+                    "\"gooder\" → better; \"badder\" → worse."
+                ]
+            }
+        },
+        {
+            "slug": "is-er-than",
+            "type": "PATTERN",
+            "text": "… is …er than ….",
+            "meaningVi": "… hơn …",
+            "examples": [
+                { "en": "My new phone is faster than my old one.", "vi": "Điện thoại mới của mình nhanh hơn cái cũ.", "highlight": "faster than" }
+            ],
+            "pattern": {
+                "template": "{thing} is {comparative} than {other}.",
+                "slots": [
+                    { "name": "thing", "hintVi": "thứ thứ nhất", "options": ["The train", "My new phone", "Hanoi", "This bag"] },
+                    { "name": "comparative", "hintVi": "tính từ so sánh hơn", "options": ["cheaper", "faster", "colder", "more expensive"] },
+                    { "name": "other", "hintVi": "thứ thứ hai", "options": ["the plane", "my old phone", "Ho Chi Minh City", "that one"] }
+                ]
+            },
+            "noteVi": "Nhắc lại danh từ thì thay bằng one: my old one, that one. Nói ngắn: It's cheaper."
+        },
+        {
+            "slug": "better",
+            "type": "LEXICAL",
+            "text": "better",
+            "meaningVi": "tốt hơn, giỏi hơn",
+            "ipa": "/ˈbetər/",
+            "examples": [
+                { "en": "Your English is better than mine.", "vi": "Tiếng Anh của bạn giỏi hơn của mình.", "highlight": "better" }
+            ],
+            "noteVi": "So sánh hơn của good và well. ❌ \"more better\", \"gooder\". Người Mỹ đọc tt giữa nhẹ như /d/: \"be-dơ\"."
+        },
+        {
+            "slug": "worse",
+            "type": "LEXICAL",
+            "text": "worse",
+            "meaningVi": "tệ hơn",
+            "ipa": "/wɜːrs/",
+            "examples": [
+                { "en": "The traffic is worse in the evening.", "vi": "Buổi tối kẹt xe tệ hơn.", "highlight": "worse" }
+            ],
+            "noteVi": "So sánh hơn của bad. ❌ \"badder\", \"more worse\". Giữ âm cuối /s/."
+        },
+        {
+            "slug": "fast",
+            "type": "LEXICAL",
+            "text": "fast",
+            "meaningVi": "nhanh",
+            "ipa": "/fæst/",
+            "examples": [
+                { "en": "The plane is fast, but it's expensive.", "vi": "Máy bay nhanh nhưng đắt.", "highlight": "fast" }
+            ],
+            "noteVi": "Vừa là tính từ vừa là trạng từ: a fast car, drive fast (❌ \"fastly\"). Giữ cụm /st/ cuối."
+        },
+        {
+            "slug": "slow",
+            "type": "LEXICAL",
+            "text": "slow",
+            "meaningVi": "chậm",
+            "ipa": "/sloʊ/",
+            "examples": [
+                { "en": "The Wi-Fi here is really slow.", "vi": "Wi-Fi ở đây chậm quá.", "highlight": "slow" }
+            ],
+            "noteVi": "Trạng từ: slowly (Please speak slowly). So sánh: slower."
+        },
+        {
+            "slug": "easy",
+            "type": "LEXICAL",
+            "text": "easy",
+            "meaningVi": "dễ",
+            "ipa": "/ˈiːzi/",
+            "examples": [
+                { "en": "Is English easier than Chinese?", "vi": "Tiếng Anh có dễ hơn tiếng Trung không?", "highlight": "easier" }
+            ],
+            "noteVi": "s đọc /z/. So sánh: y → i + er: easier, the easiest."
+        },
+        {
+            "slug": "difficult",
+            "type": "LEXICAL",
+            "text": "difficult",
+            "meaningVi": "khó",
+            "ipa": "/ˈdɪfɪkəlt/",
+            "examples": [
+                { "en": "This test is more difficult than the last one.", "vi": "Bài kiểm tra này khó hơn bài trước.", "highlight": "more difficult" }
+            ],
+            "noteVi": "Tính từ dài: more difficult, the most difficult (❌ \"difficulter\"). Nói thân mật hơn: hard. Nhấn âm đầu: DIF-fi-cult."
+        },
+        {
+            "slug": "superlatives",
+            "type": "GRAMMAR",
+            "text": "the …est / the most …",
+            "meaningVi": "so sánh nhất",
+            "examples": [
+                { "en": "It's the biggest market in the city.", "vi": "Đó là chợ lớn nhất thành phố.", "highlight": "the biggest" }
+            ],
+            "grammar": {
+                "ruleVi": "Cái nhất trong một nhóm: the + tính từ ngắn thêm -est, hoặc the most + tính từ dài. Luôn có the. Nơi chốn dùng in (in the city, in Vietnam); một nhóm người, vật dùng of (of the three).",
+                "forms": [
+                    { "label": "ngắn: the -est", "example": "cheap → the cheapest, tall → the tallest" },
+                    { "label": "chính tả", "example": "big → the biggest; nice → the nicest; busy → the busiest" },
+                    { "label": "dài: the most", "example": "famous → the most famous, expensive → the most expensive" },
+                    { "label": "bất quy tắc", "example": "good → the best, bad → the worst" },
+                    { "label": "câu", "example": "Who's the tallest in your family? It's the best restaurant in town." }
+                ],
+                "pitfallsVi": [
+                    "Quên the: \"It's biggest city\" → It's the biggest city.",
+                    "\"the most cheapest\", \"the most best\" → the cheapest, the best.",
+                    "\"the tallest of Vietnam\" → the tallest in Vietnam (nơi chốn dùng in)."
+                ]
+            }
+        },
+        {
+            "slug": "its-the-est",
+            "type": "PATTERN",
+            "text": "It's the …est … in ….",
+            "meaningVi": "Đó là … nhất ở …",
+            "examples": [
+                { "en": "It's the tallest building in Vietnam.", "vi": "Đó là tòa nhà cao nhất Việt Nam.", "highlight": "the tallest building" }
+            ],
+            "pattern": {
+                "template": "It's the {superlative} {thing} in {place}.",
+                "slots": [
+                    { "name": "superlative", "hintVi": "so sánh nhất (không có the)", "options": ["tallest", "biggest", "best", "most famous", "most popular"] },
+                    { "name": "thing", "hintVi": "danh từ số ít", "options": ["building", "market", "restaurant", "beach"] },
+                    { "name": "place", "hintVi": "nơi chốn", "options": ["Vietnam", "the city", "town", "the world"] }
+                ]
+            },
+            "noteVi": "Luôn có the trước so sánh nhất. Nơi chốn dùng in, không dùng of."
+        },
+        {
+            "slug": "whats-the-best",
+            "type": "PATTERN",
+            "text": "What's the best … in …?",
+            "meaningVi": "… nào ngon nhất / tốt nhất ở …?",
+            "examples": [
+                { "en": "What's the best place to eat pho in Hanoi?", "vi": "Ăn phở ở đâu ngon nhất Hà Nội?", "highlight": "What's the best" }
+            ],
+            "pattern": {
+                "template": "What's the best {thing} in {place}?",
+                "slots": [
+                    { "name": "thing", "hintVi": "danh từ số ít", "options": ["restaurant", "coffee shop", "beach", "time to visit"] },
+                    { "name": "place", "hintVi": "nơi chốn", "options": ["town", "the city", "Da Nang", "this area"] }
+                ]
+            },
+            "noteVi": "Hỏi người địa phương để được gợi ý. Trả lời: I think … is the best."
+        },
+        {
+            "slug": "tall",
+            "type": "LEXICAL",
+            "text": "tall",
+            "meaningVi": "cao (người, tòa nhà, cây)",
+            "ipa": "/tɔːl/",
+            "examples": [
+                { "en": "My brother is taller than me.", "vi": "Anh mình cao hơn mình.", "highlight": "taller" }
+            ],
+            "noteVi": "Người, tòa nhà, cây: tall. Núi, giá, nhiệt độ: high. ❌ \"My brother is high\"."
+        },
+        {
+            "slug": "famous",
+            "type": "LEXICAL",
+            "text": "famous",
+            "meaningVi": "nổi tiếng",
+            "ipa": "/ˈfeɪməs/",
+            "examples": [
+                { "en": "Hoi An is famous for its old town.", "vi": "Hội An nổi tiếng với phố cổ.", "highlight": "famous" }
+            ],
+            "noteVi": "Nổi tiếng về: famous for (❌ \"famous about\"). So sánh: more famous, the most famous."
+        },
+        {
+            "slug": "popular",
+            "type": "LEXICAL",
+            "text": "popular",
+            "meaningVi": "được ưa chuộng, đông người thích",
+            "ipa": "/ˈpɑːpjələr/",
+            "examples": [
+                { "en": "This café is very popular with students.", "vi": "Quán cà phê này rất được sinh viên thích.", "highlight": "popular" }
+            ],
+            "noteVi": "popular with + người. Khác famous (nhiều người biết); popular là nhiều người thích, hay dùng."
+        },
+        {
+            "slug": "crowded",
+            "type": "LEXICAL",
+            "text": "crowded",
+            "meaningVi": "đông đúc",
+            "ipa": "/ˈkraʊdɪd/",
+            "examples": [
+                { "en": "The beach is very crowded on weekends.", "vi": "Cuối tuần bãi biển rất đông.", "highlight": "crowded" }
+            ],
+            "noteVi": "Nơi đông người: crowded (❌ \"The beach is very many people\"). Đuôi -ed đọc /ɪd/."
+        },
+        {
+            "slug": "quiet",
+            "type": "LEXICAL",
+            "text": "quiet",
+            "meaningVi": "yên tĩnh",
+            "ipa": "/ˈkwaɪət/",
+            "examples": [
+                { "en": "I'd like a quiet room, please.", "vi": "Cho tôi một phòng yên tĩnh.", "highlight": "quiet" }
+            ],
+            "noteVi": "Hai âm tiết: KWAI-ợt. Đừng nhầm với quite /kwaɪt/ (khá). Trái nghĩa: noisy."
+        },
+        {
+            "slug": "as-as",
+            "type": "GRAMMAR",
+            "text": "as … as / not as … as",
+            "meaningVi": "bằng / không bằng",
+            "examples": [
+                { "en": "Da Nang isn't as crowded as Ho Chi Minh City.", "vi": "Đà Nẵng không đông bằng TP.HCM.", "highlight": "isn't as crowded as" }
+            ],
+            "grammar": {
+                "ruleVi": "as + tính từ nguyên dạng + as: bằng nhau. not as … as: không bằng (nghĩa là kém hơn). Tính từ giữ nguyên, không thêm -er hay more.",
+                "forms": [
+                    { "label": "bằng", "example": "My room is as big as yours." },
+                    { "label": "không bằng", "example": "The bus isn't as fast as the train. (= the train is faster)" },
+                    { "label": "giống", "example": "My phone is the same as yours." },
+                    { "label": "khác", "example": "Life in the city is different from life in the countryside." },
+                    { "label": "nhấn mạnh", "example": "much / a lot + so sánh hơn: much better, a lot cheaper" }
+                ],
+                "pitfallsVi": [
+                    "Thêm -er: \"as bigger as\" → as big as.",
+                    "Dùng than: \"as big than\" → as big as.",
+                    "\"the same like\" → the same as; \"different with\" → different from.",
+                    "\"very better\" → much better."
+                ]
+            }
+        },
+        {
+            "slug": "not-as-as",
+            "type": "PATTERN",
+            "text": "… isn't as … as ….",
+            "meaningVi": "… không … bằng …",
+            "examples": [
+                { "en": "The bus isn't as fast as the train.", "vi": "Xe buýt không nhanh bằng tàu.", "highlight": "isn't as fast as" }
+            ],
+            "pattern": {
+                "template": "{thing} isn't as {adjective} as {other}.",
+                "slots": [
+                    { "name": "thing", "hintVi": "thứ thứ nhất", "options": ["The bus", "Da Nang", "My phone", "This hotel"] },
+                    { "name": "adjective", "hintVi": "tính từ nguyên dạng", "options": ["fast", "crowded", "expensive", "quiet"] },
+                    { "name": "other", "hintVi": "thứ thứ hai", "options": ["the train", "Ho Chi Minh City", "yours", "that one"] }
+                ]
+            },
+            "noteVi": "Cách nói nhẹ nhàng hơn \"kém hơn\": This hotel isn't as nice as that one (thay vì This hotel is worse)."
+        },
+        {
+            "slug": "which-is-better",
+            "type": "PATTERN",
+            "text": "Which is better, … or …?",
+            "meaningVi": "Cái nào tốt hơn, … hay …?",
+            "examples": [
+                { "en": "Which is better, the bus or the train?", "vi": "Xe buýt hay tàu thì tốt hơn?", "highlight": "Which is better" }
+            ],
+            "pattern": {
+                "template": "Which is better, {first} or {second}?",
+                "slots": [
+                    { "name": "first", "hintVi": "lựa chọn thứ nhất", "options": ["the bus", "Hanoi", "this phone", "coffee"] },
+                    { "name": "second", "hintVi": "lựa chọn thứ hai", "options": ["the train", "Saigon", "that one", "tea"] }
+                ]
+            },
+            "noteVi": "Hỏi sở thích: Which do you prefer, … or …? Trả lời: I think … is better because …"
+        },
+        {
+            "slug": "prefer",
+            "type": "LEXICAL",
+            "text": "prefer",
+            "meaningVi": "thích … hơn",
+            "ipa": "/prɪˈfɜːr/",
+            "examples": [
+                { "en": "I prefer tea to coffee.", "vi": "Mình thích trà hơn cà phê.", "highlight": "prefer" }
+            ],
+            "noteVi": "Nhấn âm sau: pre-FER. prefer A to B (❌ \"prefer A than B\"). Đã có nghĩa \"hơn\" nên ❌ \"I more prefer\"."
+        },
+        {
+            "slug": "different",
+            "type": "LEXICAL",
+            "text": "different",
+            "meaningVi": "khác",
+            "ipa": "/ˈdɪfərənt/",
+            "examples": [
+                { "en": "Northern food is different from southern food.", "vi": "Món miền Bắc khác món miền Nam.", "highlight": "different from" }
+            ],
+            "noteVi": "different from (❌ \"different with\"). Thường đọc hai âm tiết: DIF-rent."
+        },
+        {
+            "slug": "the-same-as",
+            "type": "PHRASE",
+            "text": "the same as",
+            "meaningVi": "giống như, giống với",
+            "examples": [
+                { "en": "My phone is the same as yours.", "vi": "Điện thoại của mình giống của bạn.", "highlight": "the same as" }
+            ],
+            "noteVi": "Luôn có the: the same (❌ \"same as\" trong văn viết). ❌ \"the same like\"."
+        },
+        {
+            "slug": "much-better",
+            "type": "PHRASE",
+            "text": "much better / a lot better",
+            "meaningVi": "tốt hơn nhiều",
+            "examples": [
+                { "en": "The new apartment is much better than the old one.", "vi": "Căn hộ mới tốt hơn căn cũ nhiều.", "highlight": "much better" }
+            ],
+            "noteVi": "Nhấn mạnh so sánh hơn bằng much hoặc a lot, không dùng very: ❌ \"very better\", \"very cheaper\". Cùng kiểu: much cheaper, a lot faster."
+        },
+        {
+            "slug": "it-depends",
+            "type": "PHRASE",
+            "text": "It depends.",
+            "meaningVi": "Còn tùy.",
+            "examples": [
+                { "en": "Which is better, the bus or the train? It depends. The bus is cheaper, but the train is faster.", "vi": "Xe buýt hay tàu tốt hơn? Còn tùy. Xe buýt rẻ hơn, nhưng tàu nhanh hơn.", "highlight": "It depends" }
+            ],
+            "noteVi": "Tùy vào gì: It depends on + danh từ (It depends on the weather). ❌ \"It depends in\"."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "a2-08-the-best-place-in-town",
+            "title": "The best place in town",
+            "situationVi": "Bạn đang du lịch ở Đà Nẵng và hỏi anh lễ tân khách sạn chỗ ăn ngon và chỗ đi chơi.",
+            "lines": [
+                { "speaker": "You", "en": "Excuse me. What's the best restaurant in town?", "vi": "Xin lỗi anh. Nhà hàng nào ngon nhất ở đây ạ?", "learnerTurn": true },
+                { "speaker": "Receptionist", "en": "For seafood, try Be Man. It's the most popular place with locals.", "vi": "Hải sản thì thử quán Bé Mặn. Đó là chỗ người địa phương thích nhất." },
+                { "speaker": "You", "en": "Is it expensive?", "vi": "Có đắt không anh?", "learnerTurn": true },
+                { "speaker": "Receptionist", "en": "No, it's cheaper than the restaurants on the beach. But it's very crowded at night.", "vi": "Không, nó rẻ hơn các nhà hàng trên bãi biển. Nhưng buổi tối rất đông." },
+                { "speaker": "You", "en": "OK. And which is the most beautiful beach?", "vi": "Vâng. Còn bãi biển nào đẹp nhất ạ?", "learnerTurn": true },
+                { "speaker": "Receptionist", "en": "I think My Khe is the best, and it's the closest. Go early in the morning. It's quieter.", "vi": "Tôi nghĩ Mỹ Khê là đẹp nhất, lại gần nhất. Đi sáng sớm nhé. Lúc đó yên tĩnh hơn." }
+            ]
+        },
+        {
+            "slug": "a2-08-hanoi-or-saigon",
+            "title": "Hanoi or Saigon?",
+            "situationVi": "Jake, một người bạn Mỹ, sắp sang Việt Nam làm việc và hỏi bạn nên sống ở Hà Nội hay Sài Gòn.",
+            "lines": [
+                { "speaker": "Jake", "en": "I'm moving to Vietnam next year. Which is better, Hanoi or Saigon?", "vi": "Năm sau mình chuyển sang Việt Nam. Hà Nội hay Sài Gòn tốt hơn?" },
+                { "speaker": "You", "en": "It depends. Saigon is bigger and busier than Hanoi.", "vi": "Còn tùy. Sài Gòn lớn hơn và nhộn nhịp hơn Hà Nội.", "learnerTurn": true },
+                { "speaker": "Jake", "en": "What about the weather?", "vi": "Còn thời tiết thì sao?" },
+                { "speaker": "You", "en": "Saigon is hot all year. Hanoi isn't as hot as Saigon in winter. It's much colder.", "vi": "Sài Gòn nóng quanh năm. Mùa đông Hà Nội không nóng bằng Sài Gòn. Lạnh hơn nhiều.", "learnerTurn": true },
+                { "speaker": "Jake", "en": "Is the food the same?", "vi": "Đồ ăn có giống nhau không?" },
+                { "speaker": "You", "en": "No, it's different. I prefer Hanoi food, but that's just me!", "vi": "Không, khác nhau. Mình thích đồ ăn Hà Nội hơn, nhưng đó là ý mình thôi!", "learnerTurn": true },
+                { "speaker": "Jake", "en": "Ha! Thanks. I'll visit both first.", "vi": "Ha! Cảm ơn nhé. Mình sẽ đến thăm cả hai trước đã." }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "a2-08-l1-cheaper-than",
+            "title": "Cheaper and faster",
+            "titleVi": "So sánh hơn",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "comparatives", "role": "INTRODUCE" },
+                { "item": "is-er-than", "role": "INTRODUCE" },
+                { "item": "better", "role": "INTRODUCE" },
+                { "item": "worse", "role": "INTRODUCE" },
+                { "item": "fast", "role": "INTRODUCE" },
+                { "item": "slow", "role": "INTRODUCE" },
+                { "item": "easy", "role": "INTRODUCE" },
+                { "item": "difficult", "role": "INTRODUCE" },
+                { "item": "adjectives", "role": "RECYCLE" },
+                { "item": "cheap", "role": "RECYCLE" },
+                { "item": "expensive", "role": "RECYCLE" },
+                { "item": "big", "role": "RECYCLE" },
+                { "item": "train", "role": "RECYCLE" },
+                { "item": "plane", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["is-er-than", "better", "worse", "fast", "slow", "easy", "difficult"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "So sánh hơn: -er than / more … than",
+                        "bodyVi": "Tiếng Việt: \"rẻ **hơn**\". Tiếng Anh đổi tính từ và thêm **than**:\n\n| tính từ | so sánh hơn |\n|---|---|\n| ngắn: cheap, fast, old | cheap**er**, fast**er**, old**er** |\n| big, hot (nguyên âm + phụ âm) | bi**gger**, ho**tter** |\n| -y: easy, busy | eas**ier**, bus**ier** |\n| dài: expensive, difficult | **more** expensive, **more** difficult |\n| bất quy tắc: good, bad | **better**, **worse** |\n\nThe train is **cheaper than** the plane. English is **easier than** Chinese.\n\n❌ more cheaper ❌ expensiver ❌ more better ❌ cheaper that ✅ **cheaper than**, **more expensive than**, **better than**",
+                        "items": ["comparatives", "is-er-than", "adjectives", "cheap", "expensive", "big", "better", "worse", "easy", "difficult"],
+                        "examples": [
+                            { "en": "The plane is more expensive than the train, but it's much faster.", "vi": "Máy bay đắt hơn tàu, nhưng nhanh hơn nhiều.", "highlight": "more expensive than" },
+                            { "en": "My English is better than last year.", "vi": "Tiếng Anh của mình giỏi hơn năm ngoái.", "highlight": "better than" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "is-er-than",
+                        "prompts": [
+                            { "cueVi": "Tàu rẻ hơn máy bay.", "slots": { "thing": "The train", "comparative": "cheaper", "other": "the plane" }, "answer": "The train is cheaper than the plane." },
+                            { "cueVi": "Điện thoại mới của mình nhanh hơn cái cũ.", "slots": { "thing": "My new phone", "comparative": "faster", "other": "my old phone" }, "answer": "My new phone is faster than my old phone." },
+                            { "cueVi": "Cái túi này đắt hơn cái kia.", "slots": { "thing": "This bag", "comparative": "more expensive", "other": "that one" }, "answer": "This bag is more expensive than that one." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["better", "worse", "fast", "slow", "easy", "difficult", "cheap", "expensive"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "The train is cheaper than the plane.", "vi": "Tàu rẻ hơn máy bay." },
+                            { "en": "Is English easier than Chinese?", "vi": "Tiếng Anh có dễ hơn tiếng Trung không?" },
+                            { "en": "This test is more difficult than the last one.", "vi": "Bài kiểm tra này khó hơn bài trước." },
+                            { "en": "The traffic is worse in the evening.", "vi": "Buổi tối kẹt xe tệ hơn." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["The bus is more cheaper than the train.", "The bus is cheaper than the train.", "The bus is cheaper that the train."],
+                                "answer": 1,
+                                "item": "comparatives"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["This phone is expensiver.", "This phone is more expensive.", "This phone is most expensive than that one."],
+                                "answer": 1,
+                                "item": "comparatives"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Your English is ___ than mine.",
+                                "hintVi": "giỏi hơn (good)",
+                                "answers": ["better"],
+                                "item": "better"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "The traffic is worse today.",
+                                "options": ["Hôm nay đường vắng hơn.", "Hôm nay kẹt xe tệ hơn.", "Hôm nay thời tiết xấu hơn."],
+                                "answer": 1,
+                                "item": "worse"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Máy bay nhanh hơn tàu.",
+                                "answer": "The plane is faster than the train.",
+                                "item": "is-er-than"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a2-08-l2-the-best",
+            "title": "The best in town",
+            "titleVi": "So sánh nhất",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "superlatives", "role": "INTRODUCE" },
+                { "item": "its-the-est", "role": "INTRODUCE" },
+                { "item": "whats-the-best", "role": "INTRODUCE" },
+                { "item": "tall", "role": "INTRODUCE" },
+                { "item": "famous", "role": "INTRODUCE" },
+                { "item": "popular", "role": "INTRODUCE" },
+                { "item": "crowded", "role": "INTRODUCE" },
+                { "item": "quiet", "role": "INTRODUCE" },
+                { "item": "comparatives", "role": "RECYCLE" },
+                { "item": "better", "role": "RECYCLE" },
+                { "item": "city", "role": "RECYCLE" },
+                { "item": "restaurant", "role": "RECYCLE" },
+                { "item": "beach", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["its-the-est", "whats-the-best", "tall", "famous", "popular", "crowded", "quiet"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "So sánh nhất: the -est / the most",
+                        "bodyVi": "Cái **nhất** trong một nhóm, luôn có **the**:\n\n| tính từ | hơn | nhất |\n|---|---|---|\n| tall | taller | **the tallest** |\n| big | bigger | **the biggest** |\n| busy | busier | **the busiest** |\n| famous | more famous | **the most famous** |\n| good | better | **the best** |\n| bad | worse | **the worst** |\n\nNơi chốn dùng **in**: the tallest building **in** Vietnam. Nhóm dùng **of**: the cheapest **of** the three.\n\n❌ It's biggest city. ❌ the most cheapest ❌ the best of Vietnam ✅ It's **the biggest** city. **the cheapest**. **the best in** Vietnam.",
+                        "items": ["superlatives", "comparatives", "its-the-est", "whats-the-best", "better", "tall", "famous"],
+                        "examples": [
+                            { "en": "Ho Chi Minh City is the biggest city in Vietnam.", "vi": "TP.HCM là thành phố lớn nhất Việt Nam.", "highlight": "the biggest city" },
+                            { "en": "What's the most famous dish in Hue?", "vi": "Món nổi tiếng nhất ở Huế là gì?", "highlight": "the most famous" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "its-the-est",
+                        "prompts": [
+                            { "cueVi": "Đó là tòa nhà cao nhất Việt Nam.", "slots": { "superlative": "tallest", "thing": "building", "place": "Vietnam" }, "answer": "It's the tallest building in Vietnam." },
+                            { "cueVi": "Đó là chợ lớn nhất thành phố.", "slots": { "superlative": "biggest", "thing": "market", "place": "the city" }, "answer": "It's the biggest market in the city." },
+                            { "cueVi": "Đó là bãi biển nổi tiếng nhất ở đây.", "slots": { "superlative": "most famous", "thing": "beach", "place": "town" }, "answer": "It's the most famous beach in town." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "whats-the-best",
+                        "prompts": [
+                            { "cueVi": "Hỏi: quán cà phê nào ngon nhất ở đây?", "slots": { "thing": "coffee shop", "place": "town" }, "answer": "What's the best coffee shop in town?" },
+                            { "cueVi": "Hỏi: bãi biển nào đẹp nhất ở Đà Nẵng?", "slots": { "thing": "beach", "place": "Da Nang" }, "answer": "What's the best beach in Da Nang?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["tall", "famous", "popular", "crowded", "quiet", "better", "restaurant", "beach"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a2-08-the-best-place-in-town", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["It's biggest market in the city.", "It's the biggest market in the city.", "It's the most biggest market in the city."],
+                                "answer": 1,
+                                "item": "superlatives"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "It's the ___ restaurant in town.",
+                                "hintVi": "ngon nhất, tốt nhất (good)",
+                                "answers": ["best"],
+                                "item": "superlatives"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Anh mình cao hơn mình.\"",
+                                "options": ["My brother is higher than me.", "My brother is taller than me.", "My brother is more tall than me."],
+                                "answer": 1,
+                                "item": "tall"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "The beach is very crowded on weekends.",
+                                "options": ["Cuối tuần bãi biển rất đông.", "Cuối tuần bãi biển rất bẩn.", "Cuối tuần bãi biển đóng cửa."],
+                                "answer": 0,
+                                "item": "crowded"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Hội An nổi tiếng với phố cổ.",
+                                "answer": "Hoi An is famous for its old town.",
+                                "item": "famous"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a2-08-l3-as-good-as",
+            "title": "Which is better?",
+            "titleVi": "Bằng, khác, thích hơn",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "as-as", "role": "INTRODUCE" },
+                { "item": "not-as-as", "role": "INTRODUCE" },
+                { "item": "which-is-better", "role": "INTRODUCE" },
+                { "item": "prefer", "role": "INTRODUCE" },
+                { "item": "different", "role": "INTRODUCE" },
+                { "item": "the-same-as", "role": "INTRODUCE" },
+                { "item": "much-better", "role": "INTRODUCE" },
+                { "item": "it-depends", "role": "INTRODUCE" },
+                { "item": "comparatives", "role": "RECYCLE" },
+                { "item": "superlatives", "role": "RECYCLE" },
+                { "item": "fast", "role": "RECYCLE" },
+                { "item": "crowded", "role": "RECYCLE" },
+                { "item": "hot", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["not-as-as", "which-is-better", "prefer", "different", "the-same-as", "much-better", "it-depends"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "as … as, the same, different",
+                        "bodyVi": "**as** + tính từ nguyên dạng + **as**: bằng. **not as … as**: không bằng.\n\n| | ví dụ |\n|---|---|\n| bằng | My room is **as big as** yours. |\n| không bằng | The bus **isn't as fast as** the train. |\n| giống | My phone is **the same as** yours. |\n| khác | Northern food is **different from** southern food. |\n| hơn nhiều | much / a lot + so sánh hơn: **much better**, **a lot cheaper** |\n\nThích hơn: I **prefer** tea **to** coffee. Hỏi chọn: **Which is better**, the bus or the train? → **It depends.**\n\n❌ as bigger as ❌ as big than ❌ the same like ❌ different with ❌ very better ✅ **as big as**, **the same as**, **different from**, **much better**",
+                        "items": ["as-as", "not-as-as", "the-same-as", "different", "much-better", "prefer", "which-is-better", "comparatives"],
+                        "examples": [
+                            { "en": "Da Lat isn't as hot as Saigon. It's much cooler.", "vi": "Đà Lạt không nóng bằng Sài Gòn. Mát hơn nhiều.", "highlight": "isn't as hot as" },
+                            { "en": "Which is better? It depends. I prefer the train.", "vi": "Cái nào tốt hơn? Còn tùy. Mình thích tàu hơn.", "highlight": "I prefer" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "not-as-as",
+                        "prompts": [
+                            { "cueVi": "Xe buýt không nhanh bằng tàu.", "slots": { "thing": "The bus", "adjective": "fast", "other": "the train" }, "answer": "The bus isn't as fast as the train." },
+                            { "cueVi": "Đà Nẵng không đông bằng TP.HCM.", "slots": { "thing": "Da Nang", "adjective": "crowded", "other": "Ho Chi Minh City" }, "answer": "Da Nang isn't as crowded as Ho Chi Minh City." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "which-is-better",
+                        "prompts": [
+                            { "cueVi": "Hỏi: xe buýt hay tàu tốt hơn?", "slots": { "first": "the bus", "second": "the train" }, "answer": "Which is better, the bus or the train?" },
+                            { "cueVi": "Hỏi: cà phê hay trà tốt hơn?", "slots": { "first": "coffee", "second": "tea" }, "answer": "Which is better, coffee or tea?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["prefer", "different", "the-same-as", "much-better", "it-depends", "fast", "crowded", "hot"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a2-08-hanoi-or-saigon", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["My room is as big as yours.", "My room is as bigger as yours.", "My room is as big than yours."],
+                                "answer": 0,
+                                "item": "as-as"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"The bus isn't as fast as the train.\" nghĩa là:",
+                                "options": ["Xe buýt nhanh bằng tàu.", "Tàu chậm hơn xe buýt.", "Tàu nhanh hơn xe buýt."],
+                                "answer": 2,
+                                "item": "not-as-as"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Northern food is different ___ southern food.",
+                                "answers": ["from"],
+                                "item": "different"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "The new apartment is much better.",
+                                "options": ["Căn hộ mới tốt hơn nhiều.", "Căn hộ mới rộng hơn một chút.", "Căn hộ mới đắt hơn nhiều."],
+                                "answer": 0,
+                                "item": "much-better"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Mình thích trà hơn cà phê.",
+                                "answer": "I prefer tea to coffee.",
+                                "item": "prefer"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "a2-08-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["Hanoi is more colder than Saigon in winter.", "Hanoi is colder than Saigon in winter.", "Hanoi is colder that Saigon in winter."],
+                "answer": 1,
+                "item": "comparatives"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["It's the most famous temple in Hue.", "It's most famous temple of Hue.", "It's the famousest temple in Hue."],
+                "answer": 0,
+                "item": "superlatives"
+            },
+            {
+                "kind": "gap",
+                "sentence": "My phone is the same ___ yours.",
+                "answers": ["as"],
+                "item": "the-same-as"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "This hotel isn't as quiet as that one.",
+                "options": ["Khách sạn này yên tĩnh bằng khách sạn kia.", "Khách sạn này không yên tĩnh bằng khách sạn kia.", "Khách sạn này yên tĩnh hơn khách sạn kia."],
+                "answer": 1,
+                "item": "not-as-as"
+            },
+            {
+                "kind": "choice",
+                "prompt": "\"Tốt hơn nhiều\" là:",
+                "options": ["very better", "more better", "much better"],
+                "answer": 2,
+                "item": "much-better"
+            },
+            {
+                "kind": "order",
+                "vi": "Xe buýt hay tàu thì tốt hơn?",
+                "answer": "Which is better, the bus or the train?",
+                "item": "which-is-better"
+            }
+        ]
+    }
+}

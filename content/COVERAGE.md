@@ -10,7 +10,7 @@ Trạng thái: `draft` đã soạn, qua validator · `reviewed` đã có ngườ
 |---|---|---|---|---|---|---|---|---|
 | Pre-A1 | 6 | 6 | 18 | 128 | 86 | 28 | 10 | 4 |
 | A1 | 10 | 10 | 31 | 260 | 166 | 49 | 33 | 12 |
-| A2 | 12 | 4 | 12 | 100 | 54 | 23 | 14 | 9 |
+| A2 | 12 | 8 | 24 | 204 | 111 | 42 | 32 | 19 |
 
 ## Placement (`placement.json`)
 
@@ -20,7 +20,7 @@ Một bài xếp lớp cho cả lộ trình, 2 câu mỗi unit, theo thứ tự 
 |---|---|---|
 | Pre-A1 | 6/6 | 12 |
 | A1 | 10/10 | 20 |
-| A2 | 4/12 | 8 |
+| A2 | 8/12 | 16 |
 
 ## Pre-A1: Foundations
 
@@ -176,10 +176,10 @@ Mốc của stage: "Tôi kể được cuối tuần vừa rồi" (unit 02). Khu
 | 2 | `a2-02-last-weekend` | quá khứ đơn -ed (3 cách đọc), bất quy tắc hay gặp, did/didn't, kể cuối tuần | 3 | 24 (12/6/3/3) | 2 | draft |
 | 3 | `a2-03-my-story` | mốc trong đời + năm, kể theo trình tự (first, then…), used to, When I was… | 3 | 25 (15/5/3/2) | 2 | draft |
 | 4 | `a2-04-plans` | be going to, mời / nhận lời / từ chối, How about…?, want/hope/would like to | 3 | 25 (12/7/4/2) | 2 | draft |
-| 5 | `a2-05-travel` | phương tiện, sân bay, khách sạn, đặt phòng, hỏi thông tin chuyến đi | | | | chưa soạn |
-| 6 | `a2-06-health` | cơ thể, triệu chứng (I have a headache), đi khám, should / shouldn't | | | | chưa soạn |
-| 7 | `a2-07-work` | công việc, nơi làm, have to / don't have to, can / can't (khả năng) | | | | chưa soạn |
-| 8 | `a2-08-comparing` | so sánh hơn và nhất (-er/-est, more/most), as … as | | | | chưa soạn |
+| 5 | `a2-05-travel` | by + phương tiện, How long does it take?, sân bay, giờ tàu xe (hiện tại đơn), khách sạn, Could you…? | 3 | 26 (15/4/5/2) | 2 | draft |
+| 6 | `a2-06-health` | bộ phận cơ thể, My … hurts, have a + bệnh, hỏi thăm người ốm, đi khám, should / shouldn't | 3 | 27 (15/7/3/2) | 2 | draft |
+| 7 | `a2-07-work` | work at/in/for/as, sếp và đồng nghiệp, have to / don't have to, can / can't (khả năng), phỏng vấn | 3 | 27 (14/5/5/3) | 2 | draft |
+| 8 | `a2-08-comparing` | so sánh hơn (-er / more, better, worse), so sánh nhất (the -est / the most), as … as, the same as, different from, prefer | 3 | 24 (13/3/5/3) | 2 | draft |
 | 9 | `a2-09-experiences` | hiện tại hoàn thành với ever / never, Have you ever…? | | | | chưa soạn |
 | 10 | `a2-10-how-much-how-many` | đếm được / không đếm được, some / any, much / many / a lot of, công thức nấu ăn | | | | chưa soạn |
 | 11 | `a2-11-people` | tả người: ngoại hình, tính cách; mệnh đề quan hệ who / which / where | | | | chưa soạn |
@@ -203,6 +203,24 @@ Mốc của stage: "Tôi kể được cuối tuần vừa rồi" (unit 02). Khu
 | `would-you-like-to` | Would you like to {do}? | 04 |
 | `how-about` | How about {suggestion}? | 04 |
 | `i-want-to` | I want to {do} someday. | 04 |
+| `how-long-does-it-take` | How long does it take to get to {place}? | 05 |
+| `it-takes` | It takes {time} by {transport}. | 05 |
+| `what-time-does-leave` | What time does the {transport} leave? | 05 |
+| `id-like-a-room-for` | I'd like a {kind} room for {nights}. | 05 |
+| `could-you` | Could you {do}, please? | 05 |
+| `my-hurts` | My {bodyPart} hurts. | 06 |
+| `i-have-a` | I have a {symptom}. | 06 |
+| `you-should` | You should {do}. | 06 |
+| `i-work-at` | I work at {place}. | 07 |
+| `i-have-to` | I have to {do} {when}. | 07 |
+| `do-you-have-to` | Do you have to {do}? | 07 |
+| `i-can` | I can {do}. | 07 |
+| `can-you` | Can you {do}? | 07 |
+| `is-er-than` | {thing} is {comparative} than {other}. | 08 |
+| `its-the-est` | It's the {superlative} {thing} in {place}. | 08 |
+| `whats-the-best` | What's the best {thing} in {place}? | 08 |
+| `not-as-as` | {thing} isn't as {adjective} as {other}. | 08 |
+| `which-is-better` | Which is better, {first} or {second}? | 08 |
 
 ### Ngữ pháp (GRAMMAR)
 
@@ -217,6 +235,16 @@ Mốc của stage: "Tôi kể được cuối tuần vừa rồi" (unit 02). Khu
 | `used-to` | used to + nguyên mẫu, didn't use to, Did you use to…? | 03 |
 | `be-going-to` | am/is/are going to + nguyên mẫu: kế hoạch | 04 |
 | `verb-to-infinitive` | want / hope / plan / would like + to + nguyên mẫu | 04 |
+| `by-transport` | by + phương tiện (không a/the), take the bus / a taxi, on foot | 05 |
+| `could-requests` | Could you…? (nhờ), Could I…? (xin phép), trả lời Sure / Of course | 05 |
+| `have-for-illness` | have a + bệnh, have a …ache, bộ phận + hurts | 06 |
+| `should-shouldnt` | should / shouldn't + nguyên mẫu, Should I…?, What should I do? | 06 |
+| `work-prepositions` | work at (nơi) / in (thành phố, ngành) / for (công ty) / as (nghề) | 07 |
+| `have-to` | have to / has to, don't have to (không cần, khác cấm), Do you have to…?, had to | 07 |
+| `can-ability` | can / can't chỉ khả năng, trả lời ngắn, cách đọc /kən/ và /kænt/ | 07 |
+| `comparatives` | -er / more … than, chính tả, better / worse | 08 |
+| `superlatives` | the -est / the most, the best / the worst, in + nơi chốn | 08 |
+| `as-as` | as … as, not as … as, the same as, different from, much / a lot + so sánh hơn | 08 |
 
 ### Lỗi thường gặp của người Việt (A2)
 
@@ -224,10 +252,19 @@ Mốc của stage: "Tôi kể được cuối tuần vừa rồi" (unit 02). Khu
 - Nuốt đuôi -ed, đọc thừa /ɪd/ ("watch-ed"), "I was clean the house", "goed/buyed/eated", "went to home", "I didn't went", "Did you saw", "I didn't tired" (unit 02).
 - "I was graduated", "married with", đổi thì giữa câu chuyện, remember và miss (hai nghĩa của "nhớ"), "I use to" cho hiện tại, "used to playing", "drive a bike" (unit 03).
 - "I going to", "going to studying", "Would you like go", "Yes, I would like", từ chối cộc "No.", "How about go", "I want travel", "She want to goes", "go to abroad", "get up soon" (unit 04).
+- "by the bus", "by foot", "How long do you take?", "an hour" bị đọc thành "a hour", "What time does the bus leaves?", "arrive to", "Give me the key" (cộc) thay vì Could I have…?, "Could you helping", "I'm going on a travel" (unit 05).
+- "I'm fever", "I have headache", "I hurt head" khi ý là đang đau đầu, "I have a cold" và "I'm cold", "drink medicine", "You should to rest", "Do I should…?", "check a doctor", arm/hand và leg/foot (tiếng Việt đều là "tay", "chân") (unit 06).
+- "a work", "I work as engineer", "She have to", "I have work late", don't have to hiểu thành "không được", "Yes, I have." khi trả lời Do you have to…?, "I know swim", "I can to swim", "talk English", "speak very well English", nuốt /t/ của can't, "an uniform", "get up soon" (unit 07).
+- "more cheaper", "expensiver", "cheaper that", "gooder", quên the ở so sánh nhất, "the tallest of Vietnam", "high" cho người, "as bigger as", "the same like", "different with", "very better", "prefer A than B", quiet và quite (unit 08).
 
 ### Ghi chú A2
 
 - Động từ bất quy tắc là item LEXICAL riêng theo dạng quá khứ (`went`, `had`, `saw`, `ate`, `bought`, `met`, `took`), nghĩa ghi rõ "quá khứ của …"; dạng nguyên mẫu go, have, see… chưa có item riêng. grew, got, rode chỉ nằm trong item cụm (`grow-up`, `get-a-job`, `ride-a-bike`).
 - `first` (LEXICAL, "đầu tiên" khi kể chuyện) khác `ordinal-first` (số thứ tự, A1).
 - `friend`, `school`, `happy` chưa có ở Pre-A1 và A1 nên được giới thiệu ở `a2-01`.
+- `a2-05` dạy giờ tàu xe bằng hiện tại đơn trong EXPLAIN của bài 2 (tái dùng `present-simple-s`), không có GRAMMAR riêng. `travel` (a2-04) chỉ RECYCLE ở unit 05; `trip` là danh từ, `travel` là động từ.
+- `back` (LEXICAL) là "lưng"; nghĩa "trở lại" chỉ nhắc trong `noteVi`. `tooth` dạy số nhiều bất quy tắc teeth; foot/feet và hand chỉ nằm trong `noteVi` và EXPLAIN.
+- `a2-06` chưa dạy riêng catch a cold, the flu, a pill (chỉ trong `noteVi` và hội thoại). Hội thoại đi khám có "How long have you had it?" (hiện tại hoàn thành, unit 09) ở lượt bác sĩ.
+- `can-you` (a2-07) là hỏi khả năng; nhờ lịch sự đã có ở `could-you` (a2-05). `well` (A1) là từ đệm "à thì", còn trạng từ "giỏi" nằm ở PHRASE `very-well`.
+- `a2-08`: so sánh hơn và nhất là GRAMMAR, không có item riêng cho từng dạng (-er, -est) trừ bất quy tắc `better`, `worse`; `best` chỉ nằm trong `superlatives` và `whats-the-best`.
 - Hiện tại tiếp diễn cho lịch hẹn tương lai (I'm meeting Anna tomorrow) chưa dạy riêng; chỉ xuất hiện trong hội thoại.
