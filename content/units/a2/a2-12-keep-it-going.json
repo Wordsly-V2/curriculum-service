@@ -1,0 +1,724 @@
+{
+    "slug": "a2-12-keep-it-going",
+    "stage": "a2",
+    "order": 12,
+    "title": "Keep it going",
+    "titleVi": "Giữ cuộc nói chuyện",
+    "descriptionVi": "Chiến lược nói chuyện: phản hồi để người kia biết mình đang nghe (Really? That sounds fun. Me too.), hỏi tiếp để câu chuyện không tắt, đổi chủ đề tự nhiên, và kết thúc lịch sự. Unit cuối A2: ôn lại quá khứ, kế hoạch và trải nghiệm trong một cuộc trò chuyện.",
+    "canDo": [
+        "Tôi phản hồi được khi nghe người khác kể: ngạc nhiên, đồng cảm, đồng ý.",
+        "Tôi hỏi tiếp được để người kia kể thêm, thay vì chỉ trả lời rồi im lặng.",
+        "Tôi đổi chủ đề và kết thúc cuộc nói chuyện một cách lịch sự.",
+        "Tổng kết A2: tôi nói chuyện được vài phút với người mới quen về chuyện đã qua, kế hoạch, trải nghiệm và những người quanh mình."
+    ],
+    "items": [
+        {
+            "slug": "really",
+            "type": "PHRASE",
+            "text": "Really?",
+            "meaningVi": "Thật à?",
+            "examples": [
+                { "en": "I met Son Tung yesterday. Really? Where?", "vi": "Hôm qua mình gặp Sơn Tùng. Thật à? Ở đâu?", "highlight": "Really?" }
+            ],
+            "noteVi": "Lên giọng để tỏ ra quan tâm; xuống giọng nghe như nghi ngờ hoặc chán. Hỏi tiếp ngay sau đó để câu chuyện đi tiếp."
+        },
+        {
+            "slug": "me-too",
+            "type": "PHRASE",
+            "text": "Me too.",
+            "meaningVi": "Mình cũng vậy.",
+            "examples": [
+                { "en": "I love street food. Me too!", "vi": "Mình mê đồ ăn đường phố. Mình cũng thế!", "highlight": "Me too" }
+            ],
+            "noteVi": "Chỉ dùng sau câu khẳng định. Sau câu phủ định dùng Me neither. ❌ \"I too\", \"Me also\"."
+        },
+        {
+            "slug": "me-neither",
+            "type": "PHRASE",
+            "text": "Me neither.",
+            "meaningVi": "Mình cũng không.",
+            "examples": [
+                { "en": "I don't like horror movies. Me neither.", "vi": "Mình không thích phim kinh dị. Mình cũng không.", "highlight": "Me neither" }
+            ],
+            "noteVi": "Đồng ý với câu phủ định: ❌ \"Me too\" (nghĩa ngược lại). Người Mỹ đọc NI-thơ hoặc NAI-thơ, cả hai đều đúng."
+        },
+        {
+            "slug": "thats-too-bad",
+            "type": "PHRASE",
+            "text": "That's too bad.",
+            "meaningVi": "Tiếc quá. / Tội nghiệp quá.",
+            "examples": [
+                { "en": "I missed my flight. Oh no, that's too bad.", "vi": "Mình bị lỡ chuyến bay. Ôi, tiếc quá.", "highlight": "that's too bad" }
+            ],
+            "noteVi": "Đồng cảm với chuyện không vui nhỏ. Chuyện buồn lớn (ốm nặng, mất người thân): I'm so sorry to hear that. ❌ \"Poor you\" nghe hơi trêu."
+        },
+        {
+            "slug": "no-way",
+            "type": "PHRASE",
+            "text": "No way!",
+            "meaningVi": "Không thể nào! (ngạc nhiên)",
+            "examples": [
+                { "en": "I won a trip to Japan! No way! That's amazing!", "vi": "Mình trúng chuyến đi Nhật! Không thể nào! Tuyệt quá!", "highlight": "No way!" }
+            ],
+            "noteVi": "Thân mật, dùng với bạn bè khi ngạc nhiên vui. Với sếp hoặc người lạ nói Really? hoặc Wow, that's great!"
+        },
+        {
+            "slug": "good-for-you",
+            "type": "PHRASE",
+            "text": "Good for you!",
+            "meaningVi": "Hay quá! Mừng cho bạn!",
+            "examples": [
+                { "en": "I passed my driving test. Good for you!", "vi": "Mình thi đậu bằng lái rồi. Mừng cho bạn!", "highlight": "Good for you!" }
+            ],
+            "noteVi": "Khen khi người kia làm được điều gì. Chuyện lớn (cưới, có con, lên chức): Congratulations!"
+        },
+        {
+            "slug": "that-sounds",
+            "type": "PATTERN",
+            "text": "That sounds ….",
+            "meaningVi": "Nghe có vẻ ….",
+            "examples": [
+                { "en": "I'm going to Phu Quoc next week. That sounds amazing!", "vi": "Tuần sau mình đi Phú Quốc. Nghe tuyệt quá!", "highlight": "That sounds amazing" }
+            ],
+            "pattern": {
+                "template": "That sounds {adjective}.",
+                "slots": [
+                    { "name": "adjective", "hintVi": "tính từ", "options": ["fun", "amazing", "interesting", "great", "terrible", "scary"] }
+                ]
+            },
+            "noteVi": "sounds + tính từ; sounds like + danh từ (That sounds like fun). Nói nhanh: Sounds great! ❌ \"That's sound good\"."
+        },
+        {
+            "slug": "tell-me-more",
+            "type": "PHRASE",
+            "text": "Tell me more.",
+            "meaningVi": "Kể thêm đi.",
+            "examples": [
+                { "en": "I have a new job. Really? Tell me more!", "vi": "Mình có việc mới rồi. Thật à? Kể thêm đi!", "highlight": "Tell me more" }
+            ],
+            "noteVi": "Cho người kia biết bạn muốn nghe tiếp. ❌ \"Say me more\" (tell + người, say không có người đi sau)."
+        },
+        {
+            "slug": "what-happened-next",
+            "type": "PHRASE",
+            "text": "What happened next?",
+            "meaningVi": "Rồi sao nữa?",
+            "examples": [
+                { "en": "Then the taxi driver stopped. What happened next?", "vi": "Rồi ông tài xế dừng xe. Rồi sao nữa?", "highlight": "What happened next" }
+            ],
+            "noteVi": "happened là quá khứ, không cần did: ❌ \"What did happen next?\" Ngắn hơn: And then?"
+        },
+        {
+            "slug": "how-did-it-go",
+            "type": "PHRASE",
+            "text": "How did it go?",
+            "meaningVi": "Mọi chuyện thế nào? (hỏi kết quả)",
+            "examples": [
+                { "en": "You had an interview yesterday. How did it go?", "vi": "Hôm qua bạn đi phỏng vấn. Thế nào rồi?", "highlight": "How did it go" }
+            ],
+            "noteVi": "Hỏi kết quả một việc (bài thi, phỏng vấn, buổi hẹn). Trả lời: It went well. / It didn't go well. ❌ \"How did it went?\""
+        },
+        {
+            "slug": "what-kind-of",
+            "type": "PATTERN",
+            "text": "What kind of … do you like?",
+            "meaningVi": "Bạn thích loại … nào?",
+            "examples": [
+                { "en": "What kind of music do you like?", "vi": "Bạn thích thể loại nhạc nào?", "highlight": "What kind of music" }
+            ],
+            "pattern": {
+                "template": "What kind of {thing} do you like?",
+                "slots": [
+                    { "name": "thing", "hintVi": "danh từ (không cần a/an)", "options": ["music", "movies", "food", "books", "sports"] }
+                ]
+            },
+            "noteVi": "Câu hỏi mở, người kia phải kể nhiều hơn Yes/No. ❌ \"What kind of a music\"."
+        },
+        {
+            "slug": "do-you-often",
+            "type": "PATTERN",
+            "text": "Do you often …?",
+            "meaningVi": "Bạn có hay … không?",
+            "examples": [
+                { "en": "Do you often go to the gym?", "vi": "Bạn có hay đi tập gym không?", "highlight": "Do you often" }
+            ],
+            "pattern": {
+                "template": "Do you often {do}?",
+                "slots": [
+                    { "name": "do", "hintVi": "động từ nguyên mẫu + phần còn lại", "options": ["travel", "cook at home", "go to the gym", "watch movies", "eat out"] }
+                ]
+            },
+            "noteVi": "often đứng trước động từ chính. Trả lời kèm tần suất: Yes, about twice a week. / Not often."
+        },
+        {
+            "slug": "what-do-you-think-of",
+            "type": "PATTERN",
+            "text": "What do you think of …?",
+            "meaningVi": "Bạn thấy … thế nào?",
+            "examples": [
+                { "en": "What do you think of Hanoi?", "vi": "Bạn thấy Hà Nội thế nào?", "highlight": "What do you think of" }
+            ],
+            "pattern": {
+                "template": "What do you think of {thing}?",
+                "slots": [
+                    { "name": "thing", "hintVi": "một thứ, một nơi, một người", "options": ["Hanoi", "Vietnamese food", "the new café", "your new job", "the movie"] }
+                ]
+            },
+            "noteVi": "Hỏi ý kiến. ❌ \"How do you think about…?\" (dịch từ \"nghĩ thế nào\") → What do you think of / about …?"
+        },
+        {
+            "slug": "actually",
+            "type": "LEXICAL",
+            "text": "actually",
+            "meaningVi": "thật ra",
+            "ipa": "/ˈæktʃuəli/",
+            "examples": [
+                { "en": "Actually, I've never been there.", "vi": "Thật ra mình chưa đến đó bao giờ.", "highlight": "Actually" }
+            ],
+            "noteVi": "Dùng để thêm thông tin bất ngờ hoặc sửa nhẹ lời người kia. Không có nghĩa \"hiện nay\" (hiện nay: currently, now)."
+        },
+        {
+            "slug": "for-example",
+            "type": "PHRASE",
+            "text": "for example",
+            "meaningVi": "ví dụ như",
+            "examples": [
+                { "en": "I like spicy food, for example Thai curry.", "vi": "Mình thích đồ cay, ví dụ như cà ri Thái.", "highlight": "for example" }
+            ],
+            "noteVi": "Khi kể, thêm một ví dụ cụ thể giúp câu chuyện sống động. Viết tắt e.g. chỉ dùng khi viết. ❌ \"example\" không có for."
+        },
+        {
+            "slug": "by-the-way",
+            "type": "PHRASE",
+            "text": "By the way, …",
+            "meaningVi": "À mà, … / Nhân tiện, …",
+            "examples": [
+                { "en": "By the way, are you free on Saturday?", "vi": "À mà, thứ Bảy bạn rảnh không?", "highlight": "By the way" }
+            ],
+            "noteVi": "Mở một chủ đề mới hoặc nhớ ra điều gì. Nhắn tin viết tắt: btw."
+        },
+        {
+            "slug": "speaking-of",
+            "type": "PATTERN",
+            "text": "Speaking of …, …",
+            "meaningVi": "Nhắc đến … mới nhớ, …",
+            "examples": [
+                { "en": "Speaking of food, have you tried the new pho place?", "vi": "Nhắc đến đồ ăn mới nhớ, bạn ăn thử quán phở mới chưa?", "highlight": "Speaking of food" }
+            ],
+            "pattern": {
+                "template": "Speaking of {topic}, {question}",
+                "slots": [
+                    { "name": "topic", "hintVi": "chủ đề vừa nhắc", "options": ["food", "travel", "movies", "work"] },
+                    { "name": "question", "hintVi": "câu hỏi mới", "options": ["have you tried the new pho place?", "where are you going this summer?", "have you seen the new Marvel movie?", "how's your new job?"] }
+                ]
+            },
+            "noteVi": "Nối chủ đề mới vào chủ đề cũ nên nghe rất tự nhiên. ❌ \"Talking about food\" không sai nhưng speaking of phổ biến hơn."
+        },
+        {
+            "slug": "anyway",
+            "type": "LEXICAL",
+            "text": "anyway",
+            "meaningVi": "dù sao thì, thôi thì (đổi ý, chuẩn bị kết thúc)",
+            "ipa": "/ˈeniweɪ/",
+            "examples": [
+                { "en": "Anyway, I have to go now.", "vi": "Thôi, giờ mình phải đi rồi.", "highlight": "Anyway" }
+            ],
+            "noteVi": "Hạ giọng và ngừng một chút sau anyway: người nghe hiểu bạn sắp đổi chủ đề hoặc kết thúc. Viết liền, không có s: ❌ \"anyways\" (thân mật quá)."
+        },
+        {
+            "slug": "conversation",
+            "type": "LEXICAL",
+            "text": "conversation",
+            "meaningVi": "cuộc nói chuyện",
+            "ipa": "/ˌkɑːnvərˈseɪʃn/",
+            "examples": [
+                { "en": "It was a really nice conversation.", "vi": "Cuộc nói chuyện rất vui.", "highlight": "conversation" }
+            ],
+            "noteVi": "Nhấn âm thứ ba: con-ver-SA-tion. Bắt chuyện: start a conversation (with someone)."
+        },
+        {
+            "slug": "i-have-to-go",
+            "type": "PHRASE",
+            "text": "Sorry, I have to go.",
+            "meaningVi": "Xin lỗi, mình phải đi rồi.",
+            "examples": [
+                { "en": "Oh, it's six o'clock. Sorry, I have to go.", "vi": "Ôi, sáu giờ rồi. Xin lỗi, mình phải đi đây.", "highlight": "I have to go" }
+            ],
+            "noteVi": "Nói kèm lý do ngắn nghe lịch sự hơn: I have to pick up my son. ❌ bỏ đi luôn không nói gì, hoặc \"I go now\"."
+        },
+        {
+            "slug": "nice-talking-to-you",
+            "type": "PHRASE",
+            "text": "It was nice talking to you.",
+            "meaningVi": "Rất vui được nói chuyện với bạn.",
+            "examples": [
+                { "en": "It was nice talking to you. You too!", "vi": "Rất vui được nói chuyện với bạn. Mình cũng vậy!", "highlight": "nice talking to you" }
+            ],
+            "noteVi": "Dùng khi chia tay. Lúc mới gặp mới dùng Nice to meet you. Trả lời: You too!"
+        },
+        {
+            "slug": "keep-in-touch",
+            "type": "PHRASE",
+            "text": "Let's keep in touch.",
+            "meaningVi": "Giữ liên lạc nhé.",
+            "examples": [
+                { "en": "Let's keep in touch. What's your Facebook?", "vi": "Giữ liên lạc nhé. Facebook bạn là gì?", "highlight": "keep in touch" }
+            ],
+            "noteVi": "Thường đi kèm xin số điện thoại hoặc mạng xã hội. ❌ \"keep contact\"."
+        },
+        {
+            "slug": "talk-to-you-later",
+            "type": "PHRASE",
+            "text": "Talk to you later.",
+            "meaningVi": "Nói chuyện sau nhé.",
+            "examples": [
+                { "en": "OK, I have to go. Talk to you later!", "vi": "Thôi, mình phải đi. Nói chuyện sau nhé!", "highlight": "Talk to you later" }
+            ],
+            "noteVi": "Chào thân mật với người sẽ gặp lại hoặc nhắn tin lại. Nhắn tin viết ttyl."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "a2-12-how-was-da-lat",
+            "title": "Tell me more!",
+            "situationVi": "Sarah, đồng nghiệp người Mỹ, vừa đi Đà Lạt về. Bạn phản hồi và hỏi tiếp để cô ấy kể.",
+            "lines": [
+                { "speaker": "Sarah", "en": "Hi! I just got back from Da Lat.", "vi": "Chào! Mình mới ở Đà Lạt về." },
+                { "speaker": "You", "en": "Really? How did it go?", "vi": "Thật à? Chuyến đi thế nào?", "learnerTurn": true },
+                { "speaker": "Sarah", "en": "It was great, but it rained a lot.", "vi": "Vui lắm, nhưng mưa nhiều." },
+                { "speaker": "You", "en": "Oh, that's too bad. What did you do there?", "vi": "Ôi, tiếc quá. Bạn làm gì ở đó?", "learnerTurn": true },
+                { "speaker": "Sarah", "en": "We visited a coffee farm. Actually, it was the best coffee in my life.", "vi": "Bọn mình đi thăm một trang trại cà phê. Thật ra đó là ly cà phê ngon nhất đời mình." },
+                { "speaker": "You", "en": "No way! Tell me more. What kind of coffee did you try?", "vi": "Không thể nào! Kể thêm đi. Bạn uống thử loại cà phê nào?", "learnerTurn": true },
+                { "speaker": "Sarah", "en": "Arabica from the farm. I bought some for the office!", "vi": "Arabica của trang trại. Mình có mua ít cho cả văn phòng đây!" },
+                { "speaker": "You", "en": "That sounds amazing. Thank you!", "vi": "Nghe tuyệt quá. Cảm ơn bạn!", "learnerTurn": true }
+            ]
+        },
+        {
+            "slug": "a2-12-nice-talking-to-you",
+            "title": "Nice talking to you",
+            "situationVi": "Ở một buổi giao lưu tiếng Anh, bạn nói chuyện với David, một người Mỹ mới quen. Bạn hỏi tiếp, đổi chủ đề, rồi phải về.",
+            "lines": [
+                { "speaker": "David", "en": "So that's why I moved to Hanoi two years ago.", "vi": "Vậy nên hai năm trước tôi chuyển đến Hà Nội." },
+                { "speaker": "You", "en": "That sounds interesting. Do you often travel around Vietnam?", "vi": "Nghe thú vị quá. Anh có hay đi du lịch quanh Việt Nam không?", "learnerTurn": true },
+                { "speaker": "David", "en": "Not often. I'm usually busy with work.", "vi": "Không hay lắm. Tôi thường bận việc." },
+                { "speaker": "You", "en": "Me too. By the way, what do you think of Vietnamese food?", "vi": "Tôi cũng vậy. À mà anh thấy đồ ăn Việt Nam thế nào?", "learnerTurn": true },
+                { "speaker": "David", "en": "I love it! Speaking of food, is there a good pho place near here?", "vi": "Tôi mê lắm! Nhắc đến đồ ăn mới nhớ, gần đây có quán phở nào ngon không?" },
+                { "speaker": "You", "en": "Yes, there's one on the corner. Oh, sorry, I have to go. It was nice talking to you.", "vi": "Có, có một quán ở góc đường. Ôi, xin lỗi, tôi phải về rồi. Rất vui được nói chuyện với anh.", "learnerTurn": true },
+                { "speaker": "David", "en": "You too! Let's keep in touch.", "vi": "Tôi cũng vậy! Giữ liên lạc nhé." },
+                { "speaker": "You", "en": "Sure. Talk to you later!", "vi": "Chắc chắn rồi. Nói chuyện sau nhé!", "learnerTurn": true }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "a2-12-l1-really",
+            "title": "Really? That sounds fun!",
+            "titleVi": "Phản hồi khi nghe",
+            "estimatedMinutes": 10,
+            "items": [
+                { "item": "really", "role": "INTRODUCE" },
+                { "item": "me-too", "role": "INTRODUCE" },
+                { "item": "me-neither", "role": "INTRODUCE" },
+                { "item": "thats-too-bad", "role": "INTRODUCE" },
+                { "item": "no-way", "role": "INTRODUCE" },
+                { "item": "good-for-you", "role": "INTRODUCE" },
+                { "item": "that-sounds", "role": "INTRODUCE" },
+                { "item": "sounds-fun", "role": "RECYCLE" },
+                { "item": "how-about-you", "role": "RECYCLE" },
+                { "item": "interesting", "role": "RECYCLE" },
+                { "item": "great", "role": "RECYCLE" },
+                { "item": "amazing", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["really", "me-too", "me-neither", "thats-too-bad", "no-way", "good-for-you", "that-sounds"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Phản hồi: cho người kia biết mình đang nghe",
+                        "bodyVi": "Người Việt hay im lặng lắng nghe hoặc chỉ \"ừ\". Người Mỹ chờ bạn **phản hồi** sau mỗi ý; im lặng có thể bị hiểu là không quan tâm.\n\n| người kia kể | bạn đáp |\n|---|---|\n| tin bất ngờ | **Really?** **No way!** |\n| tin vui, kế hoạch | **That sounds** fun / amazing! **Good for you!** |\n| tin không vui | **That's too bad.** |\n| giống mình (khẳng định) | **Me too.** |\n| giống mình (phủ định) | **Me neither.** |\n\nPhản hồi xong thì **hỏi lại**: How about you?\n\n❌ \"I don't like durian.\" – \"Me too.\" ✅ **Me neither.** ❌ That's sound good ✅ **That sounds good.**",
+                        "items": ["really", "me-too", "me-neither", "thats-too-bad", "no-way", "good-for-you", "that-sounds", "how-about-you"],
+                        "examples": [
+                            { "en": "I'm going to Japan next month. Really? That sounds amazing!", "vi": "Tháng sau mình đi Nhật. Thật à? Nghe tuyệt quá!", "highlight": "That sounds amazing" },
+                            { "en": "I can't swim. Me neither!", "vi": "Mình không biết bơi. Mình cũng không!", "highlight": "Me neither" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "that-sounds",
+                        "prompts": [
+                            { "cueVi": "Bạn mình sắp đi Phú Quốc. Đáp: nghe tuyệt quá!", "slots": { "adjective": "amazing" }, "answer": "That sounds amazing." },
+                            { "cueVi": "Bạn mình kể về một cuốn sách hay. Đáp: nghe thú vị.", "slots": { "adjective": "interesting" }, "answer": "That sounds interesting." },
+                            { "cueVi": "Bạn mình bị kẹt xe hai tiếng. Đáp: nghe kinh khủng quá.", "slots": { "adjective": "terrible" }, "answer": "That sounds terrible." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["really", "me-too", "me-neither", "thats-too-bad", "no-way", "good-for-you", "interesting", "great"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "Really? That sounds fun!", "vi": "Thật à? Nghe vui quá!" },
+                            { "en": "Oh no, that's too bad.", "vi": "Ôi, tiếc quá." },
+                            { "en": "Me too! How about you?", "vi": "Mình cũng vậy! Còn bạn?" },
+                            { "en": "No way! Good for you!", "vi": "Không thể nào! Mừng cho bạn!" }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "\"I don't like horror movies.\" Bạn cũng không thích. Đáp:",
+                                "options": ["Me too.", "Me neither.", "I too."],
+                                "answer": 1,
+                                "item": "me-neither"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"I lost my phone yesterday.\" Đáp:",
+                                "options": ["Good for you!", "That sounds fun!", "Oh no, that's too bad."],
+                                "answer": 2,
+                                "item": "thats-too-bad"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I'm going to Da Lat this weekend. That ___ fun!",
+                                "hintVi": "nghe có vẻ",
+                                "answers": ["sounds"],
+                                "item": "that-sounds"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "I passed the test! Good for you!",
+                                "options": ["Mình thi đậu rồi! Mừng cho bạn!", "Mình thi trượt rồi! Tiếc quá!", "Mình sắp thi! Cố lên!"],
+                                "answer": 0,
+                                "item": "good-for-you"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Thật à? Nghe thú vị quá!",
+                                "answer": "Really? That sounds interesting!",
+                                "item": "really"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a2-12-l2-tell-me-more",
+            "title": "Tell me more",
+            "titleVi": "Hỏi tiếp",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "tell-me-more", "role": "INTRODUCE" },
+                { "item": "what-happened-next", "role": "INTRODUCE" },
+                { "item": "how-did-it-go", "role": "INTRODUCE" },
+                { "item": "what-kind-of", "role": "INTRODUCE" },
+                { "item": "do-you-often", "role": "INTRODUCE" },
+                { "item": "what-do-you-think-of", "role": "INTRODUCE" },
+                { "item": "actually", "role": "INTRODUCE" },
+                { "item": "for-example", "role": "INTRODUCE" },
+                { "item": "really", "role": "RECYCLE" },
+                { "item": "thats-too-bad", "role": "RECYCLE" },
+                { "item": "what-was-it-like", "role": "RECYCLE" },
+                { "item": "what-did-you-do", "role": "RECYCLE" },
+                { "item": "have-you-ever", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["tell-me-more", "what-happened-next", "how-did-it-go", "what-kind-of", "do-you-often", "what-do-you-think-of", "actually", "for-example"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Hỏi tiếp: câu hỏi mở",
+                        "bodyVi": "Câu hỏi Yes/No (Do you like music? Yes.) dễ làm câu chuyện tắt. **Câu hỏi mở** buộc người kia kể thêm:\n\n| muốn biết | hỏi |\n|---|---|\n| thích loại nào | **What kind of** music do you like? |\n| ý kiến | **What do you think of** Hanoi? |\n| thói quen | **Do you often** cook? → What do you cook? |\n| kết quả một việc | **How did it go?** |\n| cảm nhận | **What was it like?** |\n| chuyện đang kể | **What happened next?** **Tell me more.** |\n| từng làm chưa | **Have you ever** …? → When? What was it like? |\n\nKhi đến lượt mình, kể dài hơn một câu: thêm **for example** hoặc **actually** + chi tiết.\n\n❌ How do you think about Hanoi? ❌ What did happen next? ✅ **What do you think of Hanoi?** **What happened next?**",
+                        "items": ["what-kind-of", "what-do-you-think-of", "do-you-often", "how-did-it-go", "what-was-it-like", "what-happened-next", "tell-me-more", "have-you-ever", "for-example", "actually"],
+                        "examples": [
+                            { "en": "What do you think of Hanoi? Actually, I love it. The food is amazing.", "vi": "Bạn thấy Hà Nội thế nào? Thật ra mình rất thích. Đồ ăn tuyệt lắm.", "highlight": "What do you think of" },
+                            { "en": "You had a date last night! How did it go?", "vi": "Tối qua bạn đi hẹn hò! Thế nào rồi?", "highlight": "How did it go" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "what-kind-of",
+                        "prompts": [
+                            { "cueVi": "Hỏi: bạn thích thể loại nhạc nào?", "slots": { "thing": "music" }, "answer": "What kind of music do you like?" },
+                            { "cueVi": "Hỏi: bạn thích loại phim nào?", "slots": { "thing": "movies" }, "answer": "What kind of movies do you like?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "what-do-you-think-of",
+                        "prompts": [
+                            { "cueVi": "Hỏi: bạn thấy đồ ăn Việt Nam thế nào?", "slots": { "thing": "Vietnamese food" }, "answer": "What do you think of Vietnamese food?" },
+                            { "cueVi": "Hỏi: bạn thấy công việc mới thế nào?", "slots": { "thing": "your new job" }, "answer": "What do you think of your new job?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "sentence-build"],
+                        "items": ["tell-me-more", "what-happened-next", "how-did-it-go", "actually", "for-example", "what-was-it-like", "really"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a2-12-how-was-da-lat", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["How do you think about Hanoi?", "What do you think of Hanoi?", "What do you think Hanoi?"],
+                                "answer": 1,
+                                "item": "what-do-you-think-of"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn mình hôm qua đi phỏng vấn. Hỏi kết quả:",
+                                "options": ["How did it go?", "How did it went?", "How was it go?"],
+                                "answer": 0,
+                                "item": "how-did-it-go"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "What kind ___ food do you like?",
+                                "answers": ["of"],
+                                "item": "what-kind-of"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Actually, I've never been there.",
+                                "options": ["Hiện nay mình không ở đó.", "Thật ra mình chưa đến đó bao giờ.", "Mình sắp đến đó."],
+                                "answer": 1,
+                                "item": "actually"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Bạn có hay nấu ăn ở nhà không?",
+                                "answer": "Do you often cook at home?",
+                                "item": "do-you-often"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a2-12-l3-by-the-way",
+            "title": "By the way…",
+            "titleVi": "Đổi chủ đề và chào tạm biệt",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "by-the-way", "role": "INTRODUCE" },
+                { "item": "speaking-of", "role": "INTRODUCE" },
+                { "item": "anyway", "role": "INTRODUCE" },
+                { "item": "conversation", "role": "INTRODUCE" },
+                { "item": "i-have-to-go", "role": "INTRODUCE" },
+                { "item": "nice-talking-to-you", "role": "INTRODUCE" },
+                { "item": "keep-in-touch", "role": "INTRODUCE" },
+                { "item": "talk-to-you-later", "role": "INTRODUCE" },
+                { "item": "that-sounds", "role": "RECYCLE" },
+                { "item": "me-too", "role": "RECYCLE" },
+                { "item": "do-you-often", "role": "RECYCLE" },
+                { "item": "nice-to-meet-you", "role": "RECYCLE" },
+                { "item": "see-you-later", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["by-the-way", "speaking-of", "anyway", "conversation", "i-have-to-go", "nice-talking-to-you", "keep-in-touch", "talk-to-you-later"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Đổi chủ đề, rồi kết thúc lịch sự",
+                        "bodyVi": "**Đổi chủ đề** mà không đột ngột:\n\n| cách | ví dụ |\n|---|---|\n| chủ đề mới hẳn | **By the way**, are you free on Saturday? |\n| nối từ chủ đề cũ | **Speaking of** food, have you tried the new café? |\n| quay lại / chuẩn bị dừng | **Anyway**, … |\n\n**Kết thúc** thường có ba bước: báo hiệu → lý do → chào.\n\n**Anyway**, … **Sorry, I have to go.** I have to pick up my son. **It was nice talking to you.** **Let's keep in touch.** **Talk to you later!**\n\n❌ Nice to meet you (khi chia tay người đã nói chuyện lâu) ❌ I go now ❌ keep contact ✅ **It was nice talking to you.** **I have to go.** **keep in touch**",
+                        "items": ["by-the-way", "speaking-of", "anyway", "i-have-to-go", "nice-talking-to-you", "keep-in-touch", "talk-to-you-later", "nice-to-meet-you"],
+                        "examples": [
+                            { "en": "Anyway, I have to go. It was nice talking to you!", "vi": "Thôi, mình phải đi rồi. Rất vui được nói chuyện với bạn!", "highlight": "nice talking to you" },
+                            { "en": "Speaking of movies, have you seen the new one yet?", "vi": "Nhắc đến phim mới nhớ, bạn xem phim mới chưa?", "highlight": "Speaking of movies" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "speaking-of",
+                        "prompts": [
+                            { "cueVi": "Nhắc đến đồ ăn mới nhớ, bạn ăn thử quán phở mới chưa?", "slots": { "topic": "food", "question": "have you tried the new pho place?" }, "answer": "Speaking of food, have you tried the new pho place?" },
+                            { "cueVi": "Nhắc đến du lịch mới nhớ, hè này bạn đi đâu?", "slots": { "topic": "travel", "question": "where are you going this summer?" }, "answer": "Speaking of travel, where are you going this summer?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "cloze"],
+                        "items": ["by-the-way", "anyway", "conversation", "i-have-to-go", "nice-talking-to-you", "keep-in-touch", "talk-to-you-later", "see-you-later"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a2-12-nice-talking-to-you", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn nói chuyện với một người mới quen được 20 phút và phải về. Câu nào hợp nhất?",
+                                "options": ["Nice to meet you. Bye.", "I go now.", "Sorry, I have to go. It was nice talking to you."],
+                                "answer": 2,
+                                "item": "nice-talking-to-you"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Giữ liên lạc nhé.\"",
+                                "options": ["Let's keep contact.", "Let's keep in touch.", "Let's keep touching."],
+                                "answer": 1,
+                                "item": "keep-in-touch"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "___ the way, are you free on Saturday?",
+                                "hintVi": "à mà, nhân tiện",
+                                "answers": ["By"],
+                                "item": "by-the-way"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Speaking of food, have you tried the new café?",
+                                "options": ["Nhắc đến đồ ăn mới nhớ, bạn thử quán cà phê mới chưa?", "Nói về đồ ăn thì quán cà phê mới ngon hơn.", "Bạn thích đồ ăn ở quán cà phê mới không?"],
+                                "answer": 0,
+                                "item": "speaking-of"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Thôi, mình phải đi rồi.",
+                                "answer": "Anyway, I have to go.",
+                                "item": "anyway"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "a2-12-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "\"I've never tried durian.\" Bạn cũng chưa. Đáp:",
+                "options": ["Me too.", "Me neither.", "Me never."],
+                "answer": 1,
+                "item": "me-neither"
+            },
+            {
+                "kind": "choice",
+                "prompt": "\"I'm going to Japan next month!\" Đáp:",
+                "options": ["That's too bad.", "That sounds amazing!", "Me neither."],
+                "answer": 1,
+                "item": "that-sounds"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu hỏi nào giúp người kia kể nhiều nhất?",
+                "options": ["Do you like music?", "Is music good?", "What kind of music do you like?"],
+                "answer": 2,
+                "item": "what-kind-of"
+            },
+            {
+                "kind": "gap",
+                "sentence": "It was nice ___ to you.",
+                "hintVi": "nói chuyện",
+                "answers": ["talking"],
+                "item": "nice-talking-to-you"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "You had an interview yesterday. How did it go?",
+                "options": ["Hôm qua bạn đi phỏng vấn. Thế nào rồi?", "Hôm qua bạn đi phỏng vấn bằng gì?", "Hôm qua bạn phỏng vấn ở đâu?"],
+                "answer": 0,
+                "item": "how-did-it-go"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Ôn A2. Câu nào đúng?",
+                "options": ["I've been to Hue last year.", "I went to Hue last year.", "I've went to Hue last year."],
+                "answer": 1,
+                "item": "perfect-vs-past"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Ôn A2. Câu nào đúng?",
+                "options": ["I'm going to visit my grandparents this weekend.", "I going to visit my grandparents this weekend.", "I'm going to visiting my grandparents this weekend."],
+                "answer": 0,
+                "item": "be-going-to"
+            },
+            {
+                "kind": "order",
+                "vi": "À mà, bạn thấy Hà Nội thế nào?",
+                "answer": "By the way, what do you think of Hanoi?",
+                "item": "by-the-way"
+            }
+        ]
+    }
+}

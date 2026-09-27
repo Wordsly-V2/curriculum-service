@@ -402,6 +402,70 @@
             "options": ["It's the biggest city in Vietnam.", "It's biggest city of Vietnam.", "It's the most big city in Vietnam."],
             "answer": 0,
             "item": "superlatives"
+        },
+        {
+            "unit": "a2-09-experiences",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["Have you ever went to Japan?", "Have you ever been to Japan?", "Did you ever been to Japan?"],
+            "answer": 1,
+            "item": "present-perfect-experience"
+        },
+        {
+            "unit": "a2-09-experiences",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["I've been to Korea in 2019.", "I went to Korea in 2019.", "I've gone to Korea in 2019."],
+            "answer": 1,
+            "item": "perfect-vs-past"
+        },
+        {
+            "unit": "a2-10-how-much-how-many",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["How many rice do we need?", "How much rices do we need?", "How much rice do we need?"],
+            "answer": 2,
+            "item": "how-much-how-many"
+        },
+        {
+            "unit": "a2-10-how-much-how-many",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["There isn't any milk.", "There isn't some milk.", "There aren't any milk."],
+            "answer": 0,
+            "item": "some-any"
+        },
+        {
+            "unit": "a2-11-people",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["She is long black hair.", "She has black long hair.", "She has long black hair."],
+            "answer": 2,
+            "item": "describing-people"
+        },
+        {
+            "unit": "a2-11-people",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["He's the man which lives next door.", "He's the man who lives next door.", "He's the man who he lives next door."],
+            "answer": 1,
+            "item": "relative-clauses"
+        },
+        {
+            "unit": "a2-12-keep-it-going",
+            "kind": "choice",
+            "prompt": "\"I don't eat meat.\" Bạn cũng không ăn. Đáp:",
+            "options": ["Me too.", "Me neither.", "I too."],
+            "answer": 1,
+            "item": "me-neither"
+        },
+        {
+            "unit": "a2-12-keep-it-going",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["What do you think of Hanoi?", "How do you think about Hanoi?", "What do you think Hanoi?"],
+            "answer": 0,
+            "item": "what-do-you-think-of"
         }
     ]
 }

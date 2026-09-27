@@ -10,7 +10,7 @@ Trạng thái: `draft` đã soạn, qua validator · `reviewed` đã có ngườ
 |---|---|---|---|---|---|---|---|---|
 | Pre-A1 | 6 | 6 | 18 | 128 | 86 | 28 | 10 | 4 |
 | A1 | 10 | 10 | 31 | 260 | 166 | 49 | 33 | 12 |
-| A2 | 12 | 8 | 24 | 204 | 111 | 42 | 32 | 19 |
+| A2 | 12 | 12 | 36 | 301 | 155 | 70 | 49 | 27 |
 
 ## Placement (`placement.json`)
 
@@ -20,7 +20,7 @@ Một bài xếp lớp cho cả lộ trình, 2 câu mỗi unit, theo thứ tự 
 |---|---|---|
 | Pre-A1 | 6/6 | 12 |
 | A1 | 10/10 | 20 |
-| A2 | 8/12 | 16 |
+| A2 | 12/12 | 24 |
 
 ## Pre-A1: Foundations
 
@@ -180,10 +180,10 @@ Mốc của stage: "Tôi kể được cuối tuần vừa rồi" (unit 02). Khu
 | 6 | `a2-06-health` | bộ phận cơ thể, My … hurts, have a + bệnh, hỏi thăm người ốm, đi khám, should / shouldn't | 3 | 27 (15/7/3/2) | 2 | draft |
 | 7 | `a2-07-work` | work at/in/for/as, sếp và đồng nghiệp, have to / don't have to, can / can't (khả năng), phỏng vấn | 3 | 27 (14/5/5/3) | 2 | draft |
 | 8 | `a2-08-comparing` | so sánh hơn (-er / more, better, worse), so sánh nhất (the -est / the most), as … as, the same as, different from, prefer | 3 | 24 (13/3/5/3) | 2 | draft |
-| 9 | `a2-09-experiences` | hiện tại hoàn thành với ever / never, Have you ever…? | | | | chưa soạn |
-| 10 | `a2-10-how-much-how-many` | đếm được / không đếm được, some / any, much / many / a lot of, công thức nấu ăn | | | | chưa soạn |
-| 11 | `a2-11-people` | tả người: ngoại hình, tính cách; mệnh đề quan hệ who / which / where | | | | chưa soạn |
-| 12 | `a2-12-keep-it-going` | chiến lược: hỏi tiếp, thể hiện quan tâm (Really?), đổi chủ đề, kết thúc cuộc nói chuyện | | | | chưa soạn |
+| 9 | `a2-09-experiences` | hiện tại hoàn thành cho trải nghiệm (ever, never, been to), V3, chuyển sang quá khứ đơn khi kể chi tiết, How many times, first time, already / yet | 3 | 24 (11/6/4/3) | 2 | draft |
+| 10 | `a2-10-how-much-how-many` | đếm được / không đếm được, some / any, How much / How many, a lot of, a few / a little, đơn vị (a bottle of), đi chợ, công thức nấu ăn | 3 | 25 (15/3/4/3) | 2 | draft |
+| 11 | `a2-11-people` | ngoại hình (be / have, tóc), tính cách, What does … look like? / What's … like?, get along with, who / which / where | 3 | 25 (15/4/4/2) | 2 | draft |
+| 12 | `a2-12-keep-it-going` | chiến lược: phản hồi (Really?, That sounds…, Me too / neither), câu hỏi mở, đổi chủ đề (By the way, Speaking of), kết thúc lịch sự; can-do tổng kết A2 | 3 | 23 (3/15/5/0) | 2 | draft |
 
 ### Mẫu câu (PATTERN)
 
@@ -221,6 +221,23 @@ Mốc của stage: "Tôi kể được cuối tuần vừa rồi" (unit 02). Khu
 | `whats-the-best` | What's the best {thing} in {place}? | 08 |
 | `not-as-as` | {thing} isn't as {adjective} as {other}. | 08 |
 | `which-is-better` | Which is better, {first} or {second}? | 08 |
+| `have-you-ever` | Have you ever {experience}? | 09 |
+| `ive-never` | I've never {experience}. | 09 |
+| `when-did-you` | When did you {do}? | 09 |
+| `how-many-times` | How many times have you {experience}? | 09 |
+| `is-there-any` | Is there any {food} in the fridge? | 10 |
+| `how-many-do-we-need` | How many {things} do we need? | 10 |
+| `how-much-do-we-need` | How much {thing} do we need? | 10 |
+| `add-some` | Add {amount} {food}. | 10 |
+| `what-does-look-like` | What does {person} look like? | 11 |
+| `has-hair` | {person} has {hair} hair. | 11 |
+| `whats-like` | What's {person} like? | 11 |
+| `the-person-who` | {person} is the {noun} who {does}. | 11 |
+| `that-sounds` | That sounds {adjective}. | 12 |
+| `what-kind-of` | What kind of {thing} do you like? | 12 |
+| `do-you-often` | Do you often {do}? | 12 |
+| `what-do-you-think-of` | What do you think of {thing}? | 12 |
+| `speaking-of` | Speaking of {topic}, {question} | 12 |
 
 ### Ngữ pháp (GRAMMAR)
 
@@ -245,6 +262,14 @@ Mốc của stage: "Tôi kể được cuối tuần vừa rồi" (unit 02). Khu
 | `comparatives` | -er / more … than, chính tả, better / worse | 08 |
 | `superlatives` | the -est / the most, the best / the worst, in + nơi chốn | 08 |
 | `as-as` | as … as, not as … as, the same as, different from, much / a lot + so sánh hơn | 08 |
+| `present-perfect-experience` | have / has + V3 cho trải nghiệm, ever / never, Yes, I have, been to và gone to | 09 |
+| `past-participles` | V3 có quy tắc và bất quy tắc hay gặp (been, seen, eaten, done, taken) | 09 |
+| `perfect-vs-past` | mở đầu bằng hiện tại hoàn thành, kể chi tiết bằng quá khứ đơn; có mốc thời gian thì luôn quá khứ đơn | 09 |
+| `countable-uncountable` | đếm được / không đếm được, động từ chia theo, đơn vị (a bottle of) | 10 |
+| `some-any` | some (khẳng định, mời), any (phủ định, câu hỏi) | 10 |
+| `how-much-how-many` | How much / How many, much / many / a lot of, a few / a little, too much / too many, How much (giá) và (lượng) | 10 |
+| `describing-people` | be + tính từ, have + tóc / mắt, thứ tự tính từ tả tóc, look like / be like / like | 11 |
+| `relative-clauses` | who / which / where (that thân mật), không lặp đại từ | 11 |
 
 ### Lỗi thường gặp của người Việt (A2)
 
@@ -256,6 +281,10 @@ Mốc của stage: "Tôi kể được cuối tuần vừa rồi" (unit 02). Khu
 - "I'm fever", "I have headache", "I hurt head" khi ý là đang đau đầu, "I have a cold" và "I'm cold", "drink medicine", "You should to rest", "Do I should…?", "check a doctor", arm/hand và leg/foot (tiếng Việt đều là "tay", "chân") (unit 06).
 - "a work", "I work as engineer", "She have to", "I have work late", don't have to hiểu thành "không được", "Yes, I have." khi trả lời Do you have to…?, "I know swim", "I can to swim", "talk English", "speak very well English", nuốt /t/ của can't, "an uniform", "get up soon" (unit 07).
 - "more cheaper", "expensiver", "cheaper that", "gooder", quên the ở so sánh nhất, "the tallest of Vietnam", "high" cho người, "as bigger as", "the same like", "different with", "very better", "prefer A than B", quiet và quite (unit 08).
+- "I ever been…", "Have you ever went / ate…?", "I haven't never", "Yes, I did." cho Have you ever…?, hiện tại hoàn thành với mốc thời gian ("I've been there last year"), "When have you been…?", "How many time", "I already have eaten", "I didn't try yet", "I was scary", "very amazing" (unit 09).
+- "a rice", "three tomato", "The rice are", "There isn't some milk", "Is there any eggs?", "How many water", "How much eggs", "I have much money", "a few salt", "too much people", "It's taste good", "fry rice", "pig meat" (unit 10).
+- "She is long hair", "black long hair", "hairs", nhầm What's she like? / What does she like? / What does she look like?, "How does she look like?", "He is fun" (ý hài hước), "work hardly", "low" cho người thấp, "the man which", "the woman who she lives", "the restaurant where we ate there", "You look like tired" (unit 11).
+- Im lặng khi nghe (không phản hồi), "Me too" sau câu phủ định, "That's sound good", "Say me more", "What did happen next?", "How do you think about…?", actually hiểu là "hiện nay", "I go now", "keep contact", "Nice to meet you" khi chia tay (unit 12).
 
 ### Ghi chú A2
 
@@ -267,4 +296,8 @@ Mốc của stage: "Tôi kể được cuối tuần vừa rồi" (unit 02). Khu
 - `a2-06` chưa dạy riêng catch a cold, the flu, a pill (chỉ trong `noteVi` và hội thoại). Hội thoại đi khám có "How long have you had it?" (hiện tại hoàn thành, unit 09) ở lượt bác sĩ.
 - `can-you` (a2-07) là hỏi khả năng; nhờ lịch sự đã có ở `could-you` (a2-05). `well` (A1) là từ đệm "à thì", còn trạng từ "giỏi" nằm ở PHRASE `very-well`.
 - `a2-08`: so sánh hơn và nhất là GRAMMAR, không có item riêng cho từng dạng (-er, -est) trừ bất quy tắc `better`, `worse`; `best` chỉ nằm trong `superlatives` và `whats-the-best`.
+- `a2-09`: dạng V3 nằm trong GRAMMAR `past-participles`, chỉ `been` là item LEXICAL. Hiện tại hoàn thành chỉ dạy nghĩa trải nghiệm (và already / yet); nghĩa kéo dài tới hiện tại với for / since (How long have you…?) để B1. `never` (A1) chỉ RECYCLE.
+- `a2-10`: `how-much-is` (giá, A1) RECYCLE ở bài 2 để phân biệt với How much (lượng). a few / a little, too much / too many nằm trong `how-much-how-many` và `too-much-too-many`; pork, beef, garlic, oil, pepper chỉ nằm trong ví dụ và hội thoại.
+- `a2-11`: `short` gồm cả nghĩa "thấp" (người). straight, wavy, roommate chỉ nằm trong `noteVi` và ví dụ. `look-like` (giống ai) khác `what-does-look-like` (hỏi ngoại hình).
+- `a2-12` không có GRAMMAR (như `pre-a1-06`, `a1-10`). canDo thứ tư là câu tổng kết stage; checkpoint 8 câu, 2 câu cuối ôn A2 (`perfect-vs-past`, `be-going-to`).
 - Hiện tại tiếp diễn cho lịch hẹn tương lai (I'm meeting Anna tomorrow) chưa dạy riêng; chỉ xuất hiện trong hội thoại.
