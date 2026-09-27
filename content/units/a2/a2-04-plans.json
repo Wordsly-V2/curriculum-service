@@ -1,0 +1,757 @@
+{
+    "slug": "a2-04-plans",
+    "stage": "a2",
+    "order": 4,
+    "title": "Plans",
+    "titleVi": "Kế hoạch",
+    "descriptionVi": "Nói kế hoạch với be going to, mời và nhận lời hoặc từ chối lịch sự, nói mong muốn và ước mơ (want to, hope to, would like to).",
+    "canDo": [
+        "Tôi nói được kế hoạch của mình cho tối nay, cuối tuần này, tuần sau và hỏi kế hoạch của người khác.",
+        "Tôi mời được người khác, nhận lời hoặc từ chối một cách lịch sự và gợi ý thời gian khác.",
+        "Tôi nói được mình muốn làm gì, hy vọng làm gì trong tương lai."
+    ],
+    "items": [
+        {
+            "slug": "be-going-to",
+            "type": "GRAMMAR",
+            "text": "be going to + verb",
+            "meaningVi": "sẽ, định (kế hoạch đã có)",
+            "examples": [
+                { "en": "I'm going to visit my parents this weekend.", "vi": "Cuối tuần này mình định về thăm bố mẹ.", "highlight": "I'm going to visit" }
+            ],
+            "grammar": {
+                "ruleVi": "Nói việc mình đã định làm: am/is/are + going to + động từ nguyên mẫu. Tiếng Việt chỉ cần \"sẽ\" hoặc \"định\"; tiếng Anh cần đủ ba phần: be, going to, động từ.",
+                "forms": [
+                    { "label": "khẳng định", "example": "I'm going to study tonight. She's going to buy a car." },
+                    { "label": "phủ định", "example": "We aren't going to go out tonight." },
+                    { "label": "câu hỏi", "example": "Are you going to come? Yes, I am. / No, I'm not." },
+                    { "label": "hỏi Wh-", "example": "What are you going to do this weekend?" },
+                    { "label": "nói nhanh", "example": "going to thường đọc nhanh thành gonna /ˈɡʌnə/ (chỉ khi nói, không viết)" }
+                ],
+                "pitfallsVi": [
+                    "Thiếu be: \"I going to study\" → I'm going to study.",
+                    "Thêm -ing hoặc to sai chỗ: \"I'm going to studying\" → I'm going to study.",
+                    "Nhầm với \"đang đi đến\": I'm going to the bank (đi đến ngân hàng) khác I'm going to call the bank (định gọi)."
+                ]
+            }
+        },
+        {
+            "slug": "im-going-to",
+            "type": "PATTERN",
+            "text": "I'm going to … (when).",
+            "meaningVi": "Tôi định … (khi nào).",
+            "examples": [
+                { "en": "I'm going to clean the house tomorrow.", "vi": "Ngày mai mình định dọn nhà.", "highlight": "I'm going to clean" }
+            ],
+            "pattern": {
+                "template": "I'm going to {do} {when}.",
+                "slots": [
+                    { "name": "do", "hintVi": "động từ nguyên mẫu (+ tân ngữ)", "options": ["visit my grandparents", "stay home", "see a movie", "study English"] },
+                    { "name": "when", "hintVi": "thời gian sắp tới", "options": ["tonight", "tomorrow", "this weekend", "next week"] }
+                ]
+            },
+            "noteVi": "Thời gian sắp tới cũng không có giới từ: tonight, tomorrow, this weekend, next week."
+        },
+        {
+            "slug": "what-are-you-going-to-do",
+            "type": "PHRASE",
+            "text": "What are you going to do this weekend?",
+            "meaningVi": "Cuối tuần này bạn định làm gì?",
+            "examples": [
+                { "en": "What are you going to do this weekend? I'm going to relax.", "vi": "Cuối tuần này bạn định làm gì? Mình định nghỉ ngơi.", "highlight": "What are you going to do" }
+            ],
+            "noteVi": "Hỏi thân mật hơn: Any plans for the weekend? Trả lời: I'm going to … hoặc Nothing special."
+        },
+        {
+            "slug": "this-weekend",
+            "type": "PHRASE",
+            "text": "this weekend",
+            "meaningVi": "cuối tuần này",
+            "examples": [
+                { "en": "Are you free this weekend?", "vi": "Cuối tuần này bạn rảnh không?", "highlight": "this weekend" }
+            ],
+            "noteVi": "this + thời gian = … này (sắp tới hoặc đang diễn ra): this week, this Friday, this evening. Không có giới từ."
+        },
+        {
+            "slug": "next-week",
+            "type": "PHRASE",
+            "text": "next week",
+            "meaningVi": "tuần sau",
+            "examples": [
+                { "en": "We're going to move next week.", "vi": "Tuần sau nhà mình chuyển nhà.", "highlight": "next week" }
+            ],
+            "noteVi": "Cùng kiểu: next month, next year, next Monday. ❌ \"in next week\", \"the next week\" (khi ý là tuần sau)."
+        },
+        {
+            "slug": "tonight",
+            "type": "LEXICAL",
+            "text": "tonight",
+            "meaningVi": "tối nay",
+            "ipa": "/təˈnaɪt/",
+            "examples": [
+                { "en": "What are you doing tonight?", "vi": "Tối nay bạn làm gì?", "highlight": "tonight" }
+            ],
+            "noteVi": "Một từ, nhấn âm sau: to-NIGHT. ❌ \"this night\", \"today night\"."
+        },
+        {
+            "slug": "plan",
+            "type": "LEXICAL",
+            "text": "plan",
+            "meaningVi": "kế hoạch; lên kế hoạch",
+            "ipa": "/plæn/",
+            "examples": [
+                { "en": "Do you have any plans for the weekend?", "vi": "Cuối tuần bạn có kế hoạch gì chưa?", "highlight": "plans" }
+            ],
+            "noteVi": "Hay dùng số nhiều: Any plans? I have plans tonight (tối nay mình có hẹn rồi)."
+        },
+        {
+            "slug": "soon",
+            "type": "LEXICAL",
+            "text": "soon",
+            "meaningVi": "sớm, sắp, chẳng bao lâu nữa",
+            "ipa": "/suːn/",
+            "examples": [
+                { "en": "I'm going to get a new job soon.", "vi": "Sắp tới mình sẽ có việc mới.", "highlight": "soon" }
+            ],
+            "noteVi": "soon là \"sắp, chẳng bao lâu nữa\"; \"dậy sớm\" là get up early (❌ get up soon). Hẹn gặp: See you soon!"
+        },
+        {
+            "slug": "would-you-like-to",
+            "type": "PATTERN",
+            "text": "Would you like to …?",
+            "meaningVi": "Bạn có muốn … không? (mời lịch sự)",
+            "examples": [
+                { "en": "Would you like to have dinner with us?", "vi": "Bạn có muốn ăn tối cùng bọn mình không?", "highlight": "Would you like to" }
+            ],
+            "pattern": {
+                "template": "Would you like to {do}?",
+                "slots": [
+                    { "name": "do", "hintVi": "động từ nguyên mẫu (+ tân ngữ, thời gian)", "options": ["come to my party", "see a movie tonight", "have lunch together", "play soccer on Sunday"] }
+                ]
+            },
+            "noteVi": "Lịch sự hơn Do you want to…? Khác Do you like…? (hỏi sở thích). ❌ \"Would you like go…?\", thiếu to."
+        },
+        {
+            "slug": "id-love-to",
+            "type": "PHRASE",
+            "text": "I'd love to!",
+            "meaningVi": "Mình rất muốn! (nhận lời)",
+            "examples": [
+                { "en": "Would you like to come? I'd love to!", "vi": "Bạn có muốn đến không? Mình rất muốn!", "highlight": "I'd love to" }
+            ],
+            "noteVi": "I'd = I would. Nhận lời nhẹ hơn: Sure! / Sounds great! Không trả lời \"Yes, I would like\"."
+        },
+        {
+            "slug": "sorry-i-cant",
+            "type": "PHRASE",
+            "text": "Sorry, I can't.",
+            "meaningVi": "Xin lỗi, mình không được rồi.",
+            "examples": [
+                { "en": "Sorry, I can't. I'm going to visit my parents.", "vi": "Xin lỗi, mình không được rồi. Mình định về thăm bố mẹ.", "highlight": "Sorry, I can't" }
+            ],
+            "noteVi": "Từ chối thì thêm lý do ngắn cho lịch sự. Nói thẳng \"No.\" nghe rất cộc."
+        },
+        {
+            "slug": "maybe-another-time",
+            "type": "PHRASE",
+            "text": "Maybe another time.",
+            "meaningVi": "Để dịp khác nhé.",
+            "examples": [
+                { "en": "I'm busy on Friday. Maybe another time.", "vi": "Thứ Sáu mình bận. Để dịp khác nhé.", "highlight": "Maybe another time" }
+            ],
+            "noteVi": "Câu hay nối sau Sorry, I can't để lời từ chối mềm hơn."
+        },
+        {
+            "slug": "how-about",
+            "type": "PATTERN",
+            "text": "How about …?",
+            "meaningVi": "… thì sao? (gợi ý)",
+            "examples": [
+                { "en": "I'm busy on Friday. How about Saturday?", "vi": "Thứ Sáu mình bận. Thứ Bảy thì sao?", "highlight": "How about Saturday?" }
+            ],
+            "pattern": {
+                "template": "How about {suggestion}?",
+                "slots": [
+                    { "name": "suggestion", "hintVi": "thời gian, nơi chốn hoặc động từ -ing", "options": ["Saturday", "seven o'clock", "the new Thai restaurant", "seeing a movie"] }
+                ]
+            },
+            "noteVi": "Sau How about là danh từ hoặc động từ -ing: How about going out? ❌ \"How about go out?\"."
+        },
+        {
+            "slug": "invite",
+            "type": "LEXICAL",
+            "text": "invite",
+            "meaningVi": "mời",
+            "ipa": "/ɪnˈvaɪt/",
+            "examples": [
+                { "en": "She invited me to her birthday party.", "vi": "Cô ấy mời mình đến tiệc sinh nhật.", "highlight": "invited" }
+            ],
+            "noteVi": "Mời ai đến đâu: invite someone to something. Tiếng Việt \"mời\" khi trả tiền là It's on me / My treat, không phải invite."
+        },
+        {
+            "slug": "party",
+            "type": "LEXICAL",
+            "text": "party",
+            "meaningVi": "bữa tiệc",
+            "ipa": "/ˈpɑːrti/",
+            "examples": [
+                { "en": "I'm going to have a party on Saturday.", "vi": "Thứ Bảy mình tổ chức tiệc.", "highlight": "party" }
+            ],
+            "noteVi": "Tổ chức tiệc: have a party (hoặc throw a party). Người Mỹ đọc t giữa như /d/ nhẹ: \"par-dy\"."
+        },
+        {
+            "slug": "sure",
+            "type": "LEXICAL",
+            "text": "sure",
+            "meaningVi": "chắc chắn; được chứ, tất nhiên",
+            "ipa": "/ʃʊr/",
+            "examples": [
+                { "en": "Can you come at seven? Sure!", "vi": "Bạn đến lúc bảy giờ được không? Được chứ!", "highlight": "Sure" }
+            ],
+            "noteVi": "Âm đầu /ʃ/ như \"s\" uốn lưỡi. Không chắc: I'm not sure."
+        },
+        {
+            "slug": "verb-to-infinitive",
+            "type": "GRAMMAR",
+            "text": "want / hope / plan / would like + to + verb",
+            "meaningVi": "động từ chỉ mong muốn + to + động từ",
+            "examples": [
+                { "en": "I want to learn Japanese, and I hope to live abroad.", "vi": "Mình muốn học tiếng Nhật và hy vọng sống ở nước ngoài.", "highlight": "hope to live" }
+            ],
+            "grammar": {
+                "ruleVi": "Sau các động từ chỉ mong muốn, dự định (want, hope, plan, would like, need), động từ thứ hai có to đứng trước và ở nguyên mẫu.",
+                "forms": [
+                    { "label": "want to", "example": "I want to travel." },
+                    { "label": "hope to", "example": "She hopes to get a job in Da Nang." },
+                    { "label": "plan to", "example": "We plan to save money." },
+                    { "label": "would like to", "example": "I'd like to go to Japan." },
+                    { "label": "phủ định", "example": "I don't want to work on Sunday." }
+                ],
+                "pitfallsVi": [
+                    "Thiếu to: \"I want travel\" → I want to travel.",
+                    "Thêm -ing: \"I hope to seeing you\" → I hope to see you.",
+                    "Với he/she thì -s nằm ở động từ đầu: She wants to go (❌ She want to goes)."
+                ]
+            }
+        },
+        {
+            "slug": "i-want-to",
+            "type": "PATTERN",
+            "text": "I want to … someday.",
+            "meaningVi": "Tôi muốn một ngày nào đó …",
+            "examples": [
+                { "en": "I want to travel around the world someday.", "vi": "Một ngày nào đó mình muốn đi vòng quanh thế giới.", "highlight": "I want to travel" }
+            ],
+            "pattern": {
+                "template": "I want to {do} someday.",
+                "slots": [
+                    { "name": "do", "hintVi": "động từ nguyên mẫu (+ tân ngữ)", "options": ["travel abroad", "learn Japanese", "have my own business", "live by the beach"] }
+                ]
+            },
+            "noteVi": "Nói lịch sự hơn: I'd like to … Nói chắc hơn (đã định): I'm going to …"
+        },
+        {
+            "slug": "hope",
+            "type": "LEXICAL",
+            "text": "hope",
+            "meaningVi": "hy vọng",
+            "ipa": "/hoʊp/",
+            "examples": [
+                { "en": "I hope to see you soon.", "vi": "Mong sớm gặp lại bạn.", "highlight": "hope" }
+            ],
+            "noteVi": "Giữ âm cuối /p/. hope to + động từ; hoặc hope + câu: I hope you like it."
+        },
+        {
+            "slug": "learn",
+            "type": "LEXICAL",
+            "text": "learn",
+            "meaningVi": "học (một kỹ năng, điều mới)",
+            "ipa": "/lɜːrn/",
+            "examples": [
+                { "en": "I want to learn to play the guitar.", "vi": "Mình muốn học chơi guitar.", "highlight": "learn" }
+            ],
+            "noteVi": "learn là học để biết (kỹ năng, ngôn ngữ); study là ngồi học, học ở trường. learn English và study English đều được."
+        },
+        {
+            "slug": "travel",
+            "type": "LEXICAL",
+            "text": "travel",
+            "meaningVi": "đi du lịch, đi xa",
+            "ipa": "/ˈtrævəl/",
+            "examples": [
+                { "en": "I love to travel with my family.", "vi": "Mình thích đi du lịch cùng gia đình.", "highlight": "travel" }
+            ],
+            "noteVi": "travel là động từ; một chuyến đi cụ thể là a trip: I'm going on a trip. ❌ \"I'm going to travel to go Da Lat\"."
+        },
+        {
+            "slug": "save-money",
+            "type": "PHRASE",
+            "text": "save money",
+            "meaningVi": "tiết kiệm tiền",
+            "examples": [
+                { "en": "I'm saving money for a trip to Japan.", "vi": "Mình đang tiết kiệm tiền cho chuyến đi Nhật.", "highlight": "saving money" }
+            ],
+            "noteVi": "Tiết kiệm để làm gì: save money for something, save (money) to buy …"
+        },
+        {
+            "slug": "dream",
+            "type": "LEXICAL",
+            "text": "dream",
+            "meaningVi": "ước mơ; giấc mơ; mơ",
+            "ipa": "/driːm/",
+            "examples": [
+                { "en": "My dream is to open a coffee shop.", "vi": "Ước mơ của mình là mở một quán cà phê.", "highlight": "dream" }
+            ],
+            "noteVi": "Ước mơ là…: My dream is to + động từ. Giữ âm cuối /m/."
+        },
+        {
+            "slug": "abroad",
+            "type": "LEXICAL",
+            "text": "abroad",
+            "meaningVi": "ở nước ngoài, ra nước ngoài",
+            "ipa": "/əˈbrɔːd/",
+            "examples": [
+                { "en": "She wants to study abroad next year.", "vi": "Năm sau cô ấy muốn đi du học.", "highlight": "abroad" }
+            ],
+            "noteVi": "abroad không có to: go abroad, study abroad (❌ \"go to abroad\")."
+        },
+        {
+            "slug": "someday",
+            "type": "LEXICAL",
+            "text": "someday",
+            "meaningVi": "một ngày nào đó",
+            "ipa": "/ˈsʌmdeɪ/",
+            "examples": [
+                { "en": "Someday, I'm going to visit Paris.", "vi": "Một ngày nào đó mình sẽ đến Paris.", "highlight": "Someday" }
+            ],
+            "noteVi": "Nói về tương lai chưa rõ khi nào. Đứng đầu hoặc cuối câu."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "a2-04-would-you-like-to-come",
+            "title": "Would you like to come?",
+            "situationVi": "Một người bạn mời bạn đến tiệc sinh nhật và đi đá bóng. Nhận một lời mời, từ chối lời mời còn lại.",
+            "lines": [
+                { "speaker": "Minh", "en": "Are you free on Saturday?", "vi": "Thứ Bảy bạn rảnh không?" },
+                { "speaker": "You", "en": "I think so. Why?", "vi": "Chắc là rảnh. Sao thế?", "learnerTurn": true },
+                { "speaker": "Minh", "en": "It's my birthday, and I'm going to have a party. Would you like to come?", "vi": "Sinh nhật mình, mình định tổ chức tiệc. Bạn có muốn đến không?" },
+                { "speaker": "You", "en": "I'd love to! What time?", "vi": "Có chứ! Mấy giờ vậy?", "learnerTurn": true },
+                { "speaker": "Minh", "en": "At seven. And on Sunday we're going to play soccer. Would you like to play?", "vi": "Bảy giờ. Còn Chủ nhật bọn mình định đá bóng. Bạn có muốn chơi không?" },
+                { "speaker": "You", "en": "Sorry, I can't. I'm going to visit my grandparents. Maybe another time.", "vi": "Xin lỗi, mình không được rồi. Mình định về thăm ông bà. Để dịp khác nhé.", "learnerTurn": true },
+                { "speaker": "Minh", "en": "No problem. See you on Saturday!", "vi": "Không sao. Hẹn gặp bạn thứ Bảy!" }
+            ]
+        },
+        {
+            "slug": "a2-04-dreams-and-plans",
+            "title": "Dreams and plans",
+            "situationVi": "Chị Anna, người hướng dẫn ở chỗ thực tập, hỏi bạn dự định sau khi tốt nghiệp.",
+            "lines": [
+                { "speaker": "Anna", "en": "So, what are you going to do after you graduate?", "vi": "Vậy tốt nghiệp xong em định làm gì?" },
+                { "speaker": "You", "en": "I want to get a job at an international company.", "vi": "Em muốn xin việc ở một công ty quốc tế.", "learnerTurn": true },
+                { "speaker": "Anna", "en": "Great! And do you want to travel?", "vi": "Hay đấy! Thế em có muốn đi du lịch không?" },
+                { "speaker": "You", "en": "Yes! I hope to travel abroad someday. I'm saving money now.", "vi": "Có ạ! Em hy vọng một ngày nào đó được ra nước ngoài. Giờ em đang tiết kiệm tiền.", "learnerTurn": true },
+                { "speaker": "Anna", "en": "Where would you like to go?", "vi": "Em muốn đi đâu?" },
+                { "speaker": "You", "en": "I'd like to go to Japan. I'm going to learn some Japanese next year.", "vi": "Em muốn đi Nhật. Năm sau em định học một chút tiếng Nhật.", "learnerTurn": true },
+                { "speaker": "Anna", "en": "That sounds like a great plan!", "vi": "Nghe là một kế hoạch tuyệt đấy!" }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "a2-04-l1-this-weekend",
+            "title": "What are you going to do?",
+            "titleVi": "Bạn định làm gì?",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "be-going-to", "role": "INTRODUCE" },
+                { "item": "im-going-to", "role": "INTRODUCE" },
+                { "item": "what-are-you-going-to-do", "role": "INTRODUCE" },
+                { "item": "this-weekend", "role": "INTRODUCE" },
+                { "item": "next-week", "role": "INTRODUCE" },
+                { "item": "tonight", "role": "INTRODUCE" },
+                { "item": "plan", "role": "INTRODUCE" },
+                { "item": "soon", "role": "INTRODUCE" },
+                { "item": "tomorrow", "role": "RECYCLE" },
+                { "item": "last-week", "role": "RECYCLE" },
+                { "item": "present-continuous", "role": "RECYCLE" },
+                { "item": "visit", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["im-going-to", "what-are-you-going-to-do", "this-weekend", "next-week", "tonight", "plan", "soon"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Kế hoạch: be going to + động từ",
+                        "bodyVi": "Việc **đã định làm**: **am / is / are + going to** + động từ nguyên mẫu.\n\n| chủ ngữ | be going to + động từ |\n|---|---|\n| I | **'m going to** visit my parents. |\n| he / she | **'s going to** buy a car. |\n| you / we / they | **'re going to** move. |\n\nHỏi: **What are you going to do** this weekend? **Are you going to** come? → **Yes, I am.**\n\nQuá khứ và tương lai, không giới từ:\n\n| đã qua | sắp tới |\n|---|---|\n| yesterday, last night | **tomorrow**, **tonight** |\n| last week | **next week** |\n| last weekend | **this weekend** |\n\n❌ I going to study. ❌ I'm going to studying. ✅ I**'m going to study**.",
+                        "items": ["be-going-to", "im-going-to", "what-are-you-going-to-do", "present-continuous", "tomorrow", "last-week", "next-week", "tonight"],
+                        "examples": [
+                            { "en": "Last week I was busy, but next week I'm going to relax.", "vi": "Tuần trước mình bận, nhưng tuần sau mình định nghỉ ngơi.", "highlight": "I'm going to relax" },
+                            { "en": "Are you going to come tonight? Yes, I am.", "vi": "Tối nay bạn có đến không? Có.", "highlight": "Are you going to come" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "im-going-to",
+                        "prompts": [
+                            { "cueVi": "Cuối tuần này mình định về thăm ông bà.", "slots": { "do": "visit my grandparents", "when": "this weekend" }, "answer": "I'm going to visit my grandparents this weekend." },
+                            { "cueVi": "Tối nay mình định ở nhà.", "slots": { "do": "stay home", "when": "tonight" }, "answer": "I'm going to stay home tonight." },
+                            { "cueVi": "Tuần sau mình định học tiếng Anh.", "slots": { "do": "study English", "when": "next week" }, "answer": "I'm going to study English next week." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["what-are-you-going-to-do", "this-weekend", "next-week", "tonight", "plan", "soon", "tomorrow", "visit"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "What are you going to do this weekend?", "vi": "Cuối tuần này bạn định làm gì?" },
+                            { "en": "I'm going to see a movie tonight.", "vi": "Tối nay mình định đi xem phim." },
+                            { "en": "We're going to move next week.", "vi": "Tuần sau nhà mình chuyển nhà." },
+                            { "en": "She's going to get a new job soon.", "vi": "Sắp tới cô ấy sẽ có việc mới." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I going to study tonight.", "I'm going to study tonight.", "I'm going to studying tonight."],
+                                "answer": 1,
+                                "item": "be-going-to"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "She's going ___ visit her parents.",
+                                "answers": ["to"],
+                                "item": "be-going-to"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Tuần sau\" là:",
+                                "options": ["in next week", "the week after", "next week"],
+                                "answer": 2,
+                                "item": "next-week"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Do you have any plans for tonight?",
+                                "options": ["Tối nay bạn có kế hoạch gì không?", "Tối qua bạn có đi đâu không?", "Bạn có thích lên kế hoạch không?"],
+                                "answer": 0,
+                                "item": "plan"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Cuối tuần này bạn định làm gì?",
+                                "answer": "What are you going to do this weekend?",
+                                "item": "what-are-you-going-to-do"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a2-04-l2-would-you-like-to",
+            "title": "Would you like to come?",
+            "titleVi": "Mời và nhận lời",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "would-you-like-to", "role": "INTRODUCE" },
+                { "item": "id-love-to", "role": "INTRODUCE" },
+                { "item": "sorry-i-cant", "role": "INTRODUCE" },
+                { "item": "maybe-another-time", "role": "INTRODUCE" },
+                { "item": "how-about", "role": "INTRODUCE" },
+                { "item": "invite", "role": "INTRODUCE" },
+                { "item": "party", "role": "INTRODUCE" },
+                { "item": "sure", "role": "INTRODUCE" },
+                { "item": "are-you-free-on", "role": "RECYCLE" },
+                { "item": "lets-meet", "role": "RECYCLE" },
+                { "item": "busy", "role": "RECYCLE" },
+                { "item": "do-you-like", "role": "RECYCLE" },
+                { "item": "im-going-to", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["would-you-like-to", "id-love-to", "sorry-i-cant", "maybe-another-time", "how-about", "invite", "party", "sure"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Mời, nhận lời, từ chối",
+                        "bodyVi": "**Mời:** **Would you like to** + động từ? (lịch sự hơn Do you want to…?)\n\n**Would you like to** see a movie? khác **Do you like** movies? (hỏi sở thích).\n\n| nhận lời | từ chối lịch sự |\n|---|---|\n| **I'd love to!** | **Sorry, I can't.** + lý do |\n| **Sure!** | **Maybe another time.** |\n\nTừ chối nên có lý do bằng going to: Sorry, I can't. **I'm going to** visit my parents.\n\nGợi ý thời gian khác: **How about** Saturday? **How about** seeing a movie? (sau How about là danh từ hoặc -ing).\n\n❌ Would you like go? ❌ Yes, I would like. ✅ Would you like **to** go? → **I'd love to!**",
+                        "items": ["would-you-like-to", "do-you-like", "id-love-to", "sorry-i-cant", "maybe-another-time", "how-about", "im-going-to", "sure"],
+                        "examples": [
+                            { "en": "Would you like to come to my party? I'd love to!", "vi": "Bạn có muốn đến tiệc của mình không? Có chứ!", "highlight": "Would you like to come" },
+                            { "en": "Sorry, I can't on Friday. How about Saturday?", "vi": "Xin lỗi, thứ Sáu mình không được. Thứ Bảy thì sao?", "highlight": "How about Saturday?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "would-you-like-to",
+                        "prompts": [
+                            { "cueVi": "Mời bạn đến tiệc của mình.", "slots": { "do": "come to my party" }, "answer": "Would you like to come to my party?" },
+                            { "cueVi": "Mời bạn đi xem phim tối nay.", "slots": { "do": "see a movie tonight" }, "answer": "Would you like to see a movie tonight?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "how-about",
+                        "prompts": [
+                            { "cueVi": "Gợi ý: thứ Bảy thì sao?", "slots": { "suggestion": "Saturday" }, "answer": "How about Saturday?" },
+                            { "cueVi": "Gợi ý: đi xem phim thì sao?", "slots": { "suggestion": "seeing a movie" }, "answer": "How about seeing a movie?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["id-love-to", "sorry-i-cant", "maybe-another-time", "invite", "party", "sure", "are-you-free-on", "busy"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a2-04-would-you-like-to-come", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn muốn mời một người đi ăn tối. Câu nào lịch sự nhất?",
+                                "options": ["Do you like dinner with me?", "Would you like to have dinner with me?", "You have dinner with me."],
+                                "answer": 1,
+                                "item": "would-you-like-to"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Would you like to come?\" Bạn muốn nhận lời:",
+                                "options": ["I'd love to!", "Yes, I would like.", "Yes, I like."],
+                                "answer": 0,
+                                "item": "id-love-to"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I'm busy on Friday. How ___ Saturday?",
+                                "answers": ["about"],
+                                "item": "how-about"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Sorry, I can't. Maybe another time.",
+                                "options": ["Xin lỗi, mình không được rồi. Để dịp khác nhé.", "Xin lỗi, mình đến muộn. Lần sau nhé.", "Xin lỗi, mình không biết. Hỏi lại sau nhé."],
+                                "answer": 0,
+                                "item": "maybe-another-time"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Cô ấy mời mình đến tiệc của cô ấy.",
+                                "answer": "She invited me to her party.",
+                                "item": "invite"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "a2-04-l3-dreams",
+            "title": "Hopes and dreams",
+            "titleVi": "Mong muốn và ước mơ",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "verb-to-infinitive", "role": "INTRODUCE" },
+                { "item": "i-want-to", "role": "INTRODUCE" },
+                { "item": "hope", "role": "INTRODUCE" },
+                { "item": "learn", "role": "INTRODUCE" },
+                { "item": "travel", "role": "INTRODUCE" },
+                { "item": "save-money", "role": "INTRODUCE" },
+                { "item": "dream", "role": "INTRODUCE" },
+                { "item": "abroad", "role": "INTRODUCE" },
+                { "item": "someday", "role": "INTRODUCE" },
+                { "item": "be-going-to", "role": "RECYCLE" },
+                { "item": "get-a-job", "role": "RECYCLE" },
+                { "item": "id-like", "role": "RECYCLE" },
+                { "item": "graduate", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["i-want-to", "hope", "learn", "travel", "save-money", "dream", "abroad", "someday"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "want to, hope to, would like to",
+                        "bodyVi": "Sau các động từ chỉ **mong muốn, dự định**, động từ thứ hai có **to** đứng trước:\n\n| | ví dụ |\n|---|---|\n| **want to** | I **want to** learn Japanese. |\n| **hope to** | She **hopes to** get a job in Da Nang. |\n| **would like to** | I**'d like to** go to Japan. (lịch sự) |\n| **plan to** | We **plan to** save money. |\n\nMức chắc chắn: I **want to** / **hope to** (mong) → I**'m going to** (đã định làm).\n\n❌ I want travel. ❌ She want to goes. ✅ I want **to travel**. She **wants to go**.\n\n**abroad** không có to: go **abroad**, study **abroad**.",
+                        "items": ["verb-to-infinitive", "i-want-to", "hope", "id-like", "be-going-to", "abroad"],
+                        "examples": [
+                            { "en": "I want to travel, so I'm going to save money this year.", "vi": "Mình muốn đi du lịch, nên năm nay mình sẽ tiết kiệm tiền.", "highlight": "I want to travel" },
+                            { "en": "My dream is to study abroad.", "vi": "Ước mơ của mình là đi du học.", "highlight": "study abroad" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "i-want-to",
+                        "prompts": [
+                            { "cueVi": "Một ngày nào đó mình muốn ra nước ngoài.", "slots": { "do": "travel abroad" }, "answer": "I want to travel abroad someday." },
+                            { "cueVi": "Một ngày nào đó mình muốn học tiếng Nhật.", "slots": { "do": "learn Japanese" }, "answer": "I want to learn Japanese someday." },
+                            { "cueVi": "Một ngày nào đó mình muốn có công ty riêng.", "slots": { "do": "have my own business" }, "answer": "I want to have my own business someday." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["hope", "learn", "travel", "save-money", "dream", "abroad", "someday", "get-a-job"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "a2-04-dreams-and-plans", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I want travel abroad.", "I want to travel abroad.", "I want to travel to abroad."],
+                                "answer": 1,
+                                "item": "verb-to-infinitive"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["She wants to goes to Japan.", "She want to go to Japan.", "She wants to go to Japan."],
+                                "answer": 2,
+                                "item": "verb-to-infinitive"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I'm ___ money for a new laptop.",
+                                "hintVi": "tiết kiệm (-ing)",
+                                "answers": ["saving"],
+                                "item": "save-money"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "My dream is to study abroad.",
+                                "options": ["Mình mơ thấy đi du học.", "Ước mơ của mình là đi du học.", "Mình định đi du lịch nước ngoài."],
+                                "answer": 1,
+                                "item": "dream"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Mong sớm gặp lại bạn.",
+                                "answer": "I hope to see you soon.",
+                                "item": "hope"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "a2-04-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["We going to move next month.", "We're going to move next month.", "We're going to moving next month."],
+                "answer": 1,
+                "item": "be-going-to"
+            },
+            {
+                "kind": "gap",
+                "sentence": "What are you going to ___ tonight?",
+                "answers": ["do"],
+                "item": "what-are-you-going-to-do"
+            },
+            {
+                "kind": "choice",
+                "prompt": "\"Would you like to have lunch with us?\" Bạn bận. Câu nào lịch sự nhất?",
+                "options": ["No.", "Sorry, I can't. I have a meeting. Maybe another time.", "I don't like lunch."],
+                "answer": 1,
+                "item": "sorry-i-cant"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "How about seeing a movie on Sunday?",
+                "options": ["Chủ nhật bạn đã xem phim gì?", "Chủ nhật đi xem phim thì sao?", "Chủ nhật bạn thích xem phim không?"],
+                "answer": 1,
+                "item": "how-about"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["I hope to see you soon.", "I hope seeing you soon.", "I hope see you soon."],
+                "answer": 0,
+                "item": "verb-to-infinitive"
+            },
+            {
+                "kind": "order",
+                "vi": "Một ngày nào đó mình muốn ra nước ngoài.",
+                "answer": "I want to go abroad someday.",
+                "item": "i-want-to"
+            }
+        ]
+    }
+}

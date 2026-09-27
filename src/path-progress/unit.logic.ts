@@ -91,7 +91,11 @@ export function computeProgress(
     );
 
     let previousCleared = true;
+    // The next lesson is the first open one in a unit not cleared yet; lessons
+    // of cleared units (placed past, skipped) stay open for review but are not
+    // "next". Only when nothing else is open do they count.
     let currentLessonId: string | null = null;
+    let firstOpenLessonId: string | null = null;
     let completedLessonCount = 0;
     let totalLessonCount = 0;
 
@@ -121,8 +125,9 @@ export function computeProgress(
                   ? 'available'
                   : 'locked';
             previousDone = done;
-            if (state === 'available' && currentLessonId === null) {
-                currentLessonId = lesson.id;
+            if (state === 'available') {
+                firstOpenLessonId ??= lesson.id;
+                if (!cleared) currentLessonId ??= lesson.id;
             }
             return { lessonId: lesson.id, state };
         });
@@ -151,7 +156,7 @@ export function computeProgress(
 
     return {
         units: unitProgress,
-        currentLessonId,
+        currentLessonId: currentLessonId ?? firstOpenLessonId,
         completedLessonCount,
         totalLessonCount,
     };

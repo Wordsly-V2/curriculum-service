@@ -275,6 +275,69 @@
             "hintVi": "một nơi mà bạn mua được thuốc",
             "answers": ["place"],
             "item": "its-a-place-where"
+        },
+        {
+            "unit": "a2-01-where-were-you",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["Yesterday we are at home.", "Yesterday we was at home.", "Yesterday we were at home."],
+            "answer": 2,
+            "item": "was-were"
+        },
+        {
+            "unit": "a2-01-where-were-you",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["I born in 1999.", "I was born in 1999.", "I was born on 1999."],
+            "answer": 1,
+            "item": "i-was-born-in"
+        },
+        {
+            "unit": "a2-02-last-weekend",
+            "kind": "gap",
+            "sentence": "Last Saturday I ___ to the beach with my friends.",
+            "hintVi": "đi (quá khứ)",
+            "answers": ["went"],
+            "item": "went"
+        },
+        {
+            "unit": "a2-02-last-weekend",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["Did you saw the movie?", "Did you see the movie?", "Do you saw the movie?"],
+            "answer": 1,
+            "item": "past-simple-did"
+        },
+        {
+            "unit": "a2-03-my-story",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["When I was a kid, I used to live in a village.", "When I was a kid, I use to living in a village.", "When I kid, I used to live in a village."],
+            "answer": 0,
+            "item": "used-to"
+        },
+        {
+            "unit": "a2-03-my-story",
+            "kind": "order",
+            "vi": "Sau đó, bọn mình đi taxi về nhà.",
+            "answer": "After that, we took a taxi home.",
+            "item": "after-that"
+        },
+        {
+            "unit": "a2-04-plans",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["I'm going to visit my parents this weekend.", "I going to visit my parents this weekend.", "I'm going to visiting my parents this weekend."],
+            "answer": 0,
+            "item": "be-going-to"
+        },
+        {
+            "unit": "a2-04-plans",
+            "kind": "choice",
+            "prompt": "Bạn mình mời: \"Would you like to come to my party?\" Bạn muốn nhận lời. Bạn nói:",
+            "options": ["Yes, I would like.", "I'd love to!", "Yes, I like party."],
+            "answer": 1,
+            "item": "id-love-to"
         }
     ]
 }
