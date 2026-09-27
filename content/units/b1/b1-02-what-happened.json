@@ -1,0 +1,741 @@
+{
+    "slug": "b1-02-what-happened",
+    "stage": "b1",
+    "order": 2,
+    "title": "What happened?",
+    "titleVi": "Chuyện gì đã xảy ra?",
+    "descriptionVi": "Nói lúc đó mình đang làm gì (was / were + V-ing), kể một việc bất ngờ xen vào (I was … when …, while), rồi kể trọn một câu chuyện ngắn và phản ứng khi nghe người khác kể.",
+    "canDo": [
+        "Tôi nói được lúc đó mình đang làm gì và hỏi What were you doing?",
+        "Tôi kể được một việc xảy ra giữa chừng khi đang làm việc khác (was doing when…, while…).",
+        "Tôi kể được một câu chuyện ngắn có mở đầu, diễn biến, kết thúc, và phản ứng được khi nghe người khác kể."
+    ],
+    "items": [
+        {
+            "slug": "past-continuous",
+            "type": "GRAMMAR",
+            "text": "was / were + V-ing",
+            "meaningVi": "quá khứ tiếp diễn: lúc đó đang …",
+            "examples": [
+                { "en": "At nine last night, I was watching a movie.", "vi": "Chín giờ tối qua mình đang xem phim.", "highlight": "I was watching" }
+            ],
+            "grammar": {
+                "ruleVi": "Việc đang diễn ra ở một thời điểm trong quá khứ: was / were + V-ing. Hay dùng để dựng bối cảnh cho câu chuyện (trời đang mưa, mọi người đang…). Tiếng Việt chỉ thêm \"lúc đó đang\"; tiếng Anh phải có was / were và -ing.",
+                "forms": [
+                    { "label": "khẳng định", "example": "At 8 p.m. I was watching TV. They were having dinner." },
+                    { "label": "phủ định", "example": "I wasn't sleeping. We weren't listening." },
+                    { "label": "câu hỏi", "example": "What were you doing at 10 last night? Were you working?" },
+                    { "label": "bối cảnh", "example": "It was raining, and everyone was hurrying home." }
+                ],
+                "pitfallsVi": [
+                    "Quên was / were: \"I watching TV at 8\" → I was watching TV at 8.",
+                    "Quên -ing: \"I was watch TV\" → I was watching TV.",
+                    "\"They was playing\" → They were playing.",
+                    "Động từ trạng thái: \"I was knowing the answer\" → I knew the answer."
+                ]
+            }
+        },
+        {
+            "slug": "what-were-you-doing",
+            "type": "PATTERN",
+            "text": "What were you doing …?",
+            "meaningVi": "Lúc … bạn đang làm gì?",
+            "examples": [
+                { "en": "What were you doing when I called?", "vi": "Lúc mình gọi bạn đang làm gì?", "highlight": "What were you doing" }
+            ],
+            "pattern": {
+                "template": "What were you doing {when}?",
+                "slots": [
+                    { "name": "when", "hintVi": "một thời điểm trong quá khứ", "options": ["at eight last night", "when I called", "yesterday afternoon", "at that time", "when it started raining"] }
+                ]
+            },
+            "noteVi": "Trả lời bằng I was + V-ing. ❌ \"What did you doing?\", ❌ \"What were you do?\""
+        },
+        {
+            "slug": "i-was-doing",
+            "type": "PATTERN",
+            "text": "I was … (at …).",
+            "meaningVi": "Lúc … mình đang ….",
+            "examples": [
+                { "en": "I was having dinner at eight.", "vi": "Lúc tám giờ mình đang ăn tối.", "highlight": "I was having dinner" }
+            ],
+            "pattern": {
+                "template": "I was {doing} {when}.",
+                "slots": [
+                    { "name": "doing", "hintVi": "V-ing + phần còn lại", "options": ["watching TV", "having dinner", "sleeping", "working late", "driving home"] },
+                    { "name": "when", "hintVi": "thời điểm hoặc khoảng thời gian", "options": ["at nine p.m.", "when you called", "all evening", "at that time", "at midnight"] }
+                ]
+            },
+            "noteVi": "was đọc nhẹ /wəz/. I was having dinner (đang ăn) khác I had dinner (đã ăn xong)."
+        },
+        {
+            "slug": "happen",
+            "type": "LEXICAL",
+            "text": "happen",
+            "meaningVi": "xảy ra",
+            "ipa": "/ˈhæpən/",
+            "examples": [
+                { "en": "What happened? You look tired.", "vi": "Có chuyện gì vậy? Trông bạn mệt thế.", "highlight": "happened" }
+            ],
+            "noteVi": "Không dùng bị động: ❌ \"What was happened?\" → What happened? Xảy ra với ai: What happened to you?"
+        },
+        {
+            "slug": "at-that-time",
+            "type": "PHRASE",
+            "text": "at that time / at the time",
+            "meaningVi": "lúc đó, hồi đó",
+            "examples": [
+                { "en": "At that time, I was living with my parents.", "vi": "Hồi đó mình đang sống với bố mẹ.", "highlight": "At that time" }
+            ],
+            "noteVi": "❌ \"in that time\". Thân mật hơn: back then."
+        },
+        {
+            "slug": "rain",
+            "type": "LEXICAL",
+            "text": "rain",
+            "meaningVi": "mưa; trời mưa",
+            "ipa": "/reɪn/",
+            "examples": [
+                { "en": "It was raining hard when I left the office.", "vi": "Lúc mình rời văn phòng trời đang mưa to.", "highlight": "raining" }
+            ],
+            "noteVi": "Động từ: It's raining / It was raining (❌ \"It was rain\"). Danh từ không đếm được: heavy rain (mưa to). Tính từ rainy (A1)."
+        },
+        {
+            "slug": "ring",
+            "type": "LEXICAL",
+            "text": "ring",
+            "meaningVi": "(điện thoại, chuông) reo",
+            "ipa": "/rɪŋ/",
+            "examples": [
+                { "en": "I was taking a shower when the phone rang.", "vi": "Mình đang tắm thì điện thoại reo.", "highlight": "rang" }
+            ],
+            "noteVi": "ring – rang – rung. Giữ âm /ŋ/ ở cuối, đừng đọc thành \"rin\"."
+        },
+        {
+            "slug": "fall-asleep",
+            "type": "PHRASE",
+            "text": "fall asleep",
+            "meaningVi": "ngủ thiếp đi",
+            "examples": [
+                { "en": "I fell asleep while I was watching TV.", "vi": "Mình ngủ quên lúc đang xem TV.", "highlight": "fell asleep" }
+            ],
+            "noteVi": "Quá khứ: fell asleep. Khác go to bed (lên giường đi ngủ) và sleep (ngủ). Ngủ quên, dậy muộn: oversleep / sleep in."
+        },
+        {
+            "slug": "past-simple-vs-continuous",
+            "type": "GRAMMAR",
+            "text": "was doing when … did / while …",
+            "meaningVi": "đang … thì … (việc ngắn xen vào việc dài)",
+            "examples": [
+                { "en": "I was cooking when the phone rang.", "vi": "Mình đang nấu ăn thì điện thoại reo.", "highlight": "was cooking when" }
+            ],
+            "grammar": {
+                "ruleVi": "Việc dài (đang diễn ra, làm nền) dùng quá khứ tiếp diễn. Việc ngắn xen vào dùng quá khứ đơn. when đi với việc ngắn, while đi với việc dài. Kể một chuỗi việc nối tiếp nhau thì toàn quá khứ đơn.",
+                "forms": [
+                    { "label": "bị xen vào", "example": "I was cooking when the phone rang." },
+                    { "label": "while", "example": "While I was walking home, I saw an accident." },
+                    { "label": "song song", "example": "I was studying while my sister was watching TV." },
+                    { "label": "chuỗi việc", "example": "I got up, had a shower and left. (không dùng -ing)" }
+                ],
+                "pitfallsVi": [
+                    "Dùng -ing cho việc ngắn: \"I was walking when I was seeing an accident\" → … when I saw an accident.",
+                    "Dùng quá khứ đơn cho cả hai: \"I cooked when the phone rang\" nghĩa là nghe chuông rồi mới nấu → I was cooking when the phone rang.",
+                    "while với việc ngắn: \"while the phone rang\" → when the phone rang."
+                ]
+            }
+        },
+        {
+            "slug": "i-was-when",
+            "type": "PATTERN",
+            "text": "I was … when ….",
+            "meaningVi": "Mình đang … thì ….",
+            "examples": [
+                { "en": "I was walking home when it started to rain.", "vi": "Mình đang đi bộ về nhà thì trời bắt đầu mưa.", "highlight": "I was walking home when" }
+            ],
+            "pattern": {
+                "template": "I was {doing} when {event}.",
+                "slots": [
+                    { "name": "doing", "hintVi": "việc dài: V-ing + phần còn lại", "options": ["cooking", "walking home", "taking a shower", "sleeping", "driving to work"] },
+                    { "name": "event", "hintVi": "việc ngắn xen vào: quá khứ đơn", "options": ["the phone rang", "it started to rain", "I saw her", "the lights went out", "my boss called"] }
+                ]
+            },
+            "noteVi": "Vế sau when là quá khứ đơn: ❌ \"when the phone was ringing\" khi ý là chuông reo một lần."
+        },
+        {
+            "slug": "while",
+            "type": "LEXICAL",
+            "text": "while",
+            "meaningVi": "trong khi, trong lúc",
+            "ipa": "/waɪl/",
+            "examples": [
+                { "en": "While I was cooking, my son was doing his homework.", "vi": "Trong lúc mình nấu ăn, con mình làm bài tập.", "highlight": "While" }
+            ],
+            "noteVi": "while + việc kéo dài (thường là was / were + V-ing). Việc ngắn dùng when: ❌ \"while the phone rang\"."
+        },
+        {
+            "slug": "accident",
+            "type": "LEXICAL",
+            "text": "accident",
+            "meaningVi": "tai nạn",
+            "ipa": "/ˈæksɪdənt/",
+            "examples": [
+                { "en": "There was an accident on the highway this morning.", "vi": "Sáng nay có tai nạn trên đường cao tốc.", "highlight": "accident" }
+            ],
+            "noteVi": "Nhấn âm đầu: AC-ci-dent. Bị tai nạn: have an accident / be in an accident. by accident = vô tình."
+        },
+        {
+            "slug": "fell",
+            "type": "LEXICAL",
+            "text": "fell",
+            "meaningVi": "quá khứ của fall: ngã, rơi",
+            "ipa": "/fel/",
+            "examples": [
+                { "en": "She fell off her bike and hurt her arm.", "vi": "Cô ấy ngã xe và bị đau tay.", "highlight": "fell" }
+            ],
+            "noteVi": "fall – fell – fallen. Ngã khỏi xe: fell off. ❌ \"falled\". Đừng nhầm với feel – felt (cảm thấy)."
+        },
+        {
+            "slug": "lost",
+            "type": "LEXICAL",
+            "text": "lost",
+            "meaningVi": "quá khứ của lose: làm mất; (bị) lạc",
+            "ipa": "/lɔːst/",
+            "examples": [
+                { "en": "I lost my wallet on the bus.", "vi": "Mình làm mất ví trên xe buýt.", "highlight": "lost" }
+            ],
+            "noteVi": "lose – lost – lost. Bị lạc đường: get lost (We got lost). lose /luːz/ khác loose /luːs/ (lỏng)."
+        },
+        {
+            "slug": "on-my-way",
+            "type": "PHRASE",
+            "text": "on my way (home / to work)",
+            "meaningVi": "trên đường (về nhà / đi làm)",
+            "examples": [
+                { "en": "I saw an accident on my way to work.", "vi": "Mình thấy một vụ tai nạn trên đường đi làm.", "highlight": "on my way" }
+            ],
+            "noteVi": "on my way home (không có to trước home, như go home). Nhắn tin \"I'm on my way!\" = Mình đang tới đây."
+        },
+        {
+            "slug": "guess-what",
+            "type": "PHRASE",
+            "text": "Guess what!",
+            "meaningVi": "Đoán xem!",
+            "examples": [
+                { "en": "Guess what! I met a famous singer at the airport!", "vi": "Đoán xem! Mình gặp một ca sĩ nổi tiếng ở sân bay!", "highlight": "Guess what" }
+            ],
+            "noteVi": "Mở đầu khi kể tin bất ngờ. Người nghe thường đáp: What? / What happened?"
+        },
+        {
+            "slug": "you-wont-believe",
+            "type": "PHRASE",
+            "text": "You won't believe what happened!",
+            "meaningVi": "Bạn không tin nổi chuyện gì đã xảy ra đâu!",
+            "examples": [
+                { "en": "You won't believe what happened on my way home!", "vi": "Bạn không tin nổi chuyện xảy ra trên đường mình về đâu!", "highlight": "You won't believe what happened" }
+            ],
+            "noteVi": "won't = will not. Câu mở đầu để người nghe chú ý. ❌ \"You don't believe what happen\"."
+        },
+        {
+            "slug": "in-the-end",
+            "type": "PHRASE",
+            "text": "in the end",
+            "meaningVi": "cuối cùng (kết cục là)",
+            "examples": [
+                { "en": "We got lost, but in the end we found the hotel.", "vi": "Bọn mình bị lạc, nhưng cuối cùng cũng tìm được khách sạn.", "highlight": "in the end" }
+            ],
+            "noteVi": "in the end = kết cục sau nhiều chuyện. at the end of + danh từ = ở cuối cái gì (at the end of the movie). ❌ \"at the end, we found it\"."
+        },
+        {
+            "slug": "unfortunately",
+            "type": "LEXICAL",
+            "text": "unfortunately",
+            "meaningVi": "không may, tiếc là",
+            "ipa": "/ʌnˈfɔːrtʃənətli/",
+            "examples": [
+                { "en": "Unfortunately, it started to rain.", "vi": "Không may là trời bắt đầu mưa.", "highlight": "Unfortunately" }
+            ],
+            "noteVi": "Thường đứng đầu câu, có dấu phẩy. Nhấn âm thứ hai: un-FOR-tu-nate-ly."
+        },
+        {
+            "slug": "luckily",
+            "type": "LEXICAL",
+            "text": "luckily",
+            "meaningVi": "may mà, may là",
+            "ipa": "/ˈlʌkɪli/",
+            "examples": [
+                { "en": "Luckily, nobody was hurt.", "vi": "May là không ai bị thương.", "highlight": "Luckily" }
+            ],
+            "noteVi": "Thường đứng đầu câu. Tính từ: lucky (I was lucky). y → i: lucky → luckily."
+        },
+        {
+            "slug": "embarrassed",
+            "type": "LEXICAL",
+            "text": "embarrassed",
+            "meaningVi": "ngượng, xấu hổ",
+            "ipa": "/ɪmˈbærəst/",
+            "examples": [
+                { "en": "I was so embarrassed when I called my teacher \"Mom\".", "vi": "Mình ngượng chín mặt khi gọi cô giáo là \"Mẹ\".", "highlight": "embarrassed" }
+            ],
+            "noteVi": "embarrassed = mình thấy ngượng; embarrassing = việc gây ngượng. ❌ \"I was embarrassing\". Khác shy (tính nhút nhát)."
+        },
+        {
+            "slug": "how-adjective",
+            "type": "PATTERN",
+            "text": "How …!",
+            "meaningVi": "… quá! (phản ứng khi nghe kể)",
+            "examples": [
+                { "en": "You lost your passport? How awful!", "vi": "Bạn mất hộ chiếu à? Tệ quá!", "highlight": "How awful" }
+            ],
+            "pattern": {
+                "template": "How {adjective}!",
+                "slots": [
+                    { "name": "adjective", "hintVi": "tính từ chỉ cảm xúc", "options": ["awful", "embarrassing", "lucky", "scary", "funny"] }
+                ]
+            },
+            "noteVi": "How + tính từ, không thêm be: ❌ \"How is awful!\". Với danh từ thì dùng What a …: What a relief! What a surprise!"
+        },
+        {
+            "slug": "what-a-relief",
+            "type": "PHRASE",
+            "text": "What a relief!",
+            "meaningVi": "May quá! Nhẹ cả người!",
+            "examples": [
+                { "en": "The driver found your phone? What a relief!", "vi": "Tài xế tìm được điện thoại của bạn à? May quá!", "highlight": "What a relief" }
+            ],
+            "noteVi": "What + a + danh từ: What a surprise! What a shame! (tiếc quá). ❌ \"How relief!\"."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "b1-02-what-were-you-doing",
+            "title": "I called you three times!",
+            "situationVi": "Emma, đồng nghiệp người Mỹ, gọi cho bạn ba lần tối qua mà bạn không nghe máy.",
+            "lines": [
+                { "speaker": "Emma", "en": "I called you three times last night! What were you doing?", "vi": "Tối qua mình gọi bạn ba lần đấy! Bạn đang làm gì vậy?" },
+                { "speaker": "You", "en": "Sorry! I was driving home when you called, so I couldn't answer.", "vi": "Xin lỗi nhé! Lúc bạn gọi mình đang lái xe về, nên không nghe được.", "learnerTurn": true },
+                { "speaker": "Emma", "en": "Oh, OK. What time did you get home?", "vi": "À, vậy à. Mấy giờ bạn về tới nhà?" },
+                { "speaker": "You", "en": "Very late. There was an accident on my way home, and the traffic was terrible.", "vi": "Muộn lắm. Trên đường về có tai nạn, xe kẹt kinh khủng.", "learnerTurn": true },
+                { "speaker": "Emma", "en": "Oh no! Was anyone hurt?", "vi": "Trời ơi! Có ai bị thương không?" },
+                { "speaker": "You", "en": "I don't think so. The police were talking to the drivers when I drove past.", "vi": "Chắc là không. Lúc mình chạy qua, cảnh sát đang nói chuyện với hai tài xế.", "learnerTurn": true },
+                { "speaker": "Emma", "en": "That's good. Anyway, did you read my email about the meeting?", "vi": "Thế thì tốt. Mà này, bạn đọc email của mình về cuộc họp chưa?" },
+                { "speaker": "You", "en": "Well, I fell asleep while I was reading it. Sorry!", "vi": "À, mình ngủ quên lúc đang đọc. Xin lỗi nhé!", "learnerTurn": true },
+                { "speaker": "Emma", "en": "Ha! No problem. Let's talk about it now.", "vi": "Ha! Không sao. Giờ mình nói luôn nhé." }
+            ]
+        },
+        {
+            "slug": "b1-02-you-wont-believe-it",
+            "title": "You won't believe what happened!",
+            "situationVi": "Bạn kể cho Mike, bạn người Mỹ, chuyện hôm qua để quên điện thoại trên taxi.",
+            "lines": [
+                { "speaker": "You", "en": "Mike, you won't believe what happened yesterday!", "vi": "Mike, bạn không tin nổi chuyện hôm qua đâu!", "learnerTurn": true },
+                { "speaker": "Mike", "en": "What? Tell me!", "vi": "Chuyện gì? Kể đi!" },
+                { "speaker": "You", "en": "I was going to the airport by taxi. While I was talking to the driver, I put my phone on the seat.", "vi": "Mình đi taxi ra sân bay. Trong lúc nói chuyện với tài xế, mình để điện thoại trên ghế.", "learnerTurn": true },
+                { "speaker": "Mike", "en": "Uh-oh. And then?", "vi": "Ôi. Rồi sao?" },
+                { "speaker": "You", "en": "I paid and got out. Five minutes later, I looked in my bag. No phone!", "vi": "Mình trả tiền rồi xuống xe. Năm phút sau, mình tìm trong túi. Không thấy điện thoại!", "learnerTurn": true },
+                { "speaker": "Mike", "en": "Oh no! How awful! What did you do?", "vi": "Trời ơi! Tệ quá! Rồi bạn làm gì?" },
+                { "speaker": "You", "en": "I called my number from a stranger's phone. Luckily, the driver answered, and in the end he brought it back.", "vi": "Mình mượn điện thoại người lạ gọi vào số mình. May là tài xế nghe máy, và cuối cùng anh ấy mang trả lại.", "learnerTurn": true },
+                { "speaker": "Mike", "en": "What a relief! He sounds like a really nice guy.", "vi": "May quá! Anh ấy tốt thật." },
+                { "speaker": "You", "en": "Yes! I was so happy. I gave him a big tip.", "vi": "Đúng vậy! Mình mừng lắm. Mình boa cho anh ấy khá nhiều.", "learnerTurn": true }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "b1-02-l1-what-were-you-doing",
+            "title": "What were you doing?",
+            "titleVi": "Lúc đó đang làm gì",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "past-continuous", "role": "INTRODUCE" },
+                { "item": "what-were-you-doing", "role": "INTRODUCE" },
+                { "item": "i-was-doing", "role": "INTRODUCE" },
+                { "item": "happen", "role": "INTRODUCE" },
+                { "item": "at-that-time", "role": "INTRODUCE" },
+                { "item": "rain", "role": "INTRODUCE" },
+                { "item": "ring", "role": "INTRODUCE" },
+                { "item": "fall-asleep", "role": "INTRODUCE" },
+                { "item": "present-continuous", "role": "RECYCLE" },
+                { "item": "was-were", "role": "RECYCLE" },
+                { "item": "last-night", "role": "RECYCLE" },
+                { "item": "call", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["what-were-you-doing", "i-was-doing", "happen", "at-that-time", "rain", "ring", "fall-asleep"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Lúc đó đang: was / were + V-ing",
+                        "bodyVi": "Hiện tại tiếp diễn (A1) nói việc **đang** xảy ra bây giờ. Đẩy về quá khứ: đổi **am / is / are** thành **was / were**.\n\n| bây giờ | lúc đó (quá khứ) |\n|---|---|\n| I**'m watching** TV. | At nine last night, I **was watching** TV. |\n| They**'re having** dinner. | They **were having** dinner. |\n| What **are** you **doing**? | What **were** you **doing** when I called? |\n| I**'m not sleeping**. | I **wasn't sleeping**. |\n\nwas cho I / he / she / it, were cho you / we / they.\n\nSo sánh: I **was having** dinner at eight (lúc 8 giờ đang ăn, chưa xong) và I **had** dinner at eight (ăn lúc 8 giờ, xong rồi).\n\nKể chuyện hay mở đầu bằng bối cảnh ở thì này: It **was raining**. Everyone **was hurrying** home.\n\n❌ I watching TV at 8 ❌ I was watch TV ❌ They was playing ❌ What did you doing? ✅ **I was watching TV.** **What were you doing?**",
+                        "items": ["past-continuous", "present-continuous", "was-were", "what-were-you-doing", "i-was-doing", "at-that-time", "rain", "last-night"],
+                        "examples": [
+                            { "en": "What were you doing at ten last night? I was sleeping.", "vi": "Mười giờ tối qua bạn đang làm gì? Mình đang ngủ.", "highlight": "What were you doing" },
+                            { "en": "It was raining, and I wasn't wearing a jacket.", "vi": "Trời đang mưa, mà mình lại không mặc áo khoác.", "highlight": "It was raining" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "what-were-you-doing",
+                        "prompts": [
+                            { "cueVi": "Hỏi: tám giờ tối qua bạn đang làm gì?", "slots": { "when": "at eight last night" }, "answer": "What were you doing at eight last night?" },
+                            { "cueVi": "Hỏi: lúc mình gọi bạn đang làm gì?", "slots": { "when": "when I called" }, "answer": "What were you doing when I called?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "i-was-doing",
+                        "prompts": [
+                            { "cueVi": "Lúc chín giờ tối mình đang xem TV.", "slots": { "doing": "watching TV", "when": "at nine p.m." }, "answer": "I was watching TV at nine p.m." },
+                            { "cueVi": "Cả buổi tối mình làm việc muộn.", "slots": { "doing": "working late", "when": "all evening" }, "answer": "I was working late all evening." },
+                            { "cueVi": "Lúc nửa đêm mình đang ngủ.", "slots": { "doing": "sleeping", "when": "at midnight" }, "answer": "I was sleeping at midnight." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["happen", "at-that-time", "rain", "ring", "fall-asleep", "last-night", "call"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "What were you doing at eight last night?", "vi": "Tám giờ tối qua bạn đang làm gì?" },
+                            { "en": "I was having dinner with my family.", "vi": "Mình đang ăn tối với gia đình." },
+                            { "en": "It was raining hard when I left the office.", "vi": "Lúc mình rời văn phòng trời đang mưa to." },
+                            { "en": "I fell asleep while I was watching TV.", "vi": "Mình ngủ quên lúc đang xem TV." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Chín giờ tối qua mình đang xem phim.\"",
+                                "options": ["At nine last night, I watching a movie.", "At nine last night, I was watching a movie.", "At nine last night, I am watching a movie."],
+                                "answer": 1,
+                                "item": "past-continuous"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "They ___ having dinner when I arrived.",
+                                "hintVi": "was hay were?",
+                                "answers": ["were"],
+                                "item": "past-continuous"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["What was happened?", "What happened?", "What did happen?"],
+                                "answer": 1,
+                                "item": "happen"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "At that time, I was living with my parents.",
+                                "options": ["Hồi đó mình đang sống với bố mẹ.", "Bây giờ mình sống với bố mẹ.", "Mình sẽ sống với bố mẹ."],
+                                "answer": 0,
+                                "item": "at-that-time"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Lúc mình gọi bạn đang làm gì?",
+                                "answer": "What were you doing when I called?",
+                                "item": "what-were-you-doing"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b1-02-l2-when-it-happened",
+            "title": "I was walking home when…",
+            "titleVi": "Đang … thì …",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "past-simple-vs-continuous", "role": "INTRODUCE" },
+                { "item": "i-was-when", "role": "INTRODUCE" },
+                { "item": "while", "role": "INTRODUCE" },
+                { "item": "accident", "role": "INTRODUCE" },
+                { "item": "fell", "role": "INTRODUCE" },
+                { "item": "lost", "role": "INTRODUCE" },
+                { "item": "on-my-way", "role": "INTRODUCE" },
+                { "item": "past-continuous", "role": "RECYCLE" },
+                { "item": "past-simple-irregular", "role": "RECYCLE" },
+                { "item": "suddenly", "role": "RECYCLE" },
+                { "item": "ring", "role": "RECYCLE" },
+                { "item": "traffic", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["i-was-when", "while", "accident", "fell", "lost", "on-my-way"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Việc dài và việc ngắn xen vào",
+                        "bodyVi": "Trong một câu chuyện thường có **việc dài** đang diễn ra (nền) và **việc ngắn** xảy ra giữa chừng:\n\n| việc dài: was / were + V-ing | việc ngắn: quá khứ đơn |\n|---|---|\n| I **was cooking** | **when** the phone **rang**. |\n| **While** I **was walking** home, | I **saw** an accident. |\n| She **was riding** her bike | **when** she **fell** off. |\n\n**when** + việc ngắn, **while** + việc dài. Hai việc dài song song: I was studying **while** my sister **was watching** TV.\n\nCẩn thận nghĩa: I **was cooking** when the phone rang (đang nấu thì chuông reo) khác I **cooked** when the phone rang (nghe chuông rồi mới đi nấu).\n\nMột chuỗi việc nối tiếp nhau thì toàn quá khứ đơn: I **got up**, **had** a shower and **left**.\n\n❌ When I was walking, I was seeing an accident ❌ while the phone rang ✅ **I was walking when I saw an accident.** **when the phone rang**",
+                        "items": ["past-simple-vs-continuous", "past-continuous", "i-was-when", "while", "past-simple-irregular", "ring", "fell", "suddenly"],
+                        "examples": [
+                            { "en": "I was waiting for the bus when suddenly it started to rain.", "vi": "Mình đang đợi xe buýt thì đột nhiên trời đổ mưa.", "highlight": "I was waiting for the bus when" },
+                            { "en": "While she was running in the park, she fell and hurt her leg.", "vi": "Lúc đang chạy trong công viên, cô ấy ngã và đau chân.", "highlight": "While she was running" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "i-was-when",
+                        "prompts": [
+                            { "cueVi": "Mình đang nấu ăn thì điện thoại reo.", "slots": { "doing": "cooking", "event": "the phone rang" }, "answer": "I was cooking when the phone rang." },
+                            { "cueVi": "Mình đang đi bộ về nhà thì trời bắt đầu mưa.", "slots": { "doing": "walking home", "event": "it started to rain" }, "answer": "I was walking home when it started to rain." },
+                            { "cueVi": "Mình đang tắm thì mất điện.", "slots": { "doing": "taking a shower", "event": "the lights went out" }, "answer": "I was taking a shower when the lights went out." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["while", "accident", "fell", "lost", "on-my-way", "suddenly", "traffic"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b1-02-what-were-you-doing", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Mình đang nấu ăn thì điện thoại reo.\"",
+                                "options": ["I cooked when the phone rang.", "I was cooking when the phone rang.", "I was cooking when the phone was ringing."],
+                                "answer": 1,
+                                "item": "past-simple-vs-continuous"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Chọn từ đúng: \"___ I was walking home, I saw an accident.\"",
+                                "options": ["While", "When", "During"],
+                                "answer": 0,
+                                "item": "while"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "She ___ off her bike and hurt her arm.",
+                                "hintVi": "ngã (quá khứ của fall)",
+                                "answers": ["fell"],
+                                "item": "fell"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "I saw an accident on my way to work.",
+                                "options": ["Mình bị tai nạn khi đi làm.", "Mình thấy một vụ tai nạn trên đường đi làm.", "Mình đi làm muộn vì tai nạn."],
+                                "answer": 1,
+                                "item": "on-my-way"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Mình làm mất ví trên xe buýt.",
+                                "answer": "I lost my wallet on the bus.",
+                                "item": "lost"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b1-02-l3-telling-a-story",
+            "title": "Telling a story",
+            "titleVi": "Kể chuyện và phản ứng",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "guess-what", "role": "INTRODUCE" },
+                { "item": "you-wont-believe", "role": "INTRODUCE" },
+                { "item": "in-the-end", "role": "INTRODUCE" },
+                { "item": "unfortunately", "role": "INTRODUCE" },
+                { "item": "luckily", "role": "INTRODUCE" },
+                { "item": "embarrassed", "role": "INTRODUCE" },
+                { "item": "how-adjective", "role": "INTRODUCE" },
+                { "item": "what-a-relief", "role": "INTRODUCE" },
+                { "item": "past-simple-vs-continuous", "role": "RECYCLE" },
+                { "item": "sequencing", "role": "RECYCLE" },
+                { "item": "what-happened-next", "role": "RECYCLE" },
+                { "item": "no-way", "role": "RECYCLE" },
+                { "item": "really", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["guess-what", "you-wont-believe", "in-the-end", "unfortunately", "luckily", "embarrassed", "how-adjective", "what-a-relief"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Một câu chuyện có đầu có đuôi",
+                        "bodyVi": "Câu chuyện ngắn kiểu người bản ngữ hay kể có bốn phần:\n\n| phần | cách nói |\n|---|---|\n| mở đầu, gây chú ý | **Guess what!** / **You won't believe what happened!** |\n| bối cảnh (quá khứ tiếp diễn) | I **was going** to the airport. It **was raining**. |\n| diễn biến (quá khứ đơn) | **Suddenly**… / **Then**… / **Unfortunately**… / **Luckily**… |\n| kết cục | **In the end**, he brought it back. |\n\nNgười nghe không im lặng mà phản ứng:\n\n| khi nghe | nói |\n|---|---|\n| chuyện xấu | **How awful!** Oh no! |\n| chuyện ngượng | **How embarrassing!** |\n| kết thúc có hậu | **What a relief!** Lucky you! |\n| muốn nghe tiếp | Really? **What happened next?** |\n\nHow + **tính từ** (How awful!), What a + **danh từ** (What a relief!).\n\n❌ How is awful! ❌ How relief! ❌ at the end, we found it ❌ I was embarrassing ✅ **How awful!** **What a relief!** **In the end, we found it.** **I was embarrassed.**",
+                        "items": ["guess-what", "you-wont-believe", "in-the-end", "unfortunately", "luckily", "how-adjective", "what-a-relief", "embarrassed", "sequencing", "what-happened-next", "past-simple-vs-continuous"],
+                        "examples": [
+                            { "en": "Unfortunately, I missed the last bus. Luckily, my friend drove me home.", "vi": "Không may mình lỡ chuyến xe buýt cuối. May là bạn mình chở về.", "highlight": "Luckily" },
+                            { "en": "I called my boss \"honey\" by mistake. How embarrassing!", "vi": "Mình lỡ miệng gọi sếp là \"anh yêu\". Ngượng quá!", "highlight": "How embarrassing" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "how-adjective",
+                        "prompts": [
+                            { "cueVi": "Bạn nghe tin bạn mình bị mất hộ chiếu. Phản ứng: Tệ quá!", "slots": { "adjective": "awful" }, "answer": "How awful!" },
+                            { "cueVi": "Bạn mình trúng vé xem hòa nhạc miễn phí. Phản ứng: May quá!", "slots": { "adjective": "lucky" }, "answer": "How lucky!" },
+                            { "cueVi": "Bạn mình ngã giữa buổi họp. Phản ứng: Ngượng quá!", "slots": { "adjective": "embarrassing" }, "answer": "How embarrassing!" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["guess-what", "you-wont-believe", "in-the-end", "unfortunately", "luckily", "embarrassed", "what-a-relief", "what-happened-next"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b1-02-you-wont-believe-it", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn mình kể: \"I lost my passport in Bangkok.\" Bạn đáp:",
+                                "options": ["How is awful!", "How awful!", "What awful!"],
+                                "answer": 1,
+                                "item": "how-adjective"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"... but the police found it the next day.\" Bạn đáp:",
+                                "options": ["What a relief!", "How relief!", "What relief!"],
+                                "answer": 0,
+                                "item": "what-a-relief"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "We got lost, but in the ___ we found the hotel.",
+                                "hintVi": "cuối cùng",
+                                "answers": ["end"],
+                                "item": "in-the-end"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I was so embarrassing.", "I was so embarrassed.", "I was so embarrass."],
+                                "answer": 1,
+                                "item": "embarrassed"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "May là không ai bị thương.",
+                                "answer": "Luckily, nobody was hurt.",
+                                "item": "luckily"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "b1-02-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["What did you doing at nine?", "What were you doing at nine?", "What you were doing at nine?"],
+                "answer": 1,
+                "item": "what-were-you-doing"
+            },
+            {
+                "kind": "choice",
+                "prompt": "\"Mình đang tắm thì có người gõ cửa.\"",
+                "options": ["I took a shower when someone knocked.", "I was taking a shower when someone was knocking.", "I was taking a shower when someone knocked."],
+                "answer": 2,
+                "item": "past-simple-vs-continuous"
+            },
+            {
+                "kind": "gap",
+                "sentence": "___ I was cooking, my son was doing his homework.",
+                "hintVi": "trong lúc",
+                "answers": ["While"],
+                "item": "while"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["At the end, we found the hotel.", "In the end, we found the hotel.", "In end, we found the hotel."],
+                "answer": 1,
+                "item": "in-the-end"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "Unfortunately, it started to rain.",
+                "options": ["May là trời tạnh mưa.", "Không may là trời bắt đầu mưa.", "Đột nhiên trời nắng."],
+                "answer": 1,
+                "item": "unfortunately"
+            },
+            {
+                "kind": "order",
+                "vi": "Mình đang đi bộ về nhà thì trời bắt đầu mưa.",
+                "answer": "I was walking home when it started to rain.",
+                "item": "i-was-when"
+            }
+        ]
+    }
+}

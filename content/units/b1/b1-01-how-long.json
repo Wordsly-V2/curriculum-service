@@ -1,0 +1,810 @@
+{
+    "slug": "b1-01-how-long",
+    "stage": "b1",
+    "order": 1,
+    "title": "How long have you been here?",
+    "titleVi": "Bao lâu rồi?",
+    "descriptionVi": "Nói mình đã sống, làm việc, học một thứ bao lâu (for, since), kể việc dạo này đang làm (I've been learning…), và nói đã quen hay chưa quen với cuộc sống mới (be used to, get used to).",
+    "canDo": [
+        "Tôi nói được mình đã sống, làm việc, quen ai được bao lâu (for, since) và hỏi How long have you…?",
+        "Tôi kể được dạo này mình đang làm gì và đã làm được bao lâu (I've been learning…).",
+        "Tôi nói được mình đã quen hay đang dần quen với nơi ở, công việc mới (be used to, get used to)."
+    ],
+    "items": [
+        {
+            "slug": "present-perfect-duration",
+            "type": "GRAMMAR",
+            "text": "have / has + past participle + for / since",
+            "meaningVi": "hiện tại hoàn thành: đã … được bao lâu (đến giờ vẫn còn)",
+            "examples": [
+                { "en": "I've lived in Hanoi for five years.", "vi": "Mình sống ở Hà Nội năm năm rồi.", "highlight": "I've lived" }
+            ],
+            "grammar": {
+                "ruleVi": "Việc bắt đầu trong quá khứ và bây giờ vẫn còn: have / has + V3 + for / since. Tiếng Việt chỉ thêm \"rồi\" (\"mình sống ở đây năm năm rồi\"), nên người Việt hay dùng hiện tại đơn; tiếng Anh bắt buộc dùng hiện tại hoàn thành.",
+                "forms": [
+                    { "label": "khẳng định", "example": "I've lived here for five years. She's worked there since 2020." },
+                    { "label": "câu hỏi", "example": "How long have you lived here? How long has he known her?" },
+                    { "label": "phủ định", "example": "I haven't seen him since Monday." },
+                    { "label": "so sánh", "example": "I live here. (bây giờ) · I've lived here for 5 years. (từ trước đến giờ) · I lived there for 5 years. (đã hết, giờ không còn)" }
+                ],
+                "pitfallsVi": [
+                    "Dùng hiện tại đơn: \"I live here for five years\" → I've lived here for five years.",
+                    "\"How long do you live here?\" → How long have you lived here?",
+                    "Dùng quá khứ đơn khi việc vẫn còn: \"I worked here for two years\" (nghĩa là giờ đã nghỉ) → I've worked here for two years."
+                ]
+            }
+        },
+        {
+            "slug": "for-since",
+            "type": "GRAMMAR",
+            "text": "for + period, since + starting point",
+            "meaningVi": "for (trong bao lâu) và since (từ khi nào)",
+            "examples": [
+                { "en": "I've known Lan since 2015. We've been friends for ten years.", "vi": "Mình quen Lan từ năm 2015. Bọn mình là bạn mười năm rồi.", "highlight": "since 2015" }
+            ],
+            "grammar": {
+                "ruleVi": "for + khoảng thời gian (bao lâu). since + mốc bắt đầu (từ khi nào): một ngày, một năm, hoặc cả một mệnh đề quá khứ. Quá khứ đơn + ago nói cùng ý theo cách khác.",
+                "forms": [
+                    { "label": "for", "example": "for two hours, for three weeks, for ten years, for a long time" },
+                    { "label": "since", "example": "since 8 o'clock, since Monday, since 2019, since I was a kid" },
+                    { "label": "ago", "example": "I moved here two years ago. = I've lived here for two years." }
+                ],
+                "pitfallsVi": [
+                    "\"since three years\" → for three years.",
+                    "\"since three years ago\" → for three years (hoặc since 2023).",
+                    "\"from 2019\" với hiện tại hoàn thành → since 2019."
+                ]
+            }
+        },
+        {
+            "slug": "how-long-have-you",
+            "type": "PATTERN",
+            "text": "How long have you …?",
+            "meaningVi": "Bạn … bao lâu rồi?",
+            "examples": [
+                { "en": "How long have you lived in Saigon?", "vi": "Bạn sống ở Sài Gòn bao lâu rồi?", "highlight": "How long have you" }
+            ],
+            "pattern": {
+                "template": "How long have you {done}?",
+                "slots": [
+                    { "name": "done", "hintVi": "quá khứ phân từ + phần còn lại", "options": ["lived here", "worked there", "known her", "had this phone", "been a teacher"] }
+                ]
+            },
+            "noteVi": "Tiếng Việt \"bạn sống ở đây bao lâu rồi\" không có dấu hiệu thì, nên hay nói ❌ \"How long do you live here?\" Câu đó nghe như hỏi bạn định ở bao lâu nữa."
+        },
+        {
+            "slug": "ive-for",
+            "type": "PATTERN",
+            "text": "I've … for ….",
+            "meaningVi": "Mình đã … được (khoảng thời gian) rồi.",
+            "examples": [
+                { "en": "I've worked at this company for three years.", "vi": "Mình làm ở công ty này ba năm rồi.", "highlight": "for three years" }
+            ],
+            "pattern": {
+                "template": "I've {done} for {time}.",
+                "slots": [
+                    { "name": "done", "hintVi": "quá khứ phân từ + phần còn lại", "options": ["lived here", "worked at this company", "studied English", "had this car", "known him"] },
+                    { "name": "time", "hintVi": "khoảng thời gian", "options": ["two years", "six months", "a long time", "ten years", "three weeks"] }
+                ]
+            },
+            "noteVi": "for + khoảng thời gian: ❌ \"since two years\". Đọc nối I've /aɪv/, giữ âm /v/, đừng nói thành \"I lived\"."
+        },
+        {
+            "slug": "ive-since",
+            "type": "PATTERN",
+            "text": "I've … since ….",
+            "meaningVi": "Mình đã … từ (mốc) đến giờ.",
+            "examples": [
+                { "en": "I've lived in this apartment since 2021.", "vi": "Mình ở căn hộ này từ năm 2021.", "highlight": "since 2021" }
+            ],
+            "pattern": {
+                "template": "I've {done} since {when}.",
+                "slots": [
+                    { "name": "done", "hintVi": "quá khứ phân từ + phần còn lại", "options": ["lived here", "worked there", "known her", "played the guitar", "been a nurse"] },
+                    { "name": "when", "hintVi": "mốc bắt đầu", "options": ["2020", "January", "I was a kid", "last summer", "I finished university"] }
+                ]
+            },
+            "noteVi": "Sau since có thể là cả một câu ở quá khứ đơn: since I was a kid, since I moved here. ❌ \"since I am a kid\"."
+        },
+        {
+            "slug": "known",
+            "type": "LEXICAL",
+            "text": "known",
+            "meaningVi": "quá khứ phân từ của know; I've known… = quen (ai) được bao lâu",
+            "ipa": "/noʊn/",
+            "examples": [
+                { "en": "I've known Minh since high school.", "vi": "Mình quen Minh từ hồi cấp ba.", "highlight": "known" }
+            ],
+            "noteVi": "k câm: /noʊn/. know không dùng -ing: ❌ \"I've been knowing him\", ❌ \"I know him for ten years\" → I've known him for ten years."
+        },
+        {
+            "slug": "all-my-life",
+            "type": "PHRASE",
+            "text": "all my life",
+            "meaningVi": "cả đời, từ nhỏ đến giờ",
+            "examples": [
+                { "en": "I've lived in Hanoi all my life.", "vi": "Mình sống ở Hà Nội từ nhỏ đến giờ.", "highlight": "all my life" }
+            ],
+            "noteVi": "Đi với hiện tại hoàn thành, không cần for: ❌ \"I live here all my life\" → I've lived here all my life."
+        },
+        {
+            "slug": "for-a-long-time",
+            "type": "PHRASE",
+            "text": "for a long time / for ages",
+            "meaningVi": "lâu lắm rồi",
+            "examples": [
+                { "en": "We haven't talked for a long time.", "vi": "Lâu lắm rồi bọn mình không nói chuyện.", "highlight": "for a long time" }
+            ],
+            "noteVi": "for ages thân mật hơn: I haven't seen her for ages. ❌ \"since a long time\"."
+        },
+        {
+            "slug": "present-perfect-continuous",
+            "type": "GRAMMAR",
+            "text": "have / has been + V-ing",
+            "meaningVi": "hiện tại hoàn thành tiếp diễn: đã và đang … (nhấn việc kéo dài)",
+            "examples": [
+                { "en": "I've been learning English for three years.", "vi": "Mình học tiếng Anh được ba năm rồi (và vẫn đang học).", "highlight": "I've been learning" }
+            ],
+            "grammar": {
+                "ruleVi": "Hoạt động bắt đầu trong quá khứ, kéo dài đến giờ và thường vẫn đang tiếp tục: have / has been + V-ing. Hay đi với for, since, How long, lately, recently. Động từ trạng thái (know, like, want, have = sở hữu, be) không dùng -ing, nên dùng hiện tại hoàn thành thường.",
+                "forms": [
+                    { "label": "khẳng định", "example": "I've been learning English for three years. She's been working all day." },
+                    { "label": "câu hỏi", "example": "How long have you been waiting? What have you been doing lately?" },
+                    { "label": "phủ định", "example": "I haven't been sleeping well lately." },
+                    { "label": "động từ trạng thái", "example": "I've known him since 2015. I've had this bike for years. (❌ I've been knowing / having)" }
+                ],
+                "pitfallsVi": [
+                    "Dùng hiện tại tiếp diễn: \"I'm learning English for three years\" → I've been learning English for three years.",
+                    "\"I've been knowing her\" → I've known her.",
+                    "Quên have: \"I been working\" → I've been working."
+                ]
+            }
+        },
+        {
+            "slug": "ive-been-doing",
+            "type": "PATTERN",
+            "text": "I've been … (for / since …).",
+            "meaningVi": "Mình đã và đang … (được bao lâu).",
+            "examples": [
+                { "en": "I've been playing the guitar since I was twelve.", "vi": "Mình chơi guitar từ năm mười hai tuổi.", "highlight": "I've been playing" }
+            ],
+            "pattern": {
+                "template": "I've been {doing} {howLong}.",
+                "slots": [
+                    { "name": "doing", "hintVi": "V-ing + phần còn lại", "options": ["learning English", "working here", "waiting", "living in Saigon", "playing the guitar"] },
+                    { "name": "howLong", "hintVi": "for / since / all day…", "options": ["for three years", "since 2021", "for an hour", "since last month", "all day"] }
+                ]
+            },
+            "noteVi": "been đọc nhẹ /bɪn/. ❌ \"I've been learn\" (quên -ing), ❌ \"I'm waiting for an hour\" → I've been waiting for an hour."
+        },
+        {
+            "slug": "how-have-you-been",
+            "type": "PHRASE",
+            "text": "How have you been?",
+            "meaningVi": "Dạo này bạn thế nào?",
+            "examples": [
+                { "en": "Hi Anna! How have you been? I've been great, thanks.", "vi": "Chào Anna! Dạo này bạn thế nào? Mình ổn lắm, cảm ơn.", "highlight": "How have you been" }
+            ],
+            "noteVi": "Hỏi người lâu không gặp (từ lần trước tới giờ); How are you? là hỏi lúc này. Trả lời: I've been good / busy / OK. ❌ \"How are you been?\""
+        },
+        {
+            "slug": "its-been-ages",
+            "type": "PHRASE",
+            "text": "It's been ages!",
+            "meaningVi": "Lâu quá rồi (không gặp)!",
+            "examples": [
+                { "en": "Tom! It's been ages! How have you been?", "vi": "Tom! Lâu quá không gặp! Dạo này thế nào?", "highlight": "It's been ages" }
+            ],
+            "noteVi": "It's = It has. Thân mật hơn nữa: Long time no see! (❌ \"Long time not see\")."
+        },
+        {
+            "slug": "lately",
+            "type": "LEXICAL",
+            "text": "lately",
+            "meaningVi": "dạo này, gần đây",
+            "ipa": "/ˈleɪtli/",
+            "examples": [
+                { "en": "I've been really busy lately.", "vi": "Dạo này mình bận lắm.", "highlight": "lately" }
+            ],
+            "noteVi": "Hay đứng cuối câu, đi với hiện tại hoàn thành (tiếp diễn): ❌ \"Lately I am busy\" → I've been busy lately. Khác late (muộn) và later (lát nữa)."
+        },
+        {
+            "slug": "recently",
+            "type": "LEXICAL",
+            "text": "recently",
+            "meaningVi": "gần đây, mới đây",
+            "ipa": "/ˈriːsntli/",
+            "examples": [
+                { "en": "Have you seen any good movies recently?", "vi": "Gần đây bạn có xem phim nào hay không?", "highlight": "recently" }
+            ],
+            "noteVi": "Nhấn âm đầu: RE-cent-ly. Với một việc đã xong, người Mỹ dùng cả hai: I've recently moved. / I moved here recently."
+        },
+        {
+            "slug": "hobby",
+            "type": "LEXICAL",
+            "text": "hobby",
+            "meaningVi": "sở thích (việc làm lúc rảnh)",
+            "ipa": "/ˈhɑːbi/",
+            "examples": [
+                { "en": "Photography is my new hobby. I've been doing it for a year.", "vi": "Chụp ảnh là sở thích mới của mình. Mình chụp được một năm rồi.", "highlight": "hobby" }
+            ],
+            "noteVi": "Số nhiều hobbies. Hỏi \"What do you do in your free time?\" tự nhiên hơn \"What is your hobby?\". hobby là việc mình làm, không dùng cho món ăn: ❌ \"My hobby is pho\"."
+        },
+        {
+            "slug": "practice",
+            "type": "LEXICAL",
+            "text": "practice",
+            "meaningVi": "luyện tập",
+            "ipa": "/ˈpræktɪs/",
+            "examples": [
+                { "en": "I've been practicing the piano every evening.", "vi": "Tối nào mình cũng tập piano.", "highlight": "practicing" }
+            ],
+            "noteVi": "practice + V-ing: practice speaking (❌ \"practice to speak\"). Người Mỹ viết practice cho cả động từ và danh từ."
+        },
+        {
+            "slug": "be-used-to",
+            "type": "GRAMMAR",
+            "text": "be used to / get used to + noun / V-ing",
+            "meaningVi": "đã quen với / dần quen với",
+            "examples": [
+                { "en": "I'm not used to the cold yet, but I'm getting used to it.", "vi": "Mình chưa quen cái lạnh, nhưng đang dần quen.", "highlight": "getting used to" }
+            ],
+            "grammar": {
+                "ruleVi": "be used to + danh từ / V-ing = đã quen, không còn thấy lạ. get used to = dần quen (đang thay đổi). Khác used to + nguyên mẫu (A2) = ngày xưa hay làm, giờ không còn. Sau to ở đây là danh từ hoặc V-ing, không phải nguyên mẫu.",
+                "forms": [
+                    { "label": "đã quen", "example": "I'm used to the heat. She's used to getting up early." },
+                    { "label": "chưa quen", "example": "I'm not used to driving on the right." },
+                    { "label": "dần quen", "example": "I'm getting used to the traffic. Don't worry, you'll get used to it." },
+                    { "label": "so sánh", "example": "I used to live in Hue. (ngày xưa) · I'm used to living alone. (đã quen)" }
+                ],
+                "pitfallsVi": [
+                    "\"I'm used to get up early\" → I'm used to getting up early.",
+                    "Quên be: \"I used to the weather\" → I'm used to the weather.",
+                    "\"I'm use to\" → I'm used to (có -d, đọc /juːst tə/)."
+                ]
+            }
+        },
+        {
+            "slug": "im-used-to",
+            "type": "PATTERN",
+            "text": "I'm (not) used to ….",
+            "meaningVi": "Mình (chưa) quen với ….",
+            "examples": [
+                { "en": "I'm used to spicy food. I'm from the central region.", "vi": "Mình quen ăn cay rồi. Mình người miền Trung.", "highlight": "I'm used to" }
+            ],
+            "pattern": {
+                "template": "I'm used to {thing}.",
+                "slots": [
+                    { "name": "thing", "hintVi": "danh từ hoặc V-ing", "options": ["the heat", "spicy food", "getting up early", "living alone", "the noise"] }
+                ]
+            },
+            "noteVi": "Sau to là danh từ hoặc V-ing: ❌ \"I'm used to get up early\". Phủ định: I'm not used to it yet."
+        },
+        {
+            "slug": "im-getting-used-to",
+            "type": "PATTERN",
+            "text": "I'm getting used to ….",
+            "meaningVi": "Mình đang dần quen với ….",
+            "examples": [
+                { "en": "I'm getting used to my new job.", "vi": "Mình đang dần quen với công việc mới.", "highlight": "getting used to" }
+            ],
+            "pattern": {
+                "template": "I'm getting used to {thing}.",
+                "slots": [
+                    { "name": "thing", "hintVi": "danh từ hoặc V-ing", "options": ["the traffic", "my new job", "the weather", "cooking for myself", "driving here"] }
+                ]
+            },
+            "noteVi": "Động viên người mới đến: Don't worry, you'll get used to it. ❌ \"You will used to it\"."
+        },
+        {
+            "slug": "traffic",
+            "type": "LEXICAL",
+            "text": "traffic",
+            "meaningVi": "giao thông, xe cộ trên đường",
+            "ipa": "/ˈtræfɪk/",
+            "examples": [
+                { "en": "The traffic in Saigon is terrible at rush hour.", "vi": "Giờ cao điểm giao thông ở Sài Gòn kinh khủng lắm.", "highlight": "traffic" }
+            ],
+            "noteVi": "Không đếm được: ❌ \"a traffic\", \"many traffics\". Kẹt xe: a traffic jam. Đường đông: heavy traffic."
+        },
+        {
+            "slug": "homesick",
+            "type": "LEXICAL",
+            "text": "homesick",
+            "meaningVi": "nhớ nhà",
+            "ipa": "/ˈhoʊmsɪk/",
+            "examples": [
+                { "en": "I felt homesick in my first month in Hanoi.", "vi": "Tháng đầu ở Hà Nội mình nhớ nhà lắm.", "highlight": "homesick" }
+            ],
+            "noteVi": "Là tính từ: I'm homesick / I feel homesick. Nhớ một người hay một thứ cụ thể thì dùng miss: I miss my mom's cooking."
+        },
+        {
+            "slug": "strange",
+            "type": "LEXICAL",
+            "text": "strange",
+            "meaningVi": "lạ, kỳ lạ",
+            "ipa": "/streɪndʒ/",
+            "examples": [
+                { "en": "Everything felt strange at first.", "vi": "Lúc đầu cái gì cũng thấy lạ.", "highlight": "strange" }
+            ],
+            "noteVi": "Người lạ là a stranger (❌ \"a strange\"). Giữ âm cuối /dʒ/, đừng đọc thành \"x-trên\"."
+        },
+        {
+            "slug": "local",
+            "type": "LEXICAL",
+            "text": "local",
+            "meaningVi": "(thuộc) địa phương, ở khu mình",
+            "ipa": "/ˈloʊkl/",
+            "examples": [
+                { "en": "I love eating at the local market.", "vi": "Mình thích ăn ở chợ trong khu.", "highlight": "local" }
+            ],
+            "noteVi": "Đứng trước danh từ: local food, local people, a local café. Người địa phương: the locals."
+        },
+        {
+            "slug": "settle-in",
+            "type": "PHRASE",
+            "text": "settle in",
+            "meaningVi": "ổn định (ở chỗ mới, việc mới)",
+            "examples": [
+                { "en": "Have you settled in yet? Yes, I'm settling in well.", "vi": "Bạn ổn định chưa? Rồi, mình đang quen dần.", "highlight": "settled in" }
+            ],
+            "noteVi": "Hay dùng hỏi người mới chuyển đến. Khác settle down (lập gia đình, sống ổn định lâu dài)."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "b1-01-new-neighbor",
+            "title": "How long have you lived here?",
+            "situationVi": "Trong thang máy chung cư, bạn gặp Jake, người Mỹ mới chuyển đến căn bên cạnh.",
+            "lines": [
+                { "speaker": "Jake", "en": "Hi, I'm Jake. I just moved into 12B.", "vi": "Chào, mình là Jake. Mình mới dọn vào căn 12B." },
+                { "speaker": "You", "en": "Hi, Jake. Nice to meet you. I'm in 12C. How long have you been in Vietnam?", "vi": "Chào Jake. Rất vui được gặp bạn. Mình ở 12C. Bạn ở Việt Nam bao lâu rồi?", "learnerTurn": true },
+                { "speaker": "Jake", "en": "About six months. I've lived in Hanoi since January. Before that, I was in Da Nang.", "vi": "Khoảng sáu tháng. Mình ở Hà Nội từ tháng Một. Trước đó mình ở Đà Nẵng." },
+                { "speaker": "You", "en": "Oh, really? Have you settled in yet?", "vi": "Ồ, vậy à? Bạn ổn định chưa?", "learnerTurn": true },
+                { "speaker": "Jake", "en": "Mostly. I love it here, but I'm not used to the traffic yet! How long have you lived here?", "vi": "Gần xong rồi. Mình thích ở đây lắm, nhưng vẫn chưa quen giao thông! Bạn sống ở đây bao lâu rồi?" },
+                { "speaker": "You", "en": "I've lived here for five years. I moved from Hue after university.", "vi": "Mình sống ở đây năm năm rồi. Mình chuyển từ Huế ra sau khi học xong đại học.", "learnerTurn": true },
+                { "speaker": "Jake", "en": "So you know the area well. Is there a good place for coffee near here?", "vi": "Vậy bạn rành khu này. Gần đây có chỗ cà phê nào ngon không?" },
+                { "speaker": "You", "en": "Yes, there's a great local café on the corner. I've been going there for years.", "vi": "Có, ở góc đường có một quán cà phê rất ngon. Mình ra đó mấy năm nay rồi.", "learnerTurn": true },
+                { "speaker": "Jake", "en": "Perfect. Thanks! See you around.", "vi": "Tuyệt. Cảm ơn nhé! Gặp lại sau." }
+            ]
+        },
+        {
+            "slug": "b1-01-its-been-ages",
+            "title": "It's been ages!",
+            "situationVi": "Bạn chuyển vào Sài Gòn làm việc được ba tháng. Tom, bạn cũ ở câu lạc bộ tiếng Anh, gọi điện hỏi thăm.",
+            "lines": [
+                { "speaker": "Tom", "en": "Hey! It's been ages! How have you been?", "vi": "Ê! Lâu quá rồi! Dạo này bạn thế nào?" },
+                { "speaker": "You", "en": "I've been good, thanks! I've been really busy since I moved to Saigon.", "vi": "Mình ổn, cảm ơn! Từ hồi chuyển vào Sài Gòn mình bận lắm.", "learnerTurn": true },
+                { "speaker": "Tom", "en": "Right, you moved in March. So, are you used to life there yet?", "vi": "À đúng, bạn chuyển hồi tháng Ba. Thế đã quen cuộc sống ở đó chưa?" },
+                { "speaker": "You", "en": "I'm getting used to it. It's hot all year, and the traffic is terrible!", "vi": "Mình đang quen dần. Ở đây nóng quanh năm, còn giao thông thì kinh khủng!", "learnerTurn": true },
+                { "speaker": "Tom", "en": "Ha! Do you miss Hue?", "vi": "Ha! Có nhớ Huế không?" },
+                { "speaker": "You", "en": "Yes, I feel homesick sometimes. I really miss my mom's cooking.", "vi": "Có, thỉnh thoảng mình nhớ nhà. Mình nhớ đồ ăn mẹ nấu lắm.", "learnerTurn": true },
+                { "speaker": "Tom", "en": "That's normal. What have you been doing in your free time?", "vi": "Bình thường mà. Dạo này rảnh thì bạn làm gì?" },
+                { "speaker": "You", "en": "I've been learning to cook, and I've joined a local running club.", "vi": "Mình đang tập nấu ăn, và mình vào một câu lạc bộ chạy bộ ở khu mình.", "learnerTurn": true },
+                { "speaker": "Tom", "en": "Sounds great. Let's talk again soon!", "vi": "Nghe hay đấy. Hôm nào nói chuyện tiếp nhé!" }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "b1-01-l1-how-long",
+            "title": "How long have you…?",
+            "titleVi": "Bao lâu rồi: for và since",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "present-perfect-duration", "role": "INTRODUCE" },
+                { "item": "for-since", "role": "INTRODUCE" },
+                { "item": "how-long-have-you", "role": "INTRODUCE" },
+                { "item": "ive-for", "role": "INTRODUCE" },
+                { "item": "ive-since", "role": "INTRODUCE" },
+                { "item": "known", "role": "INTRODUCE" },
+                { "item": "all-my-life", "role": "INTRODUCE" },
+                { "item": "for-a-long-time", "role": "INTRODUCE" },
+                { "item": "present-perfect-experience", "role": "RECYCLE" },
+                { "item": "past-participles", "role": "RECYCLE" },
+                { "item": "move", "role": "RECYCLE" },
+                { "item": "ago", "role": "RECYCLE" },
+                { "item": "i-live-in", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["how-long-have-you", "ive-for", "ive-since", "known", "all-my-life", "for-a-long-time"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Đến giờ vẫn còn: have / has + V3 + for / since",
+                        "bodyVi": "Ở A2 bạn đã dùng hiện tại hoàn thành cho **trải nghiệm** (Have you ever…?). Nghĩa thứ hai: việc **bắt đầu trong quá khứ và bây giờ vẫn còn**.\n\nTiếng Việt: \"mình sống ở đây năm năm **rồi**\". Tiếng Anh không dùng hiện tại đơn cho câu này:\n\n| câu | nghĩa |\n|---|---|\n| I **live** here. | bây giờ mình sống ở đây |\n| I**'ve lived** here **for** five years. | sống từ 5 năm trước đến giờ, vẫn còn ở |\n| I **lived** there **for** five years. | đã sống 5 năm, giờ không ở nữa |\n\n**for** + khoảng thời gian: for two weeks, for ten years, for a long time.\n**since** + mốc bắt đầu: since Monday, since 2019, since I was a kid.\n\nHỏi: **How long have you** lived here? / known him? / worked there?\n\nCùng một ý, nói bằng quá khứ đơn: I moved here **five years ago**. = I've lived here **for five years**.\n\n❌ I live here for five years ❌ How long do you live here? ❌ since three years ✅ **I've lived here for five years.** **How long have you lived here?** **for three years / since 2023**",
+                        "items": ["present-perfect-duration", "for-since", "how-long-have-you", "ive-for", "ive-since", "present-perfect-experience", "ago", "move"],
+                        "examples": [
+                            { "en": "How long have you worked there? For about two years.", "vi": "Bạn làm ở đó bao lâu rồi? Khoảng hai năm.", "highlight": "How long have you worked" },
+                            { "en": "I moved to Hanoi in 2019, so I've lived here since 2019.", "vi": "Mình chuyển ra Hà Nội năm 2019, nên mình sống ở đây từ 2019.", "highlight": "since 2019" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "how-long-have-you",
+                        "prompts": [
+                            { "cueVi": "Hỏi: bạn sống ở đây bao lâu rồi?", "slots": { "done": "lived here" }, "answer": "How long have you lived here?" },
+                            { "cueVi": "Hỏi: bạn quen cô ấy bao lâu rồi?", "slots": { "done": "known her" }, "answer": "How long have you known her?" },
+                            { "cueVi": "Hỏi: bạn làm giáo viên bao lâu rồi?", "slots": { "done": "been a teacher" }, "answer": "How long have you been a teacher?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "ive-for",
+                        "prompts": [
+                            { "cueVi": "Mình sống ở đây hai năm rồi.", "slots": { "done": "lived here", "time": "two years" }, "answer": "I've lived here for two years." },
+                            { "cueVi": "Mình học tiếng Anh lâu lắm rồi.", "slots": { "done": "studied English", "time": "a long time" }, "answer": "I've studied English for a long time." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "ive-since",
+                        "prompts": [
+                            { "cueVi": "Mình quen cô ấy từ năm 2020.", "slots": { "done": "known her", "when": "2020" }, "answer": "I've known her since 2020." },
+                            { "cueVi": "Mình chơi guitar từ hồi còn nhỏ.", "slots": { "done": "played the guitar", "when": "I was a kid" }, "answer": "I've played the guitar since I was a kid." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["known", "all-my-life", "for-a-long-time", "move", "ago"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "How long have you lived in Hanoi?", "vi": "Bạn sống ở Hà Nội bao lâu rồi?" },
+                            { "en": "I've lived here for five years.", "vi": "Mình sống ở đây năm năm rồi." },
+                            { "en": "I've known Minh since high school.", "vi": "Mình quen Minh từ hồi cấp ba." },
+                            { "en": "We haven't talked for a long time.", "vi": "Lâu lắm rồi bọn mình không nói chuyện." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Mình sống ở đây năm năm rồi.\"",
+                                "options": ["I live here for five years.", "I've lived here for five years.", "I'm living here since five years."],
+                                "answer": 1,
+                                "item": "present-perfect-duration"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I've worked here ___ 2021.",
+                                "hintVi": "từ (mốc)",
+                                "answers": ["since"],
+                                "item": "for-since"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "She's been my friend ___ ten years.",
+                                "hintVi": "trong (khoảng thời gian)",
+                                "answers": ["for"],
+                                "item": "for-since"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "I've known her since high school.",
+                                "options": ["Mình mới quen cô ấy ở trường.", "Mình quen cô ấy từ hồi cấp ba.", "Mình biết cô ấy học cấp ba."],
+                                "answer": 1,
+                                "item": "known"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Bạn sống ở đây bao lâu rồi?",
+                                "answer": "How long have you lived here?",
+                                "item": "how-long-have-you"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b1-01-l2-lately",
+            "title": "What have you been doing?",
+            "titleVi": "Dạo này đang làm gì",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "present-perfect-continuous", "role": "INTRODUCE" },
+                { "item": "ive-been-doing", "role": "INTRODUCE" },
+                { "item": "how-have-you-been", "role": "INTRODUCE" },
+                { "item": "its-been-ages", "role": "INTRODUCE" },
+                { "item": "lately", "role": "INTRODUCE" },
+                { "item": "recently", "role": "INTRODUCE" },
+                { "item": "hobby", "role": "INTRODUCE" },
+                { "item": "practice", "role": "INTRODUCE" },
+                { "item": "present-perfect-duration", "role": "RECYCLE" },
+                { "item": "how-long-have-you", "role": "RECYCLE" },
+                { "item": "for-since", "role": "RECYCLE" },
+                { "item": "present-continuous", "role": "RECYCLE" },
+                { "item": "learn", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["ive-been-doing", "how-have-you-been", "its-been-ages", "lately", "recently", "hobby", "practice"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Đã và đang: have / has been + V-ing",
+                        "bodyVi": "Khi muốn nhấn một **hoạt động kéo dài** từ trước đến giờ (và thường vẫn đang làm), dùng **have / has been + V-ing**:\n\n| | ví dụ |\n|---|---|\n| kéo dài đến giờ | I**'ve been learning** English **for** three years. |\n| hỏi bao lâu | How long **have** you **been waiting**? |\n| dạo này | What **have** you **been doing** lately? |\n| phủ định | I **haven't been sleeping** well **lately**. |\n\nSo với hiện tại tiếp diễn (A1): I**'m learning** English (bây giờ) → I**'ve been learning** English **for three years** (bây giờ và kéo dài từ 3 năm trước). Có for / since / How long thì không dùng I'm …ing.\n\nĐộng từ trạng thái (**know, like, want, have** = có, **be**) không thêm -ing: I**'ve known** him for years, I**'ve had** this bike since 2020.\n\nGặp lại người quen lâu ngày: **It's been ages! How have you been?** – I've been good / busy.\n\n❌ I'm learning English for three years ❌ I've been knowing her ❌ How are you been? ✅ **I've been learning…**, **I've known her**, **How have you been?**",
+                        "items": ["present-perfect-continuous", "ive-been-doing", "present-perfect-duration", "present-continuous", "how-have-you-been", "its-been-ages", "lately", "for-since"],
+                        "examples": [
+                            { "en": "I've been waiting for twenty minutes. Where are you?", "vi": "Mình đợi hai mươi phút rồi. Bạn đâu rồi?", "highlight": "I've been waiting" },
+                            { "en": "What have you been doing lately? I've been practicing yoga.", "vi": "Dạo này bạn làm gì? Mình đang tập yoga.", "highlight": "What have you been doing lately" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "ive-been-doing",
+                        "prompts": [
+                            { "cueVi": "Mình học tiếng Anh ba năm rồi.", "slots": { "doing": "learning English", "howLong": "for three years" }, "answer": "I've been learning English for three years." },
+                            { "cueVi": "Mình đợi một tiếng rồi.", "slots": { "doing": "waiting", "howLong": "for an hour" }, "answer": "I've been waiting for an hour." },
+                            { "cueVi": "Mình sống ở Sài Gòn từ tháng trước.", "slots": { "doing": "living in Saigon", "howLong": "since last month" }, "answer": "I've been living in Saigon since last month." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["how-have-you-been", "its-been-ages", "lately", "recently", "hobby", "practice", "learn"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b1-01-new-neighbor", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Mình học tiếng Anh ba năm rồi (vẫn đang học).\"",
+                                "options": ["I'm learning English for three years.", "I've been learning English for three years.", "I learn English since three years."],
+                                "answer": 1,
+                                "item": "present-perfect-continuous"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I've been knowing him for years.", "I've known him for years.", "I know him for years."],
+                                "answer": 1,
+                                "item": "present-perfect-continuous"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Gặp lại bạn cũ sau một năm. Bạn hỏi:",
+                                "options": ["How are you been?", "How have you been?", "How were you?"],
+                                "answer": 1,
+                                "item": "how-have-you-been"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I've been really busy ___.",
+                                "hintVi": "dạo này",
+                                "answers": ["lately", "recently"],
+                                "item": "lately"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Dạo này bạn làm gì?",
+                                "answer": "What have you been doing lately?",
+                                "item": "present-perfect-continuous"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b1-01-l3-getting-used-to-it",
+            "title": "Getting used to it",
+            "titleVi": "Quen dần với nơi mới",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "be-used-to", "role": "INTRODUCE" },
+                { "item": "im-used-to", "role": "INTRODUCE" },
+                { "item": "im-getting-used-to", "role": "INTRODUCE" },
+                { "item": "traffic", "role": "INTRODUCE" },
+                { "item": "homesick", "role": "INTRODUCE" },
+                { "item": "strange", "role": "INTRODUCE" },
+                { "item": "local", "role": "INTRODUCE" },
+                { "item": "settle-in", "role": "INTRODUCE" },
+                { "item": "used-to", "role": "RECYCLE" },
+                { "item": "miss", "role": "RECYCLE" },
+                { "item": "hometown", "role": "RECYCLE" },
+                { "item": "weather", "role": "RECYCLE" },
+                { "item": "present-perfect-continuous", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["im-used-to", "im-getting-used-to", "traffic", "homesick", "strange", "local", "settle-in"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "used to, be used to, get used to",
+                        "bodyVi": "Ba cấu trúc trông giống nhau nhưng nghĩa khác hẳn:\n\n| cấu trúc | nghĩa | ví dụ |\n|---|---|---|\n| used to + **nguyên mẫu** (A2) | ngày xưa hay …, giờ không còn | I **used to live** in Hue. |\n| **be** used to + **danh từ / V-ing** | đã quen với | I**'m used to** the heat. I**'m used to getting up** early. |\n| **get** used to + **danh từ / V-ing** | dần quen với | I**'m getting used to** the traffic. You**'ll get used to** it. |\n\nMẹo: có **be / get** đứng trước thì sau **to** là danh từ hoặc V-ing, không phải nguyên mẫu.\n\nNói về cảm giác ở nơi mới: Everything felt **strange** at first. I felt **homesick**. Have you **settled in** yet?\n\n❌ I'm used to get up early ❌ I used to the weather ❌ I'm use to ✅ **I'm used to getting up early.** **I'm used to the weather.**",
+                        "items": ["be-used-to", "used-to", "im-used-to", "im-getting-used-to", "strange", "homesick", "settle-in", "weather"],
+                        "examples": [
+                            { "en": "I used to hate spicy food, but now I'm used to it.", "vi": "Hồi trước mình ghét đồ cay, nhưng giờ quen rồi.", "highlight": "I'm used to it" },
+                            { "en": "Don't worry. You'll get used to the traffic.", "vi": "Đừng lo. Rồi bạn sẽ quen với giao thông thôi.", "highlight": "get used to" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "im-used-to",
+                        "prompts": [
+                            { "cueVi": "Mình quen với cái nóng rồi.", "slots": { "thing": "the heat" }, "answer": "I'm used to the heat." },
+                            { "cueVi": "Mình quen dậy sớm rồi.", "slots": { "thing": "getting up early" }, "answer": "I'm used to getting up early." },
+                            { "cueVi": "Mình quen sống một mình rồi.", "slots": { "thing": "living alone" }, "answer": "I'm used to living alone." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "im-getting-used-to",
+                        "prompts": [
+                            { "cueVi": "Mình đang dần quen với công việc mới.", "slots": { "thing": "my new job" }, "answer": "I'm getting used to my new job." },
+                            { "cueVi": "Mình đang dần quen tự nấu ăn.", "slots": { "thing": "cooking for myself" }, "answer": "I'm getting used to cooking for myself." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["traffic", "homesick", "strange", "local", "settle-in", "miss", "hometown"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b1-01-its-been-ages", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Mình quen dậy sớm rồi.\"",
+                                "options": ["I used to get up early.", "I'm used to getting up early.", "I'm used to get up early."],
+                                "answer": 1,
+                                "item": "be-used-to"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"I used to live in Hue.\" nghĩa là:",
+                                "options": ["Mình quen sống ở Huế.", "Ngày xưa mình sống ở Huế (giờ không còn).", "Mình đang dần quen sống ở Huế."],
+                                "answer": 1,
+                                "item": "used-to"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Don't worry. You'll get used ___ it.",
+                                "answers": ["to"],
+                                "item": "im-getting-used-to"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "I felt homesick in my first month.",
+                                "options": ["Tháng đầu mình bị ốm.", "Tháng đầu mình nhớ nhà.", "Tháng đầu mình ở nhà suốt."],
+                                "answer": 1,
+                                "item": "homesick"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Mình đang dần quen với giao thông.",
+                                "answer": "I'm getting used to the traffic.",
+                                "item": "im-getting-used-to"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "b1-01-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["How long do you live here?", "How long have you lived here?", "How long are you living here?"],
+                "answer": 1,
+                "item": "how-long-have-you"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["I've worked here since three years.", "I've worked here for three years.", "I work here since three years ago."],
+                "answer": 1,
+                "item": "for-since"
+            },
+            {
+                "kind": "gap",
+                "sentence": "I've ___ Lan since we were kids.",
+                "hintVi": "quen (V3 của know)",
+                "answers": ["known"],
+                "item": "known"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["I'm waiting for an hour.", "I've been waiting for an hour.", "I've been wait for an hour."],
+                "answer": 1,
+                "item": "present-perfect-continuous"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "I'm not used to the cold weather yet.",
+                "options": ["Ngày xưa mình không thích trời lạnh.", "Mình chưa quen với trời lạnh.", "Mình không dùng áo ấm."],
+                "answer": 1,
+                "item": "be-used-to"
+            },
+            {
+                "kind": "order",
+                "vi": "Dạo này bạn thế nào?",
+                "answer": "How have you been?",
+                "item": "how-have-you-been"
+            }
+        ]
+    }
+}

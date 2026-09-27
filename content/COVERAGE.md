@@ -11,6 +11,7 @@ Trạng thái: `draft` đã soạn, qua validator · `reviewed` đã có ngườ
 | Pre-A1 | 6 | 6 | 18 | 128 | 86 | 28 | 10 | 4 |
 | A1 | 10 | 10 | 31 | 260 | 166 | 49 | 33 | 12 |
 | A2 | 12 | 12 | 36 | 301 | 155 | 70 | 49 | 27 |
+| B1 | 12 | 4 | 12 | 95 | 36 | 28 | 19 | 12 |
 
 ## Placement (`placement.json`)
 
@@ -21,6 +22,7 @@ Một bài xếp lớp cho cả lộ trình, 2 câu mỗi unit, theo thứ tự 
 | Pre-A1 | 6/6 | 12 |
 | A1 | 10/10 | 20 |
 | A2 | 12/12 | 24 |
+| B1 | 4/12 | 8 |
 
 ## Pre-A1: Foundations
 
@@ -301,3 +303,77 @@ Mốc của stage: "Tôi kể được cuối tuần vừa rồi" (unit 02). Khu
 - `a2-11`: `short` gồm cả nghĩa "thấp" (người). straight, wavy, roommate chỉ nằm trong `noteVi` và ví dụ. `look-like` (giống ai) khác `what-does-look-like` (hỏi ngoại hình).
 - `a2-12` không có GRAMMAR (như `pre-a1-06`, `a1-10`). canDo thứ tư là câu tổng kết stage; checkpoint 8 câu, 2 câu cuối ôn A2 (`perfect-vs-past`, `be-going-to`).
 - Hiện tại tiếp diễn cho lịch hẹn tương lai (I'm meeting Anna tomorrow) chưa dạy riêng; chỉ xuất hiện trong hội thoại.
+
+## B1: Intermediate
+
+Mốc của stage: "Tôi bày tỏ và bảo vệ được ý kiến đơn giản" (unit 04). Khung 12 unit (chốt ở P4-5a, P4-5b/c soạn theo):
+
+| # | Unit | Can-do (tóm tắt) | Bài | Item (L/Ph/Pa/G) | Dialogue | Trạng thái |
+|---|---|---|---|---|---|---|
+| 1 | `b1-01-how-long` | hiện tại hoàn thành với for / since, How long have you…?, hiện tại hoàn thành tiếp diễn (dạo này), be used to / get used to, ổn định ở nơi mới | 3 | 24 (9/5/6/4) | 2 | draft |
+| 2 | `b1-02-what-happened` | quá khứ tiếp diễn, was doing when… / while, kể chuyện có đầu có đuôi, phản ứng khi nghe (How awful!, What a relief!) | 3 | 23 (10/7/4/2) | 2 | draft |
+| 3 | `b1-03-future` | will dự đoán (probably, definitely), I'll / Shall I…? (đề nghị, hứa, quyết định ngay), lịch hẹn bằng hiện tại tiếp diễn, chọn will / going to | 3 | 24 (8/8/5/3) | 2 | draft |
+| 4 | `b1-04-in-my-opinion` | nêu và hỏi ý kiến, đồng ý / phản đối lịch sự, because / so / although / on the other hand; mốc của stage | 3 | 24 (9/8/4/3) | 2 | draft |
+| 5 | `b1-05-if-and-when` | câu điều kiện loại 1, unless, when / as soon as; môi trường, hậu quả | | | | dự kiến |
+| 6 | `b1-06-if-i-were-you` | câu điều kiện loại 2, lời khuyên (If I were you, Why don't you…?, You'd better), I wish | | | | dự kiến |
+| 7 | `b1-07-problems` | phàn nàn và xử lý sự cố (đồ hỏng, dịch vụ, chủ nhà), I'm afraid…, đổi / trả hàng, xin lỗi và đưa giải pháp | | | | dự kiến |
+| 8 | `b1-08-made-in` | bị động hiện tại và quá khứ: sản phẩm, địa danh, lịch sử, tin ngắn | | | | dự kiến |
+| 9 | `b1-09-she-said` | câu tường thuật đơn giản (said, told, asked if), chuyển lời nhắn, kể lại tin | | | | dự kiến |
+| 10 | `b1-10-work-and-study` | gerund và to-infinitive (enjoy doing, decide to), tính từ -ed / -ing, phỏng vấn, điểm mạnh | | | | dự kiến |
+| 11 | `b1-11-must-be` | modal suy đoán (must, might, can't be), đoán chuyện, tìm đồ mất | | | | dự kiến |
+| 12 | `b1-12-strategy` | chiến lược: làm rõ, kiểm tra hiểu, câu rào đón, câu đệm câu giờ, ngắt lời lịch sự, tóm lại; can-do tổng kết B1 | | | | dự kiến |
+
+### Mẫu câu (PATTERN)
+
+| Item | Template | Unit |
+|---|---|---|
+| `how-long-have-you` | How long have you {done}? | 01 |
+| `ive-for` | I've {done} for {time}. | 01 |
+| `ive-since` | I've {done} since {when}. | 01 |
+| `ive-been-doing` | I've been {doing} {howLong}. | 01 |
+| `im-used-to` | I'm used to {thing}. | 01 |
+| `im-getting-used-to` | I'm getting used to {thing}. | 01 |
+| `what-were-you-doing` | What were you doing {when}? | 02 |
+| `i-was-doing` | I was {doing} {when}. | 02 |
+| `i-was-when` | I was {doing} when {event}. | 02 |
+| `how-adjective` | How {adjective}! | 02 |
+| `i-think-will` | I think {subject} will {verb}. | 03 |
+| `ill-do` | I'll {do}. | 03 |
+| `shall-i` | Shall I {do}? | 03 |
+| `what-are-you-doing-on` | What are you doing on {day}? | 03 |
+| `are-you-doing-anything` | Are you doing anything {when}? | 03 |
+| `in-my-opinion` | In my opinion, {opinion}. | 04 |
+| `i-dont-think` | I don't think {opinion}. | 04 |
+| `how-do-you-feel-about` | How do you feel about {topic}? | 04 |
+| `the-main-reason` | The main reason is that {reason}. | 04 |
+
+### Ngữ pháp (GRAMMAR)
+
+| Item | Điểm ngữ pháp | Unit |
+|---|---|---|
+| `present-perfect-duration` | have / has + V3 cho việc kéo dài tới giờ; so với hiện tại đơn và quá khứ đơn | 01 |
+| `for-since` | for + khoảng thời gian, since + mốc; ago nói cùng ý | 01 |
+| `present-perfect-continuous` | have / has been + V-ing, How long have you been…?, lately; động từ trạng thái không -ing | 01 |
+| `be-used-to` | be used to / get used to + danh từ / V-ing, so với used to + nguyên mẫu | 01 |
+| `past-continuous` | was / were + V-ing, bối cảnh câu chuyện | 02 |
+| `past-simple-vs-continuous` | việc dài (tiếp diễn) và việc ngắn xen vào (quá khứ đơn), when / while | 02 |
+| `will-future` | will / won't dự đoán, probably / definitely, I don't think … will | 03 |
+| `will-offers-promises` | I'll quyết định ngay, đề nghị, hứa; Shall I…? | 03 |
+| `future-forms` | hiện tại tiếp diễn (lịch hẹn), going to (kế hoạch), will, hiện tại đơn (lịch cố định) | 03 |
+| `giving-opinions` | I think / I believe / In my opinion, I don't think…, hỏi ý kiến | 04 |
+| `agree-disagree` | I agree (không có am), đồng ý một phần, phản đối mềm | 04 |
+| `linking-reasons` | because / because of, so, but, although; không ghép Vì… nên…, Mặc dù… nhưng… | 04 |
+
+### Lỗi thường gặp của người Việt (B1)
+
+- "I live here for five years", "How long do you live here?", "since three years (ago)", "from 2019" với hiện tại hoàn thành, "I've been knowing", "I'm learning English for three years", "How are you been?", "I'm used to get up", "I used to the weather", "a traffic", "a strange" (người lạ) (unit 01).
+- "I watching TV at 8", "I was watch", "They was", "What did you doing?", "What was happened?", "I cooked when the phone rang" (ý là đang nấu), while với việc ngắn, "falled", "at the end" thay cho in the end, "How is awful!", "How relief!", "I was embarrassing" (unit 02).
+- "It will rains", "I think it won't rain", "It will rain probably", won't và want, "after ten years" (ý là mười năm nữa), "I don't hope so", "I carry it for you" (đề nghị), "I will to call", "Don't worry for me", "That's kind for you", "I will meet Lan tonight" (đã hẹn), "What will you do this weekend?", "I don't sure", "I'll let you to know" (unit 03).
+- "In my opinion, I think", "According to me", "I think it's not a good idea", "How do you think about…?", "I'm agree", "I'm not agree", "I understand what do you mean", "Good idea" khi người kia chỉ nêu ý kiến, "Because…, so…", "Although…, but…", "because the traffic", "In the other hand", convenient và comfortable (unit 04).
+
+### Ghi chú B1
+
+- `b1-01`: `lately` và `recently` đều là item; `known` là item LEXICAL (V3 của know, như `been` ở A2) vì hay dùng với for / since. `used-to` (A2) RECYCLE ở bài 3 để so với be used to.
+- `b1-02`: `fell`, `lost` là item theo dạng quá khứ như động từ bất quy tắc A2; rang chỉ nằm trong item `ring`. `embarrassed` dạy ở đây; cặp -ed / -ing đầy đủ để unit 10. "You won't believe…" là cụm cố định, will dạy ở unit 03.
+- `b1-03`: hiện tại tiếp diễn cho lịch hẹn (chưa dạy ở A2) nằm trong `future-forms`; lịch tàu xe hiện tại đơn chỉ nhắc lại (đã có ở `a2-05`).
+- `b1-04`: `what-do-you-think-of` (A2) RECYCLE, không làm item "What do you think about…?" riêng. because, although là item LEXICAL; so, but chỉ nằm trong `linking-reasons`. Checkpoint 6 câu như các unit thường; câu hỏi ôn cả stage để `b1-12`.
