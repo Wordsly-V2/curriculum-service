@@ -466,6 +466,69 @@
             "options": ["What do you think of Hanoi?", "How do you think about Hanoi?", "What do you think Hanoi?"],
             "answer": 0,
             "item": "what-do-you-think-of"
+        },
+        {
+            "unit": "b1-01-how-long",
+            "kind": "choice",
+            "prompt": "\"Mình sống ở đây năm năm rồi.\"",
+            "options": ["I live here for five years.", "I've lived here for five years.", "I've lived here since five years."],
+            "answer": 1,
+            "item": "present-perfect-duration"
+        },
+        {
+            "unit": "b1-01-how-long",
+            "kind": "choice",
+            "prompt": "\"Mình quen dậy sớm rồi.\"",
+            "options": ["I'm used to get up early.", "I used to getting up early.", "I'm used to getting up early."],
+            "answer": 2,
+            "item": "be-used-to"
+        },
+        {
+            "unit": "b1-02-what-happened",
+            "kind": "choice",
+            "prompt": "\"Mình đang nấu ăn thì điện thoại reo.\"",
+            "options": ["I cooked when the phone was ringing.", "I was cooking when the phone rang.", "I was cook when the phone rang."],
+            "answer": 1,
+            "item": "past-simple-vs-continuous"
+        },
+        {
+            "unit": "b1-02-what-happened",
+            "kind": "gap",
+            "sentence": "What ___ you doing at nine last night?",
+            "answers": ["were"],
+            "item": "past-continuous"
+        },
+        {
+            "unit": "b1-03-future",
+            "kind": "choice",
+            "prompt": "Điện thoại reo. Bạn nói \"Để mình nghe\":",
+            "options": ["I'm going to answer it.", "I'll answer it.", "I answer it."],
+            "answer": 1,
+            "item": "will-offers-promises"
+        },
+        {
+            "unit": "b1-03-future",
+            "kind": "choice",
+            "prompt": "Bạn đã hẹn gặp Lan lúc 7 giờ tối nay. Nói:",
+            "options": ["I'll meet Lan at seven tonight.", "I meet Lan at seven tonight.", "I'm meeting Lan at seven tonight."],
+            "answer": 2,
+            "item": "future-forms"
+        },
+        {
+            "unit": "b1-04-in-my-opinion",
+            "kind": "choice",
+            "prompt": "\"Mình không nghĩ đó là ý hay.\" Cách nói tự nhiên:",
+            "options": ["I think it's not a good idea.", "I don't think it's a good idea.", "I'm not think it's a good idea."],
+            "answer": 1,
+            "item": "giving-opinions"
+        },
+        {
+            "unit": "b1-04-in-my-opinion",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["Although it's cheap, but it's slow.", "Because it's cheap, so I take the bus.", "Although it's cheap, it's slow."],
+            "answer": 2,
+            "item": "linking-reasons"
         }
     ]
 }

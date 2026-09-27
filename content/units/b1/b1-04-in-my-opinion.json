@@ -1,0 +1,769 @@
+{
+    "slug": "b1-04-in-my-opinion",
+    "stage": "b1",
+    "order": 4,
+    "title": "In my opinion",
+    "titleVi": "Nêu và bảo vệ ý kiến",
+    "descriptionVi": "Nêu ý kiến và hỏi ý kiến người khác (I think, In my opinion, How do you feel about…?), đồng ý và phản đối lịch sự (That's true, but…, I'm not so sure), và đưa lý do để bảo vệ ý kiến (because, so, although, on the other hand).",
+    "canDo": [
+        "Tôi nêu được ý kiến của mình và hỏi ý kiến người khác về một chủ đề quen thuộc.",
+        "Tôi đồng ý, đồng ý một phần hoặc phản đối được một cách lịch sự.",
+        "Tôi bày tỏ và bảo vệ được ý kiến đơn giản bằng lý do và ví dụ (because, so, although, on the other hand)."
+    ],
+    "items": [
+        {
+            "slug": "giving-opinions",
+            "type": "GRAMMAR",
+            "text": "I think / I believe / In my opinion, …",
+            "meaningVi": "nêu ý kiến và hỏi ý kiến",
+            "examples": [
+                { "en": "I don't think social media is good for kids.", "vi": "Mình không nghĩ mạng xã hội tốt cho trẻ con.", "highlight": "I don't think" }
+            ],
+            "grammar": {
+                "ruleVi": "Mở đầu ý kiến bằng I think (that) / I believe / In my opinion / Personally. Ý kiến phủ định thì đưa not lên think: I don't think… Hỏi ý kiến: What do you think of / about…? How do you feel about…?",
+                "forms": [
+                    { "label": "nêu ý kiến", "example": "I think (that) social media is useful. I believe it's important." },
+                    { "label": "trang trọng hơn", "example": "In my opinion, children should learn to swim." },
+                    { "label": "phủ định", "example": "I don't think it's a good idea." },
+                    { "label": "hỏi ý kiến", "example": "What do you think about online classes? How do you feel about it?" }
+                ],
+                "pitfallsVi": [
+                    "Lặp: \"In my opinion, I think…\" → In my opinion, … hoặc I think…",
+                    "\"According to me\" → In my opinion.",
+                    "\"I think it's not a good idea\" → I don't think it's a good idea.",
+                    "\"How do you think about…?\" → What do you think about…? / How do you feel about…?"
+                ]
+            }
+        },
+        {
+            "slug": "in-my-opinion",
+            "type": "PATTERN",
+            "text": "In my opinion, ….",
+            "meaningVi": "Theo mình thì ….",
+            "examples": [
+                { "en": "In my opinion, working from home is better.", "vi": "Theo mình, làm ở nhà tốt hơn.", "highlight": "In my opinion" }
+            ],
+            "pattern": {
+                "template": "In my opinion, {opinion}.",
+                "slots": [
+                    { "name": "opinion", "hintVi": "một câu đầy đủ", "options": ["public transportation is the best choice", "children spend too much time online", "it's too expensive", "English is very important", "working from home is better"] }
+                ]
+            },
+            "noteVi": "Không thêm I think phía sau: ❌ \"In my opinion, I think…\". ❌ \"According to me\"."
+        },
+        {
+            "slug": "i-dont-think",
+            "type": "PATTERN",
+            "text": "I don't think ….",
+            "meaningVi": "Mình không nghĩ là ….",
+            "examples": [
+                { "en": "I don't think it's a good idea.", "vi": "Mình không nghĩ đó là ý hay.", "highlight": "I don't think" }
+            ],
+            "pattern": {
+                "template": "I don't think {opinion}.",
+                "slots": [
+                    { "name": "opinion", "hintVi": "câu khẳng định", "options": ["it's a good idea", "it's true", "it's too expensive", "it's important", "people need it"] }
+                ]
+            },
+            "noteVi": "Tiếng Việt nói \"mình nghĩ nó không…\", nên hay thành ❌ \"I think it's not a good idea\". Tiếng Anh đưa not lên think, vế sau để khẳng định."
+        },
+        {
+            "slug": "how-do-you-feel-about",
+            "type": "PATTERN",
+            "text": "How do you feel about …?",
+            "meaningVi": "Bạn thấy … thế nào?",
+            "examples": [
+                { "en": "How do you feel about working from home?", "vi": "Bạn thấy làm việc ở nhà thế nào?", "highlight": "How do you feel about" }
+            ],
+            "pattern": {
+                "template": "How do you feel about {topic}?",
+                "slots": [
+                    { "name": "topic", "hintVi": "danh từ hoặc V-ing", "options": ["working from home", "social media", "online classes", "living in a big city", "the new rules"] }
+                ]
+            },
+            "noteVi": "❌ \"How do you think about…?\" → What do you think about…? hoặc How do you feel about…?"
+        },
+        {
+            "slug": "personally",
+            "type": "LEXICAL",
+            "text": "personally",
+            "meaningVi": "riêng mình thì, cá nhân mình",
+            "ipa": "/ˈpɜːrsənəli/",
+            "examples": [
+                { "en": "Personally, I prefer tea to coffee.", "vi": "Riêng mình thì thích trà hơn cà phê.", "highlight": "Personally" }
+            ],
+            "noteVi": "Đứng đầu câu, có dấu phẩy. Viết hai chữ l: personal + ly."
+        },
+        {
+            "slug": "believe",
+            "type": "LEXICAL",
+            "text": "believe",
+            "meaningVi": "tin; cho rằng",
+            "ipa": "/bɪˈliːv/",
+            "examples": [
+                { "en": "I believe everyone should learn to swim.", "vi": "Mình cho rằng ai cũng nên học bơi.", "highlight": "believe" }
+            ],
+            "noteVi": "I believe nghe chắc chắn hơn I think. Giữ âm /v/ ở cuối. Tin ai: believe me. Tin vào: believe in yourself."
+        },
+        {
+            "slug": "important",
+            "type": "LEXICAL",
+            "text": "important",
+            "meaningVi": "quan trọng",
+            "ipa": "/ɪmˈpɔːrtnt/",
+            "examples": [
+                { "en": "I think it's important to spend time with your family.", "vi": "Mình nghĩ dành thời gian cho gia đình là quan trọng.", "highlight": "important" }
+            ],
+            "noteVi": "It's important to + V. Nhấn âm hai: im-POR-tant, giữ âm /t/ cuối."
+        },
+        {
+            "slug": "social-media",
+            "type": "PHRASE",
+            "text": "social media",
+            "meaningVi": "mạng xã hội",
+            "examples": [
+                { "en": "I spend too much time on social media.", "vi": "Mình dành quá nhiều thời gian lên mạng xã hội.", "highlight": "social media" }
+            ],
+            "noteVi": "Không đếm được, đi với on: on social media. ❌ \"a social media\"."
+        },
+        {
+            "slug": "agree-disagree",
+            "type": "GRAMMAR",
+            "text": "agreeing and disagreeing politely",
+            "meaningVi": "đồng ý và phản đối lịch sự",
+            "examples": [
+                { "en": "That's true, but it's very expensive.", "vi": "Đúng vậy, nhưng nó đắt lắm.", "highlight": "That's true, but" }
+            ],
+            "grammar": {
+                "ruleVi": "agree là động từ: I agree (không có am). Phản đối thẳng (You're wrong. I disagree.) nghe gắt; người bản ngữ thường công nhận một phần trước rồi mới nói but.",
+                "forms": [
+                    { "label": "đồng ý hẳn", "example": "I totally agree. Exactly! You're right." },
+                    { "label": "đồng ý một phần", "example": "That's true, but… I see what you mean, but… Good point, but…" },
+                    { "label": "phản đối mềm", "example": "I don't really agree. I'm not so sure about that." },
+                    { "label": "hỏi người khác", "example": "Do you agree? What do you think?" }
+                ],
+                "pitfallsVi": [
+                    "\"I'm agree\" → I agree. \"I'm not agree\" → I don't agree.",
+                    "Thiếu with: \"I agree you\", \"I agree your opinion\" → I agree with you.",
+                    "Nói thẳng \"You're wrong\" khi thảo luận → I'm not so sure about that."
+                ]
+            }
+        },
+        {
+            "slug": "i-agree",
+            "type": "PHRASE",
+            "text": "I agree (with you).",
+            "meaningVi": "Mình đồng ý (với bạn).",
+            "examples": [
+                { "en": "I agree with you. The bus is too slow.", "vi": "Mình đồng ý với bạn. Xe buýt chậm quá.", "highlight": "I agree with you" }
+            ],
+            "noteVi": "agree là động từ: ❌ \"I'm agree\", ❌ \"I'm not agree\" → I don't agree. Đồng ý với người: agree with; về vấn đề: agree about."
+        },
+        {
+            "slug": "i-dont-really-agree",
+            "type": "PHRASE",
+            "text": "I don't really agree.",
+            "meaningVi": "Mình không đồng ý lắm.",
+            "examples": [
+                { "en": "Sorry, I don't really agree. I think it's a good thing.", "vi": "Xin lỗi, mình không đồng ý lắm. Mình nghĩ đó là điều tốt.", "highlight": "I don't really agree" }
+            ],
+            "noteVi": "really làm lời phản đối mềm hơn. I disagree nghe khá mạnh, nên dùng khi thật sự thấy khác."
+        },
+        {
+            "slug": "thats-true-but",
+            "type": "PHRASE",
+            "text": "That's true, but …",
+            "meaningVi": "Đúng vậy, nhưng …",
+            "examples": [
+                { "en": "That's true, but the city has more jobs.", "vi": "Đúng vậy, nhưng thành phố có nhiều việc làm hơn.", "highlight": "That's true, but" }
+            ],
+            "noteVi": "Công nhận ý người kia rồi mới đưa ý mình: cách phản đối lịch sự nhất."
+        },
+        {
+            "slug": "good-point",
+            "type": "PHRASE",
+            "text": "That's a good point.",
+            "meaningVi": "Bạn nói có lý.",
+            "examples": [
+                { "en": "That's a good point. I didn't think of that.", "vi": "Bạn nói có lý. Mình không nghĩ tới điều đó.", "highlight": "good point" }
+            ],
+            "noteVi": "Ngắn: Good point. ❌ \"Good idea\" khi người kia chỉ nêu ý kiến (idea là sáng kiến, đề xuất)."
+        },
+        {
+            "slug": "i-see-what-you-mean",
+            "type": "PHRASE",
+            "text": "I see what you mean, but …",
+            "meaningVi": "Mình hiểu ý bạn, nhưng …",
+            "examples": [
+                { "en": "I see what you mean, but it's not so easy.", "vi": "Mình hiểu ý bạn, nhưng không dễ vậy đâu.", "highlight": "I see what you mean" }
+            ],
+            "noteVi": "Không đảo do: ❌ \"I understand what do you mean\" → I see what you mean."
+        },
+        {
+            "slug": "im-not-so-sure",
+            "type": "PHRASE",
+            "text": "I'm not so sure (about that).",
+            "meaningVi": "Mình không chắc lắm (về điều đó).",
+            "examples": [
+                { "en": "Robots will do all our jobs? I'm not so sure about that.", "vi": "Người máy sẽ làm hết việc của chúng ta à? Mình không chắc lắm.", "highlight": "I'm not so sure about that" }
+            ],
+            "noteVi": "Thay cho \"You're wrong\", nghe lịch sự mà vẫn rõ là mình không đồng ý."
+        },
+        {
+            "slug": "totally",
+            "type": "LEXICAL",
+            "text": "totally",
+            "meaningVi": "hoàn toàn",
+            "ipa": "/ˈtoʊtəli/",
+            "examples": [
+                { "en": "I totally agree with you.", "vi": "Mình hoàn toàn đồng ý với bạn.", "highlight": "totally" }
+            ],
+            "noteVi": "Hay đi với agree: I totally agree. Thân mật, đáp một chữ: Totally! = Đúng thế!"
+        },
+        {
+            "slug": "linking-reasons",
+            "type": "GRAMMAR",
+            "text": "because, so, but, although, because of",
+            "meaningVi": "nối ý: vì, nên, nhưng, mặc dù",
+            "examples": [
+                { "en": "Although the city is noisy, I love living here.", "vi": "Mặc dù thành phố ồn ào, mình vẫn thích sống ở đây.", "highlight": "Although" }
+            ],
+            "grammar": {
+                "ruleVi": "Ý kiến cần lý do. because + lý do, so + kết quả, but / although + ý ngược lại, because of + danh từ. Tiếng Việt nói \"Vì… nên…\", \"Mặc dù… nhưng…\"; tiếng Anh chỉ dùng một từ nối trong một câu.",
+                "forms": [
+                    { "label": "lý do", "example": "I prefer the bus because it's cheap." },
+                    { "label": "kết quả", "example": "It's cheap, so I take the bus." },
+                    { "label": "ngược lại", "example": "It's cheap, but it's slow. Although it's cheap, it's slow." },
+                    { "label": "because of", "example": "I was late because of the traffic." }
+                ],
+                "pitfallsVi": [
+                    "\"Because it's cheap, so I take the bus\" → Because it's cheap, I take the bus. / It's cheap, so I take the bus.",
+                    "\"Although it's cheap, but it's slow\" → Although it's cheap, it's slow.",
+                    "\"because the traffic\" → because of the traffic."
+                ]
+            }
+        },
+        {
+            "slug": "because",
+            "type": "LEXICAL",
+            "text": "because",
+            "meaningVi": "vì, bởi vì",
+            "ipa": "/bɪˈkʌz/",
+            "examples": [
+                { "en": "I take the bus because it's cheap.", "vi": "Mình đi xe buýt vì nó rẻ.", "highlight": "because" }
+            ],
+            "noteVi": "because + mệnh đề, because of + danh từ. ❌ \"Because…, so…\". Nói nhanh người Mỹ hay rút thành 'cause."
+        },
+        {
+            "slug": "although",
+            "type": "LEXICAL",
+            "text": "although",
+            "meaningVi": "mặc dù",
+            "ipa": "/ɔːlˈðoʊ/",
+            "examples": [
+                { "en": "Although it's expensive, I love this neighborhood.", "vi": "Mặc dù đắt, mình vẫn thích khu này.", "highlight": "Although" }
+            ],
+            "noteVi": "❌ \"Although…, but…\": chỉ dùng một từ. gh câm: /ɔːlˈðoʊ/."
+        },
+        {
+            "slug": "the-main-reason",
+            "type": "PATTERN",
+            "text": "The main reason is that ….",
+            "meaningVi": "Lý do chính là ….",
+            "examples": [
+                { "en": "The main reason is that it saves time.", "vi": "Lý do chính là nó tiết kiệm thời gian.", "highlight": "The main reason is that" }
+            ],
+            "pattern": {
+                "template": "The main reason is that {reason}.",
+                "slots": [
+                    { "name": "reason", "hintVi": "một câu đầy đủ", "options": ["it's cheaper", "it saves time", "it's more convenient", "I can work from home", "it's good for my health"] }
+                ]
+            },
+            "noteVi": "Nhiều người nói \"The reason is because…\", nhưng \"… is that…\" gọn và chuẩn hơn."
+        },
+        {
+            "slug": "on-the-other-hand",
+            "type": "PHRASE",
+            "text": "On the other hand, …",
+            "meaningVi": "Mặt khác, …",
+            "examples": [
+                { "en": "Big cities have more jobs. On the other hand, life there is expensive.", "vi": "Thành phố lớn có nhiều việc làm hơn. Mặt khác, sống ở đó đắt đỏ.", "highlight": "On the other hand" }
+            ],
+            "noteVi": "Đưa ra mặt ngược lại. ❌ \"In the other hand\". Thường đứng đầu câu, có dấu phẩy."
+        },
+        {
+            "slug": "advantage",
+            "type": "LEXICAL",
+            "text": "advantage",
+            "meaningVi": "ưu điểm, lợi thế",
+            "ipa": "/ədˈvæntɪdʒ/",
+            "examples": [
+                { "en": "One advantage of city life is that everything is close.", "vi": "Một ưu điểm của cuộc sống thành phố là cái gì cũng gần.", "highlight": "advantage" }
+            ],
+            "noteVi": "advantage of + danh từ / V-ing. Nhấn âm hai: ad-VAN-tage. Nói gọn cả hai mặt: pros and cons."
+        },
+        {
+            "slug": "disadvantage",
+            "type": "LEXICAL",
+            "text": "disadvantage",
+            "meaningVi": "nhược điểm, bất lợi",
+            "ipa": "/ˌdɪsədˈvæntɪdʒ/",
+            "examples": [
+                { "en": "The main disadvantage is the noise.", "vi": "Nhược điểm chính là tiếng ồn.", "highlight": "disadvantage" }
+            ],
+            "noteVi": "dis- làm nghĩa ngược lại (như agree → disagree). Giữ âm cuối /dʒ/."
+        },
+        {
+            "slug": "convenient",
+            "type": "LEXICAL",
+            "text": "convenient",
+            "meaningVi": "tiện, tiện lợi",
+            "ipa": "/kənˈviːniənt/",
+            "examples": [
+                { "en": "Online shopping is very convenient.", "vi": "Mua sắm trên mạng rất tiện.", "highlight": "convenient" }
+            ],
+            "noteVi": "Nhấn âm hai: con-VE-nient. convenient là tiện, comfortable là thoải mái. Cửa hàng tiện lợi: convenience store."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "b1-04-working-from-home",
+            "title": "How do you feel about working from home?",
+            "situationVi": "Giờ nghỉ trưa, Kevin, đồng nghiệp người Mỹ, hỏi ý bạn về quy định mới: mỗi tuần làm ở nhà hai ngày.",
+            "lines": [
+                { "speaker": "Kevin", "en": "The company wants us to work from home two days a week. How do you feel about that?", "vi": "Công ty muốn mình làm ở nhà hai ngày một tuần. Bạn thấy sao?" },
+                { "speaker": "You", "en": "Personally, I think it's a great idea. I won't waste two hours in traffic.", "vi": "Riêng mình thấy ý đó hay. Mình sẽ không mất hai tiếng kẹt xe nữa.", "learnerTurn": true },
+                { "speaker": "Kevin", "en": "That's true, but don't you feel lonely at home?", "vi": "Đúng thế, nhưng ở nhà bạn không thấy cô đơn à?" },
+                { "speaker": "You", "en": "I see what you mean, but I can call my colleagues when I need help.", "vi": "Mình hiểu ý bạn, nhưng khi cần giúp mình gọi đồng nghiệp được mà.", "learnerTurn": true },
+                { "speaker": "Kevin", "en": "Hmm, I don't really agree. I think meetings are much easier in the office.", "vi": "Hừm, mình không đồng ý lắm. Mình nghĩ họp ở văn phòng dễ hơn nhiều." },
+                { "speaker": "You", "en": "That's a good point. Some meetings are better face to face.", "vi": "Bạn nói có lý. Có những cuộc họp gặp trực tiếp thì tốt hơn.", "learnerTurn": true },
+                { "speaker": "Kevin", "en": "Exactly! So maybe two days at home is the right balance.", "vi": "Đúng vậy! Nên có lẽ hai ngày ở nhà là vừa." },
+                { "speaker": "You", "en": "I totally agree. Two days is perfect.", "vi": "Mình hoàn toàn đồng ý. Hai ngày là vừa đẹp.", "learnerTurn": true }
+            ]
+        },
+        {
+            "slug": "b1-04-city-or-countryside",
+            "title": "City or countryside?",
+            "situationVi": "Ở câu lạc bộ tiếng Anh, cô Rachel hỏi: sống ở thành phố lớn hay ở quê thì tốt hơn? Bạn nêu ý kiến và bảo vệ nó.",
+            "lines": [
+                { "speaker": "Rachel", "en": "So, is it better to live in a big city or in the countryside? What do you think?", "vi": "Nào, sống ở thành phố lớn hay ở quê thì tốt hơn? Em nghĩ sao?" },
+                { "speaker": "You", "en": "In my opinion, the city is better, because there are more jobs and better schools.", "vi": "Theo em, thành phố tốt hơn, vì có nhiều việc làm và trường tốt hơn.", "learnerTurn": true },
+                { "speaker": "Rachel", "en": "But the city is noisy and crowded, and the air is terrible.", "vi": "Nhưng thành phố ồn ào, đông đúc, không khí lại tệ." },
+                { "speaker": "You", "en": "That's true, but it's much more convenient. Everything is close to your home.", "vi": "Đúng vậy, nhưng tiện hơn nhiều ạ. Cái gì cũng gần nhà.", "learnerTurn": true },
+                { "speaker": "Rachel", "en": "I'm not so sure about that. With the internet, you can work from anywhere now.", "vi": "Cô không chắc lắm. Có internet thì giờ làm ở đâu cũng được." },
+                { "speaker": "You", "en": "I see what you mean. On the other hand, a lot of jobs still need people in the office.", "vi": "Em hiểu ý cô. Mặt khác, nhiều việc vẫn cần người ở văn phòng.", "learnerTurn": true },
+                { "speaker": "Rachel", "en": "Good point. So what's the main reason you prefer the city?", "vi": "Có lý. Vậy lý do chính em thích thành phố là gì?" },
+                { "speaker": "You", "en": "The main reason is that my family and friends are there. Although it's crowded, I love it.", "vi": "Lý do chính là gia đình và bạn bè em ở đó. Mặc dù đông đúc, em vẫn thích.", "learnerTurn": true },
+                { "speaker": "Rachel", "en": "Fair enough! Thanks for sharing.", "vi": "Hợp lý! Cảm ơn em đã chia sẻ." }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "b1-04-l1-what-do-you-think",
+            "title": "What do you think?",
+            "titleVi": "Nêu và hỏi ý kiến",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "giving-opinions", "role": "INTRODUCE" },
+                { "item": "in-my-opinion", "role": "INTRODUCE" },
+                { "item": "i-dont-think", "role": "INTRODUCE" },
+                { "item": "how-do-you-feel-about", "role": "INTRODUCE" },
+                { "item": "personally", "role": "INTRODUCE" },
+                { "item": "believe", "role": "INTRODUCE" },
+                { "item": "important", "role": "INTRODUCE" },
+                { "item": "social-media", "role": "INTRODUCE" },
+                { "item": "what-do-you-think-of", "role": "RECYCLE" },
+                { "item": "i-think-will", "role": "RECYCLE" },
+                { "item": "for-example", "role": "RECYCLE" },
+                { "item": "actually", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["in-my-opinion", "i-dont-think", "how-do-you-feel-about", "personally", "believe", "important", "social-media"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Nêu ý kiến, hỏi ý kiến",
+                        "bodyVi": "Mở đầu ý kiến, từ thân mật đến trang trọng:\n\n| cách mở đầu | ghi chú |\n|---|---|\n| **I think** (that)… | hay dùng nhất |\n| **Personally**, … | nhấn \"riêng mình\" |\n| **I believe**… | chắc chắn hơn |\n| **In my opinion**, … | trang trọng hơn, không thêm I think |\n\n**Ý kiến phủ định**: đưa not lên think.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| I think it's not a good idea. | I **don't think** it's a good idea. |\n| I think he won't come. | I **don't think** he'll come. |\n\n**Hỏi ý kiến**: **What do you think of / about** online classes? **How do you feel about** working from home?\n\nNêu ý kiến xong nên thêm ví dụ: **For example**, …\n\n❌ In my opinion, I think… ❌ According to me ❌ How do you think about…? ✅ **In my opinion, …** **What do you think about…?** **How do you feel about…?**",
+                        "items": ["giving-opinions", "in-my-opinion", "i-dont-think", "how-do-you-feel-about", "what-do-you-think-of", "personally", "believe", "for-example"],
+                        "examples": [
+                            { "en": "How do you feel about social media? Personally, I think it's useful, but I spend too much time on it.", "vi": "Bạn thấy mạng xã hội thế nào? Riêng mình thấy nó có ích, nhưng mình dành quá nhiều thời gian cho nó.", "highlight": "How do you feel about social media" },
+                            { "en": "I don't think it's important. For example, I never use it at work.", "vi": "Mình không nghĩ nó quan trọng. Ví dụ, mình chẳng bao giờ dùng nó khi làm việc.", "highlight": "I don't think it's important" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "in-my-opinion",
+                        "prompts": [
+                            { "cueVi": "Theo mình, làm ở nhà tốt hơn.", "slots": { "opinion": "working from home is better" }, "answer": "In my opinion, working from home is better." },
+                            { "cueVi": "Theo mình, tiếng Anh rất quan trọng.", "slots": { "opinion": "English is very important" }, "answer": "In my opinion, English is very important." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "i-dont-think",
+                        "prompts": [
+                            { "cueVi": "Mình không nghĩ đó là ý hay.", "slots": { "opinion": "it's a good idea" }, "answer": "I don't think it's a good idea." },
+                            { "cueVi": "Mình không nghĩ điều đó đúng.", "slots": { "opinion": "it's true" }, "answer": "I don't think it's true." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "how-do-you-feel-about",
+                        "prompts": [
+                            { "cueVi": "Hỏi: bạn thấy mạng xã hội thế nào?", "slots": { "topic": "social media" }, "answer": "How do you feel about social media?" },
+                            { "cueVi": "Hỏi: bạn thấy học trực tuyến thế nào?", "slots": { "topic": "online classes" }, "answer": "How do you feel about online classes?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["personally", "believe", "important", "social-media", "for-example", "actually"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "How do you feel about working from home?", "vi": "Bạn thấy làm việc ở nhà thế nào?" },
+                            { "en": "Personally, I think it's a great idea.", "vi": "Riêng mình thấy đó là ý hay." },
+                            { "en": "I don't think social media is good for kids.", "vi": "Mình không nghĩ mạng xã hội tốt cho trẻ con." },
+                            { "en": "In my opinion, English is very important.", "vi": "Theo mình, tiếng Anh rất quan trọng." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Mình không nghĩ đó là ý hay.\" Cách nói tự nhiên:",
+                                "options": ["I think it's not a good idea.", "I don't think it's a good idea.", "I'm not think it's a good idea."],
+                                "answer": 1,
+                                "item": "i-dont-think"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["In my opinion, I think it's too expensive.", "According to me, it's too expensive.", "In my opinion, it's too expensive."],
+                                "answer": 2,
+                                "item": "in-my-opinion"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Hỏi ý kiến về làm việc ở nhà:",
+                                "options": ["How do you think about working from home?", "How do you feel about working from home?", "How do you feel working from home about?"],
+                                "answer": 1,
+                                "item": "how-do-you-feel-about"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "I spend too much time on social media.",
+                                "options": ["Mình dành quá nhiều thời gian lên mạng xã hội.", "Mình không có thời gian cho mạng xã hội.", "Mình làm việc cho một công ty mạng xã hội."],
+                                "answer": 0,
+                                "item": "social-media"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Riêng mình thì thích trà hơn cà phê.",
+                                "answer": "Personally, I prefer tea to coffee.",
+                                "item": "personally"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b1-04-l2-agree-disagree",
+            "title": "I see what you mean, but…",
+            "titleVi": "Đồng ý và phản đối lịch sự",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "agree-disagree", "role": "INTRODUCE" },
+                { "item": "i-agree", "role": "INTRODUCE" },
+                { "item": "i-dont-really-agree", "role": "INTRODUCE" },
+                { "item": "thats-true-but", "role": "INTRODUCE" },
+                { "item": "good-point", "role": "INTRODUCE" },
+                { "item": "i-see-what-you-mean", "role": "INTRODUCE" },
+                { "item": "im-not-so-sure", "role": "INTRODUCE" },
+                { "item": "totally", "role": "INTRODUCE" },
+                { "item": "giving-opinions", "role": "RECYCLE" },
+                { "item": "exactly", "role": "RECYCLE" },
+                { "item": "me-too", "role": "RECYCLE" },
+                { "item": "i-mean", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["i-agree", "i-dont-really-agree", "thats-true-but", "good-point", "i-see-what-you-mean", "im-not-so-sure", "totally"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Từ đồng ý hẳn đến phản đối mềm",
+                        "bodyVi": "**agree** là động từ, nên không có am: **I agree**, **I don't agree** (❌ I'm agree, I'm not agree).\n\n| mức độ | nói |\n|---|---|\n| đồng ý hẳn | **I totally agree.** **Exactly!** You're right. |\n| đồng ý một phần | **That's true, but**… **Good point, but**… **I see what you mean, but**… |\n| phản đối mềm | **I don't really agree.** **I'm not so sure about that.** |\n| phản đối mạnh | I disagree. (ít dùng khi nói chuyện thân mật) |\n\nNgười Việt hay im lặng hoặc gật đầu khi không đồng ý, hoặc nói thẳng \"You're wrong\". Trong thảo luận bằng tiếng Anh, cách an toàn là **công nhận một phần rồi nói but**: That's true, but it's very expensive.\n\n❌ I'm agree ❌ I'm not agree ❌ I understand what do you mean ❌ Good idea (khi người ta chỉ nêu ý kiến) ✅ **I agree.** **I don't agree.** **I see what you mean.** **Good point.**",
+                        "items": ["agree-disagree", "i-agree", "i-dont-really-agree", "thats-true-but", "good-point", "i-see-what-you-mean", "im-not-so-sure", "totally", "exactly"],
+                        "examples": [
+                            { "en": "The bus is too slow. I totally agree.", "vi": "Xe buýt chậm quá. Mình hoàn toàn đồng ý.", "highlight": "I totally agree" },
+                            { "en": "I see what you mean, but it's cheaper than a taxi.", "vi": "Mình hiểu ý bạn, nhưng nó rẻ hơn taxi.", "highlight": "I see what you mean, but" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["i-agree", "i-dont-really-agree", "thats-true-but", "good-point", "i-see-what-you-mean", "im-not-so-sure", "totally", "exactly"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "I totally agree with you.", "vi": "Mình hoàn toàn đồng ý với bạn." },
+                            { "en": "That's true, but it's very expensive.", "vi": "Đúng vậy, nhưng nó đắt lắm." },
+                            { "en": "I see what you mean, but it's not so easy.", "vi": "Mình hiểu ý bạn, nhưng không dễ vậy đâu." },
+                            { "en": "I'm not so sure about that.", "vi": "Mình không chắc lắm về điều đó." }
+                        ]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b1-04-working-from-home", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I'm agree with you.", "I agree with you.", "I'm agreeing you."],
+                                "answer": 1,
+                                "item": "i-agree"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn không đồng ý nhưng muốn nói lịch sự:",
+                                "options": ["You're wrong.", "I'm not so sure about that.", "No."],
+                                "answer": 1,
+                                "item": "im-not-so-sure"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Công nhận một phần rồi nêu ý mình:",
+                                "options": ["That's true, but the city has more jobs.", "That's right, so the city has more jobs.", "True is that, but the city has more jobs."],
+                                "answer": 0,
+                                "item": "thats-true-but"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I ___ agree with you. You're absolutely right.",
+                                "hintVi": "hoàn toàn",
+                                "answers": ["totally"],
+                                "item": "totally"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Mình hiểu ý bạn, nhưng không dễ vậy đâu.",
+                                "answer": "I see what you mean, but it's not so easy.",
+                                "item": "i-see-what-you-mean"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b1-04-l3-reasons",
+            "title": "The main reason is…",
+            "titleVi": "Đưa lý do, bảo vệ ý kiến",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "linking-reasons", "role": "INTRODUCE" },
+                { "item": "because", "role": "INTRODUCE" },
+                { "item": "although", "role": "INTRODUCE" },
+                { "item": "the-main-reason", "role": "INTRODUCE" },
+                { "item": "on-the-other-hand", "role": "INTRODUCE" },
+                { "item": "advantage", "role": "INTRODUCE" },
+                { "item": "disadvantage", "role": "INTRODUCE" },
+                { "item": "convenient", "role": "INTRODUCE" },
+                { "item": "agree-disagree", "role": "RECYCLE" },
+                { "item": "thats-true-but", "role": "RECYCLE" },
+                { "item": "comparatives", "role": "RECYCLE" },
+                { "item": "prefer", "role": "RECYCLE" },
+                { "item": "crowded", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["because", "although", "the-main-reason", "on-the-other-hand", "advantage", "disadvantage", "convenient"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Bảo vệ ý kiến: lý do, mặt trái, kết luận",
+                        "bodyVi": "Một ý kiến thuyết phục có ba phần: **ý kiến → lý do → (mặt trái) → kết luận**.\n\n| từ nối | nghĩa | ví dụ |\n|---|---|---|\n| **because** + câu | vì | I prefer the city **because** it's convenient. |\n| **because of** + danh từ | vì | I was late **because of** the traffic. |\n| **so** | nên | It's cheap, **so** I take the bus. |\n| **but** | nhưng | It's cheap, **but** it's slow. |\n| **although** | mặc dù | **Although** it's crowded, I love it. |\n| **On the other hand**, | mặt khác | **On the other hand**, it's expensive. |\n\nTiếng Việt nói \"**Vì**… **nên**…\", \"**Mặc dù**… **nhưng**…\". Tiếng Anh chỉ dùng **một** từ nối cho một cặp ý.\n\nNói ưu và nhược: One **advantage** of… is that… The main **disadvantage** is… Kết lại: **The main reason is that**…\n\n❌ Because it's cheap, so I take the bus ❌ Although it's cheap, but it's slow ❌ because the traffic ❌ In the other hand ✅ **It's cheap, so I take the bus.** **Although it's cheap, it's slow.** **because of the traffic** **On the other hand**",
+                        "items": ["linking-reasons", "because", "although", "on-the-other-hand", "the-main-reason", "advantage", "disadvantage", "convenient", "comparatives", "prefer"],
+                        "examples": [
+                            { "en": "I prefer the city because it's more convenient. On the other hand, it's very crowded.", "vi": "Mình thích thành phố hơn vì tiện hơn. Mặt khác, nó rất đông đúc.", "highlight": "On the other hand" },
+                            { "en": "Although online classes are convenient, I learn better in a real classroom.", "vi": "Mặc dù học trực tuyến tiện, mình học ở lớp thật tốt hơn.", "highlight": "Although online classes are convenient" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "the-main-reason",
+                        "prompts": [
+                            { "cueVi": "Lý do chính là nó tiết kiệm thời gian.", "slots": { "reason": "it saves time" }, "answer": "The main reason is that it saves time." },
+                            { "cueVi": "Lý do chính là nó tiện hơn.", "slots": { "reason": "it's more convenient" }, "answer": "The main reason is that it's more convenient." },
+                            { "cueVi": "Lý do chính là nó tốt cho sức khỏe của mình.", "slots": { "reason": "it's good for my health" }, "answer": "The main reason is that it's good for my health." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["because", "although", "on-the-other-hand", "advantage", "disadvantage", "convenient", "crowded", "prefer"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b1-04-city-or-countryside", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["Because it's cheap, so I take the bus.", "It's cheap, so I take the bus.", "Because of it's cheap, I take the bus."],
+                                "answer": 1,
+                                "item": "linking-reasons"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["Although it's crowded, but I love it.", "Although it's crowded, I love it.", "Although crowded it is, I love it."],
+                                "answer": 1,
+                                "item": "although"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I was late because ___ the traffic.",
+                                "answers": ["of"],
+                                "item": "linking-reasons"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "The main disadvantage is the noise.",
+                                "options": ["Ưu điểm chính là yên tĩnh.", "Nhược điểm chính là tiếng ồn.", "Lý do chính là tiếng ồn."],
+                                "answer": 1,
+                                "item": "disadvantage"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Lý do chính là nó tiết kiệm thời gian.",
+                                "answer": "The main reason is that it saves time.",
+                                "item": "the-main-reason"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "b1-04-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "\"Mình không nghĩ nó quan trọng.\"",
+                "options": ["I think it's not important.", "I don't think it's important.", "I'm not think it's important."],
+                "answer": 1,
+                "item": "giving-opinions"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["I'm not agree with you.", "I don't agree with you.", "I not agree with you."],
+                "answer": 1,
+                "item": "agree-disagree"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Bạn thấy ý người kia có lý. Đáp:",
+                "options": ["Good idea.", "That's a good point.", "You have a point good."],
+                "answer": 1,
+                "item": "good-point"
+            },
+            {
+                "kind": "gap",
+                "sentence": "___ it's expensive, I love this neighborhood.",
+                "hintVi": "mặc dù",
+                "answers": ["Although", "Though", "Even though"],
+                "item": "although"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "Big cities have more jobs. On the other hand, life there is expensive.",
+                "options": ["Thành phố lớn nhiều việc làm, và cuộc sống ở đó rẻ.", "Thành phố lớn nhiều việc làm. Mặt khác, sống ở đó đắt đỏ.", "Thành phố lớn ít việc làm vì cuộc sống đắt đỏ."],
+                "answer": 1,
+                "item": "on-the-other-hand"
+            },
+            {
+                "kind": "order",
+                "vi": "Theo mình, làm việc ở nhà tốt hơn.",
+                "answer": "In my opinion, working from home is better.",
+                "item": "in-my-opinion"
+            }
+        ]
+    }
+}

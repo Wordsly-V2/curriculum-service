@@ -1,0 +1,776 @@
+{
+    "slug": "b1-03-future",
+    "stage": "b1",
+    "order": 3,
+    "title": "I'll do it",
+    "titleVi": "Nói về tương lai",
+    "descriptionVi": "Đoán tương lai (I think it'll…, probably, definitely), đề nghị giúp, hứa, quyết định ngay (I'll…, Shall I…?), và chọn đúng will, be going to hay hiện tại tiếp diễn khi nói về kế hoạch và lịch hẹn.",
+    "canDo": [
+        "Tôi đưa ra được dự đoán về tương lai và nói mình chắc đến đâu (I think it'll…, probably, definitely).",
+        "Tôi đề nghị giúp, hứa, và quyết định ngay lúc nói bằng will (I'll…, Shall I…?).",
+        "Tôi hỏi và nói được lịch hẹn, kế hoạch của mình, chọn đúng will, be going to hay hiện tại tiếp diễn."
+    ],
+    "items": [
+        {
+            "slug": "will-future",
+            "type": "GRAMMAR",
+            "text": "will / won't + base verb (predictions)",
+            "meaningVi": "sẽ: dự đoán tương lai",
+            "examples": [
+                { "en": "I think robots will do a lot of our jobs.", "vi": "Mình nghĩ người máy sẽ làm nhiều việc thay chúng ta.", "highlight": "will do" }
+            ],
+            "grammar": {
+                "ruleVi": "Nói điều mình nghĩ sẽ xảy ra: will + nguyên mẫu (mọi ngôi đều như nhau), phủ định won't. Hay đi với I think, I don't think, probably, definitely. Tiếng Việt dùng \"sẽ\" cho mọi kiểu tương lai; tiếng Anh chọn will, going to hay hiện tại tiếp diễn tùy ý (bài 3).",
+                "forms": [
+                    { "label": "khẳng định", "example": "It'll rain tomorrow. Robots will do many jobs." },
+                    { "label": "phủ định", "example": "Prices won't go down. (won't = will not)" },
+                    { "label": "câu hỏi", "example": "Will it be expensive? Do you think it'll work?" },
+                    { "label": "mức độ chắc", "example": "It'll definitely rain. It'll probably rain. It probably won't rain." }
+                ],
+                "pitfallsVi": [
+                    "Chia động từ sau will: \"It will rains\" → It will rain.",
+                    "\"I think it won't rain\" nghe không tự nhiên → I don't think it will rain.",
+                    "Vị trí probably: \"It will rain probably\" → It will probably rain.",
+                    "won't /woʊnt/ đọc khác want /wɑːnt/: I won't go (sẽ không đi) và I want to go (muốn đi)."
+                ]
+            }
+        },
+        {
+            "slug": "i-think-will",
+            "type": "PATTERN",
+            "text": "I think … will ….",
+            "meaningVi": "Mình nghĩ … sẽ ….",
+            "examples": [
+                { "en": "I think prices will go up next year.", "vi": "Mình nghĩ năm sau giá sẽ tăng.", "highlight": "I think prices will" }
+            ],
+            "pattern": {
+                "template": "I think {subject} will {verb}.",
+                "slots": [
+                    { "name": "subject", "hintVi": "ai / cái gì", "options": ["it", "prices", "robots", "our team", "people"] },
+                    { "name": "verb", "hintVi": "nguyên mẫu + phần còn lại", "options": ["rain tomorrow", "go up", "do many jobs", "win", "work from home more"] }
+                ]
+            },
+            "noteVi": "Phủ định thì chuyển not lên think: I don't think it will rain (tự nhiên hơn \"I think it won't rain\")."
+        },
+        {
+            "slug": "probably",
+            "type": "LEXICAL",
+            "text": "probably",
+            "meaningVi": "có lẽ, chắc là",
+            "ipa": "/ˈprɑːbəbli/",
+            "examples": [
+                { "en": "It'll probably be sunny tomorrow.", "vi": "Mai chắc trời nắng.", "highlight": "probably" }
+            ],
+            "noteVi": "Đứng sau will nhưng trước won't: It'll probably rain. It probably won't rain. Chắc hơn maybe."
+        },
+        {
+            "slug": "definitely",
+            "type": "LEXICAL",
+            "text": "definitely",
+            "meaningVi": "chắc chắn",
+            "ipa": "/ˈdefənətli/",
+            "examples": [
+                { "en": "I'll definitely come to your party.", "vi": "Mình chắc chắn sẽ đến tiệc của bạn.", "highlight": "definitely" }
+            ],
+            "noteVi": "Viết -ite- (❌ \"definately\"). Trả lời một chữ: Definitely! = Chắc chắn rồi!"
+        },
+        {
+            "slug": "future",
+            "type": "LEXICAL",
+            "text": "future",
+            "meaningVi": "tương lai",
+            "ipa": "/ˈfjuːtʃər/",
+            "examples": [
+                { "en": "What do you want to do in the future?", "vi": "Sau này bạn muốn làm gì?", "highlight": "future" }
+            ],
+            "noteVi": "Người Mỹ nói in the future (có the). Đọc /ˈfjuːtʃər/: \"phiu-chơ\"."
+        },
+        {
+            "slug": "in-ten-years",
+            "type": "PHRASE",
+            "text": "in ten years",
+            "meaningVi": "mười năm nữa (tính từ bây giờ)",
+            "examples": [
+                { "en": "In ten years, I think I'll live in the countryside.", "vi": "Mười năm nữa, mình nghĩ mình sẽ sống ở quê.", "highlight": "In ten years" }
+            ],
+            "noteVi": "in + khoảng thời gian = chừng ấy thời gian nữa: in two days, in a month. ❌ \"after ten years\" khi ý là \"mười năm nữa\"."
+        },
+        {
+            "slug": "i-hope-so",
+            "type": "PHRASE",
+            "text": "I hope so. / I hope not.",
+            "meaningVi": "Mong là vậy. / Mong là không.",
+            "examples": [
+                { "en": "Will it rain tomorrow? I hope not.", "vi": "Mai có mưa không? Mong là không.", "highlight": "I hope not" }
+            ],
+            "noteVi": "❌ \"I hope.\" (thiếu so), ❌ \"I don't hope so\" → I hope not."
+        },
+        {
+            "slug": "technology",
+            "type": "LEXICAL",
+            "text": "technology",
+            "meaningVi": "công nghệ",
+            "ipa": "/tekˈnɑːlədʒi/",
+            "examples": [
+                { "en": "Technology will change the way we work.", "vi": "Công nghệ sẽ thay đổi cách chúng ta làm việc.", "highlight": "Technology" }
+            ],
+            "noteVi": "Nhấn âm hai: tech-NO-lo-gy. Nói chung chung thì không đếm được: ❌ \"technologies change our life\"."
+        },
+        {
+            "slug": "will-offers-promises",
+            "type": "GRAMMAR",
+            "text": "I'll … (offers, promises, instant decisions)",
+            "meaningVi": "will khi quyết định ngay, đề nghị giúp, hứa",
+            "examples": [
+                { "en": "That bag looks heavy. I'll carry it for you.", "vi": "Túi đó trông nặng. Để mình xách cho.", "highlight": "I'll carry it" }
+            ],
+            "grammar": {
+                "ruleVi": "Quyết định ngay lúc nói (trước đó chưa định), đề nghị giúp, hứa: I'll + nguyên mẫu. Đề nghị dạng hỏi: Shall I…? Tiếng Việt hay nói \"để mình…\", tiếng Anh dùng I'll, không dùng hiện tại đơn.",
+                "forms": [
+                    { "label": "quyết định ngay", "example": "It's cold. I'll close the window. I'll have the chicken, please." },
+                    { "label": "đề nghị giúp", "example": "I'll carry it. Shall I help you?" },
+                    { "label": "hứa", "example": "I'll call you tonight. I won't forget, I promise." },
+                    { "label": "không chịu", "example": "The car won't start. He won't listen to me." }
+                ],
+                "pitfallsVi": [
+                    "Dùng hiện tại đơn: \"I carry it for you\" → I'll carry it for you.",
+                    "\"I will to call you\" → I'll call you.",
+                    "Quyết định ngay mà dùng going to: điện thoại reo, \"I'm going to get it\" → I'll get it."
+                ]
+            }
+        },
+        {
+            "slug": "ill-do",
+            "type": "PATTERN",
+            "text": "I'll ….",
+            "meaningVi": "Để mình … / Mình sẽ ….",
+            "examples": [
+                { "en": "Don't worry. I'll call you tonight.", "vi": "Đừng lo. Tối nay mình sẽ gọi cho bạn.", "highlight": "I'll call you" }
+            ],
+            "pattern": {
+                "template": "I'll {do}.",
+                "slots": [
+                    { "name": "do", "hintVi": "nguyên mẫu + phần còn lại", "options": ["carry it for you", "call you tonight", "get it", "have the chicken, please", "send it this afternoon"] }
+                ]
+            },
+            "noteVi": "I'll đọc /aɪl/, giữ âm /l/ ở cuối, đừng nuốt thành \"I\"."
+        },
+        {
+            "slug": "shall-i",
+            "type": "PATTERN",
+            "text": "Shall I …?",
+            "meaningVi": "Để mình … nhé?",
+            "examples": [
+                { "en": "It's hot in here. Shall I open the window?", "vi": "Trong này nóng quá. Để mình mở cửa sổ nhé?", "highlight": "Shall I" }
+            ],
+            "pattern": {
+                "template": "Shall I {do}?",
+                "slots": [
+                    { "name": "do", "hintVi": "nguyên mẫu + phần còn lại", "options": ["open the window", "help you with that", "call a taxi", "book a table", "send you the file"] }
+                ]
+            },
+            "noteVi": "Đề nghị giúp một cách lịch sự. Người Mỹ cũng hay nói Should I…? hoặc Do you want me to…? Đáp: Yes, please. / No, thanks. I'm fine."
+        },
+        {
+            "slug": "i-promise",
+            "type": "PHRASE",
+            "text": "I promise.",
+            "meaningVi": "Mình hứa.",
+            "examples": [
+                { "en": "I'll pay you back on Friday. I promise.", "vi": "Thứ Sáu mình trả lại bạn. Mình hứa.", "highlight": "I promise" }
+            ],
+            "noteVi": "Hứa làm gì: I promise to call. hoặc I promise I'll call. ❌ \"I promise I call\"."
+        },
+        {
+            "slug": "dont-worry",
+            "type": "PHRASE",
+            "text": "Don't worry.",
+            "meaningVi": "Đừng lo.",
+            "examples": [
+                { "en": "Don't worry. I'll help you with the report.", "vi": "Đừng lo. Mình sẽ giúp bạn làm báo cáo.", "highlight": "Don't worry" }
+            ],
+            "noteVi": "Lo về cái gì: worry about. ❌ \"Don't worry for me\" → Don't worry about me."
+        },
+        {
+            "slug": "forget",
+            "type": "LEXICAL",
+            "text": "forget",
+            "meaningVi": "quên",
+            "ipa": "/fərˈɡet/",
+            "examples": [
+                { "en": "Don't forget to lock the door.", "vi": "Đừng quên khóa cửa nhé.", "highlight": "forget" }
+            ],
+            "noteVi": "forget – forgot – forgotten. Quên làm việc cần làm: forget to + V. Để quên đồ ở đâu dùng leave: I left my phone at home."
+        },
+        {
+            "slug": "carry",
+            "type": "LEXICAL",
+            "text": "carry",
+            "meaningVi": "mang, xách, bê",
+            "ipa": "/ˈkæri/",
+            "examples": [
+                { "en": "Shall I carry that box for you?", "vi": "Để mình bê cái hộp đó cho nhé?", "highlight": "carry" }
+            ],
+            "noteVi": "carry = mang trên tay, trên người. Mang đến: bring. Mang đi: take. Quá khứ carried (y → ied)."
+        },
+        {
+            "slug": "thats-kind-of-you",
+            "type": "PHRASE",
+            "text": "That's very kind of you.",
+            "meaningVi": "Bạn tốt quá. (cảm ơn lời đề nghị giúp)",
+            "examples": [
+                { "en": "Shall I drive you home? That's very kind of you, thanks.", "vi": "Để mình chở bạn về nhé? Bạn tốt quá, cảm ơn nhé.", "highlight": "That's very kind of you" }
+            ],
+            "noteVi": "kind of you, không phải for you: ❌ \"That's very kind for you\"."
+        },
+        {
+            "slug": "future-forms",
+            "type": "GRAMMAR",
+            "text": "going to / present continuous / will",
+            "meaningVi": "chọn cách nói tương lai: kế hoạch, lịch hẹn, quyết định ngay",
+            "examples": [
+                { "en": "I'm meeting Lan at seven tonight.", "vi": "Bảy giờ tối nay mình gặp Lan (đã hẹn).", "highlight": "I'm meeting" }
+            ],
+            "grammar": {
+                "ruleVi": "be going to = kế hoạch, ý định có sẵn (A2). Hiện tại tiếp diễn = lịch hẹn đã sắp xếp (đã hẹn người, đã đặt vé). will = quyết định ngay, đề nghị, hứa, dự đoán. Giờ tàu xe, lịch cố định dùng hiện tại đơn.",
+                "forms": [
+                    { "label": "kế hoạch", "example": "I'm going to learn Korean next year." },
+                    { "label": "lịch hẹn", "example": "I'm meeting Lan at 7 tonight. We're flying to Da Nang on Friday." },
+                    { "label": "quyết định ngay", "example": "OK, I'll come with you." },
+                    { "label": "lịch cố định", "example": "The train leaves at 6:15." }
+                ],
+                "pitfallsVi": [
+                    "Lịch đã hẹn mà dùng will: \"I will meet Lan tonight\" → I'm meeting Lan tonight.",
+                    "\"What will you do this weekend?\" nghe như bảo người ta đoán → What are you doing this weekend?",
+                    "Hiện tại đơn cho lịch hẹn: \"I meet my friends tomorrow\" → I'm meeting my friends tomorrow."
+                ]
+            }
+        },
+        {
+            "slug": "what-are-you-doing-on",
+            "type": "PATTERN",
+            "text": "What are you doing on …?",
+            "meaningVi": "(Ngày) … bạn làm gì? (hỏi lịch đã có)",
+            "examples": [
+                { "en": "What are you doing on Saturday?", "vi": "Thứ Bảy bạn có kế hoạch gì không?", "highlight": "What are you doing on" }
+            ],
+            "pattern": {
+                "template": "What are you doing on {day}?",
+                "slots": [
+                    { "name": "day", "hintVi": "ngày, buổi", "options": ["Saturday", "Friday night", "Sunday afternoon", "New Year's Eve", "your birthday"] }
+                ]
+            },
+            "noteVi": "Câu này hỏi về tương lai, không phải việc đang làm. ❌ \"What will you do on Saturday?\" khi hỏi lịch."
+        },
+        {
+            "slug": "are-you-doing-anything",
+            "type": "PATTERN",
+            "text": "Are you doing anything …?",
+            "meaningVi": "… bạn có bận gì không?",
+            "examples": [
+                { "en": "Are you doing anything this weekend?", "vi": "Cuối tuần này bạn có bận gì không?", "highlight": "Are you doing anything" }
+            ],
+            "pattern": {
+                "template": "Are you doing anything {when}?",
+                "slots": [
+                    { "name": "when", "hintVi": "khi nào", "options": ["this weekend", "tonight", "on Sunday", "after work", "tomorrow evening"] }
+                ]
+            },
+            "noteVi": "Câu dạo đầu trước khi mời. Đáp: Nothing special. Why? / Yes, I'm meeting…"
+        },
+        {
+            "slug": "not-sure-yet",
+            "type": "PHRASE",
+            "text": "I'm not sure yet.",
+            "meaningVi": "Mình chưa chắc.",
+            "examples": [
+                { "en": "What are you doing this weekend? I'm not sure yet.", "vi": "Cuối tuần này bạn làm gì? Mình chưa chắc nữa.", "highlight": "I'm not sure yet" }
+            ],
+            "noteVi": "sure là tính từ nên cần be: ❌ \"I don't sure\", ❌ \"I not sure\" → I'm not sure."
+        },
+        {
+            "slug": "ill-let-you-know",
+            "type": "PHRASE",
+            "text": "I'll let you know.",
+            "meaningVi": "Mình sẽ báo bạn.",
+            "examples": [
+                { "en": "I'm not sure I can come. I'll let you know tomorrow.", "vi": "Mình chưa chắc đi được. Mai mình báo bạn nhé.", "highlight": "I'll let you know" }
+            ],
+            "noteVi": "let + người + know (không có to): ❌ \"I'll let you to know\". \"I'll inform you\" nghe quá trang trọng khi nói với bạn bè."
+        },
+        {
+            "slug": "the-day-after-tomorrow",
+            "type": "PHRASE",
+            "text": "the day after tomorrow",
+            "meaningVi": "ngày kia",
+            "examples": [
+                { "en": "I'm flying to Hanoi the day after tomorrow.", "vi": "Ngày kia mình bay ra Hà Nội.", "highlight": "the day after tomorrow" }
+            ],
+            "noteVi": "Không cần giới từ trước, như tomorrow. Hôm kia: the day before yesterday."
+        },
+        {
+            "slug": "decide",
+            "type": "LEXICAL",
+            "text": "decide",
+            "meaningVi": "quyết định",
+            "ipa": "/dɪˈsaɪd/",
+            "examples": [
+                { "en": "I haven't decided yet. I'll decide tomorrow.", "vi": "Mình chưa quyết. Mai mình quyết.", "highlight": "decided" }
+            ],
+            "noteVi": "decide + to V: I decided to stay. Danh từ decision: make a decision (❌ \"do a decision\")."
+        },
+        {
+            "slug": "schedule",
+            "type": "LEXICAL",
+            "text": "schedule",
+            "meaningVi": "lịch (làm việc), thời gian biểu",
+            "ipa": "/ˈskedʒuːl/",
+            "examples": [
+                { "en": "Let me check my schedule.", "vi": "Để mình xem lịch đã.", "highlight": "schedule" }
+            ],
+            "noteVi": "Người Mỹ đọc /ˈskedʒuːl/ (\"x-ke-giu\"). Lịch kín: a busy schedule. Đúng tiến độ: on schedule."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "b1-03-shall-i-help",
+            "title": "Shall I help you?",
+            "situationVi": "Ở văn phòng, Sarah, đồng nghiệp người Mỹ, đang cuống lên chuẩn bị buổi thuyết trình ngày mai.",
+            "lines": [
+                { "speaker": "You", "en": "You look busy, Sarah. Shall I help you with anything?", "vi": "Trông chị bận quá, Sarah. Để em giúp gì không?", "learnerTurn": true },
+                { "speaker": "Sarah", "en": "Oh, thanks! I have to print fifty copies of this report, and the printer isn't working.", "vi": "Ồ, cảm ơn em! Chị phải in năm mươi bản báo cáo này mà máy in lại hỏng." },
+                { "speaker": "You", "en": "Don't worry. I'll call the IT guy. He'll probably fix it in five minutes.", "vi": "Chị đừng lo. Em gọi anh IT. Chắc năm phút là anh ấy sửa xong.", "learnerTurn": true },
+                { "speaker": "Sarah", "en": "That's very kind of you. I also need to take these boxes to the meeting room.", "vi": "Em tốt quá. Chị còn phải mang mấy thùng này sang phòng họp nữa." },
+                { "speaker": "You", "en": "I'll carry them for you. They look heavy.", "vi": "Để em bê cho. Trông nặng lắm.", "learnerTurn": true },
+                { "speaker": "Sarah", "en": "Thanks! Oh, and can you remind me to bring my laptop tomorrow?", "vi": "Cảm ơn em! À, mai em nhắc chị mang laptop nhé?" },
+                { "speaker": "You", "en": "Sure. I'll send you a message in the morning. I won't forget, I promise.", "vi": "Vâng. Sáng mai em nhắn chị. Em không quên đâu, em hứa.", "learnerTurn": true },
+                { "speaker": "Sarah", "en": "You're a lifesaver!", "vi": "Em đúng là cứu tinh!" }
+            ]
+        },
+        {
+            "slug": "b1-03-are-you-doing-anything",
+            "title": "Are you doing anything this weekend?",
+            "situationVi": "David, bạn người Mỹ, rủ bạn đi biển cuối tuần. Sáng thứ Bảy bạn đã hẹn gặp em họ.",
+            "lines": [
+                { "speaker": "David", "en": "Hey, are you doing anything this weekend?", "vi": "Này, cuối tuần này bạn có bận gì không?" },
+                { "speaker": "You", "en": "Well, I'm meeting my cousin on Saturday morning. Why?", "vi": "À, sáng thứ Bảy mình gặp em họ. Sao thế?", "learnerTurn": true },
+                { "speaker": "David", "en": "A few of us are going to the beach on Saturday. Do you want to come?", "vi": "Thứ Bảy bọn mình mấy đứa đi biển. Bạn đi cùng không?" },
+                { "speaker": "You", "en": "That sounds fun! What time are you leaving?", "vi": "Nghe vui đấy! Mấy giờ các bạn đi?", "learnerTurn": true },
+                { "speaker": "David", "en": "The bus leaves at eleven. We're coming back on Sunday evening.", "vi": "Xe chạy lúc mười một giờ. Tối Chủ nhật bọn mình về." },
+                { "speaker": "You", "en": "I'm not sure yet. I'll probably be free after lunch. I'll let you know tonight.", "vi": "Mình chưa chắc. Chắc sau bữa trưa mình rảnh. Tối nay mình báo bạn nhé.", "learnerTurn": true },
+                { "speaker": "David", "en": "OK. I think the weather will be great.", "vi": "Được. Mình nghĩ thời tiết sẽ đẹp lắm." },
+                { "speaker": "You", "en": "I hope so! OK, I'll call you tonight.", "vi": "Mong là vậy! Tối nay mình gọi bạn nhé.", "learnerTurn": true },
+                { "speaker": "David", "en": "Perfect. Talk to you later!", "vi": "Tuyệt. Nói chuyện sau nhé!" }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "b1-03-l1-predictions",
+            "title": "I think it'll…",
+            "titleVi": "Đoán tương lai",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "will-future", "role": "INTRODUCE" },
+                { "item": "i-think-will", "role": "INTRODUCE" },
+                { "item": "probably", "role": "INTRODUCE" },
+                { "item": "definitely", "role": "INTRODUCE" },
+                { "item": "future", "role": "INTRODUCE" },
+                { "item": "in-ten-years", "role": "INTRODUCE" },
+                { "item": "i-hope-so", "role": "INTRODUCE" },
+                { "item": "technology", "role": "INTRODUCE" },
+                { "item": "be-going-to", "role": "RECYCLE" },
+                { "item": "hope", "role": "RECYCLE" },
+                { "item": "someday", "role": "RECYCLE" },
+                { "item": "dream", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["i-think-will", "probably", "definitely", "future", "in-ten-years", "i-hope-so", "technology"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Dự đoán: will / won't",
+                        "bodyVi": "Nói điều mình **nghĩ** sẽ xảy ra: **will + nguyên mẫu**, giống nhau cho mọi ngôi. Rút gọn: I'll, it'll, they'll. Phủ định: **won't**.\n\nThêm từ chỉ mức độ chắc chắn:\n\n| chắc | ví dụ |\n|---|---|\n| 100% | It'll **definitely** rain. |\n| khoảng 80% | It'll **probably** rain. |\n| khoảng 20% | It **probably won't** rain. / I **don't think** it'll rain. |\n| 0% | It **definitely won't** rain. |\n\nprobably, definitely đứng **sau will** nhưng **trước won't**.\n\nMốc tương lai: **in ten years** (mười năm nữa), **in the future**.\n\nĐáp lại dự đoán: **I hope so.** / **I hope not.**\n\n❌ It will rains ❌ It will rain probably ❌ I think it won't rain ❌ after ten years (mười năm nữa) ❌ I don't hope so ✅ **It'll probably rain.** **I don't think it'll rain.** **in ten years** **I hope not.**",
+                        "items": ["will-future", "i-think-will", "probably", "definitely", "in-ten-years", "i-hope-so", "future", "hope"],
+                        "examples": [
+                            { "en": "In ten years, most cars will probably be electric.", "vi": "Mười năm nữa chắc hầu hết xe hơi sẽ chạy điện.", "highlight": "will probably be" },
+                            { "en": "I don't think prices will go down. I hope I'm wrong!", "vi": "Mình không nghĩ giá sẽ giảm. Mong là mình sai!", "highlight": "I don't think prices will go down" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "i-think-will",
+                        "prompts": [
+                            { "cueVi": "Mình nghĩ mai trời sẽ mưa.", "slots": { "subject": "it", "verb": "rain tomorrow" }, "answer": "I think it will rain tomorrow." },
+                            { "cueVi": "Mình nghĩ giá sẽ tăng.", "slots": { "subject": "prices", "verb": "go up" }, "answer": "I think prices will go up." },
+                            { "cueVi": "Mình nghĩ đội mình sẽ thắng.", "slots": { "subject": "our team", "verb": "win" }, "answer": "I think our team will win." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["probably", "definitely", "future", "in-ten-years", "i-hope-so", "technology", "someday", "dream"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "I think robots will do a lot of our jobs.", "vi": "Mình nghĩ người máy sẽ làm nhiều việc thay chúng ta." },
+                            { "en": "It'll probably be sunny tomorrow.", "vi": "Mai chắc trời nắng." },
+                            { "en": "I don't think prices will go down.", "vi": "Mình không nghĩ giá sẽ giảm." },
+                            { "en": "In ten years, I think I'll live in the countryside.", "vi": "Mười năm nữa, mình nghĩ mình sẽ sống ở quê." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["It will rains tomorrow.", "It will rain probably tomorrow.", "It will probably rain tomorrow."],
+                                "answer": 2,
+                                "item": "probably"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Mình không nghĩ anh ấy sẽ đến.\" Cách nói tự nhiên:",
+                                "options": ["I think he won't come.", "I don't think he'll come.", "I not think he will come."],
+                                "answer": 1,
+                                "item": "will-future"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Will it rain at the weekend?\" Bạn mong là không:",
+                                "options": ["I don't hope so.", "I hope not.", "I hope no."],
+                                "answer": 1,
+                                "item": "i-hope-so"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "In ten years, I think I'll live in the countryside.",
+                                "options": ["Mười năm trước mình sống ở quê.", "Mười năm nữa, mình nghĩ mình sẽ sống ở quê.", "Mình sống ở quê được mười năm rồi."],
+                                "answer": 1,
+                                "item": "in-ten-years"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Mình chắc chắn sẽ đến tiệc của bạn.",
+                                "answer": "I'll definitely come to your party.",
+                                "item": "definitely"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b1-03-l2-ill-help",
+            "title": "I'll help you",
+            "titleVi": "Đề nghị giúp, hứa, quyết định ngay",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "will-offers-promises", "role": "INTRODUCE" },
+                { "item": "ill-do", "role": "INTRODUCE" },
+                { "item": "shall-i", "role": "INTRODUCE" },
+                { "item": "i-promise", "role": "INTRODUCE" },
+                { "item": "dont-worry", "role": "INTRODUCE" },
+                { "item": "forget", "role": "INTRODUCE" },
+                { "item": "carry", "role": "INTRODUCE" },
+                { "item": "thats-kind-of-you", "role": "INTRODUCE" },
+                { "item": "will-future", "role": "RECYCLE" },
+                { "item": "could-you", "role": "RECYCLE" },
+                { "item": "sure", "role": "RECYCLE" },
+                { "item": "probably", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["ill-do", "shall-i", "i-promise", "dont-worry", "forget", "carry", "thats-kind-of-you"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "\"Để mình…\": I'll và Shall I…?",
+                        "bodyVi": "will còn dùng khi **quyết định ngay lúc nói**, **đề nghị giúp** và **hứa**. Tiếng Việt hay nói \"để mình…\":\n\n| tình huống | nói |\n|---|---|\n| điện thoại reo | **I'll get it.** (Để mình nghe) |\n| xem thực đơn xong | **I'll have** the chicken, please. |\n| thấy người khác xách nặng | **I'll carry** it for you. / **Shall I** help you? |\n| hứa | **I'll call** you tonight. **I won't forget**, **I promise**. |\n\nNgười được giúp đáp: **That's very kind of you.** / Yes, please. / No, thanks. I'm fine.\n\nNgười Việt hay dùng hiện tại đơn (\"I carry it for you\") hoặc going to. going to là việc **đã định từ trước**; quyết định ngay lúc nói thì dùng **I'll**.\n\n❌ I carry it for you ❌ I will to call you ❌ Don't worry for me ❌ That's very kind for you ✅ **I'll carry it for you.** **I'll call you.** **Don't worry about me.** **That's very kind of you.**",
+                        "items": ["will-offers-promises", "ill-do", "shall-i", "i-promise", "dont-worry", "thats-kind-of-you", "carry", "forget"],
+                        "examples": [
+                            { "en": "It's hot in here. Shall I open the window? Yes, please.", "vi": "Trong này nóng quá. Để mình mở cửa sổ nhé? Ừ, mở đi.", "highlight": "Shall I open the window" },
+                            { "en": "I'll send you the file tonight. I won't forget.", "vi": "Tối nay mình gửi file cho bạn. Mình không quên đâu.", "highlight": "I won't forget" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "ill-do",
+                        "prompts": [
+                            { "cueVi": "Túi của bạn trông nặng. Để mình xách cho.", "slots": { "do": "carry it for you" }, "answer": "I'll carry it for you." },
+                            { "cueVi": "Điện thoại reo. Để mình nghe.", "slots": { "do": "get it" }, "answer": "I'll get it." },
+                            { "cueVi": "Hứa: tối nay mình sẽ gọi cho bạn.", "slots": { "do": "call you tonight" }, "answer": "I'll call you tonight." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "shall-i",
+                        "prompts": [
+                            { "cueVi": "Đề nghị: để mình gọi taxi nhé?", "slots": { "do": "call a taxi" }, "answer": "Shall I call a taxi?" },
+                            { "cueVi": "Đề nghị: để mình đặt bàn nhé?", "slots": { "do": "book a table" }, "answer": "Shall I book a table?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["i-promise", "dont-worry", "forget", "carry", "thats-kind-of-you", "sure", "could-you"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b1-03-shall-i-help", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Điện thoại reo. Bạn nói \"Để mình nghe\":",
+                                "options": ["I'm going to get it.", "I'll get it.", "I get it."],
+                                "answer": 1,
+                                "item": "will-offers-promises"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn thấy chị đồng nghiệp bê thùng nặng. Bạn nói:",
+                                "options": ["I carry it for you.", "Shall I carry it for you?", "Do I carry it for you?"],
+                                "answer": 1,
+                                "item": "shall-i"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Có người đề nghị chở bạn về. Bạn cảm ơn:",
+                                "options": ["That's very kind for you.", "That's very kind of you.", "You're very kindly."],
+                                "answer": 1,
+                                "item": "thats-kind-of-you"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Don't ___ to lock the door.",
+                                "hintVi": "quên",
+                                "answers": ["forget"],
+                                "item": "forget"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Đừng lo. Mình sẽ giúp bạn.",
+                                "answer": "Don't worry. I'll help you.",
+                                "item": "dont-worry"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b1-03-l3-plans",
+            "title": "What are you doing on Saturday?",
+            "titleVi": "Lịch hẹn và kế hoạch",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "future-forms", "role": "INTRODUCE" },
+                { "item": "what-are-you-doing-on", "role": "INTRODUCE" },
+                { "item": "are-you-doing-anything", "role": "INTRODUCE" },
+                { "item": "not-sure-yet", "role": "INTRODUCE" },
+                { "item": "ill-let-you-know", "role": "INTRODUCE" },
+                { "item": "the-day-after-tomorrow", "role": "INTRODUCE" },
+                { "item": "decide", "role": "INTRODUCE" },
+                { "item": "schedule", "role": "INTRODUCE" },
+                { "item": "be-going-to", "role": "RECYCLE" },
+                { "item": "will-offers-promises", "role": "RECYCLE" },
+                { "item": "present-continuous", "role": "RECYCLE" },
+                { "item": "this-weekend", "role": "RECYCLE" },
+                { "item": "would-you-like-to", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["what-are-you-doing-on", "are-you-doing-anything", "not-sure-yet", "ill-let-you-know", "the-day-after-tomorrow", "decide", "schedule"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Ba cách nói tương lai",
+                        "bodyVi": "Tiếng Việt chỉ có \"sẽ\". Tiếng Anh chọn theo **mức độ đã sắp xếp**:\n\n| cách nói | khi nào | ví dụ |\n|---|---|---|\n| **am / is / are + V-ing** | lịch hẹn đã chốt (đã hẹn người, đã đặt vé) | I**'m meeting** Lan at 7 tonight. |\n| **be going to** (A2) | kế hoạch, ý định có sẵn | I**'m going to learn** Korean next year. |\n| **will** | quyết định ngay, đề nghị, hứa, dự đoán | OK, I**'ll come** with you. |\n| hiện tại đơn | lịch cố định (tàu xe, lịch học) | The bus **leaves** at 11. |\n\nHỏi lịch người khác: **What are you doing on Saturday?** / **Are you doing anything this weekend?** (không phải What will you do…?)\n\nChưa quyết: **I'm not sure yet.** **I haven't decided.** **I'll let you know.** Hẹn gần: tomorrow, **the day after tomorrow**.\n\n❌ I will meet Lan tonight (đã hẹn) ❌ I meet my friends tomorrow ❌ I don't sure ✅ **I'm meeting Lan tonight.** **I'm not sure yet.**",
+                        "items": ["future-forms", "present-continuous", "be-going-to", "will-offers-promises", "what-are-you-doing-on", "are-you-doing-anything", "not-sure-yet", "ill-let-you-know"],
+                        "examples": [
+                            { "en": "What are you doing on Friday night? I'm having dinner with my parents.", "vi": "Tối thứ Sáu bạn làm gì? Mình ăn tối với bố mẹ.", "highlight": "I'm having dinner" },
+                            { "en": "Let me check my schedule. I'll let you know tonight.", "vi": "Để mình xem lịch đã. Tối nay mình báo bạn nhé.", "highlight": "I'll let you know" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "what-are-you-doing-on",
+                        "prompts": [
+                            { "cueVi": "Hỏi: thứ Bảy bạn làm gì?", "slots": { "day": "Saturday" }, "answer": "What are you doing on Saturday?" },
+                            { "cueVi": "Hỏi: sinh nhật bạn làm gì?", "slots": { "day": "your birthday" }, "answer": "What are you doing on your birthday?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "are-you-doing-anything",
+                        "prompts": [
+                            { "cueVi": "Hỏi: tối nay bạn có bận gì không?", "slots": { "when": "tonight" }, "answer": "Are you doing anything tonight?" },
+                            { "cueVi": "Hỏi: tan làm bạn có bận gì không?", "slots": { "when": "after work" }, "answer": "Are you doing anything after work?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["not-sure-yet", "ill-let-you-know", "the-day-after-tomorrow", "decide", "schedule", "this-weekend"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b1-03-are-you-doing-anything", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn đã hẹn gặp Lan lúc 7 giờ tối nay. Nói:",
+                                "options": ["I'll meet Lan at seven tonight.", "I'm meeting Lan at seven tonight.", "I meet Lan at seven tonight."],
+                                "answer": 1,
+                                "item": "future-forms"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Hỏi lịch thứ Bảy của bạn mình:",
+                                "options": ["What will you do on Saturday?", "What are you doing on Saturday?", "What do you do on Saturday?"],
+                                "answer": 1,
+                                "item": "what-are-you-doing-on"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I don't sure yet.", "I'm not sure yet.", "I not sure yet."],
+                                "answer": 1,
+                                "item": "not-sure-yet"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "I'm flying to Hanoi the day after tomorrow.",
+                                "options": ["Hôm kia mình bay ra Hà Nội.", "Ngày kia mình bay ra Hà Nội.", "Mai mình bay ra Hà Nội."],
+                                "answer": 1,
+                                "item": "the-day-after-tomorrow"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Mai mình báo bạn nhé.",
+                                "answer": "I'll let you know tomorrow.",
+                                "item": "ill-let-you-know"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "b1-03-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["I think it won't rain.", "I don't think it will rain.", "I don't think it rains will."],
+                "answer": 1,
+                "item": "i-think-will"
+            },
+            {
+                "kind": "gap",
+                "sentence": "It'll ___ be sunny tomorrow.",
+                "hintVi": "chắc là (khoảng 80%)",
+                "answers": ["probably"],
+                "item": "probably"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Bạn thấy cửa sổ đang mở và phòng lạnh. Bạn nói:",
+                "options": ["I close the window.", "I'll close the window.", "I'm closing the window tomorrow."],
+                "answer": 1,
+                "item": "will-offers-promises"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["Shall I to help you?", "Shall I help you?", "Shall I helping you?"],
+                "answer": 1,
+                "item": "shall-i"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "Are you doing anything this weekend?",
+                "options": ["Cuối tuần trước bạn làm gì?", "Cuối tuần này bạn có bận gì không?", "Bạn đang làm gì vậy?"],
+                "answer": 1,
+                "item": "are-you-doing-anything"
+            },
+            {
+                "kind": "order",
+                "vi": "Tối nay mình gặp Lan (đã hẹn).",
+                "answer": "I'm meeting Lan tonight.",
+                "item": "future-forms"
+            }
+        ]
+    }
+}
