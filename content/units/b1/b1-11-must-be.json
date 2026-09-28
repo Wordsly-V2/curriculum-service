@@ -1,0 +1,797 @@
+{
+    "slug": "b1-11-must-be",
+    "stage": "b1",
+    "order": 11,
+    "title": "It must be…",
+    "titleVi": "Đoán và suy luận",
+    "descriptionVi": "Đoán chuyện hiện tại với must / might / can't be (It must be Lan's, She might be sick), đoán chuyện đã xảy ra khi tìm đồ thất lạc (I must have left it…, You might have dropped it), và bàn về chuyện lạ với It looks like…, I bet…, No wonder….",
+    "canDo": [
+        "Tôi nói được mình chắc chắn đến đâu về một chuyện đang xảy ra: chắc chắn đúng, có thể, hay chắc chắn không.",
+        "Tôi đoán được chuyện đã xảy ra, ví dụ mình để quên đồ ở đâu, và nhờ người khác cùng tìm.",
+        "Tôi cùng người khác đoán nguyên nhân một chuyện lạ và giải thích vì sao mình nghĩ vậy."
+    ],
+    "items": [
+        {
+            "slug": "deduction-present",
+            "type": "GRAMMAR",
+            "text": "must / might / may / could / can't + V (be)",
+            "meaningVi": "đoán chuyện hiện tại",
+            "examples": [
+                { "en": "Nobody's answering. They must be out.", "vi": "Không ai nghe máy. Chắc họ đi vắng rồi.", "highlight": "must be out" }
+            ],
+            "grammar": {
+                "ruleVi": "Đoán dựa trên dấu hiệu, xếp theo độ chắc chắn: must (chắc chắn đúng, khoảng 90%), might / may / could (có thể, khoảng 50%), can't (chắc chắn không đúng). Sau các từ này là động từ nguyên mẫu, thường là be. Phủ định của must khi đoán là can't, không phải mustn't (mustn't = cấm).",
+                "forms": [
+                    { "label": "chắc chắn đúng", "example": "She's not answering. She must be busy." },
+                    { "label": "có thể", "example": "He might be at the gym. He may be sick." },
+                    { "label": "chắc chắn không", "example": "That can't be Minh. He's in Japan." },
+                    { "label": "động từ khác", "example": "He knows everyone. He must work here." }
+                ],
+                "pitfallsVi": [
+                    "\"She must busy\" → She must be busy.",
+                    "\"It mustn't be true\" (ý là chắc chắn không) → It can't be true.",
+                    "\"Maybe she is sick\" vẫn đúng, nhưng She might be sick nghe tự nhiên hơn; ❌ \"She maybe sick\"."
+                ]
+            }
+        },
+        {
+            "slug": "it-must-be",
+            "type": "PATTERN",
+            "text": "It must be ….",
+            "meaningVi": "Chắc chắn là ….",
+            "examples": [
+                { "en": "This bag has a cat on it. It must be Lan's.", "vi": "Túi này có hình con mèo. Chắc chắn là của Lan.", "highlight": "It must be" }
+            ],
+            "pattern": {
+                "template": "It must be {guess}.",
+                "slots": [
+                    { "name": "guess", "hintVi": "danh từ hoặc tính từ", "options": ["Lan's", "very expensive", "the delivery guy", "a mistake", "hard for you"] }
+                ]
+            },
+            "noteVi": "Chỉ dùng khi có dấu hiệu rõ. Đồng cảm với ai: That must be hard. (Chắc là vất vả lắm.)"
+        },
+        {
+            "slug": "she-might-be",
+            "type": "PATTERN",
+            "text": "She might be ….",
+            "meaningVi": "Có thể cô ấy ….",
+            "examples": [
+                { "en": "She's not at her desk. She might be in a meeting.", "vi": "Cô ấy không ở bàn. Có thể cô ấy đang họp.", "highlight": "She might be" }
+            ],
+            "pattern": {
+                "template": "She might be {guess}.",
+                "slots": [
+                    { "name": "guess", "hintVi": "nơi chốn, tình trạng", "options": ["at the gym", "sick", "in a meeting", "stuck in traffic", "asleep"] }
+                ]
+            },
+            "noteVi": "might, may, could đều là \"có thể\". ❌ \"She maybe sick\": maybe là trạng từ, đứng đầu câu: Maybe she's sick."
+        },
+        {
+            "slug": "it-cant-be",
+            "type": "PATTERN",
+            "text": "It can't be ….",
+            "meaningVi": "Không thể nào là ….",
+            "examples": [
+                { "en": "Ten million for a coffee? It can't be true.", "vi": "Mười triệu một ly cà phê? Không thể nào.", "highlight": "It can't be" }
+            ],
+            "pattern": {
+                "template": "It can't be {guess}.",
+                "slots": [
+                    { "name": "guess", "hintVi": "danh từ hoặc tính từ", "options": ["true", "Minh's", "that expensive", "far from here", "him"] }
+                ]
+            },
+            "noteVi": "can't ở đây là \"chắc chắn không\", không phải \"không thể làm\". ❌ \"It mustn't be true\"."
+        },
+        {
+            "slug": "guess",
+            "type": "LEXICAL",
+            "text": "guess",
+            "meaningVi": "đoán",
+            "ipa": "/ɡes/",
+            "examples": [
+                { "en": "I don't know. Can you guess?", "vi": "Mình không biết. Bạn đoán thử xem?", "highlight": "guess" }
+            ],
+            "noteVi": "Đoán thử: Take a guess! Đoán đúng: guess right. u câm: /ɡes/. Guess what? (unit 02) là cụm cố định."
+        },
+        {
+            "slug": "perhaps",
+            "type": "LEXICAL",
+            "text": "perhaps",
+            "meaningVi": "có lẽ",
+            "ipa": "/pərˈhæps/",
+            "examples": [
+                { "en": "Perhaps he missed the bus.", "vi": "Có lẽ anh ấy lỡ xe buýt.", "highlight": "Perhaps" }
+            ],
+            "noteVi": "Nghĩa như maybe, trang trọng hơn một chút. Hay đứng đầu câu. Nhấn âm hai: per-HAPS."
+        },
+        {
+            "slug": "certain",
+            "type": "LEXICAL",
+            "text": "certain",
+            "meaningVi": "chắc chắn",
+            "ipa": "/ˈsɜːrtən/",
+            "examples": [
+                { "en": "I'm not certain, but I think it's her car.", "vi": "Mình không chắc lắm, nhưng mình nghĩ đó là xe của cô ấy.", "highlight": "certain" }
+            ],
+            "noteVi": "Nghĩa như sure, trang trọng hơn. Chắc chắn là: I'm certain (that)… Trạng từ: certainly (chắc chắn rồi)."
+        },
+        {
+            "slug": "whose",
+            "type": "LEXICAL",
+            "text": "whose",
+            "meaningVi": "của ai",
+            "ipa": "/huːz/",
+            "examples": [
+                { "en": "Whose phone is this? — It must be Tuan's.", "vi": "Điện thoại này của ai? — Chắc là của Tuấn.", "highlight": "Whose" }
+            ],
+            "noteVi": "Đọc giống who's (who is) nhưng khác nghĩa. Whose + danh từ + is this? ❌ \"Who's phone\"."
+        },
+        {
+            "slug": "must-have-done",
+            "type": "GRAMMAR",
+            "text": "must have / might have / can't have + V3",
+            "meaningVi": "đoán chuyện đã xảy ra",
+            "examples": [
+                { "en": "I can't find my keys. I must have left them at the office.", "vi": "Mình không tìm thấy chìa khóa. Chắc mình để quên ở văn phòng rồi.", "highlight": "must have left" }
+            ],
+            "grammar": {
+                "ruleVi": "Đoán chuyện trong quá khứ: must / might / can't + have + V3. Độ chắc chắn giống thì hiện tại: must have (chắc chắn đã), might have / could have (có thể đã), can't have (chắc chắn đã không). Khi nói, have đọc nhẹ /əv/: must've, might've.",
+                "forms": [
+                    { "label": "chắc chắn đã", "example": "I must have left it in the taxi." },
+                    { "label": "có thể đã", "example": "You might have dropped it on the bus." },
+                    { "label": "chắc chắn đã không", "example": "He can't have gone home. His bag is still here." },
+                    { "label": "đọc nhanh", "example": "must've /ˈmʌstəv/, might've /ˈmaɪtəv/" }
+                ],
+                "pitfallsVi": [
+                    "\"I must left it\" → I must have left it.",
+                    "\"I must have leave it\" → I must have left it. (V3)",
+                    "Nghe \"must of\" là cách đọc của must've; viết vẫn là must have."
+                ]
+            }
+        },
+        {
+            "slug": "i-must-have",
+            "type": "PATTERN",
+            "text": "I must have ….",
+            "meaningVi": "Chắc mình đã ….",
+            "examples": [
+                { "en": "I must have left it at home.", "vi": "Chắc mình để quên ở nhà rồi.", "highlight": "I must have" }
+            ],
+            "pattern": {
+                "template": "I must have {done}.",
+                "slots": [
+                    { "name": "done", "hintVi": "V3", "options": ["left it at home", "dropped it", "left it in the taxi", "forgotten", "put it somewhere else"] }
+                ]
+            },
+            "noteVi": "Sau have là V3: left, dropped, forgotten, put. Nói nhanh: I must've…"
+        },
+        {
+            "slug": "you-might-have",
+            "type": "PATTERN",
+            "text": "You might have ….",
+            "meaningVi": "Có thể bạn đã ….",
+            "examples": [
+                { "en": "You might have left it in the car.", "vi": "Có thể bạn để quên trong xe.", "highlight": "You might have" }
+            ],
+            "pattern": {
+                "template": "You might have {done}.",
+                "slots": [
+                    { "name": "done", "hintVi": "V3", "options": ["left it in the car", "dropped it on the bus", "put it in your bag", "left it at the café", "forgotten it at work"] }
+                ]
+            },
+            "noteVi": "Gợi ý nhẹ nhàng, không đổ lỗi. Cũng nói: You could have… / Maybe you left it…"
+        },
+        {
+            "slug": "look-for",
+            "type": "PHRASE",
+            "text": "look for",
+            "meaningVi": "tìm (kiếm)",
+            "examples": [
+                { "en": "What are you looking for? — My wallet.", "vi": "Bạn đang tìm gì vậy? — Ví của mình.", "highlight": "looking for" }
+            ],
+            "noteVi": "look for là đang tìm; find là tìm thấy: I looked for it everywhere, but I didn't find it. ❌ \"I'm finding my key\"."
+        },
+        {
+            "slug": "wallet",
+            "type": "LEXICAL",
+            "text": "wallet",
+            "meaningVi": "ví (tiền)",
+            "ipa": "/ˈwɑːlɪt/",
+            "examples": [
+                { "en": "I think I lost my wallet on the bus.", "vi": "Hình như mình làm mất ví trên xe buýt.", "highlight": "wallet" }
+            ],
+            "noteVi": "Ví nam, ví gập: wallet. Người Mỹ gọi ví cầm tay của nữ là purse (cũng là túi xách)."
+        },
+        {
+            "slug": "pocket",
+            "type": "LEXICAL",
+            "text": "pocket",
+            "meaningVi": "túi (áo, quần)",
+            "ipa": "/ˈpɑːkɪt/",
+            "examples": [
+                { "en": "Did you check your pockets?", "vi": "Bạn kiểm tra túi quần áo chưa?", "highlight": "pockets" }
+            ],
+            "noteVi": "Túi áo quần là pocket; túi xách là bag. Trong túi: in my pocket."
+        },
+        {
+            "slug": "drop",
+            "type": "LEXICAL",
+            "text": "drop",
+            "meaningVi": "đánh rơi, làm rơi",
+            "ipa": "/drɑːp/",
+            "examples": [
+                { "en": "Oh no, I dropped my phone!", "vi": "Ôi không, mình làm rơi điện thoại rồi!", "highlight": "dropped" }
+            ],
+            "noteVi": "Quá khứ nhân đôi p: dropped /drɑːpt/. Cho ai xuống xe: drop someone off."
+        },
+        {
+            "slug": "somewhere",
+            "type": "LEXICAL",
+            "text": "somewhere",
+            "meaningVi": "ở đâu đó",
+            "ipa": "/ˈsʌmwer/",
+            "examples": [
+                { "en": "It must be somewhere in this room.", "vi": "Chắc chắn nó ở đâu đó trong phòng này.", "highlight": "somewhere" }
+            ],
+            "noteVi": "Câu hỏi, phủ định: anywhere (unit 06): I can't find it anywhere. Khắp nơi: everywhere."
+        },
+        {
+            "slug": "looks-seems",
+            "type": "GRAMMAR",
+            "text": "look / seem / sound + tính từ; look like / seem like + danh từ; It looks like + mệnh đề",
+            "meaningVi": "trông có vẻ, có vẻ như",
+            "examples": [
+                { "en": "It looks like nobody is home.", "vi": "Có vẻ như không có ai ở nhà.", "highlight": "It looks like" }
+            ],
+            "grammar": {
+                "ruleVi": "Nói ấn tượng của mình dựa trên thứ thấy, nghe: look (nhìn thấy), sound (nghe thấy, nghe kể), seem (nói chung). Sau chúng là tính từ; trước danh từ thì thêm like. Trong tiếng Anh Mỹ nói, It looks like + cả mệnh đề: It looks like it's going to rain.",
+                "forms": [
+                    { "label": "+ tính từ", "example": "You look tired. That sounds strange. He seems nice." },
+                    { "label": "+ like + danh từ", "example": "It looks like a bank. It sounds like a good idea." },
+                    { "label": "+ like + mệnh đề", "example": "It looks like we're lost." },
+                    { "label": "seem to V", "example": "She seems to know everyone." }
+                ],
+                "pitfallsVi": [
+                    "\"You look like tired\" → You look tired.",
+                    "\"It sounds a good idea\" → It sounds like a good idea.",
+                    "\"He seems know\" → He seems to know."
+                ]
+            }
+        },
+        {
+            "slug": "it-looks-like",
+            "type": "PATTERN",
+            "text": "It looks like ….",
+            "meaningVi": "Có vẻ như ….",
+            "examples": [
+                { "en": "It looks like it's going to rain.", "vi": "Có vẻ như trời sắp mưa.", "highlight": "It looks like" }
+            ],
+            "pattern": {
+                "template": "It looks like {clause}.",
+                "slots": [
+                    { "name": "clause", "hintVi": "mệnh đề", "options": ["it's going to rain", "nobody is home", "they're closed today", "he forgot", "we're lost"] }
+                ]
+            },
+            "noteVi": "Khác look like trong \"You look like your mom\" (giống ai, A2). Ở đây là đoán dựa vào thứ mình thấy."
+        },
+        {
+            "slug": "i-bet",
+            "type": "PHRASE",
+            "text": "I bet …",
+            "meaningVi": "Mình cá là …",
+            "examples": [
+                { "en": "I bet he forgot about the meeting.", "vi": "Mình cá là anh ấy quên cuộc họp rồi.", "highlight": "I bet" }
+            ],
+            "noteVi": "Đoán mà khá chắc, giọng thân mật. Không cần cược thật. Đồng tình: I bet! (Hẳn rồi!)"
+        },
+        {
+            "slug": "no-wonder",
+            "type": "PHRASE",
+            "text": "No wonder …",
+            "meaningVi": "Thảo nào …",
+            "examples": [
+                { "en": "He didn't sleep last night? No wonder he looks tired.", "vi": "Tối qua anh ấy không ngủ à? Thảo nào trông mệt thế.", "highlight": "No wonder" }
+            ],
+            "noteVi": "Dùng khi vừa hiểu ra lý do. Có thể đứng một mình: Oh, no wonder!"
+        },
+        {
+            "slug": "what-do-you-think-happened",
+            "type": "PHRASE",
+            "text": "What do you think happened?",
+            "meaningVi": "Bạn nghĩ đã có chuyện gì?",
+            "examples": [
+                { "en": "The door was open and the lights were on. What do you think happened?", "vi": "Cửa mở và đèn vẫn sáng. Bạn nghĩ đã có chuyện gì?", "highlight": "What do you think happened" }
+            ],
+            "noteVi": "Không đảo: ❌ \"What do you think did happen?\" / \"What do you think was happened?\". Đoán về người: Who do you think did it?"
+        },
+        {
+            "slug": "clue",
+            "type": "LEXICAL",
+            "text": "clue",
+            "meaningVi": "manh mối, gợi ý",
+            "ipa": "/kluː/",
+            "examples": [
+                { "en": "Here's a clue: it's something you use every day.", "vi": "Gợi ý nhé: nó là thứ bạn dùng hằng ngày.", "highlight": "clue" }
+            ],
+            "noteVi": "Không biết gì cả: I have no clue. = I have no idea."
+        },
+        {
+            "slug": "mystery",
+            "type": "LEXICAL",
+            "text": "mystery",
+            "meaningVi": "điều bí ẩn",
+            "ipa": "/ˈmɪstəri/",
+            "examples": [
+                { "en": "Who sent the flowers? It's a mystery.", "vi": "Ai gửi hoa vậy? Đúng là bí ẩn.", "highlight": "mystery" }
+            ],
+            "noteVi": "Tính từ: mysterious. Truyện, phim trinh thám: a mystery novel."
+        },
+        {
+            "slug": "seem",
+            "type": "LEXICAL",
+            "text": "seem",
+            "meaningVi": "có vẻ, dường như",
+            "ipa": "/siːm/",
+            "examples": [
+                { "en": "Your new neighbor seems nice.", "vi": "Hàng xóm mới của bạn có vẻ dễ chịu.", "highlight": "seems" }
+            ],
+            "noteVi": "seem + tính từ hoặc to V: He seems to be busy. Không dùng tiếp diễn: ❌ \"He is seeming\"."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "b1-11-lost-wallet",
+            "title": "I must have dropped it",
+            "situationVi": "Bạn và Khoa vừa ăn trưa xong. Ra đến bãi xe, bạn phát hiện không thấy ví đâu.",
+            "lines": [
+                { "speaker": "Khoa", "en": "What's wrong? What are you looking for?", "vi": "Sao thế? Bạn đang tìm gì vậy?" },
+                { "speaker": "You", "en": "My wallet. It's not in my bag. I must have left it at the restaurant.", "vi": "Ví của mình. Không có trong túi. Chắc mình để quên ở nhà hàng rồi.", "learnerTurn": true },
+                { "speaker": "Khoa", "en": "Did you check your pockets?", "vi": "Bạn kiểm tra túi quần áo chưa?" },
+                { "speaker": "You", "en": "Yes, twice. It can't be in my pockets. They're empty.", "vi": "Rồi, hai lần. Không thể trong túi được. Túi rỗng không.", "learnerTurn": true },
+                { "speaker": "Khoa", "en": "You paid by card, right? You might have left it on the table.", "vi": "Bạn trả bằng thẻ mà, đúng không? Có thể bạn để quên trên bàn." },
+                { "speaker": "You", "en": "Maybe. Or I might have dropped it when I got my keys out. It must be somewhere near here.", "vi": "Có thể. Hoặc mình làm rơi lúc lấy chìa khóa ra. Chắc chắn nó ở đâu đó gần đây.", "learnerTurn": true },
+                { "speaker": "Khoa", "en": "Let's go back to the restaurant and ask.", "vi": "Mình quay lại nhà hàng hỏi đi." },
+                { "speaker": "Waiter", "en": "Hi again! Are you looking for this? It was under your chair.", "vi": "Chào anh lần nữa! Anh tìm cái này phải không? Nó nằm dưới ghế anh ngồi." },
+                { "speaker": "You", "en": "Yes! Thank you so much. What a relief!", "vi": "Đúng rồi! Cảm ơn anh nhiều lắm. Nhẹ cả người!", "learnerTurn": true }
+            ]
+        },
+        {
+            "slug": "b1-11-office-mystery",
+            "title": "It's a mystery",
+            "situationVi": "Sáng nay trên bàn chị Hoa có một bó hoa to, không có tên người gửi. Bạn và Tuấn cùng đoán xem ai gửi.",
+            "lines": [
+                { "speaker": "Tuan", "en": "Did you see the flowers on Hoa's desk? There's no name on the card.", "vi": "Bạn thấy bó hoa trên bàn chị Hoa chưa? Thiệp không ghi tên." },
+                { "speaker": "You", "en": "I saw them. They look really expensive. It must be someone who likes her a lot.", "vi": "Thấy rồi. Trông đắt lắm. Chắc chắn là ai đó rất quý chị ấy.", "learnerTurn": true },
+                { "speaker": "Tuan", "en": "Maybe it's her boyfriend?", "vi": "Có khi là bạn trai chị ấy?" },
+                { "speaker": "You", "en": "It can't be her boyfriend. He's working in Singapore this month.", "vi": "Không thể là bạn trai được. Tháng này anh ấy làm ở Singapore.", "learnerTurn": true },
+                { "speaker": "Tuan", "en": "Hmm. Here's a clue: the card says \"Thanks for everything.\"", "vi": "Hừm. Có manh mối này: thiệp ghi \"Cảm ơn vì tất cả.\"" },
+                { "speaker": "You", "en": "Then it might be from a customer. She helped a lot of customers last month.", "vi": "Vậy có thể là của khách. Tháng trước chị ấy giúp nhiều khách lắm.", "learnerTurn": true },
+                { "speaker": "Tuan", "en": "Oh, and I saw Mr. Kim from the Seoul office here yesterday.", "vi": "À, hôm qua mình thấy ông Kim bên văn phòng Seoul ở đây." },
+                { "speaker": "You", "en": "I bet they're from him! She worked on his project for six months.", "vi": "Mình cá là của ông ấy! Chị ấy làm dự án của ông ấy sáu tháng liền.", "learnerTurn": true },
+                { "speaker": "Tuan", "en": "No wonder she looks so happy today. Mystery solved!", "vi": "Thảo nào hôm nay chị ấy vui thế. Giải xong bí ẩn!" }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "b1-11-l1-it-must-be",
+            "title": "It must be Lan's",
+            "titleVi": "Chắc chắn, có thể, không thể",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "deduction-present", "role": "INTRODUCE" },
+                { "item": "it-must-be", "role": "INTRODUCE" },
+                { "item": "she-might-be", "role": "INTRODUCE" },
+                { "item": "it-cant-be", "role": "INTRODUCE" },
+                { "item": "guess", "role": "INTRODUCE" },
+                { "item": "perhaps", "role": "INTRODUCE" },
+                { "item": "certain", "role": "INTRODUCE" },
+                { "item": "whose", "role": "INTRODUCE" },
+                { "item": "probably", "role": "RECYCLE" },
+                { "item": "definitely", "role": "RECYCLE" },
+                { "item": "sure", "role": "RECYCLE" },
+                { "item": "will-future", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["it-must-be", "she-might-be", "it-cant-be", "guess", "perhaps", "certain", "whose"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Mình chắc chắn đến đâu?",
+                        "bodyVi": "Đoán dựa trên dấu hiệu, chọn từ theo **độ chắc chắn**:\n\n| độ chắc | nói | ví dụ |\n|---|---|---|\n| ~90% đúng | **must** + V | Nobody's answering. They **must be** out. |\n| ~50% | **might / may / could** + V | She **might be** in a meeting. |\n| ~90% không | **can't** + V | That **can't be** Minh. He's in Japan. |\n\nSau must, might, can't là động từ nguyên mẫu, hay nhất là **be**: She **must be** busy (❌ She must busy).\n\nPhủ định của must khi đoán là **can't**. **mustn't** nghĩa là \"cấm\": You mustn't smoke here.\n\nĐoán tương lai thì đã có **probably**, **definitely** + will (unit 03). Hỏi của ai: **Whose** bag is this? — It **must be** Lan's.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| She maybe sick. | She **might be** sick. / **Maybe** she's sick. |\n| It mustn't be true. | It **can't be** true. |\n| He must busy. | He **must be** busy. |\n\n❌ It mustn't be true ❌ She must busy ✅ **It can't be true.** **She must be busy.**",
+                        "items": ["deduction-present", "it-must-be", "she-might-be", "it-cant-be", "perhaps", "whose", "probably", "definitely"],
+                        "examples": [
+                            { "en": "She's not at her desk. She might be in a meeting.", "vi": "Cô ấy không ở bàn. Có thể cô ấy đang họp.", "highlight": "might be" },
+                            { "en": "That can't be Minh. He's in Japan this week.", "vi": "Không thể là Minh. Tuần này cậu ấy ở Nhật mà.", "highlight": "can't be" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "it-must-be",
+                        "prompts": [
+                            { "cueVi": "Túi có hình mèo, Lan rất thích mèo. Chắc là của Lan.", "slots": { "guess": "Lan's" }, "answer": "It must be Lan's." },
+                            { "cueVi": "Chuông cửa reo, bạn đang chờ hàng. Chắc là anh giao hàng.", "slots": { "guess": "the delivery guy" }, "answer": "It must be the delivery guy." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "she-might-be",
+                        "prompts": [
+                            { "cueVi": "Có thể cô ấy đang ở phòng tập.", "slots": { "guess": "at the gym" }, "answer": "She might be at the gym." },
+                            { "cueVi": "Có thể cô ấy bị ốm.", "slots": { "guess": "sick" }, "answer": "She might be sick." },
+                            { "cueVi": "Có thể cô ấy đang kẹt xe.", "slots": { "guess": "stuck in traffic" }, "answer": "She might be stuck in traffic." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["guess", "perhaps", "certain", "whose", "probably", "sure"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "Nobody's answering. They must be out.", "vi": "Không ai nghe máy. Chắc họ đi vắng rồi." },
+                            { "en": "She might be in a meeting.", "vi": "Có thể cô ấy đang họp." },
+                            { "en": "That can't be true.", "vi": "Không thể nào là thật." },
+                            { "en": "Whose phone is this?", "vi": "Điện thoại này của ai?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Minh đang ở Nhật. Bạn thấy ai giống Minh ở Hà Nội. Bạn nói:",
+                                "options": ["That mustn't be Minh.", "That can't be Minh.", "That must be Minh."],
+                                "answer": 1,
+                                "item": "it-cant-be"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["She must busy.", "She must be busy.", "She must to be busy."],
+                                "answer": 1,
+                                "item": "deduction-present"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "___ bag is this? — It must be Lan's.",
+                                "hintVi": "của ai",
+                                "answers": ["Whose"],
+                                "item": "whose"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "She's not at her desk. She might be in a meeting.",
+                                "options": ["Cô ấy không ở bàn. Có thể cô ấy đang họp.", "Cô ấy không ở bàn. Chắc chắn cô ấy đang họp.", "Cô ấy phải đi họp nên không ở bàn."],
+                                "answer": 0,
+                                "item": "she-might-be"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Có lẽ anh ấy lỡ xe buýt.",
+                                "answer": "Perhaps he missed the bus.",
+                                "item": "perhaps"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b1-11-l2-must-have",
+            "title": "I must have left it",
+            "titleVi": "Tìm đồ thất lạc",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "must-have-done", "role": "INTRODUCE" },
+                { "item": "i-must-have", "role": "INTRODUCE" },
+                { "item": "you-might-have", "role": "INTRODUCE" },
+                { "item": "look-for", "role": "INTRODUCE" },
+                { "item": "wallet", "role": "INTRODUCE" },
+                { "item": "pocket", "role": "INTRODUCE" },
+                { "item": "drop", "role": "INTRODUCE" },
+                { "item": "somewhere", "role": "INTRODUCE" },
+                { "item": "deduction-present", "role": "RECYCLE" },
+                { "item": "past-participles", "role": "RECYCLE" },
+                { "item": "lost", "role": "RECYCLE" },
+                { "item": "what-a-relief", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["i-must-have", "you-might-have", "look-for", "wallet", "pocket", "drop", "somewhere"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Đoán chuyện đã xảy ra",
+                        "bodyVi": "Đoán về quá khứ: **must / might / can't + have + V3**. Độ chắc chắn vẫn như bài trước:\n\n| độ chắc | nói |\n|---|---|\n| chắc chắn đã | I **must have left** it at home. |\n| có thể đã | You **might have dropped** it on the bus. |\n| chắc chắn đã không | He **can't have gone** home. His bag is still here. |\n\nV3 lấy từ bảng động từ A2: leave → **left**, drop → **dropped**, forget → **forgotten**, put → **put**.\n\nKhi nói, have đọc rất nhẹ: **must've** /ˈmʌstəv/, **might've** /ˈmaɪtəv/.\n\n**look for** là đang tìm, **find** là tìm thấy: I **looked for** it everywhere, but I didn't **find** it.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| I must left it at home. | I **must have left** it at home. |\n| I'm finding my wallet. | I'm **looking for** my wallet. |\n| Maybe I lost it at the café. (được) | I **might have left** it at the café. |\n\n❌ I must left it ❌ I must have leave it ✅ **I must have left it.**",
+                        "items": ["must-have-done", "i-must-have", "you-might-have", "look-for", "drop", "somewhere", "past-participles", "lost"],
+                        "examples": [
+                            { "en": "I can't find my keys. I must have left them at the office.", "vi": "Mình không tìm thấy chìa khóa. Chắc mình để quên ở văn phòng rồi.", "highlight": "must have left" },
+                            { "en": "You might have dropped it on the bus.", "vi": "Có thể bạn làm rơi trên xe buýt.", "highlight": "might have dropped" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "i-must-have",
+                        "prompts": [
+                            { "cueVi": "Chắc mình để quên ở nhà rồi.", "slots": { "done": "left it at home" }, "answer": "I must have left it at home." },
+                            { "cueVi": "Chắc mình làm rơi rồi.", "slots": { "done": "dropped it" }, "answer": "I must have dropped it." },
+                            { "cueVi": "Chắc mình để quên trên taxi.", "slots": { "done": "left it in the taxi" }, "answer": "I must have left it in the taxi." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "you-might-have",
+                        "prompts": [
+                            { "cueVi": "Có thể bạn để quên trong xe.", "slots": { "done": "left it in the car" }, "answer": "You might have left it in the car." },
+                            { "cueVi": "Có thể bạn bỏ nó vào túi xách.", "slots": { "done": "put it in your bag" }, "answer": "You might have put it in your bag." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["look-for", "wallet", "pocket", "drop", "somewhere", "lost"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "I can't find my wallet.", "vi": "Mình không tìm thấy ví." },
+                            { "en": "I must have left it at home.", "vi": "Chắc mình để quên ở nhà rồi." },
+                            { "en": "You might have dropped it on the bus.", "vi": "Có thể bạn làm rơi trên xe buýt." },
+                            { "en": "It must be somewhere in this room.", "vi": "Chắc chắn nó ở đâu đó trong phòng này." }
+                        ]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b1-11-lost-wallet", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I must left it at home.", "I must have leave it at home.", "I must have left it at home."],
+                                "answer": 2,
+                                "item": "must-have-done"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn đang đi tìm điện thoại. Bạn nói:",
+                                "options": ["I'm finding my phone.", "I'm looking for my phone.", "I'm looking my phone."],
+                                "answer": 1,
+                                "item": "look-for"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "You might have ___ it on the bus.",
+                                "hintVi": "drop",
+                                "answers": ["dropped"],
+                                "item": "you-might-have"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Did you check your pockets?",
+                                "options": ["Bạn kiểm tra túi quần áo chưa?", "Bạn kiểm tra túi xách chưa?", "Bạn có mang ví không?"],
+                                "answer": 0,
+                                "item": "pocket"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Hình như mình làm mất ví trên xe buýt.",
+                                "answer": "I think I lost my wallet on the bus.",
+                                "item": "wallet"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b1-11-l3-mystery",
+            "title": "It looks like…",
+            "titleVi": "Cùng đoán chuyện lạ",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "looks-seems", "role": "INTRODUCE" },
+                { "item": "it-looks-like", "role": "INTRODUCE" },
+                { "item": "i-bet", "role": "INTRODUCE" },
+                { "item": "no-wonder", "role": "INTRODUCE" },
+                { "item": "what-do-you-think-happened", "role": "INTRODUCE" },
+                { "item": "clue", "role": "INTRODUCE" },
+                { "item": "mystery", "role": "INTRODUCE" },
+                { "item": "seem", "role": "INTRODUCE" },
+                { "item": "strange", "role": "RECYCLE" },
+                { "item": "it-must-be", "role": "RECYCLE" },
+                { "item": "must-have-done", "role": "RECYCLE" },
+                { "item": "guess", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["it-looks-like", "i-bet", "no-wonder", "what-do-you-think-happened", "clue", "mystery", "seem"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Trông có vẻ, nghe có vẻ",
+                        "bodyVi": "Nói ấn tượng dựa trên thứ mình thấy hoặc nghe:\n\n| động từ | + tính từ | + like + danh từ / mệnh đề |\n|---|---|---|\n| **look** (nhìn) | You **look** tired. | **It looks like** it's going to rain. |\n| **sound** (nghe) | That **sounds** strange. | That **sounds like** a good idea. |\n| **seem** (nói chung) | He **seems** nice. | It **seems like** nobody knows. |\n\nTrước tính từ **không có** like: ❌ You look like tired.\n\nCùng đoán chuyện lạ:\n\n| việc | nói |\n|---|---|\n| hỏi ý kiến | **What do you think happened?** |\n| đưa manh mối | Here's a **clue**: … |\n| đoán khá chắc | **I bet** he forgot. / It **must have been** the cat. |\n| hiểu ra lý do | **No wonder** she looks so happy! |\n\n❌ You look like tired ❌ It sounds a good idea ✅ **You look tired.** **It sounds like a good idea.**",
+                        "items": ["looks-seems", "it-looks-like", "i-bet", "no-wonder", "what-do-you-think-happened", "clue", "seem", "strange", "must-have-done"],
+                        "examples": [
+                            { "en": "It looks like nobody is home.", "vi": "Có vẻ như không có ai ở nhà.", "highlight": "It looks like" },
+                            { "en": "He didn't sleep last night? No wonder he looks tired.", "vi": "Tối qua anh ấy không ngủ à? Thảo nào trông mệt thế.", "highlight": "No wonder" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "it-looks-like",
+                        "prompts": [
+                            { "cueVi": "Mây đen kéo đến. Có vẻ như trời sắp mưa.", "slots": { "clause": "it's going to rain" }, "answer": "It looks like it's going to rain." },
+                            { "cueVi": "Đèn tắt hết. Có vẻ như không có ai ở nhà.", "slots": { "clause": "nobody is home" }, "answer": "It looks like nobody is home." },
+                            { "cueVi": "Cửa hàng đóng cửa. Có vẻ như hôm nay họ nghỉ.", "slots": { "clause": "they're closed today" }, "answer": "It looks like they're closed today." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["i-bet", "no-wonder", "what-do-you-think-happened", "clue", "mystery", "seem", "strange"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b1-11-office-mystery", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["You look like tired.", "You look tired.", "You are look tired."],
+                                "answer": 1,
+                                "item": "looks-seems"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn nghe Lan thức cả đêm. Giờ bạn hiểu vì sao cô ấy buồn ngủ:",
+                                "options": ["No wonder she's sleepy.", "I wonder she's sleepy.", "Not wonder she's sleepy."],
+                                "answer": 0,
+                                "item": "no-wonder"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Your new neighbor ___ nice.",
+                                "hintVi": "có vẻ (hiện tại)",
+                                "answers": ["seems"],
+                                "item": "seem"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "I bet he forgot about the meeting.",
+                                "options": ["Mình cá là anh ấy quên cuộc họp rồi.", "Mình cược với anh ấy về cuộc họp.", "Anh ấy cá là mình quên cuộc họp."],
+                                "answer": 0,
+                                "item": "i-bet"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Có vẻ như trời sắp mưa.",
+                                "answer": "It looks like it's going to rain.",
+                                "item": "it-looks-like"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "b1-11-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Gọi mãi không ai nghe. Bạn đoán chắc chắn:",
+                "options": ["They must be out.", "They must out.", "They mustn't be home."],
+                "answer": 0,
+                "item": "deduction-present"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Ai đó nói cà phê ở đây giá mười triệu. Bạn không tin:",
+                "options": ["It mustn't be true.", "It can't be true.", "It might not true."],
+                "answer": 1,
+                "item": "it-cant-be"
+            },
+            {
+                "kind": "gap",
+                "sentence": "I can't find my keys. I must have ___ them at the office.",
+                "hintVi": "leave",
+                "answers": ["left"],
+                "item": "must-have-done"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["That sounds a good idea.", "That sounds like a good idea.", "That sounds like good."],
+                "answer": 1,
+                "item": "looks-seems"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "You might have left it in the car.",
+                "options": ["Có thể bạn để quên trong xe.", "Chắc chắn bạn để quên trong xe.", "Bạn không thể để quên trong xe."],
+                "answer": 0,
+                "item": "you-might-have"
+            },
+            {
+                "kind": "order",
+                "vi": "Có thể cô ấy đang họp.",
+                "answer": "She might be in a meeting.",
+                "item": "she-might-be"
+            }
+        ]
+    }
+}

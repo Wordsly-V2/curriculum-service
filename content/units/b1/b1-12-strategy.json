@@ -1,0 +1,750 @@
+{
+    "slug": "b1-12-strategy",
+    "stage": "b1",
+    "order": 12,
+    "title": "Keeping up",
+    "titleVi": "Chiến lược: làm rõ, câu giờ, ngắt lời",
+    "descriptionVi": "Làm rõ khi chưa hiểu và kiểm tra mình hiểu đúng (What do you mean by…?, So you're saying…?), nói mềm và câu giờ khi cần nghĩ (kind of, I guess, That's a good question, I might be wrong, but…), và ngắt lời lịch sự, quay lại ý mình, tóm tắt (Sorry to interrupt, As I was saying, To sum up).",
+    "canDo": [
+        "Tôi hỏi lại được khi chưa nghe rõ hay chưa hiểu, và kiểm tra lại xem mình hiểu đúng chưa.",
+        "Tôi câu giờ được khi cần nghĩ, và nói ý kiến mềm mỏng để không nghe quá thẳng.",
+        "Tôi ngắt lời lịch sự, quay lại ý đang nói dở và tóm tắt được cuộc thảo luận.",
+        "Tổng kết B1: tôi xoay xở được hầu hết tình huống khi đi lại, làm việc, học tập; kể lại được chuyện đã xảy ra, bày tỏ và giải thích ý kiến, và giữ được cuộc nói chuyện kể cả khi chưa hiểu hết."
+    ],
+    "items": [
+        {
+            "slug": "what-do-you-mean-by",
+            "type": "PATTERN",
+            "text": "What do you mean by …?",
+            "meaningVi": "… nghĩa là sao ạ?",
+            "examples": [
+                { "en": "Sorry, what do you mean by \"flexible\"?", "vi": "Xin lỗi, \"linh hoạt\" nghĩa là sao ạ?", "highlight": "what do you mean by" }
+            ],
+            "pattern": {
+                "template": "What do you mean by {word}?",
+                "slots": [
+                    { "name": "word", "hintVi": "từ hoặc ý chưa rõ", "options": ["that", "flexible", "soon", "a small problem", "ASAP"] }
+                ]
+            },
+            "noteVi": "Hỏi một từ cụ thể người kia vừa dùng. Khác What does … mean? (hỏi nghĩa từ trong từ điển, Pre-A1). ❌ \"What do you mean about…\"."
+        },
+        {
+            "slug": "so-youre-saying",
+            "type": "PATTERN",
+            "text": "So you're saying …?",
+            "meaningVi": "Vậy ý bạn là …?",
+            "examples": [
+                { "en": "So you're saying the meeting is canceled?", "vi": "Vậy ý anh là cuộc họp bị hủy ạ?", "highlight": "So you're saying" }
+            ],
+            "pattern": {
+                "template": "So you're saying {clause}?",
+                "slots": [
+                    { "name": "clause", "hintVi": "nhắc lại ý người kia bằng lời của mình", "options": ["the meeting is canceled", "we need to start again", "it's not possible", "you want to leave early", "it's my fault"] }
+                ]
+            },
+            "noteVi": "Nhắc lại ý bằng lời của mình để kiểm tra. Lên giọng ở cuối như câu hỏi. Lịch sự hơn: If I understand correctly, …"
+        },
+        {
+            "slug": "sorry-i-didnt-catch-that",
+            "type": "PHRASE",
+            "text": "Sorry, I didn't catch that.",
+            "meaningVi": "Xin lỗi, mình nghe không kịp.",
+            "examples": [
+                { "en": "Sorry, I didn't catch that. Could you say it again?", "vi": "Xin lỗi, mình nghe không kịp. Bạn nói lại được không?", "highlight": "I didn't catch that" }
+            ],
+            "noteVi": "catch = nghe kịp, nghe rõ. Tự nhiên hơn \"I don't understand\" khi chỉ là nghe không rõ. Chỉ lỡ tên: Sorry, I didn't catch your name."
+        },
+        {
+            "slug": "could-you-be-more-specific",
+            "type": "PHRASE",
+            "text": "Could you be more specific?",
+            "meaningVi": "Bạn nói cụ thể hơn được không?",
+            "examples": [
+                { "en": "You said \"soon\". Could you be more specific?", "vi": "Anh nói là \"sớm\". Anh nói cụ thể hơn được không ạ?", "highlight": "Could you be more specific" }
+            ],
+            "noteVi": "Dùng khi người kia nói chung chung (soon, a few, some problems). Thân mật: Like what? / When exactly?"
+        },
+        {
+            "slug": "let-me-make-sure",
+            "type": "PHRASE",
+            "text": "Let me make sure I understand.",
+            "meaningVi": "Để mình chắc là mình hiểu đúng.",
+            "examples": [
+                { "en": "Let me make sure I understand. You need the report by Friday?", "vi": "Để em chắc là em hiểu đúng. Anh cần báo cáo trước thứ Sáu ạ?", "highlight": "Let me make sure I understand" }
+            ],
+            "noteVi": "Nói trước khi tóm lại ý người kia. make sure + mệnh đề: Make sure you lock the door."
+        },
+        {
+            "slug": "clarify",
+            "type": "LEXICAL",
+            "text": "clarify",
+            "meaningVi": "làm rõ",
+            "ipa": "/ˈklerəfaɪ/",
+            "examples": [
+                { "en": "Can I ask you to clarify one thing?", "vi": "Tôi nhờ anh làm rõ một điểm được không?", "highlight": "clarify" }
+            ],
+            "noteVi": "Trang trọng, hay dùng trong họp, email. Just to clarify, … = Nói cho rõ nhé, …"
+        },
+        {
+            "slug": "specific",
+            "type": "LEXICAL",
+            "text": "specific",
+            "meaningVi": "cụ thể",
+            "ipa": "/spəˈsɪfɪk/",
+            "examples": [
+                { "en": "Do you have a specific time in mind?", "vi": "Bạn đã nghĩ đến giờ cụ thể nào chưa?", "highlight": "specific" }
+            ],
+            "noteVi": "Nhấn âm hai: spe-CI-fic. Trạng từ: specifically. Người Việt hay đọc nhầm thành \"pacific\"."
+        },
+        {
+            "slug": "misunderstand",
+            "type": "LEXICAL",
+            "text": "misunderstand",
+            "meaningVi": "hiểu lầm",
+            "ipa": "/ˌmɪsʌndərˈstænd/",
+            "examples": [
+                { "en": "Sorry, I think I misunderstood you.", "vi": "Xin lỗi, hình như mình hiểu lầm ý bạn.", "highlight": "misunderstood" }
+            ],
+            "noteVi": "Quá khứ: misunderstood. Danh từ: a misunderstanding (một sự hiểu lầm): There was a misunderstanding."
+        },
+        {
+            "slug": "kind-of",
+            "type": "PHRASE",
+            "text": "kind of",
+            "meaningVi": "hơi, kiểu như",
+            "examples": [
+                { "en": "The movie was kind of boring.", "vi": "Phim hơi chán.", "highlight": "kind of" }
+            ],
+            "noteVi": "Làm câu nhẹ đi, rất hay dùng khi nói. Đọc nhanh: kinda. Cũng nói: sort of. Khác a kind of (một loại, A1)."
+        },
+        {
+            "slug": "i-guess",
+            "type": "PHRASE",
+            "text": "I guess …",
+            "meaningVi": "Chắc là …, mình đoán là …",
+            "examples": [
+                { "en": "I guess you're right.", "vi": "Chắc là bạn đúng.", "highlight": "I guess" }
+            ],
+            "noteVi": "Nhẹ hơn I think, nghe không quá chắc. Đồng ý miễn cưỡng: I guess so."
+        },
+        {
+            "slug": "thats-a-good-question",
+            "type": "PHRASE",
+            "text": "That's a good question.",
+            "meaningVi": "Câu hỏi hay đấy.",
+            "examples": [
+                { "en": "Hmm, that's a good question. Let me think.", "vi": "Hừm, câu hỏi hay đấy. Để mình nghĩ đã.", "highlight": "that's a good question" }
+            ],
+            "noteVi": "Câu câu giờ quen thuộc khi chưa có câu trả lời ngay. Đi cùng Let me think / Let me see."
+        },
+        {
+            "slug": "how-can-i-put-it",
+            "type": "PHRASE",
+            "text": "How can I put it?",
+            "meaningVi": "Nói thế nào nhỉ?",
+            "examples": [
+                { "en": "It's… how can I put it? It's not what we expected.", "vi": "Nó… nói thế nào nhỉ? Nó không như bọn mình nghĩ.", "highlight": "how can I put it" }
+            ],
+            "noteVi": "Dùng khi đang tìm cách nói khéo. put ở đây là \"diễn đạt\". Tương tự: What's the word? (A1)."
+        },
+        {
+            "slug": "i-might-be-wrong-but",
+            "type": "PATTERN",
+            "text": "I might be wrong, but ….",
+            "meaningVi": "Có thể mình sai, nhưng ….",
+            "examples": [
+                { "en": "I might be wrong, but I think the meeting is on Tuesday.", "vi": "Có thể mình sai, nhưng mình nghĩ cuộc họp là thứ Ba.", "highlight": "I might be wrong, but" }
+            ],
+            "pattern": {
+                "template": "I might be wrong, but {opinion}.",
+                "slots": [
+                    { "name": "opinion", "hintVi": "ý mình muốn nói", "options": ["I think it's on Tuesday", "it was his idea", "the price has gone up", "that's not the right way", "we're lost"] }
+                ]
+            },
+            "noteVi": "Làm mềm khi sửa sai người khác hoặc nói điều không chắc. Dùng lại might (unit 11)."
+        },
+        {
+            "slug": "it-seems-to-me",
+            "type": "PATTERN",
+            "text": "It seems to me that ….",
+            "meaningVi": "Theo mình thấy thì ….",
+            "examples": [
+                { "en": "It seems to me that we need more time.", "vi": "Theo mình thấy thì bọn mình cần thêm thời gian.", "highlight": "It seems to me that" }
+            ],
+            "pattern": {
+                "template": "It seems to me that {opinion}.",
+                "slots": [
+                    { "name": "opinion", "hintVi": "ý kiến", "options": ["the plan is too expensive", "we need more time", "everyone is tired", "this is the best option", "nobody understood"] }
+                ]
+            },
+            "noteVi": "Nêu ý kiến nhẹ hơn In my opinion (unit 04). ❌ \"It seems to me that I think…\"."
+        },
+        {
+            "slug": "basically",
+            "type": "LEXICAL",
+            "text": "basically",
+            "meaningVi": "về cơ bản, nói gọn là",
+            "ipa": "/ˈbeɪsɪkli/",
+            "examples": [
+                { "en": "Basically, we need to start again.", "vi": "Nói gọn là bọn mình phải làm lại từ đầu.", "highlight": "Basically" }
+            ],
+            "noteVi": "Đứng đầu câu để tóm ý chính. Chỉ 3 âm tiết: BA-si-cly (chữ a trong -ally không đọc)."
+        },
+        {
+            "slug": "honestly",
+            "type": "LEXICAL",
+            "text": "honestly",
+            "meaningVi": "thật lòng mà nói",
+            "ipa": "/ˈɑːnɪstli/",
+            "examples": [
+                { "en": "Honestly, I'm not sure it's a good idea.", "vi": "Thật lòng mà nói, mình không chắc đó là ý hay.", "highlight": "Honestly" }
+            ],
+            "noteVi": "h câm: /ˈɑːnɪstli/ (như honest, hour). Mở đầu một ý thật lòng, hơi trái ý người kia."
+        },
+        {
+            "slug": "sorry-to-interrupt",
+            "type": "PHRASE",
+            "text": "Sorry to interrupt, but …",
+            "meaningVi": "Xin lỗi đã ngắt lời, nhưng …",
+            "examples": [
+                { "en": "Sorry to interrupt, but we only have five minutes left.", "vi": "Xin lỗi đã ngắt lời, nhưng mình chỉ còn năm phút.", "highlight": "Sorry to interrupt" }
+            ],
+            "noteVi": "Cách ngắt lời lịch sự nhất. Ngắt lời ngắn gọn: Sorry, can I just…?"
+        },
+        {
+            "slug": "can-i-just-say",
+            "type": "PHRASE",
+            "text": "Can I just say something?",
+            "meaningVi": "Cho mình nói một chút được không?",
+            "examples": [
+                { "en": "Can I just say something? I think we're missing one problem.", "vi": "Cho mình nói một chút được không? Mình nghĩ bọn mình đang bỏ sót một vấn đề.", "highlight": "Can I just say something" }
+            ],
+            "noteVi": "just làm lời xin nhẹ đi (chỉ một chút thôi). Cũng nói: Can I add something?"
+        },
+        {
+            "slug": "go-ahead",
+            "type": "PHRASE",
+            "text": "Go ahead.",
+            "meaningVi": "Bạn cứ nói đi. / Cứ tự nhiên.",
+            "examples": [
+                { "en": "Can I ask a question? — Sure, go ahead.", "vi": "Mình hỏi một câu được không? — Được, bạn cứ hỏi.", "highlight": "go ahead" }
+            ],
+            "noteVi": "Cho phép người kia nói hoặc làm. Để người kia nói trước: No, you go ahead."
+        },
+        {
+            "slug": "as-i-was-saying",
+            "type": "PHRASE",
+            "text": "As I was saying, …",
+            "meaningVi": "Như mình đang nói dở, …",
+            "examples": [
+                { "en": "Anyway, as I was saying, the new system starts in May.", "vi": "Dù sao thì, như mình đang nói, hệ thống mới bắt đầu từ tháng Năm.", "highlight": "as I was saying" }
+            ],
+            "noteVi": "Quay lại ý mình sau khi bị ngắt lời. Quá khứ tiếp diễn (unit 02): việc nói đang dở thì bị xen ngang."
+        },
+        {
+            "slug": "to-sum-up",
+            "type": "PHRASE",
+            "text": "To sum up, …",
+            "meaningVi": "Tóm lại, …",
+            "examples": [
+                { "en": "To sum up, we'll move the event to Saturday.", "vi": "Tóm lại, bọn mình sẽ dời sự kiện sang thứ Bảy.", "highlight": "To sum up" }
+            ],
+            "noteVi": "Mở đầu phần tóm tắt cuối buổi họp, bài nói. Thân mật hơn: So basically, … / In short, …"
+        },
+        {
+            "slug": "the-point-is",
+            "type": "PATTERN",
+            "text": "The point is ….",
+            "meaningVi": "Vấn đề là ….",
+            "examples": [
+                { "en": "The point is we don't have enough time.", "vi": "Vấn đề là bọn mình không đủ thời gian.", "highlight": "The point is" }
+            ],
+            "pattern": {
+                "template": "The point is {clause}.",
+                "slots": [
+                    { "name": "clause", "hintVi": "ý chính", "options": ["we don't have enough time", "the customer isn't happy", "it's too expensive", "we need a decision today", "nobody told us"] }
+                ]
+            },
+            "noteVi": "Kéo cuộc nói chuyện về ý chính. Người kia lạc đề: That's not the point. (Đó không phải vấn đề.)"
+        },
+        {
+            "slug": "interrupt",
+            "type": "LEXICAL",
+            "text": "interrupt",
+            "meaningVi": "ngắt lời, làm gián đoạn",
+            "ipa": "/ˌɪntəˈrʌpt/",
+            "examples": [
+                { "en": "Please don't interrupt me. Let me finish.", "vi": "Làm ơn đừng ngắt lời mình. Để mình nói hết.", "highlight": "interrupt" }
+            ],
+            "noteVi": "Nhấn âm cuối: in-ter-RUPT. Danh từ: interruption. Để mình nói hết: Let me finish."
+        },
+        {
+            "slug": "summarize",
+            "type": "LEXICAL",
+            "text": "summarize",
+            "meaningVi": "tóm tắt",
+            "ipa": "/ˈsʌməraɪz/",
+            "examples": [
+                { "en": "Can you summarize the main points?", "vi": "Bạn tóm tắt các ý chính được không?", "highlight": "summarize" }
+            ],
+            "noteVi": "Chính tả Mỹ -ize (Anh: summarise). Danh từ: summary. Nói nhanh: sum up."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "b1-12-new-project",
+            "title": "What do you mean by that?",
+            "situationVi": "Tuần đầu bạn làm ở một công ty có sếp người Úc. Anh Mark giao cho bạn phần việc đầu tiên, nói hơi nhanh.",
+            "lines": [
+                { "speaker": "Mark", "en": "So, we need the customer survey done ASAP, and keep it flexible, OK?", "vi": "Vậy nhé, bọn mình cần làm xong khảo sát khách hàng càng sớm càng tốt, và cứ linh hoạt nhé?" },
+                { "speaker": "You", "en": "Sorry, I didn't catch that. What do you mean by flexible?", "vi": "Xin lỗi, em nghe không kịp. Linh hoạt nghĩa là sao ạ?", "learnerTurn": true },
+                { "speaker": "Mark", "en": "Oh, sorry. I mean you can change the questions if customers don't understand them.", "vi": "À, xin lỗi. Ý anh là em có thể đổi câu hỏi nếu khách không hiểu." },
+                { "speaker": "You", "en": "I see. And you said ASAP. Could you be more specific?", "vi": "Em hiểu rồi. Anh có nói là càng sớm càng tốt. Anh nói cụ thể hơn được không ạ?", "learnerTurn": true },
+                { "speaker": "Mark", "en": "Good point. By next Wednesday, if possible. What do you think? Is that enough time?", "vi": "Đúng đấy. Trước thứ Tư tuần sau, nếu được. Em thấy sao? Đủ thời gian không?" },
+                { "speaker": "You", "en": "Hmm, that's a good question. I might be wrong, but it seems to me that we need a few more days.", "vi": "Hừm, câu hỏi hay ạ. Có thể em sai, nhưng theo em thấy thì mình cần thêm vài ngày.", "learnerTurn": true },
+                { "speaker": "Mark", "en": "OK, let's say Friday, then.", "vi": "Được, vậy thứ Sáu nhé." },
+                { "speaker": "You", "en": "Great. Let me make sure I understand. So you're saying I can change the questions, and it's due on Friday?", "vi": "Tuyệt. Để em chắc là em hiểu đúng. Vậy ý anh là em được đổi câu hỏi, và hạn là thứ Sáu ạ?", "learnerTurn": true },
+                { "speaker": "Mark", "en": "Exactly. Thanks for checking.", "vi": "Chính xác. Cảm ơn em đã hỏi lại." }
+            ]
+        },
+        {
+            "slug": "b1-12-team-meeting",
+            "title": "Sorry to interrupt",
+            "situationVi": "Họp nhóm bàn chuyện tổ chức tiệc cuối năm. Chị Hương đang nói về địa điểm; bạn cần nói một chuyện quan trọng rồi tóm tắt lại cuối buổi.",
+            "lines": [
+                { "speaker": "Huong", "en": "…so the hotel is nice, and it has a big room for a hundred people, and the food is—", "vi": "…vậy khách sạn đẹp, có phòng lớn cho một trăm người, đồ ăn thì—" },
+                { "speaker": "You", "en": "Sorry to interrupt, but can I just say something? The hotel is closed on the twentieth.", "vi": "Xin lỗi đã ngắt lời, cho em nói một chút được không? Ngày hai mươi khách sạn đóng cửa ạ.", "learnerTurn": true },
+                { "speaker": "Huong", "en": "Oh, really? Go ahead, tell us more.", "vi": "Ồ, thật à? Em cứ nói tiếp đi." },
+                { "speaker": "You", "en": "I called them this morning. Basically, they're closed for a private event, so we need another date or another place.", "vi": "Sáng nay em gọi cho họ. Nói gọn là họ đóng cửa vì có sự kiện riêng, nên mình cần đổi ngày hoặc đổi chỗ.", "learnerTurn": true },
+                { "speaker": "Minh", "en": "What about the restaurant near the river? It's kind of small, but the food is great.", "vi": "Thế nhà hàng gần sông thì sao? Hơi nhỏ, nhưng đồ ăn ngon lắm." },
+                { "speaker": "You", "en": "Honestly, I'm not sure. The point is we have a hundred people. How can I put it? It might be too crowded.", "vi": "Thật lòng thì em không chắc. Vấn đề là mình có một trăm người. Nói thế nào nhỉ? Có thể sẽ quá chật.", "learnerTurn": true },
+                { "speaker": "Huong", "en": "Good point. I guess the hotel on the nineteenth is the best option, then.", "vi": "Đúng đấy. Vậy chắc khách sạn vào ngày mười chín là lựa chọn tốt nhất." },
+                { "speaker": "You", "en": "I agree. To sum up, we'll book the hotel for the nineteenth, and I'll call them today.", "vi": "Em đồng ý. Tóm lại, mình đặt khách sạn ngày mười chín, và hôm nay em sẽ gọi cho họ.", "learnerTurn": true },
+                { "speaker": "Huong", "en": "Perfect. Thanks, everyone.", "vi": "Hoàn hảo. Cảm ơn mọi người." }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "b1-12-l1-what-do-you-mean",
+            "title": "What do you mean by…?",
+            "titleVi": "Làm rõ và kiểm tra hiểu",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "what-do-you-mean-by", "role": "INTRODUCE" },
+                { "item": "so-youre-saying", "role": "INTRODUCE" },
+                { "item": "sorry-i-didnt-catch-that", "role": "INTRODUCE" },
+                { "item": "could-you-be-more-specific", "role": "INTRODUCE" },
+                { "item": "let-me-make-sure", "role": "INTRODUCE" },
+                { "item": "clarify", "role": "INTRODUCE" },
+                { "item": "specific", "role": "INTRODUCE" },
+                { "item": "misunderstand", "role": "INTRODUCE" },
+                { "item": "do-you-mean", "role": "RECYCLE" },
+                { "item": "in-other-words", "role": "RECYCLE" },
+                { "item": "i-see-what-you-mean", "role": "RECYCLE" },
+                { "item": "reported-speech", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["what-do-you-mean-by", "so-youre-saying", "sorry-i-didnt-catch-that", "could-you-be-more-specific", "let-me-make-sure", "clarify", "specific", "misunderstand"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Chưa hiểu thì hỏi lại",
+                        "bodyVi": "Ở B1, người ta nói nhanh hơn và dùng từ khó hơn. Hỏi lại không có gì xấu; im lặng rồi làm sai mới tệ.\n\n| vấn đề | nói |\n|---|---|\n| nghe không kịp | **Sorry, I didn't catch that.** |\n| không hiểu một từ | **What do you mean by** \"flexible\"? |\n| người kia nói chung chung | **Could you be more specific?** |\n| đoán ý | **Do you mean** Friday? |\n| kiểm tra mình hiểu đúng | **Let me make sure I understand.** **So you're saying** it's due on Friday? |\n| mình nói lại cho dễ hiểu | **In other words**, … |\n\nNhắc lại ý người kia bằng lời của mình giống câu tường thuật (unit 09): \"It's due on Friday\" → **So you're saying** it's due on Friday?\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| I don't understand. (khi chỉ là nghe không rõ) | **Sorry, I didn't catch that.** |\n| What do you mean about flexible? | **What do you mean by** flexible? |\n| (gật đầu dù chưa hiểu) | **Let me make sure I understand.** |\n\n❌ What do you mean about… ✅ **What do you mean by…?**",
+                        "items": ["what-do-you-mean-by", "so-youre-saying", "sorry-i-didnt-catch-that", "could-you-be-more-specific", "let-me-make-sure", "do-you-mean", "in-other-words", "reported-speech"],
+                        "examples": [
+                            { "en": "Sorry, what do you mean by \"flexible\"?", "vi": "Xin lỗi, \"linh hoạt\" nghĩa là sao ạ?", "highlight": "what do you mean by" },
+                            { "en": "Let me make sure I understand. So you're saying the meeting is canceled?", "vi": "Để em chắc là em hiểu đúng. Vậy ý anh là cuộc họp bị hủy ạ?", "highlight": "So you're saying" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "what-do-you-mean-by",
+                        "prompts": [
+                            { "cueVi": "Sếp nói \"flexible\". Hỏi nghĩa là sao.", "slots": { "word": "flexible" }, "answer": "What do you mean by flexible?" },
+                            { "cueVi": "Bạn không rõ câu người kia vừa nói. Hỏi ý là sao.", "slots": { "word": "that" }, "answer": "What do you mean by that?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "so-youre-saying",
+                        "prompts": [
+                            { "cueVi": "Vậy ý anh là cuộc họp bị hủy?", "slots": { "clause": "the meeting is canceled" }, "answer": "So you're saying the meeting is canceled?" },
+                            { "cueVi": "Vậy ý anh là mình phải làm lại từ đầu?", "slots": { "clause": "we need to start again" }, "answer": "So you're saying we need to start again?" },
+                            { "cueVi": "Vậy ý chị là không được?", "slots": { "clause": "it's not possible" }, "answer": "So you're saying it's not possible?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["sorry-i-didnt-catch-that", "could-you-be-more-specific", "let-me-make-sure", "clarify", "specific", "misunderstand"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "Sorry, I didn't catch that.", "vi": "Xin lỗi, mình nghe không kịp." },
+                            { "en": "What do you mean by flexible?", "vi": "Linh hoạt nghĩa là sao ạ?" },
+                            { "en": "Could you be more specific?", "vi": "Bạn nói cụ thể hơn được không?" },
+                            { "en": "Let me make sure I understand.", "vi": "Để mình chắc là mình hiểu đúng." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Người kia nói nhanh quá, bạn nghe không kịp:",
+                                "options": ["Sorry, I didn't catch that.", "Sorry, I didn't take that.", "Sorry, you are too fast."],
+                                "answer": 0,
+                                "item": "sorry-i-didnt-catch-that"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["What do you mean about flexible?", "What do you mean by flexible?", "What are you mean by flexible?"],
+                                "answer": 1,
+                                "item": "what-do-you-mean-by"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "You said \"soon\". Could you be more ___?",
+                                "hintVi": "cụ thể",
+                                "answers": ["specific"],
+                                "item": "could-you-be-more-specific"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Sorry, I think I misunderstood you.",
+                                "options": ["Xin lỗi, hình như mình hiểu lầm ý bạn.", "Xin lỗi, bạn hiểu lầm mình rồi.", "Xin lỗi, mình không nghe thấy bạn."],
+                                "answer": 0,
+                                "item": "misunderstand"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Vậy ý anh là cuộc họp bị hủy?",
+                                "answer": "So you're saying the meeting is canceled?",
+                                "item": "so-youre-saying"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b1-12-l2-buying-time",
+            "title": "That's a good question",
+            "titleVi": "Câu giờ và nói mềm",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "kind-of", "role": "INTRODUCE" },
+                { "item": "i-guess", "role": "INTRODUCE" },
+                { "item": "thats-a-good-question", "role": "INTRODUCE" },
+                { "item": "how-can-i-put-it", "role": "INTRODUCE" },
+                { "item": "i-might-be-wrong-but", "role": "INTRODUCE" },
+                { "item": "it-seems-to-me", "role": "INTRODUCE" },
+                { "item": "basically", "role": "INTRODUCE" },
+                { "item": "honestly", "role": "INTRODUCE" },
+                { "item": "let-me-think", "role": "RECYCLE" },
+                { "item": "giving-opinions", "role": "RECYCLE" },
+                { "item": "im-not-so-sure", "role": "RECYCLE" },
+                { "item": "what-do-you-mean-by", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["kind-of", "i-guess", "thats-a-good-question", "how-can-i-put-it", "i-might-be-wrong-but", "it-seems-to-me", "basically", "honestly"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Cần thời gian nghĩ? Cứ nói ra",
+                        "bodyVi": "Người bản ngữ cũng không trả lời ngay. Thay vì im lặng hay \"ờ… ờ…\", dùng **câu câu giờ**:\n\n| việc | nói |\n|---|---|\n| câu giờ | **That's a good question.** **Let me think.** |\n| đang tìm cách nói | It's… **how can I put it?** … |\n| tóm ý chính | **Basically**, we need more time. |\n\nNói thẳng quá dễ nghe như thô lỗ. **Nói mềm** để ý kiến dễ nghe hơn:\n\n| nói thẳng | nói mềm |\n|---|---|\n| The movie was boring. | The movie was **kind of** boring. |\n| You're right. (miễn cưỡng) | **I guess** you're right. |\n| You're wrong. It's Tuesday. | **I might be wrong, but** I think it's Tuesday. |\n| In my opinion, it's too expensive. | **It seems to me that** it's too expensive. |\n| That's a bad idea. | **Honestly**, **I'm not so sure** it's a good idea. |\n\n❌ It seems to me that I think… ✅ **It seems to me that** we need more time.",
+                        "items": ["kind-of", "i-guess", "thats-a-good-question", "how-can-i-put-it", "i-might-be-wrong-but", "it-seems-to-me", "basically", "honestly", "let-me-think", "giving-opinions", "im-not-so-sure"],
+                        "examples": [
+                            { "en": "Hmm, that's a good question. Let me think.", "vi": "Hừm, câu hỏi hay đấy. Để mình nghĩ đã.", "highlight": "that's a good question" },
+                            { "en": "I might be wrong, but I think the meeting is on Tuesday.", "vi": "Có thể mình sai, nhưng mình nghĩ cuộc họp là thứ Ba.", "highlight": "I might be wrong, but" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "i-might-be-wrong-but",
+                        "prompts": [
+                            { "cueVi": "Sửa nhẹ: mình nghĩ là thứ Ba.", "slots": { "opinion": "I think it's on Tuesday" }, "answer": "I might be wrong, but I think it's on Tuesday." },
+                            { "cueVi": "Nói nhẹ: bọn mình bị lạc rồi.", "slots": { "opinion": "we're lost" }, "answer": "I might be wrong, but we're lost." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "it-seems-to-me",
+                        "prompts": [
+                            { "cueVi": "Theo mình thấy thì kế hoạch đắt quá.", "slots": { "opinion": "the plan is too expensive" }, "answer": "It seems to me that the plan is too expensive." },
+                            { "cueVi": "Theo mình thấy thì bọn mình cần thêm thời gian.", "slots": { "opinion": "we need more time" }, "answer": "It seems to me that we need more time." },
+                            { "cueVi": "Theo mình thấy thì đây là lựa chọn tốt nhất.", "slots": { "opinion": "this is the best option" }, "answer": "It seems to me that this is the best option." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["kind-of", "i-guess", "thats-a-good-question", "how-can-i-put-it", "basically", "honestly"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b1-12-new-project", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Bị hỏi một câu khó, bạn cần thời gian nghĩ:",
+                                "options": ["That's a good question. Let me think.", "I don't know.", "Your question is difficult."],
+                                "answer": 0,
+                                "item": "thats-a-good-question"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nói mềm hơn \"The food was bad.\":",
+                                "options": ["The food was very bad.", "The food was kind of disappointing.", "The food was bad, basically."],
+                                "answer": 1,
+                                "item": "kind-of"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I might be ___, but I think it's on Tuesday.",
+                                "hintVi": "sai",
+                                "answers": ["wrong"],
+                                "item": "i-might-be-wrong-but"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Honestly, I'm not sure it's a good idea.",
+                                "options": ["Thật lòng mà nói, mình không chắc đó là ý hay.", "Chắc chắn đó là một ý hay.", "Mình thành thật xin lỗi vì ý đó."],
+                                "answer": 0,
+                                "item": "honestly"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Theo mình thấy thì bọn mình cần thêm thời gian.",
+                                "answer": "It seems to me that we need more time.",
+                                "item": "it-seems-to-me"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b1-12-l3-interrupting",
+            "title": "Sorry to interrupt",
+            "titleVi": "Ngắt lời và tóm lại",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "sorry-to-interrupt", "role": "INTRODUCE" },
+                { "item": "can-i-just-say", "role": "INTRODUCE" },
+                { "item": "go-ahead", "role": "INTRODUCE" },
+                { "item": "as-i-was-saying", "role": "INTRODUCE" },
+                { "item": "to-sum-up", "role": "INTRODUCE" },
+                { "item": "the-point-is", "role": "INTRODUCE" },
+                { "item": "interrupt", "role": "INTRODUCE" },
+                { "item": "summarize", "role": "INTRODUCE" },
+                { "item": "anyway", "role": "RECYCLE" },
+                { "item": "on-the-other-hand", "role": "RECYCLE" },
+                { "item": "good-point", "role": "RECYCLE" },
+                { "item": "basically", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["sorry-to-interrupt", "can-i-just-say", "go-ahead", "as-i-was-saying", "to-sum-up", "the-point-is", "interrupt", "summarize"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Giữ nhịp một cuộc thảo luận",
+                        "bodyVi": "Trong họp hay thảo luận nhóm, chờ đến lượt có khi không bao giờ tới. Ngắt lời được, miễn là **lịch sự**:\n\n| việc | nói |\n|---|---|\n| ngắt lời | **Sorry to interrupt, but** we only have five minutes. |\n| xin nói | **Can I just say something?** |\n| cho người khác nói | Sure, **go ahead.** |\n| bị ngắt, quay lại ý mình | **Anyway, as I was saying**, … |\n| kéo về ý chính | **The point is** we don't have enough time. |\n| đưa ý ngược lại | **On the other hand**, … |\n| tóm tắt cuối buổi | **To sum up**, we'll book the hotel. / **Basically**, … |\n\nBị ngắt lời nhiều quá: Sorry, **let me finish**.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| Wait, wait! | **Sorry to interrupt, but…** |\n| Conclusion, … | **To sum up**, … / **So basically**, … |\n| Continue what I said… | **As I was saying**, … |\n\n❌ Sorry for interrupt ❌ Conclusion, we… ✅ **Sorry to interrupt, but…** **To sum up, we…**",
+                        "items": ["sorry-to-interrupt", "can-i-just-say", "go-ahead", "as-i-was-saying", "to-sum-up", "the-point-is", "interrupt", "anyway", "on-the-other-hand", "basically"],
+                        "examples": [
+                            { "en": "Sorry to interrupt, but we only have five minutes left.", "vi": "Xin lỗi đã ngắt lời, nhưng mình chỉ còn năm phút.", "highlight": "Sorry to interrupt" },
+                            { "en": "To sum up, we'll move the event to Saturday.", "vi": "Tóm lại, bọn mình sẽ dời sự kiện sang thứ Bảy.", "highlight": "To sum up" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "the-point-is",
+                        "prompts": [
+                            { "cueVi": "Vấn đề là mình không đủ thời gian.", "slots": { "clause": "we don't have enough time" }, "answer": "The point is we don't have enough time." },
+                            { "cueVi": "Vấn đề là khách không hài lòng.", "slots": { "clause": "the customer isn't happy" }, "answer": "The point is the customer isn't happy." },
+                            { "cueVi": "Vấn đề là hôm nay phải quyết.", "slots": { "clause": "we need a decision today" }, "answer": "The point is we need a decision today." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["sorry-to-interrupt", "can-i-just-say", "go-ahead", "as-i-was-saying", "to-sum-up", "interrupt", "summarize"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b1-12-team-meeting", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn cần ngắt lời lịch sự trong cuộc họp:",
+                                "options": ["Sorry for interrupt, but…", "Sorry to interrupt, but…", "Wait, stop, I talk."],
+                                "answer": 1,
+                                "item": "sorry-to-interrupt"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Đồng nghiệp hỏi \"Can I ask a question?\". Bạn đồng ý:",
+                                "options": ["Sure, go ahead.", "Sure, go away.", "Sure, go on ahead of me."],
+                                "answer": 0,
+                                "item": "go-ahead"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Anyway, as I was ___, the new system starts in May.",
+                                "answers": ["saying"],
+                                "item": "as-i-was-saying"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Can you summarize the main points?",
+                                "options": ["Bạn tóm tắt các ý chính được không?", "Bạn thêm vài ý chính được không?", "Bạn nhớ các ý chính không?"],
+                                "answer": 0,
+                                "item": "summarize"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Tóm lại, bọn mình sẽ dời sự kiện sang thứ Bảy.",
+                                "answer": "To sum up, we'll move the event to Saturday.",
+                                "item": "to-sum-up"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "b1-12-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Sếp dùng một từ bạn không hiểu. Bạn hỏi:",
+                "options": ["What do you mean by that word?", "What do you mean about that word?", "What does you mean that word?"],
+                "answer": 0,
+                "item": "what-do-you-mean-by"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Kiểm tra lại xem mình hiểu đúng chưa:",
+                "options": ["So you're saying it's due on Friday?", "So you said it's due on Friday, OK?", "You say Friday, right or wrong?"],
+                "answer": 0,
+                "item": "so-youre-saying"
+            },
+            {
+                "kind": "gap",
+                "sentence": "Sorry, I didn't ___ that. Could you say it again?",
+                "hintVi": "nghe kịp",
+                "answers": ["catch"],
+                "item": "sorry-i-didnt-catch-that"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Sửa sai người khác một cách mềm mỏng:",
+                "options": ["You're wrong. It's Tuesday.", "I might be wrong, but I think it's Tuesday.", "No. Tuesday."],
+                "answer": 1,
+                "item": "i-might-be-wrong-but"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "Sorry to interrupt, but we only have five minutes left.",
+                "options": ["Xin lỗi đã ngắt lời, nhưng mình chỉ còn năm phút.", "Xin lỗi, mình đến muộn năm phút.", "Xin lỗi, năm phút nữa mình phải đi."],
+                "answer": 0,
+                "item": "sorry-to-interrupt"
+            },
+            {
+                "kind": "order",
+                "vi": "Tóm lại, bọn mình sẽ đặt khách sạn.",
+                "answer": "To sum up, we'll book the hotel.",
+                "item": "to-sum-up"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Ôn B1. Câu nào đúng?",
+                "options": ["I live here for five years.", "I've lived here for five years.", "I've lived here since five years."],
+                "answer": 1,
+                "item": "present-perfect-duration"
+            },
+            {
+                "kind": "gap",
+                "sentence": "Ôn B1. If I ___ more time, I'd travel more.",
+                "hintVi": "have",
+                "answers": ["had"],
+                "item": "second-conditional"
+            }
+        ]
+    }
+}
