@@ -12,6 +12,7 @@ Trạng thái: `draft` đã soạn, qua validator · `reviewed` đã có ngườ
 | A1 | 10 | 10 | 31 | 260 | 166 | 49 | 33 | 12 |
 | A2 | 12 | 12 | 36 | 301 | 155 | 70 | 49 | 27 |
 | B1 | 12 | 12 | 36 | 287 | 122 | 68 | 65 | 32 |
+| B2 | 12 | 4 | 12 | 96 | 43 | 22 | 19 | 12 |
 
 ## Placement (`placement.json`)
 
@@ -23,6 +24,7 @@ Một bài xếp lớp cho cả lộ trình, 2 câu mỗi unit, theo thứ tự 
 | A1 | 10/10 | 20 |
 | A2 | 12/12 | 24 |
 | B1 | 12/12 | 24 |
+| B2 | 4/12 | 8 |
 
 ## Pre-A1: Foundations
 
@@ -459,3 +461,77 @@ Mốc của stage: "Tôi bày tỏ và bảo vệ được ý kiến đơn giả
 - `b1-10`: `verb-to-infinitive` (A2) RECYCLE ở bài 1; gerund mới gom trong `gerund-infinitive`. `tiring` chỉ nằm trong ví dụ (tired, boring, interesting đã là item A2); cặp -ed / -ing gom trong `ed-ing-adjectives`; `embarrassed`, `stressed` RECYCLE. apply for, responsible for chỉ nằm trong ví dụ / `noteVi`. Hội thoại phỏng vấn có RECYCLE hiện tại hoàn thành (I've worked … for two years).
 - `b1-11`: `guess` (động từ) là LEXICAL, khác `guess-what` (B1 02). `it-looks-like` (đoán) khác `look-like` (giống ai, A2). V3 lấy từ `past-participles` (A2), RECYCLE ở bài 2. `what-a-relief` (B1 02) dùng lại trong hội thoại tìm ví.
 - `b1-12` không có GRAMMAR (như `pre-a1-06`, `a1-10`, `a2-12`). A1 `a1-10` đã có `i-mean`, `do-you-mean`, `in-other-words`, `let-me-think`, nên ở đây chỉ RECYCLE; `kind-of` (hơi) khác `its-a-kind-of` (một loại, A1). canDo thứ tư là câu tổng kết B1; checkpoint 8 câu, 2 câu cuối ôn B1 (`present-perfect-duration`, `second-conditional`).
+
+## B2: Upper-intermediate
+
+Mốc của stage: "Tôi thảo luận được chủ đề trừu tượng" (unit 03). Khung 12 unit (chốt ở P4-6a, P4-6b/c soạn theo):
+
+| # | Unit | Can-do (tóm tắt) | Bài | Item (L/Ph/Pa/G) | Dialogue | Trạng thái |
+|---|---|---|---|---|---|---|
+| 1 | `b2-01-had-happened` | quá khứ hoàn thành (when I got there…, by the time, never … before, it turned out), các thì kể chuyện và quá khứ hoàn thành tiếp diễn, tường thuật lùi thì đầy đủ (the day before, the next day, deny / insist / claim / suggest) | 3 | 24 (11/6/4/3) | 2 | draft |
+| 2 | `b2-02-if-only` | điều kiện loại 3 (If I'd known…, otherwise, thanks to), should have / shouldn't have / could have, nhận lỗi và an ủi, I wish I'd… / If only…, tiếc nuối (looking back, make the most of) | 3 | 24 (8/7/6/3) | 2 | draft |
+| 3 | `b2-03-debate` | nêu và bảo vệ luận điểm (I'm convinced that, There's no doubt that, What's more, evidence), phản bác và nhượng bộ (I see your point, but…, despite, whereas, even so, admittedly), khái quát hóa chủ đề trừu tượng (tend to, on the whole, pros and cons); mốc của stage | 3 | 24 (11/6/4/3) | 2 | draft |
+| 4 | `b2-04-the-news` | bị động tường thuật (It's reported that, is expected to, according to), have / get something done (sửa, cắt tóc, rip-off), mô tả số liệu tăng giảm (rise by, increase in, slightly, compared to) | 3 | 24 (13/3/5/3) | 2 | draft |
+| 5 | `b2-05-at-work` | công sở trang trọng: email (I'm writing to…, Please find attached, I look forward to…), họp, đề xuất (I'd suggest…, Would it be possible to…?), từ chối khéo | | | | dự kiến |
+| 6 | `b2-06-which-means` | mệnh đề quan hệ không xác định (, who / , which), which nối cả câu, whose / where / when, mô tả người, nơi, sản phẩm chi tiết | | | | dự kiến |
+| 7 | `b2-07-by-then` | tương lai tiếp diễn (I'll be working), tương lai hoàn thành (I'll have finished by…), kế hoạch dài hạn, dự đoán xu hướng | | | | dự kiến |
+| 8 | `b2-08-phrasal-verbs` | cụm động từ thông dụng theo chủ đề (figure out, put off, come up with, run out of, get over), tách / không tách được | | | | dự kiến |
+| 9 | `b2-09-supposed-to` | be supposed to, be allowed to, needn't / didn't need to / needn't have, luật lệ và quy định, phàn nàn về quy định | | | | dự kiến |
+| 10 | `b2-10-linking` | nối ý mạch lạc (however, therefore, as a result, in addition, on top of that), nguyên nhân – kết quả (due to, lead to), trình bày quy trình, kể lại ngắn một bài báo | | | | dự kiến |
+| 11 | `b2-11-what-if` | giả định: suppose / what if, I'd rather + quá khứ, it's time + quá khứ, câu điều kiện hỗn hợp | | | | dự kiến |
+| 12 | `b2-12-strategy` | chiến lược B2: diễn đạt vòng từ trừu tượng, tự sửa lỗi, dẫn dắt và giữ lượt, kéo dài câu trả lời; can-do tổng kết B2 | | | | dự kiến |
+
+### Mẫu câu (PATTERN)
+
+| Item | Template | Unit |
+|---|---|---|
+| `when-i-got-there` | When I got there, {event}. | 01 |
+| `i-had-never-before` | I had never {done} before. | 01 |
+| `id-been-waiting` | I'd been {doing} for {time}. | 01 |
+| `she-said-shed` | She said she'd {done}. | 01 |
+| `if-id-known` | If I'd known, I would have {done}. | 02 |
+| `if-i-hadnt` | If I hadn't {done}, I wouldn't have {result}. | 02 |
+| `i-should-have` | I should have {done}. | 02 |
+| `you-shouldnt-have` | You shouldn't have {done}. | 02 |
+| `i-wish-id` | I wish I'd {done}. | 02 |
+| `if-only` | If only {wish}! | 02 |
+| `im-convinced-that` | I'm convinced that {opinion}. | 03 |
+| `theres-no-doubt-that` | There's no doubt that {fact}. | 03 |
+| `i-see-your-point-but` | I see your point, but {counter}. | 03 |
+| `the-problem-with-is` | The problem with {thing} is that {problem}. | 03 |
+| `its-reported-that` | It's reported that {news}. | 04 |
+| `is-expected-to` | {subject} is expected to {do}. | 04 |
+| `i-had-my` | I had my {thing} {done}. | 04 |
+| `where-can-i-get` | Where can I get my {thing} {done}? | 04 |
+| `has-risen-by` | {thing} has risen by {amount}. | 04 |
+
+### Ngữ pháp (GRAMMAR)
+
+| Item | Điểm ngữ pháp | Unit |
+|---|---|---|
+| `past-perfect` | had + V3: việc xảy ra trước một mốc khác trong quá khứ | 01 |
+| `narrative-tenses` | quá khứ đơn, quá khứ tiếp diễn, quá khứ hoàn thành (tiếp diễn) trong một câu chuyện | 01 |
+| `reported-speech-advanced` | lùi thì đầy đủ: hiện tại hoàn thành / quá khứ đơn → quá khứ hoàn thành; đổi từ chỉ thời gian, nơi chốn | 01 |
+| `third-conditional` | If + had + V3, would have + V3 | 02 |
+| `should-have` | should have / shouldn't have / could have + V3 | 02 |
+| `wish-past-perfect` | I wish / If only + had + V3 | 02 |
+| `making-a-case` | nêu luận điểm (I'm convinced that, There's no doubt that, It's clear that) + lý lẽ (First of all, What's more, For example) | 03 |
+| `contrast-concession` | although / even though + mệnh đề; despite / in spite of + danh từ / V-ing; whereas; however; even so | 03 |
+| `generalizing` | tend to + V, on the whole, in general, most people, generally speaking | 03 |
+| `passive-reporting` | It is said / reported / expected that…; X is said / believed / expected to + V | 04 |
+| `have-something-done` | have / get + vật + V3 | 04 |
+| `describing-trends` | rise / increase / go up, fall / decrease / go down + by / to / from … to; a sharp / slight rise | 04 |
+
+### Lỗi thường gặp của người Việt (B2)
+
+- "When I arrived, the train already left" (ý là lỡ tàu), dùng had + V3 cho mọi chuyện quá khứ, "I had never saw", "I had been wait", kể chuyện bằng hiện tại đơn, "very exhausted", "At first, open the box", realize hiểu là "thực hiện", "He said he has sent it yesterday", "suggested me to go", "denied to take", "got to there" (unit 01).
+- "If I would have known", "If I knew yesterday, I would come", "would have came", "just on time" (ý là vừa kịp), "I should listened", "should have went", viết "should of", "It's my wrong", "I wish I took more photos" (ý là hồi đó), "I wish I would have gone", "do a decision", "Never mind" để đáp lời cảm ơn (unit 02).
+- "In my opinion, I think", "I'm convince", "evidences", "an evidence", "Despite it was raining", "despite of", "Although…, but…", "Even though…, but…", "In spite the rain", "The young people tend to…" (nói chung), "tend to using", "affect on", "has an affect", nói tuyệt đối "All Vietnamese people…" (unit 03).
+- "According to me", "The storm expects to hit", "It is said the price will to rise", "I cut my hair at the hairdresser's" (ý là thợ cắt), "I had fixed my car" (ý là thuê sửa), "I had my phone repair", "The price has raised", "an increase of traffic", "ten percents", "compare to last year" (unit 04).
+
+### Ghi chú B2
+
+- `b2-01`: `past-perfect` và `narrative-tenses` tách hai GRAMMAR: bài 1 chỉ had + V3, bài 2 gom cả bốn thì kể chuyện và had been + V-ing. `reported-speech-advanced` nối tiếp `reported-speech` (B1 09): phần lùi hiện tại hoàn thành / quá khứ đơn → had + V3 mà B1 để lại. `suggest` (+ V-ing) nằm ở đây vì hay dùng khi tường thuật.
+- `b2-02`: `should-have` (lẽ ra) phân biệt với `must-have-done` (đoán, B1 11) trong EXPLAIN bài 2. `wish-past-perfect` nối tiếp `i-wish` (B1 06). `learned-my-lesson` viết kiểu Mỹ learned. `just-in-time` phân biệt với `on-time` (B1 05) trong `noteVi`.
+- `b2-03` là mốc stage (canDo thứ ba). `because`, `although`, `giving-opinions`, `on-the-other-hand`, `good-point` (B1) chỉ RECYCLE. `despite`, `whereas`, `admittedly` là LEXICAL; `even-though`, `even-so` là PHRASE. First of all, Besides, Moreover chỉ nằm trong ví dụ, `noteVi`.
+- `b2-04`: `passive-reporting` nối tiếp bị động B1 08. `have-something-done` cũng gồm nghĩa "bị" (had my bag stolen), RECYCLE `my-was-stolen`. fall / drop / go down chỉ nằm trong `describing-trends`; `rise`, `increase`, `decrease` là LEXICAL. Hội thoại sửa điện thoại đổi cảnh giữa chừng (tiệm → nhà) để luyện kể lại bằng have something done.

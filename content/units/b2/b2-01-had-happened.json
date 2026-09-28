@@ -1,0 +1,776 @@
+{
+    "slug": "b2-01-had-happened",
+    "stage": "b2",
+    "order": 1,
+    "title": "It had already happened",
+    "titleVi": "Kể chuyện nhiều lớp thời gian",
+    "descriptionVi": "Kể chuyện có việc xảy ra trước một việc khác trong quá khứ (When I got there, the train had already left), phối các thì kể chuyện cho sống động (I'd been waiting for an hour when…), và tường thuật lùi thì đầy đủ (She said she had already paid, the day before, the next day).",
+    "canDo": [
+        "Tôi kể được chuyện có việc xảy ra trước một mốc khác trong quá khứ, dùng quá khứ hoàn thành cho đúng.",
+        "Tôi kể một chuyện dài có bối cảnh, diễn biến và chuyện đã xảy ra trước đó, người nghe theo được.",
+        "Tôi tường thuật lại lời người khác có lùi thì đầy đủ và đổi đúng các từ chỉ thời gian."
+    ],
+    "items": [
+        {
+            "slug": "past-perfect",
+            "type": "GRAMMAR",
+            "text": "had + V3: việc xảy ra trước một mốc khác trong quá khứ",
+            "meaningVi": "thì quá khứ hoàn thành",
+            "examples": [
+                { "en": "When I got to the station, the train had already left.", "vi": "Lúc mình tới ga thì tàu đã chạy mất rồi.", "highlight": "had already left" }
+            ],
+            "grammar": {
+                "ruleVi": "Khi kể hai việc trong quá khứ, việc xảy ra TRƯỚC dùng had + V3, việc sau dùng quá khứ đơn. Hay đi với when, by the time, before, already, just, never … before. Nói nhanh: I'd, she'd. Nếu kể đúng thứ tự (A rồi B) thì không cần quá khứ hoàn thành.",
+                "forms": [
+                    { "label": "khẳng định", "example": "The movie had started when we arrived." },
+                    { "label": "phủ định", "example": "I hadn't eaten all day, so I was starving." },
+                    { "label": "câu hỏi", "example": "Had you met him before?" },
+                    { "label": "never … before", "example": "I'd never seen snow before that trip." },
+                    { "label": "kể đúng thứ tự thì không cần", "example": "I finished work and went home." }
+                ],
+                "pitfallsVi": [
+                    "\"When I arrived, the train already left\" (ý là đã chạy trước) → the train had already left.",
+                    "Dùng had + V3 cho mọi chuyện quá khứ: \"Yesterday I had gone to the market\" → Yesterday I went to the market.",
+                    "\"I had never saw\" → I had never seen. (V3)"
+                ]
+            }
+        },
+        {
+            "slug": "when-i-got-there",
+            "type": "PATTERN",
+            "text": "When I got there, ….",
+            "meaningVi": "Lúc mình tới nơi thì ….",
+            "examples": [
+                { "en": "When I got there, everyone had gone home.", "vi": "Lúc mình tới nơi thì mọi người về hết rồi.", "highlight": "When I got there" }
+            ],
+            "pattern": {
+                "template": "When I got there, {event}.",
+                "slots": [
+                    { "name": "event", "hintVi": "had + V3", "options": ["the train had already left", "everyone had gone home", "the show had started", "they had sold out", "the rain had stopped"] }
+                ]
+            },
+            "noteVi": "get there = tới nơi (không có to: ❌ \"got to there\"). Việc ở vế sau xảy ra trước nên dùng had + V3."
+        },
+        {
+            "slug": "i-had-never-before",
+            "type": "PATTERN",
+            "text": "I had never … before.",
+            "meaningVi": "Trước đó mình chưa từng ….",
+            "examples": [
+                { "en": "I had never seen snow before.", "vi": "Trước đó mình chưa từng thấy tuyết.", "highlight": "had never seen" }
+            ],
+            "pattern": {
+                "template": "I had never {done} before.",
+                "slots": [
+                    { "name": "done", "hintVi": "V3", "options": ["seen snow", "been on a plane", "eaten durian", "met a famous person", "spoken English with a foreigner"] }
+                ]
+            },
+            "noteVi": "Trải nghiệm tính tới một mốc trong quá khứ (chuyến đi đó, năm đó). Tính tới bây giờ thì dùng I've never… (A2)."
+        },
+        {
+            "slug": "by-the-time",
+            "type": "PHRASE",
+            "text": "by the time …",
+            "meaningVi": "đến lúc …, tới khi …",
+            "examples": [
+                { "en": "By the time we arrived, the food was gone.", "vi": "Đến lúc bọn mình tới thì đồ ăn hết sạch rồi.", "highlight": "By the time" }
+            ],
+            "noteVi": "Nhấn mạnh việc kia xảy ra trước, hay đi với had + V3: By the time I woke up, she had left. Sau by the time là mệnh đề, không phải danh từ."
+        },
+        {
+            "slug": "it-turned-out",
+            "type": "PHRASE",
+            "text": "It turned out (that) …",
+            "meaningVi": "Hóa ra là …",
+            "examples": [
+                { "en": "It turned out that he had lost his phone.", "vi": "Hóa ra là anh ấy làm mất điện thoại.", "highlight": "It turned out" }
+            ],
+            "noteVi": "Dùng khi kể đến chỗ vỡ lẽ. Cũng nói: As it turned out, … Vế sau hay dùng had + V3 vì chuyện đó xảy ra trước."
+        },
+        {
+            "slug": "realize",
+            "type": "LEXICAL",
+            "text": "realize",
+            "meaningVi": "nhận ra",
+            "ipa": "/ˈriːəlaɪz/",
+            "examples": [
+                { "en": "I suddenly realized I had left my passport at home.", "vi": "Tự nhiên mình nhận ra là đã để quên hộ chiếu ở nhà.", "highlight": "realized" }
+            ],
+            "noteVi": "Không phải \"thực hiện\" như người Việt hay hiểu (thực hiện ước mơ: achieve / make come true). Chính tả Mỹ -ize."
+        },
+        {
+            "slug": "notice",
+            "type": "LEXICAL",
+            "text": "notice",
+            "meaningVi": "để ý thấy",
+            "ipa": "/ˈnoʊtɪs/",
+            "examples": [
+                { "en": "I didn't notice that the door was open.", "vi": "Mình không để ý là cửa đang mở.", "highlight": "notice" }
+            ],
+            "noteVi": "Còn là danh từ: thông báo (a notice on the door). Báo trước: at short notice / give two weeks' notice (báo nghỉ việc)."
+        },
+        {
+            "slug": "earlier",
+            "type": "LEXICAL",
+            "text": "earlier",
+            "meaningVi": "trước đó, lúc nãy",
+            "ipa": "/ˈɜːrliər/",
+            "examples": [
+                { "en": "She told me she had called earlier that day.", "vi": "Cô ấy bảo đã gọi lúc sớm hơn trong ngày hôm đó.", "highlight": "earlier" }
+            ],
+            "noteVi": "So sánh hơn của early. Lúc nãy: earlier today. Kể chuyện: two days earlier (hai ngày trước đó, khác two days ago = hai ngày trước tính từ bây giờ)."
+        },
+        {
+            "slug": "narrative-tenses",
+            "type": "GRAMMAR",
+            "text": "quá khứ đơn, quá khứ tiếp diễn, quá khứ hoàn thành (tiếp diễn) trong một câu chuyện",
+            "meaningVi": "các thì kể chuyện",
+            "examples": [
+                { "en": "I'd been waiting for two hours when they finally announced the flight was canceled.", "vi": "Mình đã chờ hai tiếng thì cuối cùng họ mới thông báo chuyến bay bị hủy.", "highlight": "I'd been waiting" }
+            ],
+            "grammar": {
+                "ruleVi": "Một câu chuyện tốt có nhiều lớp thời gian. Quá khứ đơn: các sự việc chính, theo thứ tự. Quá khứ tiếp diễn: bối cảnh đang diễn ra. Quá khứ hoàn thành: chuyện xảy ra trước đó. Quá khứ hoàn thành tiếp diễn (had been + V-ing): việc đã kéo dài bao lâu trước khi một việc khác xảy ra.",
+                "forms": [
+                    { "label": "sự việc chính", "example": "The plane landed and we got off." },
+                    { "label": "bối cảnh", "example": "It was raining and everyone was getting wet." },
+                    { "label": "trước đó", "example": "We had booked the hotel online." },
+                    { "label": "kéo dài tới lúc đó", "example": "We'd been driving for six hours when the car broke down." }
+                ],
+                "pitfallsVi": [
+                    "\"I had been wait\" → I had been waiting.",
+                    "Kể cả câu chuyện bằng hiện tại đơn (\"Yesterday I go to the airport and the flight is late\") → dùng các thì quá khứ.",
+                    "Động từ trạng thái không dùng tiếp diễn: \"I'd been knowing him\" → I'd known him for years."
+                ]
+            }
+        },
+        {
+            "slug": "id-been-waiting",
+            "type": "PATTERN",
+            "text": "I'd been … for ….",
+            "meaningVi": "Mình đã … được … (tính tới lúc đó).",
+            "examples": [
+                { "en": "I'd been waiting for an hour when she called.", "vi": "Mình đã chờ một tiếng thì cô ấy gọi.", "highlight": "I'd been waiting for an hour" }
+            ],
+            "pattern": {
+                "template": "I'd been {doing} for {time}.",
+                "slots": [
+                    { "name": "doing", "hintVi": "V-ing", "options": ["waiting", "driving", "working there", "studying English", "living abroad"] },
+                    { "name": "time", "hintVi": "khoảng thời gian", "options": ["an hour", "three hours", "two years", "six months", "ten minutes"] }
+                ]
+            },
+            "noteVi": "I'd = I had. Thường có vế when + quá khứ đơn để nói việc gì xảy ra lúc đó: …when the phone rang."
+        },
+        {
+            "slug": "all-of-a-sudden",
+            "type": "PHRASE",
+            "text": "all of a sudden",
+            "meaningVi": "bỗng nhiên, đột nhiên",
+            "examples": [
+                { "en": "All of a sudden, the lights went out.", "vi": "Bỗng nhiên, đèn tắt phụt.", "highlight": "All of a sudden" }
+            ],
+            "noteVi": "Nghĩa như suddenly (A2), hay dùng khi kể chuyện cho kịch tính. ❌ \"all of the sudden\" (nhiều người Mỹ vẫn nói, nhưng chuẩn là a)."
+        },
+        {
+            "slug": "at-first",
+            "type": "PHRASE",
+            "text": "at first",
+            "meaningVi": "lúc đầu",
+            "examples": [
+                { "en": "At first, I thought it was a joke.", "vi": "Lúc đầu mình tưởng là đùa.", "highlight": "At first" }
+            ],
+            "noteVi": "at first = lúc đầu (sau đó thì khác); first (A2) = trước tiên, bước một. ❌ \"At first, open the box\" → First, open the box."
+        },
+        {
+            "slug": "exhausted",
+            "type": "LEXICAL",
+            "text": "exhausted",
+            "meaningVi": "kiệt sức",
+            "ipa": "/ɪɡˈzɔːstɪd/",
+            "examples": [
+                { "en": "We'd been walking all day, so we were exhausted.", "vi": "Bọn mình đã đi bộ cả ngày nên kiệt sức.", "highlight": "exhausted" }
+            ],
+            "noteVi": "Mạnh hơn tired, nên không nói \"very exhausted\" (→ completely / totally exhausted). h câm: /ɪɡˈzɔːstɪd/."
+        },
+        {
+            "slug": "nervous",
+            "type": "LEXICAL",
+            "text": "nervous",
+            "meaningVi": "hồi hộp, lo lắng",
+            "ipa": "/ˈnɜːrvəs/",
+            "examples": [
+                { "en": "I was so nervous because I had never given a speech before.", "vi": "Mình hồi hộp lắm vì trước đó chưa từng phát biểu.", "highlight": "nervous" }
+            ],
+            "noteVi": "nervous about + điều gì. Không có nghĩa \"nóng tính\" hay \"thần kinh\". Nhấn âm đầu: NER-vous."
+        },
+        {
+            "slug": "storm",
+            "type": "LEXICAL",
+            "text": "storm",
+            "meaningVi": "cơn bão, giông",
+            "ipa": "/stɔːrm/",
+            "examples": [
+                { "en": "All flights were canceled because of the storm.", "vi": "Mọi chuyến bay bị hủy vì bão.", "highlight": "storm" }
+            ],
+            "noteVi": "Bão lớn nhiệt đới ở Việt Nam là typhoon; storm dùng chung cho bão, giông. Giông có sấm: thunderstorm."
+        },
+        {
+            "slug": "stranded",
+            "type": "LEXICAL",
+            "text": "stranded",
+            "meaningVi": "mắc kẹt (không đi tiếp được)",
+            "ipa": "/ˈstrændɪd/",
+            "examples": [
+                { "en": "We were stranded at the airport for two days.", "vi": "Bọn mình bị kẹt ở sân bay hai ngày.", "highlight": "stranded" }
+            ],
+            "noteVi": "Dùng khi không có xe, chuyến bay để đi tiếp. Kẹt xe là stuck in traffic, không phải stranded."
+        },
+        {
+            "slug": "reported-speech-advanced",
+            "type": "GRAMMAR",
+            "text": "lùi thì đầy đủ: hiện tại hoàn thành / quá khứ đơn → quá khứ hoàn thành; đổi từ chỉ thời gian, nơi chốn",
+            "meaningVi": "câu tường thuật: lùi thì đầy đủ",
+            "examples": [
+                { "en": "He said he had sent the money the day before.", "vi": "Anh ấy nói đã chuyển tiền hôm trước đó.", "highlight": "had sent the money the day before" }
+            ],
+            "grammar": {
+                "ruleVi": "Ở B1 đã lùi am → was, will → would, can → could. Ở B2 thêm: hiện tại hoàn thành và quá khứ đơn đều lùi thành had + V3. Kể lại vào một ngày khác, ở nơi khác thì đổi từ chỉ thời gian, nơi chốn: yesterday → the day before, tomorrow → the next day, today → that day, here → there, this → that, ago → before.",
+                "forms": [
+                    { "label": "hiện tại hoàn thành", "example": "\"I've finished.\" → She said she had finished." },
+                    { "label": "quá khứ đơn", "example": "\"I sent it yesterday.\" → He said he had sent it the day before." },
+                    { "label": "tomorrow", "example": "\"I'll call tomorrow.\" → She said she would call the next day." },
+                    { "label": "here, this", "example": "\"I like this place here.\" → He said he liked that place there." }
+                ],
+                "pitfallsVi": [
+                    "\"He said he has sent it yesterday\" → He said he had sent it the day before.",
+                    "Kể lại ngay trong ngày thì không cần đổi yesterday, tomorrow: She just said she'll call tomorrow.",
+                    "suggest + V-ing hoặc that + S + V: ❌ \"He suggested me to go\" → He suggested going / that I go."
+                ]
+            }
+        },
+        {
+            "slug": "she-said-shed",
+            "type": "PATTERN",
+            "text": "She said she'd ….",
+            "meaningVi": "Cô ấy nói là đã ….",
+            "examples": [
+                { "en": "She said she'd already eaten.", "vi": "Cô ấy nói là đã ăn rồi.", "highlight": "She said she'd" }
+            ],
+            "pattern": {
+                "template": "She said she'd {done}.",
+                "slots": [
+                    { "name": "done", "hintVi": "V3 (had + V3)", "options": ["already eaten", "lost her keys", "never been to Hue", "finished the report", "seen the movie"] }
+                ]
+            },
+            "noteVi": "she'd ở đây là she had (sau đó là V3); she'd + V nguyên mẫu là she would. Nghe V3 hay nguyên mẫu để biết."
+        },
+        {
+            "slug": "the-day-before",
+            "type": "PHRASE",
+            "text": "the day before",
+            "meaningVi": "hôm trước đó",
+            "examples": [
+                { "en": "He told me he had arrived the day before.", "vi": "Anh ấy bảo đã đến từ hôm trước đó.", "highlight": "the day before" }
+            ],
+            "noteVi": "Thay cho yesterday khi kể lại chuyện ở thời điểm khác. Tương tự: the week before, two days before."
+        },
+        {
+            "slug": "the-next-day",
+            "type": "PHRASE",
+            "text": "the next day",
+            "meaningVi": "hôm sau",
+            "examples": [
+                { "en": "She promised she would come back the next day.", "vi": "Cô ấy hứa hôm sau sẽ quay lại.", "highlight": "the next day" }
+            ],
+            "noteVi": "Thay cho tomorrow khi kể lại. Cũng nói: the following day (trang trọng hơn)."
+        },
+        {
+            "slug": "deny",
+            "type": "LEXICAL",
+            "text": "deny",
+            "meaningVi": "chối, phủ nhận",
+            "ipa": "/dɪˈnaɪ/",
+            "examples": [
+                { "en": "He denied taking the money.", "vi": "Anh ta chối là không lấy tiền.", "highlight": "denied" }
+            ],
+            "noteVi": "deny + V-ing hoặc that…: He denied that he had lied. Ngược nghĩa với admit (B1)."
+        },
+        {
+            "slug": "insist",
+            "type": "LEXICAL",
+            "text": "insist",
+            "meaningVi": "khăng khăng, nhất quyết",
+            "ipa": "/ɪnˈsɪst/",
+            "examples": [
+                { "en": "She insisted that she had paid the bill.", "vi": "Cô ấy khăng khăng là đã trả tiền rồi.", "highlight": "insisted" }
+            ],
+            "noteVi": "insist on + V-ing: He insisted on paying (Anh ấy nhất quyết đòi trả). Mời lại khi người kia từ chối: I insist!"
+        },
+        {
+            "slug": "claim",
+            "type": "LEXICAL",
+            "text": "claim",
+            "meaningVi": "cho là, khẳng định (chưa chắc đúng)",
+            "ipa": "/kleɪm/",
+            "examples": [
+                { "en": "The company claims that its product is the best.", "vi": "Công ty cho rằng sản phẩm của họ là tốt nhất.", "highlight": "claims" }
+            ],
+            "noteVi": "Dùng khi người kể nghi ngờ lời đó. Còn nghĩa \"nhận\": baggage claim (nơi nhận hành lý), claim a refund."
+        },
+        {
+            "slug": "suggest",
+            "type": "LEXICAL",
+            "text": "suggest",
+            "meaningVi": "gợi ý, đề nghị",
+            "ipa": "/səɡˈdʒest/",
+            "examples": [
+                { "en": "My friend suggested taking a taxi.", "vi": "Bạn mình gợi ý đi taxi.", "highlight": "suggested" }
+            ],
+            "noteVi": "suggest + V-ing hoặc that + S + V: ❌ \"suggested me to take\". Đọc /səɡˈdʒest/, có cả g lẫn dʒ. Danh từ: suggestion."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "b2-01-stranded",
+            "title": "We were stranded",
+            "situationVi": "Bạn vừa đi công tác Singapore về, chuyến đi gặp bão. Chị Ngọc, đồng nghiệp, hỏi thăm lúc uống cà phê.",
+            "lines": [
+                { "speaker": "Ngoc", "en": "Welcome back! How was Singapore? You look exhausted.", "vi": "Mừng em về! Singapore thế nào? Trông em mệt lả." },
+                { "speaker": "You", "en": "I am! The trip was fine, but the flight home was a nightmare. There was a huge storm.", "vi": "Mệt thật chị ạ! Chuyến đi thì ổn, nhưng chuyến bay về là ác mộng. Có một cơn bão rất to.", "learnerTurn": true },
+                { "speaker": "Ngoc", "en": "Oh no. What happened?", "vi": "Ôi không. Có chuyện gì thế?" },
+                { "speaker": "You", "en": "At first, they said it was a short delay. I'd been waiting for three hours when they announced that the flight was canceled.", "vi": "Lúc đầu họ nói chỉ trễ một chút. Em đã chờ ba tiếng rồi thì họ mới thông báo chuyến bay bị hủy.", "learnerTurn": true },
+                { "speaker": "Ngoc", "en": "Three hours! So what did you do?", "vi": "Ba tiếng! Thế em làm gì?" },
+                { "speaker": "You", "en": "By the time I got to the desk, all the hotels near the airport had sold out. We were stranded there all night.", "vi": "Đến lúc em ra được quầy thì khách sạn gần sân bay đã hết phòng. Bọn em bị kẹt ở đó cả đêm.", "learnerTurn": true },
+                { "speaker": "Ngoc", "en": "That's terrible. Did you sleep at all?", "vi": "Tệ quá. Em có ngủ được chút nào không?" },
+                { "speaker": "You", "en": "Not really. I'd never slept at an airport before. It turned out that the next flight was full, too, so I got home a day late.", "vi": "Không hẳn. Trước giờ em chưa ngủ ở sân bay bao giờ. Hóa ra chuyến sau cũng kín chỗ, nên em về trễ mất một ngày.", "learnerTurn": true },
+                { "speaker": "Ngoc", "en": "What a trip! Go home early today and get some rest.", "vi": "Chuyến đi gì đâu! Hôm nay em về sớm nghỉ đi." }
+            ]
+        },
+        {
+            "slug": "b2-01-customer-said",
+            "title": "He insisted he had paid",
+            "situationVi": "Hôm qua một khách hàng gọi đến phàn nàn. Hôm nay bạn kể lại cho anh Dũng, trưởng phòng, để xử lý.",
+            "lines": [
+                { "speaker": "Dung", "en": "I heard Mr. Tanaka called yesterday. What did he say?", "vi": "Anh nghe nói hôm qua ông Tanaka gọi. Ông ấy nói gì?" },
+                { "speaker": "You", "en": "He said he had sent the payment the week before, but we'd sent him a reminder.", "vi": "Ông ấy nói đã chuyển tiền từ tuần trước đó, mà bên mình lại gửi thư nhắc.", "learnerTurn": true },
+                { "speaker": "Dung", "en": "Did he have any proof?", "vi": "Ông ấy có bằng chứng gì không?" },
+                { "speaker": "You", "en": "He insisted that he had paid, and he said he would email us the receipt the next day. So it should come today.", "vi": "Ông ấy khăng khăng là đã trả, và nói sẽ gửi email biên lai vào hôm sau. Vậy là hôm nay sẽ tới ạ.", "learnerTurn": true },
+                { "speaker": "Dung", "en": "Was he angry?", "vi": "Ông ấy có giận không?" },
+                { "speaker": "You", "en": "A little. He claimed it was the second time it had happened. He asked why nobody had called him first.", "vi": "Hơi giận. Ông ấy cho là chuyện này xảy ra lần thứ hai rồi. Ông hỏi sao không ai gọi cho ông trước.", "learnerTurn": true },
+                { "speaker": "Dung", "en": "Hmm. What did you tell him?", "vi": "Hừm. Em trả lời thế nào?" },
+                { "speaker": "You", "en": "I apologized and suggested checking with the bank. I didn't realize we'd made the same mistake before.", "vi": "Em xin lỗi và gợi ý kiểm tra với ngân hàng. Em không biết là trước đó mình đã sai y như vậy.", "learnerTurn": true },
+                { "speaker": "Dung", "en": "OK. I'll call him myself this afternoon. Thanks for letting me know.", "vi": "Được. Chiều nay anh sẽ tự gọi cho ông ấy. Cảm ơn em đã báo." }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "b2-01-l1-already-left",
+            "title": "The train had already left",
+            "titleVi": "Việc xảy ra trước",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "past-perfect", "role": "INTRODUCE" },
+                { "item": "when-i-got-there", "role": "INTRODUCE" },
+                { "item": "i-had-never-before", "role": "INTRODUCE" },
+                { "item": "by-the-time", "role": "INTRODUCE" },
+                { "item": "it-turned-out", "role": "INTRODUCE" },
+                { "item": "realize", "role": "INTRODUCE" },
+                { "item": "notice", "role": "INTRODUCE" },
+                { "item": "earlier", "role": "INTRODUCE" },
+                { "item": "past-simple-vs-continuous", "role": "RECYCLE" },
+                { "item": "past-participles", "role": "RECYCLE" },
+                { "item": "already", "role": "RECYCLE" },
+                { "item": "in-the-end", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["when-i-got-there", "i-had-never-before", "by-the-time", "it-turned-out", "realize", "notice", "earlier"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Việc nào xảy ra trước?",
+                        "bodyVi": "Kể hai việc trong quá khứ mà việc xảy ra **trước** lại được nói **sau**, thì việc trước dùng **had + V3**:\n\n| câu | việc nào trước? |\n|---|---|\n| When I got there, the train **left**. | mình tới, rồi tàu mới chạy (thấy tàu chạy) |\n| When I got there, the train **had left**. | tàu chạy trước, mình tới sau (lỡ tàu) |\n\nHay đi với **when**, **by the time**, **before**, **already**, **never … before**:\n\n| ví dụ | nghĩa |\n|---|---|\n| **By the time** we arrived, the food **had gone**. | đến lúc tới thì đồ ăn hết |\n| I **had never seen** snow **before**. | trước đó chưa từng thấy tuyết |\n| **It turned out** he **had lost** his phone. | hóa ra anh ấy đã làm mất điện thoại |\n| I **realized** I **had left** my passport at home. | nhận ra là đã để quên hộ chiếu |\n\nKể đúng thứ tự thì dùng quá khứ đơn là đủ: I finished work, went home and cooked dinner.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| When I arrived, the train already left. | When I arrived, the train **had already left**. |\n| Yesterday I had gone to the market. | Yesterday I **went** to the market. |\n| I had never saw it. | I had never **seen** it. |\n\n❌ the train already left (ý là lỡ tàu) ❌ I had never saw ✅ **The train had already left.** **I had never seen it.**",
+                        "items": ["past-perfect", "when-i-got-there", "i-had-never-before", "by-the-time", "it-turned-out", "realize", "past-participles", "already"],
+                        "examples": [
+                            { "en": "When I got to the station, the train had already left.", "vi": "Lúc mình tới ga thì tàu đã chạy mất rồi.", "highlight": "had already left" },
+                            { "en": "It turned out that he had lost his phone.", "vi": "Hóa ra là anh ấy làm mất điện thoại.", "highlight": "had lost" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "when-i-got-there",
+                        "prompts": [
+                            { "cueVi": "Lúc tới nơi thì tàu đã chạy mất rồi.", "slots": { "event": "the train had already left" }, "answer": "When I got there, the train had already left." },
+                            { "cueVi": "Lúc tới nơi thì mọi người về hết rồi.", "slots": { "event": "everyone had gone home" }, "answer": "When I got there, everyone had gone home." },
+                            { "cueVi": "Lúc tới nơi thì vé đã bán hết.", "slots": { "event": "they had sold out" }, "answer": "When I got there, they had sold out." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "i-had-never-before",
+                        "prompts": [
+                            { "cueVi": "Trước chuyến đi đó mình chưa từng thấy tuyết.", "slots": { "done": "seen snow" }, "answer": "I had never seen snow before." },
+                            { "cueVi": "Trước đó mình chưa từng đi máy bay.", "slots": { "done": "been on a plane" }, "answer": "I had never been on a plane before." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["by-the-time", "it-turned-out", "realize", "notice", "earlier", "in-the-end"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "When I got there, the train had already left.", "vi": "Lúc mình tới nơi thì tàu đã chạy mất rồi." },
+                            { "en": "I had never seen snow before.", "vi": "Trước đó mình chưa từng thấy tuyết." },
+                            { "en": "By the time we arrived, the food was gone.", "vi": "Đến lúc bọn mình tới thì đồ ăn hết sạch rồi." },
+                            { "en": "It turned out that he had lost his phone.", "vi": "Hóa ra là anh ấy làm mất điện thoại." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn tới ga thì tàu đã chạy mất. Câu nào đúng?",
+                                "options": ["When I arrived, the train left.", "When I arrived, the train had left.", "When I arrived, the train has left."],
+                                "answer": 1,
+                                "item": "past-perfect"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I had never saw the sea before.", "I had never seen the sea before.", "I have never seen the sea before that trip."],
+                                "answer": 1,
+                                "item": "i-had-never-before"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I suddenly ___ I had left my passport at home.",
+                                "hintVi": "nhận ra (quá khứ)",
+                                "answers": ["realized", "realised"],
+                                "item": "realize"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "It turned out that he had lost his phone.",
+                                "options": ["Hóa ra là anh ấy làm mất điện thoại.", "Anh ấy quay lại tìm điện thoại.", "Anh ấy tắt điện thoại đi."],
+                                "answer": 0,
+                                "item": "it-turned-out"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Đến lúc bọn mình tới thì đồ ăn hết sạch rồi.",
+                                "answer": "By the time we arrived, the food was gone.",
+                                "item": "by-the-time"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b2-01-l2-telling-a-story",
+            "title": "I'd been waiting for hours",
+            "titleVi": "Kể một chuyện dài",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "narrative-tenses", "role": "INTRODUCE" },
+                { "item": "id-been-waiting", "role": "INTRODUCE" },
+                { "item": "all-of-a-sudden", "role": "INTRODUCE" },
+                { "item": "at-first", "role": "INTRODUCE" },
+                { "item": "exhausted", "role": "INTRODUCE" },
+                { "item": "nervous", "role": "INTRODUCE" },
+                { "item": "storm", "role": "INTRODUCE" },
+                { "item": "stranded", "role": "INTRODUCE" },
+                { "item": "past-perfect", "role": "RECYCLE" },
+                { "item": "suddenly", "role": "RECYCLE" },
+                { "item": "luckily", "role": "RECYCLE" },
+                { "item": "you-wont-believe", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["id-been-waiting", "all-of-a-sudden", "at-first", "exhausted", "nervous", "storm", "stranded"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Bốn thì cho một câu chuyện",
+                        "bodyVi": "Kể chuyện hay là biết phối các thì quá khứ:\n\n| thì | dùng cho | ví dụ |\n|---|---|---|\n| quá khứ đơn | các sự việc chính, theo thứ tự | The flight **was canceled**, so we **went** to the desk. |\n| quá khứ tiếp diễn | bối cảnh đang diễn ra | It **was raining** and everyone **was shouting**. |\n| quá khứ hoàn thành | chuyện xảy ra trước đó | We **had booked** the hotel online. |\n| quá khứ hoàn thành tiếp diễn | đã kéo dài bao lâu tới lúc đó | I**'d been waiting** for three hours when they told us. |\n\nTừ nối để người nghe theo được mạch: **At first**, … → **All of a sudden**, … → **Luckily**, … → **In the end**, …\n\n**at first** = lúc đầu (sau đó khác đi), khác **first** = trước tiên.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| Yesterday I go to the airport and the flight is late. | Yesterday I **went** to the airport and the flight **was** late. |\n| I had been wait for two hours. | I **had been waiting** for two hours. |\n| At first, open the box. | **First**, open the box. |\n\n❌ I had been wait ❌ very exhausted ✅ **I'd been waiting for hours.** **I was completely exhausted.**",
+                        "items": ["narrative-tenses", "id-been-waiting", "all-of-a-sudden", "at-first", "exhausted", "stranded", "past-perfect", "luckily"],
+                        "examples": [
+                            { "en": "I'd been waiting for two hours when they finally announced the flight was canceled.", "vi": "Mình đã chờ hai tiếng thì cuối cùng họ mới thông báo chuyến bay bị hủy.", "highlight": "I'd been waiting" },
+                            { "en": "At first, I thought it was a joke. All of a sudden, everyone started running.", "vi": "Lúc đầu mình tưởng là đùa. Bỗng nhiên mọi người bắt đầu chạy.", "highlight": "All of a sudden" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "id-been-waiting",
+                        "prompts": [
+                            { "cueVi": "Mình đã chờ được một tiếng (thì cô ấy gọi).", "slots": { "doing": "waiting", "time": "an hour" }, "answer": "I'd been waiting for an hour." },
+                            { "cueVi": "Mình đã lái xe được ba tiếng (thì xe hỏng).", "slots": { "doing": "driving", "time": "three hours" }, "answer": "I'd been driving for three hours." },
+                            { "cueVi": "Mình đã làm ở đó được hai năm (thì công ty đóng cửa).", "slots": { "doing": "working there", "time": "two years" }, "answer": "I'd been working there for two years." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["all-of-a-sudden", "at-first", "exhausted", "nervous", "storm", "stranded", "luckily"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "At first, they said it was a short delay.", "vi": "Lúc đầu họ nói chỉ trễ một chút." },
+                            { "en": "I'd been waiting for three hours when they canceled the flight.", "vi": "Mình đã chờ ba tiếng thì họ hủy chuyến bay." },
+                            { "en": "We were stranded at the airport all night.", "vi": "Bọn mình bị kẹt ở sân bay cả đêm." },
+                            { "en": "All of a sudden, the lights went out.", "vi": "Bỗng nhiên, đèn tắt phụt." }
+                        ]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b2-01-stranded", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I had been wait for two hours when she came.", "I'd been waiting for two hours when she came.", "I've been waiting for two hours when she came."],
+                                "answer": 1,
+                                "item": "id-been-waiting"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Chọn thì cho bối cảnh: \"It ___ and everyone was getting wet.\"",
+                                "options": ["rained", "was raining", "had rained"],
+                                "answer": 1,
+                                "item": "narrative-tenses"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "We'd been walking all day, so we were ___.",
+                                "hintVi": "kiệt sức",
+                                "answers": ["exhausted"],
+                                "item": "exhausted"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "We were stranded at the airport for two days.",
+                                "options": ["Bọn mình bị kẹt ở sân bay hai ngày.", "Bọn mình làm ở sân bay hai ngày.", "Bọn mình tới sân bay sớm hai ngày."],
+                                "answer": 0,
+                                "item": "stranded"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Lúc đầu mình tưởng là đùa.",
+                                "answer": "At first, I thought it was a joke.",
+                                "item": "at-first"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b2-01-l3-she-said-she-had",
+            "title": "He said he had paid",
+            "titleVi": "Tường thuật lùi thì đầy đủ",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "reported-speech-advanced", "role": "INTRODUCE" },
+                { "item": "she-said-shed", "role": "INTRODUCE" },
+                { "item": "the-day-before", "role": "INTRODUCE" },
+                { "item": "the-next-day", "role": "INTRODUCE" },
+                { "item": "deny", "role": "INTRODUCE" },
+                { "item": "insist", "role": "INTRODUCE" },
+                { "item": "claim", "role": "INTRODUCE" },
+                { "item": "suggest", "role": "INTRODUCE" },
+                { "item": "reported-speech", "role": "RECYCLE" },
+                { "item": "reported-questions", "role": "RECYCLE" },
+                { "item": "reporting-verbs", "role": "RECYCLE" },
+                { "item": "admit", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["she-said-shed", "the-day-before", "the-next-day", "deny", "insist", "claim", "suggest"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Lùi thì cho đủ",
+                        "bodyVi": "Ở B1 đã lùi am → was, will → would, can → could. Ở B2 thêm hai dòng: **hiện tại hoàn thành** và **quá khứ đơn** đều lùi thành **had + V3**.\n\n| người ấy nói | mình kể lại |\n|---|---|\n| \"I**'ve finished**.\" | She said she **had finished**. |\n| \"I **sent** it yesterday.\" | He said he **had sent** it **the day before**. |\n| \"I'll call you tomorrow.\" | She said she would call me **the next day**. |\n| \"Why **didn't** you **call** me?\" | He asked why I **hadn't called** him. |\n\nKể lại vào ngày khác thì đổi từ chỉ thời gian: yesterday → **the day before**, tomorrow → **the next day**, today → that day, ago → before.\n\nĐộng từ tường thuật mới: **deny** (chối), **insist** (khăng khăng), **claim** (cho là, mình nghi ngờ), **suggest** + V-ing (gợi ý).\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| He said he has sent it yesterday. | He said he **had sent** it **the day before**. |\n| He suggested me to take a taxi. | He **suggested taking** a taxi. |\n| She denied to take it. | She **denied taking** it. |\n\n❌ suggested me to go ❌ denied to take ✅ **He suggested going.** **She denied taking it.**",
+                        "items": ["reported-speech-advanced", "she-said-shed", "the-day-before", "the-next-day", "deny", "insist", "claim", "suggest", "reported-speech", "reported-questions", "reporting-verbs"],
+                        "examples": [
+                            { "en": "He said he had sent the money the day before.", "vi": "Anh ấy nói đã chuyển tiền hôm trước đó.", "highlight": "had sent" },
+                            { "en": "She insisted that she had paid the bill.", "vi": "Cô ấy khăng khăng là đã trả tiền rồi.", "highlight": "insisted" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "she-said-shed",
+                        "prompts": [
+                            { "cueVi": "Lan: \"I've already eaten.\" Kể lại.", "slots": { "done": "already eaten" }, "answer": "She said she'd already eaten." },
+                            { "cueVi": "Lan: \"I lost my keys.\" Kể lại.", "slots": { "done": "lost her keys" }, "answer": "She said she'd lost her keys." },
+                            { "cueVi": "Lan: \"I've finished the report.\" Kể lại.", "slots": { "done": "finished the report" }, "answer": "She said she'd finished the report." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["the-day-before", "the-next-day", "deny", "insist", "claim", "suggest", "admit"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b2-01-customer-said", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Tuần trước Nam nói: \"I sent it yesterday.\" Hôm nay bạn kể lại:",
+                                "options": ["Nam said he sent it yesterday.", "Nam said he had sent it the day before.", "Nam said he has sent it the day before."],
+                                "answer": 1,
+                                "item": "reported-speech-advanced"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["He suggested me to take a taxi.", "He suggested taking a taxi.", "He suggested to take a taxi."],
+                                "answer": 1,
+                                "item": "suggest"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "She promised she would come back the ___ day.",
+                                "hintVi": "hôm sau",
+                                "answers": ["next", "following"],
+                                "item": "the-next-day"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "He denied taking the money.",
+                                "options": ["Anh ta chối là không lấy tiền.", "Anh ta từ chối nhận tiền.", "Anh ta thừa nhận đã lấy tiền."],
+                                "answer": 0,
+                                "item": "deny"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Cô ấy khăng khăng là đã trả tiền rồi.",
+                                "answer": "She insisted that she had paid the bill.",
+                                "item": "insist"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "b2-01-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Bạn tới rạp thì phim đã chiếu được một lúc. Câu nào đúng?",
+                "options": ["When we arrived, the movie had started.", "When we arrived, the movie started.", "When we arrived, the movie has started."],
+                "answer": 0,
+                "item": "past-perfect"
+            },
+            {
+                "kind": "gap",
+                "sentence": "I'd been ___ for an hour when she called.",
+                "hintVi": "wait",
+                "answers": ["waiting"],
+                "item": "id-been-waiting"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Chọn cách mở đầu câu chuyện cho đúng nghĩa \"lúc đầu\":",
+                "options": ["At first, I thought it was a joke.", "In first, I thought it was a joke.", "At the first, I thought it was a joke."],
+                "answer": 0,
+                "item": "at-first"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Hôm qua Mai nói: \"I've finished the report.\" Bạn kể lại:",
+                "options": ["Mai said she has finished the report.", "Mai said she had finished the report.", "Mai said she finish the report."],
+                "answer": 1,
+                "item": "reported-speech-advanced"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "By the time we arrived, the food was gone.",
+                "options": ["Đến lúc bọn mình tới thì đồ ăn hết sạch rồi.", "Bọn mình tới đúng lúc dọn đồ ăn ra.", "Bọn mình mang đồ ăn tới đúng giờ."],
+                "answer": 0,
+                "item": "by-the-time"
+            },
+            {
+                "kind": "order",
+                "vi": "Hóa ra là anh ấy làm mất điện thoại.",
+                "answer": "It turned out that he had lost his phone.",
+                "item": "it-turned-out"
+            }
+        ]
+    }
+}

@@ -1,0 +1,785 @@
+{
+    "slug": "b2-04-the-news",
+    "stage": "b2",
+    "order": 4,
+    "title": "In the news",
+    "titleVi": "Tin tức, dịch vụ và số liệu",
+    "descriptionVi": "Đọc và kể lại tin tức với bị động tường thuật (It's reported that…, The storm is expected to…, according to…), nói về việc thuê người làm giúp (I had my phone screen replaced, Where can I get my bike fixed?), và mô tả số liệu, xu hướng (has risen by ten percent, a slight decrease, compared to last year).",
+    "canDo": [
+        "Tôi hiểu và kể lại được một tin ngắn trên báo, đài, nói rõ tin đó từ đâu ra.",
+        "Tôi nói được mình đã thuê ai sửa, làm gì giúp, hỏi được chỗ sửa và nói khi thấy giá quá đắt.",
+        "Tôi mô tả được số liệu tăng giảm và so sánh với trước đây."
+    ],
+    "items": [
+        {
+            "slug": "passive-reporting",
+            "type": "GRAMMAR",
+            "text": "It is said / reported / expected that…; X is said / believed / expected to + V",
+            "meaningVi": "bị động tường thuật (kiểu nói của tin tức)",
+            "examples": [
+                { "en": "The storm is expected to hit Da Nang tonight.", "vi": "Cơn bão được dự báo sẽ đổ bộ Đà Nẵng tối nay.", "highlight": "is expected to hit" }
+            ],
+            "grammar": {
+                "ruleVi": "Tin tức hay giấu người nói, vì là \"người ta\" hoặc không quan trọng. Hai kiểu: It is + V3 + that + mệnh đề (It is reported that…), hoặc chủ ngữ + is + V3 + to V (The storm is expected to…). Động từ hay dùng: say, report, believe, expect, think. Nói chuyện hằng ngày thì chuyển về chủ động: They say…, Apparently…",
+                "forms": [
+                    { "label": "It is … that", "example": "It is reported that ten people were injured." },
+                    { "label": "is … to V", "example": "The new metro line is expected to open next year." },
+                    { "label": "quá khứ", "example": "The singer is said to have left the country." },
+                    { "label": "nói thường", "example": "They say it's going to be a cold winter." }
+                ],
+                "pitfallsVi": [
+                    "\"It is said the storm will to come\" → It is said that the storm will come. / The storm is said to be coming.",
+                    "\"The storm expects to hit\" (bão tự dự kiến) → The storm is expected to hit.",
+                    "\"According to me\" → In my opinion. (according to chỉ dùng cho nguồn tin khác)"
+                ]
+            }
+        },
+        {
+            "slug": "its-reported-that",
+            "type": "PATTERN",
+            "text": "It's reported that ….",
+            "meaningVi": "Có tin cho biết ….",
+            "examples": [
+                { "en": "It's reported that the airport will close tomorrow.", "vi": "Có tin cho biết sân bay sẽ đóng cửa ngày mai.", "highlight": "It's reported that" }
+            ],
+            "pattern": {
+                "template": "It's reported that {news}.",
+                "slots": [
+                    { "name": "news", "hintVi": "tin", "options": ["the airport will close", "ten people were injured", "the company is being sold", "prices will rise", "the match was canceled"] }
+                ]
+            },
+            "noteVi": "Văn phong tin tức. Kể lại cho bạn bè thì thân mật hơn: Apparently, … / I read that …"
+        },
+        {
+            "slug": "is-expected-to",
+            "type": "PATTERN",
+            "text": "… is expected to ….",
+            "meaningVi": "… được dự kiến sẽ ….",
+            "examples": [
+                { "en": "The new metro line is expected to open next year.", "vi": "Tuyến metro mới dự kiến sẽ mở vào năm sau.", "highlight": "is expected to open" }
+            ],
+            "pattern": {
+                "template": "{subject} is expected to {do}.",
+                "slots": [
+                    { "name": "subject", "hintVi": "chủ ngữ số ít", "options": ["The storm", "The new metro line", "The price of gas", "The president", "Tourism"] },
+                    { "name": "do", "hintVi": "động từ nguyên mẫu", "options": ["hit Da Nang tonight", "open next year", "go up again", "visit Vietnam in May", "grow by ten percent"] }
+                ]
+            },
+            "noteVi": "Chủ ngữ số nhiều: are expected to. Nói về điều sắp xảy ra theo dự báo, kế hoạch. ❌ \"is expected to will\"."
+        },
+        {
+            "slug": "according-to",
+            "type": "PHRASE",
+            "text": "according to …",
+            "meaningVi": "theo …",
+            "examples": [
+                { "en": "According to the weather forecast, it will rain all week.", "vi": "Theo dự báo thời tiết, trời sẽ mưa cả tuần.", "highlight": "According to" }
+            ],
+            "noteVi": "Nêu nguồn tin của người khác: according to the news, according to my doctor. ❌ \"According to me\" → In my opinion."
+        },
+        {
+            "slug": "report",
+            "type": "LEXICAL",
+            "text": "report",
+            "meaningVi": "bản tin, báo cáo; đưa tin",
+            "ipa": "/rɪˈpɔːrt/",
+            "examples": [
+                { "en": "I read a report about air pollution in Hanoi.", "vi": "Mình đọc một bài báo cáo về ô nhiễm không khí ở Hà Nội.", "highlight": "report" }
+            ],
+            "noteVi": "Vừa là danh từ vừa là động từ, nhấn âm hai: re-PORT. Phóng viên: reporter. Báo cáo công việc: write a report."
+        },
+        {
+            "slug": "official",
+            "type": "LEXICAL",
+            "text": "official",
+            "meaningVi": "chính thức; quan chức",
+            "ipa": "/əˈfɪʃəl/",
+            "examples": [
+                { "en": "It's not official yet, but the school will close for a week.", "vi": "Chưa chính thức, nhưng trường sẽ nghỉ một tuần.", "highlight": "official" }
+            ],
+            "noteVi": "Tính từ: official website, official news. Danh từ: a government official (quan chức nhà nước)."
+        },
+        {
+            "slug": "announce",
+            "type": "LEXICAL",
+            "text": "announce",
+            "meaningVi": "thông báo, công bố",
+            "ipa": "/əˈnaʊns/",
+            "examples": [
+                { "en": "The company announced that it would open two new stores.", "vi": "Công ty công bố sẽ mở hai cửa hàng mới.", "highlight": "announced" }
+            ],
+            "noteVi": "announce + that / something (❌ announce someone). Danh từ: announcement (lời thông báo ở sân bay, nhà ga)."
+        },
+        {
+            "slug": "survey",
+            "type": "LEXICAL",
+            "text": "survey",
+            "meaningVi": "cuộc khảo sát",
+            "ipa": "/ˈsɜːrveɪ/",
+            "examples": [
+                { "en": "A recent survey shows that most people want a four-day week.", "vi": "Một khảo sát gần đây cho thấy phần lớn mọi người muốn tuần làm bốn ngày.", "highlight": "survey" }
+            ],
+            "noteVi": "A survey shows / found that… Làm khảo sát: do / carry out a survey. Danh từ nhấn âm đầu: SUR-vey."
+        },
+        {
+            "slug": "have-something-done",
+            "type": "GRAMMAR",
+            "text": "have / get + vật + V3",
+            "meaningVi": "thuê, nhờ người khác làm (hoặc bị ai làm gì)",
+            "examples": [
+                { "en": "I had my phone screen replaced yesterday.", "vi": "Hôm qua mình đi thay màn hình điện thoại.", "highlight": "had my phone screen replaced" }
+            ],
+            "grammar": {
+                "ruleVi": "Khi người khác làm việc đó cho mình (thợ, tiệm, dịch vụ), tiếng Anh không nói \"I cut my hair\" mà nói I had / got my hair cut. Cấu trúc: have / get + vật + V3. get thân mật hơn have. Còn dùng cho chuyện xấu bị ai đó gây ra: I had my bike stolen.",
+                "forms": [
+                    { "label": "quá khứ", "example": "I had my hair cut. I got my car fixed." },
+                    { "label": "hiện tại tiếp diễn (lịch hẹn)", "example": "I'm getting my eyes checked on Friday." },
+                    { "label": "câu hỏi", "example": "Where can I get my bike repaired?" },
+                    { "label": "chuyện xấu", "example": "She had her bag stolen on the bus." }
+                ],
+                "pitfallsVi": [
+                    "\"I cut my hair yesterday\" (ý là ra tiệm cắt) → I had my hair cut / I got a haircut.",
+                    "\"I had fixed my car\" (ý là thuê sửa) → I had my car fixed. (vật đứng trước V3)",
+                    "\"I had my phone repair\" → I had my phone repaired. (V3)"
+                ]
+            }
+        },
+        {
+            "slug": "i-had-my",
+            "type": "PATTERN",
+            "text": "I had my … ….",
+            "meaningVi": "Mình đã đi / thuê người … cho mình.",
+            "examples": [
+                { "en": "I had my hair cut.", "vi": "Mình đi cắt tóc.", "highlight": "I had my hair cut" }
+            ],
+            "pattern": {
+                "template": "I had my {thing} {done}.",
+                "slots": [
+                    { "name": "thing", "hintVi": "đồ vật", "options": ["hair", "car", "phone screen", "eyes", "suit"] },
+                    { "name": "done", "hintVi": "V3", "options": ["cut", "fixed", "replaced", "checked", "made"] }
+                ]
+            },
+            "noteVi": "Vật đứng trước V3. Thân mật: I got my car fixed. Cắt tóc cũng nói: I got a haircut."
+        },
+        {
+            "slug": "where-can-i-get",
+            "type": "PATTERN",
+            "text": "Where can I get my … …?",
+            "meaningVi": "Mình mang … đi … ở đâu được?",
+            "examples": [
+                { "en": "Where can I get my bike fixed around here?", "vi": "Quanh đây sửa xe đạp ở đâu nhỉ?", "highlight": "Where can I get my bike fixed" }
+            ],
+            "pattern": {
+                "template": "Where can I get my {thing} {done}?",
+                "slots": [
+                    { "name": "thing", "hintVi": "đồ vật", "options": ["phone", "watch", "bike", "shoes", "laptop"] },
+                    { "name": "done", "hintVi": "V3", "options": ["fixed", "repaired", "cleaned", "checked"] }
+                ]
+            },
+            "noteVi": "Hỏi chỗ có dịch vụ. Thêm around here / near here cho tự nhiên (A1: Is there a … near here?)."
+        },
+        {
+            "slug": "replace",
+            "type": "LEXICAL",
+            "text": "replace",
+            "meaningVi": "thay (cái mới)",
+            "ipa": "/rɪˈpleɪs/",
+            "examples": [
+                { "en": "We need to replace the battery.", "vi": "Mình cần thay pin.", "highlight": "replace" }
+            ],
+            "noteVi": "replace A with B (thay A bằng B). Không có \"replace to\". Danh từ: replacement."
+        },
+        {
+            "slug": "hairdresser",
+            "type": "LEXICAL",
+            "text": "hairdresser",
+            "meaningVi": "thợ làm tóc; tiệm làm tóc",
+            "ipa": "/ˈherdresər/",
+            "examples": [
+                { "en": "I'm going to the hairdresser's this afternoon.", "vi": "Chiều nay mình đi tiệm làm tóc.", "highlight": "hairdresser" }
+            ],
+            "noteVi": "Tiệm: the hairdresser's. Thợ cắt tóc nam: barber (tiệm: barbershop)."
+        },
+        {
+            "slug": "mechanic",
+            "type": "LEXICAL",
+            "text": "mechanic",
+            "meaningVi": "thợ sửa xe, thợ máy",
+            "ipa": "/məˈkænɪk/",
+            "examples": [
+                { "en": "The mechanic said the brakes needed to be replaced.", "vi": "Thợ sửa xe nói phải thay phanh.", "highlight": "mechanic" }
+            ],
+            "noteVi": "ch đọc /k/: me-CHA-nic. Tiệm sửa xe: a garage / an auto repair shop."
+        },
+        {
+            "slug": "charge",
+            "type": "LEXICAL",
+            "text": "charge",
+            "meaningVi": "tính tiền; phí",
+            "ipa": "/tʃɑːrdʒ/",
+            "examples": [
+                { "en": "They charged me 500,000 dong to fix it.", "vi": "Họ tính mình năm trăm nghìn để sửa.", "highlight": "charged" }
+            ],
+            "noteVi": "charge someone + số tiền. Miễn phí: free of charge. Sạc pin cũng là charge: charge my phone."
+        },
+        {
+            "slug": "rip-off",
+            "type": "PHRASE",
+            "text": "That's a rip-off!",
+            "meaningVi": "Chặt chém quá!",
+            "examples": [
+                { "en": "Two million for a new screen? That's a rip-off!", "vi": "Hai triệu một cái màn hình? Chặt chém quá!", "highlight": "rip-off" }
+            ],
+            "noteVi": "Thân mật. Lịch sự hơn: That's a bit expensive. / Is that the best price? Bị chặt chém: I got ripped off."
+        },
+        {
+            "slug": "describing-trends",
+            "type": "GRAMMAR",
+            "text": "rise / increase / go up, fall / decrease / go down + by / to / from … to; a sharp / slight rise",
+            "meaningVi": "mô tả số liệu tăng giảm",
+            "examples": [
+                { "en": "Rent has risen by twenty percent since last year.", "vi": "Tiền thuê nhà đã tăng hai mươi phần trăm so với năm ngoái.", "highlight": "has risen by twenty percent" }
+            ],
+            "grammar": {
+                "ruleVi": "Tăng: rise (rose, risen), increase, go up. Giảm: fall (fell, fallen), decrease, drop, go down. by = tăng / giảm một lượng; to = tới mức; from … to = từ … lên / xuống. Mức độ: a sharp rise (tăng mạnh), a slight fall (giảm nhẹ). Thay đổi tính tới nay dùng hiện tại hoàn thành.",
+                "forms": [
+                    { "label": "tăng một lượng", "example": "Prices have gone up by ten percent." },
+                    { "label": "tới mức", "example": "The number of tourists rose to two million." },
+                    { "label": "từ … đến", "example": "Unemployment fell from six to four percent." },
+                    { "label": "danh từ + tính từ", "example": "There has been a sharp increase in traffic." },
+                    { "label": "so sánh", "example": "Compared to last year, sales are slightly lower." }
+                ],
+                "pitfallsVi": [
+                    "\"Prices have increased 10 percent\" được, nhưng rõ hơn: increased by 10 percent.",
+                    "\"The price has raised\" → The price has risen. (raise cần tân ngữ: raise prices)",
+                    "\"There is an increase of traffic\" → an increase in traffic."
+                ]
+            }
+        },
+        {
+            "slug": "has-risen-by",
+            "type": "PATTERN",
+            "text": "… has risen by ….",
+            "meaningVi": "… đã tăng ….",
+            "examples": [
+                { "en": "The price of rice has risen by ten percent.", "vi": "Giá gạo đã tăng mười phần trăm.", "highlight": "has risen by" }
+            ],
+            "pattern": {
+                "template": "{thing} has risen by {amount}.",
+                "slots": [
+                    { "name": "thing", "hintVi": "chủ ngữ số ít", "options": ["The price of rice", "Rent", "Unemployment", "The number of tourists", "Traffic"] },
+                    { "name": "amount", "hintVi": "lượng", "options": ["ten percent", "twenty percent", "five percent", "a third", "half"] }
+                ]
+            },
+            "noteVi": "rise, rose, risen (bất quy tắc). The number of + danh từ số nhiều vẫn đi với has (số ít)."
+        },
+        {
+            "slug": "increase",
+            "type": "LEXICAL",
+            "text": "increase",
+            "meaningVi": "tăng; sự gia tăng",
+            "ipa": "/ɪnˈkriːs/",
+            "examples": [
+                { "en": "There has been a big increase in the number of tourists.", "vi": "Số khách du lịch tăng mạnh.", "highlight": "increase" }
+            ],
+            "noteVi": "Động từ nhấn âm hai: in-CREASE; danh từ nhấn âm đầu: IN-crease. an increase IN something."
+        },
+        {
+            "slug": "decrease",
+            "type": "LEXICAL",
+            "text": "decrease",
+            "meaningVi": "giảm; sự sụt giảm",
+            "ipa": "/dɪˈkriːs/",
+            "examples": [
+                { "en": "The number of car accidents decreased last year.", "vi": "Năm ngoái số vụ tai nạn ô tô giảm.", "highlight": "decreased" }
+            ],
+            "noteVi": "Giống increase: động từ nhấn âm hai, danh từ nhấn âm đầu. Nói thường hay dùng go down, drop."
+        },
+        {
+            "slug": "rise",
+            "type": "LEXICAL",
+            "text": "rise",
+            "meaningVi": "tăng, lên; sự tăng",
+            "ipa": "/raɪz/",
+            "examples": [
+                { "en": "House prices rose quickly after the new bridge opened.", "vi": "Giá nhà tăng nhanh sau khi cầu mới thông xe.", "highlight": "rose" }
+            ],
+            "noteVi": "Bất quy tắc: rise, rose, risen. Không có tân ngữ. Làm cho tăng (có tân ngữ): raise prices. Mặt trời mọc: the sun rises."
+        },
+        {
+            "slug": "percent",
+            "type": "LEXICAL",
+            "text": "percent",
+            "meaningVi": "phần trăm",
+            "ipa": "/pərˈsent/",
+            "examples": [
+                { "en": "About sixty percent of people use their phones to pay.", "vi": "Khoảng sáu mươi phần trăm mọi người dùng điện thoại để thanh toán.", "highlight": "percent" }
+            ],
+            "noteVi": "Không thêm s: ❌ \"ten percents\". Người Mỹ viết percent (Anh: per cent). Tỉ lệ: percentage."
+        },
+        {
+            "slug": "slightly",
+            "type": "LEXICAL",
+            "text": "slightly",
+            "meaningVi": "hơi, một chút",
+            "ipa": "/ˈslaɪtli/",
+            "examples": [
+                { "en": "Prices are slightly higher than last month.", "vi": "Giá hơi cao hơn tháng trước.", "highlight": "slightly" }
+            ],
+            "noteVi": "Hay đứng trước so sánh hơn: slightly better, slightly cheaper. Tính từ: a slight increase. gh câm."
+        },
+        {
+            "slug": "compared-to",
+            "type": "PHRASE",
+            "text": "compared to …",
+            "meaningVi": "so với …",
+            "examples": [
+                { "en": "Compared to last year, we have fewer customers.", "vi": "So với năm ngoái, bọn mình ít khách hơn.", "highlight": "Compared to" }
+            ],
+            "noteVi": "Cũng nói compared with. Đi kèm so sánh hơn ở vế sau. ❌ \"compare to last year\" (thiếu -d)."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "b2-04-phone-repair",
+            "title": "That's a rip-off!",
+            "situationVi": "Màn hình điện thoại của bạn bị nứt. Bạn mang ra một tiệm sửa điện thoại, sau đó kể lại cho Vy, bạn cùng phòng.",
+            "lines": [
+                { "speaker": "Repair guy", "en": "Hi. What can I do for you?", "vi": "Chào bạn. Mình giúp gì được?" },
+                { "speaker": "You", "en": "Hi. I dropped my phone, and the screen is broken. Can you replace it?", "vi": "Chào anh. Em làm rơi điện thoại, màn hình bị vỡ. Anh thay được không?", "learnerTurn": true },
+                { "speaker": "Repair guy", "en": "Sure. An original screen is two million. We also have a cheaper one for 900,000.", "vi": "Được. Màn hình chính hãng hai triệu. Bên mình cũng có loại rẻ hơn, chín trăm nghìn." },
+                { "speaker": "You", "en": "Two million? That's a bit expensive. How long does it take to get it fixed?", "vi": "Hai triệu ạ? Hơi đắt. Sửa mất bao lâu ạ?", "learnerTurn": true },
+                { "speaker": "Repair guy", "en": "About an hour. You can pick it up at five.", "vi": "Khoảng một tiếng. Năm giờ bạn qua lấy nhé." },
+                { "speaker": "You", "en": "OK, I'll take the cheaper one, please. And could you check the battery, too?", "vi": "Vâng, cho em loại rẻ hơn. Anh kiểm tra luôn pin giúp em được không?", "learnerTurn": true },
+                { "speaker": "Vy", "en": "Hey, your phone looks new! What happened?", "vi": "Ê, điện thoại bạn trông như mới! Sao thế?" },
+                { "speaker": "You", "en": "I had the screen replaced this afternoon. They charged me 900,000.", "vi": "Chiều nay mình đi thay màn hình. Họ tính mình chín trăm nghìn.", "learnerTurn": true },
+                { "speaker": "Vy", "en": "Not bad. My friend paid three million for the same thing!", "vi": "Cũng được đấy. Bạn mình trả ba triệu cho y như vậy!" },
+                { "speaker": "You", "en": "Three million? That's a rip-off! Next time, tell her to get it fixed at my place.", "vi": "Ba triệu á? Chặt chém quá! Lần sau bảo bạn ấy ra chỗ mình sửa.", "learnerTurn": true }
+            ]
+        },
+        {
+            "slug": "b2-04-rent-news",
+            "title": "Did you see the report?",
+            "situationVi": "Bạn và anh Tom, đồng nghiệp người Mỹ đang định thuê nhà ở Hà Nội, nói chuyện về một bài báo mới đọc.",
+            "lines": [
+                { "speaker": "Tom", "en": "I'm looking for a new apartment, but everything is so expensive now.", "vi": "Anh đang tìm căn hộ mới, mà giờ cái gì cũng đắt quá." },
+                { "speaker": "You", "en": "I know. According to a report I read yesterday, rent in Hanoi has risen by twenty percent since last year.", "vi": "Em biết. Theo một bài báo em đọc hôm qua, tiền thuê nhà ở Hà Nội đã tăng hai mươi phần trăm so với năm ngoái.", "learnerTurn": true },
+                { "speaker": "Tom", "en": "Twenty percent? Why so much?", "vi": "Hai mươi phần trăm? Sao nhiều thế?" },
+                { "speaker": "You", "en": "It's reported that more people are moving to the city for work. Also, a lot of new offices have opened.", "vi": "Báo nói là có nhiều người chuyển lên thành phố làm việc hơn. Với lại nhiều văn phòng mới mở.", "learnerTurn": true },
+                { "speaker": "Tom", "en": "Is it going to get worse?", "vi": "Có tệ hơn nữa không?" },
+                { "speaker": "You", "en": "Prices are expected to go up again next year. But compared to Ho Chi Minh City, Hanoi is still slightly cheaper.", "vi": "Giá dự kiến năm sau còn tăng tiếp. Nhưng so với TP.HCM, Hà Nội vẫn rẻ hơn một chút.", "learnerTurn": true },
+                { "speaker": "Tom", "en": "That's not much comfort. Any advice?", "vi": "Nghe cũng chẳng an ủi mấy. Em có lời khuyên gì không?" },
+                { "speaker": "You", "en": "A survey showed there's been a big increase in apartments near the new metro line. They're newer, and the rent is lower.", "vi": "Một khảo sát cho thấy căn hộ gần tuyến metro mới tăng lên nhiều. Nhà mới hơn, mà giá thuê lại thấp hơn.", "learnerTurn": true },
+                { "speaker": "Tom", "en": "Great idea. I'll look there this weekend.", "vi": "Ý hay. Cuối tuần này anh sẽ đi xem ở đó." }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "b2-04-l1-its-reported",
+            "title": "It's reported that…",
+            "titleVi": "Đọc và kể lại tin",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "passive-reporting", "role": "INTRODUCE" },
+                { "item": "its-reported-that", "role": "INTRODUCE" },
+                { "item": "is-expected-to", "role": "INTRODUCE" },
+                { "item": "according-to", "role": "INTRODUCE" },
+                { "item": "report", "role": "INTRODUCE" },
+                { "item": "official", "role": "INTRODUCE" },
+                { "item": "announce", "role": "INTRODUCE" },
+                { "item": "survey", "role": "INTRODUCE" },
+                { "item": "passive-present", "role": "RECYCLE" },
+                { "item": "passive-past", "role": "RECYCLE" },
+                { "item": "news", "role": "RECYCLE" },
+                { "item": "apparently", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["its-reported-that", "is-expected-to", "according-to", "report", "official", "announce", "survey"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Tin tức nói kiểu gì?",
+                        "bodyVi": "Bị động ở B1 là **was built**, **was stolen**. Tin tức còn dùng bị động để giấu \"người ta\":\n\n| kiểu | ví dụ | nghĩa |\n|---|---|---|\n| **It is + V3 + that** … | **It's reported that** ten people were injured. | có tin cho biết |\n| chủ ngữ + **is + V3 + to** V | The storm **is expected to** hit Da Nang tonight. | được dự báo sẽ |\n| | The singer **is said to** live in Paris now. | người ta nói là |\n| nêu nguồn | **According to** the police, … | theo cảnh sát |\n\nKể lại cho bạn bè thì nói thường: **Apparently**, … / They say … / I read a **report** that …\n\n| tin tức | nói thường |\n|---|---|\n| It is expected that prices will rise. | They say prices are going to go up. |\n| The company **announced** that… | The company said… |\n| A **survey** shows that… | Most people think… |\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| According to me, … | **In my opinion**, … |\n| The storm expects to hit tonight. | The storm **is expected to** hit tonight. |\n| It is said the price will to rise. | **It is said that** the price will rise. |\n\n❌ According to me ❌ The storm expects to ✅ **According to the news, …** **The storm is expected to…**",
+                        "items": ["passive-reporting", "its-reported-that", "is-expected-to", "according-to", "report", "announce", "survey", "passive-past", "apparently"],
+                        "examples": [
+                            { "en": "The storm is expected to hit Da Nang tonight.", "vi": "Cơn bão được dự báo sẽ đổ bộ Đà Nẵng tối nay.", "highlight": "is expected to hit" },
+                            { "en": "According to the weather forecast, it will rain all week.", "vi": "Theo dự báo thời tiết, trời sẽ mưa cả tuần.", "highlight": "According to" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "its-reported-that",
+                        "prompts": [
+                            { "cueVi": "Có tin cho biết sân bay sẽ đóng cửa.", "slots": { "news": "the airport will close" }, "answer": "It's reported that the airport will close." },
+                            { "cueVi": "Có tin cho biết mười người bị thương.", "slots": { "news": "ten people were injured" }, "answer": "It's reported that ten people were injured." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "is-expected-to",
+                        "prompts": [
+                            { "cueVi": "Cơn bão được dự báo sẽ đổ bộ Đà Nẵng tối nay.", "slots": { "subject": "The storm", "do": "hit Da Nang tonight" }, "answer": "The storm is expected to hit Da Nang tonight." },
+                            { "cueVi": "Tuyến metro mới dự kiến mở vào năm sau.", "slots": { "subject": "The new metro line", "do": "open next year" }, "answer": "The new metro line is expected to open next year." },
+                            { "cueVi": "Giá xăng dự kiến lại tăng.", "slots": { "subject": "The price of gas", "do": "go up again" }, "answer": "The price of gas is expected to go up again." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["according-to", "report", "official", "announce", "survey", "news"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "It's reported that the airport will close tomorrow.", "vi": "Có tin cho biết sân bay sẽ đóng cửa ngày mai." },
+                            { "en": "The new metro line is expected to open next year.", "vi": "Tuyến metro mới dự kiến sẽ mở vào năm sau." },
+                            { "en": "According to the weather forecast, it will rain all week.", "vi": "Theo dự báo thời tiết, trời sẽ mưa cả tuần." },
+                            { "en": "A recent survey shows that most people want a four-day week.", "vi": "Một khảo sát gần đây cho thấy phần lớn mọi người muốn tuần làm bốn ngày." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["The storm expects to hit Hue tonight.", "The storm is expected to hit Hue tonight.", "The storm is expected hitting Hue tonight."],
+                                "answer": 1,
+                                "item": "is-expected-to"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nêu ý kiến của chính mình:",
+                                "options": ["According to me, it's a bad idea.", "In my opinion, it's a bad idea.", "According to my opinion, I think it's bad."],
+                                "answer": 1,
+                                "item": "according-to"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "It is ___ that ten people were injured.",
+                                "hintVi": "đưa tin (V3)",
+                                "answers": ["reported", "said"],
+                                "item": "passive-reporting"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "The company announced that it would open two new stores.",
+                                "options": ["Công ty công bố sẽ mở hai cửa hàng mới.", "Công ty quảng cáo hai cửa hàng mới.", "Công ty đã đóng cửa hai cửa hàng."],
+                                "answer": 0,
+                                "item": "announce"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Chưa chính thức, nhưng trường sẽ nghỉ một tuần.",
+                                "answer": "It's not official yet, but the school will close for a week.",
+                                "item": "official"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b2-04-l2-get-it-fixed",
+            "title": "I had it fixed",
+            "titleVi": "Thuê người làm giúp",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "have-something-done", "role": "INTRODUCE" },
+                { "item": "i-had-my", "role": "INTRODUCE" },
+                { "item": "where-can-i-get", "role": "INTRODUCE" },
+                { "item": "replace", "role": "INTRODUCE" },
+                { "item": "hairdresser", "role": "INTRODUCE" },
+                { "item": "mechanic", "role": "INTRODUCE" },
+                { "item": "charge", "role": "INTRODUCE" },
+                { "item": "rip-off", "role": "INTRODUCE" },
+                { "item": "my-was-stolen", "role": "RECYCLE" },
+                { "item": "fix", "role": "RECYCLE" },
+                { "item": "broken", "role": "RECYCLE" },
+                { "item": "appointment", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["i-had-my", "where-can-i-get", "replace", "hairdresser", "mechanic", "charge", "rip-off"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Mình tự làm hay thuê người làm?",
+                        "bodyVi": "Người Việt nói \"mình đi cắt tóc\", \"mình sửa xe\" dù thợ làm. Tiếng Anh phân biệt rõ:\n\n| câu | ai làm? |\n|---|---|\n| I **cut** my hair. | tự cắt |\n| I **had** my hair **cut**. / I **got** a haircut. | thợ cắt |\n| I **fixed** my bike. | tự sửa |\n| I **got** my bike **fixed**. | thợ sửa |\n\nCấu trúc: **have / get + vật + V3**. get thân mật hơn.\n\n| dùng khi | ví dụ |\n|---|---|\n| kể đã làm | I **had** my phone screen **replaced**. |\n| lịch hẹn | I'm **getting** my eyes **checked** on Friday. (đã có **appointment**) |\n| hỏi chỗ | **Where can I get** my watch **repaired**? |\n| chuyện xấu | I **had** my bag **stolen**. (= My bag was stolen.) |\n\nNói về giá: They **charged** me 500,000. Đắt vô lý: **That's a rip-off!**\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| I cut my hair at the hairdresser's. | I **had my hair cut** at the **hairdresser's**. |\n| I had fixed my car. (ý là thuê sửa) | I **had my car fixed**. |\n| I had my phone repair. | I had my phone **repaired**. |\n\n❌ I had fixed my car (thuê sửa) ✅ **I had my car fixed.**",
+                        "items": ["have-something-done", "i-had-my", "where-can-i-get", "replace", "hairdresser", "charge", "rip-off", "my-was-stolen", "appointment"],
+                        "examples": [
+                            { "en": "I had my phone screen replaced yesterday.", "vi": "Hôm qua mình đi thay màn hình điện thoại.", "highlight": "had my phone screen replaced" },
+                            { "en": "Where can I get my bike fixed around here?", "vi": "Quanh đây sửa xe đạp ở đâu nhỉ?", "highlight": "get my bike fixed" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "i-had-my",
+                        "prompts": [
+                            { "cueVi": "Mình đi cắt tóc.", "slots": { "thing": "hair", "done": "cut" }, "answer": "I had my hair cut." },
+                            { "cueVi": "Mình đi thay màn hình điện thoại.", "slots": { "thing": "phone screen", "done": "replaced" }, "answer": "I had my phone screen replaced." },
+                            { "cueVi": "Mình đi khám mắt.", "slots": { "thing": "eyes", "done": "checked" }, "answer": "I had my eyes checked." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "where-can-i-get",
+                        "prompts": [
+                            { "cueVi": "Sửa điện thoại ở đâu được nhỉ?", "slots": { "thing": "phone", "done": "fixed" }, "answer": "Where can I get my phone fixed?" },
+                            { "cueVi": "Giặt giày ở đâu được nhỉ?", "slots": { "thing": "shoes", "done": "cleaned" }, "answer": "Where can I get my shoes cleaned?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["replace", "hairdresser", "mechanic", "charge", "rip-off", "appointment"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b2-04-phone-repair", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Thợ đã sửa xe cho bạn. Bạn kể:",
+                                "options": ["I had fixed my car.", "I had my car fixed.", "I had my car fix."],
+                                "answer": 1,
+                                "item": "have-something-done"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn ra tiệm cắt tóc. Câu nào tự nhiên nhất?",
+                                "options": ["I cut my hair at the hairdresser's.", "I got my hair cut.", "I had cut my hair."],
+                                "answer": 1,
+                                "item": "i-had-my"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "They ___ me 500,000 dong to fix it.",
+                                "hintVi": "tính tiền (quá khứ)",
+                                "answers": ["charged"],
+                                "item": "charge"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "The mechanic said the brakes needed to be replaced.",
+                                "options": ["Thợ sửa xe nói phải thay phanh.", "Thợ sửa xe nói phanh vẫn tốt.", "Thợ sửa xe đã thay lốp."],
+                                "answer": 0,
+                                "item": "mechanic"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Quanh đây sửa xe đạp ở đâu nhỉ?",
+                                "answer": "Where can I get my bike fixed around here?",
+                                "item": "where-can-i-get"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b2-04-l3-numbers",
+            "title": "Up by twenty percent",
+            "titleVi": "Số liệu tăng giảm",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "describing-trends", "role": "INTRODUCE" },
+                { "item": "has-risen-by", "role": "INTRODUCE" },
+                { "item": "increase", "role": "INTRODUCE" },
+                { "item": "decrease", "role": "INTRODUCE" },
+                { "item": "rise", "role": "INTRODUCE" },
+                { "item": "percent", "role": "INTRODUCE" },
+                { "item": "slightly", "role": "INTRODUCE" },
+                { "item": "compared-to", "role": "INTRODUCE" },
+                { "item": "comparatives", "role": "RECYCLE" },
+                { "item": "present-perfect-duration", "role": "RECYCLE" },
+                { "item": "trend", "role": "RECYCLE" },
+                { "item": "according-to", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["has-risen-by", "increase", "decrease", "rise", "percent", "slightly", "compared-to"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Tăng, giảm, bao nhiêu?",
+                        "bodyVi": "| | động từ | danh từ |\n|---|---|---|\n| tăng | **rise** (rose, risen), **increase**, go up | a **rise**, an **increase** |\n| giảm | fall (fell, fallen), **decrease**, drop, go down | a fall, a **decrease** |\n\nGiới từ quyết định nghĩa:\n\n| giới từ | nghĩa | ví dụ |\n|---|---|---|\n| **by** | tăng / giảm một lượng | Rent **has risen by** 20 **percent**. |\n| **to** | tới mức | Tourists **rose to** two million. |\n| **from … to** | từ … đến | It **fell from** 6 **to** 4 percent. |\n| **in** (sau danh từ) | tăng / giảm cái gì | a big **increase in** traffic |\n\nMức độ: a **sharp** rise (mạnh), a **slight** fall (nhẹ), **slightly** higher.\n\nThay đổi tính tới nay dùng hiện tại hoàn thành: Prices **have gone up** since last year. So sánh: **Compared to** last year, sales are **slightly lower**.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| The price has raised. | The price **has risen**. / They **raised** the price. |\n| an increase of traffic | an **increase in** traffic |\n| ten percents | ten **percent** |\n\n❌ The price has raised ❌ ten percents ✅ **Prices have risen by ten percent.**",
+                        "items": ["describing-trends", "has-risen-by", "increase", "decrease", "rise", "percent", "slightly", "compared-to", "comparatives", "present-perfect-duration"],
+                        "examples": [
+                            { "en": "Rent has risen by twenty percent since last year.", "vi": "Tiền thuê nhà đã tăng hai mươi phần trăm so với năm ngoái.", "highlight": "has risen by twenty percent" },
+                            { "en": "Compared to last year, we have fewer customers.", "vi": "So với năm ngoái, bọn mình ít khách hơn.", "highlight": "Compared to" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "has-risen-by",
+                        "prompts": [
+                            { "cueVi": "Giá gạo đã tăng mười phần trăm.", "slots": { "thing": "The price of rice", "amount": "ten percent" }, "answer": "The price of rice has risen by ten percent." },
+                            { "cueVi": "Tiền thuê nhà đã tăng hai mươi phần trăm.", "slots": { "thing": "Rent", "amount": "twenty percent" }, "answer": "Rent has risen by twenty percent." },
+                            { "cueVi": "Số khách du lịch đã tăng một phần ba.", "slots": { "thing": "The number of tourists", "amount": "a third" }, "answer": "The number of tourists has risen by a third." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["increase", "decrease", "rise", "percent", "slightly", "compared-to", "trend"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b2-04-rent-news", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["The price has raised by ten percent.", "The price has risen by ten percent.", "The price has rose by ten percents."],
+                                "answer": 1,
+                                "item": "rise"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Số khách tăng từ 1 triệu lên 2 triệu. Chọn giới từ:",
+                                "options": ["It rose by one million to two million.", "It rose from one million to two million.", "It rose in one million until two million."],
+                                "answer": 1,
+                                "item": "describing-trends"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "There has been a big increase ___ traffic.",
+                                "answers": ["in"],
+                                "item": "increase"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Prices are slightly higher than last month.",
+                                "options": ["Giá hơi cao hơn tháng trước.", "Giá cao hơn nhiều so với tháng trước.", "Giá thấp hơn một chút so với tháng trước."],
+                                "answer": 0,
+                                "item": "slightly"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "So với năm ngoái, bọn mình ít khách hơn.",
+                                "answer": "Compared to last year, we have fewer customers.",
+                                "item": "compared-to"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "b2-04-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Viết như bản tin:",
+                "options": ["It's reported that the airport will close.", "It reports that the airport will close.", "The airport is reported that it will close."],
+                "answer": 0,
+                "item": "its-reported-that"
+            },
+            {
+                "kind": "gap",
+                "sentence": "The new bridge is expected ___ open next year.",
+                "answers": ["to"],
+                "item": "is-expected-to"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Thợ đã thay pin điện thoại cho bạn. Bạn kể:",
+                "options": ["I had replaced my phone battery.", "I had my phone battery replaced.", "I replaced my phone battery by a shop."],
+                "answer": 1,
+                "item": "have-something-done"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["Rent has risen by twenty percent.", "Rent has raised twenty percents.", "Rent has rose by twenty percent."],
+                "answer": 0,
+                "item": "describing-trends"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "Two million for a new screen? That's a rip-off!",
+                "options": ["Hai triệu một cái màn hình? Chặt chém quá!", "Hai triệu một cái màn hình? Rẻ thật!", "Màn hình mới bị rách rồi."],
+                "answer": 0,
+                "item": "rip-off"
+            },
+            {
+                "kind": "order",
+                "vi": "Theo dự báo thời tiết, trời sẽ mưa cả tuần.",
+                "answer": "According to the weather forecast, it will rain all week.",
+                "item": "according-to"
+            }
+        ]
+    }
+}

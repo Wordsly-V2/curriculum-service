@@ -656,6 +656,70 @@
             "options": ["Sorry for interrupt, but…", "Sorry to interrupt, but…", "Stop, I want to talk."],
             "answer": 1,
             "item": "sorry-to-interrupt"
+        },
+        {
+            "unit": "b2-01-had-happened",
+            "kind": "choice",
+            "prompt": "Bạn tới ga thì tàu đã chạy mất. Câu nào đúng?",
+            "options": ["When I got there, the train left.", "When I got there, the train had already left.", "When I got there, the train has already left."],
+            "answer": 1,
+            "item": "past-perfect"
+        },
+        {
+            "unit": "b2-01-had-happened",
+            "kind": "choice",
+            "prompt": "Tuần trước Nam nói: \"I sent it yesterday.\" Hôm nay bạn kể lại:",
+            "options": ["Nam said he sent it yesterday.", "Nam said he has sent it the day before.", "Nam said he had sent it the day before."],
+            "answer": 2,
+            "item": "reported-speech-advanced"
+        },
+        {
+            "unit": "b2-02-if-only",
+            "kind": "choice",
+            "prompt": "Bạn không biết có tiệc nên không đến. Bạn nói:",
+            "options": ["If I'd known, I would have come.", "If I would have known, I would come.", "If I knew, I would have came."],
+            "answer": 0,
+            "item": "third-conditional"
+        },
+        {
+            "unit": "b2-02-if-only",
+            "kind": "gap",
+            "sentence": "I should have ___ to you. You were right.",
+            "hintVi": "listen",
+            "answers": ["listened"],
+            "item": "should-have"
+        },
+        {
+            "unit": "b2-03-debate",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["Despite it was raining, we went out.", "Despite the rain, we went out.", "Although the rain, we went out."],
+            "answer": 1,
+            "item": "contrast-concession"
+        },
+        {
+            "unit": "b2-03-debate",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["Social media affects on our sleep.", "Social media has an affect to our sleep.", "Social media affects our sleep."],
+            "answer": 2,
+            "item": "affect"
+        },
+        {
+            "unit": "b2-04-the-news",
+            "kind": "choice",
+            "prompt": "Thợ đã sửa xe cho bạn. Bạn kể:",
+            "options": ["I had fixed my car.", "I had my car fixed.", "I had my car fix."],
+            "answer": 1,
+            "item": "have-something-done"
+        },
+        {
+            "unit": "b2-04-the-news",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["The storm expects to hit Hue tonight.", "The storm is expected hitting Hue tonight.", "The storm is expected to hit Hue tonight."],
+            "answer": 2,
+            "item": "passive-reporting"
         }
     ]
 }

@@ -1,0 +1,776 @@
+{
+    "slug": "b2-03-debate",
+    "stage": "b2",
+    "order": 3,
+    "title": "Let's debate",
+    "titleVi": "Tranh luận",
+    "descriptionVi": "Nêu và bảo vệ một quan điểm có lý lẽ, dẫn chứng (I'm convinced that…, There's no doubt that…, What's more…), phản bác và nhượng bộ khéo léo (I see your point, but…, despite, whereas, even so, admittedly), và bàn chủ đề trừu tượng như công nghệ, thế hệ, xã hội (tend to, on the whole, the pros and cons).",
+    "canDo": [
+        "Tôi nêu được quan điểm của mình rõ ràng và đưa ra lý lẽ, ví dụ để bảo vệ nó.",
+        "Tôi phản bác ý người khác mà vẫn lịch sự, và biết nhượng bộ những điểm họ nói đúng.",
+        "Tôi thảo luận được chủ đề trừu tượng như công nghệ, giáo dục, lối sống, nói được mặt lợi mặt hại và xu hướng chung."
+    ],
+    "items": [
+        {
+            "slug": "making-a-case",
+            "type": "GRAMMAR",
+            "text": "nêu luận điểm (I'm convinced that, There's no doubt that, It's clear that) + lý lẽ (First of all, What's more, For example)",
+            "meaningVi": "nêu và bảo vệ quan điểm",
+            "examples": [
+                { "en": "I'm convinced that working from home is better. First of all, it saves time. What's more, people are less stressed.", "vi": "Mình tin chắc làm ở nhà tốt hơn. Trước hết, nó tiết kiệm thời gian. Hơn nữa, mọi người ít căng thẳng hơn.", "highlight": "What's more" }
+            ],
+            "grammar": {
+                "ruleVi": "Một lập luận tốt có ba phần: luận điểm (mình nghĩ gì, chắc đến đâu), lý lẽ (vì sao, nối bằng First of all / What's more / Besides), dẫn chứng (For example, số liệu, kinh nghiệm). Ở B1 đã có I think / In my opinion; ở B2 thêm các câu mạnh hơn: I'm convinced that…, There's no doubt that…, It's clear that…, I strongly believe…",
+                "forms": [
+                    { "label": "luận điểm mạnh", "example": "I'm convinced that… / There's no doubt that… / I strongly believe…" },
+                    { "label": "luận điểm vừa", "example": "It seems to me that… / I tend to think…" },
+                    { "label": "thêm lý lẽ", "example": "First of all, … What's more, … Besides, …" },
+                    { "label": "dẫn chứng", "example": "For example, … There's evidence that… Studies show that…" }
+                ],
+                "pitfallsVi": [
+                    "\"In my opinion, I think…\" → chọn một: In my opinion, … / I think…",
+                    "\"I'm convince\" → I'm convinced. (tính từ -ed)",
+                    "\"There's no doubt\" + that + mệnh đề: ❌ \"There's no doubt about that it's…\""
+                ]
+            }
+        },
+        {
+            "slug": "im-convinced-that",
+            "type": "PATTERN",
+            "text": "I'm convinced that ….",
+            "meaningVi": "Mình tin chắc rằng ….",
+            "examples": [
+                { "en": "I'm convinced that this is the right decision.", "vi": "Mình tin chắc đây là quyết định đúng.", "highlight": "I'm convinced that" }
+            ],
+            "pattern": {
+                "template": "I'm convinced that {opinion}.",
+                "slots": [
+                    { "name": "opinion", "hintVi": "quan điểm", "options": ["working from home is better", "this is the right decision", "cities need more parks", "kids spend too much time online", "English should be taught earlier"] }
+                ]
+            },
+            "noteVi": "Mạnh hơn I think. convinced là tính từ -ed (mình bị thuyết phục): ❌ \"I'm convince\". Thuyết phục người khác: convince someone."
+        },
+        {
+            "slug": "theres-no-doubt-that",
+            "type": "PATTERN",
+            "text": "There's no doubt that ….",
+            "meaningVi": "Không nghi ngờ gì nữa, ….",
+            "examples": [
+                { "en": "There's no doubt that technology has changed the way we work.", "vi": "Không nghi ngờ gì nữa, công nghệ đã thay đổi cách chúng ta làm việc.", "highlight": "There's no doubt that" }
+            ],
+            "pattern": {
+                "template": "There's no doubt that {fact}.",
+                "slots": [
+                    { "name": "fact", "hintVi": "điều ai cũng thấy", "options": ["technology has changed our lives", "traffic is getting worse", "the city has grown fast", "exercise is good for you", "prices have gone up"] }
+                ]
+            },
+            "noteVi": "Dùng cho điều gần như ai cũng công nhận, rồi mới đưa ý riêng: There's no doubt that…, but… doubt: b câm /daʊt/."
+        },
+        {
+            "slug": "whats-more",
+            "type": "PHRASE",
+            "text": "What's more, …",
+            "meaningVi": "Hơn nữa, …",
+            "examples": [
+                { "en": "The apartment is cheap. What's more, it's close to my office.", "vi": "Căn hộ rẻ. Hơn nữa, lại gần chỗ làm của mình.", "highlight": "What's more" }
+            ],
+            "noteVi": "Thêm một lý lẽ mạnh hơn lý lẽ trước. Cũng nói: Besides, … / On top of that, … (thân mật). Viết trang trọng: Moreover, …"
+        },
+        {
+            "slug": "argue",
+            "type": "LEXICAL",
+            "text": "argue",
+            "meaningVi": "lập luận; cãi nhau",
+            "ipa": "/ˈɑːrɡjuː/",
+            "examples": [
+                { "en": "Some people argue that social media makes us lonely.", "vi": "Một số người lập luận rằng mạng xã hội khiến ta cô đơn.", "highlight": "argue" }
+            ],
+            "noteVi": "argue that… = lập luận rằng; argue with someone = cãi nhau với ai. Danh từ: argument (lý lẽ; cuộc cãi vã)."
+        },
+        {
+            "slug": "evidence",
+            "type": "LEXICAL",
+            "text": "evidence",
+            "meaningVi": "bằng chứng",
+            "ipa": "/ˈevɪdəns/",
+            "examples": [
+                { "en": "Is there any evidence that it works?", "vi": "Có bằng chứng nào cho thấy nó hiệu quả không?", "highlight": "evidence" }
+            ],
+            "noteVi": "Không đếm được: some evidence, a piece of evidence (❌ an evidence, evidences). Nhấn âm đầu: E-vi-dence."
+        },
+        {
+            "slug": "issue",
+            "type": "LEXICAL",
+            "text": "issue",
+            "meaningVi": "vấn đề (cần bàn)",
+            "ipa": "/ˈɪʃuː/",
+            "examples": [
+                { "en": "Traffic is a big issue in Ho Chi Minh City.", "vi": "Giao thông là một vấn đề lớn ở TP.HCM.", "highlight": "issue" }
+            ],
+            "noteVi": "issue là vấn đề để bàn, tranh luận; problem là chuyện trục trặc cần sửa. Đọc /ˈɪʃuː/, không đọc \"i-xiu\"."
+        },
+        {
+            "slug": "benefit",
+            "type": "LEXICAL",
+            "text": "benefit",
+            "meaningVi": "lợi ích",
+            "ipa": "/ˈbenɪfɪt/",
+            "examples": [
+                { "en": "One benefit of living in the city is that everything is close.", "vi": "Một lợi ích của sống ở thành phố là cái gì cũng gần.", "highlight": "benefit" }
+            ],
+            "noteVi": "Động từ: benefit from something (được lợi từ). Phúc lợi công ty: benefits. Gần nghĩa advantage (B1)."
+        },
+        {
+            "slug": "contrast-concession",
+            "type": "GRAMMAR",
+            "text": "although / even though + mệnh đề; despite / in spite of + danh từ / V-ing; whereas; however; even so",
+            "meaningVi": "đối lập và nhượng bộ",
+            "examples": [
+                { "en": "Despite the rain, we went out.", "vi": "Mặc dù mưa, bọn mình vẫn ra ngoài.", "highlight": "Despite the rain" }
+            ],
+            "grammar": {
+                "ruleVi": "Nhượng bộ là công nhận ý kia một phần rồi mới phản bác. although / even though (mạnh hơn) + mệnh đề. despite / in spite of + danh từ hoặc V-ing (không có mệnh đề). whereas so sánh hai điều trái ngược. However, Even so, Admittedly đứng đầu câu mới, sau dấu chấm. Không dùng but cùng although.",
+                "forms": [
+                    { "label": "+ mệnh đề", "example": "Although it was raining, we went out." },
+                    { "label": "+ danh từ / V-ing", "example": "Despite the rain, we went out. In spite of feeling tired, she kept working." },
+                    { "label": "so sánh trái ngược", "example": "My brother loves cities, whereas I prefer the countryside." },
+                    { "label": "câu mới", "example": "It's expensive. Even so, I think it's worth it." },
+                    { "label": "nhượng bộ trước", "example": "Admittedly, it's not perfect. However, it's the best option we have." }
+                ],
+                "pitfallsVi": [
+                    "\"Despite it was raining\" → Although it was raining / Despite the rain.",
+                    "\"Although it's expensive, but I like it\" → bỏ but.",
+                    "\"In spite the rain\" → In spite of the rain."
+                ]
+            }
+        },
+        {
+            "slug": "despite",
+            "type": "LEXICAL",
+            "text": "despite",
+            "meaningVi": "mặc dù (+ danh từ / V-ing)",
+            "ipa": "/dɪˈspaɪt/",
+            "examples": [
+                { "en": "Despite the high price, the tickets sold out in an hour.", "vi": "Dù giá cao, vé vẫn bán hết trong một giờ.", "highlight": "Despite" }
+            ],
+            "noteVi": "Sau despite là danh từ hoặc V-ing, không có of: ❌ \"despite of\". Muốn dùng mệnh đề: despite the fact that…"
+        },
+        {
+            "slug": "whereas",
+            "type": "LEXICAL",
+            "text": "whereas",
+            "meaningVi": "trong khi (đối lập)",
+            "ipa": "/werˈæz/",
+            "examples": [
+                { "en": "Older people prefer calling, whereas young people prefer texting.", "vi": "Người lớn tuổi thích gọi điện, trong khi người trẻ thích nhắn tin.", "highlight": "whereas" }
+            ],
+            "noteVi": "So sánh hai vế trái ngược nhau, trang trọng hơn while. Nhấn âm cuối: where-AS."
+        },
+        {
+            "slug": "admittedly",
+            "type": "LEXICAL",
+            "text": "admittedly",
+            "meaningVi": "phải thừa nhận là",
+            "ipa": "/ədˈmɪtɪdli/",
+            "examples": [
+                { "en": "Admittedly, the plan is expensive. But in the long run, it will save money.", "vi": "Phải thừa nhận là kế hoạch tốn kém. Nhưng về lâu dài, nó sẽ tiết kiệm tiền.", "highlight": "Admittedly" }
+            ],
+            "noteVi": "Nhận trước điểm yếu của ý mình, để phần sau mạnh hơn. Từ admit (B1)."
+        },
+        {
+            "slug": "even-though",
+            "type": "PHRASE",
+            "text": "even though …",
+            "meaningVi": "mặc dù (nhấn mạnh)",
+            "examples": [
+                { "en": "Even though he's rich, he lives in a small apartment.", "vi": "Mặc dù giàu, anh ấy sống trong một căn hộ nhỏ.", "highlight": "Even though" }
+            ],
+            "noteVi": "Mạnh hơn although, sau là mệnh đề. ❌ \"Even though…, but…\". Khác even if (dù cho, giả định)."
+        },
+        {
+            "slug": "even-so",
+            "type": "PHRASE",
+            "text": "Even so, …",
+            "meaningVi": "Dù vậy, …",
+            "examples": [
+                { "en": "The hotel was a bit old. Even so, we had a great time.", "vi": "Khách sạn hơi cũ. Dù vậy, bọn mình vẫn rất vui.", "highlight": "Even so" }
+            ],
+            "noteVi": "Đứng đầu câu mới, sau câu nêu điểm bất lợi. Nghĩa gần However, nhưng tự nhiên hơn khi nói."
+        },
+        {
+            "slug": "i-see-your-point-but",
+            "type": "PATTERN",
+            "text": "I see your point, but ….",
+            "meaningVi": "Mình hiểu ý bạn, nhưng ….",
+            "examples": [
+                { "en": "I see your point, but it's too expensive for most people.", "vi": "Mình hiểu ý bạn, nhưng nó quá đắt với đa số mọi người.", "highlight": "I see your point, but" }
+            ],
+            "pattern": {
+                "template": "I see your point, but {counter}.",
+                "slots": [
+                    { "name": "counter", "hintVi": "ý phản bác", "options": ["it's too expensive for most people", "not everyone can work from home", "there are other ways to do it", "we need more evidence", "it won't work in a big city"] }
+                ]
+            },
+            "noteVi": "Công nhận trước rồi mới phản bác, nghe lịch sự. Gần nghĩa I see what you mean (B1), That's true, but…"
+        },
+        {
+            "slug": "fair-enough",
+            "type": "PHRASE",
+            "text": "Fair enough.",
+            "meaningVi": "Cũng hợp lý.",
+            "examples": [
+                { "en": "I can't come because I have to work. — Fair enough.", "vi": "Mình không đến được vì phải làm. — Ừ, cũng hợp lý.", "highlight": "Fair enough" }
+            ],
+            "noteVi": "Chấp nhận lý lẽ của người kia dù chưa hẳn đồng ý hoàn toàn. Giọng thân mật."
+        },
+        {
+            "slug": "generalizing",
+            "type": "GRAMMAR",
+            "text": "tend to + V, on the whole, in general, most people, generally speaking",
+            "meaningVi": "khái quát hóa (nói về xu hướng chung)",
+            "examples": [
+                { "en": "Young people tend to spend more time online.", "vi": "Người trẻ thường dành nhiều thời gian trên mạng hơn.", "highlight": "tend to spend" }
+            ],
+            "grammar": {
+                "ruleVi": "Khi bàn chủ đề xã hội, tránh nói tuyệt đối (all, always, never) vì dễ bị bắt bẻ. Dùng tend to + V (có xu hướng), most / many people, in general, on the whole, generally speaking. Nói về một nhóm người: danh từ số nhiều không có the (young people, older people, teenagers).",
+                "forms": [
+                    { "label": "có xu hướng", "example": "Teenagers tend to sleep late." },
+                    { "label": "nói chung", "example": "In general, people in big cities work longer hours." },
+                    { "label": "xét tổng thể", "example": "On the whole, the changes have been positive." },
+                    { "label": "không tuyệt đối", "example": "Most people, but not all, prefer…" }
+                ],
+                "pitfallsVi": [
+                    "\"The young people tend to…\" (nói chung) → Young people tend to…",
+                    "\"They tend to using\" → They tend to use.",
+                    "\"All Vietnamese people like…\" → Most Vietnamese people…, In general, Vietnamese people…"
+                ]
+            }
+        },
+        {
+            "slug": "the-problem-with-is",
+            "type": "PATTERN",
+            "text": "The problem with … is that ….",
+            "meaningVi": "Vấn đề của … là ….",
+            "examples": [
+                { "en": "The problem with social media is that it takes up so much time.", "vi": "Vấn đề của mạng xã hội là nó chiếm quá nhiều thời gian.", "highlight": "The problem with" }
+            ],
+            "pattern": {
+                "template": "The problem with {thing} is that {problem}.",
+                "slots": [
+                    { "name": "thing", "hintVi": "chủ đề", "options": ["social media", "online classes", "big cities", "fast food", "working from home"] },
+                    { "name": "problem", "hintVi": "mệnh đề", "options": ["it takes up so much time", "students get distracted", "everything is expensive", "it's not healthy", "you feel lonely"] }
+                ]
+            },
+            "noteVi": "Nêu mặt hại chính của một vấn đề. Mặt lợi: The good thing about … is that …"
+        },
+        {
+            "slug": "pros-and-cons",
+            "type": "PHRASE",
+            "text": "the pros and cons",
+            "meaningVi": "mặt lợi và mặt hại",
+            "examples": [
+                { "en": "Let's look at the pros and cons of online learning.", "vi": "Cùng xem mặt lợi và mặt hại của học trực tuyến.", "highlight": "the pros and cons" }
+            ],
+            "noteVi": "Thân mật hơn advantages and disadvantages (B1). weigh the pros and cons = cân nhắc lợi hại."
+        },
+        {
+            "slug": "on-the-whole",
+            "type": "PHRASE",
+            "text": "on the whole",
+            "meaningVi": "xét tổng thể, nhìn chung",
+            "examples": [
+                { "en": "On the whole, I think technology has made life easier.", "vi": "Nhìn chung, mình nghĩ công nghệ làm cuộc sống dễ dàng hơn.", "highlight": "On the whole" }
+            ],
+            "noteVi": "Dùng khi kết luận sau khi đã xét cả hai mặt. whole đọc /hoʊl/, w câm, giống hole."
+        },
+        {
+            "slug": "generation",
+            "type": "LEXICAL",
+            "text": "generation",
+            "meaningVi": "thế hệ",
+            "ipa": "/ˌdʒenəˈreɪʃən/",
+            "examples": [
+                { "en": "My parents' generation didn't have smartphones.", "vi": "Thế hệ bố mẹ mình không có điện thoại thông minh.", "highlight": "generation" }
+            ],
+            "noteVi": "the younger / older generation. Khoảng cách thế hệ: the generation gap."
+        },
+        {
+            "slug": "affect",
+            "type": "LEXICAL",
+            "text": "affect",
+            "meaningVi": "ảnh hưởng đến (động từ)",
+            "ipa": "/əˈfekt/",
+            "examples": [
+                { "en": "Lack of sleep affects your memory.", "vi": "Thiếu ngủ ảnh hưởng đến trí nhớ.", "highlight": "affects" }
+            ],
+            "noteVi": "affect là động từ, không có on: ❌ \"affect on\". Danh từ là effect: have an effect on. Hai từ đọc gần giống nhau."
+        },
+        {
+            "slug": "impact",
+            "type": "LEXICAL",
+            "text": "impact",
+            "meaningVi": "tác động",
+            "ipa": "/ˈɪmpækt/",
+            "examples": [
+                { "en": "Tourism has a big impact on small towns.", "vi": "Du lịch có tác động lớn đến các thị trấn nhỏ.", "highlight": "impact" }
+            ],
+            "noteVi": "have an impact ON something. Tác động tích cực / tiêu cực: a positive / negative impact."
+        },
+        {
+            "slug": "trend",
+            "type": "LEXICAL",
+            "text": "trend",
+            "meaningVi": "xu hướng",
+            "ipa": "/trend/",
+            "examples": [
+                { "en": "Working from home is a growing trend.", "vi": "Làm việc tại nhà là một xu hướng đang tăng.", "highlight": "trend" }
+            ],
+            "noteVi": "Tính từ: trendy (hợp mốt). Theo mốt: follow the trend. Đang thịnh hành trên mạng: trending."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "b2-03-office-or-home",
+            "title": "I see your point, but…",
+            "situationVi": "Công ty đang bàn chuyện cho nhân viên làm ở nhà hai ngày một tuần. Chị Hằng (phòng nhân sự) phản đối; bạn ủng hộ.",
+            "lines": [
+                { "speaker": "Hang", "en": "Honestly, I don't think working from home is a good idea. People just don't work as hard.", "vi": "Thật lòng, chị không nghĩ làm ở nhà là ý hay. Người ta không làm chăm bằng." },
+                { "speaker": "You", "en": "I see your point, but I'm convinced that it's better for most people. First of all, nobody wastes two hours in traffic.", "vi": "Em hiểu ý chị, nhưng em tin chắc là nó tốt hơn cho đa số mọi người. Trước hết, không ai mất hai tiếng kẹt xe.", "learnerTurn": true },
+                { "speaker": "Hang", "en": "Maybe. But is there any evidence that people get more done at home?", "vi": "Có thể. Nhưng có bằng chứng nào là ở nhà người ta làm được nhiều việc hơn không?" },
+                { "speaker": "You", "en": "Yes. Our team tried it last year, and we finished the project early. What's more, people were less stressed.", "vi": "Có ạ. Nhóm em thử năm ngoái, và bọn em xong dự án sớm. Hơn nữa, mọi người ít căng thẳng hơn.", "learnerTurn": true },
+                { "speaker": "Hang", "en": "Fair enough. But what about new staff? They need to learn from others.", "vi": "Cũng hợp lý. Nhưng còn nhân viên mới thì sao? Họ cần học từ người khác." },
+                { "speaker": "You", "en": "Admittedly, that's a problem. Even so, two days a week at home still leaves three days in the office.", "vi": "Phải thừa nhận là đó là một vấn đề. Dù vậy, hai ngày làm ở nhà thì vẫn còn ba ngày ở văn phòng.", "learnerTurn": true },
+                { "speaker": "Hang", "en": "Hmm. Some managers want everyone here every day, though.", "vi": "Hừm. Nhưng một số quản lý lại muốn mọi người có mặt ở đây hằng ngày." },
+                { "speaker": "You", "en": "I know. Despite that, I think we should try it for three months and look at the results.", "vi": "Em biết ạ. Dù vậy, em nghĩ mình nên thử ba tháng rồi xem kết quả.", "learnerTurn": true },
+                { "speaker": "Hang", "en": "OK, I'll suggest it at the meeting. You've convinced me, a little!", "vi": "Được, chị sẽ đề xuất trong cuộc họp. Em thuyết phục được chị rồi, một chút thôi!" }
+            ]
+        },
+        {
+            "slug": "b2-03-phones-and-kids",
+            "title": "The pros and cons",
+            "situationVi": "Câu lạc bộ tiếng Anh cuối tuần bàn chủ đề: \"Trẻ em có nên có điện thoại riêng trước 12 tuổi?\". Người điều phối là anh Chris.",
+            "lines": [
+                { "speaker": "Chris", "en": "So, today's topic: should kids have their own phones before twelve? What do you think?", "vi": "Chủ đề hôm nay: trẻ em có nên có điện thoại riêng trước 12 tuổi? Các bạn nghĩ sao?" },
+                { "speaker": "You", "en": "There's no doubt that phones are useful. But the problem with phones is that kids spend too much time on them.", "vi": "Không nghi ngờ gì nữa, điện thoại rất có ích. Nhưng vấn đề của điện thoại là trẻ dùng quá nhiều thời gian.", "learnerTurn": true },
+                { "speaker": "Chris", "en": "Do you think it affects their studies?", "vi": "Bạn có nghĩ nó ảnh hưởng đến việc học không?" },
+                { "speaker": "You", "en": "Yes. Kids who use phones a lot tend to sleep less, and that has an impact on school.", "vi": "Có. Trẻ dùng điện thoại nhiều thường ngủ ít hơn, và điều đó tác động đến việc học.", "learnerTurn": true },
+                { "speaker": "Chris", "en": "But parents want to call their kids. Isn't that a benefit?", "vi": "Nhưng bố mẹ muốn gọi cho con. Đó chẳng phải là một lợi ích sao?" },
+                { "speaker": "You", "en": "That's true. My parents' generation didn't need that, whereas today many parents work far from home.", "vi": "Đúng vậy. Thế hệ bố mẹ mình không cần điều đó, trong khi ngày nay nhiều bố mẹ làm việc xa nhà.", "learnerTurn": true },
+                { "speaker": "Chris", "en": "So, what's your conclusion?", "vi": "Vậy kết luận của bạn là gì?" },
+                { "speaker": "You", "en": "It depends on the child. But on the whole, I think a simple phone for calls is fine, even though a smartphone can wait.", "vi": "Còn tùy từng đứa trẻ. Nhưng nhìn chung, mình nghĩ một chiếc điện thoại đơn giản để gọi là được, mặc dù điện thoại thông minh thì có thể chờ.", "learnerTurn": true },
+                { "speaker": "Chris", "en": "Great answer. You looked at the pros and cons. Who wants to disagree?", "vi": "Câu trả lời hay. Bạn đã xét cả lợi lẫn hại. Ai muốn phản bác nào?" }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "b2-03-l1-making-a-case",
+            "title": "I'm convinced that…",
+            "titleVi": "Nêu và bảo vệ quan điểm",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "making-a-case", "role": "INTRODUCE" },
+                { "item": "im-convinced-that", "role": "INTRODUCE" },
+                { "item": "theres-no-doubt-that", "role": "INTRODUCE" },
+                { "item": "whats-more", "role": "INTRODUCE" },
+                { "item": "argue", "role": "INTRODUCE" },
+                { "item": "evidence", "role": "INTRODUCE" },
+                { "item": "issue", "role": "INTRODUCE" },
+                { "item": "benefit", "role": "INTRODUCE" },
+                { "item": "giving-opinions", "role": "RECYCLE" },
+                { "item": "because", "role": "RECYCLE" },
+                { "item": "for-example", "role": "RECYCLE" },
+                { "item": "it-seems-to-me", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["im-convinced-that", "theres-no-doubt-that", "whats-more", "argue", "evidence", "issue", "benefit"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Một lập luận có ba phần",
+                        "bodyVi": "Ở B1, bạn đã nêu ý kiến (**I think**, **In my opinion**) và giải thích bằng **because**. Tranh luận ở B2 cần chắc chắn hơn và có dẫn chứng:\n\n| phần | nói |\n|---|---|\n| 1. luận điểm | **I'm convinced that** working from home is better. / **There's no doubt that** traffic is getting worse. |\n| 2. lý lẽ | **First of all**, it saves time. **What's more**, people are less stressed. |\n| 3. dẫn chứng | **For example**, our team finished early. There's **evidence** that… |\n\nMức độ chắc chắn, từ nhẹ đến mạnh:\n\n| nhẹ | vừa | mạnh |\n|---|---|---|\n| **It seems to me that**… | **I think** / **I believe**… | **I'm convinced that**… / **There's no doubt that**… |\n\nNhắc đến ý của người khác: Some people **argue** that…\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| In my opinion, I think… | **In my opinion**, … (bỏ I think) |\n| I'm convince that… | **I'm convinced** that… |\n| There are many evidences. | There's a lot of **evidence**. |\n\n❌ I'm convince ❌ evidences ✅ **I'm convinced that…** **There's a lot of evidence.**",
+                        "items": ["making-a-case", "im-convinced-that", "theres-no-doubt-that", "whats-more", "argue", "evidence", "giving-opinions", "because", "for-example", "it-seems-to-me"],
+                        "examples": [
+                            { "en": "I'm convinced that this is the right decision.", "vi": "Mình tin chắc đây là quyết định đúng.", "highlight": "I'm convinced that" },
+                            { "en": "The apartment is cheap. What's more, it's close to my office.", "vi": "Căn hộ rẻ. Hơn nữa, lại gần chỗ làm của mình.", "highlight": "What's more" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "im-convinced-that",
+                        "prompts": [
+                            { "cueVi": "Mình tin chắc làm ở nhà tốt hơn.", "slots": { "opinion": "working from home is better" }, "answer": "I'm convinced that working from home is better." },
+                            { "cueVi": "Mình tin chắc thành phố cần thêm công viên.", "slots": { "opinion": "cities need more parks" }, "answer": "I'm convinced that cities need more parks." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "theres-no-doubt-that",
+                        "prompts": [
+                            { "cueVi": "Không nghi ngờ gì nữa, giao thông đang tệ hơn.", "slots": { "fact": "traffic is getting worse" }, "answer": "There's no doubt that traffic is getting worse." },
+                            { "cueVi": "Không nghi ngờ gì nữa, tập thể dục tốt cho sức khỏe.", "slots": { "fact": "exercise is good for you" }, "answer": "There's no doubt that exercise is good for you." },
+                            { "cueVi": "Không nghi ngờ gì nữa, giá cả đã tăng.", "slots": { "fact": "prices have gone up" }, "answer": "There's no doubt that prices have gone up." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["whats-more", "argue", "evidence", "issue", "benefit", "for-example"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "I'm convinced that working from home is better.", "vi": "Mình tin chắc làm ở nhà tốt hơn." },
+                            { "en": "First of all, it saves time.", "vi": "Trước hết, nó tiết kiệm thời gian." },
+                            { "en": "What's more, people are less stressed.", "vi": "Hơn nữa, mọi người ít căng thẳng hơn." },
+                            { "en": "Is there any evidence that it works?", "vi": "Có bằng chứng nào cho thấy nó hiệu quả không?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I'm convince that it's a good idea.", "I'm convinced that it's a good idea.", "I convinced that it's a good idea."],
+                                "answer": 1,
+                                "item": "im-convinced-that"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Thêm một lý lẽ mạnh hơn:",
+                                "options": ["What's more, it's close to my office.", "What more, it's close to my office.", "More what, it's close to my office."],
+                                "answer": 0,
+                                "item": "whats-more"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["There are many evidences.", "There's a lot of evidence.", "There's an evidence."],
+                                "answer": 1,
+                                "item": "evidence"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Some people argue that social media makes us lonely.",
+                                "options": ["Một số người lập luận rằng mạng xã hội khiến ta cô đơn.", "Một số người cãi nhau trên mạng xã hội.", "Một số người cô đơn vì không dùng mạng xã hội."],
+                                "answer": 0,
+                                "item": "argue"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Giao thông là một vấn đề lớn ở thành phố này.",
+                                "answer": "Traffic is a big issue in this city.",
+                                "item": "issue"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b2-03-l2-counter-arguments",
+            "title": "I see your point, but…",
+            "titleVi": "Phản bác và nhượng bộ",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "contrast-concession", "role": "INTRODUCE" },
+                { "item": "despite", "role": "INTRODUCE" },
+                { "item": "whereas", "role": "INTRODUCE" },
+                { "item": "admittedly", "role": "INTRODUCE" },
+                { "item": "even-though", "role": "INTRODUCE" },
+                { "item": "even-so", "role": "INTRODUCE" },
+                { "item": "i-see-your-point-but", "role": "INTRODUCE" },
+                { "item": "fair-enough", "role": "INTRODUCE" },
+                { "item": "although", "role": "RECYCLE" },
+                { "item": "on-the-other-hand", "role": "RECYCLE" },
+                { "item": "agree-disagree", "role": "RECYCLE" },
+                { "item": "good-point", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["despite", "whereas", "admittedly", "even-though", "even-so", "i-see-your-point-but", "fair-enough"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Công nhận trước, phản bác sau",
+                        "bodyVi": "Phản bác mà không làm mất lòng: **công nhận** một phần ý người kia, rồi mới đưa ý mình.\n\n| công nhận | rồi phản bác |\n|---|---|\n| **I see your point, but**… | …it's too expensive for most people. |\n| **Admittedly**, it's not perfect. | **Even so**, it's the best option. |\n| That's a **good point**. | **On the other hand**, … |\n| **Fair enough.** | But what about…? |\n\nCác từ nối đối lập, **chú ý thứ đi sau**:\n\n| từ | sau nó là | ví dụ |\n|---|---|---|\n| **although / even though** | mệnh đề | **Although** it was raining, we went out. |\n| **despite / in spite of** | danh từ / V-ing | **Despite** the rain, we went out. |\n| **whereas** | mệnh đề (so sánh hai bên) | I like cities, **whereas** my wife prefers villages. |\n| **Even so / However** | câu mới | It's old. **Even so**, I love it. |\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| Despite it was raining, … | **Although** it was raining, … / **Despite the rain**, … |\n| Although it's expensive, but I like it. | **Although** it's expensive, I like it. |\n| Despite of the rain, … | **Despite** the rain, … / **In spite of** the rain, … |\n\n❌ Despite it was raining ❌ Although…, but… ✅ **Despite the rain, …** **Although it's expensive, I like it.**",
+                        "items": ["contrast-concession", "despite", "whereas", "admittedly", "even-though", "even-so", "i-see-your-point-but", "fair-enough", "although", "on-the-other-hand", "good-point"],
+                        "examples": [
+                            { "en": "Despite the rain, we went out.", "vi": "Mặc dù mưa, bọn mình vẫn ra ngoài.", "highlight": "Despite the rain" },
+                            { "en": "I see your point, but it's too expensive for most people.", "vi": "Mình hiểu ý bạn, nhưng nó quá đắt với đa số mọi người.", "highlight": "I see your point, but" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "i-see-your-point-but",
+                        "prompts": [
+                            { "cueVi": "Mình hiểu ý bạn, nhưng không phải ai cũng làm ở nhà được.", "slots": { "counter": "not everyone can work from home" }, "answer": "I see your point, but not everyone can work from home." },
+                            { "cueVi": "Mình hiểu ý bạn, nhưng mình cần thêm bằng chứng.", "slots": { "counter": "we need more evidence" }, "answer": "I see your point, but we need more evidence." },
+                            { "cueVi": "Mình hiểu ý bạn, nhưng nó sẽ không hiệu quả ở thành phố lớn.", "slots": { "counter": "it won't work in a big city" }, "answer": "I see your point, but it won't work in a big city." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["despite", "whereas", "admittedly", "even-though", "even-so", "fair-enough", "although"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "I see your point, but it's too expensive.", "vi": "Mình hiểu ý bạn, nhưng nó quá đắt." },
+                            { "en": "Admittedly, it's not perfect.", "vi": "Phải thừa nhận là nó không hoàn hảo." },
+                            { "en": "Even so, it's the best option we have.", "vi": "Dù vậy, đó là lựa chọn tốt nhất mình có." },
+                            { "en": "Despite the rain, we went out.", "vi": "Mặc dù mưa, bọn mình vẫn ra ngoài." }
+                        ]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b2-03-office-or-home", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["Despite it was raining, we went out.", "Despite the rain, we went out.", "Despite of the rain, we went out."],
+                                "answer": 1,
+                                "item": "contrast-concession"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["Although it's expensive, but I like it.", "Even though it's expensive, but I like it.", "Even though it's expensive, I like it."],
+                                "answer": 2,
+                                "item": "even-though"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "My brother loves big cities, ___ I prefer the countryside.",
+                                "hintVi": "trong khi (đối lập)",
+                                "answers": ["whereas", "while"],
+                                "item": "whereas"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "The hotel was a bit old. Even so, we had a great time.",
+                                "options": ["Khách sạn hơi cũ. Dù vậy, bọn mình vẫn rất vui.", "Khách sạn hơi cũ, nên bọn mình không vui.", "Khách sạn cũ y như lần trước."],
+                                "answer": 0,
+                                "item": "even-so"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Mình hiểu ý bạn, nhưng mình cần thêm bằng chứng.",
+                                "answer": "I see your point, but we need more evidence.",
+                                "item": "i-see-your-point-but"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b2-03-l3-big-topics",
+            "title": "The pros and cons",
+            "titleVi": "Bàn chủ đề trừu tượng",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "generalizing", "role": "INTRODUCE" },
+                { "item": "the-problem-with-is", "role": "INTRODUCE" },
+                { "item": "pros-and-cons", "role": "INTRODUCE" },
+                { "item": "on-the-whole", "role": "INTRODUCE" },
+                { "item": "generation", "role": "INTRODUCE" },
+                { "item": "affect", "role": "INTRODUCE" },
+                { "item": "impact", "role": "INTRODUCE" },
+                { "item": "trend", "role": "INTRODUCE" },
+                { "item": "it-depends", "role": "RECYCLE" },
+                { "item": "advantage", "role": "RECYCLE" },
+                { "item": "disadvantage", "role": "RECYCLE" },
+                { "item": "technology", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["the-problem-with-is", "pros-and-cons", "on-the-whole", "generation", "affect", "impact", "trend"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Nói về xu hướng, đừng nói tuyệt đối",
+                        "bodyVi": "Chủ đề trừu tượng (công nghệ, giáo dục, thế hệ, lối sống) không có đáp án đúng sai. Nói **tuyệt đối** (all, always, never) thì dễ bị bắt bẻ; nói theo **xu hướng** thì chắc hơn:\n\n| tuyệt đối | khái quát (an toàn hơn) |\n|---|---|\n| All young people are addicted to phones. | Young people **tend to** spend more time online. |\n| Cities are always bad for kids. | **In general**, kids in cities have less space to play. |\n| Technology is good. | **On the whole**, technology has made life easier. |\n\nNói về một nhóm người nói chung thì **không có the**: **young people**, **older people**, **teenagers**.\n\nKhung bàn một chủ đề: **There's no doubt that** X is useful. **The problem with** X **is that**… Let's look at **the pros and cons**. **It depends on**… **On the whole**, …\n\n**affect** là động từ (❌ affect on), **impact / effect** là danh từ (have an **impact on**).\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| The young people tend to… (nói chung) | **Young people tend to**… |\n| It affects on our health. | It **affects** our health. / It has an **impact on** our health. |\n| They tend to using phones. | They **tend to use** phones. |\n\n❌ affect on ❌ tend to using ✅ **It affects our health.** **They tend to use phones.**",
+                        "items": ["generalizing", "the-problem-with-is", "pros-and-cons", "on-the-whole", "generation", "affect", "impact", "trend", "it-depends", "advantage", "disadvantage"],
+                        "examples": [
+                            { "en": "Young people tend to spend more time online.", "vi": "Người trẻ thường dành nhiều thời gian trên mạng hơn.", "highlight": "tend to spend" },
+                            { "en": "On the whole, I think technology has made life easier.", "vi": "Nhìn chung, mình nghĩ công nghệ làm cuộc sống dễ dàng hơn.", "highlight": "On the whole" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "the-problem-with-is",
+                        "prompts": [
+                            { "cueVi": "Vấn đề của mạng xã hội là nó chiếm quá nhiều thời gian.", "slots": { "thing": "social media", "problem": "it takes up so much time" }, "answer": "The problem with social media is that it takes up so much time." },
+                            { "cueVi": "Vấn đề của học trực tuyến là học sinh dễ mất tập trung.", "slots": { "thing": "online classes", "problem": "students get distracted" }, "answer": "The problem with online classes is that students get distracted." },
+                            { "cueVi": "Vấn đề của đồ ăn nhanh là nó không tốt cho sức khỏe.", "slots": { "thing": "fast food", "problem": "it's not healthy" }, "answer": "The problem with fast food is that it's not healthy." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["pros-and-cons", "on-the-whole", "generation", "affect", "impact", "trend", "technology"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b2-03-phones-and-kids", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["Lack of sleep affects on your memory.", "Lack of sleep affects your memory.", "Lack of sleep has an affect to your memory."],
+                                "answer": 1,
+                                "item": "affect"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nói về người trẻ nói chung, cách nào an toàn và đúng?",
+                                "options": ["The young people always use phones.", "Young people tend to use phones more.", "Young people tend to using phones more."],
+                                "answer": 1,
+                                "item": "generalizing"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Tourism has a big ___ on small towns.",
+                                "hintVi": "tác động",
+                                "answers": ["impact", "effect"],
+                                "item": "impact"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Let's look at the pros and cons of online learning.",
+                                "options": ["Cùng xem mặt lợi và mặt hại của học trực tuyến.", "Cùng xem các chuyên gia nói gì về học trực tuyến.", "Cùng thử học trực tuyến một buổi."],
+                                "answer": 0,
+                                "item": "pros-and-cons"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Thế hệ bố mẹ mình không có điện thoại thông minh.",
+                                "answer": "My parents' generation didn't have smartphones.",
+                                "item": "generation"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "b2-03-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Nêu quan điểm thật chắc chắn:",
+                "options": ["I'm convinced that we need more parks.", "I'm convince that we need more parks.", "In my opinion, I think we need more parks."],
+                "answer": 0,
+                "item": "making-a-case"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Phản bác lịch sự:",
+                "options": ["You're wrong. It's too expensive.", "I see your point, but it's too expensive.", "No, it's too expensive, OK?"],
+                "answer": 1,
+                "item": "i-see-your-point-but"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["Despite it was late, she kept working.", "Although it was late, but she kept working.", "Despite the late hour, she kept working."],
+                "answer": 2,
+                "item": "contrast-concession"
+            },
+            {
+                "kind": "gap",
+                "sentence": "___ the high price, the tickets sold out in an hour.",
+                "hintVi": "mặc dù (+ danh từ)",
+                "answers": ["Despite", "In spite of"],
+                "item": "despite"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "Young people tend to spend more time online.",
+                "options": ["Người trẻ thường dành nhiều thời gian trên mạng hơn.", "Người trẻ nên dành ít thời gian trên mạng hơn.", "Người trẻ luôn luôn ở trên mạng."],
+                "answer": 0,
+                "item": "generalizing"
+            },
+            {
+                "kind": "order",
+                "vi": "Nhìn chung, mình nghĩ công nghệ làm cuộc sống dễ dàng hơn.",
+                "answer": "On the whole, I think technology has made life easier.",
+                "item": "on-the-whole"
+            }
+        ]
+    }
+}
