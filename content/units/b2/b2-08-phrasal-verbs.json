@@ -1,0 +1,753 @@
+{
+    "slug": "b2-08-phrasal-verbs",
+    "stage": "b2",
+    "order": 8,
+    "title": "Phrasal verbs",
+    "titleVi": "Cụm động từ thông dụng",
+    "descriptionVi": "Dùng các cụm động từ người bản ngữ nói hằng ngày thay cho từ trang trọng: giải quyết vấn đề (figure out, run out of, come up with), việc nhà và việc công sở (put off, turn down, pick up, fill out), và chuyện tình cảm, bạn bè (get over, break up, catch up with, put up with). Nắm quy tắc tách: turn it off, ❌ turn off it.",
+    "canDo": [
+        "Tôi kể được một vấn đề và cách mình tìm ra giải pháp bằng cụm động từ tự nhiên thay vì từ trang trọng.",
+        "Tôi nhờ và hỏi được những việc hằng ngày với cụm động từ, đặt đúng vị trí đại từ (turn it down, pick me up).",
+        "Tôi nói được về chuyện tình cảm, bạn bè: chia tay, làm lành, gặp lại, chịu đựng một điều khó chịu."
+    ],
+    "items": [
+        {
+            "slug": "phrasal-verb-basics",
+            "type": "GRAMMAR",
+            "text": "động từ + tiểu từ (up, out, off, over…) = nghĩa mới",
+            "meaningVi": "cụm động từ: nghĩa không cộng từng chữ",
+            "examples": [
+                { "en": "I finally figured out how to fix it.", "vi": "Cuối cùng mình cũng nghĩ ra cách sửa.", "highlight": "figured out" }
+            ],
+            "grammar": {
+                "ruleVi": "Cụm động từ (phrasal verb) là động từ + tiểu từ như up, out, off, over, down. Nghĩa thường không đoán được từ từng chữ: give up = bỏ cuộc, không phải \"cho lên\". Khi nói, người bản ngữ dùng cụm động từ nhiều hơn từ đơn trang trọng (find out thay cho discover, put off thay cho postpone). Chia thì ở động từ, tiểu từ giữ nguyên: figured out, has run out of, is giving up.",
+                "forms": [
+                    { "label": "nói thường ↔ trang trọng", "example": "find out = discover, give up = quit, put off = postpone" },
+                    { "label": "chia thì ở động từ", "example": "We ran out of time. / She has given up sugar." },
+                    { "label": "nhiều nghĩa", "example": "work out = tập thể dục / tìm ra / diễn ra ổn" },
+                    { "label": "thêm tân ngữ", "example": "I found out the truth. / I found out that he was lying." }
+                ],
+                "pitfallsVi": [
+                    "\"I found the truth out yesterday\" được, nhưng \"I found out it\" → I found it out.",
+                    "\"I gave up to smoke\" → I gave up smoking. (V-ing)",
+                    "Dùng từ quá trang trọng khi nói chuyện: \"We must postpone the party\" → We have to put off the party."
+                ]
+            }
+        },
+        {
+            "slug": "figure-out",
+            "type": "PHRASE",
+            "text": "figure out",
+            "meaningVi": "nghĩ ra, hiểu ra, tìm ra (cách)",
+            "examples": [
+                { "en": "I can't figure out how this washing machine works.", "vi": "Mình không hiểu nổi cái máy giặt này chạy thế nào.", "highlight": "figure out" }
+            ],
+            "noteVi": "figure out + how / why / what…, hoặc figure it out. Kiểu Mỹ, rất thông dụng. Trang trọng: understand, solve."
+        },
+        {
+            "slug": "find-out",
+            "type": "PHRASE",
+            "text": "find out",
+            "meaningVi": "phát hiện ra, tìm hiểu (thông tin)",
+            "examples": [
+                { "en": "Let me find out what time the shop opens.", "vi": "Để mình tìm hiểu xem mấy giờ cửa hàng mở.", "highlight": "find out" }
+            ],
+            "noteVi": "find = tìm thấy vật; find out = biết được thông tin, sự thật. ❌ \"I found that the shop opens at 9\" khi ý là hỏi mới biết → I found out that…"
+        },
+        {
+            "slug": "give-up",
+            "type": "PHRASE",
+            "text": "give up",
+            "meaningVi": "bỏ cuộc; bỏ (thói quen)",
+            "examples": [
+                { "en": "Don't give up. You're almost there!", "vi": "Đừng bỏ cuộc. Sắp tới đích rồi!", "highlight": "give up" }
+            ],
+            "noteVi": "give up + V-ing / danh từ: give up smoking, give up sugar. ❌ \"give up to smoke\". Trang trọng: quit."
+        },
+        {
+            "slug": "work-out",
+            "type": "PHRASE",
+            "text": "work out",
+            "meaningVi": "diễn ra ổn; tìm ra; tập thể dục",
+            "examples": [
+                { "en": "Don't worry. I'm sure everything will work out.", "vi": "Đừng lo. Mình chắc mọi chuyện sẽ ổn thôi.", "highlight": "work out" }
+            ],
+            "noteVi": "Ba nghĩa hay gặp: It worked out (ổn thỏa), work out the answer (tìm ra), I work out at the gym (tập). Danh từ: a workout (buổi tập)."
+        },
+        {
+            "slug": "ive-run-out-of",
+            "type": "PATTERN",
+            "text": "I've run out of ….",
+            "meaningVi": "Mình hết … rồi.",
+            "examples": [
+                { "en": "I've run out of coffee. Can I borrow some?", "vi": "Mình hết cà phê rồi. Cho mình mượn một ít được không?", "highlight": "I've run out of" }
+            ],
+            "pattern": {
+                "template": "I've run out of {thing}.",
+                "slots": [
+                    { "name": "thing", "hintVi": "thứ đã dùng hết", "options": ["coffee", "money", "ideas", "battery", "time"] }
+                ]
+            },
+            "noteVi": "run out of + danh từ, không bao giờ tách. Không có tân ngữ: The milk has run out. Hết pin điện thoại cũng nói: My phone is dead."
+        },
+        {
+            "slug": "we-need-to-come-up-with",
+            "type": "PATTERN",
+            "text": "We need to come up with ….",
+            "meaningVi": "Mình cần nghĩ ra ….",
+            "examples": [
+                { "en": "We need to come up with a better plan.", "vi": "Mình cần nghĩ ra một kế hoạch tốt hơn.", "highlight": "come up with" }
+            ],
+            "pattern": {
+                "template": "We need to come up with {idea}.",
+                "slots": [
+                    { "name": "idea", "hintVi": "ý tưởng, giải pháp", "options": ["a better plan", "a name for the shop", "a solution quickly", "some new ideas", "a way to save money"] }
+                ]
+            },
+            "noteVi": "come up with = nghĩ ra ý tưởng, giải pháp. Ba chữ, không tách: ❌ \"come up it with\" → come up with it."
+        },
+        {
+            "slug": "solution",
+            "type": "LEXICAL",
+            "text": "solution",
+            "meaningVi": "giải pháp, cách giải quyết",
+            "ipa": "/səˈluːʃən/",
+            "examples": [
+                { "en": "We tried everything, and finally we found a solution.", "vi": "Bọn mình thử đủ cách, cuối cùng cũng tìm ra giải pháp.", "highlight": "solution" }
+            ],
+            "noteVi": "a solution to a problem (❌ \"solution for the problem\" ít dùng hơn). Động từ: solve (solve a problem)."
+        },
+        {
+            "slug": "separable-phrasal-verbs",
+            "type": "GRAMMAR",
+            "text": "turn it off / turn off the light; ❌ turn off it",
+            "meaningVi": "cụm động từ tách được và không tách được",
+            "examples": [
+                { "en": "The music is too loud. Could you turn it down?", "vi": "Nhạc to quá. Bạn vặn nhỏ lại được không?", "highlight": "turn it down" }
+            ],
+            "grammar": {
+                "ruleVi": "Nhiều cụm động từ có tân ngữ là loại tách được: danh từ đứng trước hoặc sau tiểu từ đều được (turn off the light / turn the light off), nhưng đại từ (it, them, me, him…) bắt buộc đứng giữa (turn it off, ❌ turn off it). Một số cụm không tách được, tân ngữ luôn đứng sau cả cụm, kể cả đại từ: look after, look for, get over (look after her, ❌ look her after). Từ điển ghi \"turn sth off\" là tách được, \"look after sb\" là không tách.",
+                "forms": [
+                    { "label": "tách được + danh từ", "example": "Put off the meeting. / Put the meeting off." },
+                    { "label": "tách được + đại từ", "example": "Put it off. (❌ Put off it.)" },
+                    { "label": "không tách + đại từ", "example": "Can you look after them? (❌ look them after)" },
+                    { "label": "không có tân ngữ", "example": "My car broke down. / Hurry up!" }
+                ],
+                "pitfallsVi": [
+                    "\"Turn off it, please\" → Turn it off, please.",
+                    "\"Can you pick up me at six?\" → Can you pick me up at six?",
+                    "\"Please fill out it\" → Please fill it out."
+                ]
+            }
+        },
+        {
+            "slug": "put-off",
+            "type": "PHRASE",
+            "text": "put off",
+            "meaningVi": "hoãn, trì hoãn",
+            "examples": [
+                { "en": "Stop putting it off. Just call the dentist!", "vi": "Đừng trì hoãn nữa. Gọi nha sĩ đi!", "highlight": "putting it off" }
+            ],
+            "noteVi": "Nói thường của postpone (B2 05). put off + V-ing: I keep putting off cleaning my room. Tách được: put it off."
+        },
+        {
+            "slug": "turn-down",
+            "type": "PHRASE",
+            "text": "turn down",
+            "meaningVi": "vặn nhỏ; từ chối (lời mời, đề nghị)",
+            "examples": [
+                { "en": "She turned down the job because the salary was too low.", "vi": "Cô ấy từ chối công việc vì lương quá thấp.", "highlight": "turned down" }
+            ],
+            "noteVi": "Ngược lại: turn up (vặn to). Từ chối lịch sự hơn: decline. Tách được: turn it down."
+        },
+        {
+            "slug": "pick-up",
+            "type": "PHRASE",
+            "text": "pick up",
+            "meaningVi": "đón (ai); nhặt lên; lấy (đồ)",
+            "examples": [
+                { "en": "Can you pick me up at the airport at six?", "vi": "Sáu giờ bạn ra sân bay đón mình được không?", "highlight": "pick me up" }
+            ],
+            "noteVi": "pick sb up (đón), pick up a package (lấy hàng), pick up English (học lỏm được). Tách được: pick me up, ❌ pick up me."
+        },
+        {
+            "slug": "set-up",
+            "type": "PHRASE",
+            "text": "set up",
+            "meaningVi": "cài đặt, lắp đặt; thành lập",
+            "examples": [
+                { "en": "My brother helped me set up my new laptop.", "vi": "Anh trai giúp mình cài đặt laptop mới.", "highlight": "set up" }
+            ],
+            "noteVi": "set up a computer / a meeting / a company. Danh từ viết liền: the setup. Tách được: set it up."
+        },
+        {
+            "slug": "fill-out",
+            "type": "PHRASE",
+            "text": "fill out",
+            "meaningVi": "điền (đơn, mẫu)",
+            "examples": [
+                { "en": "Please fill out this form and bring it back to the front desk.", "vi": "Vui lòng điền mẫu này rồi mang lại quầy lễ tân.", "highlight": "fill out" }
+            ],
+            "noteVi": "Kiểu Mỹ; kiểu Anh: fill in. Tách được: fill it out. Chỉ điền một ô: fill in your name."
+        },
+        {
+            "slug": "look-after",
+            "type": "PHRASE",
+            "text": "look after",
+            "meaningVi": "trông nom, chăm sóc",
+            "examples": [
+                { "en": "My mom looks after my kids when I'm at work.", "vi": "Mẹ mình trông con giúp khi mình đi làm.", "highlight": "looks after" }
+            ],
+            "noteVi": "Không tách được: look after them (❌ look them after). Người Mỹ cũng hay nói take care of."
+        },
+        {
+            "slug": "could-you-it-please",
+            "type": "PATTERN",
+            "text": "Could you … it …, please?",
+            "meaningVi": "Bạn … nó … giúp được không?",
+            "examples": [
+                { "en": "Could you turn it down, please?", "vi": "Bạn vặn nhỏ lại giúp được không?", "highlight": "turn it down" }
+            ],
+            "pattern": {
+                "template": "Could you {verb} it {particle}, please?",
+                "slots": [
+                    { "name": "verb", "hintVi": "động từ", "options": ["turn", "pick", "fill", "put", "set"] },
+                    { "name": "particle", "hintVi": "tiểu từ", "options": ["down", "off", "up", "out", "back"] }
+                ]
+            },
+            "noteVi": "it luôn đứng giữa động từ và tiểu từ. Thay it bằng them, me: Could you pick me up, please?"
+        },
+        {
+            "slug": "three-part-phrasal-verbs",
+            "type": "GRAMMAR",
+            "text": "động từ + tiểu từ + giới từ (put up with, catch up with, run out of…)",
+            "meaningVi": "cụm động từ ba chữ, không bao giờ tách",
+            "examples": [
+                { "en": "I can't put up with the noise any more.", "vi": "Mình không chịu nổi tiếng ồn nữa rồi.", "highlight": "put up with" }
+            ],
+            "grammar": {
+                "ruleVi": "Cụm ba chữ (động từ + tiểu từ + giới từ) không bao giờ tách, tân ngữ luôn đứng cuối, kể cả đại từ: put up with it, catch up with her, run out of it. Nhiều cụm hai chữ thêm giới từ ở cuối khi có tân ngữ: break up (chia tay) → break up with someone; catch up (bắt kịp) → catch up with someone.",
+                "forms": [
+                    { "label": "có tân ngữ", "example": "She broke up with her boyfriend." },
+                    { "label": "không tân ngữ", "example": "They broke up last month." },
+                    { "label": "đại từ ở cuối", "example": "I can't put up with it. (❌ put it up with)" },
+                    { "label": "các cụm đã học", "example": "look forward to, get along with, run out of, come up with" }
+                ],
+                "pitfallsVi": [
+                    "\"She broke up her boyfriend\" → She broke up with her boyfriend.",
+                    "\"I can't put it up with\" → I can't put up with it.",
+                    "\"Let's catch up soon with\" → Let's catch up soon. / Let's catch up with Lan soon."
+                ]
+            }
+        },
+        {
+            "slug": "get-over",
+            "type": "PHRASE",
+            "text": "get over",
+            "meaningVi": "vượt qua (bệnh, nỗi buồn, cú sốc)",
+            "examples": [
+                { "en": "It took her a long time to get over the breakup.", "vi": "Cô ấy mất rất lâu mới vượt qua được chuyện chia tay.", "highlight": "get over" }
+            ],
+            "noteVi": "Không tách được: get over it (❌ get it over). Dùng cho bệnh nhẹ: get over a cold. Khuyên: You'll get over it."
+        },
+        {
+            "slug": "break-up",
+            "type": "PHRASE",
+            "text": "break up (with)",
+            "meaningVi": "chia tay",
+            "examples": [
+                { "en": "Minh and Lan broke up last month.", "vi": "Minh với Lan chia tay tháng trước.", "highlight": "broke up" }
+            ],
+            "noteVi": "break up with someone (❌ break up someone). Danh từ viết liền: a breakup. Máy móc hỏng thì là break down."
+        },
+        {
+            "slug": "make-up",
+            "type": "PHRASE",
+            "text": "make up",
+            "meaningVi": "làm lành; bịa ra",
+            "examples": [
+                { "en": "They had a big fight, but they made up the next day.", "vi": "Họ cãi nhau to, nhưng hôm sau đã làm lành.", "highlight": "made up" }
+            ],
+            "noteVi": "Làm lành: make up (with someone). Bịa chuyện: make up a story / an excuse. Danh từ makeup = đồ trang điểm."
+        },
+        {
+            "slug": "catch-up-with",
+            "type": "PHRASE",
+            "text": "catch up (with)",
+            "meaningVi": "gặp lại hàn huyên; bắt kịp",
+            "examples": [
+                { "en": "Let's get coffee and catch up. It's been ages!", "vi": "Đi cà phê hàn huyên đi. Lâu lắm rồi!", "highlight": "catch up" }
+            ],
+            "noteVi": "catch up with someone (gặp lại kể chuyện, hoặc đuổi kịp). Làm bù việc: catch up on work / sleep."
+        },
+        {
+            "slug": "let-down",
+            "type": "PHRASE",
+            "text": "let down",
+            "meaningVi": "làm (ai) thất vọng",
+            "examples": [
+                { "en": "I promised to help, and I don't want to let him down.", "vi": "Mình đã hứa giúp, và mình không muốn làm cậu ấy thất vọng.", "highlight": "let him down" }
+            ],
+            "noteVi": "Tách được, người đứng giữa: let me down, let your team down. Bị động: I felt let down (thấy bị phụ lòng)."
+        },
+        {
+            "slug": "i-cant-put-up-with",
+            "type": "PATTERN",
+            "text": "I can't put up with … any more.",
+            "meaningVi": "Mình không chịu nổi … nữa.",
+            "examples": [
+                { "en": "I can't put up with the noise any more.", "vi": "Mình không chịu nổi tiếng ồn nữa rồi.", "highlight": "put up with" }
+            ],
+            "pattern": {
+                "template": "I can't put up with {thing} any more.",
+                "slots": [
+                    { "name": "thing", "hintVi": "điều khó chịu", "options": ["the noise", "his excuses", "this traffic", "my roommate's mess", "working every weekend"] }
+                ]
+            },
+            "noteVi": "put up with = chịu đựng điều khó chịu, ba chữ không tách. Trang trọng: tolerate. Kiểu Anh: any more; kiểu Mỹ hay viết anymore."
+        },
+        {
+            "slug": "relationship",
+            "type": "LEXICAL",
+            "text": "relationship",
+            "meaningVi": "mối quan hệ; chuyện tình cảm",
+            "ipa": "/rɪˈleɪʃənʃɪp/",
+            "examples": [
+                { "en": "She's been in a relationship with him for three years.", "vi": "Cô ấy yêu anh ấy được ba năm rồi.", "highlight": "relationship" }
+            ],
+            "noteVi": "a good relationship with my boss, be in a relationship (đang yêu). ❌ \"relation\" cho chuyện tình cảm."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "b2-08-new-apartment",
+            "title": "Could you turn it down?",
+            "situationVi": "Bạn vừa chuyển đến căn hộ mới. Bạn nhờ Jake, bạn cùng phòng người Mỹ, vài việc, rồi hai người nói chuyện với ông hàng xóm.",
+            "lines": [
+                { "speaker": "Jake", "en": "Hey, how's the new place? Have you set up the Wi-Fi yet?", "vi": "Ê, nhà mới sao rồi? Cài Wi-Fi chưa?" },
+                { "speaker": "You", "en": "Not yet. I've been putting it off all week. Could you help me set it up tonight?", "vi": "Chưa. Cả tuần nay mình cứ lần lữa mãi. Tối nay bạn giúp mình cài được không?", "learnerTurn": true },
+                { "speaker": "Jake", "en": "Sure. Did you fill out the form from the internet company?", "vi": "Được. Bạn điền mẫu của công ty mạng chưa?" },
+                { "speaker": "You", "en": "Yes, I filled it out yesterday. Oh, and can you pick me up after work? My bike is at the repair shop.", "vi": "Rồi, hôm qua mình điền rồi. À, bạn đón mình sau giờ làm được không? Xe mình đang ở tiệm sửa.", "learnerTurn": true },
+                { "speaker": "Neighbor", "en": "Excuse me. Is that your music? It's very loud, and my baby is trying to sleep.", "vi": "Xin lỗi. Nhạc nhà cậu à? To quá, con tôi đang cố ngủ." },
+                { "speaker": "You", "en": "I'm so sorry. Jake, could you turn it down, please?", "vi": "Cháu xin lỗi ạ. Jake, bạn vặn nhỏ lại giúp được không?", "learnerTurn": true },
+                { "speaker": "Jake", "en": "Oh, sorry! I'll turn it off.", "vi": "Ôi, xin lỗi! Tôi tắt luôn đây." },
+                { "speaker": "Neighbor", "en": "Thank you. Welcome to the building, by the way.", "vi": "Cảm ơn. À mà chào mừng đến tòa nhà nhé." },
+                { "speaker": "You", "en": "Thank you. If you ever need someone to look after your plants when you're away, just let me know.", "vi": "Cảm ơn bác. Khi nào bác đi vắng cần người trông cây thì cứ bảo cháu.", "learnerTurn": true }
+            ]
+        },
+        {
+            "slug": "b2-08-catching-up",
+            "title": "Let's catch up",
+            "situationVi": "Bạn gặp lại Emma, bạn cũ người Anh, ở một quán cà phê sau hai năm. Emma kể chuyện buồn gần đây.",
+            "lines": [
+                { "speaker": "Emma", "en": "It's so good to see you! We have so much to catch up on.", "vi": "Gặp lại bạn vui quá! Bọn mình có bao nhiêu chuyện để kể." },
+                { "speaker": "You", "en": "I know! It's been ages. So, how are you and Tom?", "vi": "Đúng thế! Lâu lắm rồi. Thế bạn với Tom sao rồi?", "learnerTurn": true },
+                { "speaker": "Emma", "en": "Actually, we broke up in March.", "vi": "Thật ra bọn mình chia tay hồi tháng Ba rồi." },
+                { "speaker": "You", "en": "Oh no, I'm sorry. You were in a relationship for so long. What happened?", "vi": "Ôi, tiếc quá. Hai người yêu nhau lâu thế mà. Có chuyện gì vậy?", "learnerTurn": true },
+                { "speaker": "Emma", "en": "He kept letting me down. He always made up excuses and never came to my family's events.", "vi": "Anh ấy cứ làm mình thất vọng. Lúc nào cũng bịa lý do, chẳng bao giờ đến dự việc nhà mình." },
+                { "speaker": "You", "en": "That sounds hard. I couldn't put up with that either. Are you getting over it?", "vi": "Nghe khổ thật. Mình cũng không chịu nổi chuyện đó. Bạn đã đỡ hơn chưa?", "learnerTurn": true },
+                { "speaker": "Emma", "en": "Slowly. I've started working out, and it really helps.", "vi": "Từ từ. Mình bắt đầu đi tập, thấy đỡ hẳn." },
+                { "speaker": "You", "en": "Good for you. Don't give up. I'm sure everything will work out. Let's catch up more often, OK?", "vi": "Hay đấy. Đừng bỏ cuộc nhé. Mình chắc mọi chuyện sẽ ổn thôi. Bọn mình gặp nhau thường xuyên hơn nhé?", "learnerTurn": true },
+                { "speaker": "Emma", "en": "Definitely. Same time next month?", "vi": "Chắc chắn rồi. Tháng sau giờ này nhé?" }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "b2-08-l1-figure-it-out",
+            "title": "Figure it out",
+            "titleVi": "Giải quyết vấn đề",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "phrasal-verb-basics", "role": "INTRODUCE" },
+                { "item": "figure-out", "role": "INTRODUCE" },
+                { "item": "find-out", "role": "INTRODUCE" },
+                { "item": "give-up", "role": "INTRODUCE" },
+                { "item": "work-out", "role": "INTRODUCE" },
+                { "item": "ive-run-out-of", "role": "INTRODUCE" },
+                { "item": "we-need-to-come-up-with", "role": "INTRODUCE" },
+                { "item": "solution", "role": "INTRODUCE" },
+                { "item": "look-for", "role": "RECYCLE" },
+                { "item": "give-it-a-try", "role": "RECYCLE" },
+                { "item": "hurry-up", "role": "RECYCLE" },
+                { "item": "decide", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["figure-out", "find-out", "give-up", "work-out", "ive-run-out-of", "we-need-to-come-up-with", "solution"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Cụm động từ là gì?",
+                        "bodyVi": "Bạn đã gặp nhiều cụm: get up, **look for**, **hurry up**, turn off. Nghĩa của cụm thường không đoán được từ từng chữ, và người bản ngữ dùng chúng nhiều hơn từ trang trọng:\n\n| cụm động từ (nói) | từ trang trọng (viết) | nghĩa |\n|---|---|---|\n| **figure out** | understand, solve | hiểu ra, nghĩ ra |\n| **find out** | discover | biết được, tìm hiểu |\n| **give up** | quit | bỏ cuộc, bỏ |\n| **run out of** | have no … left | hết |\n| **come up with** | think of, create | nghĩ ra |\n| **work out** | be successful | ổn thỏa |\n\nChia thì ở động từ, tiểu từ giữ nguyên: We **ran out of** time. I'**ve** finally **figured** it **out**. It **worked out** in the end.\n\nSau give up là V-ing: give up **smoking**.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| I gave up to smoke. | I **gave up** smoking. |\n| We must think a new idea. | We need to **come up with** a new idea. |\n| I found that the shop was closed. (mới hỏi ra) | I **found out** that the shop was closed. |\n\n❌ give up to smoke ✅ **I gave up smoking.**",
+                        "items": ["phrasal-verb-basics", "figure-out", "find-out", "give-up", "work-out", "ive-run-out-of", "we-need-to-come-up-with", "look-for", "hurry-up"],
+                        "examples": [
+                            { "en": "I finally figured out how to fix it.", "vi": "Cuối cùng mình cũng nghĩ ra cách sửa.", "highlight": "figured out" },
+                            { "en": "We need to come up with a better plan.", "vi": "Mình cần nghĩ ra một kế hoạch tốt hơn.", "highlight": "come up with" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "ive-run-out-of",
+                        "prompts": [
+                            { "cueVi": "Mình hết cà phê rồi.", "slots": { "thing": "coffee" }, "answer": "I've run out of coffee." },
+                            { "cueVi": "Mình hết tiền rồi.", "slots": { "thing": "money" }, "answer": "I've run out of money." },
+                            { "cueVi": "Mình hết ý tưởng rồi.", "slots": { "thing": "ideas" }, "answer": "I've run out of ideas." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "we-need-to-come-up-with",
+                        "prompts": [
+                            { "cueVi": "Mình cần nghĩ ra một tên cho cửa hàng.", "slots": { "idea": "a name for the shop" }, "answer": "We need to come up with a name for the shop." },
+                            { "cueVi": "Mình cần nghĩ ra cách tiết kiệm tiền.", "slots": { "idea": "a way to save money" }, "answer": "We need to come up with a way to save money." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["figure-out", "find-out", "give-up", "work-out", "solution", "look-for"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "I can't figure out how this washing machine works.", "vi": "Mình không hiểu nổi cái máy giặt này chạy thế nào." },
+                            { "en": "Let me find out what time the shop opens.", "vi": "Để mình tìm hiểu xem mấy giờ cửa hàng mở." },
+                            { "en": "I've run out of coffee. Can I borrow some?", "vi": "Mình hết cà phê rồi. Cho mình mượn một ít được không?" },
+                            { "en": "Don't worry. I'm sure everything will work out.", "vi": "Đừng lo. Mình chắc mọi chuyện sẽ ổn thôi." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["She gave up to eat sugar.", "She gave up eating sugar.", "She gave sugar up eating."],
+                                "answer": 1,
+                                "item": "give-up"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nói với bạn bè, câu nào tự nhiên nhất?",
+                                "options": ["Let me discover what time the shop opens.", "Let me find out what time the shop opens.", "Let me find what time the shop opens out."],
+                                "answer": 1,
+                                "item": "find-out"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "We need to come up ___ a better plan.",
+                                "answers": ["with"],
+                                "item": "we-need-to-come-up-with"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "I've run out of coffee. Can I borrow some?",
+                                "options": ["Mình hết cà phê rồi. Cho mình mượn một ít được không?", "Mình chạy ra quán cà phê đây.", "Cà phê đổ hết rồi. Mình lau giúp nhé?"],
+                                "answer": 0,
+                                "item": "ive-run-out-of"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Mình không hiểu nổi cái máy giặt này chạy thế nào.",
+                                "answer": "I can't figure out how this washing machine works.",
+                                "item": "figure-out"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b2-08-l2-turn-it-down",
+            "title": "Turn it down",
+            "titleVi": "Tách hay không tách",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "separable-phrasal-verbs", "role": "INTRODUCE" },
+                { "item": "put-off", "role": "INTRODUCE" },
+                { "item": "turn-down", "role": "INTRODUCE" },
+                { "item": "pick-up", "role": "INTRODUCE" },
+                { "item": "set-up", "role": "INTRODUCE" },
+                { "item": "fill-out", "role": "INTRODUCE" },
+                { "item": "look-after", "role": "INTRODUCE" },
+                { "item": "could-you-it-please", "role": "INTRODUCE" },
+                { "item": "turn-off", "role": "RECYCLE" },
+                { "item": "check-in", "role": "RECYCLE" },
+                { "item": "get-up", "role": "RECYCLE" },
+                { "item": "postpone", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["put-off", "turn-down", "pick-up", "set-up", "fill-out", "look-after", "could-you-it-please"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "turn it off, ❌ turn off it",
+                        "bodyVi": "Cụm động từ có tân ngữ chia hai loại:\n\n| loại | danh từ | đại từ (it, them, me…) |\n|---|---|---|\n| **tách được** | **turn off** the light / turn the light **off** | turn **it** off (❌ turn off it) |\n| | **pick up** my sister / pick my sister **up** | pick **her** up (❌ pick up her) |\n| **không tách** | **look after** the kids | look after **them** (❌ look them after) |\n\nQuy tắc dễ nhớ: **đại từ luôn chen vào giữa** cụm tách được.\n\n| cụm (tách được) | nghĩa | ví dụ |\n|---|---|---|\n| **put off** | hoãn (= **postpone**) | Stop putting **it** off! |\n| **turn down** | vặn nhỏ; từ chối | Could you turn **it** down? / She turned **the job** down. |\n| **pick up** | đón; nhặt | Can you pick **me** up at six? |\n| **set up** | cài đặt | I'll set **it** up for you. |\n| **fill out** | điền | Please fill **it** out. |\n\nMột số cụm không có tân ngữ: **get up**, **check in**, hurry up.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| Turn off it, please. | Turn **it** off, please. |\n| Can you pick up me at six? | Can you pick **me** up at six? |\n| Can you look my cat after? | Can you **look after** my cat? |\n\n❌ turn off it ❌ pick up me ✅ **Could you turn it off? Can you pick me up?**",
+                        "items": ["separable-phrasal-verbs", "put-off", "turn-down", "pick-up", "set-up", "fill-out", "look-after", "could-you-it-please", "turn-off", "postpone", "get-up", "check-in"],
+                        "examples": [
+                            { "en": "The music is too loud. Could you turn it down?", "vi": "Nhạc to quá. Bạn vặn nhỏ lại được không?", "highlight": "turn it down" },
+                            { "en": "Can you pick me up at the airport at six?", "vi": "Sáu giờ bạn ra sân bay đón mình được không?", "highlight": "pick me up" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "could-you-it-please",
+                        "prompts": [
+                            { "cueVi": "Bạn vặn nhỏ nó lại giúp được không?", "slots": { "verb": "turn", "particle": "down" }, "answer": "Could you turn it down, please?" },
+                            { "cueVi": "Bạn tắt nó đi giúp được không?", "slots": { "verb": "turn", "particle": "off" }, "answer": "Could you turn it off, please?" },
+                            { "cueVi": "Bạn điền nó giúp được không?", "slots": { "verb": "fill", "particle": "out" }, "answer": "Could you fill it out, please?" },
+                            { "cueVi": "Bạn cài đặt nó giúp được không?", "slots": { "verb": "set", "particle": "up" }, "answer": "Could you set it up, please?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["put-off", "turn-down", "pick-up", "set-up", "fill-out", "look-after", "turn-off"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b2-08-new-apartment", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["It's too loud. Could you turn down it?", "It's too loud. Could you turn it down?", "It's too loud. Could you down turn it?"],
+                                "answer": 1,
+                                "item": "separable-phrasal-verbs"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["Can you look my dog after this weekend?", "Can you look after my dog this weekend?", "Can you after look my dog this weekend?"],
+                                "answer": 1,
+                                "item": "look-after"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Can you pick ___ up at the airport at six?",
+                                "hintVi": "đại từ: mình",
+                                "answers": ["me"],
+                                "item": "pick-up"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "She turned down the job because the salary was too low.",
+                                "options": ["Cô ấy từ chối công việc vì lương quá thấp.", "Cô ấy bị mất việc vì lương thấp.", "Cô ấy nhận việc dù lương thấp."],
+                                "answer": 0,
+                                "item": "turn-down"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Đừng trì hoãn nữa. Gọi nha sĩ đi!",
+                                "answer": "Stop putting it off. Just call the dentist!",
+                                "item": "put-off"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b2-08-l3-break-up",
+            "title": "Get over it",
+            "titleVi": "Chuyện tình cảm, bạn bè",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "three-part-phrasal-verbs", "role": "INTRODUCE" },
+                { "item": "get-over", "role": "INTRODUCE" },
+                { "item": "break-up", "role": "INTRODUCE" },
+                { "item": "make-up", "role": "INTRODUCE" },
+                { "item": "catch-up-with", "role": "INTRODUCE" },
+                { "item": "let-down", "role": "INTRODUCE" },
+                { "item": "i-cant-put-up-with", "role": "INTRODUCE" },
+                { "item": "relationship", "role": "INTRODUCE" },
+                { "item": "get-along-with", "role": "RECYCLE" },
+                { "item": "look-forward-to", "role": "RECYCLE" },
+                { "item": "its-been-ages", "role": "RECYCLE" },
+                { "item": "work-out", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["get-over", "break-up", "make-up", "catch-up-with", "let-down", "i-cant-put-up-with", "relationship"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Cụm ba chữ: không bao giờ tách",
+                        "bodyVi": "Cụm ba chữ (động từ + tiểu từ + giới từ) luôn đi liền, tân ngữ ở cuối, kể cả đại từ:\n\n| cụm | nghĩa | ví dụ |\n|---|---|---|\n| **put up with** | chịu đựng | I **can't put up with** it any more. |\n| **catch up with** | gặp lại hàn huyên | Let's **catch up with** Lan this weekend. |\n| **break up with** | chia tay (ai) | She **broke up with** him. |\n| **get along with** | hợp nhau (A2 11) | I **get along with** my boss. |\n| **look forward to** | mong chờ (B1 10) | I'm **looking forward to** it. |\n\nKhông có tân ngữ thì bỏ giới từ: They **broke up**. Let's **catch up** soon. We **made up**.\n\nHai cụm khác về tình cảm: **get over** (vượt qua, không tách: get over **it**), **let down** (làm thất vọng, tách được: let **me** down).\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| She broke up her boyfriend. | She **broke up with** her boyfriend. |\n| I can't put it up with. | I can't **put up with** it. |\n| Don't let down me. | Don't **let me down**. |\n\n❌ broke up her boyfriend ✅ **She broke up with her boyfriend.**",
+                        "items": ["three-part-phrasal-verbs", "get-over", "break-up", "make-up", "catch-up-with", "let-down", "i-cant-put-up-with", "relationship", "get-along-with", "look-forward-to"],
+                        "examples": [
+                            { "en": "I can't put up with the noise any more.", "vi": "Mình không chịu nổi tiếng ồn nữa rồi.", "highlight": "put up with" },
+                            { "en": "It took her a long time to get over the breakup.", "vi": "Cô ấy mất rất lâu mới vượt qua được chuyện chia tay.", "highlight": "get over" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "i-cant-put-up-with",
+                        "prompts": [
+                            { "cueVi": "Mình không chịu nổi tiếng ồn nữa.", "slots": { "thing": "the noise" }, "answer": "I can't put up with the noise any more." },
+                            { "cueVi": "Mình không chịu nổi mấy lời bào chữa của anh ta nữa.", "slots": { "thing": "his excuses" }, "answer": "I can't put up with his excuses any more." },
+                            { "cueVi": "Mình không chịu nổi cảnh làm việc mọi cuối tuần nữa.", "slots": { "thing": "working every weekend" }, "answer": "I can't put up with working every weekend any more." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["get-over", "break-up", "make-up", "catch-up-with", "let-down", "relationship", "its-been-ages"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b2-08-catching-up", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["Lan broke up her boyfriend.", "Lan broke up with her boyfriend.", "Lan broke her boyfriend up with."],
+                                "answer": 1,
+                                "item": "break-up"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I can't put it up with any more.", "I can't put up it with any more.", "I can't put up with it any more."],
+                                "answer": 2,
+                                "item": "three-part-phrasal-verbs"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I promised to help, and I don't want to let him ___.",
+                                "hintVi": "làm thất vọng",
+                                "answers": ["down"],
+                                "item": "let-down"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "They had a big fight, but they made up the next day.",
+                                "options": ["Họ cãi nhau to, nhưng hôm sau đã làm lành.", "Họ cãi nhau to rồi hôm sau bịa chuyện.", "Họ cãi nhau to và hôm sau chia tay."],
+                                "answer": 0,
+                                "item": "make-up"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Đi cà phê hàn huyên đi. Lâu lắm rồi!",
+                                "answer": "Let's get coffee and catch up. It's been ages!",
+                                "item": "catch-up-with"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "b2-08-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["The light is on. Turn off it, please.", "The light is on. Turn it off, please.", "The light is on. Off turn it, please."],
+                "answer": 1,
+                "item": "separable-phrasal-verbs"
+            },
+            {
+                "kind": "gap",
+                "sentence": "I've run ___ of money, so I can't come.",
+                "answers": ["out"],
+                "item": "ive-run-out-of"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nói với bạn bè, câu nào tự nhiên nhất?",
+                "options": ["We have to postpone the party.", "We have to put off the party.", "We have to put the party of."],
+                "answer": 1,
+                "item": "put-off"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["It took him months to get over the breakup.", "It took him months to get the breakup over.", "It took him months to over get the breakup."],
+                "answer": 0,
+                "item": "get-over"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "Don't give up. You're almost there!",
+                "options": ["Đừng bỏ cuộc. Sắp tới đích rồi!", "Đừng đứng dậy. Bạn đến nơi rồi!", "Đừng cho đi. Bạn gần xong rồi!"],
+                "answer": 0,
+                "item": "give-up"
+            },
+            {
+                "kind": "order",
+                "vi": "Mẹ mình trông con giúp khi mình đi làm.",
+                "answer": "My mom looks after my kids when I'm at work.",
+                "item": "look-after"
+            }
+        ]
+    }
+}

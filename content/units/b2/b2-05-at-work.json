@@ -1,0 +1,796 @@
+{
+    "slug": "b2-05-at-work",
+    "stage": "b2",
+    "order": 5,
+    "title": "At work",
+    "titleVi": "Email, họp và từ chối khéo",
+    "descriptionVi": "Viết email công việc trang trọng (I'm writing to…, Please find attached…, Could you let me know…?), đề xuất trong cuộc họp (I'd suggest…, Would it be possible to…?, Let's move on to…), và từ chối khéo kèm một phương án khác (I'd love to, but…, What if we…?).",
+    "canDo": [
+        "Tôi viết được một email công việc ngắn, trang trọng: nêu mục đích, gửi kèm tài liệu, hỏi thông tin và hẹn trả lời.",
+        "Tôi đưa ra được đề xuất trong cuộc họp và nói được ai phụ trách việc gì.",
+        "Tôi từ chối được một yêu cầu công việc một cách lịch sự và đề nghị cách làm khác."
+    ],
+    "items": [
+        {
+            "slug": "formal-email",
+            "type": "GRAMMAR",
+            "text": "email trang trọng: mở, nêu mục đích, nhờ, kết",
+            "meaningVi": "văn phong email công việc",
+            "examples": [
+                { "en": "I'm writing to ask about the new schedule.", "vi": "Tôi viết email này để hỏi về lịch mới.", "highlight": "I'm writing to ask about" }
+            ],
+            "grammar": {
+                "ruleVi": "Email công việc có khung cố định: chào (Dear Ms. Lan, / Hi Tom,), nêu mục đích ngay câu đầu (I'm writing to…), nội dung, nhờ việc bằng câu hỏi lịch sự (Could you…? / Could you let me know…?), kết (I look forward to hearing from you. / Best regards,). Trang trọng thì dùng câu đầy đủ, tránh viết tắt kiểu \"pls\", \"asap\", và không mở đầu bằng \"I want…\".",
+                "forms": [
+                    { "label": "mở", "example": "Dear Mr. Brown, / Hi Tom," },
+                    { "label": "mục đích", "example": "I'm writing to confirm our meeting on Friday." },
+                    { "label": "gửi kèm", "example": "Please find attached the report." },
+                    { "label": "nhờ", "example": "Could you let me know if the date works for you?" },
+                    { "label": "kết", "example": "I look forward to hearing from you. Best regards, Minh" }
+                ],
+                "pitfallsVi": [
+                    "\"I want you send me the file\" → Could you send me the file, please?",
+                    "\"I look forward to hear from you\" → I look forward to hearing from you. (to + V-ing)",
+                    "\"Dear Mr. Minh\" với tên riêng người Việt → Dear Mr. Nguyen (họ) hoặc Dear Minh (tên, thân hơn)."
+                ]
+            }
+        },
+        {
+            "slug": "im-writing-to",
+            "type": "PATTERN",
+            "text": "I'm writing to ….",
+            "meaningVi": "Tôi viết email này để ….",
+            "examples": [
+                { "en": "I'm writing to confirm our meeting on Friday.", "vi": "Tôi viết email này để xác nhận cuộc họp thứ Sáu.", "highlight": "I'm writing to confirm" }
+            ],
+            "pattern": {
+                "template": "I'm writing to {purpose}.",
+                "slots": [
+                    { "name": "purpose", "hintVi": "mục đích (động từ nguyên mẫu)", "options": ["confirm our meeting on Friday", "ask about the new schedule", "apply for the marketing job", "follow up on my last email", "thank you for your help"] }
+                ]
+            },
+            "noteVi": "Câu mở đầu email thường gặp nhất, nêu ngay mục đích. Trả lời email: Thank you for your email. / Thanks for getting back to me."
+        },
+        {
+            "slug": "please-find-attached",
+            "type": "PHRASE",
+            "text": "Please find attached ….",
+            "meaningVi": "Tôi gửi kèm ….",
+            "examples": [
+                { "en": "Please find attached the report for this month.", "vi": "Tôi gửi kèm báo cáo tháng này.", "highlight": "Please find attached" }
+            ],
+            "noteVi": "Rất trang trọng. Thân hơn: I've attached the report. / Here's the report. Nhớ đính kèm thật, nếu không sẽ phải gửi \"Sorry, I forgot the attachment!\"."
+        },
+        {
+            "slug": "could-you-let-me-know",
+            "type": "PATTERN",
+            "text": "Could you let me know …?",
+            "meaningVi": "Anh / chị cho tôi biết … được không?",
+            "examples": [
+                { "en": "Could you let me know if Friday works for you?", "vi": "Anh cho tôi biết thứ Sáu anh có tiện không nhé?", "highlight": "Could you let me know if" }
+            ],
+            "pattern": {
+                "template": "Could you let me know {question}?",
+                "slots": [
+                    { "name": "question", "hintVi": "if / when / what … (trật tự câu kể)", "options": ["if Friday works for you", "when you are free", "what time the meeting starts", "how much it costs", "who is in charge of the project"] }
+                ]
+            },
+            "noteVi": "Sau let me know là câu hỏi gián tiếp, trật tự câu kể: ❌ \"let me know when are you free\" → let me know when you are free. Có / không thì dùng if (whether, B1 09)."
+        },
+        {
+            "slug": "regarding",
+            "type": "LEXICAL",
+            "text": "regarding",
+            "meaningVi": "về (việc), liên quan đến",
+            "ipa": "/rɪˈɡɑːrdɪŋ/",
+            "examples": [
+                { "en": "I have a question regarding the contract.", "vi": "Tôi có một câu hỏi về hợp đồng.", "highlight": "regarding" }
+            ],
+            "noteVi": "Trang trọng hơn about. Hay dùng làm tiêu đề email: Regarding: Friday's meeting (viết tắt Re:)."
+        },
+        {
+            "slug": "attach",
+            "type": "LEXICAL",
+            "text": "attach",
+            "meaningVi": "đính kèm",
+            "ipa": "/əˈtætʃ/",
+            "examples": [
+                { "en": "I've attached the photos to this email.", "vi": "Mình đã đính kèm ảnh vào email này.", "highlight": "attached" }
+            ],
+            "noteVi": "attach something to an email. Tệp đính kèm: an attachment. ❌ \"attach with\"."
+        },
+        {
+            "slug": "deadline",
+            "type": "LEXICAL",
+            "text": "deadline",
+            "meaningVi": "hạn chót",
+            "ipa": "/ˈdedlaɪn/",
+            "examples": [
+                { "en": "The deadline for the report is next Monday.", "vi": "Hạn nộp báo cáo là thứ Hai tuần sau.", "highlight": "deadline" }
+            ],
+            "noteVi": "meet a deadline (kịp hạn), miss a deadline (trễ hạn). ❌ \"do the deadline\"."
+        },
+        {
+            "slug": "confirm",
+            "type": "LEXICAL",
+            "text": "confirm",
+            "meaningVi": "xác nhận",
+            "ipa": "/kənˈfɜːrm/",
+            "examples": [
+                { "en": "Could you confirm the time of the meeting?", "vi": "Anh xác nhận giúp giờ họp nhé?", "highlight": "confirm" }
+            ],
+            "noteVi": "confirm + something / that…. Danh từ: confirmation (a confirmation email)."
+        },
+        {
+            "slug": "making-suggestions",
+            "type": "GRAMMAR",
+            "text": "I'd suggest + V-ing / that…; Would it be possible to + V?; Why don't we / Let's",
+            "meaningVi": "đề xuất trong công việc",
+            "examples": [
+                { "en": "I'd suggest moving the meeting to Thursday.", "vi": "Tôi đề nghị dời cuộc họp sang thứ Năm.", "highlight": "I'd suggest moving" }
+            ],
+            "grammar": {
+                "ruleVi": "Ở chỗ làm, đề xuất thường nói gián tiếp cho mềm. suggest đi với V-ing hoặc that + mệnh đề, không đi với to V hay tân ngữ người. Nhờ hoặc xin phép một việc khó: Would it be possible to…? Giữa đồng nghiệp thân: Why don't we…? / Let's….",
+                "forms": [
+                    { "label": "suggest + V-ing", "example": "I'd suggest starting earlier." },
+                    { "label": "suggest that", "example": "I'd suggest that we ask the client first." },
+                    { "label": "xin một việc khó", "example": "Would it be possible to get the report by Friday?" },
+                    { "label": "thân mật", "example": "Why don't we take a short break?" }
+                ],
+                "pitfallsVi": [
+                    "\"I suggest you to call him\" → I suggest calling him. / I suggest that you call him.",
+                    "\"Would it be possible that you send…\" → Would it be possible to send…? / Could you possibly send…?",
+                    "\"I propose to postpone\" nghe cứng → I'd suggest postponing…"
+                ]
+            }
+        },
+        {
+            "slug": "id-suggest",
+            "type": "PATTERN",
+            "text": "I'd suggest ….",
+            "meaningVi": "Tôi đề nghị là ….",
+            "examples": [
+                { "en": "I'd suggest asking the client first.", "vi": "Tôi đề nghị mình hỏi khách hàng trước.", "highlight": "I'd suggest asking" }
+            ],
+            "pattern": {
+                "template": "I'd suggest {doing}.",
+                "slots": [
+                    { "name": "doing", "hintVi": "V-ing", "options": ["asking the client first", "moving the meeting to Thursday", "starting a bit earlier", "sending them a reminder", "taking a short break"] }
+                ]
+            },
+            "noteVi": "I'd = I would, làm câu mềm hơn I suggest. Nối tiếp suggest (B2 01): suggest + V-ing, ❌ \"suggest to do\"."
+        },
+        {
+            "slug": "would-it-be-possible-to",
+            "type": "PATTERN",
+            "text": "Would it be possible to …?",
+            "meaningVi": "Liệu có thể … được không?",
+            "examples": [
+                { "en": "Would it be possible to change the date?", "vi": "Liệu có đổi ngày được không ạ?", "highlight": "Would it be possible to change" }
+            ],
+            "pattern": {
+                "template": "Would it be possible to {do}?",
+                "slots": [
+                    { "name": "do", "hintVi": "động từ nguyên mẫu", "options": ["change the date", "get the report by Friday", "work from home tomorrow", "have a few more days", "meet online instead"] }
+                ]
+            },
+            "noteVi": "Rất lịch sự, hợp khi nhờ việc khó hoặc nói với cấp trên, khách hàng. Nhẹ hơn: Could I…? / Is it OK if I…?"
+        },
+        {
+            "slug": "lets-move-on",
+            "type": "PHRASE",
+            "text": "Let's move on to ….",
+            "meaningVi": "Mình chuyển sang … nhé.",
+            "examples": [
+                { "en": "OK, let's move on to the next point.", "vi": "Được rồi, mình chuyển sang ý tiếp theo nhé.", "highlight": "let's move on to" }
+            ],
+            "noteVi": "Người chủ trì dùng để chuyển mục trong cuộc họp. Mở đầu: Let's get started. Kết: I think that's everything for today."
+        },
+        {
+            "slug": "in-charge-of",
+            "type": "PHRASE",
+            "text": "be in charge of …",
+            "meaningVi": "phụ trách …",
+            "examples": [
+                { "en": "Linh is in charge of the new website.", "vi": "Linh phụ trách trang web mới.", "highlight": "in charge of" }
+            ],
+            "noteVi": "Sau of là danh từ hoặc V-ing: in charge of hiring. Hỏi: Who's in charge of…? Khác charge (B2 04, tính tiền)."
+        },
+        {
+            "slug": "agenda",
+            "type": "LEXICAL",
+            "text": "agenda",
+            "meaningVi": "chương trình họp, danh sách việc cần bàn",
+            "ipa": "/əˈdʒendə/",
+            "examples": [
+                { "en": "There are three points on the agenda today.", "vi": "Hôm nay có ba mục cần bàn.", "highlight": "agenda" }
+            ],
+            "noteVi": "on the agenda (có trong chương trình). Không phải \"sổ lịch\" như tiếng Pháp; sổ tay lịch hẹn là planner."
+        },
+        {
+            "slug": "propose",
+            "type": "LEXICAL",
+            "text": "propose",
+            "meaningVi": "đề xuất (chính thức)",
+            "ipa": "/prəˈpoʊz/",
+            "examples": [
+                { "en": "The manager proposed a new plan for next year.", "vi": "Quản lý đề xuất một kế hoạch mới cho năm sau.", "highlight": "proposed" }
+            ],
+            "noteVi": "Trang trọng hơn suggest, hay dùng với kế hoạch, ý tưởng: propose a plan / an idea. Danh từ: proposal. Còn nghĩa \"cầu hôn\": He proposed to her."
+        },
+        {
+            "slug": "postpone",
+            "type": "LEXICAL",
+            "text": "postpone",
+            "meaningVi": "hoãn, dời lại",
+            "ipa": "/poʊstˈpoʊn/",
+            "examples": [
+                { "en": "We had to postpone the meeting until next week.", "vi": "Bọn mình phải hoãn cuộc họp sang tuần sau.", "highlight": "postpone" }
+            ],
+            "noteVi": "postpone + something / V-ing. Hoãn hẳn: cancel (B1 08). Nói thường: put off (B2 08)."
+        },
+        {
+            "slug": "softening-refusals",
+            "type": "GRAMMAR",
+            "text": "từ chối khéo: cảm ơn / tiếc + lý do + phương án khác",
+            "meaningVi": "cách nói \"không\" lịch sự ở chỗ làm",
+            "examples": [
+                { "en": "I'd love to help, but I'm working on another deadline.", "vi": "Tôi rất muốn giúp, nhưng tôi đang chạy một hạn khác.", "highlight": "I'd love to help, but" }
+            ],
+            "grammar": {
+                "ruleVi": "Người bản ngữ ít khi nói thẳng \"No\" ở chỗ làm. Một câu từ chối khéo có ba phần: làm mềm (I'd love to, but… / I'm afraid… / Unfortunately…), lý do ngắn, và phương án khác (What if we…? / I could… instead). Tránh \"I can't\" trống trơn và tránh nói dối lý do quá dài.",
+                "forms": [
+                    { "label": "làm mềm + lý do", "example": "I'm afraid I can't make it on Friday. I have a client visit." },
+                    { "label": "muốn nhưng không được", "example": "I'd love to, but my workload is quite heavy this week." },
+                    { "label": "phương án khác", "example": "What if we move it to Monday?" },
+                    { "label": "nói điều kiện", "example": "I can do it if the deadline is flexible." }
+                ],
+                "pitfallsVi": [
+                    "\"No, I can't. I'm busy.\" nghe cộc → I'm afraid I can't. I'm busy with the report.",
+                    "\"I'd love to, but I can't to\" → I'd love to, but I can't.",
+                    "\"What if we will move it?\" → What if we move it?"
+                ]
+            }
+        },
+        {
+            "slug": "id-love-to-but",
+            "type": "PATTERN",
+            "text": "I'd love to, but ….",
+            "meaningVi": "Tôi rất muốn, nhưng ….",
+            "examples": [
+                { "en": "I'd love to, but I'm fully booked this week.", "vi": "Tôi rất muốn, nhưng tuần này tôi kín lịch rồi.", "highlight": "I'd love to, but" }
+            ],
+            "pattern": {
+                "template": "I'd love to, but {reason}.",
+                "slots": [
+                    { "name": "reason", "hintVi": "lý do", "options": ["I'm fully booked this week", "I have another deadline", "my workload is quite heavy", "I'm meeting a client then", "I won't be in the office"] }
+                ]
+            },
+            "noteVi": "Nối tiếp I'd love to (A2 04, nhận lời). Thêm but + lý do là thành từ chối. Có thể thêm Maybe another time. hoặc một đề nghị khác."
+        },
+        {
+            "slug": "what-if-we",
+            "type": "PATTERN",
+            "text": "What if we …?",
+            "meaningVi": "Hay là mình … nhé?",
+            "examples": [
+                { "en": "What if we split the work between us?", "vi": "Hay là mình chia việc cho nhau nhé?", "highlight": "What if we split" }
+            ],
+            "pattern": {
+                "template": "What if we {do}?",
+                "slots": [
+                    { "name": "do", "hintVi": "động từ hiện tại đơn", "options": ["move it to Monday", "split the work between us", "ask Nam to help", "do it online", "push the deadline back"] }
+                ]
+            },
+            "noteVi": "Đưa phương án khác, động từ ở hiện tại đơn (❌ \"What if we will…\"). Giả định xa hơn, xem B2 11."
+        },
+        {
+            "slug": "on-short-notice",
+            "type": "PHRASE",
+            "text": "on short notice",
+            "meaningVi": "gấp, báo trước ít thời gian",
+            "examples": [
+                { "en": "Sorry, I can't come to the meeting on such short notice.", "vi": "Xin lỗi, báo gấp thế này tôi không đến họp được.", "highlight": "on such short notice" }
+            ],
+            "noteVi": "Kiểu Mỹ; kiểu Anh: at short notice. Cảm ơn ai giúp gấp: Thanks for doing this on short notice."
+        },
+        {
+            "slug": "workload",
+            "type": "LEXICAL",
+            "text": "workload",
+            "meaningVi": "khối lượng công việc",
+            "ipa": "/ˈwɜːrkloʊd/",
+            "examples": [
+                { "en": "My workload is really heavy this month.", "vi": "Tháng này việc của mình nhiều thật.", "highlight": "workload" }
+            ],
+            "noteVi": "a heavy / light workload. Không đếm được như a lot of work, không nói \"workloads\" cho một người."
+        },
+        {
+            "slug": "priority",
+            "type": "LEXICAL",
+            "text": "priority",
+            "meaningVi": "việc ưu tiên",
+            "ipa": "/praɪˈɔːrəti/",
+            "examples": [
+                { "en": "The client's project is our top priority right now.", "vi": "Dự án của khách hàng là ưu tiên số một của mình lúc này.", "highlight": "priority" }
+            ],
+            "noteVi": "top priority (ưu tiên hàng đầu). Động từ: prioritize (sắp theo thứ tự ưu tiên)."
+        },
+        {
+            "slug": "flexible",
+            "type": "LEXICAL",
+            "text": "flexible",
+            "meaningVi": "linh hoạt",
+            "ipa": "/ˈfleksəbəl/",
+            "examples": [
+                { "en": "Is the deadline flexible, or does it have to be Friday?", "vi": "Hạn có linh hoạt được không, hay phải là thứ Sáu?", "highlight": "flexible" }
+            ],
+            "noteVi": "flexible hours (giờ làm linh hoạt). Hỏi khéo: Is there any flexibility on the date?"
+        },
+        {
+            "slug": "realistic",
+            "type": "LEXICAL",
+            "text": "realistic",
+            "meaningVi": "thực tế, khả thi",
+            "ipa": "/ˌriːəˈlɪstɪk/",
+            "examples": [
+                { "en": "I don't think that deadline is realistic.", "vi": "Mình không nghĩ hạn đó khả thi.", "highlight": "realistic" }
+            ],
+            "noteVi": "Hay dùng để phản đối nhẹ nhàng: I'm not sure that's realistic. Trái nghĩa: unrealistic."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "b2-05-team-meeting",
+            "title": "Let's move on",
+            "situationVi": "Bạn họp nhóm hằng tuần với chị Sarah, trưởng nhóm, và anh Nam. Nhóm đang làm trang web mới cho một khách hàng.",
+            "lines": [
+                { "speaker": "Sarah", "en": "OK, let's get started. First on the agenda is the new website. How's it going?", "vi": "Được rồi, mình bắt đầu nhé. Mục đầu tiên là trang web mới. Tiến độ thế nào?" },
+                { "speaker": "You", "en": "It's going well, but the client wants to add a shop page. I'd suggest asking them for another week.", "vi": "Ổn chị ạ, nhưng khách muốn thêm trang bán hàng. Em đề nghị mình xin họ thêm một tuần.", "learnerTurn": true },
+                { "speaker": "Sarah", "en": "Hmm. They really want it by the fifteenth.", "vi": "Hừm. Họ rất muốn có trước ngày mười lăm." },
+                { "speaker": "You", "en": "I understand. Would it be possible to launch without the shop page first and add it later?", "vi": "Em hiểu. Liệu mình có thể ra mắt trước khi chưa có trang bán hàng, rồi thêm sau được không ạ?", "learnerTurn": true },
+                { "speaker": "Nam", "en": "That could work. Who's going to talk to the client?", "vi": "Cách đó được đấy. Ai sẽ nói với khách?" },
+                { "speaker": "You", "en": "I can do it. I'm in charge of the client emails anyway.", "vi": "Để em. Dù sao em cũng phụ trách email với khách.", "learnerTurn": true },
+                { "speaker": "Sarah", "en": "Great. Please confirm with them by Wednesday.", "vi": "Tốt. Em xác nhận với họ trước thứ Tư nhé." },
+                { "speaker": "You", "en": "Sure. I'll send you a copy of the email. Shall we move on to the next point?", "vi": "Vâng. Em sẽ gửi chị một bản email. Mình chuyển sang ý tiếp theo nhé?", "learnerTurn": true },
+                { "speaker": "Sarah", "en": "Yes. Next is the budget.", "vi": "Ừ. Tiếp theo là ngân sách." }
+            ]
+        },
+        {
+            "slug": "b2-05-extra-task",
+            "title": "I'd love to, but…",
+            "situationVi": "Anh David, quản lý của một phòng khác, nhờ bạn làm gấp một bài thuyết trình. Tuần này bạn đã rất nhiều việc.",
+            "lines": [
+                { "speaker": "David", "en": "Hi, do you have a minute? I need someone to prepare a presentation for Thursday.", "vi": "Chào em, có rảnh một phút không? Anh cần người chuẩn bị bài thuyết trình cho thứ Năm." },
+                { "speaker": "You", "en": "I'd love to help, but my workload is really heavy this week.", "vi": "Em rất muốn giúp, nhưng tuần này em nhiều việc lắm.", "learnerTurn": true },
+                { "speaker": "David", "en": "I know it's on short notice. It's only ten slides.", "vi": "Anh biết là gấp. Chỉ mười slide thôi." },
+                { "speaker": "You", "en": "I'm afraid Thursday isn't realistic for me. The client report is my top priority right now.", "vi": "Em e là thứ Năm không kịp với em. Báo cáo cho khách là ưu tiên số một của em lúc này.", "learnerTurn": true },
+                { "speaker": "David", "en": "I see. Is there anything you can do?", "vi": "Anh hiểu. Em có giúp được phần nào không?" },
+                { "speaker": "You", "en": "What if I do the first five slides, and Linh does the rest? Or is the deadline flexible?", "vi": "Hay em làm năm slide đầu, còn Linh làm phần còn lại? Hoặc hạn có lùi được không anh?", "learnerTurn": true },
+                { "speaker": "David", "en": "Friday would be OK, actually.", "vi": "Thật ra thứ Sáu cũng được." },
+                { "speaker": "You", "en": "Then I can do all of it by Friday. Could you send me the notes today?", "vi": "Vậy thứ Sáu em làm hết được. Anh gửi em ghi chú trong hôm nay được không?", "learnerTurn": true },
+                { "speaker": "David", "en": "Sure. Thanks a lot, I really appreciate it.", "vi": "Được. Cảm ơn em nhiều, anh rất cảm kích." }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "b2-05-l1-email",
+            "title": "I'm writing to…",
+            "titleVi": "Viết email công việc",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "formal-email", "role": "INTRODUCE" },
+                { "item": "im-writing-to", "role": "INTRODUCE" },
+                { "item": "please-find-attached", "role": "INTRODUCE" },
+                { "item": "could-you-let-me-know", "role": "INTRODUCE" },
+                { "item": "regarding", "role": "INTRODUCE" },
+                { "item": "attach", "role": "INTRODUCE" },
+                { "item": "deadline", "role": "INTRODUCE" },
+                { "item": "confirm", "role": "INTRODUCE" },
+                { "item": "look-forward-to", "role": "RECYCLE" },
+                { "item": "email", "role": "RECYCLE" },
+                { "item": "polite-requests", "role": "RECYCLE" },
+                { "item": "would-you-mind", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["im-writing-to", "please-find-attached", "could-you-let-me-know", "regarding", "attach", "deadline", "confirm"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Khung một email công việc",
+                        "bodyVi": "Email công việc tiếng Anh ngắn và đi thẳng vào việc. Khung năm phần:\n\n| phần | trang trọng | thân hơn (đồng nghiệp) |\n|---|---|---|\n| chào | Dear Ms. Tran, | Hi Tom, |\n| mục đích | **I'm writing to** ask **regarding** the contract. | Just a quick question about the contract. |\n| gửi kèm | **Please find attached** the report. | I've **attached** the report. |\n| nhờ | **Could you let me know** if Friday works? | Does Friday work for you? |\n| kết | I **look forward to** hearing from you. Best regards, | Thanks! Talk soon, |\n\nCâu hỏi sau **let me know** là câu gián tiếp, trật tự câu kể: let me know **when you are** free, let me know **if** the **deadline** is OK.\n\nNhờ việc: Could you…? / **Would you mind** + V-ing…? (B1 07), không mở đầu bằng I want.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| I want you send me the file. | **Could you** send me the file, please? |\n| Please let me know when are you free. | Please let me know when **you are** free. |\n| I look forward to hear from you. | I look forward to **hearing** from you. |\n\n❌ I want you send me ❌ let me know when are you free ✅ **Could you let me know when you are free?**",
+                        "items": ["formal-email", "im-writing-to", "please-find-attached", "could-you-let-me-know", "regarding", "attach", "deadline", "look-forward-to", "would-you-mind"],
+                        "examples": [
+                            { "en": "I'm writing to confirm our meeting on Friday.", "vi": "Tôi viết email này để xác nhận cuộc họp thứ Sáu.", "highlight": "I'm writing to confirm" },
+                            { "en": "Could you let me know if Friday works for you?", "vi": "Anh cho tôi biết thứ Sáu anh có tiện không nhé?", "highlight": "Could you let me know if" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "im-writing-to",
+                        "prompts": [
+                            { "cueVi": "Tôi viết email này để xác nhận cuộc họp thứ Sáu.", "slots": { "purpose": "confirm our meeting on Friday" }, "answer": "I'm writing to confirm our meeting on Friday." },
+                            { "cueVi": "Tôi viết email này để hỏi về lịch mới.", "slots": { "purpose": "ask about the new schedule" }, "answer": "I'm writing to ask about the new schedule." },
+                            { "cueVi": "Tôi viết email này để ứng tuyển vị trí marketing.", "slots": { "purpose": "apply for the marketing job" }, "answer": "I'm writing to apply for the marketing job." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "could-you-let-me-know",
+                        "prompts": [
+                            { "cueVi": "Anh cho tôi biết khi nào anh rảnh nhé?", "slots": { "question": "when you are free" }, "answer": "Could you let me know when you are free?" },
+                            { "cueVi": "Chị cho tôi biết mấy giờ cuộc họp bắt đầu nhé?", "slots": { "question": "what time the meeting starts" }, "answer": "Could you let me know what time the meeting starts?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["please-find-attached", "regarding", "attach", "deadline", "confirm", "email"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "I'm writing to ask about the new schedule.", "vi": "Tôi viết email này để hỏi về lịch mới." },
+                            { "en": "Please find attached the report for this month.", "vi": "Tôi gửi kèm báo cáo tháng này." },
+                            { "en": "Could you let me know if Friday works for you?", "vi": "Anh cho tôi biết thứ Sáu anh có tiện không nhé?" },
+                            { "en": "I look forward to hearing from you.", "vi": "Mong sớm nhận được phản hồi của anh." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu mở đầu email nào phù hợp nhất?",
+                                "options": ["I want to ask you about the schedule.", "I'm writing to ask about the new schedule.", "I write for asking the schedule."],
+                                "answer": 1,
+                                "item": "im-writing-to"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["Could you let me know when are you free?", "Could you let me know when you are free?", "Could you let me to know when you free?"],
+                                "answer": 1,
+                                "item": "could-you-let-me-know"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "The ___ for the report is next Monday.",
+                                "hintVi": "hạn chót",
+                                "answers": ["deadline"],
+                                "item": "deadline"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Please find attached the report for this month.",
+                                "options": ["Tôi gửi kèm báo cáo tháng này.", "Anh tìm giúp tôi báo cáo tháng này.", "Báo cáo tháng này bị mất rồi."],
+                                "answer": 0,
+                                "item": "please-find-attached"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Tôi có một câu hỏi về hợp đồng.",
+                                "answer": "I have a question regarding the contract.",
+                                "item": "regarding"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b2-05-l2-meetings",
+            "title": "I'd suggest…",
+            "titleVi": "Đề xuất trong cuộc họp",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "making-suggestions", "role": "INTRODUCE" },
+                { "item": "id-suggest", "role": "INTRODUCE" },
+                { "item": "would-it-be-possible-to", "role": "INTRODUCE" },
+                { "item": "lets-move-on", "role": "INTRODUCE" },
+                { "item": "in-charge-of", "role": "INTRODUCE" },
+                { "item": "agenda", "role": "INTRODUCE" },
+                { "item": "propose", "role": "INTRODUCE" },
+                { "item": "postpone", "role": "INTRODUCE" },
+                { "item": "suggest", "role": "RECYCLE" },
+                { "item": "meeting", "role": "RECYCLE" },
+                { "item": "the-point-is", "role": "RECYCLE" },
+                { "item": "confirm", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["id-suggest", "would-it-be-possible-to", "lets-move-on", "in-charge-of", "agenda", "propose", "postpone"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Đề xuất sao cho mềm?",
+                        "bodyVi": "Trong cuộc họp, đề xuất càng gián tiếp càng lịch sự:\n\n| mức | câu | dùng khi |\n|---|---|---|\n| thân | Why don't we…? / Let's… | đồng nghiệp ngang hàng |\n| lịch sự | **I'd suggest** + V-ing / that … | góp ý trong họp |\n| rất lịch sự | **Would it be possible to** + V? | nhờ việc khó, nói với sếp, khách |\n| chính thức | We **propose** a new plan. | văn bản, kế hoạch |\n\nNgười chủ trì dẫn cuộc họp: Let's get started. → First on the **agenda** is… → **Let's move on to** the next point. → So, to sum up… Phân việc: Who's **in charge of** this?\n\n**suggest** (B2 01) chỉ đi với V-ing hoặc that: I'd suggest **postponing** the meeting. / I'd suggest **that we postpone** it.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| I suggest you to call the client. | I'd suggest **calling** the client. |\n| Would it be possible that you send it today? | **Would it be possible to** get it today? |\n| Who is responsible this project? | Who's **in charge of** this project? |\n\n❌ I suggest you to call ✅ **I'd suggest calling the client.**",
+                        "items": ["making-suggestions", "id-suggest", "would-it-be-possible-to", "lets-move-on", "in-charge-of", "agenda", "propose", "postpone", "suggest"],
+                        "examples": [
+                            { "en": "I'd suggest moving the meeting to Thursday.", "vi": "Tôi đề nghị dời cuộc họp sang thứ Năm.", "highlight": "I'd suggest moving" },
+                            { "en": "Would it be possible to change the date?", "vi": "Liệu có đổi ngày được không ạ?", "highlight": "Would it be possible to" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "id-suggest",
+                        "prompts": [
+                            { "cueVi": "Tôi đề nghị mình hỏi khách hàng trước.", "slots": { "doing": "asking the client first" }, "answer": "I'd suggest asking the client first." },
+                            { "cueVi": "Tôi đề nghị dời cuộc họp sang thứ Năm.", "slots": { "doing": "moving the meeting to Thursday" }, "answer": "I'd suggest moving the meeting to Thursday." },
+                            { "cueVi": "Tôi đề nghị gửi họ một lời nhắc.", "slots": { "doing": "sending them a reminder" }, "answer": "I'd suggest sending them a reminder." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "would-it-be-possible-to",
+                        "prompts": [
+                            { "cueVi": "Liệu có đổi ngày được không ạ?", "slots": { "do": "change the date" }, "answer": "Would it be possible to change the date?" },
+                            { "cueVi": "Liệu mai em làm ở nhà được không ạ?", "slots": { "do": "work from home tomorrow" }, "answer": "Would it be possible to work from home tomorrow?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["lets-move-on", "in-charge-of", "agenda", "propose", "postpone", "meeting"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b2-05-team-meeting", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I suggest you to ask the client.", "I'd suggest asking the client.", "I'd suggest to ask the client."],
+                                "answer": 1,
+                                "item": "id-suggest"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn muốn xin sếp đổi ngày nộp, thật lịch sự:",
+                                "options": ["Change the date, please.", "I want to change the date.", "Would it be possible to change the date?"],
+                                "answer": 2,
+                                "item": "would-it-be-possible-to"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Linh is in charge ___ the new website.",
+                                "answers": ["of"],
+                                "item": "in-charge-of"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "We had to postpone the meeting until next week.",
+                                "options": ["Bọn mình phải hoãn cuộc họp sang tuần sau.", "Bọn mình phải hủy cuộc họp tuần sau.", "Bọn mình họp đến tận tuần sau."],
+                                "answer": 0,
+                                "item": "postpone"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Được rồi, mình chuyển sang ý tiếp theo nhé.",
+                                "answer": "OK, let's move on to the next point.",
+                                "item": "lets-move-on"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b2-05-l3-saying-no",
+            "title": "I'd love to, but…",
+            "titleVi": "Từ chối khéo",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "softening-refusals", "role": "INTRODUCE" },
+                { "item": "id-love-to-but", "role": "INTRODUCE" },
+                { "item": "what-if-we", "role": "INTRODUCE" },
+                { "item": "on-short-notice", "role": "INTRODUCE" },
+                { "item": "workload", "role": "INTRODUCE" },
+                { "item": "priority", "role": "INTRODUCE" },
+                { "item": "flexible", "role": "INTRODUCE" },
+                { "item": "realistic", "role": "INTRODUCE" },
+                { "item": "im-afraid", "role": "RECYCLE" },
+                { "item": "unfortunately", "role": "RECYCLE" },
+                { "item": "id-love-to", "role": "RECYCLE" },
+                { "item": "deadline", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["id-love-to-but", "what-if-we", "on-short-notice", "workload", "priority", "flexible", "realistic"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Nói \"không\" mà không mất lòng",
+                        "bodyVi": "Ở chỗ làm, \"No, I can't.\" nghe cộc. Một lời từ chối khéo có ba phần:\n\n| phần | câu mẫu |\n|---|---|\n| 1. làm mềm | **I'd love to, but** … / **I'm afraid** … / **Unfortunately**, … |\n| 2. lý do ngắn | my **workload** is heavy this week. / the report is my top **priority**. |\n| 3. phương án khác | **What if we** move it to Monday? / I could do half of it. |\n\nThêm vài câu hay dùng:\n\n| tình huống | câu |\n|---|---|\n| bị nhờ gấp | Sorry, I can't do it **on such short notice**. |\n| hạn quá sát | I'm not sure that **deadline** is **realistic**. |\n| hỏi lùi hạn | Is the deadline **flexible**? |\n| nhận có điều kiện | I can do it if I have until Friday. |\n\n**What if we** + hiện tại đơn (không dùng will).\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| No, I'm busy. | **I'm afraid** I can't. I'm busy with the report. |\n| I'd love to, but I can't to. | **I'd love to, but** I can't. |\n| What if we will do it online? | **What if we do** it online? |\n\n❌ No, I'm busy ❌ What if we will ✅ **I'd love to, but I'm busy. What if we do it on Monday?**",
+                        "items": ["softening-refusals", "id-love-to-but", "what-if-we", "on-short-notice", "workload", "priority", "flexible", "realistic", "im-afraid", "unfortunately", "deadline"],
+                        "examples": [
+                            { "en": "I'd love to help, but I'm working on another deadline.", "vi": "Tôi rất muốn giúp, nhưng tôi đang chạy một hạn khác.", "highlight": "I'd love to help, but" },
+                            { "en": "What if we split the work between us?", "vi": "Hay là mình chia việc cho nhau nhé?", "highlight": "What if we" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "id-love-to-but",
+                        "prompts": [
+                            { "cueVi": "Tôi rất muốn, nhưng tuần này tôi kín lịch rồi.", "slots": { "reason": "I'm fully booked this week" }, "answer": "I'd love to, but I'm fully booked this week." },
+                            { "cueVi": "Tôi rất muốn, nhưng tôi có một hạn khác.", "slots": { "reason": "I have another deadline" }, "answer": "I'd love to, but I have another deadline." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "what-if-we",
+                        "prompts": [
+                            { "cueVi": "Hay là mình dời sang thứ Hai nhé?", "slots": { "do": "move it to Monday" }, "answer": "What if we move it to Monday?" },
+                            { "cueVi": "Hay là mình nhờ Nam giúp nhé?", "slots": { "do": "ask Nam to help" }, "answer": "What if we ask Nam to help?" },
+                            { "cueVi": "Hay là mình làm online nhé?", "slots": { "do": "do it online" }, "answer": "What if we do it online?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["on-short-notice", "workload", "priority", "flexible", "realistic", "unfortunately", "id-love-to"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b2-05-extra-task", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Sếp phòng khác nhờ bạn làm thêm việc. Cách từ chối nào khéo nhất?",
+                                "options": ["No. I'm busy.", "I'd love to, but my workload is really heavy this week.", "I can't to do it."],
+                                "answer": 1,
+                                "item": "softening-refusals"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["What if we will move it to Monday?", "What if we moved it to Monday tomorrow?", "What if we move it to Monday?"],
+                                "answer": 2,
+                                "item": "what-if-we"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "The client's project is our top ___ right now.",
+                                "hintVi": "việc ưu tiên",
+                                "answers": ["priority"],
+                                "item": "priority"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Sorry, I can't come to the meeting on such short notice.",
+                                "options": ["Xin lỗi, báo gấp thế này tôi không đến họp được.", "Xin lỗi, cuộc họp ngắn quá nên tôi không đến.", "Xin lỗi, tôi quên ghi chú cuộc họp."],
+                                "answer": 0,
+                                "item": "on-short-notice"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Hạn có linh hoạt được không, hay phải là thứ Sáu?",
+                                "answer": "Is the deadline flexible, or does it have to be Friday?",
+                                "item": "flexible"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "b2-05-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Kết email trang trọng:",
+                "options": ["I look forward to hear from you.", "I look forward to hearing from you.", "I wait your answer."],
+                "answer": 1,
+                "item": "formal-email"
+            },
+            {
+                "kind": "gap",
+                "sentence": "Could you let me know ___ Friday works for you?",
+                "hintVi": "có / không",
+                "answers": ["if", "whether"],
+                "item": "could-you-let-me-know"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["I'd suggest moving the meeting to Thursday.", "I'd suggest to move the meeting to Thursday.", "I suggest you moving the meeting to Thursday."],
+                "answer": 0,
+                "item": "making-suggestions"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Bạn muốn xin khách hàng thêm vài ngày. Câu nào lịch sự nhất?",
+                "options": ["Give us a few more days.", "Would it be possible to have a few more days?", "We want more days."],
+                "answer": 1,
+                "item": "would-it-be-possible-to"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "I don't think that deadline is realistic.",
+                "options": ["Mình không nghĩ hạn đó khả thi.", "Mình nghĩ hạn đó rất thực tế.", "Mình không biết hạn là khi nào."],
+                "answer": 0,
+                "item": "realistic"
+            },
+            {
+                "kind": "order",
+                "vi": "Tôi rất muốn, nhưng tuần này tôi kín lịch rồi.",
+                "answer": "I'd love to, but I'm fully booked this week.",
+                "item": "id-love-to-but"
+            }
+        ]
+    }
+}

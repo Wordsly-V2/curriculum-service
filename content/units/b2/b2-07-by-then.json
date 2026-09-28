@@ -1,0 +1,780 @@
+{
+    "slug": "b2-07-by-then",
+    "stage": "b2",
+    "order": 7,
+    "title": "By then",
+    "titleVi": "Tương lai tiếp diễn, hoàn thành và dự đoán",
+    "descriptionVi": "Nói mình sẽ đang làm gì vào một lúc trong tương lai (This time tomorrow, I'll be flying to Tokyo), việc sẽ xong trước một mốc (I'll have finished the report by Friday, by then), và dự đoán xu hướng dài hạn với các mức chắc chắn khác nhau (is likely to, I doubt, in the long run).",
+    "canDo": [
+        "Tôi nói được mình sẽ đang làm gì vào một thời điểm sắp tới và hỏi lịch người khác một cách lịch sự.",
+        "Tôi nói được việc gì sẽ xong trước một mốc thời gian và mục tiêu của mình tiến triển tới đâu.",
+        "Tôi dự đoán được xu hướng dài hạn (công việc, dân số, công nghệ) và nói rõ mình chắc chắn tới mức nào."
+    ],
+    "items": [
+        {
+            "slug": "future-continuous",
+            "type": "GRAMMAR",
+            "text": "will be + V-ing",
+            "meaningVi": "tương lai tiếp diễn: sẽ đang làm gì vào một lúc",
+            "examples": [
+                { "en": "This time tomorrow, I'll be flying to Tokyo.", "vi": "Giờ này ngày mai mình đang bay sang Tokyo rồi.", "highlight": "I'll be flying" }
+            ],
+            "grammar": {
+                "ruleVi": "will be + V-ing: việc sẽ đang diễn ra vào một thời điểm hoặc trong một khoảng ở tương lai (giống quá khứ tiếp diễn, nhưng nhìn về phía trước). Còn dùng để hỏi kế hoạch của người khác một cách lịch sự, không có ý nhờ vả: Will you be using the car tonight? (nghe nhẹ hơn Are you going to use…?).",
+                "forms": [
+                    { "label": "khẳng định", "example": "At 8 p.m., I'll be having dinner with my parents." },
+                    { "label": "phủ định", "example": "I won't be working on Saturday." },
+                    { "label": "hỏi lịch sự", "example": "Will you be coming to the party?" },
+                    { "label": "việc sắp xảy ra theo lẽ thường", "example": "The guests will be arriving any minute now." }
+                ],
+                "pitfallsVi": [
+                    "\"Tomorrow at 9, I will work in a meeting\" → Tomorrow at 9, I'll be in a meeting / I'll be working.",
+                    "\"I will be go\" → I will be going. (be + V-ing)",
+                    "Động từ trạng thái không chia tiếp diễn: ❌ \"I'll be knowing\" → I'll know."
+                ]
+            }
+        },
+        {
+            "slug": "this-time-tomorrow",
+            "type": "PATTERN",
+            "text": "This time tomorrow, I'll be ….",
+            "meaningVi": "Giờ này ngày mai, mình đang … rồi.",
+            "examples": [
+                { "en": "This time tomorrow, I'll be lying on the beach in Nha Trang.", "vi": "Giờ này ngày mai, mình đang nằm trên bãi biển Nha Trang rồi.", "highlight": "This time tomorrow, I'll be lying" }
+            ],
+            "pattern": {
+                "template": "This time tomorrow, I'll be {doing}.",
+                "slots": [
+                    { "name": "doing", "hintVi": "V-ing", "options": ["flying to Tokyo", "lying on the beach in Nha Trang", "taking my final exam", "working the night shift", "sitting in a conference in Singapore"] }
+                ]
+            },
+            "noteVi": "Thay mốc: This time next week, … / At ten tonight, …. Vế sau luôn là will be + V-ing."
+        },
+        {
+            "slug": "will-you-be",
+            "type": "PATTERN",
+            "text": "Will you be …?",
+            "meaningVi": "Anh / chị có … không? (hỏi kế hoạch, lịch sự)",
+            "examples": [
+                { "en": "Will you be using the car tonight?", "vi": "Tối nay anh có dùng xe không?", "highlight": "Will you be using" }
+            ],
+            "pattern": {
+                "template": "Will you be {doing}?",
+                "slots": [
+                    { "name": "doing", "hintVi": "V-ing", "options": ["using the car tonight", "coming to the party", "working from home tomorrow", "staying for dinner", "joining us for lunch"] }
+                ]
+            },
+            "noteVi": "Hỏi kế hoạch mà không gây áp lực. Muốn nhờ thì hỏi thêm: If not, could I borrow it?"
+        },
+        {
+            "slug": "any-minute-now",
+            "type": "PHRASE",
+            "text": "any minute now",
+            "meaningVi": "sắp sửa, chỉ ít phút nữa thôi",
+            "examples": [
+                { "en": "Don't worry, the taxi will be here any minute now.", "vi": "Đừng lo, taxi sắp tới rồi.", "highlight": "any minute now" }
+            ],
+            "noteVi": "Hay đi với will be + V-ing hoặc will: The guests will be arriving any minute now. Cũng nói: any moment now."
+        },
+        {
+            "slug": "available",
+            "type": "LEXICAL",
+            "text": "available",
+            "meaningVi": "rảnh; có sẵn",
+            "ipa": "/əˈveɪləbəl/",
+            "examples": [
+                { "en": "Will you be available for a quick call at three?", "vi": "Ba giờ anh có rảnh gọi nhanh một chút không?", "highlight": "available" }
+            ],
+            "noteVi": "Ở chỗ làm, available lịch sự hơn free. Với đồ, phòng: Is this room available? (còn trống không?)"
+        },
+        {
+            "slug": "conference",
+            "type": "LEXICAL",
+            "text": "conference",
+            "meaningVi": "hội nghị, hội thảo",
+            "ipa": "/ˈkɑːnfərəns/",
+            "examples": [
+                { "en": "I'll be at a conference in Singapore all next week.", "vi": "Cả tuần sau mình dự hội nghị ở Singapore.", "highlight": "conference" }
+            ],
+            "noteVi": "at a conference. Gọi họp nhiều người: a conference call. Nhấn âm đầu: CON-ference."
+        },
+        {
+            "slug": "shift",
+            "type": "LEXICAL",
+            "text": "shift",
+            "meaningVi": "ca làm",
+            "ipa": "/ʃɪft/",
+            "examples": [
+                { "en": "My sister is a nurse, so she'll be working the night shift on Tet.", "vi": "Chị mình là y tá nên Tết chị ấy trực ca đêm.", "highlight": "shift" }
+            ],
+            "noteVi": "work the day / night shift, a twelve-hour shift. Đổi ca với ai: swap shifts with someone."
+        },
+        {
+            "slug": "land",
+            "type": "LEXICAL",
+            "text": "land",
+            "meaningVi": "hạ cánh",
+            "ipa": "/lænd/",
+            "examples": [
+                { "en": "Our plane lands at six, so I'll be waiting for you at the exit.", "vi": "Máy bay hạ cánh lúc sáu giờ, nên mình sẽ đợi bạn ở cửa ra.", "highlight": "lands" }
+            ],
+            "noteVi": "Trái nghĩa: take off (cất cánh). Danh từ land còn nghĩa là đất: a piece of land."
+        },
+        {
+            "slug": "future-perfect",
+            "type": "GRAMMAR",
+            "text": "will have + V3 (by …)",
+            "meaningVi": "tương lai hoàn thành: sẽ xong trước một mốc",
+            "examples": [
+                { "en": "I'll have finished the report by Friday.", "vi": "Trước thứ Sáu mình sẽ làm xong báo cáo.", "highlight": "I'll have finished" }
+            ],
+            "grammar": {
+                "ruleVi": "will have + V3: một việc sẽ xong trước một mốc trong tương lai. Mốc thường đi với by (trước, chậm nhất là): by Friday, by then, by the end of the year, by the time + hiện tại đơn. Muốn nhấn thời gian kéo dài tới mốc đó: will have been + V-ing (By June, I'll have been working here for ten years).",
+                "forms": [
+                    { "label": "khẳng định", "example": "By the end of the year, we'll have opened three new stores." },
+                    { "label": "phủ định", "example": "I won't have finished by five." },
+                    { "label": "câu hỏi", "example": "Will you have finished by the time I get home?" },
+                    { "label": "kéo dài tới mốc", "example": "By June, I'll have been working here for ten years." }
+                ],
+                "pitfallsVi": [
+                    "\"I will finish the report until Friday\" → I'll have finished the report by Friday. (until = kéo dài tới, by = trước mốc)",
+                    "\"By the time you will arrive…\" → By the time you arrive… (hiện tại đơn sau by the time)",
+                    "\"I will have finish\" → I will have finished. (V3)"
+                ]
+            }
+        },
+        {
+            "slug": "ill-have-by",
+            "type": "PATTERN",
+            "text": "I'll have … by ….",
+            "meaningVi": "Trước …, mình sẽ … xong.",
+            "examples": [
+                { "en": "I'll have finished the report by Friday.", "vi": "Trước thứ Sáu mình sẽ làm xong báo cáo.", "highlight": "I'll have finished" }
+            ],
+            "pattern": {
+                "template": "I'll have {done} by {time}.",
+                "slots": [
+                    { "name": "done", "hintVi": "V3 + tân ngữ", "options": ["finished the report", "saved enough money", "paid off my loan", "read all the documents", "moved into my new apartment"] },
+                    { "name": "time", "hintVi": "mốc", "options": ["Friday", "the end of the year", "next summer", "then", "the time you get here"] }
+                ]
+            },
+            "noteVi": "by = trước hoặc đúng lúc đó, không muộn hơn. Hứa với khách: We'll have sent the samples by Monday."
+        },
+        {
+            "slug": "by-then",
+            "type": "PHRASE",
+            "text": "by then",
+            "meaningVi": "đến lúc đó (thì đã)",
+            "examples": [
+                { "en": "The concert starts at nine. By then, I'll have finished work.", "vi": "Buổi hòa nhạc bắt đầu lúc chín giờ. Đến lúc đó mình đã tan làm rồi.", "highlight": "By then" }
+            ],
+            "noteVi": "Chỉ lại một mốc vừa nói, hay đi với will have + V3. Nói về quá khứ: By then, I had already left. (B2 01)"
+        },
+        {
+            "slug": "by-the-end-of",
+            "type": "PHRASE",
+            "text": "by the end of …",
+            "meaningVi": "trước cuối …, chậm nhất là cuối …",
+            "examples": [
+                { "en": "We need to hire two new people by the end of the month.", "vi": "Trước cuối tháng mình cần tuyển thêm hai người.", "highlight": "by the end of the month" }
+            ],
+            "noteVi": "by the end of the week / the month / the year. Khác at the end of (vào cuối): ❌ \"in the end of the month\"."
+        },
+        {
+            "slug": "achieve",
+            "type": "LEXICAL",
+            "text": "achieve",
+            "meaningVi": "đạt được",
+            "ipa": "/əˈtʃiːv/",
+            "examples": [
+                { "en": "By next year, I hope I'll have achieved my goal of IELTS 7.0.", "vi": "Đến năm sau, mình mong đã đạt mục tiêu IELTS 7.0.", "highlight": "achieved" }
+            ],
+            "noteVi": "achieve a goal / success / a result. Danh từ: achievement (thành tích). ❌ \"achieve to do\"."
+        },
+        {
+            "slug": "goal",
+            "type": "LEXICAL",
+            "text": "goal",
+            "meaningVi": "mục tiêu; bàn thắng",
+            "ipa": "/ɡoʊl/",
+            "examples": [
+                { "en": "My goal is to run a marathon by the end of the year.", "vi": "Mục tiêu của mình là chạy marathon trước cuối năm.", "highlight": "goal" }
+            ],
+            "noteVi": "set a goal (đặt mục tiêu), reach / achieve a goal. My goal is to + V. Trong bóng đá: score a goal."
+        },
+        {
+            "slug": "progress",
+            "type": "LEXICAL",
+            "text": "progress",
+            "meaningVi": "sự tiến bộ, tiến độ",
+            "ipa": "/ˈprɑːɡres/",
+            "examples": [
+                { "en": "I've made a lot of progress with my English this year.", "vi": "Năm nay tiếng Anh của mình tiến bộ nhiều.", "highlight": "progress" }
+            ],
+            "noteVi": "Không đếm được: make progress, ❌ \"a progress\", ❌ \"progresses\". Danh từ nhấn âm đầu: PRO-gress."
+        },
+        {
+            "slug": "on-track",
+            "type": "PHRASE",
+            "text": "be on track",
+            "meaningVi": "đúng tiến độ, đang đi đúng hướng",
+            "examples": [
+                { "en": "We're on track to finish the project by June.", "vi": "Bọn mình đang đúng tiến độ để xong dự án trước tháng Sáu.", "highlight": "on track" }
+            ],
+            "noteVi": "on track to + V / on track for + danh từ. Chậm tiến độ: behind schedule. Làm lại cho đúng: get back on track."
+        },
+        {
+            "slug": "future-certainty",
+            "type": "GRAMMAR",
+            "text": "will definitely / is likely to / may well / probably won't / I doubt …",
+            "meaningVi": "các mức chắc chắn khi dự đoán",
+            "examples": [
+                { "en": "Robots are likely to replace many factory jobs.", "vi": "Robot nhiều khả năng sẽ thay thế nhiều việc làm trong nhà máy.", "highlight": "are likely to replace" }
+            ],
+            "grammar": {
+                "ruleVi": "Dự đoán dài hạn cần nói rõ mình chắc tới mức nào. Từ chắc nhất đến ít chắc nhất: will definitely / is certain to → will probably / is likely to → may well / might → probably won't / is unlikely to → I doubt (that)…. Lưu ý vị trí: will probably (probably đứng sau will), nhưng probably won't (probably đứng trước won't).",
+                "forms": [
+                    { "label": "rất chắc", "example": "Prices will definitely go up." },
+                    { "label": "nhiều khả năng", "example": "The population is likely to get older." },
+                    { "label": "có thể", "example": "Cash may well disappear in ten years." },
+                    { "label": "ít khả năng", "example": "Robots probably won't replace teachers. / I doubt robots will replace teachers." }
+                ],
+                "pitfallsVi": [
+                    "\"It is likely to rain\" đúng, nhưng \"It likely rains\" → It's likely to rain.",
+                    "\"I will probably not come\" → I probably won't come.",
+                    "\"I doubt that robots won't…\" (hai lần phủ định) → I doubt that robots will…"
+                ]
+            }
+        },
+        {
+            "slug": "is-likely-to",
+            "type": "PATTERN",
+            "text": "… is likely to ….",
+            "meaningVi": "… nhiều khả năng sẽ ….",
+            "examples": [
+                { "en": "The population is likely to get older.", "vi": "Dân số nhiều khả năng sẽ già đi.", "highlight": "is likely to get" }
+            ],
+            "pattern": {
+                "template": "{subject} is likely to {do}.",
+                "slots": [
+                    { "name": "subject", "hintVi": "chủ ngữ số ít", "options": ["The population", "Working from home", "The price of housing", "Online shopping", "Automation"] },
+                    { "name": "do", "hintVi": "động từ nguyên mẫu", "options": ["get older", "become more common", "keep rising", "grow even faster", "change the way we work"] }
+                ]
+            },
+            "noteVi": "Số nhiều: are likely to. Ít khả năng: is unlikely to. Trang trọng hơn will probably, hay dùng khi viết và thuyết trình."
+        },
+        {
+            "slug": "i-doubt",
+            "type": "PATTERN",
+            "text": "I doubt ….",
+            "meaningVi": "Mình không nghĩ là ….",
+            "examples": [
+                { "en": "I doubt robots will ever replace teachers.", "vi": "Mình không nghĩ robot sẽ thay được giáo viên.", "highlight": "I doubt" }
+            ],
+            "pattern": {
+                "template": "I doubt {prediction}.",
+                "slots": [
+                    { "name": "prediction", "hintVi": "mệnh đề khẳng định", "options": ["robots will ever replace teachers", "prices will go down", "people will stop using cash soon", "I'll retire before sixty", "the traffic will get better"] }
+                ]
+            },
+            "noteVi": "doubt đã mang nghĩa phủ định, nên vế sau để khẳng định: ❌ \"I doubt prices won't go down\". Trả lời ngắn: I doubt it."
+        },
+        {
+            "slug": "in-the-long-run",
+            "type": "PHRASE",
+            "text": "in the long run",
+            "meaningVi": "về lâu dài",
+            "examples": [
+                { "en": "Buying a good bike is cheaper in the long run.", "vi": "Về lâu dài, mua một chiếc xe tốt lại rẻ hơn.", "highlight": "in the long run" }
+            ],
+            "noteVi": "Trái nghĩa: in the short term (trước mắt). Cũng nói in the long term (trang trọng hơn)."
+        },
+        {
+            "slug": "predict",
+            "type": "LEXICAL",
+            "text": "predict",
+            "meaningVi": "dự đoán",
+            "ipa": "/prɪˈdɪkt/",
+            "examples": [
+                { "en": "Experts predict that half of all cars will be electric by 2040.", "vi": "Các chuyên gia dự đoán đến năm 2040 một nửa số ô tô sẽ chạy điện.", "highlight": "predict" }
+            ],
+            "noteVi": "predict + that… / something. Danh từ: prediction (make a prediction). Dự báo thời tiết là forecast."
+        },
+        {
+            "slug": "retire",
+            "type": "LEXICAL",
+            "text": "retire",
+            "meaningVi": "nghỉ hưu",
+            "ipa": "/rɪˈtaɪər/",
+            "examples": [
+                { "en": "By the time I retire, I'll have worked here for thirty years.", "vi": "Đến lúc nghỉ hưu, mình sẽ làm ở đây được ba mươi năm.", "highlight": "retire" }
+            ],
+            "noteVi": "retire at sixty / from a job. Người đã nghỉ hưu: retired (My dad is retired). Danh từ: retirement."
+        },
+        {
+            "slug": "population",
+            "type": "LEXICAL",
+            "text": "population",
+            "meaningVi": "dân số",
+            "ipa": "/ˌpɑːpjəˈleɪʃən/",
+            "examples": [
+                { "en": "Vietnam has a population of about a hundred million people.", "vi": "Việt Nam có dân số khoảng một trăm triệu người.", "highlight": "population" }
+            ],
+            "noteVi": "a population of + số. Dân số lớn / nhỏ: a large / small population (❌ \"many population\")."
+        },
+        {
+            "slug": "automation",
+            "type": "LEXICAL",
+            "text": "automation",
+            "meaningVi": "tự động hóa",
+            "ipa": "/ˌɔːtəˈmeɪʃən/",
+            "examples": [
+                { "en": "Automation is likely to change a lot of jobs in factories.", "vi": "Tự động hóa nhiều khả năng sẽ làm thay đổi nhiều công việc trong nhà máy.", "highlight": "Automation" }
+            ],
+            "noteVi": "Tính từ: automatic (tự động). Trí tuệ nhân tạo: artificial intelligence (AI)."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "b2-07-busy-week",
+            "title": "I'll be in Singapore",
+            "situationVi": "Chị Rachel, đối tác người Úc, muốn hẹn gọi điện với bạn tuần sau. Bạn xem lịch và trả lời.",
+            "lines": [
+                { "speaker": "Rachel", "en": "Hi! Could we have a call next week to discuss the new contract?", "vi": "Chào em! Tuần sau mình gọi điện bàn hợp đồng mới được không?" },
+                { "speaker": "You", "en": "Sure. But I'll be at a conference in Singapore from Monday to Wednesday.", "vi": "Được chị. Nhưng từ thứ Hai đến thứ Tư em dự hội nghị ở Singapore.", "learnerTurn": true },
+                { "speaker": "Rachel", "en": "Ah, OK. What about Thursday morning?", "vi": "À, vậy sáng thứ Năm thì sao?" },
+                { "speaker": "You", "en": "My plane lands at ten on Thursday, so I'll be going straight to the office. Will you be available after lunch?", "vi": "Máy bay của em hạ cánh lúc mười giờ thứ Năm, nên em sẽ đi thẳng lên văn phòng. Sau bữa trưa chị có rảnh không?", "learnerTurn": true },
+                { "speaker": "Rachel", "en": "Two o'clock my time would be fine. That's eleven for you.", "vi": "Hai giờ bên chị thì được. Tức là mười một giờ bên em." },
+                { "speaker": "You", "en": "Hmm, at eleven I'll still be sitting in a taxi. Could we make it three o'clock your time?", "vi": "Hừm, mười một giờ em vẫn đang ngồi trên taxi. Mình dời sang ba giờ bên chị được không?", "learnerTurn": true },
+                { "speaker": "Rachel", "en": "No problem. Three it is. I'll send you an invitation.", "vi": "Không sao. Ba giờ nhé. Chị sẽ gửi lời mời." },
+                { "speaker": "You", "en": "Great, thanks. I'll have read the whole contract by then, so we can go through it together.", "vi": "Tuyệt, cảm ơn chị. Đến lúc đó em sẽ đọc xong cả hợp đồng, mình cùng xem lại nhé.", "learnerTurn": true }
+            ]
+        },
+        {
+            "slug": "b2-07-five-years",
+            "title": "Where will you be in five years?",
+            "situationVi": "Buổi đánh giá cuối năm. Chị Hạnh, quản lý của bạn, hỏi về mục tiêu và dự định của bạn.",
+            "lines": [
+                { "speaker": "Hanh", "en": "So, how do you feel about this year?", "vi": "Em thấy năm nay thế nào?" },
+                { "speaker": "You", "en": "I think I've made a lot of progress. And we're on track to finish the app project by the end of March.", "vi": "Em nghĩ em tiến bộ nhiều. Và mình đang đúng tiến độ để xong dự án ứng dụng trước cuối tháng Ba.", "learnerTurn": true },
+                { "speaker": "Hanh", "en": "Good. What are your goals for next year?", "vi": "Tốt. Mục tiêu năm sau của em là gì?" },
+                { "speaker": "You", "en": "My main goal is to lead a small team. By this time next year, I hope I'll have achieved that.", "vi": "Mục tiêu chính của em là dẫn một nhóm nhỏ. Đến giờ này năm sau, em mong mình đã làm được điều đó.", "learnerTurn": true },
+                { "speaker": "Hanh", "en": "And in five years?", "vi": "Còn năm năm nữa?" },
+                { "speaker": "You", "en": "It's hard to predict. AI is likely to change our work a lot, so I'd like to learn more about it.", "vi": "Khó đoán lắm chị. AI nhiều khả năng sẽ thay đổi công việc của mình nhiều, nên em muốn học thêm về nó.", "learnerTurn": true },
+                { "speaker": "Hanh", "en": "Do you think AI will replace developers?", "vi": "Em có nghĩ AI sẽ thay thế lập trình viên không?" },
+                { "speaker": "You", "en": "I doubt it. But in the long run, people who can use it well will have a big advantage.", "vi": "Em không nghĩ vậy. Nhưng về lâu dài, ai dùng nó giỏi sẽ có lợi thế lớn.", "learnerTurn": true },
+                { "speaker": "Hanh", "en": "I agree. Let's find a course for you, then.", "vi": "Chị đồng ý. Vậy mình tìm cho em một khóa học nhé." }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "b2-07-l1-ill-be-flying",
+            "title": "I'll be flying",
+            "titleVi": "Sẽ đang làm gì vào lúc đó",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "future-continuous", "role": "INTRODUCE" },
+                { "item": "this-time-tomorrow", "role": "INTRODUCE" },
+                { "item": "will-you-be", "role": "INTRODUCE" },
+                { "item": "any-minute-now", "role": "INTRODUCE" },
+                { "item": "available", "role": "INTRODUCE" },
+                { "item": "conference", "role": "INTRODUCE" },
+                { "item": "shift", "role": "INTRODUCE" },
+                { "item": "land", "role": "INTRODUCE" },
+                { "item": "future-forms", "role": "RECYCLE" },
+                { "item": "past-continuous", "role": "RECYCLE" },
+                { "item": "busy", "role": "RECYCLE" },
+                { "item": "schedule", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["this-time-tomorrow", "will-you-be", "any-minute-now", "available", "conference", "shift", "land"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "will do hay will be doing?",
+                        "bodyVi": "Quá khứ tiếp diễn (B1 02) là \"lúc đó đang làm\": At 8 last night, I **was having** dinner. Nhìn về tương lai thì đổi was thành **will be**:\n\n| thì | ví dụ | nghĩa |\n|---|---|---|\n| quá khứ tiếp diễn | At 8 last night, I **was having** dinner. | tối qua lúc 8 giờ đang ăn |\n| tương lai tiếp diễn | At 8 tonight, I'**ll be having** dinner. | tối nay lúc 8 giờ sẽ đang ăn |\n| | **This time tomorrow, I'll be** flying to Tokyo. | giờ này mai đang bay |\n\nHai cách dùng hay gặp:\n\n| dùng khi | ví dụ |\n|---|---|\n| bận vào lúc đó | Don't call at ten. I'**ll be** in a **conference**. / She'**ll be working** the night **shift**. |\n| hỏi lịch lịch sự | **Will you be** using the car tonight? / Will you be **available** at three? |\n| việc sắp đến theo lịch | The plane **lands** at six. The guests **will be arriving any minute now**. |\n\nSo sánh: **Will you come** to the party? (mời, nhờ) và **Will you be coming** to the party? (chỉ hỏi lịch).\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| Tomorrow at 9, I will work in a meeting. | Tomorrow at 9, I'**ll be** in a meeting. |\n| This time tomorrow, I will be fly. | This time tomorrow, I'll be **flying**. |\n| Are you free at 3? (với khách) | Will you be **available** at 3? |\n\n❌ I will be fly ✅ **This time tomorrow, I'll be flying to Tokyo.**",
+                        "items": ["future-continuous", "this-time-tomorrow", "will-you-be", "any-minute-now", "available", "conference", "shift", "land", "past-continuous"],
+                        "examples": [
+                            { "en": "This time tomorrow, I'll be flying to Tokyo.", "vi": "Giờ này ngày mai mình đang bay sang Tokyo rồi.", "highlight": "I'll be flying" },
+                            { "en": "Will you be using the car tonight?", "vi": "Tối nay anh có dùng xe không?", "highlight": "Will you be using" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "this-time-tomorrow",
+                        "prompts": [
+                            { "cueVi": "Giờ này ngày mai, mình đang bay sang Tokyo rồi.", "slots": { "doing": "flying to Tokyo" }, "answer": "This time tomorrow, I'll be flying to Tokyo." },
+                            { "cueVi": "Giờ này ngày mai, mình đang làm bài thi cuối kỳ.", "slots": { "doing": "taking my final exam" }, "answer": "This time tomorrow, I'll be taking my final exam." },
+                            { "cueVi": "Giờ này ngày mai, mình đang trực ca đêm.", "slots": { "doing": "working the night shift" }, "answer": "This time tomorrow, I'll be working the night shift." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "will-you-be",
+                        "prompts": [
+                            { "cueVi": "Tối nay anh có dùng xe không?", "slots": { "doing": "using the car tonight" }, "answer": "Will you be using the car tonight?" },
+                            { "cueVi": "Chị có ở lại ăn tối không?", "slots": { "doing": "staying for dinner" }, "answer": "Will you be staying for dinner?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["any-minute-now", "available", "conference", "shift", "land", "busy"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "This time tomorrow, I'll be flying to Tokyo.", "vi": "Giờ này ngày mai mình đang bay sang Tokyo rồi." },
+                            { "en": "Will you be available for a quick call at three?", "vi": "Ba giờ anh có rảnh gọi nhanh một chút không?" },
+                            { "en": "I'll be at a conference in Singapore all next week.", "vi": "Cả tuần sau mình dự hội nghị ở Singapore." },
+                            { "en": "Don't worry, the taxi will be here any minute now.", "vi": "Đừng lo, taxi sắp tới rồi." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["At ten tonight, I will watch the match already.", "At ten tonight, I'll be watching the match.", "At ten tonight, I'll be watch the match."],
+                                "answer": 1,
+                                "item": "future-continuous"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn chỉ muốn hỏi lịch của sếp, không có ý nhờ:",
+                                "options": ["Will you be using the meeting room this afternoon?", "You use the meeting room this afternoon?", "Do you will use the meeting room?"],
+                                "answer": 0,
+                                "item": "will-you-be"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Will you be ___ for a quick call at three?",
+                                "hintVi": "rảnh (lịch sự)",
+                                "answers": ["available", "free"],
+                                "item": "available"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "My sister is a nurse, so she'll be working the night shift on Tet.",
+                                "options": ["Chị mình là y tá nên Tết chị ấy trực ca đêm.", "Chị mình là y tá nên Tết được nghỉ cả ngày.", "Chị mình đổi ca đêm để về quê ăn Tết."],
+                                "answer": 0,
+                                "item": "shift"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Giờ này ngày mai, mình đang nằm trên bãi biển Nha Trang rồi.",
+                                "answer": "This time tomorrow, I'll be lying on the beach in Nha Trang.",
+                                "item": "this-time-tomorrow"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b2-07-l2-ill-have-finished",
+            "title": "I'll have finished by then",
+            "titleVi": "Xong trước một mốc",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "future-perfect", "role": "INTRODUCE" },
+                { "item": "ill-have-by", "role": "INTRODUCE" },
+                { "item": "by-then", "role": "INTRODUCE" },
+                { "item": "by-the-end-of", "role": "INTRODUCE" },
+                { "item": "achieve", "role": "INTRODUCE" },
+                { "item": "goal", "role": "INTRODUCE" },
+                { "item": "progress", "role": "INTRODUCE" },
+                { "item": "on-track", "role": "INTRODUCE" },
+                { "item": "by-the-time", "role": "RECYCLE" },
+                { "item": "until", "role": "RECYCLE" },
+                { "item": "deadline", "role": "RECYCLE" },
+                { "item": "plan", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["ill-have-by", "by-then", "by-the-end-of", "achieve", "goal", "progress", "on-track"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Sẽ xong trước mốc nào?",
+                        "bodyVi": "**will have + V3** nói một việc sẽ **xong trước** một mốc tương lai. Mốc hay đi với **by**:\n\n| mốc | ví dụ |\n|---|---|\n| by + thời gian | I'**ll have finished** the report **by Friday**. |\n| **by the end of** … | We'll have hired two people **by the end of the month**. |\n| **by then** | The show starts at nine. **By then**, I'll have finished work. |\n| **by the time** + hiện tại đơn | **By the time** you **get** here, we'll have eaten. |\n\n**by** khác **until** (B1 05):\n\n| từ | nghĩa | ví dụ |\n|---|---|---|\n| **by** Friday | trước / chậm nhất thứ Sáu (xong) | I'll send it **by** Friday. |\n| **until** Friday | kéo dài tới thứ Sáu | I'll be in Da Nang **until** Friday. |\n\nNói về mục tiêu: set a **goal**, make **progress**, be **on track** to finish, **achieve** a goal.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| I will finish the report until Friday. | I'll have finished the report **by** Friday. |\n| By the time you will arrive, … | By the time you **arrive**, … |\n| I made a big progress. | I made a lot of **progress**. |\n\n❌ finish until Friday ✅ **I'll have finished it by Friday.**",
+                        "items": ["future-perfect", "ill-have-by", "by-then", "by-the-end-of", "achieve", "goal", "progress", "on-track", "by-the-time", "until"],
+                        "examples": [
+                            { "en": "I'll have finished the report by Friday.", "vi": "Trước thứ Sáu mình sẽ làm xong báo cáo.", "highlight": "I'll have finished" },
+                            { "en": "The concert starts at nine. By then, I'll have finished work.", "vi": "Buổi hòa nhạc bắt đầu lúc chín giờ. Đến lúc đó mình đã tan làm rồi.", "highlight": "By then" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "ill-have-by",
+                        "prompts": [
+                            { "cueVi": "Trước thứ Sáu mình sẽ làm xong báo cáo.", "slots": { "done": "finished the report", "time": "Friday" }, "answer": "I'll have finished the report by Friday." },
+                            { "cueVi": "Trước cuối năm mình sẽ tiết kiệm đủ tiền.", "slots": { "done": "saved enough money", "time": "the end of the year" }, "answer": "I'll have saved enough money by the end of the year." },
+                            { "cueVi": "Trước hè năm sau mình sẽ trả hết khoản vay.", "slots": { "done": "paid off my loan", "time": "next summer" }, "answer": "I'll have paid off my loan by next summer." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["by-then", "by-the-end-of", "achieve", "goal", "progress", "on-track", "by-the-time"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b2-07-busy-week", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I will finish the report until Friday.", "I'll have finished the report by Friday.", "I'll have finish the report by Friday."],
+                                "answer": 1,
+                                "item": "future-perfect"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["By the time you will arrive, we'll have eaten.", "By the time you arrive, we'll have eaten.", "By the time you arrive, we have eaten."],
+                                "answer": 1,
+                                "item": "ill-have-by"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I've made a lot of ___ with my English this year.",
+                                "hintVi": "sự tiến bộ",
+                                "answers": ["progress"],
+                                "item": "progress"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "We're on track to finish the project by June.",
+                                "options": ["Bọn mình đang đúng tiến độ để xong dự án trước tháng Sáu.", "Bọn mình bị chậm tiến độ, phải tới tháng Sáu.", "Dự án bắt đầu vào tháng Sáu."],
+                                "answer": 0,
+                                "item": "on-track"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Mục tiêu của mình là chạy marathon trước cuối năm.",
+                                "answer": "My goal is to run a marathon by the end of the year.",
+                                "item": "goal"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b2-07-l3-predictions",
+            "title": "It's likely to change",
+            "titleVi": "Dự đoán xu hướng",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "future-certainty", "role": "INTRODUCE" },
+                { "item": "is-likely-to", "role": "INTRODUCE" },
+                { "item": "i-doubt", "role": "INTRODUCE" },
+                { "item": "in-the-long-run", "role": "INTRODUCE" },
+                { "item": "predict", "role": "INTRODUCE" },
+                { "item": "retire", "role": "INTRODUCE" },
+                { "item": "population", "role": "INTRODUCE" },
+                { "item": "automation", "role": "INTRODUCE" },
+                { "item": "will-future", "role": "RECYCLE" },
+                { "item": "probably", "role": "RECYCLE" },
+                { "item": "technology", "role": "RECYCLE" },
+                { "item": "trend", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["is-likely-to", "i-doubt", "in-the-long-run", "predict", "retire", "population", "automation"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Chắc chắn tới mức nào?",
+                        "bodyVi": "B1 dự đoán bằng **will** và I think… will. Nói về **trend** dài hạn thì cần nói rõ mức chắc chắn:\n\n| mức | câu |\n|---|---|\n| rất chắc | Prices **will definitely** go up. |\n| nhiều khả năng | The **population is likely to** get older. / Prices **will probably** rise. |\n| có thể | Cash **may well** disappear. / It **might** happen. |\n| ít khả năng | Robots **probably won't** replace teachers. / It's **unlikely to** happen. |\n| gần như không | **I doubt** robots will replace teachers. |\n\nVị trí của **probably**: will **probably** (sau will), nhưng **probably** won't (trước won't).\n\nThêm khung thời gian: in ten years, by 2040, **in the long run** (về lâu dài). Nêu nguồn: Experts **predict** that…\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| I will probably not retire early. | I **probably won't** retire early. |\n| I doubt prices won't go down. | **I doubt** prices will go down. |\n| Vietnam has many population. | Vietnam has a large **population**. |\n\n❌ I doubt prices won't ❌ will probably not ✅ **I doubt prices will go down. I probably won't retire early.**",
+                        "items": ["future-certainty", "is-likely-to", "i-doubt", "in-the-long-run", "predict", "retire", "population", "automation", "will-future", "probably", "trend"],
+                        "examples": [
+                            { "en": "Robots are likely to replace many factory jobs.", "vi": "Robot nhiều khả năng sẽ thay thế nhiều việc làm trong nhà máy.", "highlight": "are likely to" },
+                            { "en": "I doubt robots will ever replace teachers.", "vi": "Mình không nghĩ robot sẽ thay được giáo viên.", "highlight": "I doubt" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "is-likely-to",
+                        "prompts": [
+                            { "cueVi": "Dân số nhiều khả năng sẽ già đi.", "slots": { "subject": "The population", "do": "get older" }, "answer": "The population is likely to get older." },
+                            { "cueVi": "Làm việc ở nhà nhiều khả năng sẽ phổ biến hơn.", "slots": { "subject": "Working from home", "do": "become more common" }, "answer": "Working from home is likely to become more common." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "i-doubt",
+                        "prompts": [
+                            { "cueVi": "Mình không nghĩ robot sẽ thay được giáo viên.", "slots": { "prediction": "robots will ever replace teachers" }, "answer": "I doubt robots will ever replace teachers." },
+                            { "cueVi": "Mình không nghĩ giá sẽ giảm.", "slots": { "prediction": "prices will go down" }, "answer": "I doubt prices will go down." },
+                            { "cueVi": "Mình không nghĩ giao thông sẽ đỡ hơn.", "slots": { "prediction": "the traffic will get better" }, "answer": "I doubt the traffic will get better." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["in-the-long-run", "predict", "retire", "population", "automation", "technology", "trend"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b2-07-five-years", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I will probably not come.", "I probably won't come.", "I won't probably come."],
+                                "answer": 1,
+                                "item": "future-certainty"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I doubt prices won't go down.", "I doubt that prices go down tomorrow will.", "I doubt prices will go down."],
+                                "answer": 2,
+                                "item": "i-doubt"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "The population is ___ to get older.",
+                                "hintVi": "nhiều khả năng",
+                                "answers": ["likely"],
+                                "item": "is-likely-to"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Buying a good bike is cheaper in the long run.",
+                                "options": ["Về lâu dài, mua một chiếc xe tốt lại rẻ hơn.", "Mua xe tốt để chạy đường dài thì rẻ hơn.", "Xe tốt thì chạy được đường dài."],
+                                "answer": 0,
+                                "item": "in-the-long-run"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Việt Nam có dân số khoảng một trăm triệu người.",
+                                "answer": "Vietnam has a population of about a hundred million people.",
+                                "item": "population"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "b2-07-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Đừng gọi lúc mười giờ vì lúc đó bạn đang họp. Bạn nói:",
+                "options": ["Don't call at ten. I'll be in a meeting.", "Don't call at ten. I'm meeting already.", "Don't call at ten. I will meet."],
+                "answer": 0,
+                "item": "future-continuous"
+            },
+            {
+                "kind": "gap",
+                "sentence": "I'll have finished the report ___ Friday.",
+                "hintVi": "trước, chậm nhất là",
+                "answers": ["by"],
+                "item": "future-perfect"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["The concert starts at nine. Until then, I'll have finished work.", "The concert starts at nine. By then, I'll have finished work.", "The concert starts at nine. By then, I finish work already."],
+                "answer": 1,
+                "item": "by-then"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Dự đoán, khá chắc nhưng không tuyệt đối:",
+                "options": ["Working from home is likely to become more common.", "Working from home likely becomes more common.", "Working from home is likely become more common."],
+                "answer": 0,
+                "item": "is-likely-to"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "Will you be available for a quick call at three?",
+                "options": ["Ba giờ anh có rảnh gọi nhanh một chút không?", "Ba giờ anh gọi lại cho tôi được không?", "Anh có ba cuộc gọi nhỡ."],
+                "answer": 0,
+                "item": "available"
+            },
+            {
+                "kind": "order",
+                "vi": "Năm nay tiếng Anh của mình tiến bộ nhiều.",
+                "answer": "I've made a lot of progress with my English this year.",
+                "item": "progress"
+            }
+        ]
+    }
+}

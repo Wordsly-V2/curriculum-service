@@ -720,6 +720,70 @@
             "options": ["The storm expects to hit Hue tonight.", "The storm is expected hitting Hue tonight.", "The storm is expected to hit Hue tonight."],
             "answer": 2,
             "item": "passive-reporting"
+        },
+        {
+            "unit": "b2-05-at-work",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["I suggest you to ask the client first.", "I'd suggest asking the client first.", "I'd suggest to ask the client first."],
+            "answer": 1,
+            "item": "making-suggestions"
+        },
+        {
+            "unit": "b2-05-at-work",
+            "kind": "choice",
+            "prompt": "Email công việc, câu nào đúng?",
+            "options": ["Could you let me know when you are free?", "Could you let me know when are you free?", "Please let me know when free are you?"],
+            "answer": 0,
+            "item": "could-you-let-me-know"
+        },
+        {
+            "unit": "b2-06-which-means",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["My mother, that is a teacher, loves reading.", "My mother who she is a teacher loves reading.", "My mother, who is a teacher, loves reading."],
+            "answer": 2,
+            "item": "non-defining-relative"
+        },
+        {
+            "unit": "b2-06-which-means",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["The bus didn't come, which means I'll be late.", "The bus didn't come, what means I'll be late.", "The bus didn't come, which it means I'll be late."],
+            "answer": 0,
+            "item": "which-whole-clause"
+        },
+        {
+            "unit": "b2-07-by-then",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["I will finish the report until Friday.", "I'll have finished the report by Friday.", "I'll have finish the report by Friday."],
+            "answer": 1,
+            "item": "future-perfect"
+        },
+        {
+            "unit": "b2-07-by-then",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["This time tomorrow, I'll be flying to Tokyo.", "This time tomorrow, I will fly to Tokyo already.", "This time tomorrow, I'll be fly to Tokyo."],
+            "answer": 0,
+            "item": "future-continuous"
+        },
+        {
+            "unit": "b2-08-phrasal-verbs",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["It's too loud. Could you turn down it?", "It's too loud. Could you turn it down?", "It's too loud. Could you down it turn?"],
+            "answer": 1,
+            "item": "separable-phrasal-verbs"
+        },
+        {
+            "unit": "b2-08-phrasal-verbs",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["She broke up her boyfriend.", "I can't put it up with any more.", "I can't put up with it any more."],
+            "answer": 2,
+            "item": "three-part-phrasal-verbs"
         }
     ]
 }
