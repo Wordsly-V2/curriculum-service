@@ -1,0 +1,783 @@
+{
+    "slug": "c1-08-feedback",
+    "stage": "c1",
+    "order": 8,
+    "title": "It might be worth…",
+    "titleVi": "Góp ý, khen và nhận góp ý",
+    "descriptionVi": "Góp ý khéo (It might be worth…, I wonder if it would help to…, One thing you could consider is…, Have you thought about…?, constructive feedback), khen cụ thể thay vì khen chung chung (I was really impressed by…, You did a great job of…, What worked well was…, spot on, credit where credit's due), và đón nhận lời phê bình mà không tự ái (Thanks for pointing out…, I'll take that on board, Point taken, Could you give me an example?, in hindsight).",
+    "canDo": [
+        "Tôi góp ý được cho đồng nghiệp một cách khéo léo, mang tính xây dựng.",
+        "Tôi khen được cụ thể, nói rõ điều gì làm tốt và vì sao.",
+        "Tôi đón nhận được lời phê bình một cách bình tĩnh, hỏi rõ và nói được mình sẽ làm gì."
+    ],
+    "items": [
+        {
+            "slug": "tactful-feedback",
+            "type": "GRAMMAR",
+            "text": "góp ý khéo: It might be worth + V-ing, I wonder if…, One thing you could consider is…, Have you thought about + V-ing?",
+            "meaningVi": "đưa lời góp ý dưới dạng gợi ý hoặc câu hỏi",
+            "examples": [
+                { "en": "It might be worth adding a few more examples.", "vi": "Có lẽ nên thêm vài ví dụ nữa.", "highlight": "It might be worth adding" }
+            ],
+            "grammar": {
+                "ruleVi": "Người bản ngữ ít khi góp ý bằng câu mệnh lệnh (Add more examples) hay You should…. Họ biến lời góp ý thành gợi ý hoặc câu hỏi, dùng might / could / would để lời nói nhẹ đi, và để người nghe tự quyết. Sau worth, about, consider là V-ing. Thứ tự hay dùng: khen một điểm cụ thể → góp ý một hai điểm → kết tích cực. Lời góp ý tốt là constructive: nói rõ cần làm gì, không chỉ chê.",
+                "forms": [
+                    { "label": "might be worth", "example": "It might be worth checking the numbers again." },
+                    { "label": "I wonder if", "example": "I wonder if it would help to start with a story." },
+                    { "label": "could consider", "example": "One thing you could consider is using fewer slides." },
+                    { "label": "câu hỏi", "example": "Have you thought about asking the client first?" },
+                    { "label": "gợi ý (B2 05)", "example": "I'd suggest making the font bigger." }
+                ],
+                "pitfallsVi": [
+                    "\"You should change this. It's wrong.\" → It might be worth changing this part.",
+                    "\"It might be worth to add…\" → It might be worth adding… (worth + V-ing).",
+                    "\"Have you thought to ask…?\" → Have you thought about asking…?"
+                ]
+            }
+        },
+        {
+            "slug": "it-might-be-worth",
+            "type": "PATTERN",
+            "text": "It might be worth ….",
+            "meaningVi": "Có lẽ cũng nên ….",
+            "examples": [
+                { "en": "It might be worth checking the numbers again before the meeting.", "vi": "Có lẽ cũng nên kiểm tra lại số liệu trước buổi họp.", "highlight": "It might be worth checking" }
+            ],
+            "pattern": {
+                "template": "It might be worth {doing}.",
+                "slots": [
+                    { "name": "doing", "hintVi": "V-ing", "options": ["checking the numbers again", "adding a few more examples", "asking the client first", "shortening the introduction", "getting a second opinion"] }
+                ]
+            },
+            "noteVi": "Góp ý nhẹ nhất, như một ý để cân nhắc. Nối tiếp worth it (B2 06). ❌ worth to check."
+        },
+        {
+            "slug": "i-wonder-if",
+            "type": "PATTERN",
+            "text": "I wonder if it would help to ….",
+            "meaningVi": "Không biết … thì có tốt hơn không.",
+            "examples": [
+                { "en": "I wonder if it would help to start with a short story.", "vi": "Không biết mở đầu bằng một câu chuyện ngắn thì có tốt hơn không.", "highlight": "I wonder if it would help to" }
+            ],
+            "pattern": {
+                "template": "I wonder if it would help to {do}.",
+                "slots": [
+                    { "name": "do", "hintVi": "V nguyên mẫu", "options": ["start with a short story", "use a chart here", "cut this part", "explain the reason first", "add a summary at the end"] }
+                ]
+            },
+            "noteVi": "Góp ý dạng tự hỏi, người nghe không thấy bị chỉ trích. Tương tự: I was wondering whether…."
+        },
+        {
+            "slug": "one-thing-you-could-consider",
+            "type": "PATTERN",
+            "text": "One thing you could consider is ….",
+            "meaningVi": "Một điều bạn có thể cân nhắc là ….",
+            "examples": [
+                { "en": "One thing you could consider is using fewer slides.", "vi": "Một điều bạn có thể cân nhắc là dùng ít slide hơn.", "highlight": "One thing you could consider is" }
+            ],
+            "pattern": {
+                "template": "One thing you could consider is {doing}.",
+                "slots": [
+                    { "name": "doing", "hintVi": "V-ing", "options": ["using fewer slides", "speaking a bit more slowly", "adding the costs", "asking the team for ideas", "sending it a day earlier"] }
+                ]
+            },
+            "noteVi": "\"One thing\" cho thấy đây chỉ là một điểm nhỏ, không phải cả bài đều hỏng. Sau is là V-ing."
+        },
+        {
+            "slug": "have-you-thought-about",
+            "type": "PHRASE",
+            "text": "Have you thought about …?",
+            "meaningVi": "Bạn đã nghĩ đến chuyện … chưa?",
+            "examples": [
+                { "en": "Have you thought about asking the client what they prefer?", "vi": "Bạn đã nghĩ đến chuyện hỏi khách xem họ thích gì chưa?", "highlight": "Have you thought about" }
+            ],
+            "noteVi": "Góp ý bằng câu hỏi, để người nghe tự tìm ra. Sau about là V-ing hoặc danh từ. ❌ thought to ask."
+        },
+        {
+            "slug": "food-for-thought",
+            "type": "PHRASE",
+            "text": "food for thought",
+            "meaningVi": "điều đáng suy ngẫm",
+            "examples": [
+                { "en": "Thanks for the feedback. That's given me some food for thought.", "vi": "Cảm ơn góp ý. Nó cho mình nhiều điều để suy nghĩ.", "highlight": "food for thought" }
+            ],
+            "noteVi": "Dùng khi góp ý (Just some food for thought) hoặc khi nhận góp ý. Không liên quan đến đồ ăn."
+        },
+        {
+            "slug": "constructive",
+            "type": "LEXICAL",
+            "text": "constructive",
+            "meaningVi": "mang tính xây dựng",
+            "ipa": "/kənˈstrʌktɪv/",
+            "examples": [
+                { "en": "Thanks for the constructive feedback. It's really helpful.", "vi": "Cảm ơn góp ý mang tính xây dựng. Rất hữu ích.", "highlight": "constructive" }
+            ],
+            "noteVi": "constructive criticism / feedback: chỉ ra vấn đề kèm cách sửa. Trái nghĩa: destructive, harsh."
+        },
+        {
+            "slug": "feedback",
+            "type": "LEXICAL",
+            "text": "feedback",
+            "meaningVi": "phản hồi, góp ý",
+            "ipa": "/ˈfiːdbæk/",
+            "examples": [
+                { "en": "Could you give me some feedback on my report?", "vi": "Bạn góp ý giúp mình về bản báo cáo được không?", "highlight": "feedback" }
+            ],
+            "noteVi": "Không đếm được: some feedback, a piece of feedback. ❌ a feedback, feedbacks. give / get feedback on something."
+        },
+        {
+            "slug": "specific-praise",
+            "type": "GRAMMAR",
+            "text": "khen cụ thể: I was impressed by + N, You did a great job of + V-ing, What worked well was…",
+            "meaningVi": "nói rõ điều gì làm tốt thay vì chỉ \"good job\"",
+            "examples": [
+                { "en": "I was really impressed by how calmly you answered the questions.", "vi": "Mình rất ấn tượng với cách bạn trả lời câu hỏi bình tĩnh như vậy.", "highlight": "I was really impressed by" }
+            ],
+            "grammar": {
+                "ruleVi": "\"Good job!\" dễ nghe nhưng không giúp người kia biết nên giữ gì. Lời khen C1 nêu cụ thể điều tốt và vì sao. Các khung câu: I was (really) impressed by + danh từ / how…; You did a great job of + V-ing; What worked (really) well was… (câu chẻ với what, C1 02); I (do) think… (nhấn mạnh bằng do, C1 02). Công nhận công sức của một người trước nhóm: Credit where credit's due. Khen trước khi góp ý làm lời góp ý dễ nghe hơn, nhưng lời khen phải thật.",
+                "forms": [
+                    { "label": "ấn tượng", "example": "I was really impressed by your research." },
+                    { "label": "làm tốt việc gì", "example": "You did a great job of keeping it short." },
+                    { "label": "câu chẻ", "example": "What worked well was the story at the start." },
+                    { "label": "chính xác", "example": "Your summary was spot on." },
+                    { "label": "động viên", "example": "Keep up the good work!" }
+                ],
+                "pitfallsVi": [
+                    "\"Good job, very good, very good\" → You did a great job of explaining the numbers.",
+                    "\"I was impressed with your present\" → I was impressed by your presentation.",
+                    "\"You did a great job to explain\" → You did a great job of explaining."
+                ]
+            }
+        },
+        {
+            "slug": "i-was-impressed-by",
+            "type": "PATTERN",
+            "text": "I was really impressed by ….",
+            "meaningVi": "Tôi rất ấn tượng với ….",
+            "examples": [
+                { "en": "I was really impressed by your research on our competitors.", "vi": "Mình rất ấn tượng với phần nghiên cứu của bạn về đối thủ.", "highlight": "I was really impressed by" }
+            ],
+            "pattern": {
+                "template": "I was really impressed by {thing}.",
+                "slots": [
+                    { "name": "thing", "hintVi": "điều cụ thể (danh từ hoặc how…)", "options": ["your research on our competitors", "how calmly you answered the questions", "the design of the slides", "your attention to detail", "how quickly you learned the system"] }
+                ]
+            },
+            "noteVi": "impressed by hoặc impressed with đều được. Cụ thể càng tốt: how + mệnh đề rất tự nhiên."
+        },
+        {
+            "slug": "you-did-a-great-job-of",
+            "type": "PATTERN",
+            "text": "You did a great job of ….",
+            "meaningVi": "Bạn đã làm rất tốt việc ….",
+            "examples": [
+                { "en": "You did a great job of explaining the numbers.", "vi": "Bạn đã giải thích số liệu rất tốt.", "highlight": "You did a great job of" }
+            ],
+            "pattern": {
+                "template": "You did a great job of {doing}.",
+                "slots": [
+                    { "name": "doing", "hintVi": "V-ing", "options": ["explaining the numbers", "keeping it short", "handling the client", "organizing the event", "answering the tough questions"] }
+                ]
+            },
+            "noteVi": "Sau of là V-ing. Ngắn hơn: Great job on the report! (on + danh từ)."
+        },
+        {
+            "slug": "what-worked-well",
+            "type": "PHRASE",
+            "text": "What worked well was ….",
+            "meaningVi": "Điều làm tốt là ….",
+            "examples": [
+                { "en": "What worked really well was the story at the beginning.", "vi": "Điều làm rất tốt là câu chuyện ở phần mở đầu.", "highlight": "What worked really well was" }
+            ],
+            "noteVi": "Câu chẻ với what (C1 02) để nhấn điểm tốt. Đi đôi với phần góp ý: What could be better is…."
+        },
+        {
+            "slug": "spot-on",
+            "type": "LEXICAL",
+            "text": "spot on",
+            "meaningVi": "chính xác, rất đúng",
+            "ipa": "/ˌspɑːt ˈɑːn/",
+            "examples": [
+                { "en": "Your summary of the problem was spot on.", "vi": "Phần tóm tắt vấn đề của bạn rất chính xác.", "highlight": "spot on" }
+            ],
+            "noteVi": "Thân mật, gốc Anh nhưng người Mỹ cũng dùng. Đứng sau be: That's spot on. Gần nghĩa: exactly right."
+        },
+        {
+            "slug": "keep-up-the-good-work",
+            "type": "PHRASE",
+            "text": "Keep up the good work!",
+            "meaningVi": "Cứ tiếp tục phát huy nhé!",
+            "examples": [
+                { "en": "Your sales are up again this month. Keep up the good work!", "vi": "Tháng này doanh số của bạn lại tăng. Cứ tiếp tục phát huy nhé!", "highlight": "Keep up the good work!" }
+            ],
+            "noteVi": "Kết lời khen, hay dùng từ sếp với nhân viên. keep up = duy trì."
+        },
+        {
+            "slug": "credit-where-its-due",
+            "type": "PHRASE",
+            "text": "Credit where credit's due.",
+            "meaningVi": "Công ai nấy hưởng.",
+            "examples": [
+                { "en": "Credit where credit's due: Lan did most of the research.", "vi": "Công ai nấy hưởng: Lan làm phần lớn việc nghiên cứu.", "highlight": "Credit where credit's due" }
+            ],
+            "noteVi": "Công nhận công sức của ai đó trước mọi người, kể cả khi mình không thích người đó lắm. Cũng nói: give someone credit for…."
+        },
+        {
+            "slug": "praise",
+            "type": "LEXICAL",
+            "text": "praise",
+            "meaningVi": "lời khen; khen ngợi",
+            "ipa": "/preɪz/",
+            "examples": [
+                { "en": "The manager praised the team for their hard work.", "vi": "Sếp khen cả nhóm vì đã làm việc chăm chỉ.", "highlight": "praised" }
+            ],
+            "noteVi": "Động từ: praise someone for something. Danh từ không đếm được: a lot of praise, high praise. Nói chuyện: say nice things about."
+        },
+        {
+            "slug": "responding-to-criticism",
+            "type": "GRAMMAR",
+            "text": "đón nhận phê bình: cảm ơn, hỏi rõ, nhận phần đúng, nói việc sẽ làm",
+            "meaningVi": "nghe góp ý mà không cãi hay tự ái",
+            "examples": [
+                { "en": "Thanks for pointing that out. I'll take it on board for next time.", "vi": "Cảm ơn đã chỉ ra điều đó. Lần sau mình sẽ tiếp thu.", "highlight": "take it on board" }
+            ],
+            "grammar": {
+                "ruleVi": "Phản ứng tự nhiên khi bị chê là giải thích ngay (But I…, because…), nghe như đang defensive. Cách chuyên nghiệp có bốn bước: cảm ơn (Thanks for pointing that out), hỏi rõ nếu chưa hiểu (Could you give me an example?), nhận phần đúng (Point taken / You're right that… / In hindsight, I should have…, B2 02), và nói mình sẽ làm gì (I'll take that on board / Next time, I'll…). Không đồng ý thì nói sau, mềm: I see your point, but… (B2 03).",
+                "forms": [
+                    { "label": "cảm ơn", "example": "Thanks for pointing out the mistake." },
+                    { "label": "hỏi rõ", "example": "Could you give me an example?" },
+                    { "label": "nhận phần đúng", "example": "Point taken. In hindsight, I should have checked." },
+                    { "label": "hứa sửa", "example": "I'll take that on board for next time." },
+                    { "label": "không đồng ý mềm", "example": "I see your point, but the client asked for it." }
+                ],
+                "pitfallsVi": [
+                    "\"But it's not my fault, because…\" ngay lập tức → Thanks for pointing that out. Could you give me an example?",
+                    "\"I will take it on my board\" → I'll take it on board.",
+                    "\"In hindsight, I should check\" → In hindsight, I should have checked (should have + V3)."
+                ]
+            }
+        },
+        {
+            "slug": "thanks-for-pointing-out",
+            "type": "PATTERN",
+            "text": "Thanks for pointing out ….",
+            "meaningVi": "Cảm ơn đã chỉ ra ….",
+            "examples": [
+                { "en": "Thanks for pointing out the mistake in the figures.", "vi": "Cảm ơn đã chỉ ra lỗi trong số liệu.", "highlight": "Thanks for pointing out" }
+            ],
+            "pattern": {
+                "template": "Thanks for pointing out {problem}.",
+                "slots": [
+                    { "name": "problem", "hintVi": "điều người kia chỉ ra (danh từ)", "options": ["the mistake in the figures", "the problem with the design", "the missing page", "the typo in the title", "that issue"] }
+                ]
+            },
+            "noteVi": "Nối tiếp point out (B2 10). Với that / it, đặt ở giữa: Thanks for pointing that out."
+        },
+        {
+            "slug": "take-on-board",
+            "type": "PHRASE",
+            "text": "take something on board",
+            "meaningVi": "tiếp thu, ghi nhận (góp ý)",
+            "examples": [
+                { "en": "That's really useful. I'll take it on board for next time.", "vi": "Rất hữu ích. Lần sau mình sẽ tiếp thu.", "highlight": "take it on board" }
+            ],
+            "noteVi": "Cho thấy mình thật sự sẽ thay đổi, không chỉ nghe cho qua. Đại từ đứng giữa: take it / that / your comments on board."
+        },
+        {
+            "slug": "point-taken",
+            "type": "PHRASE",
+            "text": "Point taken.",
+            "meaningVi": "Tôi hiểu ý rồi (và đồng ý).",
+            "examples": [
+                { "en": "Point taken. I'll keep the next report shorter.", "vi": "Mình hiểu ý rồi. Báo cáo sau mình sẽ viết ngắn hơn.", "highlight": "Point taken" }
+            ],
+            "noteVi": "Ngắn gọn, chấp nhận góp ý mà không cần tranh luận thêm. Cẩn thận giọng: nói cộc lốc có thể nghe như hơi dỗi."
+        },
+        {
+            "slug": "could-you-give-me-an-example",
+            "type": "PHRASE",
+            "text": "Could you give me an example?",
+            "meaningVi": "Bạn cho tôi một ví dụ được không?",
+            "examples": [
+                { "en": "You said my emails are too long. Could you give me an example?", "vi": "Bạn bảo email của mình dài quá. Bạn cho mình một ví dụ được không?", "highlight": "Could you give me an example?" }
+            ],
+            "noteVi": "Hỏi rõ góp ý chung chung để biết cần sửa gì, không phải để cãi. Tương tự: What would you do differently?"
+        },
+        {
+            "slug": "in-hindsight",
+            "type": "PHRASE",
+            "text": "in hindsight",
+            "meaningVi": "nhìn lại thì",
+            "examples": [
+                { "en": "In hindsight, I should have asked for help earlier.", "vi": "Nhìn lại thì lẽ ra mình nên nhờ giúp sớm hơn.", "highlight": "In hindsight" }
+            ],
+            "noteVi": "Hay đi với should have + V3 (B2 02). Thân mật hơn: Looking back, …. Thành ngữ: Hindsight is 20/20 (nhìn lại thì ai cũng sáng suốt)."
+        },
+        {
+            "slug": "defensive",
+            "type": "LEXICAL",
+            "text": "defensive",
+            "meaningVi": "tự ái, phản ứng để tự bảo vệ",
+            "ipa": "/dɪˈfensɪv/",
+            "examples": [
+                { "en": "I didn't mean to sound defensive. You're right about the deadline.", "vi": "Mình không cố ý tự ái đâu. Bạn nói đúng về hạn chót.", "highlight": "defensive" }
+            ],
+            "noteVi": "get / sound / become defensive: phản ứng như bị tấn công khi nghe góp ý. Danh từ gốc: defense (phòng thủ)."
+        },
+        {
+            "slug": "criticism",
+            "type": "LEXICAL",
+            "text": "criticism",
+            "meaningVi": "lời phê bình, chỉ trích",
+            "ipa": "/ˈkrɪtɪsɪzəm/",
+            "examples": [
+                { "en": "She's good at taking criticism and learning from it.", "vi": "Chị ấy tiếp nhận phê bình và học hỏi từ đó rất tốt.", "highlight": "criticism" }
+            ],
+            "noteVi": "take / accept criticism, constructive criticism. Động từ: criticize. Người bình luận phim, ẩm thực: critic."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "c1-08-feedback-for-ben",
+            "title": "You did a great job of…",
+            "situationVi": "Ben, đồng nghiệp mới vào làm, vừa thuyết trình lần đầu trước khách hàng và nhờ bạn góp ý. Bài nói khá tốt, nhưng hơi dài và nhiều chữ.",
+            "lines": [
+                { "speaker": "Ben", "en": "So, how was it? Be honest. Could you give me some feedback?", "vi": "Thế nào? Nói thật đi. Góp ý cho mình với?" },
+                { "speaker": "You", "en": "Sure. First of all, I was really impressed by how calmly you answered the questions.", "vi": "Được chứ. Trước hết, mình rất ấn tượng với cách bạn trả lời câu hỏi bình tĩnh như vậy.", "learnerTurn": true },
+                { "speaker": "Ben", "en": "Really? I was so nervous!", "vi": "Thật à? Mình run lắm!" },
+                { "speaker": "You", "en": "It didn't show. And what worked really well was the story at the beginning. You did a great job of keeping everyone interested.", "vi": "Không thấy run đâu. Và điều làm rất tốt là câu chuyện ở phần mở đầu. Bạn giữ được sự chú ý của mọi người rất tốt.", "learnerTurn": true },
+                { "speaker": "Ben", "en": "Thanks. Anything I could do better?", "vi": "Cảm ơn. Có gì mình làm tốt hơn được không?" },
+                { "speaker": "You", "en": "One thing you could consider is using fewer slides. Some of them had a lot of text.", "vi": "Một điều bạn có thể cân nhắc là dùng ít slide hơn. Vài slide nhiều chữ quá.", "learnerTurn": true },
+                { "speaker": "Ben", "en": "Yeah, I wasn't sure what to cut.", "vi": "Ừ, mình không biết nên cắt chỗ nào." },
+                { "speaker": "You", "en": "It might be worth putting the details in a handout. Have you thought about asking Lan? Credit where credit's due, her slides are always clear.", "vi": "Có lẽ nên đưa phần chi tiết vào tài liệu phát tay. Bạn đã nghĩ đến chuyện hỏi Lan chưa? Công ai nấy hưởng, slide của Lan lúc nào cũng rõ ràng.", "learnerTurn": true },
+                { "speaker": "Ben", "en": "Good idea. That's really constructive, thanks.", "vi": "Ý hay. Góp ý rất có ích, cảm ơn nhé." },
+                { "speaker": "You", "en": "No problem. It was a great first presentation. Keep up the good work!", "vi": "Không có gì. Bài thuyết trình đầu tiên rất tốt. Cứ tiếp tục phát huy nhé!", "learnerTurn": true }
+            ]
+        },
+        {
+            "slug": "c1-08-your-review",
+            "title": "Point taken",
+            "situationVi": "Chị Karen, trưởng nhóm người Anh, góp ý về bản báo cáo bạn gửi khách hàng tuần trước. Chị ấy nói thẳng nhưng không gay gắt.",
+            "lines": [
+                { "speaker": "Karen", "en": "Overall, the report was good. But the client found it hard to follow.", "vi": "Nhìn chung báo cáo tốt. Nhưng khách hàng thấy khó theo dõi." },
+                { "speaker": "You", "en": "Oh, I see. Thanks for telling me. Could you give me an example?", "vi": "À, em hiểu rồi. Cảm ơn chị đã nói. Chị cho em một ví dụ được không?", "learnerTurn": true },
+                { "speaker": "Karen", "en": "The summary was on page twelve. They had to read everything to find the main point.", "vi": "Phần tóm tắt nằm ở trang mười hai. Họ phải đọc hết mới thấy ý chính." },
+                { "speaker": "You", "en": "Point taken. In hindsight, I should have put the summary at the start.", "vi": "Em hiểu ý rồi. Nhìn lại thì lẽ ra em nên đặt phần tóm tắt ở đầu.", "learnerTurn": true },
+                { "speaker": "Karen", "en": "Exactly. And there were a couple of mistakes in the figures on page five.", "vi": "Đúng vậy. Và có vài lỗi trong số liệu ở trang năm." },
+                { "speaker": "You", "en": "Thanks for pointing out the mistakes. I'll fix them today and send a new version.", "vi": "Cảm ơn chị đã chỉ ra lỗi. Em sẽ sửa hôm nay và gửi bản mới.", "learnerTurn": true },
+                { "speaker": "Karen", "en": "Great. I hope that didn't sound too harsh.", "vi": "Tốt. Hy vọng chị nói không quá gắt." },
+                { "speaker": "You", "en": "Not at all. It's constructive criticism, and I'll take it on board for next time.", "vi": "Không hề ạ. Đó là góp ý mang tính xây dựng, và lần sau em sẽ tiếp thu.", "learnerTurn": true },
+                { "speaker": "Karen", "en": "That's the spirit. Your analysis was spot on, by the way.", "vi": "Tinh thần tốt đấy. Mà phần phân tích của bạn rất chính xác." }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "c1-08-l1-giving-feedback",
+            "title": "It might be worth…",
+            "titleVi": "Góp ý khéo",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "tactful-feedback", "role": "INTRODUCE" },
+                { "item": "it-might-be-worth", "role": "INTRODUCE" },
+                { "item": "i-wonder-if", "role": "INTRODUCE" },
+                { "item": "one-thing-you-could-consider", "role": "INTRODUCE" },
+                { "item": "have-you-thought-about", "role": "INTRODUCE" },
+                { "item": "food-for-thought", "role": "INTRODUCE" },
+                { "item": "constructive", "role": "INTRODUCE" },
+                { "item": "feedback", "role": "INTRODUCE" },
+                { "item": "understatement", "role": "RECYCLE" },
+                { "item": "making-suggestions", "role": "RECYCLE" },
+                { "item": "id-suggest", "role": "RECYCLE" },
+                { "item": "im-not-entirely-convinced", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["it-might-be-worth", "i-wonder-if", "one-thing-you-could-consider", "have-you-thought-about", "food-for-thought", "constructive", "feedback"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Biến lời chê thành gợi ý",
+                        "bodyVi": "Góp ý bằng câu mệnh lệnh hay You should… dễ làm người nghe phòng thủ. Người bản ngữ đổi nó thành gợi ý hoặc câu hỏi:\n\n| thẳng | khéo |\n|---|---|\n| Check the numbers again. | **It might be worth** check**ing** the numbers again. |\n| Start with a story. | **I wonder if it would help to** start with a story. |\n| Use fewer slides. | **One thing you could consider is** us**ing** fewer slides. |\n| Ask the client. | **Have you thought about** ask**ing** the client? |\n| Make the font bigger. | **I'd suggest** making the font bigger. (B2 05) |\n| This won't work. | **I'm not entirely convinced** it'll work. (C1 01) |\n\nSau worth, about, consider is: V-ing. Thứ tự: khen một điểm cụ thể → góp ý một hai điểm → kết tích cực. Góp ý **constructive** thì nói rõ cần làm gì. **feedback** không đếm được: some feedback.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| You should change this. It's wrong. | **It might be worth** changing this part. |\n| It might be worth to add examples. | **It might be worth adding** examples. |\n| Can you give me a feedback? | Can you give me **some feedback**? |\n\n❌ worth to add ❌ a feedback ✅ **Just some food for thought: it might be worth adding a few examples.**",
+                        "items": ["tactful-feedback", "it-might-be-worth", "i-wonder-if", "one-thing-you-could-consider", "have-you-thought-about", "food-for-thought", "constructive", "feedback", "making-suggestions", "id-suggest", "im-not-entirely-convinced"],
+                        "examples": [
+                            { "en": "It might be worth adding a few more examples.", "vi": "Có lẽ nên thêm vài ví dụ nữa.", "highlight": "It might be worth adding" },
+                            { "en": "One thing you could consider is using fewer slides.", "vi": "Một điều bạn có thể cân nhắc là dùng ít slide hơn.", "highlight": "One thing you could consider is" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "it-might-be-worth",
+                        "prompts": [
+                            { "cueVi": "Có lẽ cũng nên hỏi khách trước.", "slots": { "doing": "asking the client first" }, "answer": "It might be worth asking the client first." },
+                            { "cueVi": "Có lẽ cũng nên rút ngắn phần mở đầu.", "slots": { "doing": "shortening the introduction" }, "answer": "It might be worth shortening the introduction." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "one-thing-you-could-consider",
+                        "prompts": [
+                            { "cueVi": "Một điều bạn có thể cân nhắc là nói chậm hơn một chút.", "slots": { "doing": "speaking a bit more slowly" }, "answer": "One thing you could consider is speaking a bit more slowly." },
+                            { "cueVi": "Một điều bạn có thể cân nhắc là hỏi ý kiến cả nhóm.", "slots": { "doing": "asking the team for ideas" }, "answer": "One thing you could consider is asking the team for ideas." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["have-you-thought-about", "food-for-thought", "constructive", "feedback", "im-not-entirely-convinced"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "It might be worth checking the numbers again before the meeting.", "vi": "Có lẽ cũng nên kiểm tra lại số liệu trước buổi họp." },
+                            { "en": "I wonder if it would help to start with a short story.", "vi": "Không biết mở đầu bằng một câu chuyện ngắn thì có tốt hơn không." },
+                            { "en": "One thing you could consider is using fewer slides.", "vi": "Một điều bạn có thể cân nhắc là dùng ít slide hơn." },
+                            { "en": "Have you thought about asking the client what they prefer?", "vi": "Bạn đã nghĩ đến chuyện hỏi khách xem họ thích gì chưa?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn muốn góp ý khéo rằng đồng nghiệp nên kiểm tra lại số liệu:",
+                                "options": ["Check the numbers. They're wrong.", "It might be worth checking the numbers again.", "You must check again the numbers."],
+                                "answer": 1,
+                                "item": "tactful-feedback"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["It might be worth to add more examples.", "It might be worth adding more examples.", "It might worth adding more examples."],
+                                "answer": 1,
+                                "item": "it-might-be-worth"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Could you give me some ___ on my report?",
+                                "hintVi": "góp ý, phản hồi",
+                                "answers": ["feedback"],
+                                "item": "feedback"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Thanks for the feedback. That's given me some food for thought.",
+                                "options": ["Cảm ơn góp ý. Nó cho mình nhiều điều để suy nghĩ.", "Cảm ơn bữa ăn. Mình no rồi.", "Cảm ơn góp ý, nhưng mình không đồng ý."],
+                                "answer": 0,
+                                "item": "food-for-thought"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Không biết mở đầu bằng một câu chuyện ngắn thì có tốt hơn không.",
+                                "answer": "I wonder if it would help to start with a short story.",
+                                "item": "i-wonder-if"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "c1-08-l2-praise",
+            "title": "You did a great job of…",
+            "titleVi": "Khen cụ thể",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "specific-praise", "role": "INTRODUCE" },
+                { "item": "i-was-impressed-by", "role": "INTRODUCE" },
+                { "item": "you-did-a-great-job-of", "role": "INTRODUCE" },
+                { "item": "what-worked-well", "role": "INTRODUCE" },
+                { "item": "spot-on", "role": "INTRODUCE" },
+                { "item": "keep-up-the-good-work", "role": "INTRODUCE" },
+                { "item": "credit-where-its-due", "role": "INTRODUCE" },
+                { "item": "praise", "role": "INTRODUCE" },
+                { "item": "wh-cleft", "role": "RECYCLE" },
+                { "item": "emphatic-do", "role": "RECYCLE" },
+                { "item": "absolutely", "role": "RECYCLE" },
+                { "item": "constructive", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["i-was-impressed-by", "you-did-a-great-job-of", "what-worked-well", "spot-on", "keep-up-the-good-work", "credit-where-its-due", "praise"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "\"Good job\" chưa đủ",
+                        "bodyVi": "Lời khen chung chung dễ quên. Lời khen cụ thể cho người kia biết nên giữ điều gì:\n\n| chung chung | cụ thể |\n|---|---|\n| Good job! | **You did a great job of** explain**ing** the numbers. |\n| Very good presentation. | **I was really impressed by** how calmly you answered. |\n| The start was good. | **What worked really well was** the story at the start. (C1 02) |\n| Your summary is correct. | Your summary was **spot on**. |\n| Nice. | I **do** think it was your best report so far. (C1 02) |\n| (không nhắc ai) | **Credit where credit's due**: Lan did the research. |\n| Continue like this. | **Keep up the good work!** |\n\nKhen với tính từ mạnh: **absolutely** brilliant (không very brilliant). Khen trước, góp ý **constructive** sau, lời góp ý dễ nghe hơn. praise là không đếm được: a lot of **praise**.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| Good job, very good, very good! | **You did a great job of** keeping it short. |\n| I was impressed with your present. | **I was impressed by** your presentation. |\n| You did a great job to explain. | **You did a great job of explaining**. |\n\n❌ a great job to explain ❌ very brilliant ✅ **What worked really well was the ending. You did a great job of keeping it short.**",
+                        "items": ["specific-praise", "i-was-impressed-by", "you-did-a-great-job-of", "what-worked-well", "spot-on", "keep-up-the-good-work", "credit-where-its-due", "praise", "wh-cleft", "emphatic-do", "absolutely", "constructive"],
+                        "examples": [
+                            { "en": "I was really impressed by how calmly you answered the questions.", "vi": "Mình rất ấn tượng với cách bạn trả lời câu hỏi bình tĩnh như vậy.", "highlight": "I was really impressed by" },
+                            { "en": "You did a great job of explaining the numbers.", "vi": "Bạn đã giải thích số liệu rất tốt.", "highlight": "You did a great job of" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "i-was-impressed-by",
+                        "prompts": [
+                            { "cueVi": "Mình rất ấn tượng với thiết kế của các slide.", "slots": { "thing": "the design of the slides" }, "answer": "I was really impressed by the design of the slides." },
+                            { "cueVi": "Mình rất ấn tượng với sự tỉ mỉ của bạn.", "slots": { "thing": "your attention to detail" }, "answer": "I was really impressed by your attention to detail." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "you-did-a-great-job-of",
+                        "prompts": [
+                            { "cueVi": "Bạn đã giữ bài nói ngắn gọn rất tốt.", "slots": { "doing": "keeping it short" }, "answer": "You did a great job of keeping it short." },
+                            { "cueVi": "Bạn đã xử lý khách hàng rất tốt.", "slots": { "doing": "handling the client" }, "answer": "You did a great job of handling the client." },
+                            { "cueVi": "Bạn đã tổ chức sự kiện rất tốt.", "slots": { "doing": "organizing the event" }, "answer": "You did a great job of organizing the event." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["what-worked-well", "spot-on", "keep-up-the-good-work", "credit-where-its-due", "praise", "absolutely"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "c1-08-feedback-for-ben", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Lời khen nào cụ thể nhất?",
+                                "options": ["Good job, very good!", "You did a great job of explaining the numbers.", "It was nice, I think."],
+                                "answer": 1,
+                                "item": "specific-praise"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["You did a great job to organize the event.", "You did a great job of organizing the event.", "You made a great job organizing the event."],
+                                "answer": 1,
+                                "item": "you-did-a-great-job-of"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Your summary of the problem was spot ___.",
+                                "hintVi": "(chính xác) trên",
+                                "answers": ["on"],
+                                "item": "spot-on"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Credit where credit's due: Lan did most of the research.",
+                                "options": ["Lan nợ tiền nên phải nghiên cứu.", "Công ai nấy hưởng: Lan làm phần lớn việc nghiên cứu.", "Lan được thẻ tín dụng nhờ nghiên cứu."],
+                                "answer": 1,
+                                "item": "credit-where-its-due"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Điều làm rất tốt là câu chuyện ở phần mở đầu.",
+                                "answer": "What worked really well was the story at the beginning.",
+                                "item": "what-worked-well"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "c1-08-l3-receiving-feedback",
+            "title": "Point taken",
+            "titleVi": "Đón nhận lời phê bình",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "responding-to-criticism", "role": "INTRODUCE" },
+                { "item": "thanks-for-pointing-out", "role": "INTRODUCE" },
+                { "item": "take-on-board", "role": "INTRODUCE" },
+                { "item": "point-taken", "role": "INTRODUCE" },
+                { "item": "could-you-give-me-an-example", "role": "INTRODUCE" },
+                { "item": "in-hindsight", "role": "INTRODUCE" },
+                { "item": "defensive", "role": "INTRODUCE" },
+                { "item": "criticism", "role": "INTRODUCE" },
+                { "item": "point-out", "role": "RECYCLE" },
+                { "item": "should-have", "role": "RECYCLE" },
+                { "item": "i-see-your-point-but", "role": "RECYCLE" },
+                { "item": "feedback", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["thanks-for-pointing-out", "take-on-board", "point-taken", "could-you-give-me-an-example", "in-hindsight", "defensive", "criticism"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Nghe trước, giải thích sau",
+                        "bodyVi": "Bị chê thì muốn giải thích ngay, nhưng nghe như đang **defensive**. Bốn bước chuyên nghiệp khi nhận **criticism**:\n\n| bước | câu |\n|---|---|\n| 1. cảm ơn | **Thanks for pointing out** the mistake. / Thanks for pointing that out. (B2 10) |\n| 2. hỏi rõ | **Could you give me an example?** |\n| 3. nhận phần đúng | **Point taken.** / **In hindsight**, I **should have** checked. (B2 02) |\n| 4. nói việc sẽ làm | **I'll take that on board** for next time. |\n| (nếu không đồng ý) | **I see your point, but** the client asked for it. (B2 03) |\n\nHỏi ví dụ không phải để cãi mà để biết cần sửa gì. Cảm ơn người góp ý dù **feedback** khó nghe.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| But it's not my fault, because… | **Thanks for pointing that out.** Could you give me an example? |\n| I will take it on my board. | **I'll take it on board.** |\n| In hindsight, I should check. | **In hindsight, I should have checked.** |\n\n❌ take it on my board ❌ In hindsight, I should check ✅ **Point taken. In hindsight, I should have asked. I'll take it on board.**",
+                        "items": ["responding-to-criticism", "thanks-for-pointing-out", "take-on-board", "point-taken", "could-you-give-me-an-example", "in-hindsight", "defensive", "criticism", "point-out", "should-have", "i-see-your-point-but", "feedback"],
+                        "examples": [
+                            { "en": "Thanks for pointing that out. I'll take it on board for next time.", "vi": "Cảm ơn đã chỉ ra điều đó. Lần sau mình sẽ tiếp thu.", "highlight": "take it on board" },
+                            { "en": "In hindsight, I should have asked for help earlier.", "vi": "Nhìn lại thì lẽ ra mình nên nhờ giúp sớm hơn.", "highlight": "In hindsight" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "thanks-for-pointing-out",
+                        "prompts": [
+                            { "cueVi": "Cảm ơn đã chỉ ra vấn đề với thiết kế.", "slots": { "problem": "the problem with the design" }, "answer": "Thanks for pointing out the problem with the design." },
+                            { "cueVi": "Cảm ơn đã chỉ ra trang bị thiếu.", "slots": { "problem": "the missing page" }, "answer": "Thanks for pointing out the missing page." },
+                            { "cueVi": "Cảm ơn đã chỉ ra lỗi chính tả ở tiêu đề.", "slots": { "problem": "the typo in the title" }, "answer": "Thanks for pointing out the typo in the title." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["take-on-board", "point-taken", "could-you-give-me-an-example", "in-hindsight", "defensive", "criticism"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "c1-08-your-review", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Sếp góp ý là báo cáo của bạn khó theo dõi. Phản ứng nào chuyên nghiệp nhất?",
+                                "options": ["But it's not my fault, the data was late.", "Thanks for telling me. Could you give me an example?", "OK. Whatever."],
+                                "answer": 1,
+                                "item": "responding-to-criticism"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["In hindsight, I should check the figures.", "In hindsight, I should have checked the figures.", "In hindsight, I must checked the figures."],
+                                "answer": 1,
+                                "item": "in-hindsight"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "That's really useful. I'll take it on ___ for next time.",
+                                "hintVi": "(tiếp thu) lên tàu",
+                                "answers": ["board"],
+                                "item": "take-on-board"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "I didn't mean to sound defensive. You're right about the deadline.",
+                                "options": ["Mình không cố ý tự ái đâu. Bạn nói đúng về hạn chót.", "Mình phải bảo vệ hạn chót.", "Bạn sai về hạn chót rồi."],
+                                "answer": 0,
+                                "item": "defensive"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Cảm ơn đã chỉ ra lỗi trong số liệu.",
+                                "answer": "Thanks for pointing out the mistake in the figures.",
+                                "item": "thanks-for-pointing-out"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "c1-08-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Câu nào góp ý khéo nhất?",
+                "options": ["You should use fewer slides. Too many.", "One thing you could consider is using fewer slides.", "Your slides are bad."],
+                "answer": 1,
+                "item": "one-thing-you-could-consider"
+            },
+            {
+                "kind": "gap",
+                "sentence": "Have you thought ___ asking the client first?",
+                "hintVi": "về (giới từ)",
+                "answers": ["about"],
+                "item": "have-you-thought-about"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["I was really impressed by your research.", "I was really impressing by your research.", "I really impressed your research."],
+                "answer": 0,
+                "item": "i-was-impressed-by"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "Your sales are up again this month. Keep up the good work!",
+                "options": ["Doanh số tháng này giảm, cố lên nhé!", "Tháng này doanh số của bạn lại tăng. Cứ tiếp tục phát huy nhé!", "Doanh số tăng, nhưng bạn làm việc quá nhiều."],
+                "answer": 1,
+                "item": "keep-up-the-good-work"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Bạn đồng ý với lời góp ý và không muốn tranh luận thêm:",
+                "options": ["Point taken.", "Point token.", "Take the point, please."],
+                "answer": 0,
+                "item": "point-taken"
+            },
+            {
+                "kind": "order",
+                "vi": "Cảm ơn đã chỉ ra điều đó. Lần sau mình sẽ tiếp thu.",
+                "answer": "Thanks for pointing that out. I'll take it on board for next time.",
+                "item": "responding-to-criticism"
+            }
+        ]
+    }
+}

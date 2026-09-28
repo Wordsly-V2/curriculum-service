@@ -1,0 +1,760 @@
+{
+    "slug": "c1-06-persuading",
+    "stage": "c1",
+    "order": 6,
+    "title": "Provided that…",
+    "titleVi": "Thuyết phục và đàm phán",
+    "descriptionVi": "Đặt điều kiện khi đàm phán (provided that, as long as, on condition that, If you were to…, in return), nhượng bộ và đổi chác (I'm prepared to…, meet someone halfway, the bottom line, That's the best we can do, a deal-breaker), và chốt thỏa thuận (So, we've agreed that…, Do we have a deal?, put it in writing, Let me sleep on it).",
+    "canDo": [
+        "Tôi đưa ra được đề nghị kèm điều kiện một cách rõ ràng và lịch sự.",
+        "Tôi nhượng bộ, đổi chác và giữ được giới hạn của mình khi đàm phán.",
+        "Tôi tóm tắt và chốt được một thỏa thuận, hoặc xin thêm thời gian suy nghĩ."
+    ],
+    "items": [
+        {
+            "slug": "negotiation-conditionals",
+            "type": "GRAMMAR",
+            "text": "điều kiện khi đàm phán: provided that / as long as / on condition that + hiện tại; If you were to + V, … would / could",
+            "meaningVi": "gắn một đề nghị với điều kiện của mình",
+            "examples": [
+                { "en": "We can lower the price, provided that you order at least 500 units.", "vi": "Bên mình có thể giảm giá, với điều kiện bên bạn đặt ít nhất 500 cái.", "highlight": "provided that" }
+            ],
+            "grammar": {
+                "ruleVi": "Đàm phán là đổi chác: \"mình cho cái này nếu bạn cho cái kia\". Ngoài if (điều kiện loại 1, B1 05), tiếng Anh có các cụm chặt hơn: provided that / providing (với điều kiện), as long as (miễn là), on condition that (trang trọng, như trong hợp đồng). Như if, sau các cụm này dùng hiện tại dù nói về tương lai. unless (B1 05) = trừ khi. Muốn đưa ra một đề nghị giả định, nhẹ nhàng, không cam kết: If you were to + V, we could / would….",
+                "forms": [
+                    { "label": "provided that", "example": "We'll deliver on Monday, provided that you pay today." },
+                    { "label": "as long as", "example": "You can use the room as long as you clean it." },
+                    { "label": "on condition that", "example": "They agreed on condition that the contract is for two years." },
+                    { "label": "giả định nhẹ", "example": "If you were to sign today, we could give you 10% off." },
+                    { "label": "đổi lại", "example": "We'll cover delivery. In return, we'd like a longer contract." }
+                ],
+                "pitfallsVi": [
+                    "\"provided that you will order\" → provided that you order (không dùng will sau các cụm điều kiện).",
+                    "\"as long as\" với nghĩa \"because\": ❌ As long as it's raining, let's stay in. → Since it's raining, ….",
+                    "\"If you would sign today\" để đề nghị giả định → If you were to sign today…."
+                ]
+            }
+        },
+        {
+            "slug": "provided-that",
+            "type": "PATTERN",
+            "text": "We can …, provided that ….",
+            "meaningVi": "Chúng tôi có thể …, với điều kiện là ….",
+            "examples": [
+                { "en": "We can offer free delivery, provided that you pay in advance.", "vi": "Bên mình có thể miễn phí giao hàng, với điều kiện bên bạn trả trước.", "highlight": "provided that" }
+            ],
+            "pattern": {
+                "template": "We can {offer}, provided that {condition}.",
+                "slots": [
+                    { "name": "offer", "hintVi": "điều mình đồng ý làm", "options": ["offer free delivery", "lower the price", "start next week", "extend the deadline", "add two more users"] },
+                    { "name": "condition", "hintVi": "điều kiện (hiện tại đơn)", "options": ["you pay in advance", "you order at least 500 units", "you sign by Friday", "the design doesn't change", "the contract is for two years"] }
+                ]
+            },
+            "noteVi": "Có thể viết providing that, hoặc bỏ that: provided you pay in advance. Nghe chắc chắn và chuyên nghiệp hơn if."
+        },
+        {
+            "slug": "as-long-as",
+            "type": "PHRASE",
+            "text": "as long as …",
+            "meaningVi": "miễn là …",
+            "examples": [
+                { "en": "You can work from home as long as you're online during meetings.", "vi": "Bạn có thể làm ở nhà, miễn là có mặt online lúc họp.", "highlight": "as long as" }
+            ],
+            "noteVi": "Thân mật hơn provided that, dùng cả khi nói chuyện hằng ngày: I don't mind, as long as you're happy. Sau as long as dùng hiện tại, không dùng will."
+        },
+        {
+            "slug": "on-condition-that",
+            "type": "PHRASE",
+            "text": "on condition that …",
+            "meaningVi": "với điều kiện là … (trang trọng)",
+            "examples": [
+                { "en": "They agreed to the deal on condition that the price stays the same for two years.", "vi": "Họ đồng ý thỏa thuận với điều kiện giá giữ nguyên trong hai năm.", "highlight": "on condition that" }
+            ],
+            "noteVi": "Trang trọng nhất, hay gặp trong hợp đồng, email chính thức. Không có \"the\": ❌ on the condition that (vẫn gặp nhưng nặng hơn)."
+        },
+        {
+            "slug": "if-you-were-to",
+            "type": "PATTERN",
+            "text": "If you were to …, we could ….",
+            "meaningVi": "Giả sử bạn …, chúng tôi có thể ….",
+            "examples": [
+                { "en": "If you were to sign today, we could give you ten percent off.", "vi": "Giả sử bạn ký hôm nay, bên mình có thể giảm mười phần trăm.", "highlight": "If you were to sign today" }
+            ],
+            "pattern": {
+                "template": "If you were to {do}, we could {offer}.",
+                "slots": [
+                    { "name": "do", "hintVi": "điều mình muốn bên kia làm (V nguyên mẫu)", "options": ["sign today", "order more", "pay upfront", "commit to two years", "recommend us to your partners"] },
+                    { "name": "offer", "hintVi": "điều mình có thể cho", "options": ["give you ten percent off", "include training for free", "deliver next week", "offer a better price", "add extra support"] }
+                ]
+            },
+            "noteVi": "Điều kiện loại 2 dạng nhẹ, dùng để \"thăm dò\" mà chưa cam kết. Rất hay trong đàm phán. Đảo ngữ trang trọng (C1 03): Were you to sign today, …."
+        },
+        {
+            "slug": "in-return",
+            "type": "PHRASE",
+            "text": "in return",
+            "meaningVi": "đổi lại",
+            "examples": [
+                { "en": "We'll cover the delivery costs. In return, we'd like a two-year contract.", "vi": "Bên mình chịu phí giao hàng. Đổi lại, bên mình muốn hợp đồng hai năm.", "highlight": "In return" }
+            ],
+            "noteVi": "Đứng đầu câu hoặc cuối câu: What do we get in return? Với danh từ: in return for + N / V-ing."
+        },
+        {
+            "slug": "terms",
+            "type": "LEXICAL",
+            "text": "terms",
+            "meaningVi": "điều khoản, điều kiện (của thỏa thuận)",
+            "ipa": "/tɜːrmz/",
+            "examples": [
+                { "en": "Let's go through the terms of the contract one more time.", "vi": "Mình xem lại các điều khoản hợp đồng một lần nữa nhé.", "highlight": "terms" }
+            ],
+            "noteVi": "Luôn số nhiều với nghĩa này: payment terms, agree on the terms, terms and conditions. Khác term (học kỳ, thuật ngữ)."
+        },
+        {
+            "slug": "proposal",
+            "type": "LEXICAL",
+            "text": "proposal",
+            "meaningVi": "đề xuất, bản đề nghị",
+            "ipa": "/prəˈpoʊzl/",
+            "examples": [
+                { "en": "We've looked at your proposal and we have a few questions.", "vi": "Bên mình đã xem đề xuất của bạn và có vài câu hỏi.", "highlight": "proposal" }
+            ],
+            "noteVi": "put forward / make a proposal (đưa ra), accept / reject a proposal. Động từ: propose. Còn nghĩa lời cầu hôn."
+        },
+        {
+            "slug": "concessions-trade-offs",
+            "type": "GRAMMAR",
+            "text": "nhượng bộ và đổi chác: I'm prepared to…, I could … if you…, meet halfway, That's the best we can do",
+            "meaningVi": "nhường một bước nhưng vẫn giữ giới hạn của mình",
+            "examples": [
+                { "en": "I'm prepared to lower the price if you can pay upfront.", "vi": "Mình sẵn sàng giảm giá nếu bên bạn trả trước được.", "highlight": "I'm prepared to" }
+            ],
+            "grammar": {
+                "ruleVi": "Một nhượng bộ tốt luôn đi kèm điều kiện: không bao giờ \"cho không\". Dùng I'm prepared to / willing to + V để cho thấy mình linh hoạt, rồi gắn if hoặc in return. Khi không lùi thêm được: That's the best we can do / the bottom line is… . Khi điều gì không thể chấp nhận: That's a deal-breaker for us. Từ chối vẫn phải mềm (B2 05): I see your point, but…. Dùng would và could để lời nói nhẹ hơn: We could consider….",
+                "forms": [
+                    { "label": "sẵn sàng nhượng", "example": "I'm prepared to extend the deadline by a week." },
+                    { "label": "gắn điều kiện", "example": "We could do that if you order more." },
+                    { "label": "mỗi bên một nửa", "example": "Why don't we meet halfway at 15 percent?" },
+                    { "label": "giới hạn", "example": "I'm afraid that's the best we can do." },
+                    { "label": "không chấp nhận", "example": "Paying in advance is a deal-breaker for us." }
+                ],
+                "pitfallsVi": [
+                    "\"OK, we accept\" ngay lập tức → I'm prepared to…, but in return….",
+                    "\"meet in the half\" → meet (you) halfway.",
+                    "\"This is our last price, take it or leave it\" (quá gắt) → I'm afraid that's the best we can do."
+                ]
+            }
+        },
+        {
+            "slug": "im-prepared-to",
+            "type": "PATTERN",
+            "text": "I'm prepared to ….",
+            "meaningVi": "Tôi sẵn sàng ….",
+            "examples": [
+                { "en": "I'm prepared to extend the deadline, but only by a week.", "vi": "Mình sẵn sàng lùi hạn chót, nhưng chỉ một tuần.", "highlight": "I'm prepared to" }
+            ],
+            "pattern": {
+                "template": "I'm prepared to {concession}.",
+                "slots": [
+                    { "name": "concession", "hintVi": "điều mình nhượng (V nguyên mẫu)", "options": ["extend the deadline", "lower the price a little", "cover half the cost", "wait until next month", "sign a longer contract"] }
+                ]
+            },
+            "noteVi": "Nghe cân nhắc và chủ động hơn \"I can\". Tương tự: I'm willing to…. Phủ định: I'm not prepared to go below 20 dollars."
+        },
+        {
+            "slug": "meet-halfway",
+            "type": "PHRASE",
+            "text": "meet someone halfway",
+            "meaningVi": "mỗi bên nhường một nửa",
+            "examples": [
+                { "en": "You want 20 percent and we offered 10. Why don't we meet halfway at 15?", "vi": "Bên bạn muốn 20 phần trăm, bên mình đề nghị 10. Hay mình mỗi bên nhường một nửa, lấy 15?", "highlight": "meet halfway" }
+            ],
+            "noteVi": "I'm happy to meet you halfway. Gần nghĩa: compromise, split the difference (chia đôi phần chênh lệch)."
+        },
+        {
+            "slug": "the-bottom-line",
+            "type": "PHRASE",
+            "text": "the bottom line",
+            "meaningVi": "điều cốt lõi, giới hạn cuối cùng",
+            "examples": [
+                { "en": "The bottom line is that we can't go below 20 dollars a unit.", "vi": "Điều cốt lõi là bên mình không thể xuống dưới 20 đô một cái.", "highlight": "The bottom line" }
+            ],
+            "noteVi": "Nêu điểm quan trọng nhất hoặc giới hạn không đổi. Nghĩa gốc là dòng cuối của bảng kế toán (lãi hay lỗ)."
+        },
+        {
+            "slug": "the-best-we-can-do",
+            "type": "PHRASE",
+            "text": "That's the best we can do.",
+            "meaningVi": "Đó là mức tốt nhất chúng tôi có thể đưa ra.",
+            "examples": [
+                { "en": "I'm afraid fifteen percent is the best we can do.", "vi": "Tiếc là mười lăm phần trăm là mức tốt nhất bên mình có thể đưa ra.", "highlight": "the best we can do" }
+            ],
+            "noteVi": "Báo rằng mình không nhượng thêm. Thêm I'm afraid (B1 07) cho mềm. Gắt hơn, nên tránh: Take it or leave it."
+        },
+        {
+            "slug": "wiggle-room",
+            "type": "PHRASE",
+            "text": "wiggle room",
+            "meaningVi": "khoảng linh động",
+            "examples": [
+                { "en": "Is there any wiggle room on the price?", "vi": "Giá có linh động được chút nào không?", "highlight": "wiggle room" }
+            ],
+            "noteVi": "Thân mật, kiểu Mỹ. Kiểu Anh: room for manoeuvre. Hỏi thăm dò rất tự nhiên: Is there any flexibility on…?"
+        },
+        {
+            "slug": "compromise",
+            "type": "LEXICAL",
+            "text": "compromise",
+            "meaningVi": "sự thỏa hiệp; thỏa hiệp",
+            "ipa": "/ˈkɑːmprəmaɪz/",
+            "examples": [
+                { "en": "It's not perfect for either of us, but it's a fair compromise.", "vi": "Không hoàn hảo cho bên nào, nhưng là một sự thỏa hiệp công bằng.", "highlight": "compromise" }
+            ],
+            "noteVi": "reach a compromise (đạt thỏa hiệp). Động từ: We both had to compromise. Cẩn thận: compromise safety / quality = làm tổn hại."
+        },
+        {
+            "slug": "deal-breaker",
+            "type": "LEXICAL",
+            "text": "deal-breaker",
+            "meaningVi": "điều khiến thỏa thuận đổ vỡ",
+            "ipa": "/ˈdiːl breɪkər/",
+            "examples": [
+                { "en": "For us, a three-month delay would be a deal-breaker.", "vi": "Với bên mình, chậm ba tháng sẽ là lý do để hủy thỏa thuận.", "highlight": "deal-breaker" }
+            ],
+            "noteVi": "Nói rõ giới hạn mà không cần gắt. Cũng dùng đời thường: Smoking is a deal-breaker for me."
+        },
+        {
+            "slug": "closing-a-deal",
+            "type": "GRAMMAR",
+            "text": "chốt thỏa thuận: tóm lại điều đã đồng ý, xác nhận, hẹn bước tiếp theo",
+            "meaningVi": "kết thúc đàm phán mà hai bên hiểu giống nhau",
+            "examples": [
+                { "en": "So, we've agreed that delivery will be free. Do we have a deal?", "vi": "Vậy mình đã thống nhất là giao hàng miễn phí. Mình chốt nhé?", "highlight": "we've agreed that" }
+            ],
+            "grammar": {
+                "ruleVi": "Nhiều thỏa thuận hỏng vì hai bên nhớ khác nhau. Trước khi chia tay: tóm lại bằng hiện tại hoàn thành (So, we've agreed that…), hỏi chốt (Do we have a deal?), rồi hẹn văn bản (Let's put it in writing / I'll send a summary by email) và nêu bước tiếp theo (will, B1 03). Chưa sẵn sàng thì xin thời gian một cách lịch sự (Let me sleep on it) thay vì đồng ý cho xong. Kiểm tra hai bên đã hiểu giống nhau: Are we on the same page? (C1 04).",
+                "forms": [
+                    { "label": "tóm lại", "example": "So, we've agreed that you'll pay in two parts." },
+                    { "label": "hỏi chốt", "example": "Do we have a deal?" },
+                    { "label": "văn bản", "example": "I'll put it in writing and send it over today." },
+                    { "label": "xin thời gian", "example": "It sounds good, but let me sleep on it." },
+                    { "label": "bước tiếp", "example": "The ball's in your court now." }
+                ],
+                "pitfallsVi": [
+                    "\"So we agree that…\" khi tóm lại → So, we've agreed that… (hiện tại hoàn thành: vừa đạt được).",
+                    "Gật đầu cho xong rồi đổi ý → Let me sleep on it. I'll get back to you tomorrow.",
+                    "\"Deal?\" với đối tác lần đầu (hơi suồng sã) → Do we have a deal?"
+                ]
+            }
+        },
+        {
+            "slug": "so-weve-agreed",
+            "type": "PATTERN",
+            "text": "So, we've agreed that ….",
+            "meaningVi": "Vậy chúng ta đã thống nhất là ….",
+            "examples": [
+                { "en": "So, we've agreed that delivery will be free for the first year.", "vi": "Vậy mình đã thống nhất là năm đầu giao hàng miễn phí.", "highlight": "So, we've agreed that" }
+            ],
+            "pattern": {
+                "template": "So, we've agreed that {terms}.",
+                "slots": [
+                    { "name": "terms", "hintVi": "điều đã thống nhất (mệnh đề)", "options": ["delivery will be free for the first year", "you'll pay in two parts", "the price stays the same", "we'll start in June", "your team will handle the design"] }
+                ]
+            },
+            "noteVi": "Tóm lại để chắc hai bên hiểu giống nhau. Thêm câu hỏi đuôi cho mềm: …, is that right?"
+        },
+        {
+            "slug": "do-we-have-a-deal",
+            "type": "PHRASE",
+            "text": "Do we have a deal?",
+            "meaningVi": "Chúng ta chốt nhé?",
+            "examples": [
+                { "en": "Fifteen percent off and free delivery. Do we have a deal?", "vi": "Giảm mười lăm phần trăm và giao hàng miễn phí. Mình chốt nhé?", "highlight": "Do we have a deal?" }
+            ],
+            "noteVi": "Đáp: It's a deal! / You've got a deal. Thân mật giữa bạn bè: Deal? — Deal!"
+        },
+        {
+            "slug": "put-it-in-writing",
+            "type": "PHRASE",
+            "text": "put it in writing",
+            "meaningVi": "ghi thành văn bản",
+            "examples": [
+                { "en": "Great. Could you put it in writing and send it to me today?", "vi": "Tuyệt. Bạn ghi thành văn bản rồi gửi mình hôm nay được không?", "highlight": "put it in writing" }
+            ],
+            "noteVi": "Để thỏa thuận miệng thành chắc chắn. Tiếp theo thường là một email trang trọng (B2 05): As discussed, …."
+        },
+        {
+            "slug": "sleep-on-it",
+            "type": "PHRASE",
+            "text": "Let me sleep on it.",
+            "meaningVi": "Để tôi suy nghĩ thêm (đến mai).",
+            "examples": [
+                { "en": "It's a good offer, but let me sleep on it. I'll call you tomorrow.", "vi": "Đề nghị tốt đấy, nhưng để mình suy nghĩ thêm. Mai mình gọi lại.", "highlight": "let me sleep on it" }
+            ],
+            "noteVi": "Xin thời gian mà không từ chối, rất tự nhiên. Trang trọng hơn: I'd like some time to think it over."
+        },
+        {
+            "slug": "win-win",
+            "type": "PHRASE",
+            "text": "a win-win (situation)",
+            "meaningVi": "đôi bên cùng có lợi",
+            "examples": [
+                { "en": "You get a lower price and we get a longer contract. It's a win-win.", "vi": "Bên bạn được giá thấp hơn, bên mình được hợp đồng dài hơn. Đôi bên cùng có lợi.", "highlight": "a win-win" }
+            ],
+            "noteVi": "Dùng để \"bán\" đề nghị của mình. Viết có gạch nối. Tương tự trong tiếng Việt: \"cùng thắng\"."
+        },
+        {
+            "slug": "you-have-my-word",
+            "type": "PHRASE",
+            "text": "You have my word.",
+            "meaningVi": "Tôi hứa đấy.",
+            "examples": [
+                { "en": "The goods will arrive before the fifteenth. You have my word.", "vi": "Hàng sẽ đến trước ngày mười lăm. Mình hứa đấy.", "highlight": "You have my word" }
+            ],
+            "noteVi": "Lời hứa nặng hơn I promise. Chỉ nói khi chắc chắn làm được. Ngược lại, giữ lời: keep my word."
+        },
+        {
+            "slug": "persuasive",
+            "type": "LEXICAL",
+            "text": "persuasive",
+            "meaningVi": "có sức thuyết phục",
+            "ipa": "/pərˈsweɪsɪv/",
+            "examples": [
+                { "en": "She made a very persuasive case for working from home.", "vi": "Chị ấy đưa ra lập luận rất thuyết phục về việc làm ở nhà.", "highlight": "persuasive" }
+            ],
+            "noteVi": "Động từ: persuade someone to do something. make a persuasive case (B2 03: making a case). Gần nghĩa: convincing."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "c1-06-the-supplier",
+            "title": "Let's meet halfway",
+            "situationVi": "Bạn đại diện công ty đàm phán giá với anh Mark, người của một nhà cung cấp nước ngoài. Anh ấy muốn giữ giá, bạn muốn được giảm.",
+            "lines": [
+                { "speaker": "Mark", "en": "So, you've seen our proposal. What do you think?", "vi": "Vậy là bạn đã xem đề xuất của bên tôi. Bạn thấy thế nào?" },
+                { "speaker": "You", "en": "We like it, but the price is a bit on the high side. Is there any wiggle room?", "vi": "Bên mình thích, nhưng giá hơi cao. Có linh động được chút nào không?", "learnerTurn": true },
+                { "speaker": "Mark", "en": "Maybe. What did you have in mind?", "vi": "Có thể. Bạn định mức nào?" },
+                { "speaker": "You", "en": "If you were to lower it by twenty percent, we could sign a two-year contract.", "vi": "Giả sử anh giảm hai mươi phần trăm, bên mình có thể ký hợp đồng hai năm.", "learnerTurn": true },
+                { "speaker": "Mark", "en": "Twenty is too much. I'm prepared to offer ten.", "vi": "Hai mươi thì nhiều quá. Tôi sẵn sàng giảm mười." },
+                { "speaker": "You", "en": "Why don't we meet halfway at fifteen? In return, we'll pay upfront for the first order.", "vi": "Hay mình mỗi bên nhường một nửa, lấy mười lăm? Đổi lại, bên mình trả trước đơn đầu tiên.", "learnerTurn": true },
+                { "speaker": "Mark", "en": "Hmm. Fifteen, provided that the contract is for two years.", "vi": "Hừm. Mười lăm, với điều kiện hợp đồng hai năm." },
+                { "speaker": "You", "en": "That sounds like a fair compromise. The bottom line is that delivery has to be on time. A delay would be a deal-breaker for us.", "vi": "Nghe là một sự thỏa hiệp công bằng. Điều cốt lõi là phải giao đúng hạn. Chậm hàng là bên mình hủy đấy.", "learnerTurn": true },
+                { "speaker": "Mark", "en": "Understood. I think we're getting close.", "vi": "Hiểu rồi. Tôi nghĩ mình sắp chốt được rồi." }
+            ]
+        },
+        {
+            "slug": "c1-06-closing",
+            "title": "Do we have a deal?",
+            "situationVi": "Buổi đàm phán với chị Linda, đối tác người Úc, đã gần xong. Bạn tóm lại các điều khoản, và chị ấy muốn thêm một điều.",
+            "lines": [
+                { "speaker": "Linda", "en": "I think that covers everything. Shall we go over it once more?", "vi": "Tôi nghĩ vậy là đủ cả rồi. Mình xem lại một lượt nhé?" },
+                { "speaker": "You", "en": "Sure. So, we've agreed that the price stays the same and delivery will be free for the first year.", "vi": "Vâng. Vậy mình đã thống nhất là giá giữ nguyên và năm đầu giao hàng miễn phí.", "learnerTurn": true },
+                { "speaker": "Linda", "en": "Right. And one more thing: could you also include staff training?", "vi": "Đúng. Còn một điều nữa: bên bạn có thể thêm đào tạo nhân viên không?" },
+                { "speaker": "You", "en": "We could, as long as you recommend us to your partners. It's a win-win.", "vi": "Được, miễn là bên chị giới thiệu bên mình cho các đối tác. Đôi bên cùng có lợi.", "learnerTurn": true },
+                { "speaker": "Linda", "en": "Ha, fair enough. And the goods will really arrive before the fifteenth?", "vi": "Haha, hợp lý. Mà hàng có chắc đến trước ngày mười lăm không?" },
+                { "speaker": "You", "en": "They will. You have my word. So, do we have a deal?", "vi": "Chắc chắn. Em hứa đấy. Vậy mình chốt nhé?", "learnerTurn": true },
+                { "speaker": "Linda", "en": "Almost. I need to check with my boss. Let me sleep on it.", "vi": "Gần rồi. Tôi cần hỏi sếp. Để tôi suy nghĩ thêm đến mai." },
+                { "speaker": "You", "en": "Of course. I'll put it in writing and send you the terms today. The ball is in your court.", "vi": "Tất nhiên. Em sẽ ghi thành văn bản và gửi chị các điều khoản hôm nay. Giờ quyết định là ở phía chị.", "learnerTurn": true },
+                { "speaker": "Linda", "en": "Perfect. Thanks for being so flexible.", "vi": "Tuyệt. Cảm ơn bạn đã linh động như vậy." }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "c1-06-l1-conditions",
+            "title": "Provided that…",
+            "titleVi": "Đề nghị kèm điều kiện",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "negotiation-conditionals", "role": "INTRODUCE" },
+                { "item": "provided-that", "role": "INTRODUCE" },
+                { "item": "as-long-as", "role": "INTRODUCE" },
+                { "item": "on-condition-that", "role": "INTRODUCE" },
+                { "item": "if-you-were-to", "role": "INTRODUCE" },
+                { "item": "in-return", "role": "INTRODUCE" },
+                { "item": "terms", "role": "INTRODUCE" },
+                { "item": "proposal", "role": "INTRODUCE" },
+                { "item": "first-conditional", "role": "RECYCLE" },
+                { "item": "unless", "role": "RECYCLE" },
+                { "item": "would-it-be-possible-to", "role": "RECYCLE" },
+                { "item": "making-suggestions", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["provided-that", "as-long-as", "on-condition-that", "if-you-were-to", "in-return", "terms", "proposal"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "\"Nếu\" có mấy mức?",
+                        "bodyVi": "Khi đàm phán, mỗi cách nói \"nếu\" cho thấy mình chặt đến đâu:\n\n| cụm | nghĩa | mức | ví dụ |\n|---|---|---|---|\n| **if** (B1 05) | nếu | trung tính | We'll deliver **if** you pay today. |\n| **as long as** | miễn là | thân mật | Fine, **as long as** you pay today. |\n| **provided that** | với điều kiện | chặt, chuyên nghiệp | We can, **provided that** you pay today. |\n| **on condition that** | với điều kiện | trang trọng, hợp đồng | …**on condition that** payment is made today. |\n| **unless** (B1 05) | trừ khi | | We can't, **unless** you pay today. |\n| **If you were to** | giả sử | thăm dò, chưa cam kết | **If you were to** pay today, we **could**… |\n\nSau tất cả các cụm này dùng hiện tại, không dùng will. Luôn đổi chác: **In return**, we'd like…. Hỏi mềm: **Would it be possible to**…? (B2 05)\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| We give discount if you will order 500. | We can offer a discount, **provided that** you order 500. |\n| If you would sign today, … | **If you were to** sign today, we **could**… |\n| We agree the conditions. | We agree to the **terms**. |\n\n❌ provided that you will order ❌ If you would sign ✅ **If you were to sign today, we could lower the price. In return, …**",
+                        "items": ["negotiation-conditionals", "provided-that", "as-long-as", "on-condition-that", "if-you-were-to", "in-return", "terms", "proposal", "first-conditional", "unless", "would-it-be-possible-to"],
+                        "examples": [
+                            { "en": "We can lower the price, provided that you order at least 500 units.", "vi": "Bên mình có thể giảm giá, với điều kiện bên bạn đặt ít nhất 500 cái.", "highlight": "provided that" },
+                            { "en": "If you were to sign today, we could give you ten percent off.", "vi": "Giả sử bạn ký hôm nay, bên mình có thể giảm mười phần trăm.", "highlight": "If you were to" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "provided-that",
+                        "prompts": [
+                            { "cueVi": "Bên mình có thể giảm giá, với điều kiện bên bạn đặt ít nhất 500 cái.", "slots": { "offer": "lower the price", "condition": "you order at least 500 units" }, "answer": "We can lower the price, provided that you order at least 500 units." },
+                            { "cueVi": "Bên mình có thể bắt đầu tuần sau, với điều kiện bạn ký trước thứ Sáu.", "slots": { "offer": "start next week", "condition": "you sign by Friday" }, "answer": "We can start next week, provided that you sign by Friday." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "if-you-were-to",
+                        "prompts": [
+                            { "cueVi": "Giả sử bạn đặt nhiều hơn, bên mình có thể đưa giá tốt hơn.", "slots": { "do": "order more", "offer": "offer a better price" }, "answer": "If you were to order more, we could offer a better price." },
+                            { "cueVi": "Giả sử bạn trả trước, bên mình có thể giao tuần sau.", "slots": { "do": "pay upfront", "offer": "deliver next week" }, "answer": "If you were to pay upfront, we could deliver next week." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["as-long-as", "on-condition-that", "in-return", "terms", "proposal", "unless"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "We can offer free delivery, provided that you pay in advance.", "vi": "Bên mình có thể miễn phí giao hàng, với điều kiện bên bạn trả trước." },
+                            { "en": "If you were to sign today, we could give you ten percent off.", "vi": "Giả sử bạn ký hôm nay, bên mình có thể giảm mười phần trăm." },
+                            { "en": "We'll cover the delivery costs. In return, we'd like a two-year contract.", "vi": "Bên mình chịu phí giao hàng. Đổi lại, bên mình muốn hợp đồng hai năm." },
+                            { "en": "Let's go through the terms of the contract one more time.", "vi": "Mình xem lại các điều khoản hợp đồng một lần nữa nhé." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["We can lower the price, provided that you will order 500 units.", "We can lower the price, provided that you order 500 units.", "We can lower the price, provide you order 500 units."],
+                                "answer": 1,
+                                "item": "provided-that"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn muốn thăm dò nhẹ nhàng, chưa cam kết:",
+                                "options": ["If you would sign today, we give discount.", "If you were to sign today, we could give you a discount.", "If you sign today, we gave you a discount."],
+                                "answer": 1,
+                                "item": "if-you-were-to"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "We'll cover delivery. In ___, we'd like a longer contract.",
+                                "hintVi": "đổi lại",
+                                "answers": ["return"],
+                                "item": "in-return"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "You can work from home as long as you're online during meetings.",
+                                "options": ["Bạn có thể làm ở nhà lâu bao nhiêu cũng được.", "Bạn có thể làm ở nhà, miễn là có mặt online lúc họp.", "Bạn phải họp online khi làm ở nhà lâu."],
+                                "answer": 1,
+                                "item": "as-long-as"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Bên mình đã xem đề xuất của bạn và có vài câu hỏi.",
+                                "answer": "We've looked at your proposal and we have a few questions.",
+                                "item": "proposal"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "c1-06-l2-concessions",
+            "title": "I'm prepared to…",
+            "titleVi": "Nhượng bộ mà vẫn giữ giới hạn",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "concessions-trade-offs", "role": "INTRODUCE" },
+                { "item": "im-prepared-to", "role": "INTRODUCE" },
+                { "item": "meet-halfway", "role": "INTRODUCE" },
+                { "item": "the-bottom-line", "role": "INTRODUCE" },
+                { "item": "the-best-we-can-do", "role": "INTRODUCE" },
+                { "item": "wiggle-room", "role": "INTRODUCE" },
+                { "item": "compromise", "role": "INTRODUCE" },
+                { "item": "deal-breaker", "role": "INTRODUCE" },
+                { "item": "softening-refusals", "role": "RECYCLE" },
+                { "item": "i-see-your-point-but", "role": "RECYCLE" },
+                { "item": "contrast-concession", "role": "RECYCLE" },
+                { "item": "ballpark-figure", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["im-prepared-to", "meet-halfway", "the-bottom-line", "the-best-we-can-do", "wiggle-room", "compromise", "deal-breaker"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Nhường một bước, đòi một bước",
+                        "bodyVi": "Một nhượng bộ tốt không bao giờ \"cho không\". Các bước thường gặp:\n\n| bước | câu |\n|---|---|\n| thăm dò | Is there any **wiggle room** on the price? / Could you give me a **ballpark figure**? (C1 04) |\n| nhượng có điều kiện | **I'm prepared to** extend the deadline, but only by a week. |\n| gặp nhau ở giữa | Why don't we **meet halfway** at 15? |\n| khen giải pháp | That's a fair **compromise**. |\n| từ chối mềm | **I see your point, but**… (B2 03) / I'd love to, but… (B2 05) |\n| giới hạn | **The bottom line is** that we can't go below 20. / **That's the best we can do.** |\n| không thể chấp nhận | A delay would be a **deal-breaker** for us. |\n\nNói giới hạn thì thêm I'm afraid, rồi đưa lý do: Although we'd like to help, … (B2 03).\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| This is our last price, take it or leave it. | I'm afraid **that's the best we can do**. |\n| Let's meet in the half. | Let's **meet halfway**. |\n| OK, we accept all. | **I'm prepared to** do that, but in return… |\n\n❌ meet in the half ❌ take it or leave it ✅ **I'm prepared to meet you halfway, but that's the best we can do.**",
+                        "items": ["concessions-trade-offs", "im-prepared-to", "meet-halfway", "the-bottom-line", "the-best-we-can-do", "wiggle-room", "compromise", "deal-breaker", "softening-refusals", "i-see-your-point-but", "contrast-concession", "ballpark-figure"],
+                        "examples": [
+                            { "en": "I'm prepared to lower the price if you can pay upfront.", "vi": "Mình sẵn sàng giảm giá nếu bên bạn trả trước được.", "highlight": "I'm prepared to" },
+                            { "en": "You want 20 percent and we offered 10. Why don't we meet halfway at 15?", "vi": "Bên bạn muốn 20 phần trăm, bên mình đề nghị 10. Hay mình mỗi bên nhường một nửa, lấy 15?", "highlight": "meet halfway" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "im-prepared-to",
+                        "prompts": [
+                            { "cueVi": "Mình sẵn sàng chịu một nửa chi phí.", "slots": { "concession": "cover half the cost" }, "answer": "I'm prepared to cover half the cost." },
+                            { "cueVi": "Mình sẵn sàng đợi đến tháng sau.", "slots": { "concession": "wait until next month" }, "answer": "I'm prepared to wait until next month." },
+                            { "cueVi": "Mình sẵn sàng ký hợp đồng dài hơn.", "slots": { "concession": "sign a longer contract" }, "answer": "I'm prepared to sign a longer contract." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["meet-halfway", "the-bottom-line", "the-best-we-can-do", "wiggle-room", "compromise", "deal-breaker"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "c1-06-the-supplier", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn không thể giảm thêm, muốn nói lịch sự:",
+                                "options": ["This is our last price, take it or leave it.", "I'm afraid that's the best we can do.", "No more. Finish."],
+                                "answer": 1,
+                                "item": "the-best-we-can-do"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Một nhượng bộ tốt trong đàm phán:",
+                                "options": ["OK, we accept everything you want.", "I'm prepared to extend the deadline, but in return we'd like a longer contract.", "We never change the deadline."],
+                                "answer": 1,
+                                "item": "concessions-trade-offs"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Why don't we meet ___ at fifteen percent?",
+                                "hintVi": "ở giữa (mỗi bên một nửa)",
+                                "answers": ["halfway"],
+                                "item": "meet-halfway"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "For us, a three-month delay would be a deal-breaker.",
+                                "options": ["Chậm ba tháng cũng không sao với bên mình.", "Với bên mình, chậm ba tháng sẽ là lý do để hủy thỏa thuận.", "Bên mình cần ba tháng để chốt thỏa thuận."],
+                                "answer": 1,
+                                "item": "deal-breaker"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Giá có linh động được chút nào không?",
+                                "answer": "Is there any wiggle room on the price?",
+                                "item": "wiggle-room"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "c1-06-l3-closing",
+            "title": "Do we have a deal?",
+            "titleVi": "Chốt thỏa thuận",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "closing-a-deal", "role": "INTRODUCE" },
+                { "item": "so-weve-agreed", "role": "INTRODUCE" },
+                { "item": "do-we-have-a-deal", "role": "INTRODUCE" },
+                { "item": "put-it-in-writing", "role": "INTRODUCE" },
+                { "item": "sleep-on-it", "role": "INTRODUCE" },
+                { "item": "win-win", "role": "INTRODUCE" },
+                { "item": "you-have-my-word", "role": "INTRODUCE" },
+                { "item": "persuasive", "role": "INTRODUCE" },
+                { "item": "on-the-same-page", "role": "RECYCLE" },
+                { "item": "ball-in-your-court", "role": "RECYCLE" },
+                { "item": "making-a-case", "role": "RECYCLE" },
+                { "item": "formal-email", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["so-weve-agreed", "do-we-have-a-deal", "put-it-in-writing", "sleep-on-it", "win-win", "you-have-my-word", "persuasive"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Chốt cho chắc, đừng chốt cho xong",
+                        "bodyVi": "Nhiều thỏa thuận hỏng vì hai bên nhớ khác nhau. Trước khi chia tay:\n\n| bước | câu |\n|---|---|\n| \"bán\" giải pháp | It's **a win-win**. |\n| tóm lại | **So, we've agreed that** the price stays the same. |\n| kiểm tra | Are we **on the same page**? (C1 04) |\n| hỏi chốt | **Do we have a deal?** — It's a deal! |\n| hứa | It'll arrive on time. **You have my word.** |\n| văn bản | I'll **put it in writing** and email you. (B2 05) |\n| chưa sẵn sàng | **Let me sleep on it.** |\n| trao lượt | **The ball is in your court.** (C1 04) |\n\nTóm lại bằng hiện tại hoàn thành (we've agreed): điều vừa đạt được, còn nguyên giá trị. Một lập luận tốt (B2 03) thì **persuasive**.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| So we agree that… (khi tóm lại) | **So, we've agreed that**… |\n| OK OK, yes. (rồi mai đổi ý) | It sounds good, but **let me sleep on it**. |\n| I promise 100%. | **You have my word.** |\n\n❌ So we agree that ❌ OK OK, yes ✅ **So, we've agreed that delivery is free. Do we have a deal?**",
+                        "items": ["closing-a-deal", "so-weve-agreed", "do-we-have-a-deal", "put-it-in-writing", "sleep-on-it", "win-win", "you-have-my-word", "persuasive", "on-the-same-page", "ball-in-your-court", "making-a-case", "formal-email"],
+                        "examples": [
+                            { "en": "So, we've agreed that delivery will be free for the first year.", "vi": "Vậy mình đã thống nhất là năm đầu giao hàng miễn phí.", "highlight": "So, we've agreed that" },
+                            { "en": "It's a good offer, but let me sleep on it. I'll call you tomorrow.", "vi": "Đề nghị tốt đấy, nhưng để mình suy nghĩ thêm. Mai mình gọi lại.", "highlight": "let me sleep on it" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "so-weve-agreed",
+                        "prompts": [
+                            { "cueVi": "Vậy mình đã thống nhất là bên bạn trả làm hai lần.", "slots": { "terms": "you'll pay in two parts" }, "answer": "So, we've agreed that you'll pay in two parts." },
+                            { "cueVi": "Vậy mình đã thống nhất là bắt đầu vào tháng Sáu.", "slots": { "terms": "we'll start in June" }, "answer": "So, we've agreed that we'll start in June." },
+                            { "cueVi": "Vậy mình đã thống nhất là giá giữ nguyên.", "slots": { "terms": "the price stays the same" }, "answer": "So, we've agreed that the price stays the same." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["do-we-have-a-deal", "put-it-in-writing", "sleep-on-it", "win-win", "you-have-my-word", "persuasive"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "c1-06-closing", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn tóm lại điều hai bên vừa thống nhất:",
+                                "options": ["So we agree that the price stays the same.", "So, we've agreed that the price stays the same.", "So we are agreeing the price stays the same."],
+                                "answer": 1,
+                                "item": "so-weve-agreed"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Đối tác đưa ra đề nghị tốt, nhưng bạn cần thêm thời gian:",
+                                "options": ["OK, yes, fine.", "No, thanks.", "It sounds good, but let me sleep on it."],
+                                "answer": 2,
+                                "item": "closing-a-deal"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Could you put it in ___ and send it to me today?",
+                                "hintVi": "văn bản (viết)",
+                                "answers": ["writing"],
+                                "item": "put-it-in-writing"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "You get a lower price and we get a longer contract. It's a win-win.",
+                                "options": ["Chỉ bên bạn có lợi.", "Đôi bên cùng có lợi.", "Bên mình thắng hai lần."],
+                                "answer": 1,
+                                "item": "win-win"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Hàng sẽ đến trước ngày mười lăm. Mình hứa đấy.",
+                                "answer": "The goods will arrive before the fifteenth. You have my word.",
+                                "item": "you-have-my-word"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "c1-06-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["We'll deliver on Monday, as long as you will pay today.", "We'll deliver on Monday, as long as you pay today.", "We'll deliver on Monday, as long you pay today."],
+                "answer": 1,
+                "item": "negotiation-conditionals"
+            },
+            {
+                "kind": "gap",
+                "sentence": "They agreed to the deal on ___ that the price stays the same.",
+                "hintVi": "điều kiện",
+                "answers": ["condition"],
+                "item": "on-condition-that"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Bạn muốn đề nghị mỗi bên nhường một nửa:",
+                "options": ["Let's meet in the half.", "Why don't we meet halfway?", "We meet the middle."],
+                "answer": 1,
+                "item": "meet-halfway"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "The bottom line is that we can't go below 20 dollars a unit.",
+                "options": ["Giá thấp nhất ở dòng cuối là 20 đô.", "Điều cốt lõi là bên mình không thể xuống dưới 20 đô một cái.", "Bên mình bán mỗi cái 20 đô ở tầng dưới."],
+                "answer": 1,
+                "item": "the-bottom-line"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nhượng bộ nào có gắn điều kiện?",
+                "options": ["I'm prepared to lower the price if you pay upfront.", "We lower the price. No problem.", "The price is lower now."],
+                "answer": 0,
+                "item": "concessions-trade-offs"
+            },
+            {
+                "kind": "order",
+                "vi": "Vậy mình đã thống nhất là năm đầu giao hàng miễn phí.",
+                "answer": "So, we've agreed that delivery will be free for the first year.",
+                "item": "so-weve-agreed"
+            }
+        ]
+    }
+}

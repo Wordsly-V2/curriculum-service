@@ -13,7 +13,7 @@ Trạng thái: `draft` đã soạn, qua validator · `reviewed` đã có ngườ
 | A2 | 12 | 12 | 36 | 301 | 155 | 70 | 49 | 27 |
 | B1 | 12 | 12 | 36 | 287 | 122 | 68 | 65 | 32 |
 | B2 | 12 | 12 | 36 | 288 | 112 | 77 | 66 | 33 |
-| C1 | 12 | 4 | 12 | 96 | 26 | 29 | 29 | 12 |
+| C1 | 12 | 8 | 24 | 192 | 53 | 67 | 48 | 24 |
 
 ## Placement (`placement.json`)
 
@@ -26,7 +26,7 @@ Một bài xếp lớp cho cả lộ trình, 2 câu mỗi unit, theo thứ tự 
 | A2 | 12/12 | 24 |
 | B1 | 12/12 | 24 |
 | B2 | 12/12 | 24 |
-| C1 | 4/12 | 8 |
+| C1 | 8/12 | 16 |
 
 ## Pre-A1: Foundations
 
@@ -633,10 +633,10 @@ Mốc của stage: "Tôi diễn đạt linh hoạt, tự nhiên" (unit 04). Khun
 | 2 | `c1-02-what-i-need-is` | câu chẻ với what (What I need is, What I love about … is, What happened was, All I want is, The thing is), với it (It was … that / who, It's not … that bothers me, it's…, The reason why … is that, The last thing I want is), nhấn mạnh bằng do / did, by far, such a … that, absolutely, whatsoever, no matter what | 3 | 24 (8/2/11/3) | 2 | draft |
 | 3 | `c1-03-little-did-i-know` | đảo ngữ sau từ phủ định (Never have I, Rarely do you, Not once did, Under no circumstances), kể chuyện (Little did I know, No sooner had … than, Only then did I, out of the blue, to my surprise), đảo ngữ trang trọng (Not only did, Should you need, Had I known, do not hesitate, further assistance) | 3 | 24 (8/4/9/3) | 2 | draft |
 | 4 | `c1-04-idioms` | thành ngữ công sở (on the same page, the ball is in your court, cut corners, get the ball rolling, back to square one, a ballpark figure, touch base), thành ngữ đời sống so với tiếng Việt (a blessing in disguise, beat around the bush, the last straw, once in a blue moon, cost an arm and a leg), cặp từ cố định (sooner or later, ups and downs, by and large, sick and tired of); mốc của stage | 3 | 24 (1/17/3/3) | 2 | draft |
-| 5 | `c1-05-presenting` | thuyết trình: mở đầu và dẫn dắt (Let's turn to…, As you can see…, To put this into perspective…), trình bày số liệu, xử lý câu hỏi (That's a great question, I'll come back to that, Does that answer your question?) | | | | dự kiến |
-| 6 | `c1-06-persuading` | thuyết phục và đàm phán: điều kiện (provided that, as long as, on condition that, If you were to…), nhượng bộ và đổi chác (I'm prepared to…, meet someone halfway, the bottom line), chốt thỏa thuận | | | | dự kiến |
-| 7 | `c1-07-register` | văn phong: trang trọng ↔ thân mật (từ gốc Latin ↔ cụm động từ, danh từ hóa, bị động), viết lại một email bực bội cho lịch sự, chọn giọng theo người nhận | | | | dự kiến |
-| 8 | `c1-08-feedback` | góp ý và nhận góp ý khéo (It might be worth…, I wonder if…, One thing you could consider…, take something on board), khen cụ thể, phản hồi khi bị phê bình | | | | dự kiến |
+| 5 | `c1-05-presenting` | thuyết trình: mở đầu và dẫn dắt (Today I'll be talking about, I'd like to start by, Let's now turn to, This brings me to, To wrap up, the key takeaway), trình bày số liệu (As you can see, account for, three out of ten, twice as many … as, peak, approximately, To put this into perspective), xử lý câu hỏi (I'll come back to that, I'll get back to you on, off the top of my head, outside the scope, Does that answer your question?, follow-up) | 3 | 24 (4/12/5/3) | 2 | draft |
+| 6 | `c1-06-persuading` | thuyết phục và đàm phán: điều kiện (provided that, as long as, on condition that, If you were to…, in return, terms, proposal), nhượng bộ và đổi chác (I'm prepared to, meet someone halfway, the bottom line, That's the best we can do, wiggle room, compromise, deal-breaker), chốt thỏa thuận (So, we've agreed that, Do we have a deal?, put it in writing, Let me sleep on it, a win-win, You have my word) | 3 | 24 (5/12/4/3) | 2 | draft |
+| 7 | `c1-07-register` | văn phong: từ trang trọng ↔ thân mật (obtain, assist, commence, inquire, sufficient, purchase, I would be grateful if), danh từ hóa và bị động (There has been a … in, It has been decided that, approval, implementation, reduction, following, prior to), viết lại email bực bội (It appears that, Just a gentle reminder, As per my last email, I appreciate that, tone, blunt, passive-aggressive) | 3 | 24 (12/5/4/3) | 2 | draft |
+| 8 | `c1-08-feedback` | góp ý khéo (It might be worth, I wonder if it would help to, One thing you could consider is, Have you thought about, food for thought, constructive, feedback), khen cụ thể (I was really impressed by, You did a great job of, What worked well was, spot on, Keep up the good work, Credit where credit's due, praise), nhận phê bình (Thanks for pointing out, take on board, Point taken, Could you give me an example?, in hindsight, defensive, criticism) | 3 | 24 (6/9/6/3) | 2 | draft |
 | 9 | `c1-09-collocations` | collocation mạnh (heavy traffic, make / do / take, bitterly disappointed, highly unlikely, deeply grateful), trạng từ đi đôi với tính từ, tránh dịch từng chữ | | | | dự kiến |
 | 10 | `c1-10-trends` | bình luận xu hướng xã hội: be bound to / be set to / be on the verge of, mệnh đề phân từ (Having finished…, Given that…, Faced with…), dẫn số liệu và nguồn | | | | dự kiến |
 | 11 | `c1-11-between-the-lines` | hiểu hàm ý và giọng: mỉa mai, nói giảm kiểu Anh (I'll bear it in mind, With respect…), câu hỏi đuôi tìm đồng tình, đùa và đáp lời đùa, small talk tinh tế | | | | dự kiến |
@@ -675,6 +675,25 @@ Mốc của stage: "Tôi diễn đạt linh hoạt, tự nhiên" (unit 04). Khun
 | `lets-touch-base` | Let's touch base {time}. | 04 |
 | `cost-an-arm-and-a-leg` | {thing} cost me an arm and a leg. | 04 |
 | `sick-and-tired` | I'm sick and tired of {doing}. | 04 |
+| `id-like-to-start-by` | I'd like to start by {doing}. | 05 |
+| `lets-turn-to` | Let's now turn to {topic}. | 05 |
+| `as-you-can-see` | As you can see, {observation}. | 05 |
+| `to-put-this-into-perspective` | To put this into perspective, {comparison}. | 05 |
+| `ill-get-back-to-you-on` | I'll get back to you on {topic}. | 05 |
+| `provided-that` | We can {offer}, provided that {condition}. | 06 |
+| `if-you-were-to` | If you were to {do}, we could {offer}. | 06 |
+| `im-prepared-to` | I'm prepared to {concession}. | 06 |
+| `so-weve-agreed` | So, we've agreed that {terms}. | 06 |
+| `i-would-be-grateful-if` | I would be grateful if you could {action}. | 07 |
+| `there-has-been-a` | There has been a {change} in {thing}. | 07 |
+| `it-has-been-decided` | It has been decided that {decision}. | 07 |
+| `it-appears-that` | It appears that {problem}. | 07 |
+| `it-might-be-worth` | It might be worth {doing}. | 08 |
+| `i-wonder-if` | I wonder if it would help to {do}. | 08 |
+| `one-thing-you-could-consider` | One thing you could consider is {doing}. | 08 |
+| `i-was-impressed-by` | I was really impressed by {thing}. | 08 |
+| `you-did-a-great-job-of` | You did a great job of {doing}. | 08 |
+| `thanks-for-pointing-out` | Thanks for pointing out {problem}. | 08 |
 
 ### Ngữ pháp (GRAMMAR)
 
@@ -692,6 +711,18 @@ Mốc của stage: "Tôi diễn đạt linh hoạt, tự nhiên" (unit 04). Khun
 | `idiom-basics` | thành ngữ là cụm cố định: không thay từ, chỉ chia động từ / đổi đại từ; mức trang trọng | 04 |
 | `idioms-and-vietnamese` | thành ngữ Anh có nghĩa gần thành ngữ Việt nhưng hình ảnh khác; không dịch từng chữ thành ngữ Việt | 04 |
 | `fixed-binomials` | cặp từ cố định A and / or B, không đảo thứ tự (sooner or later, ups and downs, by and large) | 04 |
+| `signposting` | cụm dẫn dắt thuyết trình: Today I'll be talking about…, I'd like to start by + V-ing, Let's now turn to…, This brings me to…, To wrap up… | 05 |
+| `describing-data` | As you can see…, account for, X out of Y, twice as many / much … as, peak, approximately, To put this into perspective… | 05 |
+| `handling-questions` | đón câu hỏi, hoãn (I'll come back to that), chưa biết (I'll get back to you on…), lạc đề, kiểm tra (Does that answer your question?) | 05 |
+| `negotiation-conditionals` | provided that / as long as / on condition that + hiện tại; If you were to + V, … could / would; in return | 06 |
+| `concessions-trade-offs` | I'm prepared to + V + điều kiện; meet halfway; That's the best we can do; the bottom line; deal-breaker | 06 |
+| `closing-a-deal` | So, we've agreed that… (hiện tại hoàn thành); Do we have a deal?; put it in writing; Let me sleep on it | 06 |
+| `formal-informal-vocab` | từ gốc Latin ↔ từ ngắn / cụm động từ: obtain ↔ get, assist ↔ help, commence ↔ start, inquire ↔ ask, require ↔ need | 07 |
+| `nominalization` | động từ → danh từ (-tion, -al, -ment) + bị động bỏ người làm: There has been a reduction in…, It has been decided that…; following, prior to | 07 |
+| `softening-tone` | nói về sự việc thay vì trách người, It appears that…, I appreciate that…, but…, gentle reminder; nhận ra câu passive-aggressive | 07 |
+| `tactful-feedback` | It might be worth + V-ing, I wonder if it would help to + V, One thing you could consider is + V-ing, Have you thought about + V-ing? | 08 |
+| `specific-praise` | I was impressed by + N / how…, You did a great job of + V-ing, What worked well was…, Credit where credit's due | 08 |
+| `responding-to-criticism` | cảm ơn → hỏi rõ → nhận phần đúng (Point taken, In hindsight, I should have…) → nói việc sẽ làm (take on board) | 08 |
 
 ### Lỗi thường gặp của người Việt (C1)
 
@@ -699,6 +730,10 @@ Mốc của stage: "Tôi diễn đạt linh hoạt, tự nhiên" (unit 04). Khun
 - "What I need it is…", "The thing what I love is…", "All I want are…", "It was Lan found the mistake", "The reason why … is because…", "emphasize on", "I did called you", "so a long day", "very delicious" (unit 02).
 - "Never I have seen…", "Not once he said…", "Not once did he said…", "Seldom I go…", "No sooner I sat down, …", "No sooner … when…", "Little I knew…", "Only then I realized…", "If had I known…", "Should you needed…", "your assistances" (unit 03).
 - "on the same paper", "cut the corner", "start again from zero" (ý là back to square one), "the last drop of water" (dịch từ giọt nước tràn ly), "go around the bush", dịch nguyên văn thành ngữ Việt ("a frog in a well"), "later or sooner", "cons and pros", "sick and tired to wait", dồn nhiều thành ngữ vào một câu (unit 04).
+- "Now I will present about…", "Next is the part of…", "Online occupies 60 percent", "3 in 10 of customers", "two times more many", bịa số khi không biết, "I will answer you later", "Do you understand?" với người hỏi (unit 05).
+- "provided that you will order", "If you would sign today…" (ý là If you were to), "meet in the half", "take it or leave it", "So we agree that…" khi tóm lại, gật đầu cho xong rồi đổi ý (unit 06).
+- "I will assist you to obtain tickets" khi nhắn bạn bè, "inquire you about", trộn từ hai văn phong, "a reduce in costs", "prior to leave", "It has decided that…", "You made a mistake AGAIN!!!", "Why you still not reply?", tưởng "As per my last email" là lịch sự (unit 07).
+- "You should change this. It's wrong.", "worth to add", "a feedback", "Good job, very good, very good", "impressed with your present", "a great job to explain", giải thích ngay khi bị chê, "take it on my board", "In hindsight, I should check" (unit 08).
 
 ### Ghi chú C1
 
@@ -706,4 +741,8 @@ Mốc của stage: "Tôi diễn đạt linh hoạt, tự nhiên" (unit 04). Khun
 - `c1-02`: 11 PATTERN vì câu chẻ là khung câu. `the-point-is`, `what-im-trying-to-say` (B1 12, B2 12), `the-main-reason` (B1 04), `superlatives` (A2 08) chỉ RECYCLE. `emphatic-do` gồm cả tính từ mạnh (absolutely + delicious, không very); `absolutely`, `incredibly` là LEXICAL. Hội thoại bài 2 là sửa hiểu lầm (câu chẻ với it), bài 3 là lời chia tay đồng nghiệp.
 - `c1-03`: `negative-inversion` nối tiếp `ive-never` (A2 09); `time-inversion` dùng `past-perfect` (B2 01); `conditional-inversion` nối tiếp `third-conditional`, `if-id-known` (B2 02), `formal-email` (B2 05), `not-only-but-also` (B2 10). EXPLAIN nhắc rằng đảo ngữ khi tán gẫu nghe kịch. Hội thoại bài 3 người học đóng vai quản lý khách sạn (như `b1-07`), lời thoại tiếng Việt không ngầm định giới tính người học.
 - `c1-04` là mốc stage (canDo thứ ba). 17 PHRASE (thành ngữ) và 1 LEXICAL (`idiomatic`), như `b2-08` với cụm động từ. `pros-and-cons`, `on-the-whole` (B2 03), `rip-off` (B2 04), `i-cant-put-up-with` (B2 08), `to-make-matters-worse` (B2 06) chỉ RECYCLE. Chỉ chọn thành ngữ còn phổ biến (không raining cats and dogs). `beat-around-the-bush`, `ballpark-figure`, `touch base` theo kiểu Mỹ. Hội thoại bài 2 dùng thành ngữ công sở của bài 1, hội thoại bài 3 gom thành ngữ đời sống và cặp từ.
+- `c1-05`: `lets-move-on`, `agenda`, `the-first-step-is`, `to-sum-up`, `describing-trends`, `has-risen-by`, `percent`, `compared-to`, `thats-a-good-question`, `elaborate`, `if-i-could-just-finish`, `perspective` chỉ RECYCLE. `roughly` (B2 12) chỉ nằm trong EXPLAIN và hội thoại; `approximately` là bản trang trọng. `x-out-of-y` là slug của … out of …. `key-takeaway` ghi chú nghĩa đồ ăn mang về kiểu Anh. Hội thoại bài 2 là báo cáo quý với trưởng phòng, bài 3 là phần hỏi đáp ở hội thảo.
+- `c1-06`: `first-conditional`, `unless`, `would-it-be-possible-to`, `making-suggestions`, `softening-refusals`, `i-see-your-point-but`, `contrast-concession`, `ballpark-figure`, `on-the-same-page`, `ball-in-your-court`, `making-a-case`, `formal-email` chỉ RECYCLE. `if-you-were-to` là điều kiện loại 2 dạng thăm dò, nối với đảo ngữ Were you to (C1 03). `wiggle-room` kiểu Mỹ (Anh: room for manoeuvre). Hội thoại bài 2 đàm phán giá với nhà cung cấp, bài 3 chốt thỏa thuận và xin thời gian.
+- `c1-07`: 12 LEXICAL vì bài 1 là cặp từ trang trọng ↔ thân mật và bài 2 là danh từ hóa. `regarding` (B2 05), `should-you-need` (C1 03), `figure-out` (B2 08), `formal-email`, `passive-present`, `due-to`, `linking-words`, `understatement`, `softening-refusals`, `polite-requests` chỉ RECYCLE; `assist`, `i-would-be-grateful-if` được RECYCLE ngay trong unit. `inquire` viết kiểu Mỹ (Anh: enquire). require chỉ nằm trong EXPLAIN. `as-per-my-last-email` dạy để nghe ra ý bực, không để dùng. Hội thoại bài 2 sửa thông báo gửi khách, bài 3 sửa email bực bội của đồng nghiệp.
+- `c1-08`: `understatement`, `making-suggestions`, `id-suggest`, `im-not-entirely-convinced`, `wh-cleft`, `emphatic-do`, `absolutely`, `point-out`, `should-have`, `i-see-your-point-but` chỉ RECYCLE. Không có item I'll bear it in mind: để dành cho `c1-11`. `feedback` ghi chú không đếm được. Hội thoại bài 2 người học góp ý cho đồng nghiệp mới, bài 3 người học nhận góp ý từ trưởng nhóm.
 

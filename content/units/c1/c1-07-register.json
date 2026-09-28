@@ -1,0 +1,766 @@
+{
+    "slug": "c1-07-register",
+    "stage": "c1",
+    "order": 7,
+    "title": "Formal or informal?",
+    "titleVi": "Văn phong: trang trọng và thân mật",
+    "descriptionVi": "Chọn từ theo văn phong (obtain ↔ get, assist ↔ help, commence ↔ start, inquire ↔ ask, I would be grateful if…), viết trang trọng bằng danh từ hóa và bị động (There has been a reduction in…, It has been decided that…, following, prior to), và viết lại một email bực bội cho lịch sự (It appears that…, Just a gentle reminder…, I appreciate that…, tránh giọng blunt hay passive-aggressive).",
+    "canDo": [
+        "Tôi chọn được từ trang trọng hay thân mật tùy người nhận và hoàn cảnh.",
+        "Tôi viết được câu văn trang trọng bằng danh từ hóa và câu bị động.",
+        "Tôi viết lại được một email bực bội thành lịch sự mà vẫn nói rõ vấn đề."
+    ],
+    "items": [
+        {
+            "slug": "formal-informal-vocab",
+            "type": "GRAMMAR",
+            "text": "từ trang trọng (gốc Latin) ↔ từ thân mật (cụm động từ, từ ngắn): obtain ↔ get, assist ↔ help, commence ↔ start",
+            "meaningVi": "cùng một nghĩa, mỗi văn phong một từ",
+            "examples": [
+                { "en": "Please contact us if you require further information.", "vi": "Vui lòng liên hệ nếu quý khách cần thêm thông tin.", "highlight": "require further information" }
+            ],
+            "grammar": {
+                "ruleVi": "Tiếng Anh có hai lớp từ vựng. Lớp thân mật là từ ngắn và cụm động từ (get, help, start, ask, find out, B2 08). Lớp trang trọng là từ gốc Latin, dài hơn (obtain, assist, commence, inquire, require). Email cho khách hàng, thông báo, hợp đồng dùng lớp trang trọng; tin nhắn cho đồng nghiệp dùng lớp thân mật. Trộn hai lớp trong cùng một câu nghe lạ, và dùng từ trang trọng khi nói chuyện với bạn bè nghe như \"đọc văn bản\".",
+                "forms": [
+                    { "label": "get → obtain", "example": "You can obtain a copy from reception." },
+                    { "label": "help → assist", "example": "Our staff will be happy to assist you." },
+                    { "label": "start → commence", "example": "The work will commence on 1 May." },
+                    { "label": "ask → inquire", "example": "I am writing to inquire about the position." },
+                    { "label": "need → require", "example": "Please let us know if you require assistance." }
+                ],
+                "pitfallsVi": [
+                    "Nhắn bạn bè: \"I will assist you to obtain the tickets\" → I'll help you get the tickets.",
+                    "Trộn lớp: \"We will commence the meeting when everyone gets here\" → We'll start… / The meeting will commence at 9 a.m.",
+                    "\"inquire you\" → inquire about something / ask you."
+                ]
+            }
+        },
+        {
+            "slug": "obtain",
+            "type": "LEXICAL",
+            "text": "obtain",
+            "meaningVi": "có được, lấy được (trang trọng)",
+            "ipa": "/əbˈteɪn/",
+            "examples": [
+                { "en": "Visitors must obtain a pass from reception.", "vi": "Khách phải lấy thẻ ra vào ở quầy lễ tân.", "highlight": "obtain" }
+            ],
+            "noteVi": "Bản trang trọng của get. Hay đi với permission, information, a visa, a copy. Nói chuyện: get."
+        },
+        {
+            "slug": "assist",
+            "type": "LEXICAL",
+            "text": "assist",
+            "meaningVi": "hỗ trợ, giúp đỡ (trang trọng)",
+            "ipa": "/əˈsɪst/",
+            "examples": [
+                { "en": "Our staff will be happy to assist you.", "vi": "Nhân viên của chúng tôi rất sẵn lòng hỗ trợ quý khách.", "highlight": "assist" }
+            ],
+            "noteVi": "assist someone with something. Danh từ: assistance (further assistance, C1 03). Nói chuyện: help."
+        },
+        {
+            "slug": "commence",
+            "type": "LEXICAL",
+            "text": "commence",
+            "meaningVi": "bắt đầu (rất trang trọng)",
+            "ipa": "/kəˈmens/",
+            "examples": [
+                { "en": "Construction will commence in early May.", "vi": "Việc xây dựng sẽ bắt đầu vào đầu tháng Năm.", "highlight": "commence" }
+            ],
+            "noteVi": "Chỉ dùng trong thông báo, văn bản chính thức. Email thường: start / begin. commence + V-ing hoặc danh từ."
+        },
+        {
+            "slug": "inquire",
+            "type": "LEXICAL",
+            "text": "inquire",
+            "meaningVi": "hỏi thông tin (trang trọng)",
+            "ipa": "/ɪnˈkwaɪər/",
+            "examples": [
+                { "en": "I am writing to inquire about the marketing position.", "vi": "Tôi viết thư này để hỏi về vị trí marketing.", "highlight": "inquire" }
+            ],
+            "noteVi": "inquire about something (không có tân ngữ người: ❌ inquire you). Kiểu Anh hay viết enquire. Danh từ: an inquiry."
+        },
+        {
+            "slug": "sufficient",
+            "type": "LEXICAL",
+            "text": "sufficient",
+            "meaningVi": "đủ (trang trọng)",
+            "ipa": "/səˈfɪʃnt/",
+            "examples": [
+                { "en": "We do not have sufficient information to make a decision.", "vi": "Chúng tôi chưa có đủ thông tin để ra quyết định.", "highlight": "sufficient" }
+            ],
+            "noteVi": "Bản trang trọng của enough, đứng trước danh từ. Trái nghĩa: insufficient (không đủ)."
+        },
+        {
+            "slug": "purchase",
+            "type": "LEXICAL",
+            "text": "purchase",
+            "meaningVi": "mua; món hàng đã mua (trang trọng)",
+            "ipa": "/ˈpɜːrtʃəs/",
+            "examples": [
+                { "en": "Thank you for your recent purchase.", "vi": "Cảm ơn quý khách đã mua hàng gần đây.", "highlight": "purchase" }
+            ],
+            "noteVi": "Động từ và danh từ cùng một dạng. Nói chuyện: buy. Âm cuối đọc nhẹ /əs/, không đọc như chase."
+        },
+        {
+            "slug": "i-would-be-grateful-if",
+            "type": "PATTERN",
+            "text": "I would be grateful if you could ….",
+            "meaningVi": "Tôi rất cảm kích nếu bạn có thể ….",
+            "examples": [
+                { "en": "I would be grateful if you could send me the invoice by Friday.", "vi": "Tôi rất cảm kích nếu anh chị gửi tôi hóa đơn trước thứ Sáu.", "highlight": "I would be grateful if you could" }
+            ],
+            "pattern": {
+                "template": "I would be grateful if you could {action}.",
+                "slots": [
+                    { "name": "action", "hintVi": "điều mình nhờ (V nguyên mẫu)", "options": ["send me the invoice by Friday", "confirm the date", "let me know as soon as possible", "reply at your earliest convenience", "forward this to the right person"] }
+                ]
+            },
+            "noteVi": "Lời nhờ trang trọng nhất trong email. Viết đầy đủ I would, không viết tắt I'd. Thân mật: Could you…? / Can you…?"
+        },
+        {
+            "slug": "nominalization",
+            "type": "GRAMMAR",
+            "text": "danh từ hóa và bị động trong văn trang trọng: decide → decision, reduce → reduction; It has been decided that…",
+            "meaningVi": "biến hành động thành danh từ để câu khách quan, trang trọng hơn",
+            "examples": [
+                { "en": "There has been a reduction in the number of complaints.", "vi": "Số lượng khiếu nại đã giảm.", "highlight": "a reduction in" }
+            ],
+            "grammar": {
+                "ruleVi": "Văn nói kể ai làm gì (We cut costs). Văn trang trọng biến hành động thành danh từ (a reduction in costs) và hay dùng bị động (B1 08) để bỏ người làm: It has been decided that…. Câu nghe khách quan, bớt đổ lỗi cho ai. Đuôi hay gặp: -tion (implement → implementation, reduce → reduction), -al (approve → approval, arrive → arrival), -ment (improve → improvement). Đi kèm là giới từ trang trọng: following (sau khi), prior to (trước khi), due to (B2 10). Đừng lạm dụng: cả đoạn toàn danh từ rất khó đọc.",
+                "forms": [
+                    { "label": "động từ → danh từ", "example": "We reduced costs. → There has been a reduction in costs." },
+                    { "label": "bị động bỏ người làm", "example": "It has been decided that the office will close." },
+                    { "label": "-al", "example": "The plan needs the board's approval." },
+                    { "label": "following", "example": "Following the meeting, a new date was set." },
+                    { "label": "prior to", "example": "Please check in prior to departure." }
+                ],
+                "pitfallsVi": [
+                    "\"There has been a reduce in costs\" → a reduction in costs (dùng danh từ, không dùng động từ).",
+                    "\"prior to leave\" → prior to leaving / prior to departure (sau giới từ là danh từ hoặc V-ing).",
+                    "\"It has decided that…\" → It has been decided that… (bị động cần been)."
+                ]
+            }
+        },
+        {
+            "slug": "there-has-been-a",
+            "type": "PATTERN",
+            "text": "There has been a … in ….",
+            "meaningVi": "Đã có sự … về ….",
+            "examples": [
+                { "en": "There has been a sharp increase in online orders.", "vi": "Đơn hàng online đã tăng mạnh.", "highlight": "There has been a sharp increase in" }
+            ],
+            "pattern": {
+                "template": "There has been a {change} in {thing}.",
+                "slots": [
+                    { "name": "change", "hintVi": "danh từ chỉ thay đổi", "options": ["sharp increase", "reduction", "slight improvement", "change", "delay"] },
+                    { "name": "thing", "hintVi": "cái thay đổi", "options": ["online orders", "the number of complaints", "our delivery times", "the schedule", "the shipping of your order"] }
+                ]
+            },
+            "noteVi": "Báo tin khách quan, không nói ai làm. Nối tiếp describing trends (B2 04): a sharp rise in…."
+        },
+        {
+            "slug": "it-has-been-decided",
+            "type": "PATTERN",
+            "text": "It has been decided that ….",
+            "meaningVi": "Đã có quyết định rằng ….",
+            "examples": [
+                { "en": "It has been decided that the office will close at 3 p.m. on Friday.", "vi": "Công ty đã quyết định văn phòng sẽ đóng cửa lúc 3 giờ chiều thứ Sáu.", "highlight": "It has been decided that" }
+            ],
+            "pattern": {
+                "template": "It has been decided that {decision}.",
+                "slots": [
+                    { "name": "decision", "hintVi": "quyết định (mệnh đề)", "options": ["the office will close at 3 p.m. on Friday", "the project will be postponed", "all staff will work from home on Mondays", "prices will remain the same", "the event will be moved online"] }
+                ]
+            },
+            "noteVi": "Hay gặp trong thông báo nội bộ. Không nói ai quyết định. Cùng kiểu: It has been agreed that… / It is expected that…."
+        },
+        {
+            "slug": "approval",
+            "type": "LEXICAL",
+            "text": "approval",
+            "meaningVi": "sự phê duyệt, chấp thuận",
+            "ipa": "/əˈpruːvl/",
+            "examples": [
+                { "en": "The budget still needs the manager's approval.", "vi": "Ngân sách vẫn cần sếp phê duyệt.", "highlight": "approval" }
+            ],
+            "noteVi": "Danh từ của approve. get / give / need approval. Đi với for: approval for the plan."
+        },
+        {
+            "slug": "implementation",
+            "type": "LEXICAL",
+            "text": "implementation",
+            "meaningVi": "việc triển khai, thực hiện",
+            "ipa": "/ˌɪmplɪmenˈteɪʃn/",
+            "examples": [
+                { "en": "The implementation of the new system has been delayed.", "vi": "Việc triển khai hệ thống mới đã bị hoãn.", "highlight": "implementation" }
+            ],
+            "noteVi": "Danh từ của implement (triển khai một kế hoạch, hệ thống). Nói chuyện: We're late rolling out the new system."
+        },
+        {
+            "slug": "reduction",
+            "type": "LEXICAL",
+            "text": "reduction",
+            "meaningVi": "sự cắt giảm, giảm bớt",
+            "ipa": "/rɪˈdʌkʃn/",
+            "examples": [
+                { "en": "We are pleased to offer a ten percent reduction in price.", "vi": "Chúng tôi xin giảm giá mười phần trăm.", "highlight": "reduction" }
+            ],
+            "noteVi": "a reduction in + danh từ (cái giảm), a reduction of + số (giảm bao nhiêu). Động từ: reduce."
+        },
+        {
+            "slug": "following",
+            "type": "PHRASE",
+            "text": "following …",
+            "meaningVi": "sau (sự việc) …, tiếp theo …",
+            "examples": [
+                { "en": "Following our phone call, I am sending you the updated contract.", "vi": "Tiếp theo cuộc điện thoại của chúng ta, tôi xin gửi hợp đồng đã cập nhật.", "highlight": "Following" }
+            ],
+            "noteVi": "Giới từ trang trọng = after, hay mở đầu email: Following our meeting, …. Khác the following (những điều sau đây)."
+        },
+        {
+            "slug": "prior-to",
+            "type": "PHRASE",
+            "text": "prior to …",
+            "meaningVi": "trước (khi) …",
+            "examples": [
+                { "en": "Please arrive at least fifteen minutes prior to the interview.", "vi": "Vui lòng đến ít nhất mười lăm phút trước buổi phỏng vấn.", "highlight": "prior to" }
+            ],
+            "noteVi": "Bản trang trọng của before. Sau to là danh từ hoặc V-ing: prior to leaving. ❌ prior to leave."
+        },
+        {
+            "slug": "softening-tone",
+            "type": "GRAMMAR",
+            "text": "làm mềm giọng email: nói về sự việc thay vì trách người, It appears that…, I appreciate that…, gentle reminder",
+            "meaningVi": "nói rõ vấn đề mà không làm người nhận phật lòng",
+            "examples": [
+                { "en": "It appears that the payment hasn't been received yet.", "vi": "Có vẻ như khoản thanh toán vẫn chưa được nhận.", "highlight": "It appears that" }
+            ],
+            "grammar": {
+                "ruleVi": "Email bực bội thường bắt đầu bằng \"You\": You didn't pay. You forgot again. Muốn lịch sự mà vẫn rõ: (1) nói về sự việc, không nói về người, bằng bị động và It appears that…; (2) ghi nhận bên kia trước (I appreciate that you're busy, but…); (3) nhắc khéo (Just a gentle reminder that…); (4) nói giảm (C1 01) và nhờ lịch sự (B1 07). Cẩn thận với câu passive-aggressive như \"As per my last email\": về chữ thì lịch sự, nhưng người bản ngữ nghe ra là đang bực.",
+                "forms": [
+                    { "label": "sự việc thay cho người", "example": "You didn't pay. → The payment hasn't been received." },
+                    { "label": "có vẻ như", "example": "It appears that there has been a mistake." },
+                    { "label": "ghi nhận", "example": "I appreciate that you're busy, but we need this today." },
+                    { "label": "nhắc khéo", "example": "Just a gentle reminder that the report is due tomorrow." },
+                    { "label": "nhờ", "example": "Could you look into this, please?" }
+                ],
+                "pitfallsVi": [
+                    "\"You made a mistake again!\" → It appears that there has been a mistake.",
+                    "\"Why you still not reply?\" → Just a gentle reminder about my email from Monday.",
+                    "Viết toàn chữ in hoa hoặc nhiều dấu !!! → giọng bình tĩnh, một dấu chấm."
+                ]
+            }
+        },
+        {
+            "slug": "it-appears-that",
+            "type": "PATTERN",
+            "text": "It appears that ….",
+            "meaningVi": "Có vẻ như ….",
+            "examples": [
+                { "en": "It appears that there has been a mistake with the invoice.", "vi": "Có vẻ như hóa đơn có nhầm lẫn.", "highlight": "It appears that" }
+            ],
+            "pattern": {
+                "template": "It appears that {problem}.",
+                "slots": [
+                    { "name": "problem", "hintVi": "vấn đề (nói về sự việc, không trách người)", "options": ["there has been a mistake with the invoice", "the payment hasn't been received", "the wrong file was attached", "the order was sent to the old address", "some items are missing"] }
+                ]
+            },
+            "noteVi": "Nêu vấn đề mà không đổ lỗi, để bên kia dễ sửa. Cùng họ với It would seem that (C1 01), nhưng hay dùng hơn khi báo lỗi."
+        },
+        {
+            "slug": "gentle-reminder",
+            "type": "PHRASE",
+            "text": "Just a gentle reminder that ….",
+            "meaningVi": "Xin nhắc nhẹ là ….",
+            "examples": [
+                { "en": "Just a gentle reminder that the report is due tomorrow.", "vi": "Xin nhắc nhẹ là hạn nộp báo cáo là ngày mai.", "highlight": "Just a gentle reminder that" }
+            ],
+            "noteVi": "Nhắc hạn chót hay email chưa trả lời mà không gây áp lực. Cũng viết: Just a friendly reminder…. Nhắc lần hai thì thẳng hơn: I'm following up on…."
+        },
+        {
+            "slug": "as-per-my-last-email",
+            "type": "PHRASE",
+            "text": "As per my last email, ….",
+            "meaningVi": "Như email trước tôi đã viết, … (thường nghe như đang bực)",
+            "examples": [
+                { "en": "As per my last email, the deadline is Friday.", "vi": "Như email trước tôi đã viết, hạn chót là thứ Sáu.", "highlight": "As per my last email" }
+            ],
+            "noteVi": "Hiểu được là quan trọng: người nhận hiểu là \"tôi đã nói rồi mà\". Muốn trung tính: As mentioned in my previous email, … hoặc chỉ cần nhắc lại thông tin."
+        },
+        {
+            "slug": "i-appreciate-that",
+            "type": "PHRASE",
+            "text": "I appreciate that …, but ….",
+            "meaningVi": "Tôi hiểu là …, nhưng ….",
+            "examples": [
+                { "en": "I appreciate that you're very busy, but we need the files today.", "vi": "Mình hiểu là bạn rất bận, nhưng bên mình cần file hôm nay.", "highlight": "I appreciate that" }
+            ],
+            "noteVi": "appreciate that + mệnh đề = hiểu và thông cảm (khác appreciate + danh từ = cảm kích). Ghi nhận trước rồi mới đòi hỏi."
+        },
+        {
+            "slug": "tone",
+            "type": "LEXICAL",
+            "text": "tone",
+            "meaningVi": "giọng, giọng điệu (của lời nói, bài viết)",
+            "ipa": "/toʊn/",
+            "examples": [
+                { "en": "The information is fine, but the tone of the email is a bit harsh.", "vi": "Thông tin thì ổn, nhưng giọng email hơi gắt.", "highlight": "tone" }
+            ],
+            "noteVi": "a friendly / formal / harsh tone. tone it down = nói nhẹ đi. Trong email, người đọc không nghe được giọng nên chữ phải làm thay."
+        },
+        {
+            "slug": "blunt",
+            "type": "LEXICAL",
+            "text": "blunt",
+            "meaningVi": "thẳng thừng, bộc trực",
+            "ipa": "/blʌnt/",
+            "examples": [
+                { "en": "Sorry to be blunt, but this plan won't work.", "vi": "Xin lỗi vì nói thẳng, nhưng kế hoạch này sẽ không hiệu quả.", "highlight": "blunt" }
+            ],
+            "noteVi": "Nghĩa gốc: cùn (dao). Gần nghĩa: direct (trung tính hơn). Báo trước khi nói thẳng: To be blunt, … / Frankly, … (B2 03)."
+        },
+        {
+            "slug": "passive-aggressive",
+            "type": "LEXICAL",
+            "text": "passive-aggressive",
+            "meaningVi": "nói mát, bực mà không nói thẳng",
+            "ipa": "/ˌpæsɪv əˈɡresɪv/",
+            "examples": [
+                { "en": "\"Thanks for finally replying\" sounds a bit passive-aggressive.", "vi": "\"Cảm ơn vì cuối cùng cũng trả lời\" nghe hơi nói mát.", "highlight": "passive-aggressive" }
+            ],
+            "noteVi": "Lời lẽ lịch sự nhưng ý trách. Hay gặp trong email công sở: As per my last email, Per my previous message, Thanks for finally…."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "c1-07-the-notice",
+            "title": "It has been decided that…",
+            "situationVi": "Anh James, đồng nghiệp người Anh, nhờ bạn sửa bản thông báo gửi khách hàng. Bản nháp của anh ấy viết quá thân mật.",
+            "lines": [
+                { "speaker": "James", "en": "Can you look at this? It says: \"Hi guys, we're gonna start the new system next week.\" Too casual?", "vi": "Bạn xem giúp cái này? Nó viết: \"Chào mọi người, tuần sau tụi mình bắt đầu dùng hệ thống mới.\" Thân mật quá không?" },
+                { "speaker": "You", "en": "A bit, for clients. How about: \"The implementation of the new system will commence next week.\"", "vi": "Hơi thế, với khách hàng. Thử thế này: \"Việc triển khai hệ thống mới sẽ bắt đầu từ tuần sau.\"", "learnerTurn": true },
+                { "speaker": "James", "en": "Much better. And the part about the prices? I wrote: \"We decided to keep prices the same.\"", "vi": "Hay hơn nhiều. Còn đoạn về giá? Mình viết: \"Tụi mình quyết định giữ nguyên giá.\"" },
+                { "speaker": "You", "en": "You could say: \"It has been decided that prices will remain the same.\"", "vi": "Có thể viết: \"Công ty đã quyết định giá sẽ giữ nguyên.\"", "learnerTurn": true },
+                { "speaker": "James", "en": "Nice. Then: \"If you need help, just ask us.\"", "vi": "Hay. Tiếp theo: \"Cần giúp gì thì cứ hỏi tụi mình.\"" },
+                { "speaker": "You", "en": "Maybe: \"Should you require assistance, our staff will be happy to assist you.\"", "vi": "Có thể là: \"Nếu quý khách cần hỗ trợ, nhân viên của chúng tôi rất sẵn lòng giúp đỡ.\"", "learnerTurn": true },
+                { "speaker": "James", "en": "Wow, that sounds very official. And the last line: \"Get your new password before Monday.\"", "vi": "Ồ, nghe rất chính thức. Câu cuối: \"Lấy mật khẩu mới trước thứ Hai nhé.\"" },
+                { "speaker": "You", "en": "Try: \"Please obtain your new password prior to Monday.\" And I'd also add a line thanking them for their recent purchase.", "vi": "Thử: \"Vui lòng lấy mật khẩu mới trước thứ Hai.\" Và mình sẽ thêm một câu cảm ơn khách đã mua hàng gần đây.", "learnerTurn": true },
+                { "speaker": "James", "en": "Perfect. You've saved me again!", "vi": "Hoàn hảo. Bạn lại cứu mình rồi!" }
+            ]
+        },
+        {
+            "slug": "c1-07-before-you-send",
+            "title": "Before you hit send",
+            "situationVi": "Chị Anna, đồng nghiệp người Mỹ, đang rất bực vì nhà cung cấp gửi sai hóa đơn lần thứ hai. Chị ấy nhờ bạn đọc email trước khi gửi.",
+            "lines": [
+                { "speaker": "Anna", "en": "Read this before I send it. \"You sent the wrong invoice AGAIN. Why can't you get it right?\"", "vi": "Đọc cái này trước khi tôi gửi đi. \"Các anh LẠI gửi sai hóa đơn. Sao không làm cho đúng được vậy?\"" },
+                { "speaker": "You", "en": "Hmm, the tone is a bit blunt. Maybe start with: \"It appears that there has been a mistake with the invoice.\"", "vi": "Hừm, giọng hơi thẳng quá. Có thể mở đầu: \"Có vẻ như hóa đơn có nhầm lẫn.\"", "learnerTurn": true },
+                { "speaker": "Anna", "en": "But it's the second time! They need to know I'm annoyed.", "vi": "Nhưng đây là lần thứ hai rồi! Họ cần biết là tôi bực." },
+                { "speaker": "You", "en": "You can still be clear. Something like: \"I appreciate that mistakes happen, but this is the second time, so could you check it carefully?\"", "vi": "Vẫn nói rõ được mà. Kiểu như: \"Tôi hiểu là nhầm lẫn có thể xảy ra, nhưng đây là lần thứ hai, nên anh chị kiểm tra kỹ giúp nhé?\"", "learnerTurn": true },
+                { "speaker": "Anna", "en": "Okay. And I also wrote: \"As per my last email, we need it by Friday.\"", "vi": "Được. Tôi còn viết: \"Như email trước tôi đã viết, bên tôi cần trước thứ Sáu.\"" },
+                { "speaker": "You", "en": "That one sounds a bit passive-aggressive. Why not: \"Just a gentle reminder that we need the correct invoice by Friday.\"", "vi": "Câu đó nghe hơi nói mát. Sao không viết: \"Xin nhắc nhẹ là bên tôi cần hóa đơn đúng trước thứ Sáu.\"", "learnerTurn": true },
+                { "speaker": "Anna", "en": "Fine, fine. Anything else?", "vi": "Thôi được. Còn gì nữa không?" },
+                { "speaker": "You", "en": "End with: \"I would be grateful if you could confirm once it's been sent.\" Clear, but not rude.", "vi": "Kết bằng: \"Tôi rất cảm kích nếu anh chị xác nhận khi đã gửi.\" Rõ ràng, mà không bất lịch sự.", "learnerTurn": true },
+                { "speaker": "Anna", "en": "You're right. It sounds much more professional. Thanks!", "vi": "Bạn nói đúng. Nghe chuyên nghiệp hơn hẳn. Cảm ơn nhé!" }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "c1-07-l1-word-choice",
+            "title": "Obtain or get?",
+            "titleVi": "Từ trang trọng và từ thân mật",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "formal-informal-vocab", "role": "INTRODUCE" },
+                { "item": "obtain", "role": "INTRODUCE" },
+                { "item": "assist", "role": "INTRODUCE" },
+                { "item": "commence", "role": "INTRODUCE" },
+                { "item": "inquire", "role": "INTRODUCE" },
+                { "item": "sufficient", "role": "INTRODUCE" },
+                { "item": "purchase", "role": "INTRODUCE" },
+                { "item": "i-would-be-grateful-if", "role": "INTRODUCE" },
+                { "item": "formal-email", "role": "RECYCLE" },
+                { "item": "should-you-need", "role": "RECYCLE" },
+                { "item": "figure-out", "role": "RECYCLE" },
+                { "item": "regarding", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["obtain", "assist", "commence", "inquire", "sufficient", "purchase", "i-would-be-grateful-if"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Một nghĩa, hai lớp từ",
+                        "bodyVi": "Cùng một ý, tiếng Anh có từ để nói với bạn bè và từ để viết cho khách hàng:\n\n| thân mật | trang trọng | ví dụ trang trọng |\n|---|---|---|\n| get | **obtain** | **obtain** a visa |\n| help | **assist** | happy to **assist** you |\n| start | **commence** | Work will **commence** in May. |\n| ask about | **inquire** about | I am writing to **inquire** about… |\n| enough | **sufficient** | **sufficient** information |\n| buy | **purchase** | your recent **purchase** |\n| find out, **figure out** (B2 08) | discover, determine | |\n| about | **regarding** (B2 05) | **regarding** your order |\n| Can you…? | **I would be grateful if you could**… | |\n| If you need… | **Should you need**… (C1 03) | |\n\nTrong email trang trọng (B2 05), giữ cả câu ở một lớp: đừng viết \"We will commence when everyone gets here\".\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| (nhắn bạn) I will assist you to obtain tickets. | I'll **help** you **get** tickets. |\n| (email khách) Can you send the bill? | **I would be grateful if you could** send the invoice. |\n| I want to inquire you about the job. | I am writing to **inquire about** the job. |\n\n❌ inquire you ❌ assist you to obtain (với bạn bè) ✅ **I would be grateful if you could assist us with this purchase.**",
+                        "items": ["formal-informal-vocab", "obtain", "assist", "commence", "inquire", "sufficient", "purchase", "i-would-be-grateful-if", "formal-email", "should-you-need", "figure-out", "regarding"],
+                        "examples": [
+                            { "en": "Please contact us if you require further information.", "vi": "Vui lòng liên hệ nếu quý khách cần thêm thông tin.", "highlight": "require further information" },
+                            { "en": "I would be grateful if you could send me the invoice by Friday.", "vi": "Tôi rất cảm kích nếu anh chị gửi tôi hóa đơn trước thứ Sáu.", "highlight": "I would be grateful if you could" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "i-would-be-grateful-if",
+                        "prompts": [
+                            { "cueVi": "Tôi rất cảm kích nếu anh chị xác nhận ngày.", "slots": { "action": "confirm the date" }, "answer": "I would be grateful if you could confirm the date." },
+                            { "cueVi": "Tôi rất cảm kích nếu anh chị báo tôi sớm nhất có thể.", "slots": { "action": "let me know as soon as possible" }, "answer": "I would be grateful if you could let me know as soon as possible." },
+                            { "cueVi": "Tôi rất cảm kích nếu anh chị chuyển thư này cho đúng người.", "slots": { "action": "forward this to the right person" }, "answer": "I would be grateful if you could forward this to the right person." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["obtain", "assist", "commence", "inquire", "sufficient", "purchase"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "Our staff will be happy to assist you.", "vi": "Nhân viên của chúng tôi rất sẵn lòng hỗ trợ quý khách." },
+                            { "en": "I am writing to inquire about the marketing position.", "vi": "Tôi viết thư này để hỏi về vị trí marketing." },
+                            { "en": "We do not have sufficient information to make a decision.", "vi": "Chúng tôi chưa có đủ thông tin để ra quyết định." },
+                            { "en": "I would be grateful if you could send me the invoice by Friday.", "vi": "Tôi rất cảm kích nếu anh chị gửi tôi hóa đơn trước thứ Sáu." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn nhắn tin cho một người bạn. Câu nào tự nhiên nhất?",
+                                "options": ["I will assist you to obtain the tickets.", "I'll help you get the tickets.", "I shall assist you in obtaining tickets."],
+                                "answer": 1,
+                                "item": "formal-informal-vocab"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I am writing to inquire you about the job.", "I am writing to inquire about the job.", "I am writing for inquire the job."],
+                                "answer": 1,
+                                "item": "inquire"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I would be ___ if you could confirm the date.",
+                                "hintVi": "cảm kích, biết ơn",
+                                "answers": ["grateful"],
+                                "item": "i-would-be-grateful-if"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Construction will commence in early May.",
+                                "options": ["Việc xây dựng sẽ kết thúc vào đầu tháng Năm.", "Việc xây dựng sẽ bắt đầu vào đầu tháng Năm.", "Việc xây dựng bị hoãn đến tháng Năm."],
+                                "answer": 1,
+                                "item": "commence"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Khách phải lấy thẻ ra vào ở quầy lễ tân.",
+                                "answer": "Visitors must obtain a pass from reception.",
+                                "item": "obtain"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "c1-07-l2-nominalization",
+            "title": "It has been decided that…",
+            "titleVi": "Viết trang trọng bằng danh từ và bị động",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "nominalization", "role": "INTRODUCE" },
+                { "item": "there-has-been-a", "role": "INTRODUCE" },
+                { "item": "it-has-been-decided", "role": "INTRODUCE" },
+                { "item": "approval", "role": "INTRODUCE" },
+                { "item": "implementation", "role": "INTRODUCE" },
+                { "item": "reduction", "role": "INTRODUCE" },
+                { "item": "following", "role": "INTRODUCE" },
+                { "item": "prior-to", "role": "INTRODUCE" },
+                { "item": "passive-present", "role": "RECYCLE" },
+                { "item": "due-to", "role": "RECYCLE" },
+                { "item": "linking-words", "role": "RECYCLE" },
+                { "item": "assist", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["there-has-been-a", "it-has-been-decided", "approval", "implementation", "reduction", "following", "prior-to"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Từ \"ai làm gì\" sang \"điều gì xảy ra\"",
+                        "bodyVi": "Văn nói kể người làm. Văn trang trọng kể sự việc, bằng danh từ và bị động (B1 08):\n\n| văn nói | văn trang trọng |\n|---|---|\n| We cut costs. | **There has been a reduction in** costs. |\n| The boss decided to close early. | **It has been decided that** the office will close early. |\n| We're late starting the new system. | The **implementation** of the new system has been delayed. |\n| The manager has to approve it. | It requires the manager's **approval**. |\n| After the meeting, … | **Following** the meeting, … |\n| Before you leave, … | **Prior to** leaving, … |\n| because of the rain | **due to** the weather (B2 10) |\n\nĐuôi danh từ hay gặp: -tion (reduce → reduction), -al (approve → approval), -ment (improve → improvement). Nối câu bằng However, / Therefore, (B2 10). Đừng lạm dụng: cả đoạn toàn danh từ thì khó đọc.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| There has been a reduce in costs. | There has been a **reduction** in costs. |\n| Please come prior to start. | Please arrive **prior to** the start. |\n| It has decided that… | **It has been decided that**… |\n\n❌ a reduce in ❌ prior to leave ✅ **Following the meeting, it has been decided that prices will remain the same.**",
+                        "items": ["nominalization", "there-has-been-a", "it-has-been-decided", "approval", "implementation", "reduction", "following", "prior-to", "passive-present", "due-to", "linking-words"],
+                        "examples": [
+                            { "en": "There has been a reduction in the number of complaints.", "vi": "Số lượng khiếu nại đã giảm.", "highlight": "There has been a reduction in" },
+                            { "en": "It has been decided that the office will close at 3 p.m. on Friday.", "vi": "Công ty đã quyết định văn phòng sẽ đóng cửa lúc 3 giờ chiều thứ Sáu.", "highlight": "It has been decided that" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "there-has-been-a",
+                        "prompts": [
+                            { "cueVi": "Số lượng khiếu nại đã giảm.", "slots": { "change": "reduction", "thing": "the number of complaints" }, "answer": "There has been a reduction in the number of complaints." },
+                            { "cueVi": "Thời gian giao hàng đã cải thiện nhẹ.", "slots": { "change": "slight improvement", "thing": "our delivery times" }, "answer": "There has been a slight improvement in our delivery times." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "it-has-been-decided",
+                        "prompts": [
+                            { "cueVi": "Đã có quyết định hoãn dự án.", "slots": { "decision": "the project will be postponed" }, "answer": "It has been decided that the project will be postponed." },
+                            { "cueVi": "Đã có quyết định chuyển sự kiện lên online.", "slots": { "decision": "the event will be moved online" }, "answer": "It has been decided that the event will be moved online." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["approval", "implementation", "reduction", "following", "prior-to", "due-to"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "c1-07-the-notice", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Viết lại trang trọng: \"We cut costs a lot this year.\"",
+                                "options": ["There has been a significant reduction in costs this year.", "There has been a reduce in costs this year.", "Costs we cut a lot this year."],
+                                "answer": 0,
+                                "item": "nominalization"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["It has decided that the office will close.", "It has been decided that the office will close.", "It is been decided that the office will close."],
+                                "answer": 1,
+                                "item": "it-has-been-decided"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Please arrive fifteen minutes prior ___ the interview.",
+                                "hintVi": "trước (giới từ đi kèm prior)",
+                                "answers": ["to"],
+                                "item": "prior-to"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "The implementation of the new system has been delayed.",
+                                "options": ["Hệ thống mới đã bị hủy.", "Việc triển khai hệ thống mới đã bị hoãn.", "Hệ thống mới chạy chậm."],
+                                "answer": 1,
+                                "item": "implementation"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Ngân sách vẫn cần sếp phê duyệt.",
+                                "answer": "The budget still needs the manager's approval.",
+                                "item": "approval"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "c1-07-l3-tone",
+            "title": "Just a gentle reminder",
+            "titleVi": "Viết lại email bực bội cho lịch sự",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "softening-tone", "role": "INTRODUCE" },
+                { "item": "it-appears-that", "role": "INTRODUCE" },
+                { "item": "gentle-reminder", "role": "INTRODUCE" },
+                { "item": "as-per-my-last-email", "role": "INTRODUCE" },
+                { "item": "i-appreciate-that", "role": "INTRODUCE" },
+                { "item": "tone", "role": "INTRODUCE" },
+                { "item": "blunt", "role": "INTRODUCE" },
+                { "item": "passive-aggressive", "role": "INTRODUCE" },
+                { "item": "understatement", "role": "RECYCLE" },
+                { "item": "softening-refusals", "role": "RECYCLE" },
+                { "item": "polite-requests", "role": "RECYCLE" },
+                { "item": "i-would-be-grateful-if", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["it-appears-that", "gentle-reminder", "as-per-my-last-email", "i-appreciate-that", "tone", "blunt", "passive-aggressive"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Rõ ràng mà không gắt",
+                        "bodyVi": "Người đọc email không nghe được giọng mình, nên chữ phải làm thay. Bốn cách sửa một email bực bội:\n\n| bực bội | lịch sự mà vẫn rõ |\n|---|---|\n| You sent the wrong invoice! | **It appears that** there has been a mistake with the invoice. |\n| Why haven't you replied?! | **Just a gentle reminder** about my email from Monday. |\n| You're always late with this. | **I appreciate that** you're busy, **but** we need it today. |\n| Send it now. | **I would be grateful if you could** send it today. |\n| Your plan is bad. | I'm not entirely convinced it'll work. (C1 01) |\n\nCâu **passive-aggressive** trông lịch sự nhưng người bản ngữ nghe ra là đang bực: **As per my last email**, … / Thanks for finally replying. Nói thẳng thì báo trước: Sorry to be **blunt**, but…. Thông tin đúng mà **tone** sai thì người nhận vẫn phật lòng.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| You made a mistake AGAIN!!! | **It appears that** there has been another mistake. |\n| Why you still not reply? | **Just a gentle reminder** that I'm waiting for your reply. |\n| As per my last email, … (tưởng là lịch sự) | As mentioned in my previous email, … |\n\n❌ You made a mistake AGAIN!!! ❌ Why you still not reply? ✅ **I appreciate that you're busy, but it appears that the payment hasn't been received.**",
+                        "items": ["softening-tone", "it-appears-that", "gentle-reminder", "as-per-my-last-email", "i-appreciate-that", "tone", "blunt", "passive-aggressive", "understatement", "polite-requests", "i-would-be-grateful-if"],
+                        "examples": [
+                            { "en": "It appears that the payment hasn't been received yet.", "vi": "Có vẻ như khoản thanh toán vẫn chưa được nhận.", "highlight": "It appears that" },
+                            { "en": "I appreciate that you're very busy, but we need the files today.", "vi": "Mình hiểu là bạn rất bận, nhưng bên mình cần file hôm nay.", "highlight": "I appreciate that" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "it-appears-that",
+                        "prompts": [
+                            { "cueVi": "Có vẻ như khoản thanh toán chưa được nhận.", "slots": { "problem": "the payment hasn't been received" }, "answer": "It appears that the payment hasn't been received." },
+                            { "cueVi": "Có vẻ như file đính kèm bị nhầm.", "slots": { "problem": "the wrong file was attached" }, "answer": "It appears that the wrong file was attached." },
+                            { "cueVi": "Có vẻ như thiếu vài món hàng.", "slots": { "problem": "some items are missing" }, "answer": "It appears that some items are missing." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["gentle-reminder", "as-per-my-last-email", "i-appreciate-that", "tone", "blunt", "passive-aggressive"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "c1-07-before-you-send", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Nhà cung cấp gửi sai hóa đơn. Câu mở đầu email nào lịch sự mà vẫn rõ?",
+                                "options": ["You sent the wrong invoice AGAIN!!!", "It appears that there has been a mistake with the invoice.", "Your invoice is wrong, fix it."],
+                                "answer": 1,
+                                "item": "softening-tone"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Người nhận hiểu câu \"As per my last email, the deadline is Friday.\" là:",
+                                "options": ["Người viết đang bực: \"tôi đã nói rồi mà\".", "Người viết rất vui.", "Người viết xin lỗi vì email trước."],
+                                "answer": 0,
+                                "item": "as-per-my-last-email"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Just a gentle ___ that the report is due tomorrow.",
+                                "hintVi": "lời nhắc",
+                                "answers": ["reminder"],
+                                "item": "gentle-reminder"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "The information is fine, but the tone of the email is a bit harsh.",
+                                "options": ["Thông tin thì ổn, nhưng giọng email hơi gắt.", "Email có nhiều thông tin sai.", "Email quá dài và khó hiểu."],
+                                "answer": 0,
+                                "item": "tone"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Mình hiểu là bạn rất bận, nhưng bên mình cần file hôm nay.",
+                                "answer": "I appreciate that you're very busy, but we need the files today.",
+                                "item": "i-appreciate-that"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "c1-07-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Email gửi khách hàng. Câu nào hợp văn phong nhất?",
+                "options": ["Our staff will be happy to assist you.", "Our guys will help you out.", "We gonna help you."],
+                "answer": 0,
+                "item": "assist"
+            },
+            {
+                "kind": "gap",
+                "sentence": "We do not have ___ information to make a decision.",
+                "hintVi": "đủ (trang trọng)",
+                "answers": ["sufficient"],
+                "item": "sufficient"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["There has been a reduce in the number of complaints.", "There has been a reduction in the number of complaints.", "There has a reduction in the number of complaints."],
+                "answer": 1,
+                "item": "there-has-been-a"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Viết lại trang trọng: \"After our phone call, I'm sending you the contract.\"",
+                "options": ["Following our phone call, I am sending you the updated contract.", "Follow our phone call, I send the contract.", "After phone, contract sending."],
+                "answer": 0,
+                "item": "following"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "\"Thanks for finally replying\" sounds a bit passive-aggressive.",
+                "options": ["Câu đó nghe rất biết ơn.", "Câu đó nghe hơi nói mát.", "Câu đó nghe quá trang trọng."],
+                "answer": 1,
+                "item": "passive-aggressive"
+            },
+            {
+                "kind": "order",
+                "vi": "Tôi rất cảm kích nếu anh chị gửi tôi hóa đơn trước thứ Sáu.",
+                "answer": "I would be grateful if you could send me the invoice by Friday.",
+                "item": "i-would-be-grateful-if"
+            }
+        ]
+    }
+}
