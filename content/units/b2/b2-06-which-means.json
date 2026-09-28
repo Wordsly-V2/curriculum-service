@@ -1,0 +1,805 @@
+{
+    "slug": "b2-06-which-means",
+    "stage": "b2",
+    "order": 6,
+    "title": "Which means…",
+    "titleVi": "Thêm thông tin bằng mệnh đề quan hệ",
+    "descriptionVi": "Thêm thông tin phụ về người, vật bằng mệnh đề có dấu phẩy (My sister, who lives in Da Nang, …), dùng which để nói về cả câu trước (The flight was delayed, which means…), và mô tả chi tiết nơi chốn, con người với whose / where / when.",
+    "canDo": [
+        "Tôi thêm được thông tin phụ về một người hoặc một món đồ trong cùng một câu, nói được món đồ đó có đáng tiền không.",
+        "Tôi kể được một chuyện rắc rối và hệ quả của nó bằng …, which means / which is why ….",
+        "Tôi giới thiệu được một khu phố, một nơi có kỷ niệm hoặc một người bạn với chi tiết cụ thể."
+    ],
+    "items": [
+        {
+            "slug": "non-defining-relative",
+            "type": "GRAMMAR",
+            "text": "…, who / which …, (mệnh đề quan hệ không xác định)",
+            "meaningVi": "mệnh đề thêm thông tin phụ, có dấu phẩy",
+            "examples": [
+                { "en": "My brother, who lives in Japan, is coming home for Tet.", "vi": "Anh trai mình, người đang sống ở Nhật, sắp về ăn Tết.", "highlight": ", who lives in Japan," }
+            ],
+            "grammar": {
+                "ruleVi": "A2 đã học mệnh đề xác định (the person who…): bỏ đi thì không biết là ai. Mệnh đề không xác định chỉ thêm thông tin phụ về người, vật đã rõ là ai, cái nào, nên có dấu phẩy hai bên (khi nói thì ngắt giọng), bỏ đi câu vẫn đủ nghĩa. Người: who; vật: which. Không dùng that, và không bỏ được who / which.",
+                "forms": [
+                    { "label": "người", "example": "My boss, who is very kind, gave me a day off." },
+                    { "label": "vật", "example": "My new laptop, which I bought last week, is really light." },
+                    { "label": "cuối câu", "example": "I met Lan, who works at the bank." },
+                    { "label": "so với xác định", "example": "The man who called you is my uncle. (không dấu phẩy: người nào?)" }
+                ],
+                "pitfallsVi": [
+                    "\"My mother, that is a teacher, …\" → My mother, who is a teacher, … (không dùng that sau dấu phẩy)",
+                    "\"My laptop, I bought it last week, is light\" → My laptop, which I bought last week, is light. (không lặp it)",
+                    "\"Hanoi which is the capital\" thiếu dấu phẩy → Hanoi, which is the capital, …"
+                ]
+            }
+        },
+        {
+            "slug": "my-who",
+            "type": "PATTERN",
+            "text": "My …, who …, is coming to visit.",
+            "meaningVi": "… của mình, người …, sắp đến chơi.",
+            "examples": [
+                { "en": "My aunt, who lives in Da Nang, is coming to visit.", "vi": "Dì mình, người sống ở Đà Nẵng, sắp đến chơi.", "highlight": ", who lives in Da Nang," }
+            ],
+            "pattern": {
+                "template": "My {person}, who {info}, is coming to visit.",
+                "slots": [
+                    { "name": "person", "hintVi": "người thân, bạn bè", "options": ["aunt", "brother", "best friend", "old teacher", "cousin"] },
+                    { "name": "info", "hintVi": "thông tin phụ", "options": ["lives in Da Nang", "works in Japan", "I haven't seen for years", "is a doctor", "just got married"] }
+                ]
+            },
+            "noteVi": "Chỉ có một người dì, một người anh, nên thông tin sau who là phụ, cần dấu phẩy. Nói thì hơi ngừng ở hai dấu phẩy."
+        },
+        {
+            "slug": "i-bought-which",
+            "type": "PATTERN",
+            "text": "I bought …, which ….",
+            "meaningVi": "Mình mua …, cái này ….",
+            "examples": [
+                { "en": "I bought a new laptop, which is much lighter than my old one.", "vi": "Mình mua laptop mới, máy này nhẹ hơn máy cũ nhiều.", "highlight": ", which is much lighter" }
+            ],
+            "pattern": {
+                "template": "I bought {thing}, which {info}.",
+                "slots": [
+                    { "name": "thing", "hintVi": "món đồ", "options": ["a new laptop", "a Japanese rice cooker", "a pair of running shoes", "a secondhand motorbike", "an electric toothbrush"] },
+                    { "name": "info", "hintVi": "thông tin phụ", "options": ["is much lighter than my old one", "was on sale", "has a lot of useful features", "is really reliable", "my sister recommended"] }
+                ]
+            },
+            "noteVi": "which thay cho món đồ, không lặp it: ❌ \"which it was on sale\". Tân ngữ cũng không bỏ which được: …, which my sister recommended."
+        },
+        {
+            "slug": "feature",
+            "type": "LEXICAL",
+            "text": "feature",
+            "meaningVi": "tính năng, đặc điểm",
+            "ipa": "/ˈfiːtʃər/",
+            "examples": [
+                { "en": "This phone has a great camera and a few other useful features.", "vi": "Điện thoại này có camera tốt và vài tính năng hữu ích khác.", "highlight": "features" }
+            ],
+            "noteVi": "Hay dùng cho sản phẩm, phần mềm: a new feature. Còn là đặc điểm nổi bật của một nơi: The lake is the main feature of the park."
+        },
+        {
+            "slug": "brand",
+            "type": "LEXICAL",
+            "text": "brand",
+            "meaningVi": "thương hiệu, hãng",
+            "ipa": "/brænd/",
+            "examples": [
+                { "en": "Which brand is your rice cooker?", "vi": "Nồi cơm nhà bạn hãng gì?", "highlight": "brand" }
+            ],
+            "noteVi": "a brand-new phone = điện thoại mới tinh. Hàng hiệu đắt tiền: designer brands. Hàng nhái: fake / knockoff."
+        },
+        {
+            "slug": "quality",
+            "type": "LEXICAL",
+            "text": "quality",
+            "meaningVi": "chất lượng",
+            "ipa": "/ˈkwɑːləti/",
+            "examples": [
+                { "en": "It's a bit expensive, but the quality is very good.", "vi": "Hơi đắt, nhưng chất lượng rất tốt.", "highlight": "quality" }
+            ],
+            "noteVi": "good / high / poor quality. Làm tính từ: high-quality products. ❌ \"The quality is very high quality\"."
+        },
+        {
+            "slug": "reliable",
+            "type": "LEXICAL",
+            "text": "reliable",
+            "meaningVi": "bền, đáng tin cậy",
+            "ipa": "/rɪˈlaɪəbəl/",
+            "examples": [
+                { "en": "My old Honda, which I bought ten years ago, is still very reliable.", "vi": "Chiếc Honda cũ mình mua mười năm trước vẫn chạy rất bền.", "highlight": "reliable" }
+            ],
+            "noteVi": "Dùng cho máy móc (ít hỏng) và cho người (tin cậy được): a reliable colleague. Động từ: rely on."
+        },
+        {
+            "slug": "worth-it",
+            "type": "PHRASE",
+            "text": "It's worth it. / worth + V-ing",
+            "meaningVi": "Đáng (tiền, công sức).",
+            "examples": [
+                { "en": "It was expensive, but it's worth it.", "vi": "Đắt thật, nhưng đáng tiền.", "highlight": "worth it" }
+            ],
+            "noteVi": "worth + V-ing: The museum is worth visiting. Không đáng: It's not worth it. ❌ \"It's worth to visit\"."
+        },
+        {
+            "slug": "which-whole-clause",
+            "type": "GRAMMAR",
+            "text": "…, which + động từ (which chỉ cả mệnh đề trước)",
+            "meaningVi": "which thay cho cả sự việc vừa nói",
+            "examples": [
+                { "en": "Our flight was delayed, which means we'll miss the connection.", "vi": "Chuyến bay bị hoãn, như vậy là mình sẽ lỡ chuyến nối.", "highlight": ", which means" }
+            ],
+            "grammar": {
+                "ruleVi": "Sau dấu phẩy, which có thể thay cho cả sự việc ở vế trước, không chỉ một danh từ. Rất hay dùng để nói hệ quả hoặc cảm xúc: …, which means… (như vậy là), …, which is why… (vì thế mà), …, which was annoying / great (việc đó thật…). Không dùng what hay this ở đây.",
+                "forms": [
+                    { "label": "hệ quả", "example": "The bus didn't come, which means I'll be late." },
+                    { "label": "lý do cho việc sau", "example": "I grew up by the sea, which is why I love seafood." },
+                    { "label": "nhận xét", "example": "He forgot my birthday, which was really annoying." },
+                    { "label": "so với which thay danh từ", "example": "I lost my phone, which was new. (điện thoại mới) / I lost my phone, which was a disaster. (việc mất)" }
+                ],
+                "pitfallsVi": [
+                    "\"The flight was delayed, what means…\" → …, which means…",
+                    "\"It rained all day. Which was boring.\" khi viết → It rained all day, which was boring.",
+                    "\"…, which means we will be miss\" → …, which means we will miss…"
+                ]
+            }
+        },
+        {
+            "slug": "which-means",
+            "type": "PATTERN",
+            "text": "…, which means ….",
+            "meaningVi": "…, như vậy là ….",
+            "examples": [
+                { "en": "The meeting was moved to Friday, which means I can go home early today.", "vi": "Cuộc họp dời sang thứ Sáu, vậy là hôm nay mình về sớm được.", "highlight": ", which means" }
+            ],
+            "pattern": {
+                "template": "{fact}, which means {result}.",
+                "slots": [
+                    { "name": "fact", "hintVi": "sự việc", "options": ["Our flight was delayed", "The meeting was moved to Friday", "The shop is closed on Monday", "My phone battery died", "The price went up"] },
+                    { "name": "result", "hintVi": "hệ quả", "options": ["we'll miss the connection", "I can go home early today", "we have to come back tomorrow", "I couldn't call you", "fewer people will buy it"] }
+                ]
+            },
+            "noteVi": "Nói hệ quả tự nhiên hơn so tách hai câu với so. which means + mệnh đề đầy đủ."
+        },
+        {
+            "slug": "which-is-why",
+            "type": "PATTERN",
+            "text": "…, which is why ….",
+            "meaningVi": "…, vì thế mà ….",
+            "examples": [
+                { "en": "I grew up by the sea, which is why I love seafood.", "vi": "Mình lớn lên ở gần biển, vì thế mà mình mê hải sản.", "highlight": ", which is why" }
+            ],
+            "pattern": {
+                "template": "{fact}, which is why {result}.",
+                "slots": [
+                    { "name": "fact", "hintVi": "lý do", "options": ["I grew up by the sea", "The traffic was terrible", "She lived in Korea for five years", "The hotel was overbooked", "I missed the last bus"] },
+                    { "name": "result", "hintVi": "kết quả", "options": ["I love seafood", "I was late", "she speaks Korean so well", "they moved us to another hotel", "I took a taxi home"] }
+                ]
+            },
+            "noteVi": "Giống because nhưng đảo thứ tự: lý do trước, kết quả sau. ❌ \"which is the reason why\" (dài, không sai nhưng nặng)."
+        },
+        {
+            "slug": "to-make-matters-worse",
+            "type": "PHRASE",
+            "text": "To make matters worse, …",
+            "meaningVi": "Tệ hơn nữa là …",
+            "examples": [
+                { "en": "Our flight was canceled. To make matters worse, it started to rain.", "vi": "Chuyến bay bị hủy. Tệ hơn nữa là trời bắt đầu mưa.", "highlight": "To make matters worse" }
+            ],
+            "noteVi": "Dùng khi kể chuyện xui chồng chất. Ngược lại, chuyện tốt: Luckily, … / On the bright side, …"
+        },
+        {
+            "slug": "in-the-meantime",
+            "type": "PHRASE",
+            "text": "in the meantime",
+            "meaningVi": "trong lúc chờ đợi, trong khi đó",
+            "examples": [
+                { "en": "The next flight is at six. In the meantime, you can wait in the lounge.", "vi": "Chuyến tiếp theo lúc sáu giờ. Trong lúc chờ, anh có thể ngồi ở phòng chờ.", "highlight": "In the meantime" }
+            ],
+            "noteVi": "Nói về khoảng thời gian giữa bây giờ và một việc sắp tới. Cũng nói meanwhile (trang trọng hơn, hay dùng khi kể)."
+        },
+        {
+            "slug": "annoying",
+            "type": "LEXICAL",
+            "text": "annoying",
+            "meaningVi": "gây khó chịu, phiền",
+            "ipa": "/əˈnɔɪɪŋ/",
+            "examples": [
+                { "en": "They didn't tell us anything, which was really annoying.", "vi": "Họ chẳng báo gì cho bọn mình, thật là bực.", "highlight": "annoying" }
+            ],
+            "noteVi": "Giống cặp -ed / -ing (B1 10): việc thì annoying, người thấy bực thì annoyed. ❌ \"I'm very annoying\" (mình rất phiền)."
+        },
+        {
+            "slug": "connection",
+            "type": "LEXICAL",
+            "text": "connection",
+            "meaningVi": "chuyến nối; kết nối",
+            "ipa": "/kəˈnekʃən/",
+            "examples": [
+                { "en": "We only have forty minutes to make our connection in Bangkok.", "vi": "Bọn mình chỉ có bốn mươi phút để kịp chuyến nối ở Bangkok.", "highlight": "connection" }
+            ],
+            "noteVi": "make / miss a connection (kịp / lỡ chuyến nối). Còn nghĩa kết nối mạng: The Wi-Fi connection is slow."
+        },
+        {
+            "slug": "compensation",
+            "type": "LEXICAL",
+            "text": "compensation",
+            "meaningVi": "tiền bồi thường",
+            "ipa": "/ˌkɑːmpenˈseɪʃən/",
+            "examples": [
+                { "en": "The airline offered us compensation for the delay.", "vi": "Hãng bay đề nghị bồi thường cho bọn mình vì chuyến bay trễ.", "highlight": "compensation" }
+            ],
+            "noteVi": "Không đếm được: ❌ \"a compensation\". Hỏi: Are we entitled to compensation? Khác refund (B1 07, hoàn lại đúng số tiền đã trả)."
+        },
+        {
+            "slug": "whose-where-when",
+            "type": "GRAMMAR",
+            "text": "whose + danh từ; where + mệnh đề; when + mệnh đề",
+            "meaningVi": "mệnh đề quan hệ chỉ sở hữu, nơi chốn, thời gian",
+            "examples": [
+                { "en": "This is the café where I met my wife.", "vi": "Đây là quán cà phê nơi mình gặp vợ.", "highlight": "where I met my wife" }
+            ],
+            "grammar": {
+                "ruleVi": "whose = của người / vật đó, luôn đi với danh từ ngay sau (whose father, whose name). where = ở nơi đó, sau là một mệnh đề đầy đủ (where I grew up). when = vào lúc đó (the day when…). Cả ba dùng được có hoặc không có dấu phẩy, theo đúng quy tắc thông tin xác định / phụ.",
+                "forms": [
+                    { "label": "whose", "example": "I have a friend whose father is a famous chef." },
+                    { "label": "where", "example": "This is the street where I grew up." },
+                    { "label": "when", "example": "I'll never forget the day when I got my first job." },
+                    { "label": "có dấu phẩy", "example": "Hoi An, where my parents live, is very quiet at night." }
+                ],
+                "pitfallsVi": [
+                    "\"a friend who his father is a chef\" → a friend whose father is a chef.",
+                    "\"the town where I grew up there\" → the town where I grew up. (không lặp there)",
+                    "\"the place which I was born\" → the place where I was born / the place (which) I was born in."
+                ]
+            }
+        },
+        {
+            "slug": "the-place-where",
+            "type": "PATTERN",
+            "text": "This is the place where ….",
+            "meaningVi": "Đây là nơi ….",
+            "examples": [
+                { "en": "This is the place where I had my first date.", "vi": "Đây là nơi mình hẹn hò lần đầu.", "highlight": "the place where" }
+            ],
+            "pattern": {
+                "template": "This is the place where {event}.",
+                "slots": [
+                    { "name": "event", "hintVi": "việc đã xảy ra ở đây (mệnh đề)", "options": ["I had my first date", "I grew up", "we met for the first time", "my grandfather used to work", "they filmed that famous movie"] }
+                ]
+            },
+            "noteVi": "Thay the place bằng the street, the café, the school…. Sau where là mệnh đề đầy đủ, không lặp there. Khác It's a place where… (A1 10, định nghĩa)."
+        },
+        {
+            "slug": "a-friend-whose",
+            "type": "PATTERN",
+            "text": "I have a friend whose … ….",
+            "meaningVi": "Mình có người bạn mà … của bạn ấy ….",
+            "examples": [
+                { "en": "I have a friend whose father is a famous chef.", "vi": "Mình có người bạn có bố là đầu bếp nổi tiếng.", "highlight": "whose father is a famous chef" }
+            ],
+            "pattern": {
+                "template": "I have a friend whose {relative} {info}.",
+                "slots": [
+                    { "name": "relative", "hintVi": "người thân", "options": ["father", "sister", "mother", "wife", "brother"] },
+                    { "name": "info", "hintVi": "động từ + thông tin", "options": ["is a famous chef", "works for Google", "owns a hotel in Sapa", "speaks five languages", "lives next to Ho Guom"] }
+                ]
+            },
+            "noteVi": "whose + danh từ, thay cho his / her: ❌ \"a friend who his father\". whose (B1 11) cũng là từ để hỏi: Whose bag is this?"
+        },
+        {
+            "slug": "ill-never-forget-the-day",
+            "type": "PATTERN",
+            "text": "I'll never forget the day when ….",
+            "meaningVi": "Mình sẽ không bao giờ quên cái ngày ….",
+            "examples": [
+                { "en": "I'll never forget the day when I got my first job.", "vi": "Mình sẽ không bao giờ quên ngày mình có công việc đầu tiên.", "highlight": "the day when" }
+            ],
+            "pattern": {
+                "template": "I'll never forget the day when {event}.",
+                "slots": [
+                    { "name": "event", "hintVi": "sự kiện (quá khứ đơn)", "options": ["I got my first job", "my son was born", "we moved to Hanoi", "I passed my driving test", "it snowed in Sapa"] }
+                ]
+            },
+            "noteVi": "Nói thường có thể bỏ when: the day I got my first job. Tương tự: the year when…, the moment when…."
+        },
+        {
+            "slug": "neighborhood",
+            "type": "LEXICAL",
+            "text": "neighborhood",
+            "meaningVi": "khu phố, khu dân cư",
+            "ipa": "/ˈneɪbərhʊd/",
+            "examples": [
+                { "en": "I live in a quiet neighborhood where everyone knows each other.", "vi": "Mình sống ở một khu phố yên tĩnh, nơi mọi người đều biết nhau.", "highlight": "neighborhood" }
+            ],
+            "noteVi": "Kiểu Mỹ; kiểu Anh viết neighbourhood. Người hàng xóm: neighbor (A2 11). in the neighborhood = quanh đây."
+        },
+        {
+            "slug": "historic",
+            "type": "LEXICAL",
+            "text": "historic",
+            "meaningVi": "có giá trị lịch sử, cổ",
+            "ipa": "/hɪˈstɔːrɪk/",
+            "examples": [
+                { "en": "Hoi An is a historic town with lots of old houses.", "vi": "Hội An là một đô thị cổ với nhiều nhà cổ.", "highlight": "historic" }
+            ],
+            "noteVi": "historic = quan trọng, nổi tiếng trong lịch sử (a historic building). historical = thuộc về lịch sử (a historical movie). ❌ \"a history town\"."
+        },
+        {
+            "slug": "atmosphere",
+            "type": "LEXICAL",
+            "text": "atmosphere",
+            "meaningVi": "bầu không khí",
+            "ipa": "/ˈætməsfɪr/",
+            "examples": [
+                { "en": "I love the atmosphere of the Old Quarter at night.", "vi": "Mình mê không khí phố cổ về đêm.", "highlight": "atmosphere" }
+            ],
+            "noteVi": "Không khí của một nơi, một buổi tiệc: a relaxed / lively atmosphere. Không khí để thở là air."
+        },
+        {
+            "slug": "recommend",
+            "type": "LEXICAL",
+            "text": "recommend",
+            "meaningVi": "giới thiệu, khuyên (nên thử)",
+            "ipa": "/ˌrekəˈmend/",
+            "examples": [
+                { "en": "Can you recommend a good place to eat near here?", "vi": "Bạn gợi ý giúp một chỗ ăn ngon quanh đây được không?", "highlight": "recommend" }
+            ],
+            "noteVi": "recommend + V-ing / that…, giống suggest: I recommend trying the bun cha. ❌ \"recommend you to try\". Một c, hai m."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "b2-06-missed-connection",
+            "title": "Which means we'll miss it",
+            "situationVi": "Bạn và chị Anna, đồng nghiệp người Đức, đang ở sân bay Nội Bài để bay đi Sydney qua Bangkok. Chuyến bay đầu bị trễ. Bạn nói với nhân viên hãng bay.",
+            "lines": [
+                { "speaker": "Anna", "en": "Look, our flight is delayed by two hours!", "vi": "Nhìn kìa, chuyến bay của mình trễ hai tiếng!" },
+                { "speaker": "You", "en": "Oh no. Our flight is delayed, which means we'll miss the connection in Bangkok.", "vi": "Ôi không. Chuyến bay trễ, vậy là mình sẽ lỡ chuyến nối ở Bangkok.", "learnerTurn": true },
+                { "speaker": "Staff", "en": "Good morning. I'm very sorry about the delay. How can I help?", "vi": "Chào anh chị. Rất xin lỗi vì chuyến bay trễ. Tôi giúp gì được ạ?" },
+                { "speaker": "You", "en": "We have a connection in Bangkok, which leaves forty minutes after we land. Could you put us on a later flight?", "vi": "Chúng tôi có chuyến nối ở Bangkok, cất cánh bốn mươi phút sau khi hạ cánh. Chị chuyển chúng tôi sang chuyến muộn hơn được không?", "learnerTurn": true },
+                { "speaker": "Staff", "en": "Let me check. There's a flight at eleven tonight. In the meantime, here are vouchers for lunch.", "vi": "Để tôi kiểm tra. Có một chuyến lúc mười một giờ đêm. Trong lúc chờ, đây là phiếu ăn trưa." },
+                { "speaker": "You", "en": "Eleven? That's twelve hours later, which is really annoying. Are we entitled to any compensation?", "vi": "Mười một giờ? Muộn hơn mười hai tiếng, bực thật đấy. Chúng tôi có được bồi thường gì không?", "learnerTurn": true },
+                { "speaker": "Staff", "en": "Yes. You can fill in this form, and we'll contact you within two weeks.", "vi": "Có ạ. Anh chị điền mẫu này, trong hai tuần chúng tôi sẽ liên hệ." },
+                { "speaker": "Anna", "en": "Well, at least we get lunch.", "vi": "Thôi, ít ra cũng có bữa trưa." },
+                { "speaker": "You", "en": "True. And to make matters worse, I left my charger at home, which is why my phone is almost dead!", "vi": "Ừ. Mà tệ hơn nữa là mình để quên sạc ở nhà, vì thế mà điện thoại sắp hết pin!", "learnerTurn": true }
+            ]
+        },
+        {
+            "slug": "b2-06-my-neighborhood",
+            "title": "This is the place where…",
+            "situationVi": "Bạn dẫn Mark, một người bạn Mỹ mới sang Hà Nội, đi dạo khu phố nơi bạn lớn lên.",
+            "lines": [
+                { "speaker": "Mark", "en": "So this is your neighborhood? It's really lively.", "vi": "Vậy đây là khu phố của bạn à? Nhộn nhịp thật." },
+                { "speaker": "You", "en": "Yes, this is the street where I grew up. My grandmother, who is ninety now, still lives in that yellow house.", "vi": "Ừ, đây là con phố nơi mình lớn lên. Bà mình, năm nay chín mươi tuổi, vẫn sống trong căn nhà vàng kia.", "learnerTurn": true },
+                { "speaker": "Mark", "en": "Wow. And what's that old building?", "vi": "Ồ. Còn tòa nhà cũ kia là gì?" },
+                { "speaker": "You", "en": "It's a historic temple, which was built in the eighteenth century. The atmosphere there is really peaceful.", "vi": "Đó là một ngôi đền cổ, xây từ thế kỷ mười tám. Không khí ở đó rất yên bình.", "learnerTurn": true },
+                { "speaker": "Mark", "en": "Nice. Is there a good place to eat around here?", "vi": "Hay đấy. Quanh đây có chỗ nào ăn ngon không?" },
+                { "speaker": "You", "en": "I'd recommend the pho place on the corner. It's run by a woman whose family has cooked pho for three generations.", "vi": "Mình gợi ý quán phở ở góc phố. Chủ quán là một cô mà gia đình nấu phở ba đời rồi.", "learnerTurn": true },
+                { "speaker": "Mark", "en": "Three generations? Then it must be good.", "vi": "Ba đời á? Vậy chắc là ngon lắm." },
+                { "speaker": "You", "en": "It is. It's a bit crowded, but it's worth it. I'll never forget the day when my dad first took me there.", "vi": "Ngon thật. Hơi đông, nhưng đáng lắm. Mình không bao giờ quên cái ngày bố dẫn mình đến đó lần đầu.", "learnerTurn": true },
+                { "speaker": "Mark", "en": "OK, let's go! I'm starving.", "vi": "Được, đi thôi! Mình đói lắm rồi." }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "b2-06-l1-who-lives",
+            "title": "My sister, who…",
+            "titleVi": "Thêm thông tin phụ",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "non-defining-relative", "role": "INTRODUCE" },
+                { "item": "my-who", "role": "INTRODUCE" },
+                { "item": "i-bought-which", "role": "INTRODUCE" },
+                { "item": "feature", "role": "INTRODUCE" },
+                { "item": "brand", "role": "INTRODUCE" },
+                { "item": "quality", "role": "INTRODUCE" },
+                { "item": "reliable", "role": "INTRODUCE" },
+                { "item": "worth-it", "role": "INTRODUCE" },
+                { "item": "relative-clauses", "role": "RECYCLE" },
+                { "item": "the-person-who", "role": "RECYCLE" },
+                { "item": "expensive", "role": "RECYCLE" },
+                { "item": "popular", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["my-who", "i-bought-which", "feature", "brand", "quality", "reliable", "worth-it"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Có dấu phẩy hay không?",
+                        "bodyVi": "A2 đã học **the person who** …: thông tin cần để biết là ai. B2 thêm loại thứ hai: thông tin **phụ**, có dấu phẩy.\n\n| loại | ví dụ | bỏ mệnh đề đi? |\n|---|---|---|\n| xác định (không phẩy) | The woman **who lives next door** is a nurse. | không biết là ai |\n| không xác định (có phẩy) | My mother**, who is a nurse,** works at night. | vẫn rõ: mẹ chỉ có một |\n\nQuy tắc của loại có dấu phẩy:\n\n| | đúng | sai |\n|---|---|---|\n| người | …, **who** … | …, that … |\n| vật | …, **which** … | …, that … |\n| không lặp đại từ | my laptop**, which** I bought… | my laptop, which I bought **it**… |\n\nKhi nói về đồ mua: hỏi **brand**, khen **quality**, **features**, đồ **reliable**; đắt mà đáng: **It's worth it.**\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| My mother, that is a teacher, … | My mother**, who** is a teacher, … |\n| I bought a laptop, which it is very light. | I bought a laptop**, which** is very light. |\n| It's worth to buy. | It's **worth buying**. / It's **worth it**. |\n\n❌ My mother, that is a teacher ✅ **My mother, who is a teacher, …**",
+                        "items": ["non-defining-relative", "my-who", "i-bought-which", "feature", "brand", "quality", "reliable", "worth-it", "relative-clauses", "the-person-who"],
+                        "examples": [
+                            { "en": "My brother, who lives in Japan, is coming home for Tet.", "vi": "Anh trai mình, người đang sống ở Nhật, sắp về ăn Tết.", "highlight": ", who lives in Japan," },
+                            { "en": "I bought a new laptop, which is much lighter than my old one.", "vi": "Mình mua laptop mới, máy này nhẹ hơn máy cũ nhiều.", "highlight": ", which is much lighter" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "my-who",
+                        "prompts": [
+                            { "cueVi": "Dì mình, người sống ở Đà Nẵng, sắp đến chơi.", "slots": { "person": "aunt", "info": "lives in Da Nang" }, "answer": "My aunt, who lives in Da Nang, is coming to visit." },
+                            { "cueVi": "Anh trai mình, người làm ở Nhật, sắp đến chơi.", "slots": { "person": "brother", "info": "works in Japan" }, "answer": "My brother, who works in Japan, is coming to visit." },
+                            { "cueVi": "Bạn thân mình, người mình nhiều năm không gặp, sắp đến chơi.", "slots": { "person": "best friend", "info": "I haven't seen for years" }, "answer": "My best friend, who I haven't seen for years, is coming to visit." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "i-bought-which",
+                        "prompts": [
+                            { "cueVi": "Mình mua laptop mới, máy này nhẹ hơn máy cũ nhiều.", "slots": { "thing": "a new laptop", "info": "is much lighter than my old one" }, "answer": "I bought a new laptop, which is much lighter than my old one." },
+                            { "cueVi": "Mình mua một đôi giày chạy bộ, đôi này đang giảm giá.", "slots": { "thing": "a pair of running shoes", "info": "was on sale" }, "answer": "I bought a pair of running shoes, which was on sale." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["feature", "brand", "quality", "reliable", "worth-it", "expensive"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "My brother, who lives in Japan, is coming home for Tet.", "vi": "Anh trai mình, người đang sống ở Nhật, sắp về ăn Tết." },
+                            { "en": "I bought a new laptop, which is much lighter than my old one.", "vi": "Mình mua laptop mới, máy này nhẹ hơn máy cũ nhiều." },
+                            { "en": "It's a bit expensive, but the quality is very good.", "vi": "Hơi đắt, nhưng chất lượng rất tốt." },
+                            { "en": "It was expensive, but it's worth it.", "vi": "Đắt thật, nhưng đáng tiền." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["My mother, that is a teacher, loves reading.", "My mother, who is a teacher, loves reading.", "My mother who she is a teacher loves reading."],
+                                "answer": 1,
+                                "item": "non-defining-relative"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I bought a rice cooker, which it was on sale.", "I bought a rice cooker, what was on sale.", "I bought a rice cooker, which was on sale."],
+                                "answer": 2,
+                                "item": "i-bought-which"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "It was expensive, but it's ___ it.",
+                                "hintVi": "đáng",
+                                "answers": ["worth"],
+                                "item": "worth-it"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "My old Honda, which I bought ten years ago, is still very reliable.",
+                                "options": ["Chiếc Honda cũ mình mua mười năm trước vẫn chạy rất bền.", "Chiếc Honda cũ mình bán mười năm trước rồi.", "Chiếc Honda mười năm tuổi hay bị hỏng."],
+                                "answer": 0,
+                                "item": "reliable"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Nồi cơm nhà bạn hãng gì?",
+                                "answer": "Which brand is your rice cooker?",
+                                "item": "brand"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b2-06-l2-which-means",
+            "title": "…, which means…",
+            "titleVi": "Chuyện rắc rối và hệ quả",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "which-whole-clause", "role": "INTRODUCE" },
+                { "item": "which-means", "role": "INTRODUCE" },
+                { "item": "which-is-why", "role": "INTRODUCE" },
+                { "item": "to-make-matters-worse", "role": "INTRODUCE" },
+                { "item": "in-the-meantime", "role": "INTRODUCE" },
+                { "item": "annoying", "role": "INTRODUCE" },
+                { "item": "connection", "role": "INTRODUCE" },
+                { "item": "compensation", "role": "INTRODUCE" },
+                { "item": "non-defining-relative", "role": "RECYCLE" },
+                { "item": "delay", "role": "RECYCLE" },
+                { "item": "flight", "role": "RECYCLE" },
+                { "item": "luckily", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["which-means", "which-is-why", "to-make-matters-worse", "in-the-meantime", "annoying", "connection", "compensation"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "which thay cho cả một việc",
+                        "bodyVi": "Bài trước, which thay cho một món đồ. Sau dấu phẩy, which còn thay được cho **cả sự việc** vừa kể:\n\n| câu | which là gì? |\n|---|---|\n| I lost my phone**, which** was new. | cái điện thoại (mới) |\n| I lost my phone**, which** was a disaster. | việc mất điện thoại |\n\nBa cách nối hay gặp nhất:\n\n| nối | nghĩa | ví dụ |\n|---|---|---|\n| **…, which means** … | như vậy là | The **flight** was delayed**, which means** we'll miss our **connection**. |\n| **…, which is why** … | vì thế mà | I grew up by the sea**, which is why** I love seafood. |\n| **…, which was** + tính từ | việc đó thật… | They didn't tell us**, which was** really **annoying**. |\n\nKể chuyện xui chồng chất: **To make matters worse**, … Chuyện may: **Luckily**, … Trong lúc chờ: **In the meantime**, …\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| The bus was late, what means I was late. | The bus was late**, which means** I was late. |\n| It rained. This is why I stayed home. | It rained**, which is why** I stayed home. |\n| a compensation | **compensation** (không đếm được) |\n\n❌ …, what means ✅ **…, which means we'll miss the connection.**",
+                        "items": ["which-whole-clause", "which-means", "which-is-why", "to-make-matters-worse", "in-the-meantime", "annoying", "connection", "compensation", "flight", "luckily"],
+                        "examples": [
+                            { "en": "Our flight was delayed, which means we'll miss the connection.", "vi": "Chuyến bay bị hoãn, như vậy là mình sẽ lỡ chuyến nối.", "highlight": ", which means" },
+                            { "en": "I grew up by the sea, which is why I love seafood.", "vi": "Mình lớn lên ở gần biển, vì thế mà mình mê hải sản.", "highlight": ", which is why" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "which-means",
+                        "prompts": [
+                            { "cueVi": "Chuyến bay bị trễ, vậy là mình sẽ lỡ chuyến nối.", "slots": { "fact": "Our flight was delayed", "result": "we'll miss the connection" }, "answer": "Our flight was delayed, which means we'll miss the connection." },
+                            { "cueVi": "Cửa hàng đóng cửa thứ Hai, vậy là mai mình phải quay lại.", "slots": { "fact": "The shop is closed on Monday", "result": "we have to come back tomorrow" }, "answer": "The shop is closed on Monday, which means we have to come back tomorrow." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "which-is-why",
+                        "prompts": [
+                            { "cueVi": "Đường tắc kinh khủng, vì thế mà mình đến muộn.", "slots": { "fact": "The traffic was terrible", "result": "I was late" }, "answer": "The traffic was terrible, which is why I was late." },
+                            { "cueVi": "Mình lỡ chuyến xe buýt cuối, vì thế mà mình bắt taxi về.", "slots": { "fact": "I missed the last bus", "result": "I took a taxi home" }, "answer": "I missed the last bus, which is why I took a taxi home." },
+                            { "cueVi": "Khách sạn nhận phòng quá số lượng, vì thế mà họ chuyển bọn mình sang khách sạn khác.", "slots": { "fact": "The hotel was overbooked", "result": "they moved us to another hotel" }, "answer": "The hotel was overbooked, which is why they moved us to another hotel." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["to-make-matters-worse", "in-the-meantime", "annoying", "connection", "compensation", "delay"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b2-06-missed-connection", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["The bus didn't come, what means I'll be late.", "The bus didn't come, which means I'll be late.", "The bus didn't come, which it means I'll be late."],
+                                "answer": 1,
+                                "item": "which-whole-clause"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nối hai ý: \"Mình lớn lên ở gần biển\" và \"mình mê hải sản\".",
+                                "options": ["I grew up by the sea, which is why I love seafood.", "I love seafood, which is why I grew up by the sea.", "I grew up by the sea, why I love seafood."],
+                                "answer": 0,
+                                "item": "which-is-why"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "The airline offered us ___ for the delay.",
+                                "hintVi": "tiền bồi thường",
+                                "answers": ["compensation"],
+                                "item": "compensation"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "The next flight is at six. In the meantime, you can wait in the lounge.",
+                                "options": ["Chuyến tiếp theo lúc sáu giờ. Trong lúc chờ, anh có thể ngồi ở phòng chờ.", "Chuyến tiếp theo lúc sáu giờ. Anh phải đến phòng chờ ngay.", "Chuyến lúc sáu giờ đã bị hủy."],
+                                "answer": 0,
+                                "item": "in-the-meantime"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Chuyến bay bị hủy. Tệ hơn nữa là trời bắt đầu mưa.",
+                                "answer": "Our flight was canceled. To make matters worse, it started to rain.",
+                                "item": "to-make-matters-worse"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b2-06-l3-where-i-grew-up",
+            "title": "The street where I grew up",
+            "titleVi": "Giới thiệu nơi chốn và con người",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "whose-where-when", "role": "INTRODUCE" },
+                { "item": "the-place-where", "role": "INTRODUCE" },
+                { "item": "a-friend-whose", "role": "INTRODUCE" },
+                { "item": "ill-never-forget-the-day", "role": "INTRODUCE" },
+                { "item": "neighborhood", "role": "INTRODUCE" },
+                { "item": "historic", "role": "INTRODUCE" },
+                { "item": "atmosphere", "role": "INTRODUCE" },
+                { "item": "recommend", "role": "INTRODUCE" },
+                { "item": "whose", "role": "RECYCLE" },
+                { "item": "tourist-attraction", "role": "RECYCLE" },
+                { "item": "local", "role": "RECYCLE" },
+                { "item": "worth-it", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["the-place-where", "a-friend-whose", "ill-never-forget-the-day", "neighborhood", "historic", "atmosphere", "recommend"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "whose, where, when",
+                        "bodyVi": "Ba từ nối nữa để mô tả chi tiết:\n\n| từ | thay cho | sau nó là | ví dụ |\n|---|---|---|---|\n| **whose** | của người / vật đó (his, her, its) | danh từ | a friend **whose father** is a chef |\n| **where** | ở nơi đó (there) | mệnh đề | **the place where** I grew up |\n| **when** | vào lúc đó (then) | mệnh đề | **the day when** I got my first job |\n\nThông tin phụ thì vẫn có dấu phẩy: Hoi An**, where** my parents live**,** is a **historic** town.\n\nGiới thiệu một khu phố: **neighborhood** yên tĩnh hay nhộn nhịp, **atmosphere** thế nào, **local** food, một **tourist attraction** gần đó, và **recommend** một chỗ ăn.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| I have a friend who his father is a chef. | I have a friend **whose** father is a chef. |\n| This is the town where I grew up there. | This is the town **where I grew up**. |\n| Hoi An is a history town. | Hoi An is a **historic** town. |\n\n❌ a friend who his father ✅ **a friend whose father is a chef**",
+                        "items": ["whose-where-when", "the-place-where", "a-friend-whose", "ill-never-forget-the-day", "neighborhood", "historic", "atmosphere", "recommend", "whose", "local", "tourist-attraction"],
+                        "examples": [
+                            { "en": "This is the café where I met my wife.", "vi": "Đây là quán cà phê nơi mình gặp vợ.", "highlight": "where I met my wife" },
+                            { "en": "I have a friend whose father is a famous chef.", "vi": "Mình có người bạn có bố là đầu bếp nổi tiếng.", "highlight": "whose father" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "a-friend-whose",
+                        "prompts": [
+                            { "cueVi": "Mình có người bạn có bố là đầu bếp nổi tiếng.", "slots": { "relative": "father", "info": "is a famous chef" }, "answer": "I have a friend whose father is a famous chef." },
+                            { "cueVi": "Mình có người bạn có chị gái làm cho Google.", "slots": { "relative": "sister", "info": "works for Google" }, "answer": "I have a friend whose sister works for Google." },
+                            { "cueVi": "Mình có người bạn có mẹ làm chủ một khách sạn ở Sa Pa.", "slots": { "relative": "mother", "info": "owns a hotel in Sapa" }, "answer": "I have a friend whose mother owns a hotel in Sapa." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "the-place-where",
+                        "prompts": [
+                            { "cueVi": "Đây là nơi mình lớn lên.", "slots": { "event": "I grew up" }, "answer": "This is the place where I grew up." },
+                            { "cueVi": "Đây là nơi bọn mình gặp nhau lần đầu.", "slots": { "event": "we met for the first time" }, "answer": "This is the place where we met for the first time." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["neighborhood", "historic", "atmosphere", "recommend", "tourist-attraction", "local", "worth-it"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b2-06-my-neighborhood", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I have a friend who his mother is a doctor.", "I have a friend whose mother is a doctor.", "I have a friend which mother is a doctor."],
+                                "answer": 1,
+                                "item": "a-friend-whose"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["This is the street where I grew up.", "This is the street where I grew up there.", "This is the street which I grew up."],
+                                "answer": 0,
+                                "item": "whose-where-when"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I'll never forget the day ___ my son was born.",
+                                "answers": ["when"],
+                                "item": "ill-never-forget-the-day"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "I love the atmosphere of the Old Quarter at night.",
+                                "options": ["Mình mê không khí phố cổ về đêm.", "Mình thấy không khí phố cổ về đêm ô nhiễm.", "Mình thích đi bộ ở phố cổ buổi sáng."],
+                                "answer": 0,
+                                "item": "atmosphere"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Bạn gợi ý giúp một chỗ ăn ngon quanh đây được không?",
+                                "answer": "Can you recommend a good place to eat near here?",
+                                "item": "recommend"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "b2-06-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["My boss, that is very kind, gave me a day off.", "My boss, who is very kind, gave me a day off.", "My boss who he is very kind gave me a day off."],
+                "answer": 1,
+                "item": "non-defining-relative"
+            },
+            {
+                "kind": "gap",
+                "sentence": "Our flight was delayed, ___ means we'll miss the connection.",
+                "answers": ["which"],
+                "item": "which-means"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["I have a friend whose brother speaks five languages.", "I have a friend who's brother speak five languages.", "I have a friend that his brother speaks five languages."],
+                "answer": 0,
+                "item": "whose-where-when"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Chiếc máy đắt nhưng dùng rất tốt. Bạn nói:",
+                "options": ["It's worth to buy.", "It was expensive, but it's worth it.", "It's worthy it."],
+                "answer": 1,
+                "item": "worth-it"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "The traffic was terrible, which is why I was late.",
+                "options": ["Đường tắc kinh khủng, vì thế mà mình đến muộn.", "Mình đến muộn nên bị tắc đường.", "Đường tắc nhưng mình vẫn đến đúng giờ."],
+                "answer": 0,
+                "item": "which-is-why"
+            },
+            {
+                "kind": "order",
+                "vi": "Hội An là một đô thị cổ với nhiều nhà cổ.",
+                "answer": "Hoi An is a historic town with lots of old houses.",
+                "item": "historic"
+            }
+        ]
+    }
+}

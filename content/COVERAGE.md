@@ -12,7 +12,7 @@ Trạng thái: `draft` đã soạn, qua validator · `reviewed` đã có ngườ
 | A1 | 10 | 10 | 31 | 260 | 166 | 49 | 33 | 12 |
 | A2 | 12 | 12 | 36 | 301 | 155 | 70 | 49 | 27 |
 | B1 | 12 | 12 | 36 | 287 | 122 | 68 | 65 | 32 |
-| B2 | 12 | 4 | 12 | 96 | 43 | 22 | 19 | 12 |
+| B2 | 12 | 8 | 24 | 192 | 78 | 49 | 41 | 24 |
 
 ## Placement (`placement.json`)
 
@@ -24,7 +24,7 @@ Một bài xếp lớp cho cả lộ trình, 2 câu mỗi unit, theo thứ tự 
 | A1 | 10/10 | 20 |
 | A2 | 12/12 | 24 |
 | B1 | 12/12 | 24 |
-| B2 | 4/12 | 8 |
+| B2 | 8/12 | 16 |
 
 ## Pre-A1: Foundations
 
@@ -472,10 +472,10 @@ Mốc của stage: "Tôi thảo luận được chủ đề trừu tượng" (un
 | 2 | `b2-02-if-only` | điều kiện loại 3 (If I'd known…, otherwise, thanks to), should have / shouldn't have / could have, nhận lỗi và an ủi, I wish I'd… / If only…, tiếc nuối (looking back, make the most of) | 3 | 24 (8/7/6/3) | 2 | draft |
 | 3 | `b2-03-debate` | nêu và bảo vệ luận điểm (I'm convinced that, There's no doubt that, What's more, evidence), phản bác và nhượng bộ (I see your point, but…, despite, whereas, even so, admittedly), khái quát hóa chủ đề trừu tượng (tend to, on the whole, pros and cons); mốc của stage | 3 | 24 (11/6/4/3) | 2 | draft |
 | 4 | `b2-04-the-news` | bị động tường thuật (It's reported that, is expected to, according to), have / get something done (sửa, cắt tóc, rip-off), mô tả số liệu tăng giảm (rise by, increase in, slightly, compared to) | 3 | 24 (13/3/5/3) | 2 | draft |
-| 5 | `b2-05-at-work` | công sở trang trọng: email (I'm writing to…, Please find attached, I look forward to…), họp, đề xuất (I'd suggest…, Would it be possible to…?), từ chối khéo | | | | dự kiến |
-| 6 | `b2-06-which-means` | mệnh đề quan hệ không xác định (, who / , which), which nối cả câu, whose / where / when, mô tả người, nơi, sản phẩm chi tiết | | | | dự kiến |
-| 7 | `b2-07-by-then` | tương lai tiếp diễn (I'll be working), tương lai hoàn thành (I'll have finished by…), kế hoạch dài hạn, dự đoán xu hướng | | | | dự kiến |
-| 8 | `b2-08-phrasal-verbs` | cụm động từ thông dụng theo chủ đề (figure out, put off, come up with, run out of, get over), tách / không tách được | | | | dự kiến |
+| 5 | `b2-05-at-work` | công sở trang trọng: email (I'm writing to…, Please find attached, I look forward to…), họp, đề xuất (I'd suggest…, Would it be possible to…?), từ chối khéo | 3 | 24 (11/4/6/3) | 2 | draft |
+| 6 | `b2-06-which-means` | mệnh đề quan hệ không xác định (, who / , which), which nối cả câu, whose / where / when, mô tả người, nơi, sản phẩm chi tiết | 3 | 24 (11/3/7/3) | 2 | draft |
+| 7 | `b2-07-by-then` | tương lai tiếp diễn (I'll be working), tương lai hoàn thành (I'll have finished by…), kế hoạch dài hạn, dự đoán xu hướng | 3 | 24 (11/5/5/3) | 2 | draft |
+| 8 | `b2-08-phrasal-verbs` | cụm động từ thông dụng theo chủ đề (figure out, put off, come up with, run out of, get over), tách / không tách được | 3 | 24 (2/15/4/3) | 2 | draft |
 | 9 | `b2-09-supposed-to` | be supposed to, be allowed to, needn't / didn't need to / needn't have, luật lệ và quy định, phàn nàn về quy định | | | | dự kiến |
 | 10 | `b2-10-linking` | nối ý mạch lạc (however, therefore, as a result, in addition, on top of that), nguyên nhân – kết quả (due to, lead to), trình bày quy trình, kể lại ngắn một bài báo | | | | dự kiến |
 | 11 | `b2-11-what-if` | giả định: suppose / what if, I'd rather + quá khứ, it's time + quá khứ, câu điều kiện hỗn hợp | | | | dự kiến |
@@ -504,6 +504,28 @@ Mốc của stage: "Tôi thảo luận được chủ đề trừu tượng" (un
 | `i-had-my` | I had my {thing} {done}. | 04 |
 | `where-can-i-get` | Where can I get my {thing} {done}? | 04 |
 | `has-risen-by` | {thing} has risen by {amount}. | 04 |
+| `im-writing-to` | I'm writing to {purpose}. | 05 |
+| `could-you-let-me-know` | Could you let me know {question}? | 05 |
+| `id-suggest` | I'd suggest {doing}. | 05 |
+| `would-it-be-possible-to` | Would it be possible to {do}? | 05 |
+| `id-love-to-but` | I'd love to, but {reason}. | 05 |
+| `what-if-we` | What if we {do}? | 05 |
+| `my-who` | My {person}, who {info}, is coming to visit. | 06 |
+| `i-bought-which` | I bought {thing}, which {info}. | 06 |
+| `which-means` | {fact}, which means {result}. | 06 |
+| `which-is-why` | {fact}, which is why {result}. | 06 |
+| `the-place-where` | This is the place where {event}. | 06 |
+| `a-friend-whose` | I have a friend whose {relative} {info}. | 06 |
+| `ill-never-forget-the-day` | I'll never forget the day when {event}. | 06 |
+| `this-time-tomorrow` | This time tomorrow, I'll be {doing}. | 07 |
+| `will-you-be` | Will you be {doing}? | 07 |
+| `ill-have-by` | I'll have {done} by {time}. | 07 |
+| `is-likely-to` | {subject} is likely to {do}. | 07 |
+| `i-doubt` | I doubt {prediction}. | 07 |
+| `ive-run-out-of` | I've run out of {thing}. | 08 |
+| `we-need-to-come-up-with` | We need to come up with {idea}. | 08 |
+| `could-you-it-please` | Could you {verb} it {particle}, please? | 08 |
+| `i-cant-put-up-with` | I can't put up with {thing} any more. | 08 |
 
 ### Ngữ pháp (GRAMMAR)
 
@@ -521,6 +543,18 @@ Mốc của stage: "Tôi thảo luận được chủ đề trừu tượng" (un
 | `passive-reporting` | It is said / reported / expected that…; X is said / believed / expected to + V | 04 |
 | `have-something-done` | have / get + vật + V3 | 04 |
 | `describing-trends` | rise / increase / go up, fall / decrease / go down + by / to / from … to; a sharp / slight rise | 04 |
+| `formal-email` | khung email công việc: chào, I'm writing to…, Please find attached, Could you…?, I look forward to hearing from you | 05 |
+| `making-suggestions` | I'd suggest + V-ing / that…; Would it be possible to + V?; Why don't we / Let's | 05 |
+| `softening-refusals` | từ chối khéo: làm mềm (I'd love to, but… / I'm afraid…) + lý do + phương án khác (What if we…?) | 05 |
+| `non-defining-relative` | …, who / which …, : thông tin phụ có dấu phẩy, không dùng that | 06 |
+| `which-whole-clause` | …, which means / which is why / which was + tính từ: which thay cho cả mệnh đề | 06 |
+| `whose-where-when` | whose + danh từ; where / when + mệnh đề | 06 |
+| `future-continuous` | will be + V-ing: sẽ đang làm; hỏi kế hoạch lịch sự | 07 |
+| `future-perfect` | will have + V3 by …; will have been + V-ing | 07 |
+| `future-certainty` | will definitely / is likely to / may well / probably won't / I doubt | 07 |
+| `phrasal-verb-basics` | động từ + tiểu từ, nghĩa mới; cụm (nói) ↔ từ trang trọng (viết) | 08 |
+| `separable-phrasal-verbs` | tách được (turn it off, đại từ ở giữa) / không tách (look after them) | 08 |
+| `three-part-phrasal-verbs` | động từ + tiểu từ + giới từ, không tách (put up with it, break up with sb) | 08 |
 
 ### Lỗi thường gặp của người Việt (B2)
 
@@ -528,6 +562,10 @@ Mốc của stage: "Tôi thảo luận được chủ đề trừu tượng" (un
 - "If I would have known", "If I knew yesterday, I would come", "would have came", "just on time" (ý là vừa kịp), "I should listened", "should have went", viết "should of", "It's my wrong", "I wish I took more photos" (ý là hồi đó), "I wish I would have gone", "do a decision", "Never mind" để đáp lời cảm ơn (unit 02).
 - "In my opinion, I think", "I'm convince", "evidences", "an evidence", "Despite it was raining", "despite of", "Although…, but…", "Even though…, but…", "In spite the rain", "The young people tend to…" (nói chung), "tend to using", "affect on", "has an affect", nói tuyệt đối "All Vietnamese people…" (unit 03).
 - "According to me", "The storm expects to hit", "It is said the price will to rise", "I cut my hair at the hairdresser's" (ý là thợ cắt), "I had fixed my car" (ý là thuê sửa), "I had my phone repair", "The price has raised", "an increase of traffic", "ten percents", "compare to last year" (unit 04).
+- "I want you send me the file", "let me know when are you free", "I look forward to hear from you", "I suggest you to call", "Would it be possible that you send…", "Who is responsible this project?", "No, I'm busy." (cộc), "What if we will…", "a deadline" hiểu là "do the deadline" (unit 05).
+- "My mother, that is a teacher, …", "which it was on sale", thiếu dấu phẩy với tên riêng, "…, what means…", "a compensation", "a friend who his father…", "the town where I grew up there", "a history town", "It's worth to visit", "recommend you to try" (unit 06).
+- "Tomorrow at 9, I will work in a meeting", "I will be fly", "finish the report until Friday", "By the time you will arrive", "a big progress", "in the end of the month", "I will probably not come", "I doubt prices won't…", "many population" (unit 07).
+- "I gave up to smoke", "Turn off it", "pick up me", "fill out it", "look my cat after", "She broke up her boyfriend", "I can't put it up with", "Don't let down me", dùng postpone / discover khi nói chuyện (unit 08).
 
 ### Ghi chú B2
 
@@ -535,3 +573,7 @@ Mốc của stage: "Tôi thảo luận được chủ đề trừu tượng" (un
 - `b2-02`: `should-have` (lẽ ra) phân biệt với `must-have-done` (đoán, B1 11) trong EXPLAIN bài 2. `wish-past-perfect` nối tiếp `i-wish` (B1 06). `learned-my-lesson` viết kiểu Mỹ learned. `just-in-time` phân biệt với `on-time` (B1 05) trong `noteVi`.
 - `b2-03` là mốc stage (canDo thứ ba). `because`, `although`, `giving-opinions`, `on-the-other-hand`, `good-point` (B1) chỉ RECYCLE. `despite`, `whereas`, `admittedly` là LEXICAL; `even-though`, `even-so` là PHRASE. First of all, Besides, Moreover chỉ nằm trong ví dụ, `noteVi`.
 - `b2-04`: `passive-reporting` nối tiếp bị động B1 08. `have-something-done` cũng gồm nghĩa "bị" (had my bag stolen), RECYCLE `my-was-stolen`. fall / drop / go down chỉ nằm trong `describing-trends`; `rise`, `increase`, `decrease` là LEXICAL. Hội thoại sửa điện thoại đổi cảnh giữa chừng (tiệm → nhà) để luyện kể lại bằng have something done.
+- `b2-05`: `look-forward-to` (B1 10), `polite-requests`, `would-you-mind`, `im-afraid` (B1 07), `suggest` (B2 01), `the-point-is` (B1 12), `id-love-to` (A2 04) chỉ RECYCLE. `id-suggest` nối tiếp `suggest` (+ V-ing); `id-love-to-but` nối tiếp `id-love-to`. `could-you-let-me-know` dạy câu hỏi gián tiếp trong email (trật tự câu kể, if / whether). `on-short-notice` viết kiểu Mỹ (Anh: at short notice). `postpone` đứng ở đây, bản nói thường `put-off` ở B2 08.
+- `b2-06`: `non-defining-relative` nối tiếp `relative-clauses` / `the-person-who` (A2 11, mệnh đề xác định), EXPLAIN bài 1 đặt hai loại cạnh nhau. `whose` (B1 11, từ để hỏi) chỉ RECYCLE; `whose-where-when` dạy whose làm từ nối. `the-place-where` khác `its-a-place-where` (A1 10, định nghĩa). Ví dụ `which-whole-clause` phân biệt which thay danh từ và which thay cả việc (I lost my phone, which was new / which was a disaster).
+- `b2-07`: `future-continuous` đặt cạnh `past-continuous` (B1 02); `future-perfect` nối tiếp `by-the-time` (B2 01) và phân biệt by / `until` (B1 05) trong EXPLAIN bài 2. will have been + V-ing chỉ nằm trong `forms`, không có item riêng. `future-certainty` nối tiếp `will-future`, `probably`, `definitely` (B1 03). AI chỉ nằm trong `noteVi` của `automation` và hội thoại.
+- `b2-08`: 15 PHRASE (cụm động từ) và chỉ 2 LEXICAL. `turn-off`, `get-up`, `check-in`, `look-for`, `hurry-up`, `get-along-with`, `look-forward-to` (đã có) chỉ RECYCLE, dùng làm ví dụ cho quy tắc tách trong EXPLAIN bài 2 và 3. `run out of`, `come up with`, `put up with` chỉ có dạng PATTERN (`ive-run-out-of`, `we-need-to-come-up-with`, `i-cant-put-up-with`), không có PHRASE riêng. `fill-out` viết kiểu Mỹ (Anh: fill in). `catch-up-with` gồm cả catch up không tân ngữ.
