@@ -13,6 +13,7 @@ Trạng thái: `draft` đã soạn, qua validator · `reviewed` đã có ngườ
 | A2 | 12 | 12 | 36 | 301 | 155 | 70 | 49 | 27 |
 | B1 | 12 | 12 | 36 | 287 | 122 | 68 | 65 | 32 |
 | B2 | 12 | 12 | 36 | 288 | 112 | 77 | 66 | 33 |
+| C1 | 12 | 4 | 12 | 96 | 26 | 29 | 29 | 12 |
 
 ## Placement (`placement.json`)
 
@@ -25,6 +26,7 @@ Một bài xếp lớp cho cả lộ trình, 2 câu mỗi unit, theo thứ tự 
 | A2 | 12/12 | 24 |
 | B1 | 12/12 | 24 |
 | B2 | 12/12 | 24 |
+| C1 | 4/12 | 8 |
 
 ## Pre-A1: Foundations
 
@@ -620,3 +622,88 @@ Mốc của stage: "Tôi thảo luận được chủ đề trừu tượng" (un
 - `b2-11`: `hypothetical-past` nối tiếp `second-conditional`, `imagine`, `what-would-you-do-if` (B1 06) và phân biệt với `what-if-we` (B2 05, đề nghị + hiện tại) trong EXPLAIN bài 1. `id-rather` đặt cạnh `prefer` (A2 08) và `its-time` (A1 02, It's time to + V). `mixed-conditional` nối tiếp `third-conditional`, `wish-past-perfect` (B2 02); bảng EXPLAIN bài 3 đặt loại 3 và hai kiểu hỗn hợp cạnh nhau. Hội thoại họp lớp dùng tên Minh (không ngầm định giới tính người học).
 - `b2-12` giống `b1-12`: không GRAMMAR, mỗi bài 8 INTRODUCE đều vào INTRO, canDo thứ tư tổng kết B2, checkpoint 8 câu có 2 câu ôn (`third-conditional`, `non-defining-relative`). `how-can-i-put-it`, `whats-the-word`, `its-a-kind-of`, `in-other-words`, `i-mean`, `let-me-try-again`, `as-i-was-saying`, `sorry-to-interrupt`, `to-sum-up`, `for-example` chỉ RECYCLE. `it-has-to-do-with` viết kiểu Mỹ (Anh: It's to do with). Hội thoại bài 2 giải thích chữ "duyên" cho người Anh, gom diễn đạt vòng (bài 1) và tự sửa (bài 2).
 - Stage B2 xong (P4-6c): 12 unit, 36 bài, 288 item, placement 24 câu.
+
+## C1: Advanced
+
+Mốc của stage: "Tôi diễn đạt linh hoạt, tự nhiên" (unit 04). Khung 12 unit (chốt ở P4-7a, user nâng từ 8 lên 12; P4-7b soạn 05–08, P4-7c soạn 09–12):
+
+| # | Unit | Can-do (tóm tắt) | Bài | Item (L/Ph/Pa/G) | Dialogue | Trạng thái |
+|---|---|---|---|---|---|---|
+| 1 | `c1-01-to-some-extent` | mức độ (fairly, rather, somewhat, considerably, barely, a bit on the … side, far from), nói tránh (It would seem that, It's fair to say that, to some extent, arguably, presumably, I'd say), nói giảm để chê khéo (not particularly, a bit of a, It could be better, mixed feelings, underwhelming, overrated) | 3 | 24 (9/6/6/3) | 2 | draft |
+| 2 | `c1-02-what-i-need-is` | câu chẻ với what (What I need is, What I love about … is, What happened was, All I want is, The thing is), với it (It was … that / who, It's not … that bothers me, it's…, The reason why … is that, The last thing I want is), nhấn mạnh bằng do / did, by far, such a … that, absolutely, whatsoever, no matter what | 3 | 24 (8/2/11/3) | 2 | draft |
+| 3 | `c1-03-little-did-i-know` | đảo ngữ sau từ phủ định (Never have I, Rarely do you, Not once did, Under no circumstances), kể chuyện (Little did I know, No sooner had … than, Only then did I, out of the blue, to my surprise), đảo ngữ trang trọng (Not only did, Should you need, Had I known, do not hesitate, further assistance) | 3 | 24 (8/4/9/3) | 2 | draft |
+| 4 | `c1-04-idioms` | thành ngữ công sở (on the same page, the ball is in your court, cut corners, get the ball rolling, back to square one, a ballpark figure, touch base), thành ngữ đời sống so với tiếng Việt (a blessing in disguise, beat around the bush, the last straw, once in a blue moon, cost an arm and a leg), cặp từ cố định (sooner or later, ups and downs, by and large, sick and tired of); mốc của stage | 3 | 24 (1/17/3/3) | 2 | draft |
+| 5 | `c1-05-presenting` | thuyết trình: mở đầu và dẫn dắt (Let's turn to…, As you can see…, To put this into perspective…), trình bày số liệu, xử lý câu hỏi (That's a great question, I'll come back to that, Does that answer your question?) | | | | dự kiến |
+| 6 | `c1-06-persuading` | thuyết phục và đàm phán: điều kiện (provided that, as long as, on condition that, If you were to…), nhượng bộ và đổi chác (I'm prepared to…, meet someone halfway, the bottom line), chốt thỏa thuận | | | | dự kiến |
+| 7 | `c1-07-register` | văn phong: trang trọng ↔ thân mật (từ gốc Latin ↔ cụm động từ, danh từ hóa, bị động), viết lại một email bực bội cho lịch sự, chọn giọng theo người nhận | | | | dự kiến |
+| 8 | `c1-08-feedback` | góp ý và nhận góp ý khéo (It might be worth…, I wonder if…, One thing you could consider…, take something on board), khen cụ thể, phản hồi khi bị phê bình | | | | dự kiến |
+| 9 | `c1-09-collocations` | collocation mạnh (heavy traffic, make / do / take, bitterly disappointed, highly unlikely, deeply grateful), trạng từ đi đôi với tính từ, tránh dịch từng chữ | | | | dự kiến |
+| 10 | `c1-10-trends` | bình luận xu hướng xã hội: be bound to / be set to / be on the verge of, mệnh đề phân từ (Having finished…, Given that…, Faced with…), dẫn số liệu và nguồn | | | | dự kiến |
+| 11 | `c1-11-between-the-lines` | hiểu hàm ý và giọng: mỉa mai, nói giảm kiểu Anh (I'll bear it in mind, With respect…), câu hỏi đuôi tìm đồng tình, đùa và đáp lời đùa, small talk tinh tế | | | | dự kiến |
+| 12 | `c1-12-strategy` | chiến lược C1: diễn giải và tóm tắt lời người khác (If I understand you correctly…, So what you're saying is…), phản đối tinh tế, xử lý câu hỏi khó, kết thúc cuộc trò chuyện; can-do tổng kết C1 và cả lộ trình | | | | dự kiến |
+
+### Mẫu câu (PATTERN)
+
+| Item | Template | Unit |
+|---|---|---|
+| `its-a-bit-on-the-side` | It's a bit on the {adjective} side. | 01 |
+| `it-would-seem-that` | It would seem that {claim}. | 01 |
+| `its-fair-to-say` | It's fair to say that {claim}. | 01 |
+| `id-say` | I'd say {estimate}. | 01 |
+| `a-bit-of-a` | It was a bit of a {noun}. | 01 |
+| `not-particularly` | It's not particularly {adjective}. | 01 |
+| `what-i-need-is` | What I need is {thing}. | 02 |
+| `what-i-love-about` | What I love about {thing} is {reason}. | 02 |
+| `what-happened-was` | What happened was that {event}. | 02 |
+| `all-i-want-is` | All I want is {thing}. | 02 |
+| `it-was-that` | It was {focus} that {rest}. | 02 |
+| `its-not-its` | It's not {first} that bothers me, it's {second}. | 02 |
+| `the-reason-why` | The reason why {fact} is that {reason}. | 02 |
+| `the-last-thing` | The last thing I want is {thing}. | 02 |
+| `i-do-think` | I do think {opinion}. | 02 |
+| `by-far-the` | It's by far the {superlative} I've ever {done}. | 02 |
+| `such-a-that` | It was such a {noun} that {result}. | 02 |
+| `never-have-i` | Never have I {done}. | 03 |
+| `rarely-do` | Rarely do you {do} these days. | 03 |
+| `not-once-did` | Not once did {person} {do}. | 03 |
+| `little-did-i-know` | Little did I know that {twist}. | 03 |
+| `no-sooner-had` | No sooner had I {done} than {event}. | 03 |
+| `only-then-did` | Only then did I realize {fact}. | 03 |
+| `not-only-did` | Not only did {first}, but {second}. | 03 |
+| `should-you-need` | Should you need {thing}, please let us know. | 03 |
+| `had-i-known` | Had I known {fact}, I would have {done}. | 03 |
+| `lets-touch-base` | Let's touch base {time}. | 04 |
+| `cost-an-arm-and-a-leg` | {thing} cost me an arm and a leg. | 04 |
+| `sick-and-tired` | I'm sick and tired of {doing}. | 04 |
+
+### Ngữ pháp (GRAMMAR)
+
+| Item | Điểm ngữ pháp | Unit |
+|---|---|---|
+| `degree-adverbs` | fairly / quite / rather / pretty / somewhat + tính từ; slightly / considerably / far + so sánh hơn; barely | 01 |
+| `hedging` | may / might / could, seem / appear, It would seem that, arguably, to some extent, I'd say | 01 |
+| `understatement` | not + very / particularly / entirely + từ tích cực; a bit of a + danh từ; It could be better | 01 |
+| `wh-cleft` | What + mệnh đề + is / was + phần nhấn; All I want is…; The thing is… | 02 |
+| `it-cleft` | It is / was + phần nhấn + that / who…; It's not X that…, it's Y; The reason why … is that… | 02 |
+| `emphatic-do` | do / does / did + V nguyên mẫu; by far + so sánh nhất; such a … that; absolutely + tính từ mạnh | 02 |
+| `negative-inversion` | Never / Rarely / Seldom / Not once / Under no circumstances + trợ động từ + S + V | 03 |
+| `time-inversion` | Little did I know…; No sooner had … than / Hardly had … when; Only then / Only when … did… | 03 |
+| `conditional-inversion` | Should you + V; Had I + V3; Were I to + V; Not only did …, but… | 03 |
+| `idiom-basics` | thành ngữ là cụm cố định: không thay từ, chỉ chia động từ / đổi đại từ; mức trang trọng | 04 |
+| `idioms-and-vietnamese` | thành ngữ Anh có nghĩa gần thành ngữ Việt nhưng hình ảnh khác; không dịch từng chữ thành ngữ Việt | 04 |
+| `fixed-binomials` | cặp từ cố định A and / or B, không đảo thứ tự (sooner or later, ups and downs, by and large) | 04 |
+
+### Lỗi thường gặp của người Việt (C1)
+
+- "very very good" cho mọi mức, "I didn't barely sleep", "considerably cheap", "It is sure that…", "In some extent", "It's a bit of disaster", nói thẳng "The food was bad" với chủ nhà, "over-evaluated" (ý là overrated), hiểu "Not bad!" là chê (unit 01).
+- "What I need it is…", "The thing what I love is…", "All I want are…", "It was Lan found the mistake", "The reason why … is because…", "emphasize on", "I did called you", "so a long day", "very delicious" (unit 02).
+- "Never I have seen…", "Not once he said…", "Not once did he said…", "Seldom I go…", "No sooner I sat down, …", "No sooner … when…", "Little I knew…", "Only then I realized…", "If had I known…", "Should you needed…", "your assistances" (unit 03).
+- "on the same paper", "cut the corner", "start again from zero" (ý là back to square one), "the last drop of water" (dịch từ giọt nước tràn ly), "go around the bush", dịch nguyên văn thành ngữ Việt ("a frog in a well"), "later or sooner", "cons and pros", "sick and tired to wait", dồn nhiều thành ngữ vào một câu (unit 04).
+
+### Ghi chú C1
+
+- `c1-01`: `rather-degree` là slug của rather (khá là) để khỏi lẫn với `id-rather` và `or-rather` (quy ước hậu tố nghĩa, DECISIONS). `slightly`, `much-better`, `kind-of`, `totally`, `seem`, `apparently`, `generalizing`, `i-might-be-wrong-but`, `im-not-so-sure`, `frankly`, `i-see-your-point-but` chỉ RECYCLE. pretty, quite chỉ nằm trong EXPLAIN và `forms` (quite khác nhau giữa Anh và Mỹ, không làm item riêng). `understatement` dạy cả phần nghe hiểu: "Not bad!" là khen, "It's not great" là chê.
+- `c1-02`: 11 PATTERN vì câu chẻ là khung câu. `the-point-is`, `what-im-trying-to-say` (B1 12, B2 12), `the-main-reason` (B1 04), `superlatives` (A2 08) chỉ RECYCLE. `emphatic-do` gồm cả tính từ mạnh (absolutely + delicious, không very); `absolutely`, `incredibly` là LEXICAL. Hội thoại bài 2 là sửa hiểu lầm (câu chẻ với it), bài 3 là lời chia tay đồng nghiệp.
+- `c1-03`: `negative-inversion` nối tiếp `ive-never` (A2 09); `time-inversion` dùng `past-perfect` (B2 01); `conditional-inversion` nối tiếp `third-conditional`, `if-id-known` (B2 02), `formal-email` (B2 05), `not-only-but-also` (B2 10). EXPLAIN nhắc rằng đảo ngữ khi tán gẫu nghe kịch. Hội thoại bài 3 người học đóng vai quản lý khách sạn (như `b1-07`), lời thoại tiếng Việt không ngầm định giới tính người học.
+- `c1-04` là mốc stage (canDo thứ ba). 17 PHRASE (thành ngữ) và 1 LEXICAL (`idiomatic`), như `b2-08` với cụm động từ. `pros-and-cons`, `on-the-whole` (B2 03), `rip-off` (B2 04), `i-cant-put-up-with` (B2 08), `to-make-matters-worse` (B2 06) chỉ RECYCLE. Chỉ chọn thành ngữ còn phổ biến (không raining cats and dogs). `beat-around-the-bush`, `ballpark-figure`, `touch base` theo kiểu Mỹ. Hội thoại bài 2 dùng thành ngữ công sở của bài 1, hội thoại bài 3 gom thành ngữ đời sống và cặp từ.
+

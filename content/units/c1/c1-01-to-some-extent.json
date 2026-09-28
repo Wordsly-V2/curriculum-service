@@ -1,0 +1,785 @@
+{
+    "slug": "c1-01-to-some-extent",
+    "stage": "c1",
+    "order": 1,
+    "title": "To some extent",
+    "titleVi": "Sắc thái: mức độ, nói tránh, nói giảm",
+    "descriptionVi": "Chỉnh mức độ cho đúng ý (fairly, rather, somewhat, considerably, barely, far from), nói tránh khi chưa chắc chắn (It would seem that…, arguably, to some extent, as far as I know, I'd say…), và chê khéo bằng cách nói giảm (It could be better, not particularly…, a bit of a…, I have mixed feelings).",
+    "canDo": [
+        "Tôi chọn được từ chỉ mức độ phù hợp để câu nói không quá mạnh cũng không quá nhạt.",
+        "Tôi đưa ra được nhận định một cách thận trọng, cho thấy mức độ chắc chắn của mình.",
+        "Tôi chê hoặc phản đối được một cách nhẹ nhàng, tế nhị theo kiểu người bản ngữ."
+    ],
+    "items": [
+        {
+            "slug": "degree-adverbs",
+            "type": "GRAMMAR",
+            "text": "fairly / quite / rather / pretty / somewhat + tính từ; slightly / considerably / far + so sánh hơn",
+            "meaningVi": "trạng từ chỉ mức độ và sắc thái của chúng",
+            "examples": [
+                { "en": "The exam was fairly easy, but the last part was rather difficult.", "vi": "Bài thi khá dễ, nhưng phần cuối thì khó đấy.", "highlight": "fairly easy" }
+            ],
+            "grammar": {
+                "ruleVi": "Các từ \"khá\" trong tiếng Anh không giống nhau. fairly: khá, hơi nhạt, thường với ý tốt. pretty: khá (thân mật, thường mạnh hơn fairly). quite: kiểu Mỹ gần như \"rất\", kiểu Anh là \"khá\". rather: khá, thường với ý chê hoặc ngạc nhiên. somewhat: phần nào (trang trọng). Với so sánh hơn: slightly / a bit (hơi), considerably / much / far (hơn nhiều). barely: gần như không.",
+                "forms": [
+                    { "label": "fairly (nhạt, tốt)", "example": "The hotel was fairly clean." },
+                    { "label": "rather (chê, bất ngờ)", "example": "The food was rather salty." },
+                    { "label": "pretty (thân mật)", "example": "That movie was pretty good!" },
+                    { "label": "somewhat (trang trọng)", "example": "The results were somewhat disappointing." },
+                    { "label": "so sánh hơn", "example": "It's considerably cheaper than last year." }
+                ],
+                "pitfallsVi": [
+                    "\"very very good\" cho mọi thứ → pretty good / really good / excellent, chọn đúng mức.",
+                    "\"It's rather nice\" nghe như bất ngờ vì nó tốt; nói bình thường: It's pretty nice.",
+                    "\"considerably cheap\" → considerably cheaper (considerably đi với so sánh hơn hoặc động từ)."
+                ]
+            }
+        },
+        {
+            "slug": "fairly",
+            "type": "LEXICAL",
+            "text": "fairly",
+            "meaningVi": "khá, tương đối",
+            "ipa": "/ˈferli/",
+            "examples": [
+                { "en": "My English is fairly good, but I still make mistakes.", "vi": "Tiếng Anh của mình tương đối tốt, nhưng vẫn còn mắc lỗi.", "highlight": "fairly" }
+            ],
+            "noteVi": "Yếu hơn pretty và quite. Khen \"fairly good\" có khi nghe như chê nhẹ. Còn nghĩa \"một cách công bằng\": treat people fairly."
+        },
+        {
+            "slug": "rather-degree",
+            "type": "LEXICAL",
+            "text": "rather",
+            "meaningVi": "khá là (thường với ý chê hoặc bất ngờ)",
+            "ipa": "/ˈræðər/",
+            "examples": [
+                { "en": "The meeting was rather long, so I left early.", "vi": "Cuộc họp dài quá nên mình về sớm.", "highlight": "rather" }
+            ],
+            "noteVi": "Khác I'd rather (B2 11, thích hơn) và or rather (B2 12, đúng hơn là). rather + tính từ hay dùng cho điều không vui: rather expensive, rather cold."
+        },
+        {
+            "slug": "somewhat",
+            "type": "LEXICAL",
+            "text": "somewhat",
+            "meaningVi": "phần nào, hơi",
+            "ipa": "/ˈsʌmwʌt/",
+            "examples": [
+                { "en": "The new version is somewhat easier to use.", "vi": "Bản mới phần nào dễ dùng hơn.", "highlight": "somewhat" }
+            ],
+            "noteVi": "Trang trọng, hay gặp trong báo cáo, email. Nói chuyện: a bit, kind of (B1 12)."
+        },
+        {
+            "slug": "considerably",
+            "type": "LEXICAL",
+            "text": "considerably",
+            "meaningVi": "đáng kể, nhiều",
+            "ipa": "/kənˈsɪdərəbli/",
+            "examples": [
+                { "en": "Rents have gone up considerably since last year.", "vi": "Tiền thuê nhà đã tăng đáng kể so với năm ngoái.", "highlight": "considerably" }
+            ],
+            "noteVi": "Đi với so sánh hơn (considerably cheaper) hoặc động từ chỉ thay đổi (rise / improve considerably). Trái nghĩa: slightly (B2 04)."
+        },
+        {
+            "slug": "barely",
+            "type": "LEXICAL",
+            "text": "barely",
+            "meaningVi": "gần như không, vừa đủ",
+            "ipa": "/ˈberli/",
+            "examples": [
+                { "en": "I barely slept last night because of the noise.", "vi": "Tối qua mình gần như không ngủ được vì ồn.", "highlight": "barely" }
+            ],
+            "noteVi": "Mang nghĩa phủ định sẵn: ❌ \"I didn't barely sleep\". Gần nghĩa: hardly. barely + số: I've barely got 10 minutes."
+        },
+        {
+            "slug": "its-a-bit-on-the-side",
+            "type": "PATTERN",
+            "text": "It's a bit on the … side.",
+            "meaningVi": "Nó hơi … một chút.",
+            "examples": [
+                { "en": "The apartment is nice, but it's a bit on the small side.", "vi": "Căn hộ đẹp, nhưng hơi nhỏ một chút.", "highlight": "it's a bit on the small side" }
+            ],
+            "pattern": {
+                "template": "It's a bit on the {adjective} side.",
+                "slots": [
+                    { "name": "adjective", "hintVi": "tính từ (thường là nhược điểm)", "options": ["small", "expensive", "quiet", "long", "sweet"] }
+                ]
+            },
+            "noteVi": "Cách chê rất mềm, nghe lịch sự hơn nhiều so với \"It's too small\". Chỉ dùng với tính từ, không dùng với danh từ."
+        },
+        {
+            "slug": "far-from",
+            "type": "PHRASE",
+            "text": "far from …",
+            "meaningVi": "còn xa mới …, không hề …",
+            "examples": [
+                { "en": "The plan is far from perfect, but it's a start.", "vi": "Kế hoạch còn xa mới hoàn hảo, nhưng là một khởi đầu.", "highlight": "far from perfect" }
+            ],
+            "noteVi": "far from + tính từ / danh từ = hoàn toàn không. Hay đi với perfect, easy, over: The problem is far from over. Khác far from + nơi chốn (xa)."
+        },
+        {
+            "slug": "hedging",
+            "type": "GRAMMAR",
+            "text": "nói tránh: may / might / could, seem / appear, It would seem that…, arguably, to some extent",
+            "meaningVi": "làm nhẹ một nhận định để không nghe quá chắc chắn",
+            "examples": [
+                { "en": "It would seem that the new rule isn't working.", "vi": "Có vẻ như quy định mới không hiệu quả.", "highlight": "It would seem that" }
+            ],
+            "grammar": {
+                "ruleVi": "Ở trình độ C1, người nói giỏi không nói tuyệt đối khi chưa chắc. Có ba cách làm nhẹ: động từ khuyết thiếu (may / might / could), động từ seem / appear / tend to, và cụm làm nhẹ (arguably, to some extent, as far as I know, I'd say). It would seem that… còn nhẹ hơn It seems that…. Nói nhẹ không phải là yếu: nó cho thấy mình cân nhắc.",
+                "forms": [
+                    { "label": "động từ khuyết thiếu", "example": "This could be one reason for the delay." },
+                    { "label": "seem / appear", "example": "The figures appear to be wrong." },
+                    { "label": "rất nhẹ", "example": "It would seem that nobody read the email." },
+                    { "label": "phạm vi", "example": "To some extent, I agree with you." },
+                    { "label": "ước lượng", "example": "I'd say about forty people came." }
+                ],
+                "pitfallsVi": [
+                    "\"All young people are lazy\" → Young people tend to… / Some young people may…",
+                    "\"It is sure that…\" → It's clear that… / It would seem that… (tùy mức chắc chắn)",
+                    "\"In some extent\" → To some extent."
+                ]
+            }
+        },
+        {
+            "slug": "it-would-seem-that",
+            "type": "PATTERN",
+            "text": "It would seem that ….",
+            "meaningVi": "Có vẻ như ….",
+            "examples": [
+                { "en": "It would seem that the problem is bigger than we thought.", "vi": "Có vẻ như vấn đề lớn hơn mình nghĩ.", "highlight": "It would seem that" }
+            ],
+            "pattern": {
+                "template": "It would seem that {claim}.",
+                "slots": [
+                    { "name": "claim", "hintVi": "nhận định (mệnh đề)", "options": ["the problem is bigger than we thought", "nobody read the email", "the new rule isn't working", "prices will keep rising", "the client has changed their mind"] }
+                ]
+            },
+            "noteVi": "Rất trang trọng, hợp email và cuộc họp. Nói chuyện: It looks like… (B1 11), It seems that…."
+        },
+        {
+            "slug": "its-fair-to-say",
+            "type": "PATTERN",
+            "text": "It's fair to say that ….",
+            "meaningVi": "Có thể nói rằng ….",
+            "examples": [
+                { "en": "It's fair to say that the project didn't go as planned.", "vi": "Có thể nói là dự án đã không diễn ra như kế hoạch.", "highlight": "It's fair to say that" }
+            ],
+            "pattern": {
+                "template": "It's fair to say that {claim}.",
+                "slots": [
+                    { "name": "claim", "hintVi": "nhận định mà đa số sẽ đồng ý", "options": ["the project didn't go as planned", "most people prefer working from home", "the city has changed a lot", "we could have done better", "the new manager is popular"] }
+                ]
+            },
+            "noteVi": "Nêu một nhận định có lý và khó phản bác, thường mềm hóa lời chê: It's fair to say we could have done better."
+        },
+        {
+            "slug": "to-some-extent",
+            "type": "PHRASE",
+            "text": "to some extent",
+            "meaningVi": "ở một mức độ nào đó",
+            "examples": [
+                { "en": "To some extent, social media brings people closer.", "vi": "Ở một mức độ nào đó, mạng xã hội kéo mọi người lại gần nhau.", "highlight": "To some extent" }
+            ],
+            "noteVi": "Đồng ý một phần: I agree to some extent, but…. Mạnh hơn: to a large extent. ❌ \"in some extent\"."
+        },
+        {
+            "slug": "arguably",
+            "type": "LEXICAL",
+            "text": "arguably",
+            "meaningVi": "có thể cho là, được nhiều người cho là",
+            "ipa": "/ˈɑːrɡjuəbli/",
+            "examples": [
+                { "en": "Pho is arguably the most famous Vietnamese dish.", "vi": "Phở có thể nói là món Việt nổi tiếng nhất.", "highlight": "arguably" }
+            ],
+            "noteVi": "Nêu một ý mà mình tin nhưng biết có người sẽ không đồng ý. Hay đứng trước so sánh nhất. Không có nghĩa \"gây tranh cãi\" (controversial)."
+        },
+        {
+            "slug": "as-far-as-i-know",
+            "type": "PHRASE",
+            "text": "as far as I know",
+            "meaningVi": "theo tôi biết",
+            "examples": [
+                { "en": "As far as I know, the meeting is still on Friday.", "vi": "Theo mình biết thì cuộc họp vẫn là thứ Sáu.", "highlight": "As far as I know" }
+            ],
+            "noteVi": "Báo rằng thông tin có thể chưa mới nhất. Tương tự: as far as I can tell, to my knowledge (trang trọng)."
+        },
+        {
+            "slug": "presumably",
+            "type": "LEXICAL",
+            "text": "presumably",
+            "meaningVi": "có lẽ, chắc là (đoán có cơ sở)",
+            "ipa": "/prɪˈzuːməbli/",
+            "examples": [
+                { "en": "The office is dark. Presumably everyone has gone home.", "vi": "Văn phòng tắt đèn. Chắc là mọi người về hết rồi.", "highlight": "Presumably" }
+            ],
+            "noteVi": "Đoán dựa vào điều mình thấy, chắc hơn perhaps (B1 11). Gần nghĩa: I assume that…."
+        },
+        {
+            "slug": "id-say",
+            "type": "PATTERN",
+            "text": "I'd say ….",
+            "meaningVi": "Tôi đoán là … / Theo tôi thì ….",
+            "examples": [
+                { "en": "I'd say about forty people came to the event.", "vi": "Mình đoán là khoảng bốn mươi người đến dự.", "highlight": "I'd say" }
+            ],
+            "pattern": {
+                "template": "I'd say {estimate}.",
+                "slots": [
+                    { "name": "estimate", "hintVi": "ước lượng hoặc nhận định", "options": ["about forty people came", "it takes around two hours", "it's the best option we have", "she's in her thirties", "we're halfway there"] }
+                ]
+            },
+            "noteVi": "Nêu ước lượng hay ý kiến một cách nhẹ nhàng. Trả lời \"How many…?\" rất tự nhiên: I'd say around fifty."
+        },
+        {
+            "slug": "understatement",
+            "type": "GRAMMAR",
+            "text": "nói giảm: not + very / particularly / entirely + từ tích cực; a bit of a + danh từ; could be better",
+            "meaningVi": "chê khéo bằng cách nói nhẹ đi",
+            "examples": [
+                { "en": "The food wasn't particularly good, to be honest.", "vi": "Nói thật là đồ ăn không ngon lắm.", "highlight": "wasn't particularly good" }
+            ],
+            "grammar": {
+                "ruleVi": "Người bản ngữ (nhất là người Anh) hay chê bằng cách phủ định một từ tích cực thay vì dùng từ tiêu cực: \"not very good\" thay cho \"bad\", \"not particularly interesting\" thay cho \"boring\". Thêm a bit of a trước danh từ (a bit of a problem) hoặc nói It could be better. Nghe ra được cách nói này rất quan trọng: \"not bad\" có khi là khen, \"not great\" thường là chê.",
+                "forms": [
+                    { "label": "phủ định từ tích cực", "example": "It wasn't the best film I've seen." },
+                    { "label": "not particularly", "example": "The hotel wasn't particularly clean." },
+                    { "label": "a bit of a", "example": "The trip was a bit of a disaster." },
+                    { "label": "could be better", "example": "How's work? — It could be better." },
+                    { "label": "not entirely", "example": "I'm not entirely convinced it'll work." }
+                ],
+                "pitfallsVi": [
+                    "\"The food was bad\" với chủ nhà → It wasn't really my kind of thing.",
+                    "\"It's a bit of disaster\" (thiếu a) → a bit of a disaster.",
+                    "Hiểu \"not bad\" là chê: \"Not bad at all!\" thường là khen."
+                ]
+            }
+        },
+        {
+            "slug": "im-not-entirely-convinced",
+            "type": "PHRASE",
+            "text": "I'm not entirely convinced.",
+            "meaningVi": "Tôi chưa hoàn toàn bị thuyết phục.",
+            "examples": [
+                { "en": "It's a nice idea, but I'm not entirely convinced it'll work.", "vi": "Ý hay đấy, nhưng mình chưa hoàn toàn tin là nó sẽ hiệu quả.", "highlight": "I'm not entirely convinced" }
+            ],
+            "noteVi": "Phản đối lịch sự trong họp. Nối tiếp I'm convinced that (B2 03). Nhẹ hơn nữa: I'm not sure I'm with you on that."
+        },
+        {
+            "slug": "it-could-be-better",
+            "type": "PHRASE",
+            "text": "It could be better.",
+            "meaningVi": "Cũng chưa được tốt lắm.",
+            "examples": [
+                { "en": "How's the new job? — Honestly, it could be better.", "vi": "Việc mới thế nào? — Nói thật là chưa được tốt lắm.", "highlight": "it could be better" }
+            ],
+            "noteVi": "Trả lời khéo khi mọi thứ không ổn mà không muốn kể lể. Ngược lại: Couldn't be better! (tuyệt vời)."
+        },
+        {
+            "slug": "a-bit-of-a",
+            "type": "PATTERN",
+            "text": "It was a bit of a ….",
+            "meaningVi": "Cũng hơi … một chút.",
+            "examples": [
+                { "en": "The trip was a bit of a disaster, actually.", "vi": "Thật ra chuyến đi hơi thảm họa một chút.", "highlight": "a bit of a disaster" }
+            ],
+            "pattern": {
+                "template": "It was a bit of a {noun}.",
+                "slots": [
+                    { "name": "noun", "hintVi": "danh từ (thường là điều không vui)", "options": ["disaster", "problem", "surprise", "letdown", "waste of time"] }
+                ]
+            },
+            "noteVi": "Đi với danh từ đếm được và luôn có a thứ hai: a bit of a surprise. Với tính từ thì dùng a bit (a bit expensive), không có of a."
+        },
+        {
+            "slug": "not-particularly",
+            "type": "PATTERN",
+            "text": "It's not particularly ….",
+            "meaningVi": "Nó không … lắm.",
+            "examples": [
+                { "en": "It's not particularly exciting, but it pays well.", "vi": "Nó không thú vị lắm, nhưng lương tốt.", "highlight": "It's not particularly exciting" }
+            ],
+            "pattern": {
+                "template": "It's not particularly {adjective}.",
+                "slots": [
+                    { "name": "adjective", "hintVi": "tính từ tích cực", "options": ["exciting", "cheap", "comfortable", "well organized", "useful"] }
+                ]
+            },
+            "noteVi": "Trả lời ngắn: Not particularly. (Không hẳn.) Ví dụ: Do you like spicy food? — Not particularly."
+        },
+        {
+            "slug": "mixed-feelings",
+            "type": "PHRASE",
+            "text": "I have mixed feelings about ….",
+            "meaningVi": "Tôi thấy vừa thích vừa không về ….",
+            "examples": [
+                { "en": "I have mixed feelings about moving to the city.", "vi": "Mình vừa thích vừa ngại chuyện chuyển lên thành phố.", "highlight": "mixed feelings" }
+            ],
+            "noteVi": "Nói khi thấy cả mặt tốt lẫn mặt xấu. Sau đó nên giải thích: On the one hand…, on the other hand… (B1 04)."
+        },
+        {
+            "slug": "underwhelming",
+            "type": "LEXICAL",
+            "text": "underwhelming",
+            "meaningVi": "không ấn tượng như mong đợi",
+            "ipa": "/ˌʌndərˈwelmɪŋ/",
+            "examples": [
+                { "en": "After all the hype, the new phone was a bit underwhelming.", "vi": "Sau bao nhiêu quảng cáo, chiếc điện thoại mới hơi thất vọng.", "highlight": "underwhelming" }
+            ],
+            "noteVi": "Nhẹ hơn disappointing. Ngược nghĩa overwhelming (choáng ngợp). hype = sự quảng cáo rầm rộ."
+        },
+        {
+            "slug": "overrated",
+            "type": "LEXICAL",
+            "text": "overrated",
+            "meaningVi": "được đánh giá quá cao",
+            "ipa": "/ˌoʊvərˈreɪtɪd/",
+            "examples": [
+                { "en": "In my opinion, that restaurant is completely overrated.", "vi": "Theo mình, nhà hàng đó được đánh giá quá cao.", "highlight": "overrated" }
+            ],
+            "noteVi": "Trái nghĩa: underrated (bị đánh giá thấp). Hay dùng khi bàn về phim, quán ăn, địa điểm."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "c1-01-planning-meeting",
+            "title": "It would seem that…",
+            "situationVi": "Trong cuộc họp, chị Rachel, quản lý người Anh, hỏi bạn về kết quả chiến dịch quảng cáo vừa rồi. Số liệu không tốt lắm, và bạn chưa chắc nguyên nhân.",
+            "lines": [
+                { "speaker": "Rachel", "en": "So, how did the campaign go? Did we get the numbers we wanted?", "vi": "Vậy chiến dịch thế nào? Mình có đạt con số mong muốn không?" },
+                { "speaker": "You", "en": "Not quite, I'm afraid. It's fair to say that it didn't go as planned.", "vi": "Tiếc là chưa hẳn. Có thể nói là nó không diễn ra như kế hoạch.", "learnerTurn": true },
+                { "speaker": "Rachel", "en": "How far off were we?", "vi": "Mình hụt bao nhiêu?" },
+                { "speaker": "You", "en": "I'd say about thirty percent below the target. Sales went up, but only slightly.", "vi": "Em ước khoảng ba mươi phần trăm dưới mục tiêu. Doanh số có tăng, nhưng chỉ nhẹ thôi.", "learnerTurn": true },
+                { "speaker": "Rachel", "en": "Any idea why?", "vi": "Có biết vì sao không?" },
+                { "speaker": "You", "en": "It would seem that the ads reached the wrong age group. But as far as I know, we don't have the full data yet.", "vi": "Có vẻ như quảng cáo đến nhầm nhóm tuổi. Nhưng theo em biết thì mình chưa có đủ số liệu.", "learnerTurn": true },
+                { "speaker": "Rachel", "en": "Hmm. Should we just double the budget next time?", "vi": "Hừm. Lần sau mình tăng gấp đôi ngân sách luôn nhé?" },
+                { "speaker": "You", "en": "To some extent, a bigger budget would help. Having said that, I'd suggest fixing the targeting first. Presumably that's the main issue.", "vi": "Ở mức độ nào đó thì ngân sách lớn hơn sẽ giúp. Nói vậy chứ em đề nghị sửa phần nhắm đối tượng trước. Có lẽ đó là vấn đề chính.", "learnerTurn": true },
+                { "speaker": "Rachel", "en": "Fair enough. Let's look at the data again next week.", "vi": "Hợp lý. Tuần sau mình xem lại số liệu." }
+            ]
+        },
+        {
+            "slug": "c1-01-the-new-restaurant",
+            "title": "It wasn't particularly…",
+            "situationVi": "Anh Tom, bạn người Anh, hỏi bạn về nhà hàng rất nổi mà anh ấy giới thiệu cho bạn tuần trước. Bạn không thích lắm nhưng không muốn làm anh ấy mất vui.",
+            "lines": [
+                { "speaker": "Tom", "en": "So? Did you try the place I told you about? Isn't it amazing?", "vi": "Sao? Cậu thử quán mình bảo chưa? Tuyệt đúng không?" },
+                { "speaker": "You", "en": "I did! Honestly, I have mixed feelings about it. The view was great.", "vi": "Thử rồi! Nói thật là mình vừa thích vừa không. View thì đẹp.", "learnerTurn": true },
+                { "speaker": "Tom", "en": "And the food?", "vi": "Còn đồ ăn?" },
+                { "speaker": "You", "en": "The food wasn't particularly special, to be honest. And it was a bit on the expensive side.", "vi": "Nói thật là đồ ăn không đặc biệt lắm. Mà giá cũng hơi cao một chút.", "learnerTurn": true },
+                { "speaker": "Tom", "en": "Really? Everyone says it's the best in town.", "vi": "Thật à? Ai cũng bảo quán đó ngon nhất thành phố." },
+                { "speaker": "You", "en": "Maybe I ordered the wrong thing. But after all the hype, it was a bit underwhelming. I think it's slightly overrated.", "vi": "Chắc mình gọi nhầm món. Nhưng sau bao nhiêu lời khen, nó hơi thất vọng. Mình nghĩ nó hơi được đánh giá quá cao.", "learnerTurn": true },
+                { "speaker": "Tom", "en": "Ha, fair enough. So where should we go on Saturday?", "vi": "Haha, cũng được. Thế thứ Bảy mình đi đâu?" },
+                { "speaker": "You", "en": "There's a small place near my office. It's far from fancy, but the pho is arguably the best I've had.", "vi": "Có một quán nhỏ gần công ty mình. Chẳng sang trọng gì, nhưng phở thì có thể nói là ngon nhất mình từng ăn.", "learnerTurn": true },
+                { "speaker": "Tom", "en": "Sold! Let's go there.", "vi": "Chốt! Đi quán đó." }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "c1-01-l1-degree",
+            "title": "Fairly, rather, considerably",
+            "titleVi": "Chỉnh mức độ cho đúng ý",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "degree-adverbs", "role": "INTRODUCE" },
+                { "item": "fairly", "role": "INTRODUCE" },
+                { "item": "rather-degree", "role": "INTRODUCE" },
+                { "item": "somewhat", "role": "INTRODUCE" },
+                { "item": "considerably", "role": "INTRODUCE" },
+                { "item": "barely", "role": "INTRODUCE" },
+                { "item": "its-a-bit-on-the-side", "role": "INTRODUCE" },
+                { "item": "far-from", "role": "INTRODUCE" },
+                { "item": "slightly", "role": "RECYCLE" },
+                { "item": "much-better", "role": "RECYCLE" },
+                { "item": "kind-of", "role": "RECYCLE" },
+                { "item": "totally", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["fairly", "rather-degree", "somewhat", "considerably", "barely", "its-a-bit-on-the-side", "far-from"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "\"Khá\" có mấy kiểu?",
+                        "bodyVi": "Tiếng Việt nói \"khá\" cho gần như mọi mức. Tiếng Anh tách ra, và mỗi từ có sắc thái riêng:\n\n| từ | mức | sắc thái | ví dụ |\n|---|---|---|---|\n| **barely** | gần như không | phủ định sẵn | I **barely** slept. |\n| **somewhat** | phần nào | trang trọng | **somewhat** disappointing |\n| **fairly** | khá (nhạt) | trung tính, hơi tốt | **fairly** clean |\n| **kind of** (B1 12) | kiểu, hơi | rất thân mật | **kind of** boring |\n| **rather** | khá là | chê hoặc bất ngờ | **rather** salty |\n| pretty / quite | khá, khá là | thân mật / Mỹ: gần như \"rất\" | pretty good |\n| **totally** | hoàn toàn | nhấn mạnh | **totally** agree |\n\nVới so sánh hơn: **slightly** / a bit cheaper (hơi) → **much** / **considerably** / far cheaper (hơn nhiều).\n\nChê khéo: It's **a bit on the** small **side**. / It's **far from** perfect.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| The room is very very small. | The room is **a bit on the small side**. |\n| I didn't barely sleep. | I **barely** slept. |\n| It's considerably cheap. | It's **considerably cheaper** than last year. |\n\n❌ I didn't barely sleep ❌ considerably cheap ✅ **It's considerably cheaper, but a bit on the small side.**",
+                        "items": ["degree-adverbs", "fairly", "rather-degree", "somewhat", "considerably", "barely", "its-a-bit-on-the-side", "far-from", "slightly", "much-better", "kind-of", "totally"],
+                        "examples": [
+                            { "en": "The exam was fairly easy, but the last part was rather difficult.", "vi": "Bài thi khá dễ, nhưng phần cuối thì khó đấy.", "highlight": "rather difficult" },
+                            { "en": "The apartment is nice, but it's a bit on the small side.", "vi": "Căn hộ đẹp, nhưng hơi nhỏ một chút.", "highlight": "a bit on the small side" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "its-a-bit-on-the-side",
+                        "prompts": [
+                            { "cueVi": "Nó hơi đắt một chút.", "slots": { "adjective": "expensive" }, "answer": "It's a bit on the expensive side." },
+                            { "cueVi": "Nó hơi dài một chút.", "slots": { "adjective": "long" }, "answer": "It's a bit on the long side." },
+                            { "cueVi": "Nó hơi ngọt một chút.", "slots": { "adjective": "sweet" }, "answer": "It's a bit on the sweet side." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["fairly", "rather-degree", "somewhat", "considerably", "barely", "far-from", "slightly"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "The exam was fairly easy, but the last part was rather difficult.", "vi": "Bài thi khá dễ, nhưng phần cuối thì khó đấy." },
+                            { "en": "Rents have gone up considerably since last year.", "vi": "Tiền thuê nhà đã tăng đáng kể so với năm ngoái." },
+                            { "en": "The apartment is nice, but it's a bit on the small side.", "vi": "Căn hộ đẹp, nhưng hơi nhỏ một chút." },
+                            { "en": "The plan is far from perfect, but it's a start.", "vi": "Kế hoạch còn xa mới hoàn hảo, nhưng là một khởi đầu." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I didn't barely sleep last night.", "I barely slept last night.", "I barely didn't sleep last night."],
+                                "answer": 1,
+                                "item": "barely"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn muốn chê nhẹ nhàng rằng căn phòng hơi nhỏ:",
+                                "options": ["The room is very very small.", "The room is a bit on the small side.", "The room is small side."],
+                                "answer": 1,
+                                "item": "its-a-bit-on-the-side"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "It's considerably ___ than last year.",
+                                "hintVi": "cheap, so sánh hơn",
+                                "answers": ["cheaper"],
+                                "item": "degree-adverbs"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "The plan is far from perfect, but it's a start.",
+                                "options": ["Kế hoạch còn xa mới hoàn hảo, nhưng là một khởi đầu.", "Kế hoạch ở xa nên khó bắt đầu.", "Kế hoạch gần như hoàn hảo rồi."],
+                                "answer": 0,
+                                "item": "far-from"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Bản mới phần nào dễ dùng hơn.",
+                                "answer": "The new version is somewhat easier to use.",
+                                "item": "somewhat"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "c1-01-l2-hedging",
+            "title": "It would seem that…",
+            "titleVi": "Nói tránh khi chưa chắc",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "hedging", "role": "INTRODUCE" },
+                { "item": "it-would-seem-that", "role": "INTRODUCE" },
+                { "item": "its-fair-to-say", "role": "INTRODUCE" },
+                { "item": "to-some-extent", "role": "INTRODUCE" },
+                { "item": "arguably", "role": "INTRODUCE" },
+                { "item": "as-far-as-i-know", "role": "INTRODUCE" },
+                { "item": "presumably", "role": "INTRODUCE" },
+                { "item": "id-say", "role": "INTRODUCE" },
+                { "item": "seem", "role": "RECYCLE" },
+                { "item": "apparently", "role": "RECYCLE" },
+                { "item": "generalizing", "role": "RECYCLE" },
+                { "item": "i-might-be-wrong-but", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["it-would-seem-that", "its-fair-to-say", "to-some-extent", "arguably", "as-far-as-i-know", "presumably", "id-say"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Chắc đến đâu thì nói đến đó",
+                        "bodyVi": "Người nói C1 cho người nghe biết mình chắc chắn đến mức nào. Từ chắc nhất đến ít chắc nhất:\n\n| mức | câu |\n|---|---|\n| chắc | It's clear that… / There's no doubt that… (B2 03) |\n| khá chắc | **It's fair to say that** the project didn't go well. |\n| đoán có cơ sở | **Presumably** everyone has gone home. |\n| ước lượng | **I'd say** about forty people came. |\n| có vẻ | It **seems** / **It would seem that** nobody read the email. |\n| nghe nói | **Apparently**, … (B1 09) |\n| thông tin có thể cũ | **As far as I know**, it's still on Friday. |\n\nĐồng ý một phần: I agree **to some extent**. Nêu ý có thể gây tranh luận: Pho is **arguably** the most famous dish. Khái quát hóa (B2 03): people **tend to**…, on the whole…\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| It is sure that nobody read it. | **It would seem that** nobody read it. |\n| In some extent, I agree. | **To some extent**, I agree. |\n| Maybe 40 people, I think, not sure. | **I'd say** about 40 people. |\n\n❌ It is sure that ❌ In some extent ✅ **To some extent, it's fair to say that it didn't work.**",
+                        "items": ["hedging", "it-would-seem-that", "its-fair-to-say", "to-some-extent", "arguably", "as-far-as-i-know", "presumably", "id-say", "seem", "apparently", "generalizing"],
+                        "examples": [
+                            { "en": "It would seem that the new rule isn't working.", "vi": "Có vẻ như quy định mới không hiệu quả.", "highlight": "It would seem that" },
+                            { "en": "To some extent, social media brings people closer.", "vi": "Ở một mức độ nào đó, mạng xã hội kéo mọi người lại gần nhau.", "highlight": "To some extent" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "it-would-seem-that",
+                        "prompts": [
+                            { "cueVi": "Có vẻ như chẳng ai đọc email.", "slots": { "claim": "nobody read the email" }, "answer": "It would seem that nobody read the email." },
+                            { "cueVi": "Có vẻ như khách hàng đã đổi ý.", "slots": { "claim": "the client has changed their mind" }, "answer": "It would seem that the client has changed their mind." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "id-say",
+                        "prompts": [
+                            { "cueVi": "Mình đoán là mất khoảng hai tiếng.", "slots": { "estimate": "it takes around two hours" }, "answer": "I'd say it takes around two hours." },
+                            { "cueVi": "Theo mình thì đó là phương án tốt nhất.", "slots": { "estimate": "it's the best option we have" }, "answer": "I'd say it's the best option we have." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["to-some-extent", "arguably", "as-far-as-i-know", "presumably", "seem", "apparently"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "c1-01-planning-meeting", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn chưa chắc chắn, muốn nói thận trọng trong email:",
+                                "options": ["It is sure that the figures are wrong.", "It would seem that the figures are wrong.", "The figures are 100% wrong."],
+                                "answer": 1,
+                                "item": "hedging"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["In some extent, I agree.", "To some extent, I agree.", "At some extent, I agree."],
+                                "answer": 1,
+                                "item": "to-some-extent"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "As far as I ___, the meeting is still on Friday.",
+                                "hintVi": "biết",
+                                "answers": ["know"],
+                                "item": "as-far-as-i-know"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Pho is arguably the most famous Vietnamese dish.",
+                                "options": ["Người ta hay cãi nhau về phở.", "Phở có thể nói là món Việt nổi tiếng nhất.", "Phở không còn nổi tiếng như trước."],
+                                "answer": 1,
+                                "item": "arguably"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Có thể nói là dự án đã không diễn ra như kế hoạch.",
+                                "answer": "It's fair to say that the project didn't go as planned.",
+                                "item": "its-fair-to-say"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "c1-01-l3-understatement",
+            "title": "It could be better",
+            "titleVi": "Chê khéo bằng cách nói giảm",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "understatement", "role": "INTRODUCE" },
+                { "item": "im-not-entirely-convinced", "role": "INTRODUCE" },
+                { "item": "it-could-be-better", "role": "INTRODUCE" },
+                { "item": "a-bit-of-a", "role": "INTRODUCE" },
+                { "item": "not-particularly", "role": "INTRODUCE" },
+                { "item": "mixed-feelings", "role": "INTRODUCE" },
+                { "item": "underwhelming", "role": "INTRODUCE" },
+                { "item": "overrated", "role": "INTRODUCE" },
+                { "item": "im-not-so-sure", "role": "RECYCLE" },
+                { "item": "frankly", "role": "RECYCLE" },
+                { "item": "i-see-your-point-but", "role": "RECYCLE" },
+                { "item": "far-from", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["im-not-entirely-convinced", "it-could-be-better", "a-bit-of-a", "not-particularly", "mixed-feelings", "underwhelming", "overrated"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Chê mà không làm mất lòng",
+                        "bodyVi": "Thay vì dùng từ tiêu cực, người bản ngữ phủ định một từ tích cực hoặc thu nhỏ vấn đề lại:\n\n| thẳng (dễ mất lòng) | nói giảm |\n|---|---|\n| It was boring. | It was**n't particularly** exciting. |\n| The trip was terrible. | The trip was **a bit of a** disaster. |\n| Work is bad. | **It could be better.** |\n| Your idea won't work. | **I'm not entirely convinced** it'll work. |\n| I didn't like it. | **I have mixed feelings about** it. |\n| It's bad. | It's **far from** perfect. / It's **a bit underwhelming**. |\n\nNghe ra cũng quan trọng như nói: \"Not bad!\" thường là khen, \"It's not great\" là chê, \"That's an interesting idea\" có khi là \"mình không đồng ý\". Nói thẳng hơn thì báo trước: **Frankly**, … / I see your point, but…\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| The food is not delicious. (với chủ nhà) | The food was**n't** really my kind of thing. |\n| It's a bit of disaster. | It's **a bit of a** disaster. |\n| This restaurant is over-evaluated. | This restaurant is **overrated**. |\n\n❌ a bit of disaster ❌ over-evaluated ✅ **It was a bit of a letdown. I think it's overrated.**",
+                        "items": ["understatement", "im-not-entirely-convinced", "it-could-be-better", "a-bit-of-a", "not-particularly", "mixed-feelings", "underwhelming", "overrated", "frankly", "far-from"],
+                        "examples": [
+                            { "en": "The food wasn't particularly good, to be honest.", "vi": "Nói thật là đồ ăn không ngon lắm.", "highlight": "wasn't particularly good" },
+                            { "en": "The trip was a bit of a disaster, actually.", "vi": "Thật ra chuyến đi hơi thảm họa một chút.", "highlight": "a bit of a disaster" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "a-bit-of-a",
+                        "prompts": [
+                            { "cueVi": "Cũng hơi bất ngờ một chút.", "slots": { "noun": "surprise" }, "answer": "It was a bit of a surprise." },
+                            { "cueVi": "Cũng hơi phí thời gian.", "slots": { "noun": "waste of time" }, "answer": "It was a bit of a waste of time." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "not-particularly",
+                        "prompts": [
+                            { "cueVi": "Nó không rẻ lắm.", "slots": { "adjective": "cheap" }, "answer": "It's not particularly cheap." },
+                            { "cueVi": "Nó không thoải mái lắm.", "slots": { "adjective": "comfortable" }, "answer": "It's not particularly comfortable." },
+                            { "cueVi": "Nó không hữu ích lắm.", "slots": { "adjective": "useful" }, "answer": "It's not particularly useful." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["im-not-entirely-convinced", "it-could-be-better", "mixed-feelings", "underwhelming", "overrated", "frankly"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "c1-01-the-new-restaurant", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn bè hỏi bộ phim bạn vừa xem. Bạn thấy chán nhưng muốn nói nhẹ nhàng:",
+                                "options": ["It was boring and terrible.", "It wasn't particularly exciting.", "It was not exciting particularly bad."],
+                                "answer": 1,
+                                "item": "understatement"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["The trip was a bit of disaster.", "The trip was a bit a disaster.", "The trip was a bit of a disaster."],
+                                "answer": 2,
+                                "item": "a-bit-of-a"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "How's work? — Honestly, it could be ___.",
+                                "hintVi": "tốt hơn",
+                                "answers": ["better"],
+                                "item": "it-could-be-better"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "It's a nice idea, but I'm not entirely convinced it'll work.",
+                                "options": ["Ý hay, mình chắc chắn nó sẽ hiệu quả.", "Ý hay đấy, nhưng mình chưa hoàn toàn tin là nó sẽ hiệu quả.", "Ý này không hay chút nào."],
+                                "answer": 1,
+                                "item": "im-not-entirely-convinced"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Mình vừa thích vừa ngại chuyện chuyển lên thành phố.",
+                                "answer": "I have mixed feelings about moving to the city.",
+                                "item": "mixed-feelings"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "c1-01-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Câu nào có sắc thái chê nhẹ (bất ngờ vì không tốt)?",
+                "options": ["The food was rather salty.", "The food was fairly delicious.", "The food was considerably salty."],
+                "answer": 0,
+                "item": "degree-adverbs"
+            },
+            {
+                "kind": "gap",
+                "sentence": "Rents have gone up ___ since last year.",
+                "hintVi": "đáng kể",
+                "answers": ["considerably"],
+                "item": "considerably"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Bạn chỉ ước lượng số người đến dự. Bạn nói:",
+                "options": ["It is sure forty people came.", "I'd say about forty people came.", "Forty people came, exactly."],
+                "answer": 1,
+                "item": "id-say"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Bạn đồng ý một phần:",
+                "options": ["I agree to some extent.", "I agree in some extent.", "I agree some extents."],
+                "answer": 0,
+                "item": "hedging"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "After all the hype, the new phone was a bit underwhelming.",
+                "options": ["Sau bao nhiêu quảng cáo, chiếc điện thoại mới hơi thất vọng.", "Chiếc điện thoại mới gây choáng ngợp.", "Chiếc điện thoại mới bán rất chạy."],
+                "answer": 0,
+                "item": "underwhelming"
+            },
+            {
+                "kind": "order",
+                "vi": "Căn hộ đẹp, nhưng hơi nhỏ một chút.",
+                "answer": "The apartment is nice, but it's a bit on the small side.",
+                "item": "its-a-bit-on-the-side"
+            }
+        ]
+    }
+}

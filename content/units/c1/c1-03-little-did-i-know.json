@@ -1,0 +1,815 @@
+{
+    "slug": "c1-03-little-did-i-know",
+    "stage": "c1",
+    "order": 3,
+    "title": "Little did I know…",
+    "titleVi": "Đảo ngữ: kể chuyện và viết trang trọng",
+    "descriptionVi": "Dùng đảo ngữ để nhấn mạnh sau từ phủ định (Never have I…, Rarely do…, Not once did…, Under no circumstances…), để kể chuyện có kịch tính (Little did I know…, No sooner had… than…, Only then did I…), và trong văn viết trang trọng (Not only did…, Should you need…, Had I known…).",
+    "canDo": [
+        "Tôi nhấn mạnh được một trải nghiệm hiếm có hay một lời khẳng định chắc chắn bằng đảo ngữ.",
+        "Tôi kể được một câu chuyện có bước ngoặt, có kịch tính, như người bản ngữ kể.",
+        "Tôi hiểu và viết được các câu đảo ngữ thường gặp trong email và thông báo trang trọng."
+    ],
+    "items": [
+        {
+            "slug": "negative-inversion",
+            "type": "GRAMMAR",
+            "text": "Never / Rarely / Seldom / Not once / Under no circumstances + trợ động từ + chủ ngữ + V",
+            "meaningVi": "đảo ngữ sau từ phủ định để nhấn mạnh",
+            "examples": [
+                { "en": "Never have I seen such a beautiful sunset.", "vi": "Chưa bao giờ mình thấy hoàng hôn đẹp đến thế.", "highlight": "Never have I seen" }
+            ],
+            "grammar": {
+                "ruleVi": "Khi đưa một từ phủ định hay hạn chế (never, rarely, seldom, not once, under no circumstances) lên đầu câu, trợ động từ đứng trước chủ ngữ như câu hỏi. Không có trợ động từ thì thêm do / does / did. Câu nghe mạnh và trang trọng, hợp văn viết, bài phát biểu, kể chuyện; nói thường ngày thì dùng câu bình thường.",
+                "forms": [
+                    { "label": "hiện tại hoàn thành", "example": "Never have I felt so tired." },
+                    { "label": "hiện tại đơn (thêm do)", "example": "Rarely do you see people walking in this city." },
+                    { "label": "quá khứ đơn (thêm did)", "example": "Not once did he say thank you." },
+                    { "label": "be", "example": "Seldom is the weather this nice in March." },
+                    { "label": "cấm tuyệt đối", "example": "Under no circumstances should you share your password." }
+                ],
+                "pitfallsVi": [
+                    "\"Never I have seen…\" → Never have I seen…",
+                    "\"Not once he said thank you\" → Not once did he say thank you. (thêm did, động từ về nguyên mẫu)",
+                    "Dùng đảo ngữ khi tán gẫu nghe kịch; nói thường: I've never seen…"
+                ]
+            }
+        },
+        {
+            "slug": "never-have-i",
+            "type": "PATTERN",
+            "text": "Never have I ….",
+            "meaningVi": "Chưa bao giờ tôi ….",
+            "examples": [
+                { "en": "Never have I eaten so much in one day.", "vi": "Chưa bao giờ mình ăn nhiều như thế trong một ngày.", "highlight": "Never have I eaten" }
+            ],
+            "pattern": {
+                "template": "Never have I {done}.",
+                "slots": [
+                    { "name": "done", "hintVi": "V3 + phần còn lại", "options": ["seen such a beautiful sunset", "eaten so much in one day", "felt so welcome", "been so nervous", "met such kind people"] }
+                ]
+            },
+            "noteVi": "Nối tiếp I've never… (A2 09). Đảo ngữ nhấn rằng trải nghiệm này hiếm, đặc biệt. Hay đi với such / so."
+        },
+        {
+            "slug": "rarely-do",
+            "type": "PATTERN",
+            "text": "Rarely do you … these days.",
+            "meaningVi": "Ngày nay hiếm khi thấy ….",
+            "examples": [
+                { "en": "Rarely do you see handwritten letters these days.", "vi": "Ngày nay hiếm khi thấy thư viết tay.", "highlight": "Rarely do you see" }
+            ],
+            "pattern": {
+                "template": "Rarely do you {do} these days.",
+                "slots": [
+                    { "name": "do", "hintVi": "động từ nguyên mẫu + phần còn lại", "options": ["see handwritten letters", "meet people who read newspapers", "find a quiet café", "hear kids playing outside", "get a real answer from customer service"] }
+                ]
+            },
+            "noteVi": "you ở đây là \"người ta nói chung\". Seldom trang trọng hơn rarely. Câu thường: You rarely see…."
+        },
+        {
+            "slug": "not-once-did",
+            "type": "PATTERN",
+            "text": "Not once did … ….",
+            "meaningVi": "Không một lần nào … ….",
+            "examples": [
+                { "en": "Not once did he say thank you.", "vi": "Anh ta không một lần nào nói cảm ơn.", "highlight": "Not once did he say" }
+            ],
+            "pattern": {
+                "template": "Not once did {person} {do}.",
+                "slots": [
+                    { "name": "person", "hintVi": "chủ ngữ", "options": ["he", "my boss", "the landlord", "she", "anyone"] },
+                    { "name": "do", "hintVi": "động từ nguyên mẫu + phần còn lại", "options": ["say thank you", "ask for my opinion", "fix the leak", "complain", "offer to help"] }
+                ]
+            },
+            "noteVi": "Phàn nàn hoặc khen rất mạnh. Sau did là nguyên mẫu (❌ \"did he said\")."
+        },
+        {
+            "slug": "under-no-circumstances",
+            "type": "PHRASE",
+            "text": "Under no circumstances should you ….",
+            "meaningVi": "Trong bất kỳ trường hợp nào cũng không được ….",
+            "examples": [
+                { "en": "Under no circumstances should you share your password.", "vi": "Trong bất kỳ trường hợp nào cũng không được chia sẻ mật khẩu.", "highlight": "Under no circumstances should you" }
+            ],
+            "noteVi": "Cấm tuyệt đối, hay gặp trong hướng dẫn an toàn, quy định. circumstances (B2 11) = hoàn cảnh. Nói thường: Never share your password."
+        },
+        {
+            "slug": "seldom",
+            "type": "LEXICAL",
+            "text": "seldom",
+            "meaningVi": "hiếm khi",
+            "ipa": "/ˈseldəm/",
+            "examples": [
+                { "en": "My grandparents seldom leave their village.", "vi": "Ông bà mình hiếm khi rời làng.", "highlight": "seldom" }
+            ],
+            "noteVi": "Trang trọng hơn rarely, hiếm khi nói. Đã mang nghĩa phủ định: ❌ \"don't seldom\"."
+        },
+        {
+            "slug": "remarkable",
+            "type": "LEXICAL",
+            "text": "remarkable",
+            "meaningVi": "đáng chú ý, phi thường",
+            "ipa": "/rɪˈmɑːrkəbəl/",
+            "examples": [
+                { "en": "She made a remarkable recovery after the accident.", "vi": "Cô ấy hồi phục phi thường sau tai nạn.", "highlight": "remarkable" }
+            ],
+            "noteVi": "Khen một điều hiếm và đáng nể. Trạng từ: remarkably (remarkably quick)."
+        },
+        {
+            "slug": "breathtaking",
+            "type": "LEXICAL",
+            "text": "breathtaking",
+            "meaningVi": "đẹp đến nghẹt thở",
+            "ipa": "/ˈbreθteɪkɪŋ/",
+            "examples": [
+                { "en": "The view of Ha Long Bay at sunrise was breathtaking.", "vi": "Vịnh Hạ Long lúc bình minh đẹp đến nghẹt thở.", "highlight": "breathtaking" }
+            ],
+            "noteVi": "Tính từ mạnh, không đi với very (xem C1 02). Gần nghĩa: stunning, spectacular."
+        },
+        {
+            "slug": "time-inversion",
+            "type": "GRAMMAR",
+            "text": "Little did I know…, Hardly / No sooner had … when / than…, Only then / Only when … did …",
+            "meaningVi": "đảo ngữ kể chuyện: bước ngoặt và thứ tự thời gian",
+            "examples": [
+                { "en": "Little did I know that this trip would change my life.", "vi": "Mình đâu có ngờ chuyến đi này sẽ thay đổi cuộc đời mình.", "highlight": "Little did I know" }
+            ],
+            "grammar": {
+                "ruleVi": "Người kể chuyện dùng đảo ngữ để tạo kịch tính. Little did I know (mình đâu có ngờ) báo trước một bước ngoặt. No sooner had + S + V3 than… và Hardly had + S + V3 when… (vừa mới… thì…) cho hai việc gần như liền nhau, việc đầu ở quá khứ hoàn thành (B2 01). Only then / Only when … did + S + V: mãi đến lúc đó mới….",
+                "forms": [
+                    { "label": "bước ngoặt", "example": "Little did we know that the storm was coming." },
+                    { "label": "vừa mới… thì", "example": "No sooner had I sat down than the phone rang." },
+                    { "label": "vừa mới… thì (2)", "example": "Hardly had we arrived when it started to rain." },
+                    { "label": "mãi đến lúc đó", "example": "Only then did I realize my wallet was gone." },
+                    { "label": "mãi đến khi", "example": "Only when I got home did I notice the mistake." }
+                ],
+                "pitfallsVi": [
+                    "\"No sooner had I sat down when…\" → No sooner … than…; Hardly … when… (không trộn)",
+                    "\"Little I knew that…\" → Little did I know that…",
+                    "\"Only then I realized\" → Only then did I realize."
+                ]
+            }
+        },
+        {
+            "slug": "little-did-i-know",
+            "type": "PATTERN",
+            "text": "Little did I know that ….",
+            "meaningVi": "Tôi đâu có ngờ rằng ….",
+            "examples": [
+                { "en": "Little did I know that she would become my best friend.", "vi": "Mình đâu có ngờ cô ấy sẽ thành bạn thân nhất của mình.", "highlight": "Little did I know that" }
+            ],
+            "pattern": {
+                "template": "Little did I know that {twist}.",
+                "slots": [
+                    { "name": "twist", "hintVi": "bước ngoặt (would / was going to / quá khứ)", "options": ["she would become my best friend", "this trip would change my life", "the job was a scam", "my boss was listening", "we'd end up living there"] }
+                ]
+            },
+            "noteVi": "Câu mở bước ngoặt kinh điển của người kể chuyện. Tương lai trong quá khứ dùng would. Câu thường: I had no idea that…."
+        },
+        {
+            "slug": "no-sooner-had",
+            "type": "PATTERN",
+            "text": "No sooner had I … than ….",
+            "meaningVi": "Tôi vừa mới … thì ….",
+            "examples": [
+                { "en": "No sooner had I sat down than the phone rang.", "vi": "Mình vừa mới ngồi xuống thì điện thoại reo.", "highlight": "No sooner had I sat down than" }
+            ],
+            "pattern": {
+                "template": "No sooner had I {done} than {event}.",
+                "slots": [
+                    { "name": "done", "hintVi": "V3", "options": ["sat down", "left the house", "paid for the ticket", "fallen asleep", "sent the email"] },
+                    { "name": "event", "hintVi": "việc xảy ra ngay sau (quá khứ đơn)", "options": ["the phone rang", "it started to pour", "they canceled the show", "the baby woke up", "I noticed a typo"] }
+                ]
+            },
+            "noteVi": "Luôn là than (vì sooner là so sánh hơn). Câu thường: As soon as I sat down, the phone rang. (B1 05)"
+        },
+        {
+            "slug": "only-then-did",
+            "type": "PATTERN",
+            "text": "Only then did I realize ….",
+            "meaningVi": "Mãi đến lúc đó tôi mới nhận ra ….",
+            "examples": [
+                { "en": "Only then did I realize how much I missed home.", "vi": "Mãi đến lúc đó mình mới nhận ra mình nhớ nhà đến mức nào.", "highlight": "Only then did I realize" }
+            ],
+            "pattern": {
+                "template": "Only then did I realize {fact}.",
+                "slots": [
+                    { "name": "fact", "hintVi": "điều nhận ra (quá khứ)", "options": ["how much I missed home", "my wallet was gone", "I was on the wrong train", "what she had meant", "how lucky I was"] }
+                ]
+            },
+            "noteVi": "Nối tiếp realize (B2 01). Biến thể: Only when I got home did I notice…, Only after he left did I understand…."
+        },
+        {
+            "slug": "out-of-the-blue",
+            "type": "PHRASE",
+            "text": "out of the blue",
+            "meaningVi": "bất thình lình, không báo trước",
+            "examples": [
+                { "en": "An old friend called me out of the blue last night.", "vi": "Tối qua một người bạn cũ bất ngờ gọi cho mình.", "highlight": "out of the blue" }
+            ],
+            "noteVi": "Nhấn rằng không ai ngờ, thường đứng cuối câu. Gần nghĩa: all of a sudden (B2 01), nhưng out of the blue hay dùng cho tin nhắn, cuộc gọi, lời đề nghị."
+        },
+        {
+            "slug": "to-my-surprise",
+            "type": "PHRASE",
+            "text": "To my surprise, …",
+            "meaningVi": "Tôi ngạc nhiên là, …",
+            "examples": [
+                { "en": "To my surprise, the shy boy won the speech contest.", "vi": "Mình ngạc nhiên là cậu bé nhút nhát lại thắng cuộc thi hùng biện.", "highlight": "To my surprise" }
+            ],
+            "noteVi": "Cùng họ: To my relief (nhẹ cả người), To my horror (kinh hoàng), Much to our delight (rất vui). Đứng đầu câu, có dấu phẩy."
+        },
+        {
+            "slug": "twist",
+            "type": "LEXICAL",
+            "text": "twist",
+            "meaningVi": "bước ngoặt bất ngờ",
+            "ipa": "/twɪst/",
+            "examples": [
+                { "en": "The movie has a great twist at the end.", "vi": "Bộ phim có một cú twist rất hay ở cuối.", "highlight": "twist" }
+            ],
+            "noteVi": "a plot twist (bước ngoặt cốt truyện), in a strange twist of fate. Động từ: twist (vặn, trẹo): I twisted my ankle."
+        },
+        {
+            "slug": "coincidence",
+            "type": "LEXICAL",
+            "text": "coincidence",
+            "meaningVi": "sự trùng hợp",
+            "ipa": "/koʊˈɪnsɪdəns/",
+            "examples": [
+                { "en": "What a coincidence! We were born on the same day.", "vi": "Trùng hợp quá! Bọn mình sinh cùng ngày.", "highlight": "coincidence" }
+            ],
+            "noteVi": "What a coincidence! / by coincidence (tình cờ). Nhấn âm \"in\": co-IN-ci-dence."
+        },
+        {
+            "slug": "conditional-inversion",
+            "type": "GRAMMAR",
+            "text": "Not only did … but …; Should you + V…; Had I + V3…; Were I to + V…",
+            "meaningVi": "đảo ngữ trang trọng: thêm ý và câu điều kiện không có if",
+            "examples": [
+                { "en": "Should you need any further information, please contact us.", "vi": "Nếu quý khách cần thêm thông tin, xin liên hệ chúng tôi.", "highlight": "Should you need" }
+            ],
+            "grammar": {
+                "ruleVi": "Văn viết trang trọng hay bỏ if và đảo trợ động từ lên đầu. Should you + V = If you (happen to) + V (loại 1, rất hay gặp cuối email). Had + S + V3 = If + S + had + V3 (loại 3, B2 02). Were + S + to + V = If + S + were to + V (loại 2, giả định xa). Not only + trợ động từ + S + V, but (also)… nhấn hai ý, mạnh hơn not only … but also (B2 10).",
+                "forms": [
+                    { "label": "loại 1", "example": "Should you have any questions, do not hesitate to call." },
+                    { "label": "loại 3", "example": "Had I known about the traffic, I would have left earlier." },
+                    { "label": "loại 2", "example": "Were I to move abroad, I would miss my family terribly." },
+                    { "label": "thêm ý", "example": "Not only did she finish early, but she also helped the others." }
+                ],
+                "pitfallsVi": [
+                    "\"If had I known\" → Had I known… / If I had known…",
+                    "\"Should you needed\" → Should you need… (nguyên mẫu)",
+                    "\"Not only she finished early\" → Not only did she finish early, …"
+                ]
+            }
+        },
+        {
+            "slug": "not-only-did",
+            "type": "PATTERN",
+            "text": "Not only did …, but ….",
+            "meaningVi": "Không những … mà còn ….",
+            "examples": [
+                { "en": "Not only did she finish early, but she also helped the others.", "vi": "Cô ấy không những xong sớm mà còn giúp những người khác.", "highlight": "Not only did she finish early, but" }
+            ],
+            "pattern": {
+                "template": "Not only did {first}, but {second}.",
+                "slots": [
+                    { "name": "first", "hintVi": "chủ ngữ + V nguyên mẫu", "options": ["she finish early", "the hotel lose our booking", "we miss the flight", "he forget my birthday", "the team win the match"] },
+                    { "name": "second", "hintVi": "ý thứ hai (quá khứ)", "options": ["she also helped the others", "they also charged us twice", "we also lost our bags", "he also didn't call", "they also broke the record"] }
+                ]
+            },
+            "noteVi": "Nối tiếp It's not only …, but also … (B2 10). Vế sau là câu bình thường, hay có also. Nhấn một chuỗi chuyện tốt hoặc tệ chồng lên nhau."
+        },
+        {
+            "slug": "should-you-need",
+            "type": "PATTERN",
+            "text": "Should you need …, please let us know.",
+            "meaningVi": "Nếu anh / chị cần …, xin cho chúng tôi biết.",
+            "examples": [
+                { "en": "Should you need any help with the booking, please let us know.", "vi": "Nếu quý khách cần giúp đặt phòng, xin cho chúng tôi biết.", "highlight": "Should you need" }
+            ],
+            "pattern": {
+                "template": "Should you need {thing}, please let us know.",
+                "slots": [
+                    { "name": "thing", "hintVi": "danh từ", "options": ["any help with the booking", "further information", "an invoice", "more time", "any assistance"] }
+                ]
+            },
+            "noteVi": "Câu kết email và thư trang trọng rất thường gặp. Nối tiếp formal-email (B2 05). Thân mật: If you need anything, just let me know."
+        },
+        {
+            "slug": "had-i-known",
+            "type": "PATTERN",
+            "text": "Had I known …, I would have ….",
+            "meaningVi": "Nếu tôi biết … thì tôi đã ….",
+            "examples": [
+                { "en": "Had I known about the traffic, I would have left earlier.", "vi": "Nếu biết tắc đường thì mình đã đi sớm hơn.", "highlight": "Had I known" }
+            ],
+            "pattern": {
+                "template": "Had I known {fact}, I would have {done}.",
+                "slots": [
+                    { "name": "fact", "hintVi": "điều không biết lúc đó", "options": ["about the traffic", "you were coming", "it was your birthday", "how difficult it was", "the shop was closed"] },
+                    { "name": "done", "hintVi": "V3", "options": ["left earlier", "cooked more food", "bought you a present", "asked for help", "stayed at home"] }
+                ]
+            },
+            "noteVi": "Bản trang trọng của If I'd known (B2 02). Hay dùng khi xin lỗi trong thư: Had we known about the problem, we would have contacted you immediately."
+        },
+        {
+            "slug": "do-not-hesitate",
+            "type": "PHRASE",
+            "text": "Please do not hesitate to contact us.",
+            "meaningVi": "Xin đừng ngần ngại liên hệ với chúng tôi.",
+            "examples": [
+                { "en": "If you have any questions, please do not hesitate to contact us.", "vi": "Nếu có câu hỏi, xin đừng ngần ngại liên hệ với chúng tôi.", "highlight": "please do not hesitate to contact us" }
+            ],
+            "noteVi": "Câu kết thư trang trọng kinh điển. hesitate to + V. Email với đồng nghiệp: Just let me know if you have any questions."
+        },
+        {
+            "slug": "further",
+            "type": "LEXICAL",
+            "text": "further",
+            "meaningVi": "thêm, hơn nữa",
+            "ipa": "/ˈfɜːrðər/",
+            "examples": [
+                { "en": "For further details, please see the attached document.", "vi": "Để biết thêm chi tiết, xin xem tài liệu đính kèm.", "highlight": "further" }
+            ],
+            "noteVi": "Trang trọng cho \"more\": further information, further questions, until further notice (cho đến khi có thông báo mới). Còn là so sánh của far."
+        },
+        {
+            "slug": "assistance",
+            "type": "LEXICAL",
+            "text": "assistance",
+            "meaningVi": "sự hỗ trợ, giúp đỡ",
+            "ipa": "/əˈsɪstəns/",
+            "examples": [
+                { "en": "Thank you for your assistance with this matter.", "vi": "Cảm ơn anh đã hỗ trợ việc này.", "highlight": "assistance" }
+            ],
+            "noteVi": "Trang trọng hơn help, không đếm được: ❌ \"an assistance\". Người: assistant."
+        },
+        {
+            "slug": "inquiry",
+            "type": "LEXICAL",
+            "text": "inquiry",
+            "meaningVi": "câu hỏi, yêu cầu thông tin",
+            "ipa": "/ˈɪnkwəri/",
+            "examples": [
+                { "en": "Thank you for your inquiry about our summer courses.", "vi": "Cảm ơn anh đã hỏi về các khóa hè của chúng tôi.", "highlight": "inquiry" }
+            ],
+            "noteVi": "Kiểu Mỹ inquiry, kiểu Anh enquiry. Câu mở thư trả lời khách: Thank you for your inquiry. Còn nghĩa \"cuộc điều tra\": an official inquiry."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "c1-03-the-trip-story",
+            "title": "Little did I know…",
+            "situationVi": "Anh Daniel, đồng nghiệp người Mỹ, hỏi bạn đã gặp người bạn đời của mình như thế nào. Bạn kể lại chuyến đi Hội An năm năm trước.",
+            "lines": [
+                { "speaker": "Daniel", "en": "So how did you two meet? I've always wanted to ask.", "vi": "Thế hai người gặp nhau thế nào? Mình muốn hỏi lâu rồi." },
+                { "speaker": "You", "en": "It's a funny story. Five years ago I went to Hoi An alone. Little did I know that trip would change my life.", "vi": "Chuyện buồn cười lắm. Năm năm trước mình đi Hội An một mình. Mình đâu có ngờ chuyến đi đó thay đổi cả cuộc đời.", "learnerTurn": true },
+                { "speaker": "Daniel", "en": "Ooh, go on!", "vi": "Ồ, kể tiếp đi!" },
+                { "speaker": "You", "en": "Well, no sooner had I arrived than it started to pour. I ran into a small café to wait, and there was only one free seat.", "vi": "Mình vừa mới đến thì trời đổ mưa to. Mình chạy vào một quán cà phê nhỏ để trú, và chỉ còn đúng một ghế trống.", "learnerTurn": true },
+                { "speaker": "Daniel", "en": "Next to a certain someone, I guess?", "vi": "Cạnh một người đặc biệt, đoán vậy?" },
+                { "speaker": "You", "en": "Exactly. We started talking, and to my surprise, we were from the same street in Hanoi! What a coincidence.", "vi": "Chính xác. Bọn mình bắt đầu nói chuyện, và mình ngạc nhiên là bọn mình ở cùng một phố ở Hà Nội! Trùng hợp thật.", "learnerTurn": true },
+                { "speaker": "Daniel", "en": "No way! That's like a movie twist.", "vi": "Không thể nào! Như cú twist trong phim vậy." },
+                { "speaker": "You", "en": "I know. Never have I talked to a stranger for so long. Only when the café closed did we realize it was midnight.", "vi": "Đúng thế. Chưa bao giờ mình nói chuyện với người lạ lâu như thế. Mãi đến khi quán đóng cửa bọn mình mới biết đã nửa đêm.", "learnerTurn": true },
+                { "speaker": "Daniel", "en": "That's amazing. Thank goodness for the rain!", "vi": "Tuyệt quá. May mà có trận mưa!" }
+            ]
+        },
+        {
+            "slug": "c1-03-hotel-complaint",
+            "title": "Had we known…",
+            "situationVi": "Bạn là quản lý khách sạn. Bà Wilson gọi điện phàn nàn vì khách sạn làm mất đặt phòng của bà và tính tiền hai lần. Bạn xin lỗi và giải quyết một cách chuyên nghiệp.",
+            "lines": [
+                { "speaker": "Ms. Wilson", "en": "I'm calling about my stay last weekend. Not only did you lose my booking, but you also charged my card twice!", "vi": "Tôi gọi về kỳ nghỉ cuối tuần trước. Khách sạn không những làm mất đặt phòng của tôi mà còn trừ tiền thẻ tôi hai lần!" },
+                { "speaker": "You", "en": "I'm very sorry to hear that, Ms. Wilson. Thank you for letting us know. Could I have your booking number, please?", "vi": "Tôi rất tiếc khi nghe vậy, thưa bà Wilson. Cảm ơn bà đã báo cho chúng tôi. Xin bà cho tôi mã đặt phòng được không ạ?", "learnerTurn": true },
+                { "speaker": "Ms. Wilson", "en": "It's W-4-5-2. And nobody at the front desk apologized.", "vi": "W-4-5-2. Mà không ai ở quầy lễ tân xin lỗi cả." },
+                { "speaker": "You", "en": "I apologize for that. I can see the double charge now. Had we known about it earlier, we would have refunded you immediately.", "vi": "Tôi xin lỗi về điều đó. Tôi thấy lần trừ tiền thứ hai rồi. Nếu biết sớm hơn, chúng tôi đã hoàn tiền cho bà ngay.", "learnerTurn": true },
+                { "speaker": "Ms. Wilson", "en": "So when will I get my money back?", "vi": "Vậy khi nào tôi nhận lại tiền?" },
+                { "speaker": "You", "en": "The refund will reach your card within five working days. Under no circumstances should this have happened, so we'd also like to offer you a free night.", "vi": "Khoản hoàn tiền sẽ về thẻ của bà trong vòng năm ngày làm việc. Chuyện này lẽ ra không bao giờ được xảy ra, nên chúng tôi xin tặng bà thêm một đêm miễn phí.", "learnerTurn": true },
+                { "speaker": "Ms. Wilson", "en": "Well, that's very kind. Thank you.", "vi": "À, vậy thì tốt quá. Cảm ơn nhé." },
+                { "speaker": "You", "en": "It's our pleasure. I'll send you an email to confirm. Should you need any further assistance, please do not hesitate to contact me directly.", "vi": "Đó là niềm vui của chúng tôi. Tôi sẽ gửi email xác nhận. Nếu bà cần hỗ trợ thêm, xin đừng ngần ngại liên hệ trực tiếp với tôi.", "learnerTurn": true },
+                { "speaker": "Ms. Wilson", "en": "I will. Goodbye.", "vi": "Được. Chào nhé." }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "c1-03-l1-never-have-i",
+            "title": "Never have I…",
+            "titleVi": "Đảo ngữ sau từ phủ định",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "negative-inversion", "role": "INTRODUCE" },
+                { "item": "never-have-i", "role": "INTRODUCE" },
+                { "item": "rarely-do", "role": "INTRODUCE" },
+                { "item": "not-once-did", "role": "INTRODUCE" },
+                { "item": "under-no-circumstances", "role": "INTRODUCE" },
+                { "item": "seldom", "role": "INTRODUCE" },
+                { "item": "remarkable", "role": "INTRODUCE" },
+                { "item": "breathtaking", "role": "INTRODUCE" },
+                { "item": "ive-never", "role": "RECYCLE" },
+                { "item": "present-perfect-experience", "role": "RECYCLE" },
+                { "item": "amazing", "role": "RECYCLE" },
+                { "item": "such-a-that", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["never-have-i", "rarely-do", "not-once-did", "under-no-circumstances", "seldom", "remarkable", "breathtaking"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Từ phủ định lên đầu, câu đảo như câu hỏi",
+                        "bodyVi": "Đưa từ phủ định lên đầu câu thì trợ động từ đứng trước chủ ngữ, giống câu hỏi:\n\n| câu thường | đảo ngữ (nhấn, trang trọng) |\n|---|---|\n| I've **never** seen such a sunset. | **Never have I** seen such a sunset. |\n| You **rarely** see letters these days. | **Rarely do you** see letters these days. |\n| He **didn't** say thank you **once**. | **Not once did he** say thank you. |\n| You should **never** share your password. | **Under no circumstances should you** share your password. |\n\nCách đảo theo thì:\n\n| thì | trợ động từ đảo lên |\n|---|---|\n| hiện tại hoàn thành | have / has |\n| hiện tại đơn | do / does (+ V nguyên mẫu) |\n| quá khứ đơn | did (+ V nguyên mẫu) |\n| be, modal | is / was, should / can |\n\nDùng khi kể chuyện, phát biểu, viết; khi tán gẫu thì câu thường (I've never…, A2 09) tự nhiên hơn. Hay đi với tính từ mạnh: **breathtaking**, **remarkable**, amazing, và such a… (C1 02).\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| Never I have seen it. | **Never have I** seen it. |\n| Not once he said thank you. | **Not once did he say** thank you. |\n| Seldom I go there. | **Seldom do I** go there. / I **seldom** go there. |\n\n❌ Never I have seen ❌ Not once he said ✅ **Never have I seen such a breathtaking view.**",
+                        "items": ["negative-inversion", "never-have-i", "rarely-do", "not-once-did", "under-no-circumstances", "seldom", "remarkable", "breathtaking", "ive-never", "amazing", "such-a-that"],
+                        "examples": [
+                            { "en": "Never have I seen such a beautiful sunset.", "vi": "Chưa bao giờ mình thấy hoàng hôn đẹp đến thế.", "highlight": "Never have I seen" },
+                            { "en": "Not once did he say thank you.", "vi": "Anh ta không một lần nào nói cảm ơn.", "highlight": "Not once did he say" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "never-have-i",
+                        "prompts": [
+                            { "cueVi": "Chưa bao giờ mình thấy được chào đón như vậy.", "slots": { "done": "felt so welcome" }, "answer": "Never have I felt so welcome." },
+                            { "cueVi": "Chưa bao giờ mình gặp những người tốt như vậy.", "slots": { "done": "met such kind people" }, "answer": "Never have I met such kind people." },
+                            { "cueVi": "Chưa bao giờ mình hồi hộp như vậy.", "slots": { "done": "been so nervous" }, "answer": "Never have I been so nervous." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "not-once-did",
+                        "prompts": [
+                            { "cueVi": "Sếp mình không một lần nào hỏi ý kiến mình.", "slots": { "person": "my boss", "do": "ask for my opinion" }, "answer": "Not once did my boss ask for my opinion." },
+                            { "cueVi": "Chủ nhà không một lần nào sửa chỗ dột.", "slots": { "person": "the landlord", "do": "fix the leak" }, "answer": "Not once did the landlord fix the leak." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["under-no-circumstances", "seldom", "remarkable", "breathtaking", "amazing"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "Never have I seen such a beautiful sunset.", "vi": "Chưa bao giờ mình thấy hoàng hôn đẹp đến thế." },
+                            { "en": "Rarely do you see handwritten letters these days.", "vi": "Ngày nay hiếm khi thấy thư viết tay." },
+                            { "en": "Not once did he say thank you.", "vi": "Anh ta không một lần nào nói cảm ơn." },
+                            { "en": "Under no circumstances should you share your password.", "vi": "Trong bất kỳ trường hợp nào cũng không được chia sẻ mật khẩu." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["Never I have seen such a view.", "Never have I seen such a view.", "Never have seen I such a view."],
+                                "answer": 1,
+                                "item": "negative-inversion"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["Not once he said thank you.", "Not once did he said thank you.", "Not once did he say thank you."],
+                                "answer": 2,
+                                "item": "not-once-did"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Rarely ___ you see handwritten letters these days.",
+                                "hintVi": "trợ động từ",
+                                "answers": ["do"],
+                                "item": "rarely-do"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "The view of Ha Long Bay at sunrise was breathtaking.",
+                                "options": ["Vịnh Hạ Long lúc bình minh đẹp đến nghẹt thở.", "Leo lên ngắm Hạ Long mệt đến hụt hơi.", "Sáng sớm ở Hạ Long có nhiều gió."],
+                                "answer": 0,
+                                "item": "breathtaking"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Ông bà mình hiếm khi rời làng.",
+                                "answer": "My grandparents seldom leave their village.",
+                                "item": "seldom"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "c1-03-l2-storytelling",
+            "title": "No sooner had I…",
+            "titleVi": "Kể chuyện có kịch tính",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "time-inversion", "role": "INTRODUCE" },
+                { "item": "little-did-i-know", "role": "INTRODUCE" },
+                { "item": "no-sooner-had", "role": "INTRODUCE" },
+                { "item": "only-then-did", "role": "INTRODUCE" },
+                { "item": "out-of-the-blue", "role": "INTRODUCE" },
+                { "item": "to-my-surprise", "role": "INTRODUCE" },
+                { "item": "twist", "role": "INTRODUCE" },
+                { "item": "coincidence", "role": "INTRODUCE" },
+                { "item": "past-perfect", "role": "RECYCLE" },
+                { "item": "it-turned-out", "role": "RECYCLE" },
+                { "item": "all-of-a-sudden", "role": "RECYCLE" },
+                { "item": "realize", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["little-did-i-know", "no-sooner-had", "only-then-did", "out-of-the-blue", "to-my-surprise", "twist", "coincidence"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Công cụ của người kể chuyện",
+                        "bodyVi": "Ở B2 (unit 01) bạn đã kể chuyện bằng các thì quá khứ. Ở C1, đảo ngữ và vài cụm cố định làm câu chuyện có nhịp và kịch tính:\n\n| chức năng | câu |\n|---|---|\n| báo trước bước ngoặt | **Little did I know that** this trip would change my life. |\n| hai việc liền nhau | **No sooner had I** sat down **than** the phone rang. |\n| (cùng nghĩa) | **Hardly had we** arrived **when** it started to rain. |\n| mãi đến lúc đó | **Only then did I realize** my wallet was gone. |\n| (cùng nghĩa) | **Only when** I got home **did I** notice the mistake. |\n| bất thình lình | He called me **out of the blue**. / **All of a sudden**, … (B2 01) |\n| bất ngờ | **To my surprise**, … / **It turned out** that… (B2 01) |\n| trùng hợp | What a **coincidence**! |\n\nNo sooner đi với **than**, Hardly đi với **when**; việc đầu dùng quá khứ hoàn thành (had + V3, B2 01).\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| No sooner I sat down, the phone rang. | **No sooner had I sat down than** the phone rang. |\n| Little I knew that… | **Little did I know** that… |\n| Only then I realized. | **Only then did I realize**. |\n\n❌ No sooner I sat down ❌ Only then I realized ✅ **Little did I know that she was my new boss!**",
+                        "items": ["time-inversion", "little-did-i-know", "no-sooner-had", "only-then-did", "out-of-the-blue", "to-my-surprise", "twist", "coincidence", "past-perfect", "it-turned-out", "all-of-a-sudden", "realize"],
+                        "examples": [
+                            { "en": "Little did I know that this trip would change my life.", "vi": "Mình đâu có ngờ chuyến đi này sẽ thay đổi cuộc đời mình.", "highlight": "Little did I know that" },
+                            { "en": "No sooner had I sat down than the phone rang.", "vi": "Mình vừa mới ngồi xuống thì điện thoại reo.", "highlight": "No sooner had I sat down than" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "no-sooner-had",
+                        "prompts": [
+                            { "cueVi": "Mình vừa mới ra khỏi nhà thì trời đổ mưa.", "slots": { "done": "left the house", "event": "it started to pour" }, "answer": "No sooner had I left the house than it started to pour." },
+                            { "cueVi": "Mình vừa mới trả tiền vé thì họ hủy buổi diễn.", "slots": { "done": "paid for the ticket", "event": "they canceled the show" }, "answer": "No sooner had I paid for the ticket than they canceled the show." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "little-did-i-know",
+                        "prompts": [
+                            { "cueVi": "Mình đâu có ngờ sếp đang nghe.", "slots": { "twist": "my boss was listening" }, "answer": "Little did I know that my boss was listening." },
+                            { "cueVi": "Mình đâu có ngờ công việc đó là lừa đảo.", "slots": { "twist": "the job was a scam" }, "answer": "Little did I know that the job was a scam." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["out-of-the-blue", "to-my-surprise", "twist", "coincidence", "it-turned-out", "all-of-a-sudden", "realize"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "c1-03-the-trip-story", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["No sooner had I sat down when the phone rang.", "No sooner had I sat down than the phone rang.", "No sooner I had sat down than the phone rang."],
+                                "answer": 1,
+                                "item": "time-inversion"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["Only then did I realize my wallet was gone.", "Only then I realized my wallet was gone.", "Only then did I realized my wallet was gone."],
+                                "answer": 0,
+                                "item": "only-then-did"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Little ___ I know that this trip would change my life.",
+                                "hintVi": "trợ động từ",
+                                "answers": ["did"],
+                                "item": "little-did-i-know"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "An old friend called me out of the blue last night.",
+                                "options": ["Tối qua một người bạn cũ bất ngờ gọi cho mình.", "Tối qua mình buồn nên gọi cho một người bạn cũ.", "Tối qua bạn cũ gọi khi trời đầy sao."],
+                                "answer": 0,
+                                "item": "out-of-the-blue"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Trùng hợp quá! Bọn mình sinh cùng ngày.",
+                                "answer": "What a coincidence! We were born on the same day.",
+                                "item": "coincidence"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "c1-03-l3-formal",
+            "title": "Should you need…",
+            "titleVi": "Đảo ngữ trong thư trang trọng",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "conditional-inversion", "role": "INTRODUCE" },
+                { "item": "not-only-did", "role": "INTRODUCE" },
+                { "item": "should-you-need", "role": "INTRODUCE" },
+                { "item": "had-i-known", "role": "INTRODUCE" },
+                { "item": "do-not-hesitate", "role": "INTRODUCE" },
+                { "item": "further", "role": "INTRODUCE" },
+                { "item": "assistance", "role": "INTRODUCE" },
+                { "item": "inquiry", "role": "INTRODUCE" },
+                { "item": "third-conditional", "role": "RECYCLE" },
+                { "item": "formal-email", "role": "RECYCLE" },
+                { "item": "not-only-but-also", "role": "RECYCLE" },
+                { "item": "if-id-known", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["not-only-did", "should-you-need", "had-i-known", "do-not-hesitate", "further", "assistance", "inquiry"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Bỏ if, đảo trợ động từ lên đầu",
+                        "bodyVi": "Thư, email và thông báo trang trọng hay dùng câu điều kiện không có if:\n\n| câu thường | đảo ngữ trang trọng |\n|---|---|\n| If you need any help, … | **Should you need** any help, … |\n| If I'd known (B2 02), I would have… | **Had I known**, I would have… |\n| If I were to move abroad, … | **Were I to** move abroad, … |\n| It's not only…, but also… (B2 10) | **Not only did** she finish early, **but** she also… |\n\nCâu kết thư quen thuộc (nối tiếp khung email B2 05):\n\n| mục đích | câu |\n|---|---|\n| mở thư trả lời | Thank you for your **inquiry**. |\n| gửi thêm chi tiết | For **further** details, please see the attached. |\n| mời hỏi thêm | **Should you need** any **further assistance**, … |\n| kết | … **please do not hesitate to** contact us. |\n\nViết cho đồng nghiệp thân thì không cần: If you need anything, just let me know!\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| If had I known… | **Had I known**… / If I had known… |\n| Should you needed any help… | **Should you need** any help… |\n| Thank you for your assistances. | Thank you for your **assistance**. |\n\n❌ If had I known ❌ your assistances ✅ **Should you need any further assistance, please do not hesitate to contact us.**",
+                        "items": ["conditional-inversion", "not-only-did", "should-you-need", "had-i-known", "do-not-hesitate", "further", "assistance", "inquiry", "third-conditional", "formal-email", "not-only-but-also", "if-id-known"],
+                        "examples": [
+                            { "en": "Should you need any further information, please contact us.", "vi": "Nếu quý khách cần thêm thông tin, xin liên hệ chúng tôi.", "highlight": "Should you need" },
+                            { "en": "Had I known about the traffic, I would have left earlier.", "vi": "Nếu biết tắc đường thì mình đã đi sớm hơn.", "highlight": "Had I known" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "had-i-known",
+                        "prompts": [
+                            { "cueVi": "Nếu biết bạn đến thì mình đã nấu nhiều hơn.", "slots": { "fact": "you were coming", "done": "cooked more food" }, "answer": "Had I known you were coming, I would have cooked more food." },
+                            { "cueVi": "Nếu biết hôm đó là sinh nhật bạn thì mình đã mua quà.", "slots": { "fact": "it was your birthday", "done": "bought you a present" }, "answer": "Had I known it was your birthday, I would have bought you a present." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "should-you-need",
+                        "prompts": [
+                            { "cueVi": "Nếu quý khách cần thêm thông tin, xin cho chúng tôi biết.", "slots": { "thing": "further information" }, "answer": "Should you need further information, please let us know." },
+                            { "cueVi": "Nếu anh cần hóa đơn, xin cho chúng tôi biết.", "slots": { "thing": "an invoice" }, "answer": "Should you need an invoice, please let us know." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["do-not-hesitate", "further", "assistance", "inquiry"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "c1-03-hotel-complaint", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu kết email trang trọng nào đúng?",
+                                "options": ["Should you needed any help, please let us know.", "Should you need any help, please let us know.", "If should you need any help, please let us know."],
+                                "answer": 1,
+                                "item": "conditional-inversion"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["Not only did she finish early, but she also helped the others.", "Not only she finished early, but she also helped the others.", "Not only did she finished early, but she also helped."],
+                                "answer": 0,
+                                "item": "not-only-did"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "___ I known about the traffic, I would have left earlier.",
+                                "hintVi": "đảo ngữ loại 3",
+                                "answers": ["Had", "had"],
+                                "item": "had-i-known"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Thank you for your inquiry about our summer courses.",
+                                "options": ["Cảm ơn anh đã đăng ký khóa hè.", "Cảm ơn anh đã hỏi về các khóa hè của chúng tôi.", "Cảm ơn anh đã dạy khóa hè."],
+                                "answer": 1,
+                                "item": "inquiry"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Nếu có câu hỏi, xin đừng ngần ngại liên hệ với chúng tôi.",
+                                "answer": "If you have any questions, please do not hesitate to contact us.",
+                                "item": "do-not-hesitate"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "c1-03-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["Rarely you see people walking here.", "Rarely do you see people walking here.", "Rarely do you seeing people walking here."],
+                "answer": 1,
+                "item": "negative-inversion"
+            },
+            {
+                "kind": "gap",
+                "sentence": "Under no circumstances ___ you share your password.",
+                "hintVi": "không được (modal)",
+                "answers": ["should"],
+                "item": "under-no-circumstances"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Bạn kể chuyện, báo trước một bước ngoặt:",
+                "options": ["Little did I know that she was my new boss.", "Little I knew that she was my new boss.", "Little did I knew that she was my new boss."],
+                "answer": 0,
+                "item": "time-inversion"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["Only when I got home I noticed the mistake.", "Only when I got home did I noticed the mistake.", "Only when I got home did I notice the mistake."],
+                "answer": 2,
+                "item": "only-then-did"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "Should you need any further assistance, please do not hesitate to contact us.",
+                "options": ["Nếu cần hỗ trợ thêm, xin đừng ngần ngại liên hệ chúng tôi.", "Bạn nên nhờ trợ lý của chúng tôi giúp.", "Chúng tôi không thể hỗ trợ thêm."],
+                "answer": 0,
+                "item": "conditional-inversion"
+            },
+            {
+                "kind": "order",
+                "vi": "Chưa bao giờ mình thấy hoàng hôn đẹp đến thế.",
+                "answer": "Never have I seen such a beautiful sunset.",
+                "item": "never-have-i"
+            }
+        ]
+    }
+}
