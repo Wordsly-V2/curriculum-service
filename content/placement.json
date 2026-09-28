@@ -592,6 +592,70 @@
             "sentence": "Rice ___ grown in the Mekong Delta.",
             "answers": ["is"],
             "item": "passive-present"
+        },
+        {
+            "unit": "b1-09-she-said",
+            "kind": "choice",
+            "prompt": "Lan nói: \"I'm tired.\" Bạn kể lại:",
+            "options": ["Lan said me she was tired.", "Lan told me she was tired.", "Lan told she is tired."],
+            "answer": 1,
+            "item": "reported-speech"
+        },
+        {
+            "unit": "b1-09-she-said",
+            "kind": "choice",
+            "prompt": "Anh Nam hỏi: \"Where do you live?\" Bạn kể lại:",
+            "options": ["He asked where did I live.", "He asked me where do I live.", "He asked where I lived."],
+            "answer": 2,
+            "item": "reported-questions"
+        },
+        {
+            "unit": "b1-10-work-and-study",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["I enjoy to work with people.", "I enjoy working with people.", "I enjoy work with people."],
+            "answer": 1,
+            "item": "gerund-infinitive"
+        },
+        {
+            "unit": "b1-10-work-and-study",
+            "kind": "gap",
+            "sentence": "I look forward to ___ from you.",
+            "hintVi": "hear",
+            "answers": ["hearing"],
+            "item": "look-forward-to"
+        },
+        {
+            "unit": "b1-11-must-be",
+            "kind": "choice",
+            "prompt": "Minh đang ở Nhật. Bạn thấy ai giống Minh ở Hà Nội:",
+            "options": ["That mustn't be Minh.", "That can't be Minh.", "That must be Minh."],
+            "answer": 1,
+            "item": "deduction-present"
+        },
+        {
+            "unit": "b1-11-must-be",
+            "kind": "gap",
+            "sentence": "I can't find my phone. I must have ___ it at home.",
+            "hintVi": "leave",
+            "answers": ["left"],
+            "item": "must-have-done"
+        },
+        {
+            "unit": "b1-12-strategy",
+            "kind": "choice",
+            "prompt": "Bạn không hiểu từ sếp vừa dùng. Bạn hỏi:",
+            "options": ["What do you mean by \"flexible\"?", "What do you mean about \"flexible\"?", "What does you mean \"flexible\"?"],
+            "answer": 0,
+            "item": "what-do-you-mean-by"
+        },
+        {
+            "unit": "b1-12-strategy",
+            "kind": "choice",
+            "prompt": "Cần ngắt lời lịch sự trong cuộc họp:",
+            "options": ["Sorry for interrupt, but…", "Sorry to interrupt, but…", "Stop, I want to talk."],
+            "answer": 1,
+            "item": "sorry-to-interrupt"
         }
     ]
 }

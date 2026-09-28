@@ -11,7 +11,7 @@ Trạng thái: `draft` đã soạn, qua validator · `reviewed` đã có ngườ
 | Pre-A1 | 6 | 6 | 18 | 128 | 86 | 28 | 10 | 4 |
 | A1 | 10 | 10 | 31 | 260 | 166 | 49 | 33 | 12 |
 | A2 | 12 | 12 | 36 | 301 | 155 | 70 | 49 | 27 |
-| B1 | 12 | 8 | 24 | 191 | 80 | 47 | 41 | 23 |
+| B1 | 12 | 12 | 36 | 287 | 122 | 68 | 65 | 32 |
 
 ## Placement (`placement.json`)
 
@@ -22,7 +22,7 @@ Một bài xếp lớp cho cả lộ trình, 2 câu mỗi unit, theo thứ tự 
 | Pre-A1 | 6/6 | 12 |
 | A1 | 10/10 | 20 |
 | A2 | 12/12 | 24 |
-| B1 | 8/12 | 16 |
+| B1 | 12/12 | 24 |
 
 ## Pre-A1: Foundations
 
@@ -318,10 +318,10 @@ Mốc của stage: "Tôi bày tỏ và bảo vệ được ý kiến đơn giả
 | 6 | `b1-06-if-i-were-you` | câu điều kiện loại 2, What would you do if…?, lời khuyên (Why don't you…?, If I were you, You'd better), I wish / hope | 3 | 24 (9/6/6/3) | 2 | draft |
 | 7 | `b1-07-problems` | báo đồ hỏng (isn't working, keeps + V-ing, chủ nhà), đổi / trả hàng (Would you mind + V-ing?), xin lỗi, I'm afraid…, đưa giải pháp (vai lễ tân) | 3 | 24 (13/2/6/3) | 2 | draft |
 | 8 | `b1-08-made-in` | bị động hiện tại (made in / of, grown, exported) và quá khứ (was built, designed by), địa danh Hà Nội, kể tin ngắn (was stolen, was canceled) | 3 | 24 (14/1/6/3) | 2 | draft |
-| 9 | `b1-09-she-said` | câu tường thuật đơn giản (said, told, asked if), chuyển lời nhắn, kể lại tin | | | | dự kiến |
-| 10 | `b1-10-work-and-study` | gerund và to-infinitive (enjoy doing, decide to), tính từ -ed / -ing, phỏng vấn, điểm mạnh | | | | dự kiến |
-| 11 | `b1-11-must-be` | modal suy đoán (must, might, can't be), đoán chuyện, tìm đồ mất | | | | dự kiến |
-| 12 | `b1-12-strategy` | chiến lược: làm rõ, kiểm tra hiểu, câu rào đón, câu đệm câu giờ, ngắt lời lịch sự, tóm lại; can-do tổng kết B1 | | | | dự kiến |
+| 9 | `b1-09-she-said` | câu tường thuật (said, told, lùi thì), asked if / wh-, asked / told + người + to V, nhận và chuyển lời nhắn qua điện thoại, kể lại tin (I heard that…, promised to, warned, apparently) | 3 | 24 (12/3/6/3) | 2 | draft |
+| 10 | `b1-10-work-and-study` | V-ing và to V sau động từ (enjoy, don't mind, decide to), chuyên ngành, bằng cấp, tính từ -ed / -ing (I find it…, The best part is…), giới từ + V-ing, phỏng vấn xin việc (điểm mạnh, điểm yếu, look forward to) | 3 | 24 (12/2/7/3) | 2 | draft |
+| 11 | `b1-11-must-be` | đoán hiện tại (must / might / can't be, whose), đoán quá khứ khi tìm đồ mất (must have / might have + V3, look for), look / seem / sound, It looks like…, I bet, No wonder | 3 | 24 (11/4/6/3) | 2 | draft |
+| 12 | `b1-12-strategy` | chiến lược: làm rõ (What do you mean by…?, I didn't catch that), kiểm tra hiểu (So you're saying…?), câu giờ và nói mềm (kind of, I might be wrong, but…), ngắt lời lịch sự, quay lại ý, tóm lại; can-do tổng kết B1 | 3 | 24 (7/12/5/0) | 2 | draft |
 
 ### Mẫu câu (PATTERN)
 
@@ -368,6 +368,30 @@ Mốc của stage: "Tôi bày tỏ và bảo vệ được ý kiến đơn giả
 | `was-done-by` | It was {done} by {someone}. | 08 |
 | `my-was-stolen` | My {thing} was stolen. | 08 |
 | `did-you-hear-about` | Did you hear about {news}? | 08 |
+| `she-said` | She said {clause}. | 09 |
+| `he-told-me` | He told me {clause}. | 09 |
+| `she-asked-if` | She asked if {clause}. | 09 |
+| `he-asked-me-to` | He asked me to {do}. | 09 |
+| `i-heard-that` | I heard that {news}. | 09 |
+| `she-promised-to` | She promised to {do}. | 09 |
+| `i-enjoy` | I enjoy {doing}. | 10 |
+| `ive-decided-to` | I've decided to {do}. | 10 |
+| `i-dont-mind` | I don't mind {doing}. | 10 |
+| `i-find-it` | I find it {adjective}. | 10 |
+| `the-best-part-is` | The best part is {thing}. | 10 |
+| `im-good-at` | I'm good at {doing}. | 10 |
+| `im-interested-in` | I'm interested in {thing}. | 10 |
+| `it-must-be` | It must be {guess}. | 11 |
+| `she-might-be` | She might be {guess}. | 11 |
+| `it-cant-be` | It can't be {guess}. | 11 |
+| `i-must-have` | I must have {done}. | 11 |
+| `you-might-have` | You might have {done}. | 11 |
+| `it-looks-like` | It looks like {clause}. | 11 |
+| `what-do-you-mean-by` | What do you mean by {word}? | 12 |
+| `so-youre-saying` | So you're saying {clause}? | 12 |
+| `i-might-be-wrong-but` | I might be wrong, but {opinion}. | 12 |
+| `it-seems-to-me` | It seems to me that {opinion}. | 12 |
+| `the-point-is` | The point is {clause}. | 12 |
 
 ### Ngữ pháp (GRAMMAR)
 
@@ -396,6 +420,15 @@ Mốc của stage: "Tôi bày tỏ và bảo vệ được ý kiến đơn giả
 | `passive-present` | am / is / are + V3; made in / of / by | 08 |
 | `passive-past` | was / were + V3, When was it built?, by | 08 |
 | `passive-or-active` | bị động khi không biết / không cần người làm; happen không có bị động | 08 |
+| `reported-speech` | said (that) / told + người + mệnh đề, lùi thì (am → was, will → would, can → could), đổi đại từ; điều còn đúng giữ hiện tại | 09 |
+| `reported-questions` | asked if / whether + S + V, asked + wh- + S + V (không đảo), asked / told + người + (not) to V | 09 |
+| `reporting-verbs` | promise / agree to V, warn + người + (not) to V, admit, explain, complain about; I heard that…, Apparently… | 09 |
+| `gerund-infinitive` | enjoy / finish / mind / avoid / keep + V-ing, want / decide / plan / hope / agree / need + to V, like / love / start cả hai; V-ing làm chủ ngữ | 10 |
+| `ed-ing-adjectives` | -ed cảm giác của người, -ing thứ gây ra cảm giác (bored / boring, excited, confused, tired, embarrassed, stressed / stressful) | 10 |
+| `preposition-ing` | giới từ + V-ing: good at, interested in, look forward to, before / after, thank you for | 10 |
+| `deduction-present` | must / might / may / could / can't + V khi đoán; phủ định là can't, không phải mustn't | 11 |
+| `must-have-done` | must / might / could / can't have + V3; đọc must've, might've | 11 |
+| `looks-seems` | look / sound / seem + tính từ, + like + danh từ / mệnh đề, seem to V | 11 |
 
 ### Lỗi thường gặp của người Việt (B1)
 
@@ -407,6 +440,10 @@ Mốc của stage: "Tôi bày tỏ và bảo vệ được ý kiến đơn giả
 - "If I have more money, I'd…", "If I would have", "If I am you", "You'd better to go", "an advice", "advices", "I'm stress", "I wish I have", "I wish I can", "I wish you pass the exam" (ý là hope), "I'm possible to come" (unit 06).
 - "It's not work", "It is broken since Monday", "It keeps to turn off", "Would you mind to check", đáp Yes cho Would you mind…?, "It's not fit", nhầm receipt và recipe, "Sorry for late", "Sorry for make a mistake", "Let me to check", I'm afraid hiểu là sợ, "do a mistake" (unit 07).
 - "It made in Vietnam", "Coffee is grew", "made from Japan", "made in wood", "It built in 1902", "When did it build?", "builded", "It was designed from…", "What was happened?", "My bike stole", "a news", "the news are", "cancelled" / "canceled" (Anh / Mỹ) (unit 08).
+- "She said me…", "He told that…", "explain me", "mention about", "He asked where did I live", "She asked me are you free", "asked me call", "He told me don't be late", "promised that she will", "warned me don't", "complain with", "between you and I" (unit 09).
+- "I enjoy to work", "I decided studying", "Learn English is hard", "avoid to eat", "a degree of IT", "I'm boring" (ý là chán), "I'm exciting about…", "My job is stressed", "I'm interesting in…", "good in", "look forward to hear", "After graduate, I…" (unit 10).
+- "She must busy", "It mustn't be true" (ý là chắc chắn không), "She maybe sick", "Who's phone", "I must left it", "I must have leave it", viết "must of", "I'm finding my key" (ý là đang tìm), "You look like tired", "It sounds a good idea", "He seems know", "What do you think did happen?" (unit 11).
+- "I don't understand" khi chỉ là nghe không kịp, "What do you mean about…?", gật đầu khi chưa hiểu, "It seems to me that I think…", "Sorry for interrupt", "Wait, wait!" để ngắt lời, "Conclusion, …", đọc h trong honestly (unit 12).
 
 ### Ghi chú B1
 
@@ -418,3 +455,7 @@ Mốc của stage: "Tôi bày tỏ và bảo vệ được ý kiến đơn giả
 - `b1-06`: loại 1 và loại 2 so sánh trong EXPLAIN bài 1. `should-shouldnt`, `you-should` (A2) RECYCLE, lời khuyên mới gom trong `giving-advice`. hope (A2) chỉ nhắc trong EXPLAIN để phân biệt với wish.
 - `b1-07`: bài 3 cho người học đóng vai lễ tân (người xử lý phàn nàn) để luyện phía xin lỗi và đưa giải pháp. `air-conditioner` là LEXICAL hai chữ như `living-room`. Thì hiện tại hoàn thành (hasn't worked since) RECYCLE từ `b1-01`.
 - `b1-08`: V3 lấy từ `past-participles` (A2); build, steal có dạng bất quy tắc trong `noteVi`. Hội thoại địa danh dùng Nhà hát Lớn (1911) và cầu Long Biên (1902) ở Hà Nội. Chính tả Mỹ canceled; gap chấp nhận cả cancelled.
+- `b1-09`: lùi thì dạy ở mức cơ bản (am / is → was, hiện tại đơn → quá khứ đơn, will → would, can → could); lùi hiện tại hoàn thành / quá khứ đơn → quá khứ hoàn thành chưa dạy (để B2). say / said không là item riêng, nằm trong `reported-speech` và `she-said`; `tell` là LEXICAL. `apparently` giới thiệu ở bài 1, RECYCLE ở bài 3. `guess-what`, `did-you-hear-about`, `you-wont-believe` (B1 02, 08) RECYCLE ở bài 3.
+- `b1-10`: `verb-to-infinitive` (A2) RECYCLE ở bài 1; gerund mới gom trong `gerund-infinitive`. `tiring` chỉ nằm trong ví dụ (tired, boring, interesting đã là item A2); cặp -ed / -ing gom trong `ed-ing-adjectives`; `embarrassed`, `stressed` RECYCLE. apply for, responsible for chỉ nằm trong ví dụ / `noteVi`. Hội thoại phỏng vấn có RECYCLE hiện tại hoàn thành (I've worked … for two years).
+- `b1-11`: `guess` (động từ) là LEXICAL, khác `guess-what` (B1 02). `it-looks-like` (đoán) khác `look-like` (giống ai, A2). V3 lấy từ `past-participles` (A2), RECYCLE ở bài 2. `what-a-relief` (B1 02) dùng lại trong hội thoại tìm ví.
+- `b1-12` không có GRAMMAR (như `pre-a1-06`, `a1-10`, `a2-12`). A1 `a1-10` đã có `i-mean`, `do-you-mean`, `in-other-words`, `let-me-think`, nên ở đây chỉ RECYCLE; `kind-of` (hơi) khác `its-a-kind-of` (một loại, A1). canDo thứ tư là câu tổng kết B1; checkpoint 8 câu, 2 câu cuối ôn B1 (`present-perfect-duration`, `second-conditional`).

@@ -1,0 +1,806 @@
+{
+    "slug": "b1-10-work-and-study",
+    "stage": "b1",
+    "order": 10,
+    "title": "Work and study",
+    "titleVi": "Học hành, công việc và phỏng vấn",
+    "descriptionVi": "Nói về việc học và định hướng nghề nghiệp với V-ing và to V (I enjoy working…, I've decided to…, I don't mind…), tả cảm xúc với tính từ -ed / -ing (I'm confused, It's confusing), và trả lời phỏng vấn xin việc (I'm good at…, I'm interested in…, điểm mạnh, điểm yếu).",
+    "canDo": [
+        "Tôi nói được mình học gì, thích làm gì và đã quyết định theo nghề nào.",
+        "Tôi tả được cảm giác về việc học, việc làm bằng tính từ -ed và -ing cho đúng.",
+        "Tôi giới thiệu bản thân, nói được điểm mạnh, điểm yếu trong một buổi phỏng vấn đơn giản."
+    ],
+    "items": [
+        {
+            "slug": "gerund-infinitive",
+            "type": "GRAMMAR",
+            "text": "enjoy / finish / mind / avoid + V-ing; decide / want / plan / hope / agree + to V",
+            "meaningVi": "V-ing hay to V sau động từ",
+            "examples": [
+                { "en": "I enjoy working with people, so I've decided to study hotel management.", "vi": "Mình thích làm việc với mọi người, nên mình đã quyết định học quản trị khách sạn.", "highlight": "enjoy working" }
+            ],
+            "grammar": {
+                "ruleVi": "Động từ nào đi với V-ing, động từ nào đi với to V phải học thuộc theo nhóm. Nhóm V-ing: enjoy, finish, mind, avoid, keep, practice, suggest. Nhóm to V: want, decide, plan, hope, agree, need, learn, would like. like, love, hate, start đi được với cả hai, nghĩa gần như nhau. V-ing cũng làm chủ ngữ: Learning English takes time.",
+                "forms": [
+                    { "label": "+ V-ing", "example": "I enjoy cooking. I don't mind working late." },
+                    { "label": "+ to V", "example": "I've decided to change jobs. I hope to study abroad." },
+                    { "label": "cả hai", "example": "I like reading. = I like to read." },
+                    { "label": "V-ing làm chủ ngữ", "example": "Speaking English every day really helps." }
+                ],
+                "pitfallsVi": [
+                    "\"I enjoy to work\" → I enjoy working.",
+                    "\"I decided studying\" → I decided to study.",
+                    "\"Learn English is hard\" → Learning English is hard."
+                ]
+            }
+        },
+        {
+            "slug": "i-enjoy",
+            "type": "PATTERN",
+            "text": "I enjoy ….",
+            "meaningVi": "Mình thích ….",
+            "examples": [
+                { "en": "I enjoy working with people.", "vi": "Mình thích làm việc với mọi người.", "highlight": "I enjoy" }
+            ],
+            "pattern": {
+                "template": "I enjoy {doing}.",
+                "slots": [
+                    { "name": "doing", "hintVi": "V-ing", "options": ["working with people", "solving problems", "learning new things", "working in a team", "traveling for work"] }
+                ]
+            },
+            "noteVi": "Sau enjoy luôn là V-ing: ❌ \"I enjoy to work\". Chúc ai vui: Enjoy your trip! / Enjoy!"
+        },
+        {
+            "slug": "ive-decided-to",
+            "type": "PATTERN",
+            "text": "I've decided to ….",
+            "meaningVi": "Mình đã quyết định ….",
+            "examples": [
+                { "en": "I've decided to study abroad next year.", "vi": "Mình đã quyết định sang năm đi du học.", "highlight": "I've decided to" }
+            ],
+            "pattern": {
+                "template": "I've decided to {do}.",
+                "slots": [
+                    { "name": "do", "hintVi": "động từ nguyên mẫu", "options": ["change jobs", "study abroad", "learn Japanese", "go back to school", "start my own business"] }
+                ]
+            },
+            "noteVi": "I've decided (hiện tại hoàn thành) vì quyết định vừa có và còn hiệu lực. Quyết định không làm: I've decided not to…"
+        },
+        {
+            "slug": "i-dont-mind",
+            "type": "PATTERN",
+            "text": "I don't mind ….",
+            "meaningVi": "Mình không ngại ….",
+            "examples": [
+                { "en": "I don't mind working on weekends.", "vi": "Mình không ngại làm cuối tuần.", "highlight": "I don't mind" }
+            ],
+            "pattern": {
+                "template": "I don't mind {doing}.",
+                "slots": [
+                    { "name": "doing", "hintVi": "V-ing", "options": ["working on weekends", "working late", "traveling a lot", "starting early", "learning new software"] }
+                ]
+            },
+            "noteVi": "Sau mind là V-ing, như Would you mind…? (unit 07). Trả lời ngắn khi được hỏi chọn gì: I don't mind. = Sao cũng được."
+        },
+        {
+            "slug": "avoid",
+            "type": "LEXICAL",
+            "text": "avoid",
+            "meaningVi": "tránh",
+            "ipa": "/əˈvɔɪd/",
+            "examples": [
+                { "en": "I try to avoid working late.", "vi": "Mình cố tránh làm muộn.", "highlight": "avoid" }
+            ],
+            "noteVi": "avoid + V-ing: ❌ \"avoid to eat\". Tránh giờ cao điểm: avoid the rush hour."
+        },
+        {
+            "slug": "career",
+            "type": "LEXICAL",
+            "text": "career",
+            "meaningVi": "sự nghiệp, nghề nghiệp lâu dài",
+            "ipa": "/kəˈrɪr/",
+            "examples": [
+                { "en": "I want a career in marketing.", "vi": "Mình muốn theo nghề marketing.", "highlight": "career" }
+            ],
+            "noteVi": "Nhấn âm hai: ca-REER (đừng đọc \"ca-ri-ơ\"). career là con đường nghề lâu dài; job là công việc cụ thể hiện tại."
+        },
+        {
+            "slug": "major",
+            "type": "LEXICAL",
+            "text": "major",
+            "meaningVi": "chuyên ngành (đại học)",
+            "ipa": "/ˈmeɪdʒər/",
+            "examples": [
+                { "en": "What's your major? — My major is economics.", "vi": "Bạn học chuyên ngành gì? — Mình học kinh tế.", "highlight": "major" }
+            ],
+            "noteVi": "Tiếng Anh Mỹ. Động từ: I majored in economics. Còn là tính từ \"chính, lớn\": a major problem."
+        },
+        {
+            "slug": "degree",
+            "type": "LEXICAL",
+            "text": "degree",
+            "meaningVi": "bằng (đại học); độ",
+            "ipa": "/dɪˈɡriː/",
+            "examples": [
+                { "en": "She has a degree in computer science.", "vi": "Cô ấy có bằng khoa học máy tính.", "highlight": "degree" }
+            ],
+            "noteVi": "a degree IN + ngành: ❌ \"a degree of IT\". Bằng cử nhân: a bachelor's degree; thạc sĩ: a master's degree. Nhiệt độ: 30 degrees."
+        },
+        {
+            "slug": "ed-ing-adjectives",
+            "type": "GRAMMAR",
+            "text": "bored / boring, excited / exciting, confused / confusing, tired / tiring",
+            "meaningVi": "tính từ -ed và -ing",
+            "examples": [
+                { "en": "The lecture was confusing, so I was confused.", "vi": "Bài giảng khó hiểu, nên mình bị rối.", "highlight": "confusing" }
+            ],
+            "grammar": {
+                "ruleVi": "-ed tả cảm giác của người: I'm bored (mình thấy chán). -ing tả người, vật, việc GÂY RA cảm giác đó: The class is boring (lớp học chán). Nói về mình mà dùng -ing là thành ra tả tính cách: \"I'm boring\" = Mình là người nhạt nhẽo.",
+                "forms": [
+                    { "label": "chán", "example": "I'm bored. The meeting is boring." },
+                    { "label": "hào hứng", "example": "I'm excited. The new job is exciting." },
+                    { "label": "rối", "example": "I'm confused. The instructions are confusing." },
+                    { "label": "mệt", "example": "I'm tired. The trip was tiring." },
+                    { "label": "ngại", "example": "I was embarrassed. It was embarrassing." }
+                ],
+                "pitfallsVi": [
+                    "\"I'm boring in class\" → I'm bored in class.",
+                    "\"I'm very exciting about my new job\" → I'm very excited about my new job.",
+                    "\"The movie was bored\" → The movie was boring."
+                ]
+            }
+        },
+        {
+            "slug": "excited",
+            "type": "LEXICAL",
+            "text": "excited",
+            "meaningVi": "hào hứng, háo hức (cảm giác)",
+            "ipa": "/ɪkˈsaɪtɪd/",
+            "examples": [
+                { "en": "I'm so excited about my new job.", "vi": "Mình háo hức với công việc mới lắm.", "highlight": "excited" }
+            ],
+            "noteVi": "excited about + danh từ / V-ing. ❌ \"I'm exciting\" (thành \"mình là người thú vị\")."
+        },
+        {
+            "slug": "exciting",
+            "type": "LEXICAL",
+            "text": "exciting",
+            "meaningVi": "thú vị, gây hào hứng",
+            "ipa": "/ɪkˈsaɪtɪŋ/",
+            "examples": [
+                { "en": "Working at a startup is really exciting.", "vi": "Làm ở startup thật sự rất hào hứng.", "highlight": "exciting" }
+            ],
+            "noteVi": "Tả việc, nơi, sự kiện gây hào hứng: an exciting trip, an exciting game."
+        },
+        {
+            "slug": "confused",
+            "type": "LEXICAL",
+            "text": "confused",
+            "meaningVi": "bối rối, không hiểu (cảm giác)",
+            "ipa": "/kənˈfjuːzd/",
+            "examples": [
+                { "en": "Sorry, I'm a little confused. Can you explain it again?", "vi": "Xin lỗi, mình hơi rối. Bạn giải thích lại được không?", "highlight": "confused" }
+            ],
+            "noteVi": "-ed ở đây đọc /d/: con-FUSED, không đọc thêm âm \"ệt\". Rối về điều gì: confused about something."
+        },
+        {
+            "slug": "confusing",
+            "type": "LEXICAL",
+            "text": "confusing",
+            "meaningVi": "khó hiểu, gây rối",
+            "ipa": "/kənˈfjuːzɪŋ/",
+            "examples": [
+                { "en": "The new system is really confusing.", "vi": "Hệ thống mới khó hiểu thật.", "highlight": "confusing" }
+            ],
+            "noteVi": "Tả thứ làm mình rối: confusing instructions, a confusing map."
+        },
+        {
+            "slug": "stressful",
+            "type": "LEXICAL",
+            "text": "stressful",
+            "meaningVi": "căng thẳng, gây áp lực",
+            "ipa": "/ˈstresfəl/",
+            "examples": [
+                { "en": "Exam week is always stressful.", "vi": "Tuần thi lúc nào cũng căng thẳng.", "highlight": "stressful" }
+            ],
+            "noteVi": "Tả việc gây áp lực: a stressful job. Người thấy áp lực: I'm stressed (unit 06). ❌ \"I'm stressful\"."
+        },
+        {
+            "slug": "i-find-it",
+            "type": "PATTERN",
+            "text": "I find it ….",
+            "meaningVi": "Mình thấy nó ….",
+            "examples": [
+                { "en": "I find it really interesting.", "vi": "Mình thấy nó thú vị lắm.", "highlight": "I find it" }
+            ],
+            "pattern": {
+                "template": "I find it {adjective}.",
+                "slots": [
+                    { "name": "adjective", "hintVi": "tính từ -ing / tính từ", "options": ["really interesting", "a bit confusing", "very exciting", "quite tiring", "pretty stressful"] }
+                ]
+            },
+            "noteVi": "find ở đây là \"thấy, cảm thấy\" về một việc: I find my job stressful. Sau find it dùng tính từ -ing, không dùng -ed."
+        },
+        {
+            "slug": "the-best-part-is",
+            "type": "PATTERN",
+            "text": "The best part is ….",
+            "meaningVi": "Điều hay nhất là ….",
+            "examples": [
+                { "en": "The best part is meeting new people.", "vi": "Điều hay nhất là được gặp người mới.", "highlight": "The best part is" }
+            ],
+            "pattern": {
+                "template": "The best part is {thing}.",
+                "slots": [
+                    { "name": "thing", "hintVi": "V-ing hoặc danh từ", "options": ["meeting new people", "the people", "working from home on Fridays", "learning something new every day", "the free lunch"] }
+                ]
+            },
+            "noteVi": "Ngược lại: The worst part is… / The hardest part is… Sau is dùng V-ing hoặc danh từ."
+        },
+        {
+            "slug": "preposition-ing",
+            "type": "GRAMMAR",
+            "text": "good at / interested in / look forward to / before / after + V-ing",
+            "meaningVi": "giới từ + V-ing",
+            "examples": [
+                { "en": "I'm good at solving problems.", "vi": "Mình giỏi giải quyết vấn đề.", "highlight": "good at solving" }
+            ],
+            "grammar": {
+                "ruleVi": "Sau giới từ (at, in, about, of, for, before, after, to trong look forward to) động từ luôn ở dạng V-ing. Cụm hay gặp khi phỏng vấn: good at, interested in, experience in, responsible for, look forward to, thank you for.",
+                "forms": [
+                    { "label": "good at", "example": "I'm good at working with numbers." },
+                    { "label": "interested in", "example": "I'm interested in learning more about marketing." },
+                    { "label": "look forward to", "example": "I look forward to hearing from you." },
+                    { "label": "before / after", "example": "After graduating, I worked in a bank." },
+                    { "label": "thank you for", "example": "Thank you for inviting me." }
+                ],
+                "pitfallsVi": [
+                    "\"I look forward to hear from you\" → I look forward to hearing from you. (to ở đây là giới từ)",
+                    "\"I'm interested to learn marketing\" → I'm interested in learning marketing.",
+                    "\"After graduate, I…\" → After graduating, I… / After I graduated, I…"
+                ]
+            }
+        },
+        {
+            "slug": "im-good-at",
+            "type": "PATTERN",
+            "text": "I'm good at ….",
+            "meaningVi": "Mình giỏi ….",
+            "examples": [
+                { "en": "I'm good at working under pressure.", "vi": "Mình làm việc tốt dưới áp lực.", "highlight": "I'm good at" }
+            ],
+            "pattern": {
+                "template": "I'm good at {doing}.",
+                "slots": [
+                    { "name": "doing", "hintVi": "V-ing hoặc danh từ", "options": ["solving problems", "working under pressure", "talking to customers", "organizing things", "math"] }
+                ]
+            },
+            "noteVi": "good AT (❌ good in). Chưa giỏi lắm: I'm not very good at… (lịch sự hơn I'm bad at…)."
+        },
+        {
+            "slug": "im-interested-in",
+            "type": "PATTERN",
+            "text": "I'm interested in ….",
+            "meaningVi": "Mình quan tâm đến ….",
+            "examples": [
+                { "en": "I'm interested in learning more about your company.", "vi": "Mình muốn tìm hiểu thêm về công ty của anh chị.", "highlight": "I'm interested in" }
+            ],
+            "pattern": {
+                "template": "I'm interested in {thing}.",
+                "slots": [
+                    { "name": "thing", "hintVi": "V-ing hoặc danh từ", "options": ["this position", "marketing", "working abroad", "learning more about your company", "design"] }
+                ]
+            },
+            "noteVi": "-ed (interested) cho người, như unit này học. ❌ \"I'm interesting in…\" (thành \"mình là người thú vị\"). Sau in là V-ing."
+        },
+        {
+            "slug": "look-forward-to",
+            "type": "PHRASE",
+            "text": "I look forward to …",
+            "meaningVi": "Mình mong được …",
+            "examples": [
+                { "en": "I look forward to hearing from you.", "vi": "Mong sớm nhận được tin từ anh chị.", "highlight": "look forward to" }
+            ],
+            "noteVi": "Câu kết email, phỏng vấn. to là giới từ nên sau đó là V-ing: ❌ \"look forward to hear\". Thân mật: I'm looking forward to it!"
+        },
+        {
+            "slug": "tell-me-about-yourself",
+            "type": "PHRASE",
+            "text": "Tell me about yourself.",
+            "meaningVi": "Hãy giới thiệu về bản thân bạn.",
+            "examples": [
+                { "en": "So, tell me about yourself.", "vi": "Vậy, bạn giới thiệu về bản thân đi.", "highlight": "tell me about yourself" }
+            ],
+            "noteVi": "Câu mở đầu hầu hết các buổi phỏng vấn. Trả lời khoảng một phút: đang làm gì, đã học / làm gì, vì sao muốn việc này."
+        },
+        {
+            "slug": "strength",
+            "type": "LEXICAL",
+            "text": "strength",
+            "meaningVi": "điểm mạnh; sức mạnh",
+            "ipa": "/streŋθ/",
+            "examples": [
+                { "en": "My biggest strength is that I learn quickly.", "vi": "Điểm mạnh lớn nhất của mình là học nhanh.", "highlight": "strength" }
+            ],
+            "noteVi": "Cuối là /ŋθ/: lưỡi đặt giữa hai răng, đừng đọc thành \"strent\". Hỏi: What are your strengths?"
+        },
+        {
+            "slug": "weakness",
+            "type": "LEXICAL",
+            "text": "weakness",
+            "meaningVi": "điểm yếu",
+            "ipa": "/ˈwiːknəs/",
+            "examples": [
+                { "en": "One weakness is that I'm not very good at public speaking.", "vi": "Một điểm yếu là mình nói trước đám đông chưa tốt lắm.", "highlight": "weakness" }
+            ],
+            "noteVi": "Khi phỏng vấn, nói điểm yếu kèm cách mình đang sửa: …, but I'm taking a course to improve."
+        },
+        {
+            "slug": "skill",
+            "type": "LEXICAL",
+            "text": "skill",
+            "meaningVi": "kỹ năng",
+            "ipa": "/skɪl/",
+            "examples": [
+                { "en": "Communication skills are very important in this job.", "vi": "Kỹ năng giao tiếp rất quan trọng trong công việc này.", "highlight": "skill" }
+            ],
+            "noteVi": "Đếm được: a skill, skills. Kỹ năng mềm: soft skills. Nhớ âm /l/ cuối."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "b1-10-new-job",
+            "title": "How's the new job?",
+            "situationVi": "Bạn mới chuyển sang làm ở một công ty du lịch được hai tuần. Gặp lại Linh, bạn cũ thời đại học, ở quán cà phê.",
+            "lines": [
+                { "speaker": "Linh", "en": "Hey! I heard you changed jobs. How's the new job?", "vi": "Ê! Nghe nói bạn đổi việc rồi. Việc mới thế nào?" },
+                { "speaker": "You", "en": "It's great! I'm really excited about it. I work for a travel company now.", "vi": "Tuyệt lắm! Mình háo hức lắm. Giờ mình làm cho một công ty du lịch.", "learnerTurn": true },
+                { "speaker": "Linh", "en": "Nice! Is it very different from your old job?", "vi": "Hay đấy! Có khác việc cũ nhiều không?" },
+                { "speaker": "You", "en": "Yes. The booking system is a bit confusing, so I'm still learning. But I find it really interesting.", "vi": "Có. Hệ thống đặt chỗ hơi khó hiểu, nên mình vẫn đang học. Nhưng mình thấy nó thú vị lắm.", "learnerTurn": true },
+                { "speaker": "Linh", "en": "What's the best part?", "vi": "Hay nhất là gì?" },
+                { "speaker": "You", "en": "The best part is meeting new people. I enjoy talking to customers from different countries.", "vi": "Hay nhất là được gặp người mới. Mình thích nói chuyện với khách từ nhiều nước.", "learnerTurn": true },
+                { "speaker": "Linh", "en": "Sounds fun. Is it stressful?", "vi": "Nghe vui đấy. Có căng thẳng không?" },
+                { "speaker": "You", "en": "Sometimes. We're busy in the summer, but I don't mind working late.", "vi": "Thỉnh thoảng. Mùa hè bận lắm, nhưng mình không ngại làm muộn.", "learnerTurn": true },
+                { "speaker": "Linh", "en": "Good for you. I'm bored with my job, actually. Maybe I should change, too.", "vi": "Tốt quá. Thật ra mình đang chán việc. Có khi mình cũng nên đổi." }
+            ]
+        },
+        {
+            "slug": "b1-10-job-interview",
+            "title": "Tell me about yourself",
+            "situationVi": "Bạn phỏng vấn vị trí nhân viên chăm sóc khách hàng ở một công ty phần mềm. Người phỏng vấn là chị Sarah, trưởng nhóm.",
+            "lines": [
+                { "speaker": "Sarah", "en": "Thanks for coming in today. So, tell me about yourself.", "vi": "Cảm ơn bạn đã đến hôm nay. Nào, bạn giới thiệu về bản thân đi." },
+                { "speaker": "You", "en": "Thank you for inviting me. I have a degree in business, and I've worked at a hotel for two years.", "vi": "Cảm ơn chị đã mời em. Em có bằng quản trị kinh doanh, và đã làm ở một khách sạn được hai năm.", "learnerTurn": true },
+                { "speaker": "Sarah", "en": "Why are you interested in this position?", "vi": "Sao bạn quan tâm đến vị trí này?" },
+                { "speaker": "You", "en": "I enjoy helping people, and I'm interested in working in technology. I've decided to change my career.", "vi": "Em thích giúp đỡ mọi người, và em muốn làm trong ngành công nghệ. Em đã quyết định đổi hướng nghề nghiệp.", "learnerTurn": true },
+                { "speaker": "Sarah", "en": "OK. What are your strengths?", "vi": "Được. Điểm mạnh của bạn là gì?" },
+                { "speaker": "You", "en": "I'm good at talking to customers, and I stay calm when they're upset.", "vi": "Em giao tiếp với khách tốt, và em giữ được bình tĩnh khi khách bực.", "learnerTurn": true },
+                { "speaker": "Sarah", "en": "And your weaknesses?", "vi": "Còn điểm yếu?" },
+                { "speaker": "You", "en": "My computer skills aren't perfect, but I learn quickly, and I'm taking an online course.", "vi": "Kỹ năng máy tính của em chưa hoàn hảo, nhưng em học nhanh, và em đang học một khóa online.", "learnerTurn": true },
+                { "speaker": "Sarah", "en": "Great. We'll let you know by Friday.", "vi": "Tốt. Chúng tôi sẽ báo bạn trước thứ Sáu." },
+                { "speaker": "You", "en": "Thank you. I look forward to hearing from you.", "vi": "Cảm ơn chị. Em mong sớm nhận được tin ạ.", "learnerTurn": true }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "b1-10-l1-i-enjoy",
+            "title": "I enjoy working with people",
+            "titleVi": "Học gì, làm gì",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "gerund-infinitive", "role": "INTRODUCE" },
+                { "item": "i-enjoy", "role": "INTRODUCE" },
+                { "item": "ive-decided-to", "role": "INTRODUCE" },
+                { "item": "i-dont-mind", "role": "INTRODUCE" },
+                { "item": "avoid", "role": "INTRODUCE" },
+                { "item": "career", "role": "INTRODUCE" },
+                { "item": "major", "role": "INTRODUCE" },
+                { "item": "degree", "role": "INTRODUCE" },
+                { "item": "verb-to-infinitive", "role": "RECYCLE" },
+                { "item": "decide", "role": "RECYCLE" },
+                { "item": "university", "role": "RECYCLE" },
+                { "item": "graduate", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["i-enjoy", "ive-decided-to", "i-dont-mind", "avoid", "career", "major", "degree"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "V-ing hay to V?",
+                        "bodyVi": "Sau một số động từ là **V-ing**, sau một số khác là **to V**. Không có quy tắc chung, phải nhớ theo nhóm:\n\n| + V-ing | + to V |\n|---|---|\n| **enjoy** working | **want** to work |\n| **finish** studying | **decide** to study |\n| **don't mind** waiting | **hope** to travel |\n| **avoid** eating late | **plan** to move |\n| **keep** trying | **need** to finish |\n\nlike, love, hate, start đi được cả hai: I like **reading**. = I like **to read**.\n\nV-ing còn làm chủ ngữ: **Learning** English takes time.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| I enjoy to work with people. | I **enjoy working** with people. |\n| I decided studying abroad. | I **decided to study** abroad. |\n| Learn English is hard. | **Learning** English is hard. |\n\n❌ I enjoy to work ❌ I decided studying ✅ **I enjoy working.** **I've decided to study.**",
+                        "items": ["gerund-infinitive", "i-enjoy", "ive-decided-to", "i-dont-mind", "avoid", "career", "verb-to-infinitive", "decide"],
+                        "examples": [
+                            { "en": "I enjoy working with people, so I've decided to study hotel management.", "vi": "Mình thích làm việc với mọi người, nên mình đã quyết định học quản trị khách sạn.", "highlight": "I've decided to study" },
+                            { "en": "I don't mind working late, but I try to avoid working on Sundays.", "vi": "Mình không ngại làm muộn, nhưng cố tránh làm Chủ nhật.", "highlight": "avoid working" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "i-enjoy",
+                        "prompts": [
+                            { "cueVi": "Mình thích làm việc với mọi người.", "slots": { "doing": "working with people" }, "answer": "I enjoy working with people." },
+                            { "cueVi": "Mình thích giải quyết vấn đề.", "slots": { "doing": "solving problems" }, "answer": "I enjoy solving problems." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "ive-decided-to",
+                        "prompts": [
+                            { "cueVi": "Mình đã quyết định đổi việc.", "slots": { "do": "change jobs" }, "answer": "I've decided to change jobs." },
+                            { "cueVi": "Mình đã quyết định đi du học.", "slots": { "do": "study abroad" }, "answer": "I've decided to study abroad." },
+                            { "cueVi": "Mình đã quyết định tự kinh doanh.", "slots": { "do": "start my own business" }, "answer": "I've decided to start my own business." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["avoid", "career", "major", "degree", "university", "graduate"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "My major is economics.", "vi": "Mình học chuyên ngành kinh tế." },
+                            { "en": "I enjoy working with people.", "vi": "Mình thích làm việc với mọi người." },
+                            { "en": "I've decided to change jobs.", "vi": "Mình đã quyết định đổi việc." },
+                            { "en": "I don't mind working on weekends.", "vi": "Mình không ngại làm cuối tuần." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I enjoy to cook.", "I enjoy cooking.", "I enjoy cook."],
+                                "answer": 1,
+                                "item": "i-enjoy"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["She decided studying law.", "She decided to study law.", "She decided study law."],
+                                "answer": 1,
+                                "item": "gerund-infinitive"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I don't mind ___ late.",
+                                "hintVi": "work",
+                                "answers": ["working"],
+                                "item": "i-dont-mind"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "She has a degree in computer science.",
+                                "options": ["Cô ấy có bằng khoa học máy tính.", "Cô ấy đang học khoa học máy tính.", "Cô ấy dạy khoa học máy tính."],
+                                "answer": 0,
+                                "item": "degree"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Mình muốn theo nghề marketing.",
+                                "answer": "I want a career in marketing.",
+                                "item": "career"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b1-10-l2-bored-or-boring",
+            "title": "Bored or boring?",
+            "titleVi": "Tính từ -ed và -ing",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "ed-ing-adjectives", "role": "INTRODUCE" },
+                { "item": "excited", "role": "INTRODUCE" },
+                { "item": "exciting", "role": "INTRODUCE" },
+                { "item": "confused", "role": "INTRODUCE" },
+                { "item": "confusing", "role": "INTRODUCE" },
+                { "item": "stressful", "role": "INTRODUCE" },
+                { "item": "i-find-it", "role": "INTRODUCE" },
+                { "item": "the-best-part-is", "role": "INTRODUCE" },
+                { "item": "boring", "role": "RECYCLE" },
+                { "item": "embarrassed", "role": "RECYCLE" },
+                { "item": "stressed", "role": "RECYCLE" },
+                { "item": "i-enjoy", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["excited", "exciting", "confused", "confusing", "stressful", "i-find-it", "the-best-part-is"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "I'm bored hay I'm boring?",
+                        "bodyVi": "**-ed** là cảm giác của người. **-ing** là thứ gây ra cảm giác đó.\n\n| cảm giác (-ed) | thứ gây ra (-ing) |\n|---|---|\n| I'm **bored**. | The class is **boring**. |\n| I'm **excited**. | The new job is **exciting**. |\n| I'm **confused**. | The instructions are **confusing**. |\n| I'm **tired**. | The trip was **tiring**. |\n| I was **embarrassed**. | It was **embarrassing**. |\n| I'm **stressed**. | Exam week is **stressful**. |\n\nNói về mình mà dùng -ing là thành tả tính cách: **I'm boring** = Mình là người nhạt nhẽo.\n\nNói cảm nhận về một việc: **I find it** really interesting. / **The best part is** meeting new people.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| I'm boring in class. | I'm **bored** in class. |\n| I'm very exciting about my new job. | I'm very **excited** about my new job. |\n| My job is stressed. | My job is **stressful**. |\n\n❌ I'm boring (ý là chán) ❌ The movie was bored ✅ **I'm bored.** **The movie was boring.**",
+                        "items": ["ed-ing-adjectives", "excited", "exciting", "confused", "confusing", "stressful", "i-find-it", "the-best-part-is", "boring", "embarrassed", "stressed"],
+                        "examples": [
+                            { "en": "The lecture was confusing, so I was confused.", "vi": "Bài giảng khó hiểu, nên mình bị rối.", "highlight": "confused" },
+                            { "en": "I'm so excited. The new job is really exciting.", "vi": "Mình háo hức lắm. Việc mới hay thật.", "highlight": "exciting" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "i-find-it",
+                        "prompts": [
+                            { "cueVi": "Mình thấy nó thú vị lắm.", "slots": { "adjective": "really interesting" }, "answer": "I find it really interesting." },
+                            { "cueVi": "Mình thấy nó hơi khó hiểu.", "slots": { "adjective": "a bit confusing" }, "answer": "I find it a bit confusing." },
+                            { "cueVi": "Mình thấy nó khá căng thẳng.", "slots": { "adjective": "pretty stressful" }, "answer": "I find it pretty stressful." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "the-best-part-is",
+                        "prompts": [
+                            { "cueVi": "Điều hay nhất là được gặp người mới.", "slots": { "thing": "meeting new people" }, "answer": "The best part is meeting new people." },
+                            { "cueVi": "Điều hay nhất là mọi người ở đó.", "slots": { "thing": "the people" }, "answer": "The best part is the people." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["excited", "exciting", "confused", "confusing", "stressful", "boring", "stressed"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b1-10-new-job", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Buổi họp dài và chán. Bạn nói:",
+                                "options": ["I'm boring.", "I'm bored.", "I'm boredom."],
+                                "answer": 1,
+                                "item": "ed-ing-adjectives"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["The instructions are confused.", "The instructions are confusing.", "I'm confusing by the instructions."],
+                                "answer": 1,
+                                "item": "confusing"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I'm so ___ about my trip to Japan!",
+                                "hintVi": "háo hức",
+                                "answers": ["excited"],
+                                "item": "excited"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Exam week is always stressful.",
+                                "options": ["Tuần thi lúc nào cũng căng thẳng.", "Mình luôn căng thẳng khi đi thi.", "Tuần sau thi nên mình căng thẳng."],
+                                "answer": 0,
+                                "item": "stressful"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Điều hay nhất là được gặp người mới.",
+                                "answer": "The best part is meeting new people.",
+                                "item": "the-best-part-is"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b1-10-l3-interview",
+            "title": "Tell me about yourself",
+            "titleVi": "Phỏng vấn xin việc",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "preposition-ing", "role": "INTRODUCE" },
+                { "item": "im-good-at", "role": "INTRODUCE" },
+                { "item": "im-interested-in", "role": "INTRODUCE" },
+                { "item": "look-forward-to", "role": "INTRODUCE" },
+                { "item": "tell-me-about-yourself", "role": "INTRODUCE" },
+                { "item": "strength", "role": "INTRODUCE" },
+                { "item": "weakness", "role": "INTRODUCE" },
+                { "item": "skill", "role": "INTRODUCE" },
+                { "item": "interview", "role": "RECYCLE" },
+                { "item": "experience", "role": "RECYCLE" },
+                { "item": "present-perfect-duration", "role": "RECYCLE" },
+                { "item": "ive-decided-to", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["im-good-at", "im-interested-in", "look-forward-to", "tell-me-about-yourself", "strength", "weakness", "skill"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Trả lời phỏng vấn",
+                        "bodyVi": "Sau **giới từ** (at, in, for, about, before, after…) động từ luôn là **V-ing**. Các cụm này xuất hiện liên tục khi phỏng vấn:\n\n| câu hỏi | trả lời |\n|---|---|\n| **Tell me about yourself.** | I have a degree in business, and **I've worked** at a hotel **for** two years. |\n| Why this job? | **I'm interested in working** in technology. |\n| What are your **strengths**? | **I'm good at solving** problems. |\n| And your **weaknesses**? | My computer **skills** aren't perfect, but I'm taking a course. |\n| (kết thúc) | Thank you **for inviting** me. **I look forward to hearing** from you. |\n\n**look forward to**: to ở đây là giới từ, nên sau nó là V-ing.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| I look forward to hear from you. | I **look forward to hearing** from you. |\n| I'm interested to work here. | I'm **interested in working** here. |\n| I'm good in English. | I'm **good at** English. |\n\n❌ look forward to hear ❌ After graduate ✅ **I look forward to hearing from you.** **After graduating, I…**",
+                        "items": ["preposition-ing", "im-good-at", "im-interested-in", "look-forward-to", "tell-me-about-yourself", "strength", "weakness", "skill", "present-perfect-duration"],
+                        "examples": [
+                            { "en": "I'm good at solving problems, and I'm interested in learning new skills.", "vi": "Mình giỏi giải quyết vấn đề, và mình muốn học thêm kỹ năng mới.", "highlight": "interested in learning" },
+                            { "en": "After graduating, I worked in a bank for three years.", "vi": "Tốt nghiệp xong, mình làm ở ngân hàng ba năm.", "highlight": "After graduating" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "im-good-at",
+                        "prompts": [
+                            { "cueVi": "Mình giỏi giải quyết vấn đề.", "slots": { "doing": "solving problems" }, "answer": "I'm good at solving problems." },
+                            { "cueVi": "Mình giao tiếp với khách tốt.", "slots": { "doing": "talking to customers" }, "answer": "I'm good at talking to customers." },
+                            { "cueVi": "Mình giỏi sắp xếp mọi thứ.", "slots": { "doing": "organizing things" }, "answer": "I'm good at organizing things." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "im-interested-in",
+                        "prompts": [
+                            { "cueVi": "Tôi quan tâm đến vị trí này.", "slots": { "thing": "this position" }, "answer": "I'm interested in this position." },
+                            { "cueVi": "Tôi muốn làm việc ở nước ngoài.", "slots": { "thing": "working abroad" }, "answer": "I'm interested in working abroad." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["look-forward-to", "tell-me-about-yourself", "strength", "weakness", "skill", "interview", "experience"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b1-10-job-interview", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu kết email xin việc nào đúng?",
+                                "options": ["I look forward to hear from you.", "I look forward to hearing from you.", "I look forward hearing from you."],
+                                "answer": 1,
+                                "item": "look-forward-to"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I'm interesting in this job.", "I'm interested to this job.", "I'm interested in this job."],
+                                "answer": 2,
+                                "item": "im-interested-in"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I'm good at ___ with numbers.",
+                                "hintVi": "work",
+                                "answers": ["working"],
+                                "item": "preposition-ing"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "My biggest strength is that I learn quickly.",
+                                "options": ["Điểm mạnh lớn nhất của mình là học nhanh.", "Mình cần học nhanh hơn nữa.", "Điểm yếu của mình là học chậm."],
+                                "answer": 0,
+                                "item": "strength"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Kỹ năng giao tiếp rất quan trọng trong công việc này.",
+                                "answer": "Communication skills are very important in this job.",
+                                "item": "skill"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "b1-10-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["I've decided changing jobs.", "I've decided to change jobs.", "I've decided change jobs."],
+                "answer": 1,
+                "item": "gerund-infinitive"
+            },
+            {
+                "kind": "gap",
+                "sentence": "I enjoy ___ new things.",
+                "hintVi": "learn",
+                "answers": ["learning"],
+                "item": "i-enjoy"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Bạn không hiểu hướng dẫn. Bạn nói:",
+                "options": ["I'm confusing.", "I'm confused.", "The instructions are confused."],
+                "answer": 1,
+                "item": "ed-ing-adjectives"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Người phỏng vấn hỏi điểm mạnh. Bạn trả lời:",
+                "options": ["I'm good in solve problems.", "I'm good at solving problems.", "I'm good at solve problems."],
+                "answer": 1,
+                "item": "im-good-at"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "Tell me about yourself.",
+                "options": ["Hãy giới thiệu về bản thân bạn.", "Hãy kể về công ty của bạn.", "Bạn tự làm được không?"],
+                "answer": 0,
+                "item": "tell-me-about-yourself"
+            },
+            {
+                "kind": "order",
+                "vi": "Mình mong sớm nhận được tin từ anh chị.",
+                "answer": "I look forward to hearing from you.",
+                "item": "look-forward-to"
+            }
+        ]
+    }
+}

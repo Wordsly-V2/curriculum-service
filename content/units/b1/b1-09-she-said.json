@@ -1,0 +1,810 @@
+{
+    "slug": "b1-09-she-said",
+    "stage": "b1",
+    "order": 9,
+    "title": "She said…",
+    "titleVi": "Kể lại lời người khác",
+    "descriptionVi": "Kể lại lời người khác nói (She said she was tired, He told me…), chuyển lời nhắn qua điện thoại (She asked if…, He asked me to…, Can I take a message?), và kể lại tin nghe được (I heard that…, She promised to…, Apparently…).",
+    "canDo": [
+        "Tôi kể lại được điều người khác đã nói, dùng said và told cho đúng.",
+        "Tôi nhận và chuyển được lời nhắn: ai hỏi gì, ai nhờ làm gì.",
+        "Tôi kể lại được tin nghe được về người quen và nói rõ đó là tin nghe lại."
+    ],
+    "items": [
+        {
+            "slug": "reported-speech",
+            "type": "GRAMMAR",
+            "text": "said (that) + mệnh đề, told + người + mệnh đề; lùi thì",
+            "meaningVi": "câu tường thuật (kể lại lời nói)",
+            "examples": [
+                { "en": "Lan said she was tired.", "vi": "Lan nói là cô ấy mệt.", "highlight": "said she was tired" }
+            ],
+            "grammar": {
+                "ruleVi": "Kể lại lời ai đó: say (said) + mệnh đề, hoặc tell (told) + NGƯỜI + mệnh đề. that có thể bỏ. Vì lời nói đã ở quá khứ, động từ thường lùi một thì: am / is → was, are → were, hiện tại đơn → quá khứ đơn, will → would, can → could. Đại từ đổi theo người kể: \"I'm tired\" → She said she was tired.",
+                "forms": [
+                    { "label": "am / is → was", "example": "\"I'm tired.\" → She said she was tired." },
+                    { "label": "hiện tại đơn → quá khứ đơn", "example": "\"I like it.\" → He said he liked it." },
+                    { "label": "will → would", "example": "\"I'll be late.\" → She said she would be late." },
+                    { "label": "can → could", "example": "\"I can't come.\" → He told me he couldn't come." },
+                    { "label": "say và tell", "example": "She said (that)… / She told me (that)…" }
+                ],
+                "pitfallsVi": [
+                    "\"She said me she was tired\" → She told me she was tired. / She said to me…",
+                    "\"He told that he was busy\" → He said that he was busy. (tell phải có người nghe)",
+                    "Điều vẫn còn đúng thì giữ hiện tại được: She said she lives in Da Nang."
+                ]
+            }
+        },
+        {
+            "slug": "she-said",
+            "type": "PATTERN",
+            "text": "She said ….",
+            "meaningVi": "Cô ấy nói là ….",
+            "examples": [
+                { "en": "She said she would be late.", "vi": "Cô ấy nói là sẽ đến muộn.", "highlight": "She said" }
+            ],
+            "pattern": {
+                "template": "She said {clause}.",
+                "slots": [
+                    { "name": "clause", "hintVi": "mệnh đề đã lùi thì", "options": ["she was tired", "she would be late", "she couldn't come", "the meeting was canceled", "she liked the movie"] }
+                ]
+            },
+            "noteVi": "Sau said không có người nghe: ❌ \"She said me\". Muốn nói với ai: She said to me… hoặc dùng told."
+        },
+        {
+            "slug": "he-told-me",
+            "type": "PATTERN",
+            "text": "He told me ….",
+            "meaningVi": "Anh ấy bảo mình là ….",
+            "examples": [
+                { "en": "He told me he had a new job.", "vi": "Anh ấy bảo mình là có việc mới rồi.", "highlight": "He told me" }
+            ],
+            "pattern": {
+                "template": "He told me {clause}.",
+                "slots": [
+                    { "name": "clause", "hintVi": "mệnh đề đã lùi thì", "options": ["he was busy", "he would call later", "he had a new job", "the store was closed", "he didn't feel well"] }
+                ]
+            },
+            "noteVi": "told luôn có người nghe ngay sau: told me, told Lan, told us. ❌ \"He told that…\"."
+        },
+        {
+            "slug": "tell",
+            "type": "LEXICAL",
+            "text": "tell",
+            "meaningVi": "kể, bảo, nói cho (ai) biết",
+            "ipa": "/tel/",
+            "examples": [
+                { "en": "Can you tell me what happened?", "vi": "Bạn kể cho mình nghe chuyện gì đã xảy ra được không?", "highlight": "tell" }
+            ],
+            "noteVi": "Quá khứ: told /toʊld/. tell + người: tell me, tell her. Cụm cố định: tell a story, tell the truth, tell a lie (không dùng say)."
+        },
+        {
+            "slug": "explain",
+            "type": "LEXICAL",
+            "text": "explain",
+            "meaningVi": "giải thích",
+            "ipa": "/ɪkˈspleɪn/",
+            "examples": [
+                { "en": "She explained that the bus was late.", "vi": "Cô ấy giải thích là xe buýt đến muộn.", "highlight": "explained" }
+            ],
+            "noteVi": "explain something TO someone: ❌ \"explain me\" → explain it to me. Danh từ: explanation."
+        },
+        {
+            "slug": "mention",
+            "type": "LEXICAL",
+            "text": "mention",
+            "meaningVi": "nhắc đến, đề cập",
+            "ipa": "/ˈmenʃən/",
+            "examples": [
+                { "en": "He mentioned that he was moving to Da Nang.", "vi": "Anh ấy có nhắc là sắp chuyển vào Đà Nẵng.", "highlight": "mentioned" }
+            ],
+            "noteVi": "Không có about: ❌ \"mention about it\" → mention it. Đáp lời cảm ơn thân mật: Don't mention it."
+        },
+        {
+            "slug": "apparently",
+            "type": "LEXICAL",
+            "text": "apparently",
+            "meaningVi": "nghe nói là, hình như là",
+            "ipa": "/əˈpærəntli/",
+            "examples": [
+                { "en": "Apparently, the new manager is really nice.", "vi": "Nghe nói quản lý mới dễ chịu lắm.", "highlight": "Apparently" }
+            ],
+            "noteVi": "Dùng khi kể tin mình nghe lại, chưa tự kiểm chứng. Hay đứng đầu câu. Nhấn âm hai: a-PPA-rent-ly."
+        },
+        {
+            "slug": "complain",
+            "type": "LEXICAL",
+            "text": "complain",
+            "meaningVi": "than phiền, phàn nàn",
+            "ipa": "/kəmˈpleɪn/",
+            "examples": [
+                { "en": "My neighbor complained about the noise.", "vi": "Hàng xóm mình phàn nàn về tiếng ồn.", "highlight": "complained" }
+            ],
+            "noteVi": "complain about + điều gì, complain to + ai. Danh từ: complaint. ❌ \"complain with\"."
+        },
+        {
+            "slug": "reported-questions",
+            "type": "GRAMMAR",
+            "text": "asked if / whether…, asked + wh- + S + V; asked / told + người + to V",
+            "meaningVi": "tường thuật câu hỏi và lời nhờ",
+            "examples": [
+                { "en": "She asked if you were free tomorrow.", "vi": "Cô ấy hỏi mai bạn có rảnh không.", "highlight": "asked if you were free" }
+            ],
+            "grammar": {
+                "ruleVi": "Câu hỏi Yes / No: asked if (hoặc whether) + chủ ngữ + động từ. Câu hỏi có từ hỏi: asked + where / what / when… + chủ ngữ + động từ, KHÔNG đảo trợ động từ, không có dấu hỏi. Vẫn lùi thì như câu kể. Lời nhờ, lời dặn: asked / told + người + to + V; dặn đừng: told me not to + V.",
+                "forms": [
+                    { "label": "Yes / No", "example": "\"Are you free?\" → She asked if I was free." },
+                    { "label": "wh-", "example": "\"Where do you live?\" → He asked where I lived." },
+                    { "label": "nhờ", "example": "\"Can you call me back?\" → She asked me to call her back." },
+                    { "label": "dặn đừng", "example": "\"Don't be late.\" → He told me not to be late." }
+                ],
+                "pitfallsVi": [
+                    "\"He asked where did I live\" → He asked where I lived.",
+                    "\"She asked me are you free\" → She asked if I was free.",
+                    "\"He told me don't be late\" → He told me not to be late.",
+                    "\"She asked me call her\" → She asked me to call her."
+                ]
+            }
+        },
+        {
+            "slug": "she-asked-if",
+            "type": "PATTERN",
+            "text": "She asked if ….",
+            "meaningVi": "Cô ấy hỏi là … không.",
+            "examples": [
+                { "en": "She asked if I could help her.", "vi": "Cô ấy hỏi mình giúp cô ấy được không.", "highlight": "She asked if" }
+            ],
+            "pattern": {
+                "template": "She asked if {clause}.",
+                "slots": [
+                    { "name": "clause", "hintVi": "chủ ngữ + động từ đã lùi thì", "options": ["I was free", "I could help her", "the store was open", "you were coming", "we needed anything"] }
+                ]
+            },
+            "noteVi": "Sau if là câu kể bình thường, không đảo: ❌ \"asked if was I free\". Trang trọng hơn: asked whether."
+        },
+        {
+            "slug": "he-asked-me-to",
+            "type": "PATTERN",
+            "text": "He asked me to ….",
+            "meaningVi": "Anh ấy nhờ mình ….",
+            "examples": [
+                { "en": "He asked me to send the report.", "vi": "Anh ấy nhờ mình gửi bản báo cáo.", "highlight": "He asked me to" }
+            ],
+            "pattern": {
+                "template": "He asked me to {do}.",
+                "slots": [
+                    { "name": "do", "hintVi": "động từ nguyên mẫu", "options": ["call him back", "send the report", "wait for him", "close the door", "bring my passport"] }
+                ]
+            },
+            "noteVi": "asked + người + to V: ❌ \"asked me call\". Chuyển cho người khác: He asked you to call him back."
+        },
+        {
+            "slug": "can-i-take-a-message",
+            "type": "PHRASE",
+            "text": "Can I take a message?",
+            "meaningVi": "Anh / chị có muốn nhắn gì không?",
+            "examples": [
+                { "en": "Sorry, she's in a meeting. Can I take a message?", "vi": "Xin lỗi, chị ấy đang họp. Anh có muốn nhắn gì không ạ?", "highlight": "Can I take a message" }
+            ],
+            "noteVi": "Người nghe máy nói take a message (ghi lại lời nhắn); người gọi nói leave a message: Can I leave a message?"
+        },
+        {
+            "slug": "ill-pass-it-on",
+            "type": "PHRASE",
+            "text": "I'll pass it on.",
+            "meaningVi": "Mình sẽ chuyển lời.",
+            "examples": [
+                { "en": "Don't worry, I'll pass it on to her.", "vi": "Đừng lo, mình sẽ chuyển lời cho chị ấy.", "highlight": "I'll pass it on" }
+            ],
+            "noteVi": "pass on a message = chuyển lời nhắn. Cũng nói: I'll let her know. / I'll tell him you called."
+        },
+        {
+            "slug": "ask",
+            "type": "LEXICAL",
+            "text": "ask",
+            "meaningVi": "hỏi; nhờ, xin",
+            "ipa": "/æsk/",
+            "examples": [
+                { "en": "Can I ask you a question?", "vi": "Mình hỏi bạn một câu được không?", "highlight": "ask" }
+            ],
+            "noteVi": "ask someone a question (❌ \"ask to someone\"). Xin cái gì: ask for help. Quá khứ asked đọc /æskt/, đừng nuốt cả -sk-."
+        },
+        {
+            "slug": "urgent",
+            "type": "LEXICAL",
+            "text": "urgent",
+            "meaningVi": "gấp, khẩn",
+            "ipa": "/ˈɜːrdʒənt/",
+            "examples": [
+                { "en": "He said it was urgent.", "vi": "Anh ấy nói là việc gấp.", "highlight": "urgent" }
+            ],
+            "noteVi": "It's urgent. = Việc gấp. Không gấp: It's not urgent / There's no rush."
+        },
+        {
+            "slug": "whether",
+            "type": "LEXICAL",
+            "text": "whether",
+            "meaningVi": "liệu … hay không",
+            "ipa": "/ˈweðər/",
+            "examples": [
+                { "en": "She asked whether we needed a taxi.", "vi": "Cô ấy hỏi liệu mình có cần taxi không.", "highlight": "whether" }
+            ],
+            "noteVi": "Nghĩa như if trong câu hỏi gián tiếp, trang trọng hơn. Đọc giống weather /ˈweðər/, khác nghĩa hoàn toàn."
+        },
+        {
+            "slug": "reporting-verbs",
+            "type": "GRAMMAR",
+            "text": "promised to V, warned (me) not to V, admitted (that)…, explained (that)…",
+            "meaningVi": "động từ tường thuật",
+            "examples": [
+                { "en": "He promised to pay me back.", "vi": "Anh ấy hứa sẽ trả lại tiền cho mình.", "highlight": "promised to pay" }
+            ],
+            "grammar": {
+                "ruleVi": "Thay vì lặp said, dùng động từ nói rõ ý người nói. promise + to V (hứa), agree + to V (đồng ý), warn + người + (not) to V (cảnh báo), admit + (that) / V-ing (thừa nhận), explain + (that) (giải thích), complain + about (phàn nàn). Tin nghe lại: I heard that…, Apparently…",
+                "forms": [
+                    { "label": "hứa", "example": "\"I'll call you.\" → She promised to call me." },
+                    { "label": "cảnh báo", "example": "\"Don't touch it!\" → He warned me not to touch it." },
+                    { "label": "thừa nhận", "example": "\"I made a mistake.\" → She admitted that she made a mistake." },
+                    { "label": "tin nghe lại", "example": "I heard that Minh got a new job." }
+                ],
+                "pitfallsVi": [
+                    "\"She promised me that she will call\" → She promised to call me. / She promised she would call.",
+                    "\"He warned me don't touch\" → He warned me not to touch it.",
+                    "\"I heard about that Minh…\" → I heard that Minh… / I heard about Minh's new job."
+                ]
+            }
+        },
+        {
+            "slug": "i-heard-that",
+            "type": "PATTERN",
+            "text": "I heard that ….",
+            "meaningVi": "Mình nghe nói là ….",
+            "examples": [
+                { "en": "I heard that Minh got a new job.", "vi": "Mình nghe nói Minh có việc mới rồi.", "highlight": "I heard that" }
+            ],
+            "pattern": {
+                "template": "I heard that {news}.",
+                "slots": [
+                    { "name": "news", "hintVi": "tin nghe được", "options": ["Minh got a new job", "the company is moving", "Hoa is getting married", "the shop is closing", "prices are going up"] }
+                ]
+            },
+            "noteVi": "heard /hɜːrd/ (không đọc \"hia-đờ\"). Tin vẫn đang đúng thì giữ hiện tại: I heard that the shop is closing. Nghe về ai: I heard about Minh."
+        },
+        {
+            "slug": "she-promised-to",
+            "type": "PATTERN",
+            "text": "She promised to ….",
+            "meaningVi": "Cô ấy hứa sẽ ….",
+            "examples": [
+                { "en": "She promised to keep it a secret.", "vi": "Cô ấy hứa sẽ giữ bí mật.", "highlight": "She promised to" }
+            ],
+            "pattern": {
+                "template": "She promised to {do}.",
+                "slots": [
+                    { "name": "do", "hintVi": "động từ nguyên mẫu", "options": ["call me", "help us", "pay me back", "be on time", "keep it a secret"] }
+                ]
+            },
+            "noteVi": "promise + to V, không cần will: ❌ \"promised to will call\". Hứa không làm: promised not to tell anyone."
+        },
+        {
+            "slug": "admit",
+            "type": "LEXICAL",
+            "text": "admit",
+            "meaningVi": "thừa nhận",
+            "ipa": "/ədˈmɪt/",
+            "examples": [
+                { "en": "He admitted that he forgot.", "vi": "Anh ấy thừa nhận là đã quên.", "highlight": "admitted" }
+            ],
+            "noteVi": "Quá khứ nhân đôi t: admitted. admit + (that) hoặc V-ing: He admitted forgetting. Nhấn âm hai: ad-MIT."
+        },
+        {
+            "slug": "warn",
+            "type": "LEXICAL",
+            "text": "warn",
+            "meaningVi": "cảnh báo, dặn trước",
+            "ipa": "/wɔːrn/",
+            "examples": [
+                { "en": "She warned me not to drive in the rain.", "vi": "Cô ấy dặn mình đừng lái xe lúc mưa.", "highlight": "warned" }
+            ],
+            "noteVi": "Đọc giống worn /wɔːrn/, chữ a không đọc /æ/. warn someone (not) to V; warn someone about something. Danh từ: warning."
+        },
+        {
+            "slug": "rumor",
+            "type": "LEXICAL",
+            "text": "rumor",
+            "meaningVi": "tin đồn",
+            "ipa": "/ˈruːmər/",
+            "examples": [
+                { "en": "Is it true, or is it just a rumor?", "vi": "Thật không, hay chỉ là tin đồn?", "highlight": "rumor" }
+            ],
+            "noteVi": "Chính tả Mỹ rumor (Anh: rumour). There's a rumor that… = Có tin đồn là…"
+        },
+        {
+            "slug": "gossip",
+            "type": "LEXICAL",
+            "text": "gossip",
+            "meaningVi": "chuyện tầm phào, buôn chuyện",
+            "ipa": "/ˈɡɑːsɪp/",
+            "examples": [
+                { "en": "I don't like to gossip about my colleagues.", "vi": "Mình không thích buôn chuyện về đồng nghiệp.", "highlight": "gossip" }
+            ],
+            "noteVi": "Nói về chuyện thì là danh từ không đếm được: some gossip (❌ a gossip). Cũng là động từ: gossip about someone."
+        },
+        {
+            "slug": "between-you-and-me",
+            "type": "PHRASE",
+            "text": "Between you and me, …",
+            "meaningVi": "Nói riêng với bạn thôi nhé, …",
+            "examples": [
+                { "en": "Between you and me, she's looking for a new job.", "vi": "Nói riêng với bạn thôi nhé, chị ấy đang tìm việc mới.", "highlight": "Between you and me" }
+            ],
+            "noteVi": "Dặn người nghe đừng kể lại. ❌ \"between you and I\". Cũng nói: Don't tell anyone, but…"
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "b1-09-take-a-message",
+            "title": "Can I take a message?",
+            "situationVi": "Bạn ngồi cạnh chị Mai ở văn phòng. Chị Mai đang họp, điện thoại của chị reo. Bạn nghe máy giúp, rồi chuyển lời khi chị quay lại.",
+            "lines": [
+                { "speaker": "Mr. Brown", "en": "Hello, is Mai there? This is David Brown from Sunrise Travel.", "vi": "Alô, chị Mai có đó không? Tôi là David Brown bên Sunrise Travel." },
+                { "speaker": "You", "en": "Sorry, she's in a meeting right now. Can I take a message?", "vi": "Xin lỗi, chị ấy đang họp. Anh có muốn nhắn gì không ạ?", "learnerTurn": true },
+                { "speaker": "Mr. Brown", "en": "Yes, please. Can you tell her the tour is full on Friday? And could she call me back before five? It's urgent.", "vi": "Vâng. Bạn nói với chị ấy là tour thứ Sáu đã kín chỗ nhé. Và chị ấy gọi lại cho tôi trước năm giờ được không? Việc gấp." },
+                { "speaker": "You", "en": "Sure. The tour is full on Friday, and please call back before five. I'll pass it on.", "vi": "Vâng. Tour thứ Sáu đã kín chỗ, và gọi lại trước năm giờ. Em sẽ chuyển lời ạ.", "learnerTurn": true },
+                { "speaker": "Mr. Brown", "en": "Thank you. Bye.", "vi": "Cảm ơn bạn. Chào nhé." },
+                { "speaker": "Mai", "en": "I'm back. Did anyone call?", "vi": "Chị về rồi. Có ai gọi không em?" },
+                { "speaker": "You", "en": "Yes, David Brown called. He said the tour was full on Friday.", "vi": "Có ạ, anh David Brown gọi. Anh ấy nói là tour thứ Sáu kín chỗ rồi.", "learnerTurn": true },
+                { "speaker": "Mai", "en": "Oh no. Did he say anything else?", "vi": "Ôi không. Anh ấy có nói gì nữa không?" },
+                { "speaker": "You", "en": "He asked you to call him back before five. He told me it was urgent.", "vi": "Anh ấy nhờ chị gọi lại trước năm giờ. Anh ấy bảo em là việc gấp.", "learnerTurn": true },
+                { "speaker": "Mai", "en": "OK, I'll call him now. Thanks!", "vi": "Được, chị gọi ngay đây. Cảm ơn em!" }
+            ]
+        },
+        {
+            "slug": "b1-09-did-you-hear",
+            "title": "Guess what she told me",
+            "situationVi": "Giờ nghỉ trưa, bạn kể cho Tuấn, đồng nghiệp thân, những gì chị Hoa bên phòng kế toán vừa kể với bạn.",
+            "lines": [
+                { "speaker": "Tuan", "en": "You look excited. What's up?", "vi": "Trông bạn hào hứng thế. Có chuyện gì vậy?" },
+                { "speaker": "You", "en": "Guess what? I talked to Hoa this morning. She said she was getting married!", "vi": "Đoán xem? Sáng nay mình nói chuyện với chị Hoa. Chị ấy bảo sắp cưới rồi!", "learnerTurn": true },
+                { "speaker": "Tuan", "en": "Really? That's great! When is the wedding?", "vi": "Thật à? Tuyệt quá! Khi nào cưới?" },
+                { "speaker": "You", "en": "She told me it was in December. Apparently, it's going to be in Da Lat.", "vi": "Chị ấy nói là tháng Mười Hai. Nghe nói tổ chức ở Đà Lạt.", "learnerTurn": true },
+                { "speaker": "Tuan", "en": "Nice. Is she going to invite everyone from the office?", "vi": "Hay đấy. Chị ấy có mời cả văn phòng không?" },
+                { "speaker": "You", "en": "I don't know. I asked if we could come, and she promised to send the invitations next week.", "vi": "Mình không biết. Mình hỏi bọn mình có được đi không, chị ấy hứa tuần sau gửi thiệp.", "learnerTurn": true },
+                { "speaker": "Tuan", "en": "Cool. I heard a rumor that she's also moving to a new team.", "vi": "Hay. Mình nghe đồn chị ấy còn chuyển sang nhóm mới nữa." },
+                { "speaker": "You", "en": "Yes, but between you and me, she asked me not to tell anyone yet.", "vi": "Ừ, nhưng nói riêng với bạn thôi nhé, chị ấy dặn mình đừng kể với ai.", "learnerTurn": true },
+                { "speaker": "Tuan", "en": "Don't worry. I won't say a word.", "vi": "Đừng lo. Mình không hé một lời đâu." }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "b1-09-l1-she-said",
+            "title": "She said she was tired",
+            "titleVi": "Kể lại lời nói",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "reported-speech", "role": "INTRODUCE" },
+                { "item": "she-said", "role": "INTRODUCE" },
+                { "item": "he-told-me", "role": "INTRODUCE" },
+                { "item": "tell", "role": "INTRODUCE" },
+                { "item": "explain", "role": "INTRODUCE" },
+                { "item": "mention", "role": "INTRODUCE" },
+                { "item": "apparently", "role": "INTRODUCE" },
+                { "item": "complain", "role": "INTRODUCE" },
+                { "item": "will-future", "role": "RECYCLE" },
+                { "item": "passive-past", "role": "RECYCLE" },
+                { "item": "news", "role": "RECYCLE" },
+                { "item": "im-afraid", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["she-said", "he-told-me", "tell", "explain", "mention", "apparently", "complain"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Kể lại lời người khác",
+                        "bodyVi": "Kể lại lời ai đó thì dùng **said** (không có người nghe) hoặc **told + người** (có người nghe). Lời nói đã ở quá khứ, nên động từ thường **lùi một thì**:\n\n| người ấy nói | mình kể lại |\n|---|---|\n| \"I **am** tired.\" | She said she **was** tired. |\n| \"I **like** it.\" | He said he **liked** it. |\n| \"I**'ll** be late.\" | She said she **would** be late. |\n| \"I **can't** come.\" | He told me he **couldn't** come. |\n| \"The meeting **was canceled**.\" | She told me the meeting **was canceled**. |\n\nNhớ đổi đại từ: \"**I**'m tired\" → **she** was tired.\n\nĐiều vẫn còn đúng thì giữ hiện tại cũng được: She said she **lives** in Da Nang.\n\nKể tin mình nghe lại, chưa chắc chắn: **Apparently**, the new manager is really nice.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| She said me… | She **told me**… / She said **to me**… |\n| He told that… | He **said** that… |\n| He explained me… | He **explained to me**… |\n\n❌ She said me she was tired ❌ He told that he was busy ✅ **She told me she was tired.** **He said he was busy.**",
+                        "items": ["reported-speech", "she-said", "he-told-me", "tell", "explain", "apparently", "will-future", "passive-past"],
+                        "examples": [
+                            { "en": "Lan said she would be late.", "vi": "Lan nói là sẽ đến muộn.", "highlight": "said she would be late" },
+                            { "en": "My boss told me the meeting was canceled.", "vi": "Sếp bảo mình là cuộc họp bị hủy rồi.", "highlight": "told me" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "she-said",
+                        "prompts": [
+                            { "cueVi": "Lan: \"I'm tired.\" Kể lại.", "slots": { "clause": "she was tired" }, "answer": "She said she was tired." },
+                            { "cueVi": "Lan: \"I'll be late.\" Kể lại.", "slots": { "clause": "she would be late" }, "answer": "She said she would be late." },
+                            { "cueVi": "Lan: \"I can't come.\" Kể lại.", "slots": { "clause": "she couldn't come" }, "answer": "She said she couldn't come." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "he-told-me",
+                        "prompts": [
+                            { "cueVi": "Nam bảo bạn: \"I'm busy.\" Kể lại.", "slots": { "clause": "he was busy" }, "answer": "He told me he was busy." },
+                            { "cueVi": "Nam bảo bạn: \"I'll call later.\" Kể lại.", "slots": { "clause": "he would call later" }, "answer": "He told me he would call later." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["tell", "explain", "mention", "apparently", "complain", "news"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "She said she was tired.", "vi": "Cô ấy nói là cô ấy mệt." },
+                            { "en": "He told me he would call later.", "vi": "Anh ấy bảo mình là lát nữa sẽ gọi." },
+                            { "en": "She explained that the bus was late.", "vi": "Cô ấy giải thích là xe buýt đến muộn." },
+                            { "en": "Apparently, the new manager is really nice.", "vi": "Nghe nói quản lý mới dễ chịu lắm." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["She said me she was tired.", "She told me she was tired.", "She told she was tired."],
+                                "answer": 1,
+                                "item": "reported-speech"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Minh nói: \"I'll be late.\" Bạn kể lại:",
+                                "options": ["Minh said he will be late.", "Minh said he would be late.", "Minh said I would be late."],
+                                "answer": 1,
+                                "item": "she-said"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Can you ___ me what happened?",
+                                "hintVi": "kể cho (ai) biết",
+                                "answers": ["tell"],
+                                "item": "tell"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Apparently, the new manager is really nice.",
+                                "options": ["Nghe nói quản lý mới dễ chịu lắm.", "Rõ ràng quản lý mới rất dễ chịu.", "Quản lý mới muốn gặp mọi người."],
+                                "answer": 0,
+                                "item": "apparently"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Hàng xóm mình phàn nàn về tiếng ồn.",
+                                "answer": "My neighbor complained about the noise.",
+                                "item": "complain"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b1-09-l2-messages",
+            "title": "Can I take a message?",
+            "titleVi": "Nhận và chuyển lời nhắn",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "reported-questions", "role": "INTRODUCE" },
+                { "item": "she-asked-if", "role": "INTRODUCE" },
+                { "item": "he-asked-me-to", "role": "INTRODUCE" },
+                { "item": "can-i-take-a-message", "role": "INTRODUCE" },
+                { "item": "ill-pass-it-on", "role": "INTRODUCE" },
+                { "item": "ask", "role": "INTRODUCE" },
+                { "item": "urgent", "role": "INTRODUCE" },
+                { "item": "whether", "role": "INTRODUCE" },
+                { "item": "reported-speech", "role": "RECYCLE" },
+                { "item": "she-said", "role": "RECYCLE" },
+                { "item": "can-you-call-me-back", "role": "RECYCLE" },
+                { "item": "hello-this-is", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["she-asked-if", "he-asked-me-to", "can-i-take-a-message", "ill-pass-it-on", "ask", "urgent", "whether"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Kể lại câu hỏi và lời nhờ",
+                        "bodyVi": "Kể lại câu hỏi thì **không đảo** trợ động từ nữa: câu hỏi trở thành câu kể, không có dấu hỏi.\n\n| người ấy hỏi / nhờ | mình kể lại |\n|---|---|\n| \"**Are you** free?\" | She **asked if** I **was** free. |\n| \"**Can you** help me?\" | She **asked if** I **could** help her. |\n| \"Where **do you live**?\" | He **asked where** I **lived**. |\n| \"Can you call me back?\" | She **asked me to** call her back. |\n| \"Don't be late.\" | He **told me not to** be late. |\n\n**whether** nghĩa như if, trang trọng hơn: She asked **whether** we needed a taxi.\n\nNghe máy giúp người khác: **Can I take a message?** Ghi xong thì hứa: **I'll pass it on.**\n\n❌ He asked where did I live ❌ She asked me call her ❌ He told me don't be late ✅ **He asked where I lived.** **She asked me to call her.** **He told me not to be late.**",
+                        "items": ["reported-questions", "she-asked-if", "he-asked-me-to", "can-i-take-a-message", "ill-pass-it-on", "whether", "reported-speech", "can-you-call-me-back"],
+                        "examples": [
+                            { "en": "She asked if you were free tomorrow.", "vi": "Cô ấy hỏi mai bạn có rảnh không.", "highlight": "asked if you were free" },
+                            { "en": "He asked you to call him back. He said it was urgent.", "vi": "Anh ấy nhờ bạn gọi lại. Anh ấy nói là việc gấp.", "highlight": "asked you to call him back" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "she-asked-if",
+                        "prompts": [
+                            { "cueVi": "Lan hỏi bạn: \"Are you free?\" Kể lại.", "slots": { "clause": "I was free" }, "answer": "She asked if I was free." },
+                            { "cueVi": "Lan hỏi bạn: \"Can you help me?\" Kể lại.", "slots": { "clause": "I could help her" }, "answer": "She asked if I could help her." },
+                            { "cueVi": "Lan hỏi: \"Is the store open?\" Kể lại.", "slots": { "clause": "the store was open" }, "answer": "She asked if the store was open." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "he-asked-me-to",
+                        "prompts": [
+                            { "cueVi": "Sếp nhờ: \"Can you send the report?\" Kể lại.", "slots": { "do": "send the report" }, "answer": "He asked me to send the report." },
+                            { "cueVi": "Anh ấy nhờ: \"Please call me back.\" Kể lại.", "slots": { "do": "call him back" }, "answer": "He asked me to call him back." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["can-i-take-a-message", "ill-pass-it-on", "ask", "urgent", "whether", "can-you-call-me-back"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "Sorry, she's in a meeting. Can I take a message?", "vi": "Xin lỗi, chị ấy đang họp. Anh có muốn nhắn gì không ạ?" },
+                            { "en": "He asked you to call him back.", "vi": "Anh ấy nhờ bạn gọi lại." },
+                            { "en": "She asked if you were free tomorrow.", "vi": "Cô ấy hỏi mai bạn có rảnh không." },
+                            { "en": "Don't worry, I'll pass it on.", "vi": "Đừng lo, mình sẽ chuyển lời." }
+                        ]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b1-09-take-a-message", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["He asked where did I live.", "He asked where I lived.", "He asked where I live did."],
+                                "answer": 1,
+                                "item": "reported-questions"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Mai hỏi: \"Are you coming?\" Bạn kể lại:",
+                                "options": ["She asked if I was coming.", "She asked was I coming.", "She asked me are you coming."],
+                                "answer": 0,
+                                "item": "she-asked-if"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "He asked me ___ wait for him.",
+                                "answers": ["to"],
+                                "item": "he-asked-me-to"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn nghe máy giúp đồng nghiệp đang họp. Bạn nói:",
+                                "options": ["Can I leave a message?", "Can I take a message?", "Can I tell a message?"],
+                                "answer": 1,
+                                "item": "can-i-take-a-message"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Anh ấy nói là việc gấp.",
+                                "answer": "He said it was urgent.",
+                                "item": "urgent"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b1-09-l3-i-heard",
+            "title": "I heard that…",
+            "titleVi": "Kể lại tin nghe được",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "reporting-verbs", "role": "INTRODUCE" },
+                { "item": "i-heard-that", "role": "INTRODUCE" },
+                { "item": "she-promised-to", "role": "INTRODUCE" },
+                { "item": "admit", "role": "INTRODUCE" },
+                { "item": "warn", "role": "INTRODUCE" },
+                { "item": "rumor", "role": "INTRODUCE" },
+                { "item": "gossip", "role": "INTRODUCE" },
+                { "item": "between-you-and-me", "role": "INTRODUCE" },
+                { "item": "apparently", "role": "RECYCLE" },
+                { "item": "guess-what", "role": "RECYCLE" },
+                { "item": "did-you-hear-about", "role": "RECYCLE" },
+                { "item": "you-wont-believe", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["i-heard-that", "she-promised-to", "admit", "warn", "rumor", "gossip", "between-you-and-me"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Không chỉ có said",
+                        "bodyVi": "Kể chuyện hay hơn khi dùng động từ nói rõ ý người nói, thay vì lặp said:\n\n| động từ | theo sau | ví dụ |\n|---|---|---|\n| **promise** (hứa) | to V | She **promised to** call me. |\n| **warn** (dặn, cảnh báo) | người + (not) to V | He **warned** me **not to** drive in the rain. |\n| **admit** (thừa nhận) | (that) / V-ing | He **admitted** that he forgot. |\n| **explain** (giải thích) | (that) | She **explained** that the bus was late. |\n\nKể tin nghe lại, chưa chắc: **I heard that** Minh got a new job. / **Apparently**, … / There's a **rumor** that…\n\nMở đầu cho hấp dẫn: **Guess what?** / **You won't believe** what she told me! Dặn đừng kể lại: **Between you and me**, …\n\n❌ She promised that she will call ❌ He warned me don't touch it ✅ **She promised to call.** **He warned me not to touch it.**",
+                        "items": ["reporting-verbs", "i-heard-that", "she-promised-to", "admit", "warn", "rumor", "between-you-and-me", "apparently", "guess-what", "you-wont-believe"],
+                        "examples": [
+                            { "en": "I heard that the shop is closing.", "vi": "Mình nghe nói cửa hàng sắp đóng cửa.", "highlight": "I heard that" },
+                            { "en": "She promised not to tell anyone.", "vi": "Cô ấy hứa không kể với ai.", "highlight": "promised not to tell" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "i-heard-that",
+                        "prompts": [
+                            { "cueVi": "Mình nghe nói Minh có việc mới rồi.", "slots": { "news": "Minh got a new job" }, "answer": "I heard that Minh got a new job." },
+                            { "cueVi": "Mình nghe nói giá sắp tăng.", "slots": { "news": "prices are going up" }, "answer": "I heard that prices are going up." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "she-promised-to",
+                        "prompts": [
+                            { "cueVi": "Cô ấy hứa sẽ trả lại tiền cho mình.", "slots": { "do": "pay me back" }, "answer": "She promised to pay me back." },
+                            { "cueVi": "Cô ấy hứa sẽ giữ bí mật.", "slots": { "do": "keep it a secret" }, "answer": "She promised to keep it a secret." },
+                            { "cueVi": "Cô ấy hứa sẽ đến đúng giờ.", "slots": { "do": "be on time" }, "answer": "She promised to be on time." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["admit", "warn", "rumor", "gossip", "between-you-and-me", "guess-what"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b1-09-did-you-hear", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["He warned me don't touch it.", "He warned me not to touch it.", "He warned me to not touching it."],
+                                "answer": 1,
+                                "item": "reporting-verbs"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Lan: \"I'll help you.\" Bạn kể lại:",
+                                "options": ["Lan promised to help me.", "Lan promised to will help me.", "Lan promised helping me."],
+                                "answer": 0,
+                                "item": "she-promised-to"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "He ___ that he forgot.",
+                                "hintVi": "thừa nhận (quá khứ)",
+                                "answers": ["admitted"],
+                                "item": "admit"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Between you and me, she's looking for a new job.",
+                                "options": ["Nói riêng với bạn thôi nhé, chị ấy đang tìm việc mới.", "Bạn và mình cùng tìm việc mới đi.", "Chị ấy tìm được việc giữa hai chúng mình."],
+                                "answer": 0,
+                                "item": "between-you-and-me"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Thật không, hay chỉ là tin đồn?",
+                                "answer": "Is it true, or is it just a rumor?",
+                                "item": "rumor"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "b1-09-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Hoa nói: \"I'm busy.\" Bạn kể lại:",
+                "options": ["Hoa said me she was busy.", "Hoa told me she was busy.", "Hoa told that she was busy."],
+                "answer": 1,
+                "item": "reported-speech"
+            },
+            {
+                "kind": "gap",
+                "sentence": "Nam said he ___ call later.",
+                "hintVi": "will lùi thì",
+                "answers": ["would", "'d"],
+                "item": "she-said"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Mẹ hỏi: \"Where are you?\" Bạn kể lại:",
+                "options": ["My mom asked where was I.", "My mom asked where I was.", "My mom asked me where are you."],
+                "answer": 1,
+                "item": "reported-questions"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Chuyển lời nhờ của anh Brown:",
+                "options": ["He asked you call him back.", "He asked you to call him back.", "He asked you calling him back."],
+                "answer": 1,
+                "item": "he-asked-me-to"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "I heard that the company is moving.",
+                "options": ["Mình nghe nói công ty sắp chuyển chỗ.", "Mình nghe thấy công ty đang ồn.", "Công ty nghe nói mình sắp chuyển đi."],
+                "answer": 0,
+                "item": "i-heard-that"
+            },
+            {
+                "kind": "order",
+                "vi": "Cô ấy hứa sẽ giữ bí mật.",
+                "answer": "She promised to keep it a secret.",
+                "item": "she-promised-to"
+            }
+        ]
+    }
+}
