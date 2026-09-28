@@ -1,0 +1,764 @@
+{
+    "slug": "b2-10-linking",
+    "stage": "b2",
+    "order": 10,
+    "title": "Linking ideas",
+    "titleVi": "Nối ý mạch lạc: nguyên nhân, kết quả, quy trình",
+    "descriptionVi": "Nối câu cho mạch lạc bằng từ nối đầu câu (however, therefore, in addition, on top of that, as a result), nói nguyên nhân và kết quả (due to, because of, lead to, result in), trình bày một quy trình từng bước, và kể lại ngắn gọn một bài báo (The article says…, It points out…, In a nutshell…).",
+    "canDo": [
+        "Tôi nối được các câu thành một đoạn mạch lạc, dùng đúng từ nối đầu câu và dấu câu.",
+        "Tôi giải thích được nguyên nhân và hậu quả của một vấn đề xã hội như tắc đường, ngập lụt.",
+        "Tôi trình bày được một quy trình theo từng bước và kể lại ngắn gọn nội dung một bài báo."
+    ],
+    "items": [
+        {
+            "slug": "linking-words",
+            "type": "GRAMMAR",
+            "text": "từ nối đầu câu: However, / Therefore, / In addition, / As a result,",
+            "meaningVi": "nối hai câu (khác với but, so, and nối trong một câu)",
+            "examples": [
+                { "en": "The hotel was expensive. However, the service was excellent.", "vi": "Khách sạn đắt. Tuy vậy, dịch vụ rất tốt.", "highlight": "However," }
+            ],
+            "grammar": {
+                "ruleVi": "but, so, and nối hai vế trong một câu. However, therefore, in addition, as a result đứng đầu câu thứ hai (hoặc sau dấu chấm phẩy), có dấu phẩy phía sau, và trang trọng hơn. Không dùng chúng như but: ❌ \"It was cheap, however it was good\" trong văn viết cẩn thận nên viết It was cheap. However, it was good.",
+                "forms": [
+                    { "label": "tương phản", "example": "It was raining. However, we went out." },
+                    { "label": "kết quả", "example": "The road was closed. Therefore, we took the train." },
+                    { "label": "thêm ý", "example": "The flat is big. In addition, it's close to the metro." },
+                    { "label": "thêm ý (nói)", "example": "It's cheap. On top of that, the staff are lovely." },
+                    { "label": "hệ quả", "example": "It rained all night. As a result, many streets flooded." }
+                ],
+                "pitfallsVi": [
+                    "\"Although it was raining, but we went out\" → Although it was raining, we went out. / It was raining. However, we went out.",
+                    "\"However it was good\" (thiếu dấu phẩy) → However, it was good.",
+                    "\"Therefore\" trong câu chuyện thân mật nghe cứng → So, …"
+                ]
+            }
+        },
+        {
+            "slug": "however",
+            "type": "LEXICAL",
+            "text": "however",
+            "meaningVi": "tuy nhiên",
+            "ipa": "/haʊˈevər/",
+            "examples": [
+                { "en": "The plan sounds good. However, it's very expensive.", "vi": "Kế hoạch nghe hay. Tuy nhiên, nó rất tốn kém.", "highlight": "However" }
+            ],
+            "noteVi": "Đứng đầu câu, có dấu phẩy. Đứng giữa câu: The plan, however, is expensive. Nói thường: but."
+        },
+        {
+            "slug": "therefore",
+            "type": "LEXICAL",
+            "text": "therefore",
+            "meaningVi": "vì vậy, do đó",
+            "ipa": "/ˈðerfɔːr/",
+            "examples": [
+                { "en": "The flight was canceled. Therefore, we had to stay another night.", "vi": "Chuyến bay bị hủy. Vì vậy, bọn mình phải ở thêm một đêm.", "highlight": "Therefore" }
+            ],
+            "noteVi": "Trang trọng, hợp văn viết và thuyết trình. Nói chuyện: so. ❌ \"Because…, therefore…\" (chỉ dùng một từ)."
+        },
+        {
+            "slug": "in-addition",
+            "type": "PHRASE",
+            "text": "In addition, …",
+            "meaningVi": "Ngoài ra, …",
+            "examples": [
+                { "en": "The job pays well. In addition, you can work from home twice a week.", "vi": "Công việc lương tốt. Ngoài ra, bạn được làm ở nhà hai buổi một tuần.", "highlight": "In addition" }
+            ],
+            "noteVi": "Thêm một ý cùng chiều. Trước danh từ: In addition to the salary, there's a bonus. Tương tự: Moreover, Furthermore (viết), What's more (B2 03, nói)."
+        },
+        {
+            "slug": "on-top-of-that",
+            "type": "PHRASE",
+            "text": "On top of that, …",
+            "meaningVi": "Thêm vào đó, … / Chưa kể …",
+            "examples": [
+                { "en": "The room was tiny. On top of that, the air conditioner didn't work.", "vi": "Phòng bé tí. Chưa kể điều hòa còn hỏng.", "highlight": "On top of that" }
+            ],
+            "noteVi": "Cách nói thân mật của In addition, hay dùng khi kể chuyện xấu chồng lên nhau. Mạnh hơn: To make matters worse (B2 06)."
+        },
+        {
+            "slug": "as-a-result",
+            "type": "PHRASE",
+            "text": "As a result, …",
+            "meaningVi": "Kết quả là, …",
+            "examples": [
+                { "en": "It rained all night. As a result, many streets flooded.", "vi": "Mưa suốt đêm. Kết quả là nhiều tuyến phố bị ngập.", "highlight": "As a result" }
+            ],
+            "noteVi": "Nối hai câu: nguyên nhân, rồi As a result, hậu quả. Trước danh từ: as a result of the rain."
+        },
+        {
+            "slug": "not-only-but-also",
+            "type": "PATTERN",
+            "text": "It's not only …, but also ….",
+            "meaningVi": "Không chỉ …, mà còn ….",
+            "examples": [
+                { "en": "Cycling is not only cheap, but also good for your health.", "vi": "Đạp xe không chỉ rẻ mà còn tốt cho sức khỏe.", "highlight": "not only cheap, but also" }
+            ],
+            "pattern": {
+                "template": "It's not only {first}, but also {second}.",
+                "slots": [
+                    { "name": "first", "hintVi": "ý thứ nhất", "options": ["cheap", "faster", "good for the environment", "a job", "about money"] },
+                    { "name": "second", "hintVi": "ý thứ hai (cùng loại từ)", "options": ["good for your health", "safer", "good for your wallet", "a way of life", "about time"] }
+                ]
+            },
+            "noteVi": "Hai vế cùng loại từ: tính từ với tính từ, danh từ với danh từ. ❌ \"not only cheap but also it is healthy\"."
+        },
+        {
+            "slug": "meanwhile",
+            "type": "LEXICAL",
+            "text": "meanwhile",
+            "meaningVi": "trong khi đó",
+            "ipa": "/ˈmiːnwaɪl/",
+            "examples": [
+                { "en": "House prices keep rising. Meanwhile, salaries have hardly changed.", "vi": "Giá nhà cứ tăng. Trong khi đó, lương gần như không đổi.", "highlight": "Meanwhile" }
+            ],
+            "noteVi": "Hai nghĩa: cùng lúc đó (việc khác đang xảy ra), hoặc so sánh tương phản như trên. Gần nghĩa: in the meantime (B2 06: trong lúc chờ)."
+        },
+        {
+            "slug": "cause-effect",
+            "type": "GRAMMAR",
+            "text": "because of / due to + danh từ; lead to / cause / result in + danh từ",
+            "meaningVi": "nói nguyên nhân và kết quả",
+            "examples": [
+                { "en": "The flooding is mainly due to heavy rain and poor drainage.", "vi": "Ngập chủ yếu là do mưa lớn và thoát nước kém.", "highlight": "due to" }
+            ],
+            "grammar": {
+                "ruleVi": "because + mệnh đề (có chủ ngữ, động từ); because of / due to + danh từ hoặc V-ing. Chiều ngược lại, từ nguyên nhân đến kết quả: X leads to / causes / results in + danh từ. due to hay đi sau be (is due to), trang trọng hơn because of.",
+                "forms": [
+                    { "label": "because + mệnh đề", "example": "The roads flood because the drains are too small." },
+                    { "label": "because of + danh từ", "example": "We were late because of the traffic." },
+                    { "label": "be due to", "example": "The delay was due to bad weather." },
+                    { "label": "lead to", "example": "More cars will lead to more pollution." },
+                    { "label": "result in", "example": "The storm resulted in power cuts across the city." }
+                ],
+                "pitfallsVi": [
+                    "\"because of the traffic was bad\" → because the traffic was bad / because of the bad traffic.",
+                    "\"It leads to people get sick\" → It leads to people getting sick. / It makes people sick.",
+                    "\"The accident caused by the rain\" (thiếu be) → The accident was caused by the rain."
+                ]
+            }
+        },
+        {
+            "slug": "due-to",
+            "type": "PHRASE",
+            "text": "due to …",
+            "meaningVi": "do …, vì …",
+            "examples": [
+                { "en": "The train is delayed due to a technical problem.", "vi": "Tàu bị chậm do sự cố kỹ thuật.", "highlight": "due to" }
+            ],
+            "noteVi": "Sau due to là danh từ, không phải mệnh đề. Hay nghe trong thông báo. Khác due (đến hạn): The report is due on Friday."
+        },
+        {
+            "slug": "because-of",
+            "type": "PHRASE",
+            "text": "because of …",
+            "meaningVi": "vì …, tại …",
+            "examples": [
+                { "en": "We missed the start of the film because of the traffic.", "vi": "Bọn mình lỡ đoạn đầu phim vì tắc đường.", "highlight": "because of" }
+            ],
+            "noteVi": "because of + danh từ (because of the rain); because + mệnh đề (because it rained). Nói thường hơn due to."
+        },
+        {
+            "slug": "has-led-to",
+            "type": "PATTERN",
+            "text": "… has led to ….",
+            "meaningVi": "… đã dẫn đến ….",
+            "examples": [
+                { "en": "The growth of the city has led to serious traffic jams.", "vi": "Việc thành phố phát triển đã dẫn đến tắc đường nghiêm trọng.", "highlight": "has led to" }
+            ],
+            "pattern": {
+                "template": "{cause} has led to {result}.",
+                "slots": [
+                    { "name": "cause", "hintVi": "nguyên nhân (danh từ, số ít)", "options": ["The growth of the city", "Online shopping", "Social media", "The new metro line", "Working from home"] },
+                    { "name": "result", "hintVi": "kết quả (danh từ / V-ing)", "options": ["serious traffic jams", "more plastic waste", "shorter attention spans", "less traffic in the center", "fewer people using offices"] }
+                ]
+            },
+            "noteVi": "lead – led – led. Sau to là danh từ hoặc V-ing, ❌ \"lead to people get sick\". Tương tự: has caused, has resulted in."
+        },
+        {
+            "slug": "result-in",
+            "type": "PHRASE",
+            "text": "result in …",
+            "meaningVi": "gây ra, dẫn đến (kết quả) …",
+            "examples": [
+                { "en": "The storm resulted in power cuts across the city.", "vi": "Cơn bão gây mất điện khắp thành phố.", "highlight": "resulted in" }
+            ],
+            "noteVi": "Nguyên nhân + result in + kết quả. Ngược chiều: result from (kết quả + result from + nguyên nhân). Danh từ: as a result."
+        },
+        {
+            "slug": "cause",
+            "type": "LEXICAL",
+            "text": "cause",
+            "meaningVi": "nguyên nhân; gây ra",
+            "ipa": "/kɔːz/",
+            "examples": [
+                { "en": "Bad drainage is one of the main causes of flooding.", "vi": "Thoát nước kém là một trong những nguyên nhân chính gây ngập.", "highlight": "causes" }
+            ],
+            "noteVi": "Danh từ: the cause of something. Động từ: cause a problem, cause someone to do something. Hay dùng cho điều xấu."
+        },
+        {
+            "slug": "consequence",
+            "type": "LEXICAL",
+            "text": "consequence",
+            "meaningVi": "hậu quả",
+            "ipa": "/ˈkɑːnsəkwens/",
+            "examples": [
+                { "en": "Air pollution has serious consequences for children's health.", "vi": "Ô nhiễm không khí gây hậu quả nghiêm trọng cho sức khỏe trẻ em.", "highlight": "consequences" }
+            ],
+            "noteVi": "Thường là kết quả xấu: serious / long-term consequences. Kết quả trung tính: result."
+        },
+        {
+            "slug": "factor",
+            "type": "LEXICAL",
+            "text": "factor",
+            "meaningVi": "yếu tố",
+            "ipa": "/ˈfæktər/",
+            "examples": [
+                { "en": "Price is an important factor when people choose a school.", "vi": "Giá là yếu tố quan trọng khi người ta chọn trường.", "highlight": "factor" }
+            ],
+            "noteVi": "a key / major factor in something. Hay dùng khi nói có nhiều nguyên nhân: There are several factors."
+        },
+        {
+            "slug": "describing-a-process",
+            "type": "GRAMMAR",
+            "text": "trình bày quy trình: First, / Once … , / After + V-ing, / Finally, + bị động",
+            "meaningVi": "kể các bước của một quy trình",
+            "examples": [
+                { "en": "Once the plastic is collected, it's sorted by type.", "vi": "Sau khi nhựa được thu gom, nó được phân loại theo từng loại.", "highlight": "Once the plastic is collected" }
+            ],
+            "grammar": {
+                "ruleVi": "Trình bày quy trình dùng hiện tại đơn, và thường dùng bị động khi không quan trọng ai làm (is collected, are sorted). Nối các bước: First / The first step is to…, Then / Next, Once + mệnh đề (ngay khi…xong), After + V-ing / After that, Finally. Once ở đây nghĩa là \"một khi, sau khi\", khác once = một lần (A2 09).",
+                "forms": [
+                    { "label": "bước đầu", "example": "The first step is to collect the plastic." },
+                    { "label": "bị động", "example": "Then the bottles are washed and cut into small pieces." },
+                    { "label": "once", "example": "Once the pieces are dry, they're melted." },
+                    { "label": "after + V-ing", "example": "After being melted, the plastic is made into new products." },
+                    { "label": "bước cuối", "example": "Finally, the products are sent to shops." }
+                ],
+                "pitfallsVi": [
+                    "\"Then the bottles wash\" → Then the bottles are washed. (bị động)",
+                    "\"Once the pieces will be dry\" → Once the pieces are dry. (hiện tại đơn)",
+                    "\"At first, you collect…\" (at first = lúc đầu, B2 01) → First, you collect…"
+                ]
+            }
+        },
+        {
+            "slug": "the-first-step-is",
+            "type": "PATTERN",
+            "text": "The first step is to ….",
+            "meaningVi": "Bước đầu tiên là ….",
+            "examples": [
+                { "en": "The first step is to collect the plastic.", "vi": "Bước đầu tiên là thu gom nhựa.", "highlight": "The first step is to" }
+            ],
+            "pattern": {
+                "template": "The first step is to {do}.",
+                "slots": [
+                    { "name": "do", "hintVi": "động từ nguyên mẫu", "options": ["collect the plastic", "pick the coffee beans", "fill out the form", "create an account", "wash the rice"] }
+                ]
+            },
+            "noteVi": "Mở đầu phần trình bày quy trình. Tiếp theo: The next step is to…, The final step is to…."
+        },
+        {
+            "slug": "the-article-says",
+            "type": "PATTERN",
+            "text": "The article says that ….",
+            "meaningVi": "Bài báo nói rằng ….",
+            "examples": [
+                { "en": "The article says that a four-day week makes people more productive.", "vi": "Bài báo nói rằng tuần làm bốn ngày giúp người ta làm việc hiệu quả hơn.", "highlight": "The article says that" }
+            ],
+            "pattern": {
+                "template": "The article says that {claim}.",
+                "slots": [
+                    { "name": "claim", "hintVi": "nội dung (hiện tại)", "options": ["a four-day week makes people more productive", "most plastic is never recycled", "young people read less than before", "the city needs more parks", "coffee prices will keep rising"] }
+                ]
+            },
+            "noteVi": "Kể lại bài viết dùng hiện tại đơn (says, argues, suggests), không cần lùi thì như tường thuật lời nói (B1 09). Nguồn: According to the article… (B2 04)."
+        },
+        {
+            "slug": "point-out",
+            "type": "PHRASE",
+            "text": "point out",
+            "meaningVi": "chỉ ra, lưu ý",
+            "examples": [
+                { "en": "The writer points out that most plastic is never recycled.", "vi": "Tác giả chỉ ra rằng phần lớn nhựa không bao giờ được tái chế.", "highlight": "points out" }
+            ],
+            "noteVi": "point out + that… / point out + danh từ (point out a mistake). Cũng dùng trong họp: As Nam pointed out, …."
+        },
+        {
+            "slug": "in-a-nutshell",
+            "type": "PHRASE",
+            "text": "In a nutshell, …",
+            "meaningVi": "Nói ngắn gọn thì, …",
+            "examples": [
+                { "en": "In a nutshell, the article says we should all work less.", "vi": "Nói ngắn gọn, bài báo bảo tất cả chúng ta nên làm ít đi.", "highlight": "In a nutshell" }
+            ],
+            "noteVi": "Tóm ý trong một câu, thân mật. Trang trọng hơn: To sum up (B1 12), In short."
+        },
+        {
+            "slug": "process",
+            "type": "LEXICAL",
+            "text": "process",
+            "meaningVi": "quy trình, quá trình",
+            "ipa": "/ˈprɑːses/",
+            "examples": [
+                { "en": "Recycling plastic is a long and expensive process.", "vi": "Tái chế nhựa là một quy trình dài và tốn kém.", "highlight": "process" }
+            ],
+            "noteVi": "Kiểu Mỹ đọc /ˈprɑː-/, kiểu Anh /ˈprəʊ-/. Số nhiều processes /-sɪz/. Động từ: process data (xử lý dữ liệu)."
+        },
+        {
+            "slug": "step",
+            "type": "LEXICAL",
+            "text": "step",
+            "meaningVi": "bước",
+            "ipa": "/step/",
+            "examples": [
+                { "en": "The next step is to wash the bottles.", "vi": "Bước tiếp theo là rửa chai.", "highlight": "step" }
+            ],
+            "noteVi": "step by step (từng bước một), take steps (tiến hành biện pháp). ❌ \"the step first\" → the first step."
+        },
+        {
+            "slug": "author",
+            "type": "LEXICAL",
+            "text": "author",
+            "meaningVi": "tác giả",
+            "ipa": "/ˈɔːθər/",
+            "examples": [
+                { "en": "The author argues that cities should ban cars from the center.", "vi": "Tác giả lập luận rằng thành phố nên cấm ô tô vào trung tâm.", "highlight": "author" }
+            ],
+            "noteVi": "Âm \"th\" /θ/, không đọc thành \"ô-tơ\". Với bài báo cũng hay nói the writer, the journalist."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "b2-10-flooding",
+            "title": "Why does it flood?",
+            "situationVi": "Anh Ben, đồng nghiệp người Úc mới sang Sài Gòn, hỏi bạn vì sao cứ mưa to là đường ngập.",
+            "lines": [
+                { "speaker": "Ben", "en": "I had to push my bike through the water this morning! Why does the city flood so much?", "vi": "Sáng nay tôi phải dắt xe lội nước! Sao thành phố hay ngập thế?" },
+                { "speaker": "You", "en": "There are several factors. Partly it's due to the heavy rain in the rainy season.", "vi": "Có nhiều yếu tố lắm. Một phần là do mưa lớn vào mùa mưa.", "learnerTurn": true },
+                { "speaker": "Ben", "en": "Sure, but it rains a lot in other cities too.", "vi": "Ừ, nhưng thành phố khác cũng mưa nhiều mà." },
+                { "speaker": "You", "en": "True. The main cause is the drainage. The drains are old and too small. On top of that, they're often full of plastic.", "vi": "Đúng. Nguyên nhân chính là hệ thống thoát nước. Cống cũ và nhỏ quá. Chưa kể còn hay bị rác nhựa lấp.", "learnerTurn": true },
+                { "speaker": "Ben", "en": "And the city keeps growing, right?", "vi": "Mà thành phố cứ lớn lên nữa, đúng không?" },
+                { "speaker": "You", "en": "Exactly. The growth of the city has led to more concrete and fewer green areas. As a result, the water has nowhere to go.", "vi": "Đúng vậy. Thành phố phát triển đã dẫn đến nhiều bê tông hơn và ít cây xanh hơn. Kết quả là nước không có chỗ thoát.", "learnerTurn": true },
+                { "speaker": "Ben", "en": "Is anyone doing anything about it?", "vi": "Có ai làm gì để giải quyết không?" },
+                { "speaker": "You", "en": "They're building bigger drains. However, it's a slow process, so for now, just buy good rain boots!", "vi": "Họ đang làm cống lớn hơn. Tuy nhiên, đó là một quá trình chậm, nên trước mắt anh cứ mua đôi ủng tốt đi!", "learnerTurn": true },
+                { "speaker": "Ben", "en": "Ha! Good advice.", "vi": "Haha! Lời khuyên hay đấy." }
+            ]
+        },
+        {
+            "slug": "b2-10-the-article",
+            "title": "The article says…",
+            "situationVi": "Giờ nghỉ trưa, chị Linh hỏi bạn về bài báo bạn vừa đọc về tuần làm việc bốn ngày.",
+            "lines": [
+                { "speaker": "Linh", "en": "What are you reading? You look really into it.", "vi": "Em đọc gì thế? Trông chăm chú thế." },
+                { "speaker": "You", "en": "It's an article about the four-day work week. The article says that it makes people more productive.", "vi": "Một bài báo về tuần làm bốn ngày. Bài báo nói rằng nó giúp người ta làm việc hiệu quả hơn.", "learnerTurn": true },
+                { "speaker": "Linh", "en": "Really? How can you do more in less time?", "vi": "Thật à? Sao làm ít thời gian hơn mà được nhiều việc hơn?" },
+                { "speaker": "You", "en": "The author points out that people waste a lot of time in pointless meetings. With four days, they have to focus.", "vi": "Tác giả chỉ ra rằng người ta phí nhiều thời gian vào những cuộc họp vô ích. Có bốn ngày thì buộc phải tập trung.", "learnerTurn": true },
+                { "speaker": "Linh", "en": "Interesting. Did it mention any problems?", "vi": "Hay đấy. Bài có nói đến vấn đề gì không?" },
+                { "speaker": "You", "en": "Yes. It's not only good for workers, but also for companies. However, it doesn't work for every job, like doctors or shops.", "vi": "Có. Nó không chỉ tốt cho người lao động mà còn cho cả công ty. Tuy nhiên, nó không hợp với mọi nghề, như bác sĩ hay cửa hàng.", "learnerTurn": true },
+                { "speaker": "Linh", "en": "That makes sense. So what's the conclusion?", "vi": "Hợp lý. Thế kết luận là gì?" },
+                { "speaker": "You", "en": "In a nutshell, the article says we should all work less but work smarter.", "vi": "Nói ngắn gọn, bài báo bảo tất cả chúng ta nên làm ít đi nhưng làm thông minh hơn.", "learnerTurn": true },
+                { "speaker": "Linh", "en": "I'm sending that to our boss right now!", "vi": "Chị gửi ngay cho sếp đây!" }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "b2-10-l1-however",
+            "title": "However, therefore…",
+            "titleVi": "Từ nối đầu câu",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "linking-words", "role": "INTRODUCE" },
+                { "item": "however", "role": "INTRODUCE" },
+                { "item": "therefore", "role": "INTRODUCE" },
+                { "item": "in-addition", "role": "INTRODUCE" },
+                { "item": "on-top-of-that", "role": "INTRODUCE" },
+                { "item": "as-a-result", "role": "INTRODUCE" },
+                { "item": "not-only-but-also", "role": "INTRODUCE" },
+                { "item": "meanwhile", "role": "INTRODUCE" },
+                { "item": "because", "role": "RECYCLE" },
+                { "item": "although", "role": "RECYCLE" },
+                { "item": "whats-more", "role": "RECYCLE" },
+                { "item": "on-the-other-hand", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["however", "therefore", "in-addition", "on-top-of-that", "as-a-result", "not-only-but-also", "meanwhile"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "but hay However, ?",
+                        "bodyVi": "Tiếng Anh có hai kiểu từ nối. Kiểu 1 nối trong một câu; kiểu 2 đứng đầu câu sau, có dấu phẩy:\n\n| ý | trong một câu | đầu câu sau (trang trọng hơn) | nói thân mật |\n|---|---|---|---|\n| tương phản | …, **but** … / **although** … | **However**, … | But… / Still, … |\n| kết quả | …, **so** … / **because** … | **Therefore**, … / **As a result**, … | So… |\n| thêm ý | …, **and** … | **In addition**, … | **On top of that**, … / **What's more**, … |\n| so sánh | …, **whereas** … | **Meanwhile**, … / **On the other hand**, … | But… |\n\nVí dụ một đoạn: The flat is small. **However**, it's in the center. **In addition**, the rent is low. **As a result**, it's perfect for students.\n\nThêm ý kiểu nhấn mạnh: It's **not only** cheap, **but also** good for your health.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| Although it was raining, but we went out. | **Although** it was raining, we went out. |\n| Because the road was closed, therefore we took the train. | The road was closed. **Therefore**, we took the train. |\n| However it was good. | **However,** it was good. |\n\n❌ Although…, but… ❌ Because…, therefore… ✅ **The road was closed. As a result, we took the train.**",
+                        "items": ["linking-words", "however", "therefore", "in-addition", "on-top-of-that", "as-a-result", "not-only-but-also", "meanwhile", "because", "although", "whats-more", "on-the-other-hand"],
+                        "examples": [
+                            { "en": "The hotel was expensive. However, the service was excellent.", "vi": "Khách sạn đắt. Tuy vậy, dịch vụ rất tốt.", "highlight": "However" },
+                            { "en": "It rained all night. As a result, many streets flooded.", "vi": "Mưa suốt đêm. Kết quả là nhiều tuyến phố bị ngập.", "highlight": "As a result" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "not-only-but-also",
+                        "prompts": [
+                            { "cueVi": "Nó không chỉ rẻ mà còn tốt cho sức khỏe.", "slots": { "first": "cheap", "second": "good for your health" }, "answer": "It's not only cheap, but also good for your health." },
+                            { "cueVi": "Nó không chỉ nhanh hơn mà còn an toàn hơn.", "slots": { "first": "faster", "second": "safer" }, "answer": "It's not only faster, but also safer." },
+                            { "cueVi": "Nó không chỉ là một công việc mà còn là một lối sống.", "slots": { "first": "a job", "second": "a way of life" }, "answer": "It's not only a job, but also a way of life." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["however", "therefore", "in-addition", "on-top-of-that", "as-a-result", "meanwhile", "because"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "The plan sounds good. However, it's very expensive.", "vi": "Kế hoạch nghe hay. Tuy nhiên, nó rất tốn kém." },
+                            { "en": "The room was tiny. On top of that, the air conditioner didn't work.", "vi": "Phòng bé tí. Chưa kể điều hòa còn hỏng." },
+                            { "en": "It rained all night. As a result, many streets flooded.", "vi": "Mưa suốt đêm. Kết quả là nhiều tuyến phố bị ngập." },
+                            { "en": "Cycling is not only cheap, but also good for your health.", "vi": "Đạp xe không chỉ rẻ mà còn tốt cho sức khỏe." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["Although it was raining, but we went out.", "It was raining. However, we went out.", "It was raining. However we went out, but."],
+                                "answer": 1,
+                                "item": "linking-words"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Chọn từ nối phù hợp: \"The flight was canceled. ___, we had to stay another night.\"",
+                                "options": ["However", "Therefore", "Meanwhile"],
+                                "answer": 1,
+                                "item": "therefore"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "The room was tiny. On top of ___, the air conditioner didn't work.",
+                                "hintVi": "chưa kể",
+                                "answers": ["that"],
+                                "item": "on-top-of-that"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "House prices keep rising. Meanwhile, salaries have hardly changed.",
+                                "options": ["Giá nhà và lương đều tăng.", "Giá nhà cứ tăng. Trong khi đó, lương gần như không đổi.", "Lương tăng nên giá nhà cũng tăng."],
+                                "answer": 1,
+                                "item": "meanwhile"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Công việc lương tốt. Ngoài ra, bạn được làm ở nhà hai buổi một tuần.",
+                                "answer": "The job pays well. In addition, you can work from home twice a week.",
+                                "item": "in-addition"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b2-10-l2-cause-effect",
+            "title": "Due to, lead to",
+            "titleVi": "Nguyên nhân và hậu quả",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "cause-effect", "role": "INTRODUCE" },
+                { "item": "due-to", "role": "INTRODUCE" },
+                { "item": "because-of", "role": "INTRODUCE" },
+                { "item": "has-led-to", "role": "INTRODUCE" },
+                { "item": "result-in", "role": "INTRODUCE" },
+                { "item": "cause", "role": "INTRODUCE" },
+                { "item": "consequence", "role": "INTRODUCE" },
+                { "item": "factor", "role": "INTRODUCE" },
+                { "item": "which-means", "role": "RECYCLE" },
+                { "item": "pollution", "role": "RECYCLE" },
+                { "item": "as-a-result", "role": "RECYCLE" },
+                { "item": "traffic", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["due-to", "because-of", "has-led-to", "result-in", "cause", "consequence", "factor"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Vì cái gì, dẫn đến cái gì",
+                        "bodyVi": "Đi từ kết quả ngược về nguyên nhân:\n\n| từ | theo sau là | ví dụ |\n|---|---|---|\n| **because** | mệnh đề | We were late **because** the **traffic** was bad. |\n| **because of** | danh từ | We were late **because of** the traffic. |\n| **due to** (trang trọng) | danh từ | The delay was **due to** bad weather. |\n\nĐi từ nguyên nhân tới kết quả:\n\n| từ | ví dụ |\n|---|---|\n| **lead to** | More cars **lead to** more **pollution**. |\n| **cause** | Plastic in the drains **causes** flooding. |\n| **result in** | The storm **resulted in** power cuts. |\n| …, **which means** … (B2 06) | The drains are small, **which means** the water can't escape. |\n\nNói có nhiều nguyên nhân: There are several **factors**. / The main **cause** is… Hậu quả xấu: serious **consequences**.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| because of the traffic was bad | **because** the traffic was bad / **because of** the bad traffic |\n| It leads to people get sick. | It **leads to** people **getting** sick. |\n| The flood caused by the rain. | The flood **was caused by** the rain. |\n\n❌ because of the traffic was bad ❌ lead to people get sick ✅ **Pollution has led to more people getting sick.**",
+                        "items": ["cause-effect", "due-to", "because-of", "has-led-to", "result-in", "cause", "consequence", "factor", "which-means", "pollution", "traffic"],
+                        "examples": [
+                            { "en": "The flooding is mainly due to heavy rain and poor drainage.", "vi": "Ngập chủ yếu là do mưa lớn và thoát nước kém.", "highlight": "due to" },
+                            { "en": "The growth of the city has led to serious traffic jams.", "vi": "Việc thành phố phát triển đã dẫn đến tắc đường nghiêm trọng.", "highlight": "has led to" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "has-led-to",
+                        "prompts": [
+                            { "cueVi": "Việc thành phố phát triển đã dẫn đến tắc đường nghiêm trọng.", "slots": { "cause": "The growth of the city", "result": "serious traffic jams" }, "answer": "The growth of the city has led to serious traffic jams." },
+                            { "cueVi": "Mua sắm online đã dẫn đến nhiều rác nhựa hơn.", "slots": { "cause": "Online shopping", "result": "more plastic waste" }, "answer": "Online shopping has led to more plastic waste." },
+                            { "cueVi": "Tuyến metro mới đã giúp trung tâm bớt xe cộ.", "slots": { "cause": "The new metro line", "result": "less traffic in the center" }, "answer": "The new metro line has led to less traffic in the center." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["due-to", "because-of", "result-in", "cause", "consequence", "factor", "pollution"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b2-10-flooding", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["We were late because of the traffic was bad.", "We were late because of the traffic.", "We were late due to the traffic was bad."],
+                                "answer": 1,
+                                "item": "cause-effect"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["Social media has led to people spend less time outside.", "Social media has lead to people spending less time outside.", "Social media has led to people spending less time outside."],
+                                "answer": 2,
+                                "item": "has-led-to"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "The train is delayed ___ to a technical problem.",
+                                "hintVi": "do",
+                                "answers": ["due"],
+                                "item": "due-to"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Air pollution has serious consequences for children's health.",
+                                "options": ["Ô nhiễm không khí gây hậu quả nghiêm trọng cho sức khỏe trẻ em.", "Trẻ em gây ra ô nhiễm không khí.", "Sức khỏe trẻ em đang tốt dần lên."],
+                                "answer": 0,
+                                "item": "consequence"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Cơn bão gây mất điện khắp thành phố.",
+                                "answer": "The storm resulted in power cuts across the city.",
+                                "item": "result-in"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b2-10-l3-process",
+            "title": "The first step is…",
+            "titleVi": "Trình bày quy trình, kể lại bài báo",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "describing-a-process", "role": "INTRODUCE" },
+                { "item": "the-first-step-is", "role": "INTRODUCE" },
+                { "item": "the-article-says", "role": "INTRODUCE" },
+                { "item": "point-out", "role": "INTRODUCE" },
+                { "item": "in-a-nutshell", "role": "INTRODUCE" },
+                { "item": "process", "role": "INTRODUCE" },
+                { "item": "step", "role": "INTRODUCE" },
+                { "item": "author", "role": "INTRODUCE" },
+                { "item": "sequencing", "role": "RECYCLE" },
+                { "item": "according-to", "role": "RECYCLE" },
+                { "item": "passive-present", "role": "RECYCLE" },
+                { "item": "however", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["the-first-step-is", "the-article-says", "point-out", "in-a-nutshell", "process", "step", "author"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Kể từng bước, tóm một bài báo",
+                        "bodyVi": "**Trình bày quy trình**: hiện tại đơn, thường là bị động (B1 08), nối bằng từ chỉ thứ tự (A2 03):\n\n| bước | câu |\n|---|---|\n| 1 | **The first step is to** collect the plastic. |\n| 2 | Then the bottles **are washed** and cut into small pieces. |\n| 3 | **Once** the pieces are dry, they**'re melted**. |\n| 4 | **After being** melted, the plastic is made into new products. |\n| 5 | **Finally**, the products are sent to shops. |\n\n**Once** + hiện tại đơn = ngay khi (xong); khác once = một lần.\n\n**Kể lại một bài báo**: dùng hiện tại đơn, không lùi thì.\n\n| mục đích | câu |\n|---|---|\n| ý chính | **The article says that**… / The **author** argues that… |\n| một điểm đáng chú ý | The writer **points out** that… |\n| dẫn nguồn | **According to** the article, … |\n| một ý ngược | **However**, it also mentions… |\n| tóm lại | **In a nutshell**, … |\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| Then the bottles wash. | Then the bottles **are washed**. |\n| Once the pieces will be dry, … | **Once** the pieces **are** dry, … |\n| The article said that plastic was… (bài vẫn còn đó) | The article **says** that plastic **is**… |\n\n❌ Then the bottles wash ❌ Once they will be dry ✅ **Once the bottles are washed, they're cut into pieces.**",
+                        "items": ["describing-a-process", "the-first-step-is", "the-article-says", "point-out", "in-a-nutshell", "process", "step", "author", "sequencing", "according-to", "passive-present", "however"],
+                        "examples": [
+                            { "en": "Once the plastic is collected, it's sorted by type.", "vi": "Sau khi nhựa được thu gom, nó được phân loại theo từng loại.", "highlight": "Once the plastic is collected" },
+                            { "en": "The writer points out that most plastic is never recycled.", "vi": "Tác giả chỉ ra rằng phần lớn nhựa không bao giờ được tái chế.", "highlight": "points out" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "the-first-step-is",
+                        "prompts": [
+                            { "cueVi": "Bước đầu tiên là hái hạt cà phê.", "slots": { "do": "pick the coffee beans" }, "answer": "The first step is to pick the coffee beans." },
+                            { "cueVi": "Bước đầu tiên là tạo tài khoản.", "slots": { "do": "create an account" }, "answer": "The first step is to create an account." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "the-article-says",
+                        "prompts": [
+                            { "cueVi": "Bài báo nói rằng phần lớn nhựa không bao giờ được tái chế.", "slots": { "claim": "most plastic is never recycled" }, "answer": "The article says that most plastic is never recycled." },
+                            { "cueVi": "Bài báo nói rằng người trẻ đọc ít hơn trước.", "slots": { "claim": "young people read less than before" }, "answer": "The article says that young people read less than before." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["point-out", "in-a-nutshell", "process", "step", "author", "according-to"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b2-10-the-article", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng khi trình bày quy trình?",
+                                "options": ["Then the bottles wash and cut.", "Then the bottles are washed and cut.", "Then the bottles were washing and cutting."],
+                                "answer": 1,
+                                "item": "describing-a-process"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["Once the pieces are dry, they're melted.", "Once the pieces will be dry, they're melted.", "Once time the pieces are dry, they're melted."],
+                                "answer": 0,
+                                "item": "describing-a-process"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "The writer points ___ that most plastic is never recycled.",
+                                "hintVi": "chỉ ra",
+                                "answers": ["out"],
+                                "item": "point-out"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "In a nutshell, the article says we should all work less.",
+                                "options": ["Bài báo nói về hạt dẻ.", "Nói ngắn gọn, bài báo bảo tất cả chúng ta nên làm ít đi.", "Bài báo ngắn nên đọc rất nhanh."],
+                                "answer": 1,
+                                "item": "in-a-nutshell"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Tái chế nhựa là một quy trình dài và tốn kém.",
+                                "answer": "Recycling plastic is a long and expensive process.",
+                                "item": "process"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "b2-10-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["Because the road was closed, therefore we took the train.", "The road was closed. Therefore, we took the train.", "The road was closed, therefore, because we took the train."],
+                "answer": 1,
+                "item": "linking-words"
+            },
+            {
+                "kind": "gap",
+                "sentence": "It rained all night. As a ___, many streets flooded.",
+                "hintVi": "kết quả là",
+                "answers": ["result"],
+                "item": "as-a-result"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["The delay was due to bad weather.", "The delay was due to the weather was bad.", "The delay was because of the weather was bad."],
+                "answer": 0,
+                "item": "cause-effect"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Bạn muốn nói có nhiều nguyên nhân:",
+                "options": ["There are several factors.", "There are several consequences.", "There are several steps."],
+                "answer": 0,
+                "item": "factor"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "The author argues that cities should ban cars from the center.",
+                "options": ["Tác giả lập luận rằng thành phố nên cấm ô tô vào trung tâm.", "Tác giả lái ô tô vào trung tâm thành phố.", "Tác giả cãi nhau với người lái ô tô."],
+                "answer": 0,
+                "item": "author"
+            },
+            {
+                "kind": "order",
+                "vi": "Bước đầu tiên là thu gom nhựa.",
+                "answer": "The first step is to collect the plastic.",
+                "item": "the-first-step-is"
+            }
+        ]
+    }
+}

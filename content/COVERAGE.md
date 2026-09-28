@@ -12,7 +12,7 @@ Trạng thái: `draft` đã soạn, qua validator · `reviewed` đã có ngườ
 | A1 | 10 | 10 | 31 | 260 | 166 | 49 | 33 | 12 |
 | A2 | 12 | 12 | 36 | 301 | 155 | 70 | 49 | 27 |
 | B1 | 12 | 12 | 36 | 287 | 122 | 68 | 65 | 32 |
-| B2 | 12 | 8 | 24 | 192 | 78 | 49 | 41 | 24 |
+| B2 | 12 | 12 | 36 | 288 | 112 | 77 | 66 | 33 |
 
 ## Placement (`placement.json`)
 
@@ -24,7 +24,7 @@ Một bài xếp lớp cho cả lộ trình, 2 câu mỗi unit, theo thứ tự 
 | A1 | 10/10 | 20 |
 | A2 | 12/12 | 24 |
 | B1 | 12/12 | 24 |
-| B2 | 8/12 | 16 |
+| B2 | 12/12 | 24 |
 
 ## Pre-A1: Foundations
 
@@ -476,10 +476,10 @@ Mốc của stage: "Tôi thảo luận được chủ đề trừu tượng" (un
 | 6 | `b2-06-which-means` | mệnh đề quan hệ không xác định (, who / , which), which nối cả câu, whose / where / when, mô tả người, nơi, sản phẩm chi tiết | 3 | 24 (11/3/7/3) | 2 | draft |
 | 7 | `b2-07-by-then` | tương lai tiếp diễn (I'll be working), tương lai hoàn thành (I'll have finished by…), kế hoạch dài hạn, dự đoán xu hướng | 3 | 24 (11/5/5/3) | 2 | draft |
 | 8 | `b2-08-phrasal-verbs` | cụm động từ thông dụng theo chủ đề (figure out, put off, come up with, run out of, get over), tách / không tách được | 3 | 24 (2/15/4/3) | 2 | draft |
-| 9 | `b2-09-supposed-to` | be supposed to, be allowed to, needn't / didn't need to / needn't have, luật lệ và quy định, phàn nàn về quy định | | | | dự kiến |
-| 10 | `b2-10-linking` | nối ý mạch lạc (however, therefore, as a result, in addition, on top of that), nguyên nhân – kết quả (due to, lead to), trình bày quy trình, kể lại ngắn một bài báo | | | | dự kiến |
-| 11 | `b2-11-what-if` | giả định: suppose / what if, I'd rather + quá khứ, it's time + quá khứ, câu điều kiện hỗn hợp | | | | dự kiến |
-| 12 | `b2-12-strategy` | chiến lược B2: diễn đạt vòng từ trừu tượng, tự sửa lỗi, dẫn dắt và giữ lượt, kéo dài câu trả lời; can-do tổng kết B2 | | | | dự kiến |
+| 9 | `b2-09-supposed-to` | be supposed to (quy định, was supposed to: kế hoạch hỏng, in theory), be allowed to / let / Is it OK if I…?, prohibited, ban, don't need to / didn't need to / needn't have + V3, phàn nàn về thủ tục (What's the point of…?, It doesn't make sense, paperwork) | 3 | 24 (10/4/7/3) | 2 | draft |
+| 10 | `b2-10-linking` | từ nối đầu câu (however, therefore, in addition, on top of that, as a result, meanwhile, not only … but also), nguyên nhân – kết quả (because of, due to, has led to, result in, factor), trình bày quy trình (The first step is to…, once, bị động), kể lại một bài báo (The article says…, point out, in a nutshell) | 3 | 24 (9/8/4/3) | 2 | draft |
+| 11 | `b2-11-what-if` | giả định: Suppose / What if + quá khứ, in that case, the worst-case scenario, a backup plan; I'd rather + V / + người + quá khứ, I'd rather not, It's time we + quá khứ; câu điều kiện hỗn hợp (If I'd…, I'd … now; If I weren't…, I would have…) | 3 | 24 (8/7/6/3) | 2 | draft |
+| 12 | `b2-12-strategy` | chiến lược B2: diễn đạt vòng ý trừu tượng (There's no exact word for it, It has to do with…, It's not exactly…, more like…, It's the feeling you get when…), tự sửa (Let me rephrase that, What I meant was…, or rather, Where was I?), giữ lượt và kéo dài câu trả lời (If I could just finish, Another thing is that…, Take…, for example, Having said that); can-do tổng kết B2 | 3 | 24 (7/9/8/0) | 2 | draft |
 
 ### Mẫu câu (PATTERN)
 
@@ -526,6 +526,31 @@ Mốc của stage: "Tôi thảo luận được chủ đề trừu tượng" (un
 | `we-need-to-come-up-with` | We need to come up with {idea}. | 08 |
 | `could-you-it-please` | Could you {verb} it {particle}, please? | 08 |
 | `i-cant-put-up-with` | I can't put up with {thing} any more. | 08 |
+| `youre-not-supposed-to` | You're not supposed to {do}. | 09 |
+| `i-was-supposed-to` | I was supposed to {do}, but {reason}. | 09 |
+| `are-we-allowed-to` | Are we allowed to {do}? | 09 |
+| `they-dont-let-us` | They don't let us {do}. | 09 |
+| `is-it-ok-if` | Is it OK if I {do}? | 09 |
+| `i-neednt-have` | I needn't have {done}. | 09 |
+| `whats-the-point-of` | What's the point of {doing}? | 09 |
+| `not-only-but-also` | It's not only {first}, but also {second}. | 10 |
+| `has-led-to` | {cause} has led to {result}. | 10 |
+| `the-first-step-is` | The first step is to {do}. | 10 |
+| `the-article-says` | The article says that {claim}. | 10 |
+| `suppose-you` | Suppose you {did}. What would you do? | 11 |
+| `what-if-happened` | What if {event}? | 11 |
+| `id-rather-you` | I'd rather you {did}. | 11 |
+| `its-time-we` | It's time we {did}. | 11 |
+| `if-id-now` | If I'd {done}, I'd {result} now. | 11 |
+| `if-i-werent` | If I weren't {state}, I would have {done}. | 11 |
+| `its-the-feeling-when` | It's the feeling you get when {situation}. | 12 |
+| `it-has-to-do-with` | It has to do with {topic}. | 12 |
+| `not-exactly-more-like` | It's not exactly {near}, more like {closer}. | 12 |
+| `what-im-trying-to-say` | What I'm trying to say is {point}. | 12 |
+| `what-i-meant-was` | What I meant was {point}. | 12 |
+| `coming-back-to` | Coming back to {topic}, {point}. | 12 |
+| `another-thing-is` | Another thing is that {point}. | 12 |
+| `take-for-example` | Take {example}, for example. | 12 |
 
 ### Ngữ pháp (GRAMMAR)
 
@@ -555,6 +580,15 @@ Mốc của stage: "Tôi thảo luận được chủ đề trừu tượng" (un
 | `phrasal-verb-basics` | động từ + tiểu từ, nghĩa mới; cụm (nói) ↔ từ trang trọng (viết) | 08 |
 | `separable-phrasal-verbs` | tách được (turn it off, đại từ ở giữa) / không tách (look after them) | 08 |
 | `three-part-phrasal-verbs` | động từ + tiểu từ + giới từ, không tách (put up with it, break up with sb) | 08 |
+| `supposed-to` | be supposed to + V: theo quy định / dự kiến; was supposed to: kế hoạch không thành; is supposed to be: nghe nói | 09 |
+| `allowed-to` | be allowed to / let + người + V (không to) / can / may; prohibited, banned trên biển báo | 09 |
+| `need-not` | don't have to / needn't (≠ mustn't); didn't need to + V (không làm) / needn't have + V3 (đã làm, hóa ra thừa) | 09 |
+| `linking-words` | từ nối đầu câu có dấu phẩy (However, Therefore, In addition, As a result) ↔ but / so / and trong một câu | 10 |
+| `cause-effect` | because + mệnh đề; because of / due to + danh từ; lead to / cause / result in + danh từ / V-ing | 10 |
+| `describing-a-process` | hiện tại đơn bị động + First / Then / Once + hiện tại / After + V-ing / Finally | 10 |
+| `hypothetical-past` | Suppose / What if / Imagine + quá khứ đơn → would; What if + hiện tại khi dễ xảy ra | 11 |
+| `id-rather` | would rather + V; would rather + người + quá khứ đơn; It's (high) time + người + quá khứ đơn | 11 |
+| `mixed-conditional` | If + had + V3, would + V (now); If + quá khứ đơn (sự thật lâu dài), would have + V3 | 11 |
 
 ### Lỗi thường gặp của người Việt (B2)
 
@@ -566,6 +600,10 @@ Mốc của stage: "Tôi thảo luận được chủ đề trừu tượng" (un
 - "My mother, that is a teacher, …", "which it was on sale", thiếu dấu phẩy với tên riêng, "…, what means…", "a compensation", "a friend who his father…", "the town where I grew up there", "a history town", "It's worth to visit", "recommend you to try" (unit 06).
 - "Tomorrow at 9, I will work in a meeting", "I will be fly", "finish the report until Friday", "By the time you will arrive", "a big progress", "in the end of the month", "I will probably not come", "I doubt prices won't…", "many population" (unit 07).
 - "I gave up to smoke", "Turn off it", "pick up me", "fill out it", "look my cat after", "She broke up her boyfriend", "I can't put it up with", "Don't let down me", dùng postpone / discover khi nói chuyện (unit 08).
+- "We suppose to…", "The bus supposed to come", "I was supposed to called", "I was punished money" (ý là bị phạt tiền), "We are not allow to…", "lets us to leave", "It is allowed to park here?", "a permission", "You mustn't come" (ý là không cần), "I needn't have hurry", "It's not make sense", "many paperworks" (unit 09).
+- "Although…, but…", "Because…, therefore…", "However it was good" (thiếu dấu phẩy), "because of the traffic was bad", "due to it rained", "lead to people get sick", "The flood caused by the rain" (thiếu be), "Then the bottles wash" (thiếu bị động), "Once they will be dry", "At first" để mở đầu quy trình, "The article said that…" khi kể lại một bài vẫn còn đó (unit 10).
+- "Suppose if you won", "What if nobody will come?", "in case it will rain", "I'd rather to stay", "I'd rather you don't…", "It's time we make…", "I'd rather don't", "If I studied abroad, I would speak better now" (ý là hồi đó), "…, I would have lived in Singapore now", "fluent with English" (unit 11).
+- "In English don't have this word", "It's relate to…", "My mean is…", "Where am I?" (ý là đang nói đến đâu), xin lỗi liên tục rồi im lặng thay vì sửa và nói tiếp, "I'm not finish!", "For example is my sister", trả lời một chữ rồi dừng (unit 12).
 
 ### Ghi chú B2
 
@@ -577,3 +615,8 @@ Mốc của stage: "Tôi thảo luận được chủ đề trừu tượng" (un
 - `b2-06`: `non-defining-relative` nối tiếp `relative-clauses` / `the-person-who` (A2 11, mệnh đề xác định), EXPLAIN bài 1 đặt hai loại cạnh nhau. `whose` (B1 11, từ để hỏi) chỉ RECYCLE; `whose-where-when` dạy whose làm từ nối. `the-place-where` khác `its-a-place-where` (A1 10, định nghĩa). Ví dụ `which-whole-clause` phân biệt which thay danh từ và which thay cả việc (I lost my phone, which was new / which was a disaster).
 - `b2-07`: `future-continuous` đặt cạnh `past-continuous` (B1 02); `future-perfect` nối tiếp `by-the-time` (B2 01) và phân biệt by / `until` (B1 05) trong EXPLAIN bài 2. will have been + V-ing chỉ nằm trong `forms`, không có item riêng. `future-certainty` nối tiếp `will-future`, `probably`, `definitely` (B1 03). AI chỉ nằm trong `noteVi` của `automation` và hội thoại.
 - `b2-08`: 15 PHRASE (cụm động từ) và chỉ 2 LEXICAL. `turn-off`, `get-up`, `check-in`, `look-for`, `hurry-up`, `get-along-with`, `look-forward-to` (đã có) chỉ RECYCLE, dùng làm ví dụ cho quy tắc tách trong EXPLAIN bài 2 và 3. `run out of`, `come up with`, `put up with` chỉ có dạng PATTERN (`ive-run-out-of`, `we-need-to-come-up-with`, `i-cant-put-up-with`), không có PHRASE riêng. `fill-out` viết kiểu Mỹ (Anh: fill in). `catch-up-with` gồm cả catch up không tân ngữ.
+- `b2-09`: `have-to`, `should-shouldnt`, `can-ability`, `do-you-have-to` (A2), `should-have` (B2 02) chỉ RECYCLE; EXPLAIN bài 1 đặt have to / should / be supposed to cạnh nhau, bài 2 phân biệt not allowed to (cấm hẳn) với not supposed to (có quy định nhưng người ta vẫn làm). `fine-penalty` là slug của fine (tiền phạt) để khỏi lẫn với fine (khỏe). `is-it-ok-if` là mức xin phép thân mật, nối với `would-it-be-possible-to` (B2 05). `need-not` gồm cả mustn't để đối chiếu; `i-neednt-have` ghi chú kiểu Mỹ didn't have to.
+- `b2-10`: `because`, `although`, `whats-more`, `on-the-other-hand`, `which-means`, `sequencing`, `according-to`, `passive-present` chỉ RECYCLE. `on-top-of-that` (để dành từ P4-6b) là bản thân mật của `in-addition`. `describing-a-process` dạy once = ngay khi, phân biệt `once` (A2 09, một lần) trong `ruleVi`; không có item once riêng. `the-article-says` dùng hiện tại đơn, đối chiếu với lùi thì của `reported-speech` (B1 09). Moreover, Furthermore, In short chỉ nằm trong `noteVi`.
+- `b2-11`: `hypothetical-past` nối tiếp `second-conditional`, `imagine`, `what-would-you-do-if` (B1 06) và phân biệt với `what-if-we` (B2 05, đề nghị + hiện tại) trong EXPLAIN bài 1. `id-rather` đặt cạnh `prefer` (A2 08) và `its-time` (A1 02, It's time to + V). `mixed-conditional` nối tiếp `third-conditional`, `wish-past-perfect` (B2 02); bảng EXPLAIN bài 3 đặt loại 3 và hai kiểu hỗn hợp cạnh nhau. Hội thoại họp lớp dùng tên Minh (không ngầm định giới tính người học).
+- `b2-12` giống `b1-12`: không GRAMMAR, mỗi bài 8 INTRODUCE đều vào INTRO, canDo thứ tư tổng kết B2, checkpoint 8 câu có 2 câu ôn (`third-conditional`, `non-defining-relative`). `how-can-i-put-it`, `whats-the-word`, `its-a-kind-of`, `in-other-words`, `i-mean`, `let-me-try-again`, `as-i-was-saying`, `sorry-to-interrupt`, `to-sum-up`, `for-example` chỉ RECYCLE. `it-has-to-do-with` viết kiểu Mỹ (Anh: It's to do with). Hội thoại bài 2 giải thích chữ "duyên" cho người Anh, gom diễn đạt vòng (bài 1) và tự sửa (bài 2).
+- Stage B2 xong (P4-6c): 12 unit, 36 bài, 288 item, placement 24 câu.

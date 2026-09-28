@@ -1,0 +1,769 @@
+{
+    "slug": "b2-12-strategy",
+    "stage": "b2",
+    "order": 12,
+    "title": "Getting your point across",
+    "titleVi": "Chiến lược: diễn đạt vòng, tự sửa, giữ lượt",
+    "descriptionVi": "Giải thích ý trừu tượng khi không có từ tương đương (It's the feeling you get when…, It has to do with…, It's not exactly…, more like…), tự sửa khi nói sai hay nói chưa trúng ý (Let me rephrase that, What I meant was…, or rather), và giữ lượt, kéo dài câu trả lời (If I could just finish, Another thing is…, Take…, for example, Having said that).",
+    "canDo": [
+        "Tôi giải thích được một khái niệm trừu tượng hay một từ tiếng Việt không có từ tương đương trong tiếng Anh.",
+        "Tôi tự sửa được khi nói nhầm hoặc nói chưa đúng ý, và quay lại được mạch khi quên mình đang nói gì.",
+        "Tôi giữ được lượt nói khi bị ngắt lời, và kéo dài được câu trả lời bằng ví dụ, ý bổ sung và nhượng bộ.",
+        "Tổng kết B2: tôi thảo luận được chủ đề trừu tượng, lập luận và phản bác có lý lẽ, xử lý công việc bằng tiếng Anh trang trọng, nói về giả định và điều đáng tiếc, và giữ được cuộc nói chuyện trôi chảy với người bản ngữ."
+    ],
+    "items": [
+        {
+            "slug": "its-the-feeling-when",
+            "type": "PATTERN",
+            "text": "It's the feeling you get when ….",
+            "meaningVi": "Đó là cảm giác khi ….",
+            "examples": [
+                { "en": "It's the feeling you get when you come home after a long trip.", "vi": "Đó là cảm giác khi bạn về nhà sau một chuyến đi dài.", "highlight": "It's the feeling you get when" }
+            ],
+            "pattern": {
+                "template": "It's the feeling you get when {situation}.",
+                "slots": [
+                    { "name": "situation", "hintVi": "tình huống (hiện tại đơn)", "options": ["you come home after a long trip", "you meet someone and click right away", "you smell your mom's cooking", "you finish a big project", "you see an old photo"] }
+                ]
+            },
+            "noteVi": "Giải thích một cảm xúc hay một từ khó dịch (nhớ nhà, \"duyên\", \"thương\") bằng tình huống cụ thể. Cũng nói: It's what you feel when…."
+        },
+        {
+            "slug": "it-has-to-do-with",
+            "type": "PATTERN",
+            "text": "It has to do with ….",
+            "meaningVi": "Nó liên quan đến ….",
+            "examples": [
+                { "en": "It has to do with respect for older people.", "vi": "Nó liên quan đến sự tôn trọng người lớn tuổi.", "highlight": "It has to do with" }
+            ],
+            "pattern": {
+                "template": "It has to do with {topic}.",
+                "slots": [
+                    { "name": "topic", "hintVi": "chủ đề (danh từ / V-ing)", "options": ["respect for older people", "luck and timing", "how you treat your family", "saving face", "being part of a group"] }
+                ]
+            },
+            "noteVi": "Nói trước lĩnh vực của khái niệm rồi mới giải thích chi tiết. Kiểu Anh: It's to do with…. Phủ định: That has nothing to do with it (chẳng liên quan)."
+        },
+        {
+            "slug": "not-exactly-more-like",
+            "type": "PATTERN",
+            "text": "It's not exactly …, more like ….",
+            "meaningVi": "Không hẳn là …, giống … hơn.",
+            "examples": [
+                { "en": "It's not exactly love, more like a deep care for someone.", "vi": "Không hẳn là yêu, giống sự quan tâm sâu sắc với ai đó hơn.", "highlight": "It's not exactly love, more like" }
+            ],
+            "pattern": {
+                "template": "It's not exactly {near}, more like {closer}.",
+                "slots": [
+                    { "name": "near", "hintVi": "từ gần nghĩa nhưng chưa đúng", "options": ["love", "fate", "a party", "shy", "a rule"] },
+                    { "name": "closer", "hintVi": "cách diễn đạt sát hơn", "options": ["a deep care for someone", "a lucky connection between people", "a family get-together", "polite and quiet", "a habit everyone follows"] }
+                ]
+            },
+            "noteVi": "Đưa từ gần nhất rồi chỉnh lại. Nối tiếp It's a kind of… (A1 10). Tương tự: It's similar to…, but…."
+        },
+        {
+            "slug": "what-im-trying-to-say",
+            "type": "PATTERN",
+            "text": "What I'm trying to say is ….",
+            "meaningVi": "Điều tôi muốn nói là ….",
+            "examples": [
+                { "en": "What I'm trying to say is that the idea is good, but the timing is wrong.", "vi": "Điều mình muốn nói là ý tưởng thì hay, nhưng thời điểm chưa đúng.", "highlight": "What I'm trying to say is" }
+            ],
+            "pattern": {
+                "template": "What I'm trying to say is {point}.",
+                "slots": [
+                    { "name": "point", "hintVi": "ý chính (that + mệnh đề)", "options": ["that the idea is good, but the timing is wrong", "that we need more time", "that money isn't everything", "that it depends on the person", "that I'm not against it"] }
+                ]
+            },
+            "noteVi": "Dùng khi thấy người nghe chưa bắt được ý, hoặc sau một câu dài. Gần nghĩa: The point is… (B1 12), In other words… (A1 10)."
+        },
+        {
+            "slug": "theres-no-word-for",
+            "type": "PHRASE",
+            "text": "There's no exact word for it in English.",
+            "meaningVi": "Tiếng Anh không có từ nào tương đương.",
+            "examples": [
+                { "en": "We call it \"duyên\". There's no exact word for it in English.", "vi": "Bọn mình gọi là \"duyên\". Tiếng Anh không có từ nào tương đương.", "highlight": "There's no exact word for it in English" }
+            ],
+            "noteVi": "Câu mở đầu trước khi diễn đạt vòng. Cũng nói: It's hard to translate. / It doesn't really translate."
+        },
+        {
+            "slug": "roughly",
+            "type": "LEXICAL",
+            "text": "roughly",
+            "meaningVi": "đại khái, khoảng",
+            "ipa": "/ˈrʌfli/",
+            "examples": [
+                { "en": "Roughly, it means a lucky connection between two people.", "vi": "Đại khái, nó có nghĩa là mối gắn kết may mắn giữa hai người.", "highlight": "Roughly" }
+            ],
+            "noteVi": "Roughly translated, … (dịch đại khái). Với số: roughly 200 people (khoảng). \"gh\" đọc /f/."
+        },
+        {
+            "slug": "concept",
+            "type": "LEXICAL",
+            "text": "concept",
+            "meaningVi": "khái niệm",
+            "ipa": "/ˈkɑːnsept/",
+            "examples": [
+                { "en": "Saving face is an important concept in many Asian cultures.", "vi": "Giữ thể diện là một khái niệm quan trọng trong nhiều nền văn hóa châu Á.", "highlight": "concept" }
+            ],
+            "noteVi": "the concept of something. Gần nghĩa: idea. Nhấn âm đầu: CON-cept."
+        },
+        {
+            "slug": "abstract",
+            "type": "LEXICAL",
+            "text": "abstract",
+            "meaningVi": "trừu tượng",
+            "ipa": "/ˈæbstrækt/",
+            "examples": [
+                { "en": "It's hard to explain abstract ideas in a second language.", "vi": "Giải thích ý trừu tượng bằng ngoại ngữ thật khó.", "highlight": "abstract" }
+            ],
+            "noteVi": "Trái nghĩa: concrete (cụ thể). Mẹo: đưa một ví dụ cụ thể khi giải thích điều trừu tượng: For example, …."
+        },
+        {
+            "slug": "let-me-rephrase",
+            "type": "PHRASE",
+            "text": "Let me rephrase that.",
+            "meaningVi": "Để tôi nói lại cho rõ.",
+            "examples": [
+                { "en": "That came out wrong. Let me rephrase that.", "vi": "Mình nói nghe không đúng ý rồi. Để mình nói lại.", "highlight": "Let me rephrase that" }
+            ],
+            "noteVi": "Dùng khi câu vừa nói nghe sai ý hoặc hơi thô. That came out wrong = câu đó nói ra nghe không đúng ý. Nối tiếp Let me try again (A1 10)."
+        },
+        {
+            "slug": "what-i-meant-was",
+            "type": "PATTERN",
+            "text": "What I meant was ….",
+            "meaningVi": "Ý tôi là ….",
+            "examples": [
+                { "en": "Sorry, what I meant was that the report is good, but it's too long.", "vi": "Xin lỗi, ý mình là báo cáo tốt, nhưng dài quá.", "highlight": "what I meant was" }
+            ],
+            "pattern": {
+                "template": "What I meant was {point}.",
+                "slots": [
+                    { "name": "point", "hintVi": "ý đúng (that + mệnh đề)", "options": ["that the report is too long", "that I need a bit more time", "that it isn't my first choice", "that we should wait", "that I agree with part of it"] }
+                ]
+            },
+            "noteVi": "Sửa ý khi người nghe hiểu lầm câu trước. Quá khứ meant vì sửa câu đã nói. Hiện tại: I mean… (A1 10)."
+        },
+        {
+            "slug": "or-rather",
+            "type": "PHRASE",
+            "text": "…, or rather, …",
+            "meaningVi": "…, hay đúng hơn là, …",
+            "examples": [
+                { "en": "I'll be there at six, or rather, a bit after six.", "vi": "Mình sẽ đến lúc sáu giờ, à đúng hơn là sau sáu giờ một chút.", "highlight": "or rather" }
+            ],
+            "noteVi": "Tự sửa ngay giữa câu cho chính xác hơn. Thân mật: …, well, actually, …. Khác I'd rather (B2 11)."
+        },
+        {
+            "slug": "let-me-put-it-another-way",
+            "type": "PHRASE",
+            "text": "Let me put it another way.",
+            "meaningVi": "Để tôi nói theo cách khác.",
+            "examples": [
+                { "en": "Let me put it another way: it's not the money, it's the time.", "vi": "Để mình nói cách khác: vấn đề không phải tiền, mà là thời gian.", "highlight": "Let me put it another way" }
+            ],
+            "noteVi": "Khi người nghe chưa hiểu, đổi cách diễn đạt thay vì nói lại y nguyên to hơn. Nối tiếp How can I put it? (B1 12)."
+        },
+        {
+            "slug": "lost-my-train-of-thought",
+            "type": "PHRASE",
+            "text": "I've lost my train of thought.",
+            "meaningVi": "Tôi quên mất mình đang nói gì.",
+            "examples": [
+                { "en": "Sorry, I've lost my train of thought. What was I saying?", "vi": "Xin lỗi, mình quên mất đang nói gì. Mình đang nói gì nhỉ?", "highlight": "I've lost my train of thought" }
+            ],
+            "noteVi": "train of thought = mạch suy nghĩ. Người khác nhắc lại: You were talking about…."
+        },
+        {
+            "slug": "where-was-i",
+            "type": "PHRASE",
+            "text": "Where was I?",
+            "meaningVi": "Tôi đang nói đến đâu nhỉ?",
+            "examples": [
+                { "en": "Now, where was I? Oh yes, the budget.", "vi": "Rồi, mình đang nói đến đâu nhỉ? À đúng, ngân sách.", "highlight": "where was I" }
+            ],
+            "noteVi": "Nói sau khi bị ngắt lời hay lạc đề, rồi quay lại bằng As I was saying (B1 12). Không dùng is: ❌ \"Where am I?\" (= tôi đang ở đâu)."
+        },
+        {
+            "slug": "rephrase",
+            "type": "LEXICAL",
+            "text": "rephrase",
+            "meaningVi": "diễn đạt lại",
+            "ipa": "/riːˈfreɪz/",
+            "examples": [
+                { "en": "Could you rephrase the question? I'm not sure I understand.", "vi": "Anh diễn đạt lại câu hỏi được không? Tôi chưa chắc mình hiểu.", "highlight": "rephrase" }
+            ],
+            "noteVi": "Cũng dùng để nhờ người khác: Could you rephrase that? (lịch sự hơn \"What?\")."
+        },
+        {
+            "slug": "accurate",
+            "type": "LEXICAL",
+            "text": "accurate",
+            "meaningVi": "chính xác",
+            "ipa": "/ˈækjərət/",
+            "examples": [
+                { "en": "\"Fate\" isn't a very accurate translation.", "vi": "\"Fate\" không phải bản dịch chính xác lắm.", "highlight": "accurate" }
+            ],
+            "noteVi": "an accurate translation / description / number. Trái nghĩa: inaccurate. Tự sửa: To be more accurate, …."
+        },
+        {
+            "slug": "if-i-could-just-finish",
+            "type": "PHRASE",
+            "text": "If I could just finish, …",
+            "meaningVi": "Cho tôi nói nốt đã, …",
+            "examples": [
+                { "en": "Sorry, if I could just finish, there's one more point.", "vi": "Xin lỗi, cho mình nói nốt đã, còn một ý nữa.", "highlight": "if I could just finish" }
+            ],
+            "noteVi": "Giữ lượt khi bị ngắt lời, lịch sự mà chắc chắn. Ngắn hơn: Just a second, let me finish. Đối lại với Sorry to interrupt (B1 12)."
+        },
+        {
+            "slug": "just-to-add-to-that",
+            "type": "PHRASE",
+            "text": "Just to add to that, …",
+            "meaningVi": "Bổ sung thêm cho ý đó, …",
+            "examples": [
+                { "en": "Just to add to that, remote work also saves a lot of time.", "vi": "Bổ sung thêm, làm từ xa còn tiết kiệm nhiều thời gian.", "highlight": "Just to add to that" }
+            ],
+            "noteVi": "Vào cuộc thảo luận bằng cách nối vào ý người trước, dễ hơn là ngắt lời. Cũng nói: Building on what Lan said, …."
+        },
+        {
+            "slug": "coming-back-to",
+            "type": "PATTERN",
+            "text": "Coming back to …, ….",
+            "meaningVi": "Quay lại chuyện …, ….",
+            "examples": [
+                { "en": "Coming back to the cost, I think it's too high.", "vi": "Quay lại chuyện chi phí, mình nghĩ là cao quá.", "highlight": "Coming back to the cost" }
+            ],
+            "pattern": {
+                "template": "Coming back to {topic}, {point}.",
+                "slots": [
+                    { "name": "topic", "hintVi": "chủ đề đã nói trước đó", "options": ["the cost", "what Mark said", "the deadline", "your first question", "the office"] },
+                    { "name": "point", "hintVi": "ý của mình", "options": ["I think it's too high", "I partly agree", "Friday isn't realistic", "the answer is yes", "we don't really need it"] }
+                ]
+            },
+            "noteVi": "Dẫn cuộc nói chuyện về một ý đã bị bỏ dở. Cũng nói: Going back to…, To get back to…."
+        },
+        {
+            "slug": "another-thing-is",
+            "type": "PATTERN",
+            "text": "Another thing is that ….",
+            "meaningVi": "Một điều nữa là ….",
+            "examples": [
+                { "en": "Another thing is that people feel less lonely in the office.", "vi": "Một điều nữa là ở văn phòng người ta thấy bớt cô đơn.", "highlight": "Another thing is that" }
+            ],
+            "pattern": {
+                "template": "Another thing is that {point}.",
+                "slots": [
+                    { "name": "point", "hintVi": "ý bổ sung (mệnh đề)", "options": ["people feel less lonely in the office", "it saves money", "the kids need us at home", "the traffic is getting worse", "not everyone has a quiet room"] }
+                ]
+            },
+            "noteVi": "Kéo dài câu trả lời bằng một ý thứ hai. Cả chuỗi: The main reason is… (B1 04). Another thing is…. On top of that… (B2 10)."
+        },
+        {
+            "slug": "having-said-that",
+            "type": "PHRASE",
+            "text": "Having said that, …",
+            "meaningVi": "Nói vậy chứ, …",
+            "examples": [
+                { "en": "I love working from home. Having said that, I do miss my colleagues.", "vi": "Mình rất thích làm ở nhà. Nói vậy chứ mình cũng nhớ đồng nghiệp thật.", "highlight": "Having said that" }
+            ],
+            "noteVi": "Tự nhượng bộ sau khi vừa nêu ý, làm câu trả lời cân bằng hơn. Gần nghĩa: That said, …, Even so (B2 03)."
+        },
+        {
+            "slug": "take-for-example",
+            "type": "PATTERN",
+            "text": "Take …, for example.",
+            "meaningVi": "Lấy … làm ví dụ.",
+            "examples": [
+                { "en": "Take my sister, for example. She works from home and she's much happier.", "vi": "Lấy chị gái mình làm ví dụ. Chị ấy làm ở nhà và vui hơn hẳn.", "highlight": "Take my sister, for example" }
+            ],
+            "pattern": {
+                "template": "Take {example}, for example.",
+                "slots": [
+                    { "name": "example", "hintVi": "một người, nơi, việc cụ thể", "options": ["my sister", "our team", "Singapore", "last year", "the new metro"] }
+                ]
+            },
+            "noteVi": "Đưa ví dụ cụ thể làm câu trả lời dài và thuyết phục hơn. Nối tiếp For example (A2 12). Viết: …, such as…."
+        },
+        {
+            "slug": "elaborate",
+            "type": "LEXICAL",
+            "text": "elaborate",
+            "meaningVi": "nói rõ thêm, giải thích chi tiết",
+            "ipa": "/ɪˈlæbəreɪt/",
+            "examples": [
+                { "en": "Could you elaborate on that? Why do you think it won't work?", "vi": "Anh nói rõ hơn được không? Sao anh nghĩ nó không hiệu quả?", "highlight": "elaborate" }
+            ],
+            "noteVi": "elaborate on something (động từ, đuôi /-reɪt/). Tính từ elaborate /-rət/ là \"công phu\". Tự nói: Let me elaborate."
+        },
+        {
+            "slug": "perspective",
+            "type": "LEXICAL",
+            "text": "perspective",
+            "meaningVi": "góc nhìn",
+            "ipa": "/pərˈspektɪv/",
+            "examples": [
+                { "en": "From a manager's perspective, the office is easier to organize.", "vi": "Từ góc nhìn của quản lý, làm ở văn phòng dễ sắp xếp hơn.", "highlight": "perspective" }
+            ],
+            "noteVi": "from someone's perspective / from a … perspective. Gần nghĩa: point of view. Kéo dài câu trả lời: From another perspective, …."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "b2-12-explaining-duyen",
+            "title": "There's no exact word for it",
+            "situationVi": "Olivia, bạn người Anh, hỏi bạn về một từ cô nghe người Việt hay nói: \"duyên\". Bạn cố giải thích, và tự sửa khi nói chưa trúng.",
+            "lines": [
+                { "speaker": "Olivia", "en": "People keep saying \"duyên\" at the wedding. What does it mean?", "vi": "Ở đám cưới mọi người cứ nói \"duyên\". Nghĩa là gì vậy?" },
+                { "speaker": "You", "en": "Oh, that's a hard one. There's no exact word for it in English. It has to do with luck and timing.", "vi": "Ôi, từ này khó đây. Tiếng Anh không có từ nào tương đương. Nó liên quan đến may mắn và thời điểm.", "learnerTurn": true },
+                { "speaker": "Olivia", "en": "So, like fate?", "vi": "Thế thì giống số phận à?" },
+                { "speaker": "You", "en": "Not exactly. \"Fate\" isn't very accurate. It's not exactly fate, more like a lucky connection between people.", "vi": "Không hẳn. \"Fate\" không chính xác lắm. Không hẳn là số phận, giống mối gắn kết may mắn giữa người với người hơn.", "learnerTurn": true },
+                { "speaker": "Olivia", "en": "Hmm, I'm not sure I get it.", "vi": "Hừm, mình chưa chắc là hiểu." },
+                { "speaker": "You", "en": "Let me put it another way. It's the feeling you get when you meet someone and click right away, as if it was meant to be.", "vi": "Để mình nói cách khác. Đó là cảm giác khi bạn gặp ai đó và hợp nhau ngay, như thể đã được định sẵn.", "learnerTurn": true },
+                { "speaker": "Olivia", "en": "Oh, I see! So only for couples?", "vi": "À, mình hiểu rồi! Vậy chỉ dùng cho các cặp đôi à?" },
+                { "speaker": "You", "en": "Mostly for couples, or rather, for any two people who meet at the right time. We also say a person \"có duyên\", but that is a whole different concept!", "vi": "Chủ yếu cho các cặp đôi, à đúng hơn là cho bất kỳ hai người nào gặp nhau đúng lúc. Bọn mình còn nói một người \"có duyên\", nhưng đó lại là một khái niệm khác hẳn!", "learnerTurn": true },
+                { "speaker": "Olivia", "en": "Ha! One word at a time, then.", "vi": "Haha! Vậy từng từ một thôi nhé." }
+            ]
+        },
+        {
+            "slug": "b2-12-team-discussion",
+            "title": "If I could just finish…",
+            "situationVi": "Nhóm bạn đang bàn có nên quay lại văn phòng cả tuần không. Anh Mark hay ngắt lời. Chị Lan chủ trì.",
+            "lines": [
+                { "speaker": "Lan", "en": "So, should we all come back to the office five days a week? What do you think?", "vi": "Vậy mình có nên quay lại văn phòng cả năm ngày không? Em nghĩ sao?" },
+                { "speaker": "You", "en": "Personally, I think three days is better. Take my team, for example. We've been more productive since we started working from home.", "vi": "Cá nhân em nghĩ ba ngày thì hơn. Lấy nhóm em làm ví dụ. Từ khi làm ở nhà, bọn em làm hiệu quả hơn.", "learnerTurn": true },
+                { "speaker": "Mark", "en": "But nobody talks to each other anymore, and—", "vi": "Nhưng giờ chẳng ai nói chuyện với ai, rồi thì—" },
+                { "speaker": "You", "en": "Sorry, Mark, if I could just finish. Another thing is that most of us spend two hours a day in traffic.", "vi": "Xin lỗi anh Mark, cho em nói nốt đã. Một điều nữa là phần lớn bọn em mất hai tiếng mỗi ngày ngoài đường.", "learnerTurn": true },
+                { "speaker": "Mark", "en": "OK, go ahead.", "vi": "Được, em nói đi." },
+                { "speaker": "You", "en": "Having said that, Mark has a point. From a manager's perspective, it's easier when everyone is in the office.", "vi": "Nói vậy chứ anh Mark cũng có lý. Từ góc nhìn của quản lý, mọi người ở văn phòng thì dễ hơn.", "learnerTurn": true },
+                { "speaker": "Lan", "en": "Could you elaborate on the three-day idea?", "vi": "Em nói rõ hơn về ý ba ngày được không?" },
+                { "speaker": "You", "en": "Sure. Coming back to what Mark said, we could all come in on the same three days. That way we still talk to each other. To sum up, it's the best of both worlds.", "vi": "Vâng. Quay lại ý anh Mark, cả nhóm có thể lên văn phòng cùng ba ngày. Như thế vẫn nói chuyện với nhau được. Tóm lại là vẹn cả đôi đường.", "learnerTurn": true },
+                { "speaker": "Lan", "en": "I like that. Let's try it next month.", "vi": "Chị thích ý đó. Tháng sau mình thử nhé." }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "b2-12-l1-explaining",
+            "title": "It's the feeling you get when…",
+            "titleVi": "Giải thích ý trừu tượng",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "its-the-feeling-when", "role": "INTRODUCE" },
+                { "item": "it-has-to-do-with", "role": "INTRODUCE" },
+                { "item": "not-exactly-more-like", "role": "INTRODUCE" },
+                { "item": "what-im-trying-to-say", "role": "INTRODUCE" },
+                { "item": "theres-no-word-for", "role": "INTRODUCE" },
+                { "item": "roughly", "role": "INTRODUCE" },
+                { "item": "concept", "role": "INTRODUCE" },
+                { "item": "abstract", "role": "INTRODUCE" },
+                { "item": "how-can-i-put-it", "role": "RECYCLE" },
+                { "item": "whats-the-word", "role": "RECYCLE" },
+                { "item": "its-a-kind-of", "role": "RECYCLE" },
+                { "item": "in-other-words", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["its-the-feeling-when", "it-has-to-do-with", "not-exactly-more-like", "what-im-trying-to-say", "theres-no-word-for", "roughly", "concept", "abstract"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Khi không có từ tương đương",
+                        "bodyVi": "Ở A1 (unit 10) bạn đã học diễn đạt vòng cho đồ vật: It's a thing you use to…, **It's a kind of**…. Ý trừu tượng (cảm xúc, giá trị, từ văn hóa) cần thêm vài bước:\n\n| bước | câu |\n|---|---|\n| 1. báo trước | **There's no exact word for it in English.** / **How can I put it?** |\n| 2. khoanh vùng | **It has to do with** respect for older people. |\n| 3. từ gần nhất, rồi chỉnh | **It's not exactly** love, **more like** a deep care. |\n| 4. tình huống cụ thể | **It's the feeling you get when** you come home after a long trip. |\n| 5. chốt ý | **What I'm trying to say is** that… / **In other words**, … |\n\nMẹo: **abstract** thì đưa ví dụ cụ thể; dịch **roughly** (đại khái) còn hơn im lặng tìm từ. Khi quên một từ cụ thể: **What's the word?** (A1 10).\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| In English don't have this word. | **There's no exact word for it** in English. |\n| It's relate to luck. | It **has to do with** luck. |\n| It's not love, it's like care. | **It's not exactly** love, **more like** care. |\n\n❌ In English don't have this word ❌ It's relate to ✅ **There's no exact word for it in English. It has to do with luck.**",
+                        "items": ["its-the-feeling-when", "it-has-to-do-with", "not-exactly-more-like", "what-im-trying-to-say", "theres-no-word-for", "roughly", "concept", "abstract", "how-can-i-put-it", "whats-the-word", "its-a-kind-of", "in-other-words"],
+                        "examples": [
+                            { "en": "It's not exactly love, more like a deep care for someone.", "vi": "Không hẳn là yêu, giống sự quan tâm sâu sắc với ai đó hơn.", "highlight": "It's not exactly love, more like" },
+                            { "en": "It's the feeling you get when you come home after a long trip.", "vi": "Đó là cảm giác khi bạn về nhà sau một chuyến đi dài.", "highlight": "It's the feeling you get when" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "not-exactly-more-like",
+                        "prompts": [
+                            { "cueVi": "Không hẳn là số phận, giống mối gắn kết may mắn giữa người với người hơn.", "slots": { "near": "fate", "closer": "a lucky connection between people" }, "answer": "It's not exactly fate, more like a lucky connection between people." },
+                            { "cueVi": "Không hẳn là bữa tiệc, giống buổi họp mặt gia đình hơn.", "slots": { "near": "a party", "closer": "a family get-together" }, "answer": "It's not exactly a party, more like a family get-together." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "its-the-feeling-when",
+                        "prompts": [
+                            { "cueVi": "Đó là cảm giác khi bạn ngửi thấy mùi mẹ nấu.", "slots": { "situation": "you smell your mom's cooking" }, "answer": "It's the feeling you get when you smell your mom's cooking." },
+                            { "cueVi": "Đó là cảm giác khi bạn xem một tấm ảnh cũ.", "slots": { "situation": "you see an old photo" }, "answer": "It's the feeling you get when you see an old photo." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["theres-no-word-for", "roughly", "concept", "abstract", "whats-the-word", "in-other-words"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "There's no exact word for it in English.", "vi": "Tiếng Anh không có từ nào tương đương." },
+                            { "en": "It has to do with respect for older people.", "vi": "Nó liên quan đến sự tôn trọng người lớn tuổi." },
+                            { "en": "It's not exactly love, more like a deep care for someone.", "vi": "Không hẳn là yêu, giống sự quan tâm sâu sắc với ai đó hơn." },
+                            { "en": "It's the feeling you get when you come home after a long trip.", "vi": "Đó là cảm giác khi bạn về nhà sau một chuyến đi dài." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn muốn nói tiếng Anh không có từ tương đương:",
+                                "options": ["In English don't have this word.", "There's no exact word for it in English.", "English has not the word."],
+                                "answer": 1,
+                                "item": "theres-no-word-for"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["It's relate to luck and timing.", "It has to do with luck and timing.", "It has to do about luck and timing."],
+                                "answer": 1,
+                                "item": "it-has-to-do-with"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "It's not ___ love, more like a deep care for someone.",
+                                "hintVi": "hẳn là",
+                                "answers": ["exactly"],
+                                "item": "not-exactly-more-like"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Saving face is an important concept in many Asian cultures.",
+                                "options": ["Giữ thể diện là một khái niệm quan trọng trong nhiều nền văn hóa châu Á.", "Nhiều người châu Á thích chăm sóc da mặt.", "Văn hóa châu Á rất khó hiểu."],
+                                "answer": 0,
+                                "item": "concept"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Đó là cảm giác khi bạn về nhà sau một chuyến đi dài.",
+                                "answer": "It's the feeling you get when you come home after a long trip.",
+                                "item": "its-the-feeling-when"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b2-12-l2-correcting",
+            "title": "Let me rephrase that",
+            "titleVi": "Tự sửa và quay lại mạch",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "let-me-rephrase", "role": "INTRODUCE" },
+                { "item": "what-i-meant-was", "role": "INTRODUCE" },
+                { "item": "or-rather", "role": "INTRODUCE" },
+                { "item": "let-me-put-it-another-way", "role": "INTRODUCE" },
+                { "item": "lost-my-train-of-thought", "role": "INTRODUCE" },
+                { "item": "where-was-i", "role": "INTRODUCE" },
+                { "item": "rephrase", "role": "INTRODUCE" },
+                { "item": "accurate", "role": "INTRODUCE" },
+                { "item": "i-mean", "role": "RECYCLE" },
+                { "item": "let-me-try-again", "role": "RECYCLE" },
+                { "item": "as-i-was-saying", "role": "RECYCLE" },
+                { "item": "not-exactly-more-like", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["let-me-rephrase", "what-i-meant-was", "or-rather", "let-me-put-it-another-way", "lost-my-train-of-thought", "where-was-i", "rephrase", "accurate"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Nói sai thì sửa, đừng dừng lại",
+                        "bodyVi": "Người bản ngữ cũng tự sửa liên tục. Sửa nhanh và nói tiếp nghe tự nhiên hơn là im lặng hay xin lỗi mãi:\n\n| tình huống | câu |\n|---|---|\n| sửa một chữ ngay giữa câu | six o'clock, **or rather**, a bit after six |\n| câu vừa nói nghe sai ý, thô | That came out wrong. **Let me rephrase that.** |\n| người nghe hiểu lầm câu trước | Sorry, **what I meant was** that… |\n| người nghe chưa hiểu | **Let me put it another way.** |\n| sửa cho chính xác hơn | To be more **accurate**, … |\n| quên đang nói gì | Sorry, **I've lost my train of thought.** |\n| quay lại sau khi bị ngắt | Now, **where was I?** Oh yes… / **As I was saying**, … |\n\nNhắc lại A1: **I mean** (sửa nhẹ, hiện tại), **Let me try again** (nói lại từ đầu). Ở B2 dùng **what I meant was** (sửa câu đã nói, nên dùng quá khứ meant).\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| Sorry sorry sorry… (rồi im) | **Let me rephrase that.** |\n| My mean is… | **What I meant was**… |\n| Where am I? (ý: đang nói đến đâu) | **Where was I?** |\n\n❌ My mean is ❌ Where am I? ✅ **Sorry, what I meant was… Now, where was I?**",
+                        "items": ["let-me-rephrase", "what-i-meant-was", "or-rather", "let-me-put-it-another-way", "lost-my-train-of-thought", "where-was-i", "rephrase", "accurate", "i-mean", "let-me-try-again", "as-i-was-saying"],
+                        "examples": [
+                            { "en": "That came out wrong. Let me rephrase that.", "vi": "Mình nói nghe không đúng ý rồi. Để mình nói lại.", "highlight": "Let me rephrase that" },
+                            { "en": "Sorry, what I meant was that the report is good, but it's too long.", "vi": "Xin lỗi, ý mình là báo cáo tốt, nhưng dài quá.", "highlight": "what I meant was" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "what-i-meant-was",
+                        "prompts": [
+                            { "cueVi": "Ý mình là báo cáo dài quá.", "slots": { "point": "that the report is too long" }, "answer": "What I meant was that the report is too long." },
+                            { "cueVi": "Ý mình là mình cần thêm chút thời gian.", "slots": { "point": "that I need a bit more time" }, "answer": "What I meant was that I need a bit more time." },
+                            { "cueVi": "Ý mình là mình đồng ý với một phần.", "slots": { "point": "that I agree with part of it" }, "answer": "What I meant was that I agree with part of it." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["let-me-rephrase", "or-rather", "let-me-put-it-another-way", "lost-my-train-of-thought", "where-was-i", "rephrase", "accurate"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b2-12-explaining-duyen", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu bạn vừa nói nghe thô, không đúng ý. Bạn nói:",
+                                "options": ["That came out wrong. Let me rephrase that.", "Sorry, I'm wrong person.", "Forget it, no problem."],
+                                "answer": 0,
+                                "item": "let-me-rephrase"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn bị ngắt lời và muốn quay lại ý đang nói. Bạn hỏi:",
+                                "options": ["Where am I?", "Now, where was I?", "What am I?"],
+                                "answer": 1,
+                                "item": "where-was-i"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I'll be there at six, or ___, a bit after six.",
+                                "hintVi": "đúng hơn là",
+                                "answers": ["rather"],
+                                "item": "or-rather"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Sorry, I've lost my train of thought.",
+                                "options": ["Xin lỗi, mình lỡ chuyến tàu rồi.", "Xin lỗi, mình quên mất đang nói gì.", "Xin lỗi, mình không đồng ý."],
+                                "answer": 1,
+                                "item": "lost-my-train-of-thought"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Để mình nói cách khác.",
+                                "answer": "Let me put it another way.",
+                                "item": "let-me-put-it-another-way"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b2-12-l3-holding-the-floor",
+            "title": "If I could just finish…",
+            "titleVi": "Giữ lượt và kéo dài câu trả lời",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "if-i-could-just-finish", "role": "INTRODUCE" },
+                { "item": "just-to-add-to-that", "role": "INTRODUCE" },
+                { "item": "coming-back-to", "role": "INTRODUCE" },
+                { "item": "another-thing-is", "role": "INTRODUCE" },
+                { "item": "having-said-that", "role": "INTRODUCE" },
+                { "item": "take-for-example", "role": "INTRODUCE" },
+                { "item": "elaborate", "role": "INTRODUCE" },
+                { "item": "perspective", "role": "INTRODUCE" },
+                { "item": "sorry-to-interrupt", "role": "RECYCLE" },
+                { "item": "to-sum-up", "role": "RECYCLE" },
+                { "item": "for-example", "role": "RECYCLE" },
+                { "item": "where-was-i", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["if-i-could-just-finish", "just-to-add-to-that", "coming-back-to", "another-thing-is", "having-said-that", "take-for-example", "elaborate", "perspective"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Đừng trả lời một câu rồi dừng",
+                        "bodyVi": "Câu trả lời B2 có khung: ý chính → ví dụ → ý thêm → nhượng bộ → chốt.\n\n| phần | câu |\n|---|---|\n| ý chính | Personally, I think three days is better. |\n| ví dụ | **Take** my team, **for example**. We've been more productive. |\n| ý thêm | **Another thing is that** we spend two hours in traffic. |\n| nhượng bộ | **Having said that**, from a manager's **perspective**, the office is easier. |\n| chốt | **To sum up**, three days is the best of both worlds. |\n\nGiữ lượt và dẫn dắt:\n\n| tình huống | câu |\n|---|---|\n| bị ngắt lời | Sorry, **if I could just finish**, … |\n| muốn ngắt lời (B1 12) | **Sorry to interrupt**, but… |\n| nối vào ý người khác | **Just to add to that**, … |\n| quay lại ý bị bỏ dở | **Coming back to** the cost, … |\n| nhờ người khác nói rõ | Could you **elaborate** on that? |\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| Wait, wait, I'm not finish! | Sorry, **if I could just finish**… |\n| For example is my sister. | **Take** my sister, **for example**. |\n| Yes. (rồi im lặng) | Yes, definitely. **Another thing is that**… |\n\n❌ I'm not finish ❌ For example is my sister ✅ **If I could just finish: take my sister, for example.**",
+                        "items": ["if-i-could-just-finish", "just-to-add-to-that", "coming-back-to", "another-thing-is", "having-said-that", "take-for-example", "elaborate", "perspective", "sorry-to-interrupt", "to-sum-up", "for-example"],
+                        "examples": [
+                            { "en": "I love working from home. Having said that, I do miss my colleagues.", "vi": "Mình rất thích làm ở nhà. Nói vậy chứ mình cũng nhớ đồng nghiệp thật.", "highlight": "Having said that" },
+                            { "en": "Take my sister, for example. She works from home and she's much happier.", "vi": "Lấy chị gái mình làm ví dụ. Chị ấy làm ở nhà và vui hơn hẳn.", "highlight": "Take my sister, for example" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "another-thing-is",
+                        "prompts": [
+                            { "cueVi": "Một điều nữa là nó tiết kiệm tiền.", "slots": { "point": "it saves money" }, "answer": "Another thing is that it saves money." },
+                            { "cueVi": "Một điều nữa là không phải ai cũng có phòng yên tĩnh.", "slots": { "point": "not everyone has a quiet room" }, "answer": "Another thing is that not everyone has a quiet room." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "coming-back-to",
+                        "prompts": [
+                            { "cueVi": "Quay lại chuyện chi phí, mình nghĩ là cao quá.", "slots": { "topic": "the cost", "point": "I think it's too high" }, "answer": "Coming back to the cost, I think it's too high." },
+                            { "cueVi": "Quay lại ý anh Mark, em đồng ý một phần.", "slots": { "topic": "what Mark said", "point": "I partly agree" }, "answer": "Coming back to what Mark said, I partly agree." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["if-i-could-just-finish", "just-to-add-to-that", "having-said-that", "elaborate", "perspective", "to-sum-up"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b2-12-team-discussion", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn đang nói thì bị ngắt lời. Bạn giữ lượt lịch sự:",
+                                "options": ["Wait, I'm not finish!", "Sorry, if I could just finish…", "Stop talking, please."],
+                                "answer": 1,
+                                "item": "if-i-could-just-finish"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["For example is my sister.", "Take my sister, for example.", "Example my sister."],
+                                "answer": 1,
+                                "item": "take-for-example"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I love working from home. Having ___ that, I do miss my colleagues.",
+                                "hintVi": "nói vậy chứ",
+                                "answers": ["said"],
+                                "item": "having-said-that"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Could you elaborate on that?",
+                                "options": ["Anh nói rõ hơn được không?", "Anh làm giúp việc đó được không?", "Anh có đồng ý không?"],
+                                "answer": 0,
+                                "item": "elaborate"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Bổ sung thêm, làm từ xa còn tiết kiệm nhiều thời gian.",
+                                "answer": "Just to add to that, remote work also saves a lot of time.",
+                                "item": "just-to-add-to-that"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "b2-12-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Bạn giải thích một từ tiếng Việt khó dịch. Câu nào tự nhiên nhất?",
+                "options": ["It's not exactly fate, more like a lucky connection.", "It's not fate, it's like lucky.", "It is exactly fate but more."],
+                "answer": 0,
+                "item": "not-exactly-more-like"
+            },
+            {
+                "kind": "gap",
+                "sentence": "It has to ___ with respect for older people.",
+                "hintVi": "liên quan đến",
+                "answers": ["do"],
+                "item": "it-has-to-do-with"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Người nghe hiểu lầm câu bạn vừa nói. Bạn sửa:",
+                "options": ["My mean is the report is too long.", "Sorry, what I meant was that the report is too long.", "Sorry, I mean was the report too long."],
+                "answer": 1,
+                "item": "what-i-meant-was"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "Let me put it another way.",
+                "options": ["Để mình đặt nó chỗ khác.", "Để mình nói theo cách khác.", "Để mình đi đường khác."],
+                "answer": 1,
+                "item": "let-me-put-it-another-way"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Bạn muốn thêm một ý nhượng bộ cho câu trả lời cân bằng:",
+                "options": ["Having said that, the office is easier for managers.", "Having saying that, the office is easier for managers.", "Have said that, the office is easier for managers."],
+                "answer": 0,
+                "item": "having-said-that"
+            },
+            {
+                "kind": "order",
+                "vi": "Quay lại chuyện chi phí, mình nghĩ là cao quá.",
+                "answer": "Coming back to the cost, I think it's too high.",
+                "item": "coming-back-to"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Ôn B2. Câu nào đúng?",
+                "options": ["If I would have known, I would have come.", "If I'd known, I would have come.", "If I knew yesterday, I would come."],
+                "answer": 1,
+                "item": "third-conditional"
+            },
+            {
+                "kind": "gap",
+                "sentence": "Ôn B2. My brother, ___ lives in Da Nang, is a doctor.",
+                "hintVi": "mệnh đề quan hệ có dấu phẩy",
+                "answers": ["who"],
+                "item": "non-defining-relative"
+            }
+        ]
+    }
+}
