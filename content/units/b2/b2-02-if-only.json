@@ -1,0 +1,793 @@
+{
+    "slug": "b2-02-if-only",
+    "stage": "b2",
+    "order": 2,
+    "title": "If only…",
+    "titleVi": "Giá mà: điều kiện loại 3 và tiếc nuối",
+    "descriptionVi": "Nói về những điều đã không xảy ra với câu điều kiện loại 3 (If I'd known, I would have come), trách mình, trách người với should have / shouldn't have / could have, và tiếc nuối chuyện đã qua với I wish I'd…, If only….",
+    "canDo": [
+        "Tôi nói được chuyện gì đã có thể xảy ra nếu quá khứ khác đi, và vì sao may mà nó không xảy ra.",
+        "Tôi nhận lỗi, nói lẽ ra mình nên làm gì, và an ủi người khác khi họ tự trách.",
+        "Tôi kể được những điều mình tiếc trong quá khứ và điều mình rút ra từ đó."
+    ],
+    "items": [
+        {
+            "slug": "third-conditional",
+            "type": "GRAMMAR",
+            "text": "If + had + V3, would have + V3",
+            "meaningVi": "câu điều kiện loại 3",
+            "examples": [
+                { "en": "If I'd known about the party, I would have come.", "vi": "Nếu mình biết có tiệc thì mình đã đến rồi.", "highlight": "If I'd known" }
+            ],
+            "grammar": {
+                "ruleVi": "Nói về chuyện trong quá khứ đã KHÔNG xảy ra và kết quả tưởng tượng của nó. Vế if: had + V3. Vế kết quả: would have + V3 (hoặc could have / might have). Nói nhanh: If I'd known, I would've come. Loại 2 (b1-06) là hiện tại, tưởng tượng; loại 3 là quá khứ, không đổi được nữa.",
+                "forms": [
+                    { "label": "khẳng định", "example": "If I'd left earlier, I would have caught the bus." },
+                    { "label": "phủ định", "example": "If it hadn't rained, we would have gone to the beach." },
+                    { "label": "câu hỏi", "example": "What would you have done if you'd lost your passport?" },
+                    { "label": "có thể đã", "example": "If you'd asked me, I could have helped." },
+                    { "label": "đọc nhanh", "example": "I would've /ˈwʊdəv/, I wouldn't have /ˈwʊdəntəv/" }
+                ],
+                "pitfallsVi": [
+                    "\"If I would have known\" → If I had known / If I'd known. (không có would trong vế if)",
+                    "\"If I knew, I would come\" (ý là chuyện hôm qua) → If I'd known, I would have come.",
+                    "\"I would have came\" → I would have come. (V3)"
+                ]
+            }
+        },
+        {
+            "slug": "if-id-known",
+            "type": "PATTERN",
+            "text": "If I'd known, I would have ….",
+            "meaningVi": "Nếu biết trước thì mình đã ….",
+            "examples": [
+                { "en": "If I'd known, I would have called you.", "vi": "Nếu biết trước thì mình đã gọi cho bạn rồi.", "highlight": "If I'd known" }
+            ],
+            "pattern": {
+                "template": "If I'd known, I would have {done}.",
+                "slots": [
+                    { "name": "done", "hintVi": "V3", "options": ["called you", "come earlier", "brought an umbrella", "helped you", "bought a ticket"] }
+                ]
+            },
+            "noteVi": "Câu rất hay dùng khi ai đó kể chuyện mình không biết. I'd known = I had known. Cũng nói: If I'd known earlier, …"
+        },
+        {
+            "slug": "if-i-hadnt",
+            "type": "PATTERN",
+            "text": "If I hadn't …, I wouldn't have ….",
+            "meaningVi": "Nếu mình đã không … thì đã không ….",
+            "examples": [
+                { "en": "If I hadn't missed the bus, I wouldn't have been late.", "vi": "Nếu không lỡ xe buýt thì mình đã không bị muộn.", "highlight": "If I hadn't missed the bus" }
+            ],
+            "pattern": {
+                "template": "If I hadn't {done}, I wouldn't have {result}.",
+                "slots": [
+                    { "name": "done", "hintVi": "V3", "options": ["missed the bus", "stayed up late", "taken that job", "gone to the party", "moved to Da Nang"] },
+                    { "name": "result", "hintVi": "V3", "options": ["been late", "felt so tired", "met my wife", "met Lan", "found this apartment"] }
+                ]
+            },
+            "noteVi": "Hai vế phủ định: nói về một chuyện may mắn hay xui xẻo mà nguyên nhân là việc mình đã làm. hadn't /ˈhædənt/."
+        },
+        {
+            "slug": "otherwise",
+            "type": "LEXICAL",
+            "text": "otherwise",
+            "meaningVi": "nếu không thì",
+            "ipa": "/ˈʌðərwaɪz/",
+            "examples": [
+                { "en": "Luckily, I checked the date. Otherwise, I would have missed the exam.", "vi": "May mà mình xem lại ngày. Không thì đã lỡ bài thi rồi.", "highlight": "Otherwise" }
+            ],
+            "noteVi": "Thay cho cả một vế if: Otherwise = If I hadn't… Cũng dùng cho hiện tại: Hurry up, otherwise we'll be late."
+        },
+        {
+            "slug": "chance",
+            "type": "LEXICAL",
+            "text": "chance",
+            "meaningVi": "cơ hội; khả năng",
+            "ipa": "/tʃæns/",
+            "examples": [
+                { "en": "I didn't have the chance to say goodbye.", "vi": "Mình không có cơ hội nói lời tạm biệt.", "highlight": "chance" }
+            ],
+            "noteVi": "have a chance to V. Tình cờ: by chance. Khả năng: There's a good chance it will rain."
+        },
+        {
+            "slug": "thanks-to",
+            "type": "PHRASE",
+            "text": "thanks to …",
+            "meaningVi": "nhờ có …",
+            "examples": [
+                { "en": "Thanks to you, I didn't miss my flight.", "vi": "Nhờ có bạn mà mình không lỡ chuyến bay.", "highlight": "Thanks to you" }
+            ],
+            "noteVi": "Sau thanks to là danh từ, đại từ: thanks to the GPS, thanks to my mom. Chuyện không tốt thì dùng because of."
+        },
+        {
+            "slug": "just-in-time",
+            "type": "PHRASE",
+            "text": "just in time",
+            "meaningVi": "vừa kịp lúc",
+            "examples": [
+                { "en": "We got to the gate just in time.", "vi": "Bọn mình tới cửa ra máy bay vừa kịp lúc.", "highlight": "just in time" }
+            ],
+            "noteVi": "in time = kịp (trước khi quá muộn); on time (B1) = đúng giờ đã hẹn. ❌ \"just on time\" với nghĩa vừa kịp."
+        },
+        {
+            "slug": "that-was-close",
+            "type": "PHRASE",
+            "text": "That was close!",
+            "meaningVi": "Suýt nữa thì!",
+            "examples": [
+                { "en": "Wow, that was close! That car almost hit us.", "vi": "Trời, suýt nữa thì! Chiếc xe kia suýt đâm vào mình.", "highlight": "that was close" }
+            ],
+            "noteVi": "Nói ngay sau khi suýt gặp chuyện xấu. Đọc close /kloʊs/ (gần), không phải /kloʊz/ (đóng). Cũng nói: That was a close call."
+        },
+        {
+            "slug": "should-have",
+            "type": "GRAMMAR",
+            "text": "should have / shouldn't have / could have + V3",
+            "meaningVi": "lẽ ra nên, lẽ ra không nên, lẽ ra đã có thể",
+            "examples": [
+                { "en": "I should have listened to you.", "vi": "Lẽ ra mình nên nghe bạn.", "highlight": "should have listened" }
+            ],
+            "grammar": {
+                "ruleVi": "Nhìn lại quá khứ: should have + V3 (lẽ ra nên làm, nhưng đã không làm), shouldn't have + V3 (lẽ ra không nên, nhưng đã làm), could have + V3 (đã có thể làm, nhưng không làm). Nói nhanh: should've, shouldn't've, could've. Khác must have (b1-11) là đoán.",
+                "forms": [
+                    { "label": "lẽ ra nên", "example": "I should have checked the weather." },
+                    { "label": "lẽ ra không nên", "example": "You shouldn't have said that." },
+                    { "label": "đã có thể", "example": "You could have told me!" },
+                    { "label": "nhận quà", "example": "Oh, you shouldn't have! (Ôi, bạn bày vẽ quá!)" }
+                ],
+                "pitfallsVi": [
+                    "\"I should listened to you\" → I should have listened to you.",
+                    "\"I should have went\" → I should have gone. (V3)",
+                    "Nghe \"should of\" là cách đọc của should've; viết vẫn là should have."
+                ]
+            }
+        },
+        {
+            "slug": "i-should-have",
+            "type": "PATTERN",
+            "text": "I should have ….",
+            "meaningVi": "Lẽ ra mình nên ….",
+            "examples": [
+                { "en": "I should have left earlier.", "vi": "Lẽ ra mình nên đi sớm hơn.", "highlight": "I should have" }
+            ],
+            "pattern": {
+                "template": "I should have {done}.",
+                "slots": [
+                    { "name": "done", "hintVi": "V3", "options": ["listened to you", "left earlier", "saved more money", "told the truth", "checked the weather"] }
+                ]
+            },
+            "noteVi": "Tự trách, nhận lỗi. Nhẹ hơn: Maybe I should have… Người kia an ủi: Don't blame yourself."
+        },
+        {
+            "slug": "you-shouldnt-have",
+            "type": "PATTERN",
+            "text": "You shouldn't have ….",
+            "meaningVi": "Lẽ ra bạn không nên ….",
+            "examples": [
+                { "en": "You shouldn't have paid for me.", "vi": "Bạn không nên trả tiền cho mình như vậy.", "highlight": "You shouldn't have" }
+            ],
+            "pattern": {
+                "template": "You shouldn't have {done}.",
+                "slots": [
+                    { "name": "done", "hintVi": "V3", "options": ["said that", "waited for me", "paid for me", "bought it", "driven so fast"] }
+                ]
+            },
+            "noteVi": "Có thể là trách (You shouldn't have said that) hoặc cảm ơn khách sáo khi nhận quà (You shouldn't have!)."
+        },
+        {
+            "slug": "regret",
+            "type": "LEXICAL",
+            "text": "regret",
+            "meaningVi": "hối tiếc; sự hối tiếc",
+            "ipa": "/rɪˈɡret/",
+            "examples": [
+                { "en": "I regret not studying harder at university.", "vi": "Mình tiếc là hồi đại học không học chăm hơn.", "highlight": "regret" }
+            ],
+            "noteVi": "regret + V-ing: tiếc vì đã làm; regret not + V-ing: tiếc vì đã không làm. Danh từ: I have no regrets."
+        },
+        {
+            "slug": "blame",
+            "type": "LEXICAL",
+            "text": "blame",
+            "meaningVi": "đổ lỗi, trách",
+            "ipa": "/bleɪm/",
+            "examples": [
+                { "en": "Don't blame yourself. It wasn't your fault.", "vi": "Đừng tự trách mình. Đâu phải lỗi của bạn.", "highlight": "blame" }
+            ],
+            "noteVi": "blame someone FOR something: They blamed me for the mistake. Tự trách: blame yourself."
+        },
+        {
+            "slug": "fault",
+            "type": "LEXICAL",
+            "text": "fault",
+            "meaningVi": "lỗi (trách nhiệm)",
+            "ipa": "/fɔːlt/",
+            "examples": [
+                { "en": "It's my fault. I forgot to tell you.", "vi": "Lỗi của mình. Mình quên báo bạn.", "highlight": "fault" }
+            ],
+            "noteVi": "fault là lỗi thuộc về ai: It's my fault. mistake (B1) là cái sai mình làm ra: I made a mistake. Nhận trách nhiệm thì It's my fault tự nhiên nhất; ❌ \"It's my wrong\"."
+        },
+        {
+            "slug": "learned-my-lesson",
+            "type": "PHRASE",
+            "text": "I've learned my lesson.",
+            "meaningVi": "Mình rút kinh nghiệm rồi.",
+            "examples": [
+                { "en": "I lost my wallet twice last year. I've learned my lesson.", "vi": "Năm ngoái mình mất ví hai lần. Mình rút kinh nghiệm rồi.", "highlight": "learned my lesson" }
+            ],
+            "noteVi": "Nói sau một sai lầm để hứa lần sau cẩn thận hơn. Chính tả Mỹ learned (Anh hay viết learnt)."
+        },
+        {
+            "slug": "never-mind",
+            "type": "PHRASE",
+            "text": "Never mind.",
+            "meaningVi": "Thôi, không sao đâu.",
+            "examples": [
+                { "en": "I forgot to buy milk. — Never mind. I'll get some later.", "vi": "Mình quên mua sữa. — Thôi không sao. Lát mình mua.", "highlight": "Never mind" }
+            ],
+            "noteVi": "An ủi, gạt chuyện nhỏ đi. Cũng dùng khi bỏ câu mình vừa định hỏi: Never mind, it's not important. ❌ dùng khi người kia cảm ơn (→ You're welcome)."
+        },
+        {
+            "slug": "wish-past-perfect",
+            "type": "GRAMMAR",
+            "text": "I wish / If only + had + V3",
+            "meaningVi": "ước giá mà chuyện quá khứ đã khác",
+            "examples": [
+                { "en": "I wish I'd taken more photos on that trip.", "vi": "Giá mà hồi đi chuyến đó mình chụp nhiều ảnh hơn.", "highlight": "I wish I'd taken" }
+            ],
+            "grammar": {
+                "ruleVi": "Ước cho hiện tại: I wish + quá khứ đơn (b1-06). Ước cho quá khứ, tiếc chuyện đã qua: I wish + had + V3. If only… nghĩa giống I wish nhưng mạnh hơn, hay đứng một mình như câu cảm thán.",
+                "forms": [
+                    { "label": "hiện tại (B1)", "example": "I wish I had more time. (bây giờ không có)" },
+                    { "label": "quá khứ", "example": "I wish I'd had more time. (hồi đó không có)" },
+                    { "label": "phủ định", "example": "I wish I hadn't eaten so much." },
+                    { "label": "If only", "example": "If only I'd listened to my parents!" }
+                ],
+                "pitfallsVi": [
+                    "\"I wish I took more photos\" (ý là hồi đó) → I wish I'd taken more photos.",
+                    "\"I wish I would have gone\" → I wish I'd gone.",
+                    "Chuyện tương lai còn có thể xảy ra thì dùng hope: I hope you can come."
+                ]
+            }
+        },
+        {
+            "slug": "i-wish-id",
+            "type": "PATTERN",
+            "text": "I wish I'd ….",
+            "meaningVi": "Giá mà hồi đó mình đã ….",
+            "examples": [
+                { "en": "I wish I'd studied harder.", "vi": "Giá mà hồi đó mình học chăm hơn.", "highlight": "I wish I'd" }
+            ],
+            "pattern": {
+                "template": "I wish I'd {done}.",
+                "slots": [
+                    { "name": "done", "hintVi": "V3", "options": ["studied harder", "taken more photos", "said goodbye", "listened to my parents", "learned to swim as a kid"] }
+                ]
+            },
+            "noteVi": "I'd ở đây = I had (sau đó là V3). Tiếc vì đã làm: I wish I hadn't said that."
+        },
+        {
+            "slug": "if-only",
+            "type": "PATTERN",
+            "text": "If only …!",
+            "meaningVi": "Giá mà …!",
+            "examples": [
+                { "en": "If only I'd left earlier!", "vi": "Giá mà mình đi sớm hơn!", "highlight": "If only" }
+            ],
+            "pattern": {
+                "template": "If only {wish}!",
+                "slots": [
+                    { "name": "wish", "hintVi": "had + V3", "options": ["I'd known", "I'd listened", "I'd left earlier", "we'd booked earlier", "I'd said something"] }
+                ]
+            },
+            "noteVi": "Mạnh hơn I wish, như câu cảm thán. Cũng dùng cho hiện tại: If only I had more time!"
+        },
+        {
+            "slug": "opportunity",
+            "type": "LEXICAL",
+            "text": "opportunity",
+            "meaningVi": "cơ hội (tốt)",
+            "ipa": "/ˌɑːpərˈtuːnəti/",
+            "examples": [
+                { "en": "I missed a great opportunity to work abroad.", "vi": "Mình đã bỏ lỡ một cơ hội tốt để làm việc ở nước ngoài.", "highlight": "opportunity" }
+            ],
+            "noteVi": "Trang trọng hơn chance, hay dùng cho việc làm, học tập. miss / take an opportunity. Nhấn: op-por-TU-ni-ty."
+        },
+        {
+            "slug": "decision",
+            "type": "LEXICAL",
+            "text": "decision",
+            "meaningVi": "quyết định",
+            "ipa": "/dɪˈsɪʒən/",
+            "examples": [
+                { "en": "Moving to Da Nang was the best decision I've ever made.", "vi": "Chuyển vào Đà Nẵng là quyết định đúng nhất mình từng làm.", "highlight": "decision" }
+            ],
+            "noteVi": "make a decision (❌ do a decision). Động từ: decide (B1). s đọc /ʒ/."
+        },
+        {
+            "slug": "choice",
+            "type": "LEXICAL",
+            "text": "choice",
+            "meaningVi": "sự lựa chọn",
+            "ipa": "/tʃɔɪs/",
+            "examples": [
+                { "en": "I had no choice. The last bus had already left.", "vi": "Mình không còn lựa chọn nào. Chuyến xe cuối đã chạy rồi.", "highlight": "choice" }
+            ],
+            "noteVi": "Động từ: choose (chose, chosen). make a choice. Không còn cách nào khác: I had no choice."
+        },
+        {
+            "slug": "looking-back",
+            "type": "PHRASE",
+            "text": "Looking back, …",
+            "meaningVi": "Giờ nhìn lại, …",
+            "examples": [
+                { "en": "Looking back, I should have taken that job.", "vi": "Giờ nhìn lại, lẽ ra mình nên nhận công việc đó.", "highlight": "Looking back" }
+            ],
+            "noteVi": "Mở đầu khi nói về quá khứ với con mắt bây giờ; thường đi với should have, I wish I'd…"
+        },
+        {
+            "slug": "make-the-most-of",
+            "type": "PHRASE",
+            "text": "make the most of …",
+            "meaningVi": "tận dụng tối đa …",
+            "examples": [
+                { "en": "You're only young once. Make the most of it!", "vi": "Tuổi trẻ chỉ có một lần. Tận hưởng hết mình đi!", "highlight": "Make the most of" }
+            ],
+            "noteVi": "make the most of + thời gian, cơ hội: make the most of your time in Hanoi. Rút ra từ tiếc nuối: lần này phải tận dụng."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "b2-02-you-should-have-told-me",
+            "title": "It's my fault",
+            "situationVi": "Tối qua bạn quên báo cho Phương, bạn cùng nhà, là buổi hòa nhạc đã dời sang 7 giờ. Phương đến muộn, không được vào. Sáng nay hai người nói chuyện.",
+            "lines": [
+                { "speaker": "Phuong", "en": "I can't believe it. When I got there, the concert had already started, and they didn't let me in.", "vi": "Không thể tin được. Lúc mình tới thì buổi hòa nhạc đã bắt đầu rồi, họ không cho mình vào." },
+                { "speaker": "You", "en": "Oh no, it's my fault. I should have told you they changed the time to seven.", "vi": "Ôi không, lỗi của mình. Lẽ ra mình nên báo bạn là họ đổi giờ sang bảy giờ.", "learnerTurn": true },
+                { "speaker": "Phuong", "en": "You knew? You could have sent me a message!", "vi": "Bạn biết à? Bạn nhắn cho mình một tin cũng được mà!" },
+                { "speaker": "You", "en": "I know. I'm really sorry. If I'd remembered, I would have called you right away.", "vi": "Mình biết. Mình xin lỗi thật đấy. Nếu mình nhớ thì đã gọi cho bạn ngay rồi.", "learnerTurn": true },
+                { "speaker": "Phuong", "en": "It's OK. I shouldn't have left home so late, anyway.", "vi": "Thôi được rồi. Dù sao mình cũng không nên ra khỏi nhà muộn như thế." },
+                { "speaker": "You", "en": "Don't blame yourself. Let me make it up to you. I'll buy you a ticket for their next show.", "vi": "Đừng tự trách. Để mình chuộc lỗi. Mình sẽ mua vé buổi diễn sau của họ cho bạn.", "learnerTurn": true },
+                { "speaker": "Phuong", "en": "Really? You shouldn't have! That's too much.", "vi": "Thật à? Bạn bày vẽ quá! Nhiều quá." },
+                { "speaker": "You", "en": "No, I insist. I've learned my lesson. Next time I'll tell you everything.", "vi": "Không, mình nhất quyết đấy. Mình rút kinh nghiệm rồi. Lần sau cái gì mình cũng báo bạn.", "learnerTurn": true }
+            ]
+        },
+        {
+            "slug": "b2-02-looking-back",
+            "title": "Any regrets?",
+            "situationVi": "Anh Paul, đồng nghiệp người Mỹ ngoài 50 tuổi, sắp nghỉ hưu. Trong bữa tiệc chia tay, anh hỏi bạn về những điều bạn tiếc.",
+            "lines": [
+                { "speaker": "Paul", "en": "So, you're thirty now. Do you have any regrets?", "vi": "Vậy giờ em ba mươi rồi. Em có hối tiếc gì không?" },
+                { "speaker": "You", "en": "A few. I wish I'd studied abroad. I had the opportunity after university, but I didn't take it.", "vi": "Có vài điều. Giá mà em đi du học. Em có cơ hội sau khi tốt nghiệp, nhưng em không nắm lấy.", "learnerTurn": true },
+                { "speaker": "Paul", "en": "Why not?", "vi": "Sao lại không?" },
+                { "speaker": "You", "en": "I was scared, and my parents wanted me to stay. Looking back, I should have gone.", "vi": "Em sợ, và bố mẹ muốn em ở lại. Giờ nhìn lại, lẽ ra em nên đi.", "learnerTurn": true },
+                { "speaker": "Paul", "en": "I understand. But if you'd gone, you might not have met your wife.", "vi": "Anh hiểu. Nhưng nếu em đi thì có khi em đã không gặp vợ em." },
+                { "speaker": "You", "en": "That's true! If I hadn't stayed in Hanoi, I wouldn't have met her. So it was the right decision.", "vi": "Đúng thật! Nếu em không ở lại Hà Nội thì đã không gặp cô ấy. Vậy đó là quyết định đúng.", "learnerTurn": true },
+                { "speaker": "Paul", "en": "Exactly. What about you now? Any plans?", "vi": "Chính xác. Còn bây giờ thì sao? Có kế hoạch gì không?" },
+                { "speaker": "You", "en": "I've decided to make the most of every chance I get. If only I'd thought like this ten years ago!", "vi": "Em đã quyết định tận dụng mọi cơ hội mình có. Giá mà mười năm trước em nghĩ được như vậy!", "learnerTurn": true },
+                { "speaker": "Paul", "en": "Better late than never. Cheers to that!", "vi": "Muộn còn hơn không. Nâng ly vì điều đó!" }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "b2-02-l1-if-id-known",
+            "title": "If I'd known…",
+            "titleVi": "Điều kiện loại 3",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "third-conditional", "role": "INTRODUCE" },
+                { "item": "if-id-known", "role": "INTRODUCE" },
+                { "item": "if-i-hadnt", "role": "INTRODUCE" },
+                { "item": "otherwise", "role": "INTRODUCE" },
+                { "item": "chance", "role": "INTRODUCE" },
+                { "item": "thanks-to", "role": "INTRODUCE" },
+                { "item": "just-in-time", "role": "INTRODUCE" },
+                { "item": "that-was-close", "role": "INTRODUCE" },
+                { "item": "second-conditional", "role": "RECYCLE" },
+                { "item": "first-conditional", "role": "RECYCLE" },
+                { "item": "past-perfect", "role": "RECYCLE" },
+                { "item": "miss-the-bus", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["if-id-known", "if-i-hadnt", "otherwise", "chance", "thanks-to", "just-in-time", "that-was-close"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Ba loại câu điều kiện",
+                        "bodyVi": "Loại 3 nói về chuyện **trong quá khứ đã không xảy ra**, và kết quả tưởng tượng của nó:\n\n| loại | thời gian | vế if | vế kết quả | ví dụ |\n|---|---|---|---|---|\n| 1 | tương lai, có thể xảy ra | hiện tại đơn | will + V | If it **rains**, I**'ll stay** home. |\n| 2 | hiện tại, tưởng tượng | quá khứ đơn | would + V | If I **had** more money, I**'d travel**. |\n| 3 | quá khứ, đã qua | **had + V3** | **would have + V3** | If I**'d known**, I **would have come**. |\n\nNói nhanh: If I**'d** known (= had), I **would've** come.\n\nKhông cần cả vế if: **Otherwise**, I would have missed it. (Không thì đã lỡ rồi.) / **Thanks to** you, I got there **just in time**.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| If I would have known, I would come. | If I **had known**, I **would have come**. |\n| If I knew yesterday, I would come. | If I**'d known** yesterday, I **would have come**. |\n| I would have came. | I would have **come**. |\n\n❌ If I would have known ❌ would have came ✅ **If I'd known, I would have come.**",
+                        "items": ["third-conditional", "if-id-known", "if-i-hadnt", "otherwise", "thanks-to", "just-in-time", "second-conditional", "first-conditional", "past-perfect"],
+                        "examples": [
+                            { "en": "If I'd known about the party, I would have come.", "vi": "Nếu mình biết có tiệc thì mình đã đến rồi.", "highlight": "would have come" },
+                            { "en": "If it hadn't rained, we would have gone to the beach.", "vi": "Nếu trời không mưa thì bọn mình đã đi biển rồi.", "highlight": "If it hadn't rained" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "if-id-known",
+                        "prompts": [
+                            { "cueVi": "Nếu biết trước thì mình đã gọi cho bạn rồi.", "slots": { "done": "called you" }, "answer": "If I'd known, I would have called you." },
+                            { "cueVi": "Nếu biết trước thì mình đã mang ô rồi.", "slots": { "done": "brought an umbrella" }, "answer": "If I'd known, I would have brought an umbrella." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "if-i-hadnt",
+                        "prompts": [
+                            { "cueVi": "Nếu không lỡ xe buýt thì mình đã không bị muộn.", "slots": { "done": "missed the bus", "result": "been late" }, "answer": "If I hadn't missed the bus, I wouldn't have been late." },
+                            { "cueVi": "Nếu không thức khuya thì mình đã không mệt như vậy.", "slots": { "done": "stayed up late", "result": "felt so tired" }, "answer": "If I hadn't stayed up late, I wouldn't have felt so tired." },
+                            { "cueVi": "Nếu không đi dự tiệc đó thì mình đã không gặp Lan.", "slots": { "done": "gone to the party", "result": "met Lan" }, "answer": "If I hadn't gone to the party, I wouldn't have met Lan." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["otherwise", "chance", "thanks-to", "just-in-time", "that-was-close", "miss-the-bus"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "If I'd known, I would have called you.", "vi": "Nếu biết trước thì mình đã gọi cho bạn rồi." },
+                            { "en": "If I hadn't missed the bus, I wouldn't have been late.", "vi": "Nếu không lỡ xe buýt thì mình đã không bị muộn." },
+                            { "en": "Thanks to you, I got there just in time.", "vi": "Nhờ có bạn mà mình tới vừa kịp lúc." },
+                            { "en": "Wow, that was close!", "vi": "Trời, suýt nữa thì!" }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["If I would have known, I would have come.", "If I had known, I would have come.", "If I knew, I would have came."],
+                                "answer": 1,
+                                "item": "third-conditional"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Hôm qua trời mưa nên không đi biển. Bạn nói:",
+                                "options": ["If it doesn't rain, we'll go to the beach.", "If it didn't rain, we would go to the beach.", "If it hadn't rained, we would have gone to the beach."],
+                                "answer": 2,
+                                "item": "if-i-hadnt"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I checked the date. ___, I would have missed the exam.",
+                                "hintVi": "nếu không thì",
+                                "answers": ["Otherwise"],
+                                "item": "otherwise"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "We got to the gate just in time.",
+                                "options": ["Bọn mình tới cửa ra máy bay vừa kịp lúc.", "Bọn mình tới cửa ra máy bay đúng giờ hẹn.", "Bọn mình tới cửa ra máy bay quá muộn."],
+                                "answer": 0,
+                                "item": "just-in-time"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Nhờ có bạn mà mình không lỡ chuyến bay.",
+                                "answer": "Thanks to you, I didn't miss my flight.",
+                                "item": "thanks-to"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b2-02-l2-should-have",
+            "title": "I should have told you",
+            "titleVi": "Lẽ ra nên, lẽ ra không nên",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "should-have", "role": "INTRODUCE" },
+                { "item": "i-should-have", "role": "INTRODUCE" },
+                { "item": "you-shouldnt-have", "role": "INTRODUCE" },
+                { "item": "regret", "role": "INTRODUCE" },
+                { "item": "blame", "role": "INTRODUCE" },
+                { "item": "fault", "role": "INTRODUCE" },
+                { "item": "learned-my-lesson", "role": "INTRODUCE" },
+                { "item": "never-mind", "role": "INTRODUCE" },
+                { "item": "im-sorry-for", "role": "RECYCLE" },
+                { "item": "giving-advice", "role": "RECYCLE" },
+                { "item": "mistake", "role": "RECYCLE" },
+                { "item": "must-have-done", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["i-should-have", "you-shouldnt-have", "regret", "blame", "fault", "learned-my-lesson", "never-mind"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Nhìn lại và nhận lỗi",
+                        "bodyVi": "**should / shouldn't / could + have + V3** để nhìn lại chuyện đã qua:\n\n| nói | nghĩa | thực tế |\n|---|---|---|\n| I **should have told** you. | lẽ ra nên báo | đã không báo |\n| You **shouldn't have said** that. | lẽ ra không nên nói | đã nói rồi |\n| You **could have asked** me! | đã có thể hỏi | lại không hỏi |\n\nĐừng nhầm với **must have** (b1-11): đó là **đoán**. I **must have left** it at home = chắc mình để quên ở nhà.\n\nNhận lỗi và an ủi:\n\n| người nhận lỗi | người an ủi |\n|---|---|\n| It's my **fault**. I **should have** checked. | **Don't blame yourself.** |\n| I'm sorry for the **mistake**. | **Never mind.** It happens. |\n| **I've learned my lesson.** | No problem. |\n\nNhận quà: **You shouldn't have!** = Bạn bày vẽ quá!\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| I should listened to you. | I **should have listened** to you. |\n| You should have went. | You should have **gone**. |\n| Sorry, it's my wrong. | Sorry, it's my **fault**. |\n\n❌ I should listened ❌ It's my wrong ✅ **I should have listened.** **It's my fault.**",
+                        "items": ["should-have", "i-should-have", "you-shouldnt-have", "blame", "fault", "learned-my-lesson", "never-mind", "mistake", "must-have-done", "im-sorry-for"],
+                        "examples": [
+                            { "en": "I should have listened to you.", "vi": "Lẽ ra mình nên nghe bạn.", "highlight": "should have listened" },
+                            { "en": "Don't blame yourself. It wasn't your fault.", "vi": "Đừng tự trách mình. Đâu phải lỗi của bạn.", "highlight": "fault" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "i-should-have",
+                        "prompts": [
+                            { "cueVi": "Lẽ ra mình nên nghe bạn.", "slots": { "done": "listened to you" }, "answer": "I should have listened to you." },
+                            { "cueVi": "Lẽ ra mình nên đi sớm hơn.", "slots": { "done": "left earlier" }, "answer": "I should have left earlier." },
+                            { "cueVi": "Lẽ ra mình nên xem thời tiết.", "slots": { "done": "checked the weather" }, "answer": "I should have checked the weather." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "you-shouldnt-have",
+                        "prompts": [
+                            { "cueVi": "Lẽ ra bạn không nên nói vậy.", "slots": { "done": "said that" }, "answer": "You shouldn't have said that." },
+                            { "cueVi": "Bạn không nên trả tiền cho mình như vậy.", "slots": { "done": "paid for me" }, "answer": "You shouldn't have paid for me." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["regret", "blame", "fault", "learned-my-lesson", "never-mind", "mistake"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b2-02-you-should-have-told-me", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I should listened to you.", "I should have listen to you.", "I should have listened to you."],
+                                "answer": 2,
+                                "item": "should-have"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn quên báo cho bạn cùng nhà và nhận lỗi:",
+                                "options": ["It's my fault. I should have told you.", "It's my wrong. I must have told you.", "It's your fault. You should tell me."],
+                                "answer": 0,
+                                "item": "fault"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Don't ___ yourself. It wasn't your fault.",
+                                "hintVi": "trách",
+                                "answers": ["blame"],
+                                "item": "blame"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn nhận một món quà đắt tiền. Bạn nói:",
+                                "options": ["You shouldn't have!", "You mustn't have!", "You should have!"],
+                                "answer": 0,
+                                "item": "you-shouldnt-have"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Mình tiếc là hồi đại học không học chăm hơn.",
+                                "answer": "I regret not studying harder at university.",
+                                "item": "regret"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b2-02-l3-if-only",
+            "title": "If only I'd known",
+            "titleVi": "Tiếc nuối chuyện đã qua",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "wish-past-perfect", "role": "INTRODUCE" },
+                { "item": "i-wish-id", "role": "INTRODUCE" },
+                { "item": "if-only", "role": "INTRODUCE" },
+                { "item": "opportunity", "role": "INTRODUCE" },
+                { "item": "decision", "role": "INTRODUCE" },
+                { "item": "choice", "role": "INTRODUCE" },
+                { "item": "looking-back", "role": "INTRODUCE" },
+                { "item": "make-the-most-of", "role": "INTRODUCE" },
+                { "item": "i-wish", "role": "RECYCLE" },
+                { "item": "third-conditional", "role": "RECYCLE" },
+                { "item": "should-have", "role": "RECYCLE" },
+                { "item": "lucky", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["i-wish-id", "if-only", "opportunity", "decision", "choice", "looking-back", "make-the-most-of"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "I wish: hiện tại hay quá khứ?",
+                        "bodyVi": "Ở B1 đã có **I wish + quá khứ đơn** cho điều ước ở hiện tại. Tiếc chuyện **đã qua** thì lùi thêm một bậc: **I wish + had + V3**.\n\n| điều ước về | nói | thực tế |\n|---|---|---|\n| bây giờ | I wish I **had** more time. | bây giờ không có |\n| hồi đó | I wish I**'d had** more time. | hồi đó không có |\n| hồi đó (phủ định) | I wish I **hadn't eaten** so much. | đã ăn quá nhiều |\n| cảm thán | **If only** I**'d listened** to my parents! | đã không nghe |\n\nNói về tiếc nuối một cách tích cực: **Looking back**, it was the right **decision**. / I had no **choice**. / Now I **make the most of** every **opportunity**.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| I wish I took more photos. (hồi đó) | I wish I**'d taken** more photos. |\n| I wish I would have gone. | I wish I**'d gone**. |\n| I did a wrong decision. | I **made** the wrong **decision**. |\n\n❌ I wish I would have gone ❌ do a decision ✅ **I wish I'd gone.** **make a decision**",
+                        "items": ["wish-past-perfect", "i-wish-id", "if-only", "opportunity", "decision", "choice", "looking-back", "make-the-most-of", "i-wish"],
+                        "examples": [
+                            { "en": "I wish I'd taken more photos on that trip.", "vi": "Giá mà hồi đi chuyến đó mình chụp nhiều ảnh hơn.", "highlight": "I wish I'd taken" },
+                            { "en": "Looking back, I should have taken that job.", "vi": "Giờ nhìn lại, lẽ ra mình nên nhận công việc đó.", "highlight": "Looking back" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "i-wish-id",
+                        "prompts": [
+                            { "cueVi": "Giá mà hồi đó mình học chăm hơn.", "slots": { "done": "studied harder" }, "answer": "I wish I'd studied harder." },
+                            { "cueVi": "Giá mà hồi đó mình chụp nhiều ảnh hơn.", "slots": { "done": "taken more photos" }, "answer": "I wish I'd taken more photos." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "if-only",
+                        "prompts": [
+                            { "cueVi": "Giá mà mình biết trước!", "slots": { "wish": "I'd known" }, "answer": "If only I'd known!" },
+                            { "cueVi": "Giá mà mình đi sớm hơn!", "slots": { "wish": "I'd left earlier" }, "answer": "If only I'd left earlier!" },
+                            { "cueVi": "Giá mà bọn mình đặt vé sớm hơn!", "slots": { "wish": "we'd booked earlier" }, "answer": "If only we'd booked earlier!" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["opportunity", "decision", "choice", "looking-back", "make-the-most-of", "lucky"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b2-02-looking-back", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn tiếc là hồi đi Đà Lạt đã không chụp nhiều ảnh:",
+                                "options": ["I wish I took more photos.", "I wish I'd taken more photos.", "I wish I would take more photos."],
+                                "answer": 1,
+                                "item": "wish-past-perfect"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I did the wrong decision.", "I made the wrong decision.", "I took the wrong decide."],
+                                "answer": 1,
+                                "item": "decision"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "If ___ I'd listened to my parents!",
+                                "hintVi": "giá mà",
+                                "answers": ["only"],
+                                "item": "if-only"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "I missed a great opportunity to work abroad.",
+                                "options": ["Mình đã bỏ lỡ một cơ hội tốt để làm việc ở nước ngoài.", "Mình nhớ những ngày làm việc ở nước ngoài.", "Mình đã có một chuyến công tác nước ngoài tuyệt vời."],
+                                "answer": 0,
+                                "item": "opportunity"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Giờ nhìn lại, lẽ ra mình nên nhận công việc đó.",
+                                "answer": "Looking back, I should have taken that job.",
+                                "item": "looking-back"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "b2-02-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Bạn không biết có tiệc nên không đến. Bạn nói:",
+                "options": ["If I knew, I would come.", "If I'd known, I would have come.", "If I would have known, I came."],
+                "answer": 1,
+                "item": "third-conditional"
+            },
+            {
+                "kind": "gap",
+                "sentence": "If I hadn't missed the bus, I wouldn't have ___ late.",
+                "hintVi": "be",
+                "answers": ["been"],
+                "item": "if-i-hadnt"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Lẽ ra bạn nên mang ô. Bạn tự trách:",
+                "options": ["I must have brought an umbrella.", "I should have brought an umbrella.", "I should bring an umbrella yesterday."],
+                "answer": 1,
+                "item": "should-have"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["I wish I would have studied harder.", "I wish I studied harder when I was a student.", "I wish I'd studied harder when I was a student."],
+                "answer": 2,
+                "item": "wish-past-perfect"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "Wow, that was close!",
+                "options": ["Trời, suýt nữa thì!", "Trời, gần quá!", "Trời, đóng cửa rồi!"],
+                "answer": 0,
+                "item": "that-was-close"
+            },
+            {
+                "kind": "order",
+                "vi": "Lỗi của mình. Mình quên báo bạn.",
+                "answer": "It's my fault. I forgot to tell you.",
+                "item": "fault"
+            }
+        ]
+    }
+}
