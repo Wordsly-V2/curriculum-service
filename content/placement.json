@@ -912,6 +912,70 @@
             "options": ["Later or sooner, you will have to tell her.","I'm sick and tired to wait.","Sooner or later, you will have to tell her."],
             "answer": 2,
             "item": "fixed-binomials"
+        },
+        {
+            "unit": "c1-05-presenting",
+            "kind": "choice",
+            "prompt": "Câu mở đầu bài thuyết trình nào đúng?",
+            "options": ["Now I will present about our new app.","Today I'll be talking about our new app.","Today I talk to present our new app."],
+            "answer": 1,
+            "item": "signposting"
+        },
+        {
+            "unit": "c1-05-presenting",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["Online sales occupy 60 percent of the total.","Online sales account for 60 percent of the total.","Online sales account 60 percent of the total."],
+            "answer": 1,
+            "item": "describing-data"
+        },
+        {
+            "unit": "c1-06-persuading",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["We can lower the price, provided that you will order 500 units.","We can lower the price, provided that you order 500 units.","We can lower the price, provide you will order 500 units."],
+            "answer": 1,
+            "item": "negotiation-conditionals"
+        },
+        {
+            "unit": "c1-06-persuading",
+            "kind": "choice",
+            "prompt": "Bạn muốn đề nghị mỗi bên nhường một nửa:",
+            "options": ["Let's meet in the half.","Why don't we meet halfway?","We meet the middle, OK?"],
+            "answer": 1,
+            "item": "concessions-trade-offs"
+        },
+        {
+            "unit": "c1-07-register",
+            "kind": "choice",
+            "prompt": "Email gửi khách hàng. Câu nào hợp văn phong nhất?",
+            "options": ["I want to inquire you about the job.","I am writing to inquire about the position.","Hi, I wanna ask about the job."],
+            "answer": 1,
+            "item": "formal-informal-vocab"
+        },
+        {
+            "unit": "c1-07-register",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["There has been a reduce in costs.","There has been a reduction in costs.","It has decided a reduction in costs."],
+            "answer": 1,
+            "item": "nominalization"
+        },
+        {
+            "unit": "c1-08-feedback",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["It might be worth to check the numbers again.","It might be worth checking the numbers again.","It might worth check the numbers again."],
+            "answer": 1,
+            "item": "tactful-feedback"
+        },
+        {
+            "unit": "c1-08-feedback",
+            "kind": "choice",
+            "prompt": "Sếp chỉ ra lỗi trong báo cáo của bạn. Bạn đáp:",
+            "options": ["But it's not my fault!","Thanks for pointing that out. I'll take it on board.","I will take it on my board."],
+            "answer": 1,
+            "item": "responding-to-criticism"
         }
     ]
 }

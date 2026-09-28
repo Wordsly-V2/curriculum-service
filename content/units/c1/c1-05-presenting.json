@@ -1,0 +1,772 @@
+{
+    "slug": "c1-05-presenting",
+    "stage": "c1",
+    "order": 5,
+    "title": "As you can see",
+    "titleVi": "Thuyết trình: dẫn dắt, số liệu, trả lời câu hỏi",
+    "descriptionVi": "Mở đầu và dẫn dắt một bài thuyết trình (I'd like to start by…, Let's now turn to…, This brings me to…, To wrap up…), trình bày số liệu cho người nghe dễ hình dung (As you can see…, account for, three out of ten, twice as many, To put this into perspective…), và xử lý câu hỏi của khán giả (I'll come back to that, I'll get back to you on…, Does that answer your question?).",
+    "canDo": [
+        "Tôi mở đầu, chuyển ý và kết thúc được một bài thuyết trình rõ ràng, có dẫn dắt.",
+        "Tôi trình bày được số liệu và biểu đồ sao cho người nghe dễ hình dung.",
+        "Tôi trả lời được câu hỏi của khán giả, kể cả khi chưa có câu trả lời ngay."
+    ],
+    "items": [
+        {
+            "slug": "signposting",
+            "type": "GRAMMAR",
+            "text": "cụm dẫn dắt khi thuyết trình: mở đầu, chuyển ý, kết",
+            "meaningVi": "những câu báo cho người nghe biết mình đang ở đâu trong bài nói",
+            "examples": [
+                { "en": "That's all on sales. Let's now turn to our plans for next year.", "vi": "Phần doanh số là vậy. Giờ mình chuyển sang kế hoạch năm tới.", "highlight": "Let's now turn to" }
+            ],
+            "grammar": {
+                "ruleVi": "Người nghe không thể lật lại trang như khi đọc, nên người thuyết trình giỏi luôn \"cắm biển chỉ đường\": nói trước mình sẽ nói gì (Today I'll be talking about…), báo khi chuyển ý (Let's now turn to… / This brings me to…), và báo khi sắp kết (To wrap up…). Mở đầu hay dùng I'd like to start by + V-ing. Các cụm này đi kèm thì tương lai tiếp diễn (I'll be talking) hoặc hiện tại hoàn thành (We've looked at…) để tóm lại phần vừa xong.",
+                "forms": [
+                    { "label": "mở đầu", "example": "Today I'll be talking about our new app." },
+                    { "label": "nói trước bố cục", "example": "I'd like to start by giving you a quick outline." },
+                    { "label": "tóm phần vừa xong", "example": "So far, we've looked at the problem." },
+                    { "label": "chuyển ý", "example": "This brings me to my second point." },
+                    { "label": "kết", "example": "To wrap up, here are three key takeaways." }
+                ],
+                "pitfallsVi": [
+                    "\"Now I will present about…\" → Today I'll be talking about… (present không đi với about).",
+                    "\"Next is the part of…\" → Let's now turn to… / This brings me to….",
+                    "\"That's all. Thank you.\" rồi dừng → To wrap up, … rồi mới cảm ơn."
+                ]
+            }
+        },
+        {
+            "slug": "ill-be-talking-about",
+            "type": "PHRASE",
+            "text": "Today I'll be talking about ….",
+            "meaningVi": "Hôm nay tôi sẽ nói về ….",
+            "examples": [
+                { "en": "Good morning, everyone. Today I'll be talking about our new app.", "vi": "Chào buổi sáng mọi người. Hôm nay mình sẽ nói về ứng dụng mới.", "highlight": "Today I'll be talking about" }
+            ],
+            "noteVi": "Câu mở đầu chuẩn. Tương lai tiếp diễn (B2 07) nghe tự nhiên và nhẹ hơn \"I will present\". ❌ \"present about\": present something / talk about something."
+        },
+        {
+            "slug": "id-like-to-start-by",
+            "type": "PATTERN",
+            "text": "I'd like to start by ….",
+            "meaningVi": "Tôi xin bắt đầu bằng việc ….",
+            "examples": [
+                { "en": "I'd like to start by giving you a quick outline of the talk.", "vi": "Mình xin bắt đầu bằng việc tóm tắt nhanh bố cục bài nói.", "highlight": "I'd like to start by" }
+            ],
+            "pattern": {
+                "template": "I'd like to start by {doing}.",
+                "slots": [
+                    { "name": "doing", "hintVi": "V-ing", "options": ["giving you a quick outline", "thanking you all for coming", "telling you a short story", "asking you a question", "looking at last year's results"] }
+                ]
+            },
+            "noteVi": "Sau by là V-ing. Kết thúc tương tự: I'd like to finish by + V-ing."
+        },
+        {
+            "slug": "outline",
+            "type": "LEXICAL",
+            "text": "outline",
+            "meaningVi": "dàn ý, bố cục; phác thảo",
+            "ipa": "/ˈaʊtlaɪn/",
+            "examples": [
+                { "en": "Here's a brief outline of what I'm going to cover.", "vi": "Đây là bố cục sơ lược những gì mình sẽ trình bày.", "highlight": "outline" }
+            ],
+            "noteVi": "Danh từ: a brief / quick outline. Động từ: I'll outline the main points (nêu sơ lược). cover = trình bày, đề cập."
+        },
+        {
+            "slug": "lets-turn-to",
+            "type": "PATTERN",
+            "text": "Let's now turn to ….",
+            "meaningVi": "Giờ chúng ta chuyển sang ….",
+            "examples": [
+                { "en": "Let's now turn to the budget for next year.", "vi": "Giờ mình chuyển sang ngân sách năm tới.", "highlight": "Let's now turn to" }
+            ],
+            "pattern": {
+                "template": "Let's now turn to {topic}.",
+                "slots": [
+                    { "name": "topic", "hintVi": "phần tiếp theo (danh từ)", "options": ["the budget for next year", "the results", "our main competitors", "the next slide", "the question of cost"] }
+                ]
+            },
+            "noteVi": "Chuyển sang phần mới của bài thuyết trình. Thân mật hơn, trong họp: Let's move on to… (B2 05)."
+        },
+        {
+            "slug": "this-brings-me-to",
+            "type": "PHRASE",
+            "text": "This brings me to ….",
+            "meaningVi": "Điều này dẫn tôi đến ….",
+            "examples": [
+                { "en": "Costs went up by ten percent. This brings me to my second point.", "vi": "Chi phí tăng mười phần trăm. Điều này dẫn mình đến ý thứ hai.", "highlight": "This brings me to" }
+            ],
+            "noteVi": "Nối ý vừa nói với ý sau một cách mượt mà, hay hơn \"Next,…\". Hay đi với my next point, the question of…."
+        },
+        {
+            "slug": "to-wrap-up",
+            "type": "PHRASE",
+            "text": "To wrap up, ….",
+            "meaningVi": "Để kết lại, ….",
+            "examples": [
+                { "en": "To wrap up, let me remind you of the three main points.", "vi": "Để kết lại, mình xin nhắc lại ba ý chính.", "highlight": "To wrap up" }
+            ],
+            "noteVi": "Báo là sắp kết, người nghe sẽ chú ý lại. Trang trọng hơn: To conclude, … / In conclusion, …. Tóm tắt: To sum up (B1 12). wrap up còn là kết thúc cuộc họp: Let's wrap up."
+        },
+        {
+            "slug": "key-takeaway",
+            "type": "PHRASE",
+            "text": "the key takeaway",
+            "meaningVi": "điều quan trọng nhất cần nhớ",
+            "examples": [
+                { "en": "The key takeaway is that our customers want faster delivery.", "vi": "Điều quan trọng nhất cần nhớ là khách hàng muốn giao hàng nhanh hơn.", "highlight": "The key takeaway" }
+            ],
+            "noteVi": "Hay dùng ở cuối bài: three key takeaways. Ở Anh, takeaway còn là đồ ăn mang về, nhưng trong cuộc họp thì ai cũng hiểu là \"bài học rút ra\"."
+        },
+        {
+            "slug": "describing-data",
+            "type": "GRAMMAR",
+            "text": "nói về số liệu: As you can see, account for, three out of ten, twice as many … as, peak",
+            "meaningVi": "trình bày số liệu, tỉ lệ và so sánh cho người nghe dễ hình dung",
+            "examples": [
+                { "en": "As you can see, young people account for almost half of our users.", "vi": "Như các bạn thấy, người trẻ chiếm gần một nửa số người dùng.", "highlight": "account for" }
+            ],
+            "grammar": {
+                "ruleVi": "Khi chỉ vào biểu đồ, đừng đọc lại từng con số. Hãy dẫn mắt người nghe (As you can see…), nói tỉ lệ bằng cách dễ nhớ (three out of ten, almost half, roughly a quarter), so sánh bằng bội số (twice as many … as, three times more) và đặt con số vào bối cảnh (To put this into perspective…). account for = chiếm (bao nhiêu phần). Xu hướng tăng giảm (B2 04): rise by, fall to, a sharp rise.",
+                "forms": [
+                    { "label": "dẫn mắt", "example": "As you can see, sales peaked in December." },
+                    { "label": "tỉ lệ", "example": "Three out of ten customers come back." },
+                    { "label": "chiếm", "example": "Online sales account for 60 percent of the total." },
+                    { "label": "bội số", "example": "We sold twice as many units as last year." },
+                    { "label": "làm tròn", "example": "That's approximately 2,000 people a day." }
+                ],
+                "pitfallsVi": [
+                    "\"account 60 percent\" hoặc \"occupy 60 percent\" → account for 60 percent.",
+                    "\"3 in 10 of customers\" → three out of ten customers.",
+                    "\"two times more many\" → twice as many … as."
+                ]
+            }
+        },
+        {
+            "slug": "as-you-can-see",
+            "type": "PATTERN",
+            "text": "As you can see, ….",
+            "meaningVi": "Như các bạn thấy, ….",
+            "examples": [
+                { "en": "As you can see, sales peaked in December.", "vi": "Như các bạn thấy, doanh số đạt đỉnh vào tháng Mười Hai.", "highlight": "As you can see" }
+            ],
+            "pattern": {
+                "template": "As you can see, {observation}.",
+                "slots": [
+                    { "name": "observation", "hintVi": "điều hiện trên biểu đồ", "options": ["sales peaked in December", "costs have risen sharply", "most users are under thirty", "the two lines are very close", "there was a big drop in March"] }
+                ]
+            },
+            "noteVi": "Chỉ vào slide và nói điều chính người nghe cần thấy. Tương tự: If you look at this chart, you'll notice that…."
+        },
+        {
+            "slug": "account-for",
+            "type": "PHRASE",
+            "text": "account for …",
+            "meaningVi": "chiếm (bao nhiêu phần)",
+            "examples": [
+                { "en": "Online sales now account for sixty percent of our revenue.", "vi": "Doanh thu online giờ chiếm sáu mươi phần trăm doanh thu của mình.", "highlight": "account for" }
+            ],
+            "noteVi": "Luôn có for. ❌ \"occupy 60 percent\" (dịch từ \"chiếm\"). Còn nghĩa \"giải thích\": How do you account for the drop?"
+        },
+        {
+            "slug": "x-out-of-y",
+            "type": "PHRASE",
+            "text": "… out of …",
+            "meaningVi": "… trên …, … trong số …",
+            "examples": [
+                { "en": "Three out of ten customers never open our emails.", "vi": "Cứ mười khách thì ba người không bao giờ mở email của mình.", "highlight": "Three out of ten" }
+            ],
+            "noteVi": "Dễ nhớ hơn phần trăm khi nói: one out of five, nine out of ten. Chấm điểm: I'd give it eight out of ten."
+        },
+        {
+            "slug": "twice-as-many",
+            "type": "PHRASE",
+            "text": "twice as many / much … as",
+            "meaningVi": "nhiều gấp đôi …",
+            "examples": [
+                { "en": "This year we sold twice as many phones as last year.", "vi": "Năm nay mình bán được số điện thoại gấp đôi năm ngoái.", "highlight": "twice as many phones as" }
+            ],
+            "noteVi": "Mở rộng từ as … as (A2 08). many với danh từ đếm được, much với không đếm được: twice as much money. Gấp ba: three times as many."
+        },
+        {
+            "slug": "peak",
+            "type": "LEXICAL",
+            "text": "peak",
+            "meaningVi": "đỉnh; đạt đỉnh",
+            "ipa": "/piːk/",
+            "examples": [
+                { "en": "Visitor numbers peaked in July and then fell sharply.", "vi": "Lượng khách đạt đỉnh vào tháng Bảy rồi giảm mạnh.", "highlight": "peaked" }
+            ],
+            "noteVi": "Động từ: peak in / at. Danh từ: reach a peak. Tính từ: peak season (mùa cao điểm), peak hours (giờ cao điểm)."
+        },
+        {
+            "slug": "approximately",
+            "type": "LEXICAL",
+            "text": "approximately",
+            "meaningVi": "xấp xỉ, khoảng",
+            "ipa": "/əˈprɑːksɪmətli/",
+            "examples": [
+                { "en": "Approximately two thousand people visit the site every day.", "vi": "Khoảng hai nghìn người vào trang mỗi ngày.", "highlight": "Approximately" }
+            ],
+            "noteVi": "Trang trọng hơn roughly (B2 12) và about. Viết tắt trong slide: approx."
+        },
+        {
+            "slug": "to-put-this-into-perspective",
+            "type": "PATTERN",
+            "text": "To put this into perspective, ….",
+            "meaningVi": "Để các bạn dễ hình dung, ….",
+            "examples": [
+                { "en": "We use ten tons of paper a year. To put this into perspective, that's about 200 trees.", "vi": "Mình dùng mười tấn giấy mỗi năm. Để dễ hình dung, con số đó bằng khoảng 200 cái cây.", "highlight": "To put this into perspective" }
+            ],
+            "pattern": {
+                "template": "To put this into perspective, {comparison}.",
+                "slots": [
+                    { "name": "comparison", "hintVi": "so sánh quen thuộc", "options": ["that's about 200 trees", "that's more than the whole city of Hue", "that's one every ten seconds", "it's the size of three football fields", "that's half our yearly budget"] }
+                ]
+            },
+            "noteVi": "Đặt một con số khó hình dung cạnh thứ quen thuộc. perspective (B2 12) ở đây là \"góc nhìn đúng tỉ lệ\"."
+        },
+        {
+            "slug": "handling-questions",
+            "type": "GRAMMAR",
+            "text": "xử lý câu hỏi: cảm ơn, xin thời gian, hẹn trả lời sau, kiểm tra đã trả lời đúng ý chưa",
+            "meaningVi": "trả lời câu hỏi của khán giả một cách chuyên nghiệp",
+            "examples": [
+                { "en": "I don't have the exact figure to hand, but I'll get back to you on that.", "vi": "Mình không có số chính xác ở đây, nhưng mình sẽ trả lời bạn sau.", "highlight": "I'll get back to you on that" }
+            ],
+            "grammar": {
+                "ruleVi": "Phần hỏi đáp có bốn bước: đón câu hỏi (That's a good question, B1 12), trả lời ngắn, và kiểm tra (Does that answer your question?). Khi câu hỏi sẽ được nói sau thì hoãn lại (I'll come back to that). Khi chưa biết thì không bịa: đưa con số ước lượng (off the top of my head, I'd say…) và hứa trả lời sau (I'll get back to you on…). Khi câu hỏi lạc đề: That's a bit outside the scope of today's talk. Các câu hứa dùng will (B1 03).",
+                "forms": [
+                    { "label": "mời hỏi", "example": "I'd be happy to take any questions." },
+                    { "label": "hoãn", "example": "Good point. I'll come back to that later." },
+                    { "label": "chưa biết", "example": "I'll get back to you on the exact cost." },
+                    { "label": "lạc đề", "example": "That's a bit outside the scope of today's talk." },
+                    { "label": "kiểm tra", "example": "Does that answer your question?" }
+                ],
+                "pitfallsVi": [
+                    "Bịa số khi không biết → Off the top of my head, it's about…, but I'll get back to you on that.",
+                    "\"I will answer you later\" (nghe cụt) → I'll get back to you on that.",
+                    "\"Do you understand?\" (nghe như chê người hỏi) → Does that answer your question?"
+                ]
+            }
+        },
+        {
+            "slug": "happy-to-take-questions",
+            "type": "PHRASE",
+            "text": "I'd be happy to take any questions.",
+            "meaningVi": "Tôi rất sẵn lòng trả lời câu hỏi.",
+            "examples": [
+                { "en": "That's the end of my talk. I'd be happy to take any questions.", "vi": "Bài nói của mình đến đây là hết. Mình rất sẵn lòng trả lời câu hỏi.", "highlight": "I'd be happy to take any questions" }
+            ],
+            "noteVi": "take questions = nhận câu hỏi. Ngắn hơn: Any questions? Mở đầu cũng nên nói trước: Feel free to ask questions at the end."
+        },
+        {
+            "slug": "ill-come-back-to-that",
+            "type": "PHRASE",
+            "text": "I'll come back to that.",
+            "meaningVi": "Tôi sẽ quay lại ý đó sau.",
+            "examples": [
+                { "en": "That's a good point, and I'll come back to that in a minute.", "vi": "Ý hay đấy, lát nữa mình sẽ quay lại ý đó.", "highlight": "I'll come back to that" }
+            ],
+            "noteVi": "Hoãn một câu hỏi mà mình sẽ trả lời ở phần sau. Nhớ quay lại thật: As promised, let me come back to…."
+        },
+        {
+            "slug": "ill-get-back-to-you-on",
+            "type": "PATTERN",
+            "text": "I'll get back to you on ….",
+            "meaningVi": "Tôi sẽ trả lời bạn về … sau.",
+            "examples": [
+                { "en": "I'm not sure about the exact date, but I'll get back to you on that.", "vi": "Mình chưa chắc ngày chính xác, nhưng mình sẽ trả lời bạn sau.", "highlight": "I'll get back to you on that" }
+            ],
+            "pattern": {
+                "template": "I'll get back to you on {topic}.",
+                "slots": [
+                    { "name": "topic", "hintVi": "điều mình chưa trả lời được", "options": ["that", "the exact cost", "the delivery date", "the numbers for Asia", "the new price list"] }
+                ]
+            },
+            "noteVi": "Cách chuyên nghiệp để nói \"mình chưa biết\". Nên hẹn thời gian: I'll get back to you on that by Friday."
+        },
+        {
+            "slug": "off-the-top-of-my-head",
+            "type": "PHRASE",
+            "text": "off the top of my head",
+            "meaningVi": "nói nhanh theo trí nhớ (chưa kiểm tra)",
+            "examples": [
+                { "en": "Off the top of my head, I'd say about 500 users.", "vi": "Nói nhanh theo trí nhớ thì mình đoán khoảng 500 người dùng.", "highlight": "Off the top of my head" }
+            ],
+            "noteVi": "Báo rằng con số chưa chắc. Hay đi với I'd say (C1 01). Phủ định: I don't know off the top of my head."
+        },
+        {
+            "slug": "outside-the-scope",
+            "type": "PHRASE",
+            "text": "That's a bit outside the scope of ….",
+            "meaningVi": "Điều đó hơi nằm ngoài phạm vi của ….",
+            "examples": [
+                { "en": "That's a bit outside the scope of today's talk, but I'm happy to discuss it later.", "vi": "Điều đó hơi ngoài phạm vi bài nói hôm nay, nhưng mình sẵn lòng bàn sau.", "highlight": "That's a bit outside the scope of" }
+            ],
+            "noteVi": "Từ chối khéo một câu hỏi lạc đề. Luôn thêm một lời mời bàn sau để không mất lòng người hỏi."
+        },
+        {
+            "slug": "does-that-answer-your-question",
+            "type": "PHRASE",
+            "text": "Does that answer your question?",
+            "meaningVi": "Như vậy đã trả lời được câu hỏi của bạn chưa?",
+            "examples": [
+                { "en": "So the price includes delivery. Does that answer your question?", "vi": "Vậy giá đã gồm phí giao hàng. Như vậy đã trả lời được câu hỏi của bạn chưa?", "highlight": "Does that answer your question?" }
+            ],
+            "noteVi": "Kiểm tra sau khi trả lời. Tránh \"Do you understand?\": nghe như người hỏi chậm hiểu."
+        },
+        {
+            "slug": "follow-up",
+            "type": "LEXICAL",
+            "text": "follow-up",
+            "meaningVi": "tiếp theo (câu hỏi, email, cuộc họp)",
+            "ipa": "/ˈfɑːloʊ ʌp/",
+            "examples": [
+                { "en": "Can I ask a quick follow-up question?", "vi": "Cho mình hỏi thêm một câu nữa được không?", "highlight": "follow-up" }
+            ],
+            "noteVi": "Tính từ / danh từ viết có gạch nối: a follow-up email. Động từ viết rời: I'll follow up with an email."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "c1-05-quarterly-update",
+            "title": "As you can see…",
+            "situationVi": "Bạn trình bày kết quả quý vừa rồi trong cuộc họp với chị Sarah, trưởng phòng người Mỹ. Chị ấy hỏi xen vào vài câu về số liệu.",
+            "lines": [
+                { "speaker": "Sarah", "en": "Okay, whenever you're ready. How did the quarter go?", "vi": "Được rồi, sẵn sàng thì bắt đầu nhé. Quý này thế nào?" },
+                { "speaker": "You", "en": "Thanks, Sarah. I'd like to start by looking at the sales figures. As you can see, sales peaked in March.", "vi": "Cảm ơn chị Sarah. Em xin bắt đầu bằng số liệu bán hàng. Như chị thấy, doanh số đạt đỉnh vào tháng Ba.", "learnerTurn": true },
+                { "speaker": "Sarah", "en": "Nice. Where are most of those sales coming from?", "vi": "Tốt. Phần lớn doanh số đến từ đâu?" },
+                { "speaker": "You", "en": "Online sales account for about sixty percent of the total. That's twice as much as last year.", "vi": "Bán online chiếm khoảng sáu mươi phần trăm tổng số. Gấp đôi năm ngoái.", "learnerTurn": true },
+                { "speaker": "Sarah", "en": "Sixty percent. Is that a lot for our industry?", "vi": "Sáu mươi phần trăm. Trong ngành mình thế là nhiều à?" },
+                { "speaker": "You", "en": "To put this into perspective, most of our competitors are at around thirty. And roughly three out of ten orders now come from repeat customers.", "vi": "Để dễ hình dung, phần lớn đối thủ ở mức khoảng ba mươi. Và cứ mười đơn thì có khoảng ba đơn từ khách quay lại.", "learnerTurn": true },
+                { "speaker": "Sarah", "en": "That's great. What about costs?", "vi": "Tuyệt đấy. Còn chi phí?" },
+                { "speaker": "You", "en": "This brings me to my second point. Let's now turn to the next slide.", "vi": "Điều này dẫn em đến ý thứ hai. Giờ mình chuyển sang slide tiếp theo.", "learnerTurn": true },
+                { "speaker": "Sarah", "en": "Go ahead.", "vi": "Tiếp đi." }
+            ]
+        },
+        {
+            "slug": "c1-05-question-time",
+            "title": "That's a good question",
+            "situationVi": "Bạn vừa thuyết trình về ứng dụng mới của công ty ở một hội thảo. Đến phần hỏi đáp, anh David, một khách mời, đặt câu hỏi.",
+            "lines": [
+                { "speaker": "You", "en": "So, to wrap up, the key takeaway is that users want a simpler app. I'd be happy to take any questions.", "vi": "Vậy để kết lại, điều quan trọng nhất là người dùng muốn một ứng dụng đơn giản hơn. Mình rất sẵn lòng trả lời câu hỏi.", "learnerTurn": true },
+                { "speaker": "David", "en": "Thanks. How much will the premium version cost?", "vi": "Cảm ơn. Bản cao cấp giá bao nhiêu?" },
+                { "speaker": "You", "en": "That's a good question. We haven't set the final price, but I'll get back to you on that by Friday.", "vi": "Câu hỏi hay. Bọn mình chưa chốt giá cuối, nhưng mình sẽ trả lời bạn trước thứ Sáu.", "learnerTurn": true },
+                { "speaker": "David", "en": "Okay. And roughly how many people are using the free version now?", "vi": "Được. Vậy hiện giờ khoảng bao nhiêu người dùng bản miễn phí?" },
+                { "speaker": "You", "en": "Off the top of my head, I'd say approximately fifty thousand. Does that answer your question?", "vi": "Nói nhanh theo trí nhớ thì mình đoán khoảng năm mươi nghìn. Như vậy đã trả lời được câu hỏi của bạn chưa?", "learnerTurn": true },
+                { "speaker": "David", "en": "Yes, thanks. Just a quick follow-up: what do you think about the new data law?", "vi": "Rồi, cảm ơn. Cho hỏi thêm: bạn nghĩ gì về luật dữ liệu mới?" },
+                { "speaker": "You", "en": "That's a bit outside the scope of today's talk, but I'm happy to discuss it over coffee.", "vi": "Điều đó hơi ngoài phạm vi bài nói hôm nay, nhưng mình sẵn lòng bàn khi uống cà phê.", "learnerTurn": true },
+                { "speaker": "David", "en": "Sounds good. Great talk, by the way.", "vi": "Được đấy. Mà bài nói hay lắm." }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "c1-05-l1-signposting",
+            "title": "Let's now turn to…",
+            "titleVi": "Mở đầu, chuyển ý và kết bài",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "signposting", "role": "INTRODUCE" },
+                { "item": "ill-be-talking-about", "role": "INTRODUCE" },
+                { "item": "id-like-to-start-by", "role": "INTRODUCE" },
+                { "item": "outline", "role": "INTRODUCE" },
+                { "item": "lets-turn-to", "role": "INTRODUCE" },
+                { "item": "this-brings-me-to", "role": "INTRODUCE" },
+                { "item": "to-wrap-up", "role": "INTRODUCE" },
+                { "item": "key-takeaway", "role": "INTRODUCE" },
+                { "item": "lets-move-on", "role": "RECYCLE" },
+                { "item": "agenda", "role": "RECYCLE" },
+                { "item": "the-first-step-is", "role": "RECYCLE" },
+                { "item": "to-sum-up", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["ill-be-talking-about", "id-like-to-start-by", "outline", "lets-turn-to", "this-brings-me-to", "to-wrap-up", "key-takeaway"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Cắm biển chỉ đường cho người nghe",
+                        "bodyVi": "Người nghe không lật lại được trang như khi đọc. Hãy nói cho họ biết mình đang ở đâu trong bài:\n\n| phần | câu dẫn dắt |\n|---|---|\n| mở đầu | **Today I'll be talking about** our new app. |\n| bố cục | **I'd like to start by** giving you a quick **outline**. |\n| bước đầu | **The first step is to**… (B2 10) |\n| chuyển ý | **Let's now turn to** the budget. / **This brings me to** my next point. |\n| trong họp | **Let's move on to** the next item on the **agenda**. (B2 05) |\n| kết | **To wrap up**, … / **To sum up**, … (B1 12) |\n| ý chính | **The key takeaway** is that… |\n\nMở đầu và kết nên \"khớp\" nhau: nói trước ba ý thì cuối bài nhắc lại đúng ba ý đó.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| Now I will present about our app. | **Today I'll be talking about** our app. |\n| Next is the part of costs. | **Let's now turn to** costs. |\n| That's all. Thank you. | **To wrap up**, here are three **key takeaways**. |\n\n❌ present about ❌ Next is the part of ✅ **This brings me to my second point. Let's now turn to costs.**",
+                        "items": ["signposting", "ill-be-talking-about", "id-like-to-start-by", "outline", "lets-turn-to", "this-brings-me-to", "to-wrap-up", "key-takeaway", "lets-move-on", "agenda", "the-first-step-is", "to-sum-up"],
+                        "examples": [
+                            { "en": "That's all on sales. Let's now turn to our plans for next year.", "vi": "Phần doanh số là vậy. Giờ mình chuyển sang kế hoạch năm tới.", "highlight": "Let's now turn to" },
+                            { "en": "Costs went up by ten percent. This brings me to my second point.", "vi": "Chi phí tăng mười phần trăm. Điều này dẫn mình đến ý thứ hai.", "highlight": "This brings me to" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "id-like-to-start-by",
+                        "prompts": [
+                            { "cueVi": "Mình xin bắt đầu bằng việc cảm ơn mọi người đã đến.", "slots": { "doing": "thanking you all for coming" }, "answer": "I'd like to start by thanking you all for coming." },
+                            { "cueVi": "Mình xin bắt đầu bằng một câu hỏi.", "slots": { "doing": "asking you a question" }, "answer": "I'd like to start by asking you a question." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "lets-turn-to",
+                        "prompts": [
+                            { "cueVi": "Giờ mình chuyển sang kết quả.", "slots": { "topic": "the results" }, "answer": "Let's now turn to the results." },
+                            { "cueVi": "Giờ mình chuyển sang các đối thủ chính.", "slots": { "topic": "our main competitors" }, "answer": "Let's now turn to our main competitors." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["ill-be-talking-about", "outline", "this-brings-me-to", "to-wrap-up", "key-takeaway", "agenda"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "Good morning, everyone. Today I'll be talking about our new app.", "vi": "Chào buổi sáng mọi người. Hôm nay mình sẽ nói về ứng dụng mới." },
+                            { "en": "I'd like to start by giving you a quick outline of the talk.", "vi": "Mình xin bắt đầu bằng việc tóm tắt nhanh bố cục bài nói." },
+                            { "en": "Costs went up by ten percent. This brings me to my second point.", "vi": "Chi phí tăng mười phần trăm. Điều này dẫn mình đến ý thứ hai." },
+                            { "en": "To wrap up, let me remind you of the three main points.", "vi": "Để kết lại, mình xin nhắc lại ba ý chính." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu mở đầu bài thuyết trình nào đúng?",
+                                "options": ["Now I will present about our new app.", "Today I'll be talking about our new app.", "Today I talk to present our new app."],
+                                "answer": 1,
+                                "item": "ill-be-talking-about"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn vừa nói xong phần doanh số và muốn chuyển sang ngân sách:",
+                                "options": ["Next is the part of budget.", "Let's now turn to the budget.", "Now turn the budget."],
+                                "answer": 1,
+                                "item": "lets-turn-to"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I'd like to start ___ giving you a quick outline.",
+                                "hintVi": "bằng (việc)",
+                                "answers": ["by"],
+                                "item": "id-like-to-start-by"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "The key takeaway is that our customers want faster delivery.",
+                                "options": ["Khách hàng muốn đồ ăn mang về nhanh hơn.", "Điều quan trọng nhất cần nhớ là khách hàng muốn giao hàng nhanh hơn.", "Khách hàng chính của mình đã chuyển đi nơi khác."],
+                                "answer": 1,
+                                "item": "key-takeaway"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Để kết lại, mình xin nhắc lại ba ý chính.",
+                                "answer": "To wrap up, let me remind you of the three main points.",
+                                "item": "to-wrap-up"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "c1-05-l2-data",
+            "title": "As you can see",
+            "titleVi": "Trình bày số liệu dễ hình dung",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "describing-data", "role": "INTRODUCE" },
+                { "item": "as-you-can-see", "role": "INTRODUCE" },
+                { "item": "account-for", "role": "INTRODUCE" },
+                { "item": "x-out-of-y", "role": "INTRODUCE" },
+                { "item": "twice-as-many", "role": "INTRODUCE" },
+                { "item": "peak", "role": "INTRODUCE" },
+                { "item": "approximately", "role": "INTRODUCE" },
+                { "item": "to-put-this-into-perspective", "role": "INTRODUCE" },
+                { "item": "describing-trends", "role": "RECYCLE" },
+                { "item": "has-risen-by", "role": "RECYCLE" },
+                { "item": "percent", "role": "RECYCLE" },
+                { "item": "compared-to", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["as-you-can-see", "account-for", "x-out-of-y", "twice-as-many", "peak", "approximately", "to-put-this-into-perspective"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Đừng đọc số, hãy kể số",
+                        "bodyVi": "Người nghe không nhớ nổi 58,7%. Hãy dẫn mắt, làm tròn và so sánh:\n\n| việc | câu |\n|---|---|\n| dẫn mắt | **As you can see**, sales **peaked** in March. |\n| chiếm | Online sales **account for** 60 **percent** of the total. |\n| tỉ lệ dễ nhớ | **Three out of ten** customers come back. |\n| làm tròn | **approximately** / roughly / almost half |\n| bội số | We sold **twice as many** phones **as** last year. |\n| so sánh | **Compared to** last year, costs are down. (B2 04) |\n| xu hướng | Revenue **has risen by** 15%. (B2 04) |\n| bối cảnh | **To put this into perspective**, that's 200 trees. |\n\nmany + danh từ đếm được (phones), much + không đếm được (money): twice as **much** money.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| Online occupies 60 percent. | Online **accounts for** 60 percent. |\n| 3 in 10 of customers | **three out of ten** customers |\n| two times more many phones | **twice as many** phones **as** |\n\n❌ occupy 60 percent ❌ two times more many ✅ **As you can see, online accounts for twice as much as last year.**",
+                        "items": ["describing-data", "as-you-can-see", "account-for", "x-out-of-y", "twice-as-many", "peak", "approximately", "to-put-this-into-perspective", "describing-trends", "has-risen-by", "percent", "compared-to"],
+                        "examples": [
+                            { "en": "As you can see, young people account for almost half of our users.", "vi": "Như các bạn thấy, người trẻ chiếm gần một nửa số người dùng.", "highlight": "As you can see" },
+                            { "en": "This year we sold twice as many phones as last year.", "vi": "Năm nay mình bán được số điện thoại gấp đôi năm ngoái.", "highlight": "twice as many phones as" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "as-you-can-see",
+                        "prompts": [
+                            { "cueVi": "Như các bạn thấy, chi phí đã tăng mạnh.", "slots": { "observation": "costs have risen sharply" }, "answer": "As you can see, costs have risen sharply." },
+                            { "cueVi": "Như các bạn thấy, phần lớn người dùng dưới ba mươi tuổi.", "slots": { "observation": "most users are under thirty" }, "answer": "As you can see, most users are under thirty." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "to-put-this-into-perspective",
+                        "prompts": [
+                            { "cueVi": "Để dễ hình dung, cứ mười giây là một cái.", "slots": { "comparison": "that's one every ten seconds" }, "answer": "To put this into perspective, that's one every ten seconds." },
+                            { "cueVi": "Để dễ hình dung, bằng nửa ngân sách một năm của mình.", "slots": { "comparison": "that's half our yearly budget" }, "answer": "To put this into perspective, that's half our yearly budget." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["account-for", "x-out-of-y", "twice-as-many", "peak", "approximately", "compared-to"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "c1-05-quarterly-update", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["Online sales occupy 60 percent of the total.", "Online sales account 60 percent of the total.", "Online sales account for 60 percent of the total."],
+                                "answer": 2,
+                                "item": "account-for"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Năm nay bán được gấp đôi năm ngoái:",
+                                "options": ["We sold twice as many phones as last year.", "We sold two times more many phones than last year.", "We sold twice many phones than last year."],
+                                "answer": 0,
+                                "item": "twice-as-many"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Three out ___ ten customers never open our emails.",
+                                "hintVi": "trên (mười)",
+                                "answers": ["of"],
+                                "item": "x-out-of-y"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Visitor numbers peaked in July and then fell sharply.",
+                                "options": ["Lượng khách đạt đỉnh vào tháng Bảy rồi giảm mạnh.", "Lượng khách leo núi tăng vào tháng Bảy.", "Lượng khách giảm dần từ tháng Bảy."],
+                                "answer": 0,
+                                "item": "peak"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Như các bạn thấy, doanh số đạt đỉnh vào tháng Mười Hai.",
+                                "answer": "As you can see, sales peaked in December.",
+                                "item": "as-you-can-see"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "c1-05-l3-questions",
+            "title": "I'll get back to you on that",
+            "titleVi": "Trả lời câu hỏi của khán giả",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "handling-questions", "role": "INTRODUCE" },
+                { "item": "happy-to-take-questions", "role": "INTRODUCE" },
+                { "item": "ill-come-back-to-that", "role": "INTRODUCE" },
+                { "item": "ill-get-back-to-you-on", "role": "INTRODUCE" },
+                { "item": "off-the-top-of-my-head", "role": "INTRODUCE" },
+                { "item": "outside-the-scope", "role": "INTRODUCE" },
+                { "item": "does-that-answer-your-question", "role": "INTRODUCE" },
+                { "item": "follow-up", "role": "INTRODUCE" },
+                { "item": "thats-a-good-question", "role": "RECYCLE" },
+                { "item": "elaborate", "role": "RECYCLE" },
+                { "item": "if-i-could-just-finish", "role": "RECYCLE" },
+                { "item": "perspective", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["happy-to-take-questions", "ill-come-back-to-that", "ill-get-back-to-you-on", "off-the-top-of-my-head", "outside-the-scope", "does-that-answer-your-question", "follow-up"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Không biết thì không bịa",
+                        "bodyVi": "Phần hỏi đáp làm nên ấn tượng cuối. Mỗi tình huống có một câu \"cứu nguy\":\n\n| tình huống | câu |\n|---|---|\n| mời hỏi | **I'd be happy to take any questions.** |\n| đón câu hỏi | **That's a good question.** (B1 12) |\n| sẽ nói ở phần sau | **I'll come back to that** in a minute. |\n| chưa có số | **Off the top of my head**, I'd say 500. |\n| chưa biết | **I'll get back to you on** the exact cost. |\n| lạc đề | **That's a bit outside the scope of** today's talk. |\n| người hỏi cần rõ hơn | Could you **elaborate** on that? (B2 12) |\n| bị ngắt lời | **If I could just finish**, … (B2 12) |\n| kiểm tra | **Does that answer your question?** |\n\nCâu hỏi tiếp theo của cùng người là a **follow-up** question.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| I will answer you later. | **I'll get back to you on that.** |\n| Do you understand? | **Does that answer your question?** |\n| (bịa một con số) | **Off the top of my head**, about 500, but I'll check. |\n\n❌ I will answer you later ❌ Do you understand? ✅ **I'll get back to you on that. Does that answer your question?**",
+                        "items": ["handling-questions", "happy-to-take-questions", "ill-come-back-to-that", "ill-get-back-to-you-on", "off-the-top-of-my-head", "outside-the-scope", "does-that-answer-your-question", "follow-up", "thats-a-good-question", "elaborate", "if-i-could-just-finish"],
+                        "examples": [
+                            { "en": "I'm not sure about the exact date, but I'll get back to you on that.", "vi": "Mình chưa chắc ngày chính xác, nhưng mình sẽ trả lời bạn sau.", "highlight": "I'll get back to you on that" },
+                            { "en": "Off the top of my head, I'd say about 500 users.", "vi": "Nói nhanh theo trí nhớ thì mình đoán khoảng 500 người dùng.", "highlight": "Off the top of my head" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "ill-get-back-to-you-on",
+                        "prompts": [
+                            { "cueVi": "Mình sẽ trả lời bạn về chi phí chính xác sau.", "slots": { "topic": "the exact cost" }, "answer": "I'll get back to you on the exact cost." },
+                            { "cueVi": "Mình sẽ trả lời bạn về ngày giao hàng sau.", "slots": { "topic": "the delivery date" }, "answer": "I'll get back to you on the delivery date." },
+                            { "cueVi": "Mình sẽ trả lời bạn về bảng giá mới sau.", "slots": { "topic": "the new price list" }, "answer": "I'll get back to you on the new price list." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["happy-to-take-questions", "ill-come-back-to-that", "off-the-top-of-my-head", "outside-the-scope", "does-that-answer-your-question", "follow-up"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "c1-05-question-time", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Khán giả hỏi một con số bạn không nhớ. Bạn nói:",
+                                "options": ["I will answer you later.", "I'll get back to you on that.", "I don't know. Next question."],
+                                "answer": 1,
+                                "item": "handling-questions"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Trả lời xong, bạn muốn kiểm tra người hỏi đã hài lòng chưa:",
+                                "options": ["Do you understand?", "Is it clear for you or not?", "Does that answer your question?"],
+                                "answer": 2,
+                                "item": "does-that-answer-your-question"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Off the top of my ___, I'd say about 500 users.",
+                                "hintVi": "đầu",
+                                "answers": ["head"],
+                                "item": "off-the-top-of-my-head"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "That's a good point, and I'll come back to that in a minute.",
+                                "options": ["Ý hay đấy, lát nữa mình sẽ quay lại ý đó.", "Mình sẽ quay lại đây sau một phút nghỉ.", "Ý đó mình đã nói rồi."],
+                                "answer": 0,
+                                "item": "ill-come-back-to-that"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Cho mình hỏi thêm một câu nữa được không?",
+                                "answer": "Can I ask a quick follow-up question?",
+                                "item": "follow-up"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "c1-05-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Câu nào chuyển ý mượt nhất trong bài thuyết trình?",
+                "options": ["Next is the part of costs.", "This brings me to the question of cost.", "Now costs. Okay."],
+                "answer": 1,
+                "item": "signposting"
+            },
+            {
+                "kind": "gap",
+                "sentence": "To ___ up, here are three key takeaways.",
+                "hintVi": "kết lại (gói lại)",
+                "answers": ["wrap"],
+                "item": "to-wrap-up"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Người trẻ chiếm gần một nửa số người dùng:",
+                "options": ["Young people account for almost half of our users.", "Young people occupy almost half of our users.", "Young people are accounting almost half our users."],
+                "answer": 0,
+                "item": "describing-data"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "We use ten tons of paper a year. To put this into perspective, that's about 200 trees.",
+                "options": ["Mình dùng mười tấn giấy mỗi năm, bằng khoảng 200 cái cây.", "Mình trồng 200 cái cây mỗi năm.", "Mình muốn giảm mười tấn giấy mỗi năm."],
+                "answer": 0,
+                "item": "to-put-this-into-perspective"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Một khách mời hỏi về chuyện không liên quan đến bài nói. Bạn trả lời khéo:",
+                "options": ["That's not my topic.", "That's a bit outside the scope of today's talk, but I'm happy to discuss it later.", "Please ask only about my talk."],
+                "answer": 1,
+                "item": "outside-the-scope"
+            },
+            {
+                "kind": "order",
+                "vi": "Mình chưa chắc ngày chính xác, nhưng mình sẽ trả lời bạn sau.",
+                "answer": "I'm not sure about the exact date, but I'll get back to you on that.",
+                "item": "ill-get-back-to-you-on"
+            }
+        ]
+    }
+}
