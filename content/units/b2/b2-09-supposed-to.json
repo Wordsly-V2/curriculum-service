@@ -1,0 +1,804 @@
+{
+    "slug": "b2-09-supposed-to",
+    "stage": "b2",
+    "order": 9,
+    "title": "Rules",
+    "titleVi": "Luật lệ: được phép, lẽ ra phải, không cần",
+    "descriptionVi": "Nói về quy định và điều người ta chờ đợi (be supposed to, was supposed to), xin phép và nói điều bị cấm (be allowed to, They don't let us…), phân biệt không cần và lẽ ra không cần (don't need to, didn't need to, needn't have), và phàn nàn có lý lẽ về một quy định vô lý.",
+    "canDo": [
+        "Tôi nói được quy định ở chỗ làm, chỗ ở và điều lẽ ra đã phải xảy ra nhưng không xảy ra.",
+        "Tôi hỏi được mình có được phép làm gì không, và giải thích được điều gì bị cấm.",
+        "Tôi phàn nàn được về một thủ tục hay quy định vô lý một cách có lý lẽ, và nói được việc mình đã làm mà hóa ra không cần."
+    ],
+    "items": [
+        {
+            "slug": "supposed-to",
+            "type": "GRAMMAR",
+            "text": "be supposed to + V: theo quy định, theo dự kiến",
+            "meaningVi": "lẽ ra phải, đáng lẽ, theo quy định thì",
+            "examples": [
+                { "en": "We're supposed to wear a badge at work.", "vi": "Theo quy định, bọn mình phải đeo thẻ ở chỗ làm.", "highlight": "We're supposed to wear" }
+            ],
+            "grammar": {
+                "ruleVi": "be supposed to + V nói điều mà quy định, kế hoạch hay người khác chờ đợi, không phải điều mình tự thấy cần (khác have to, should). Ở hiện tại hay dùng khi thực tế khác quy định: You're not supposed to park here (nhưng nhiều người vẫn đỗ). Ở quá khứ, was / were supposed to nói kế hoạch đã không xảy ra: The train was supposed to leave at 8 (mà không chạy). Còn nghĩa \"nghe nói là\": It's supposed to be a great film.",
+                "forms": [
+                    { "label": "quy định", "example": "You're supposed to check in before 2 p.m." },
+                    { "label": "phủ định", "example": "You're not supposed to smoke here." },
+                    { "label": "kế hoạch hỏng", "example": "I was supposed to call her, but I forgot." },
+                    { "label": "nghe nói", "example": "This restaurant is supposed to be really good." }
+                ],
+                "pitfallsVi": [
+                    "\"We suppose to wear a badge\" → We're supposed to wear a badge. (luôn có be và -ed)",
+                    "\"The bus supposed to come at 8\" → The bus was supposed to come at 8.",
+                    "\"I was supposed to called her\" → I was supposed to call her. (to + V nguyên mẫu)"
+                ]
+            }
+        },
+        {
+            "slug": "youre-not-supposed-to",
+            "type": "PATTERN",
+            "text": "You're not supposed to ….",
+            "meaningVi": "Theo quy định thì không được ….",
+            "examples": [
+                { "en": "You're not supposed to use your phone in here.", "vi": "Ở đây theo quy định thì không được dùng điện thoại.", "highlight": "You're not supposed to use" }
+            ],
+            "pattern": {
+                "template": "You're not supposed to {do}.",
+                "slots": [
+                    { "name": "do", "hintVi": "động từ nguyên mẫu", "options": ["park here", "use your phone in here", "eat at your desk", "bring food into the library", "take photos in the museum"] }
+                ]
+            },
+            "noteVi": "Nhắc nhở nhẹ hơn \"You can't…\" hay \"Don't…\": mình chỉ nói quy định, không ra lệnh. Hay thêm: …, but everyone does it."
+        },
+        {
+            "slug": "i-was-supposed-to",
+            "type": "PATTERN",
+            "text": "I was supposed to …, but ….",
+            "meaningVi": "Đáng lẽ tôi phải …, nhưng ….",
+            "examples": [
+                { "en": "I was supposed to finish the report, but the system was down.", "vi": "Đáng lẽ tôi phải xong báo cáo, nhưng hệ thống bị sập.", "highlight": "I was supposed to finish" }
+            ],
+            "pattern": {
+                "template": "I was supposed to {do}, but {reason}.",
+                "slots": [
+                    { "name": "do", "hintVi": "việc đã định (nguyên mẫu)", "options": ["finish the report", "call my mom", "meet Lan at six", "fly to Da Nang today", "go to the gym"] },
+                    { "name": "reason", "hintVi": "lý do (quá khứ)", "options": ["the system was down", "I forgot", "she canceled", "the flight was delayed", "it rained all day"] }
+                ]
+            },
+            "noteVi": "Nối tiếp should have (B2 02): I should have called = lẽ ra nên (lỗi của mình); I was supposed to call = theo kế hoạch / lời hứa thì phải gọi."
+        },
+        {
+            "slug": "against-the-rules",
+            "type": "PHRASE",
+            "text": "It's against the rules.",
+            "meaningVi": "Như vậy là trái quy định.",
+            "examples": [
+                { "en": "Sorry, you can't bring your dog in. It's against the rules.", "vi": "Xin lỗi, anh không mang chó vào được. Trái quy định ạ.", "highlight": "It's against the rules" }
+            ],
+            "noteVi": "Cũng nói: It's against the law (phạm luật), against company policy (trái chính sách công ty). Làm trái: break the rules; tuân thủ: follow the rules."
+        },
+        {
+            "slug": "in-theory",
+            "type": "PHRASE",
+            "text": "In theory, …, but in practice ….",
+            "meaningVi": "Trên lý thuyết thì …, nhưng thực tế thì ….",
+            "examples": [
+                { "en": "In theory, we finish at five, but in practice we often stay until seven.", "vi": "Trên lý thuyết bọn mình tan lúc năm giờ, nhưng thực tế hay ở đến bảy giờ.", "highlight": "In theory" }
+            ],
+            "noteVi": "Cặp đôi rất hay đi với be supposed to: In theory, we're supposed to…, but in practice…. ❌ \"In theoretical\"."
+        },
+        {
+            "slug": "rule",
+            "type": "LEXICAL",
+            "text": "rule",
+            "meaningVi": "quy định, luật lệ",
+            "ipa": "/ruːl/",
+            "examples": [
+                { "en": "The rules at my new school are quite strict.", "vi": "Nội quy ở trường mới của mình khá nghiêm.", "highlight": "rules" }
+            ],
+            "noteVi": "follow / break the rules; a rule about something. Văn bản nhà nước: regulation, law."
+        },
+        {
+            "slug": "strict",
+            "type": "LEXICAL",
+            "text": "strict",
+            "meaningVi": "nghiêm, khắt khe",
+            "ipa": "/strɪkt/",
+            "examples": [
+                { "en": "My parents were very strict about homework.", "vi": "Bố mẹ mình rất nghiêm chuyện bài tập về nhà.", "highlight": "strict" }
+            ],
+            "noteVi": "strict about something, strict with someone. Trái nghĩa: relaxed, flexible (B2 05). ❌ \"strict in homework\"."
+        },
+        {
+            "slug": "fine-penalty",
+            "type": "LEXICAL",
+            "text": "fine",
+            "meaningVi": "tiền phạt; phạt tiền",
+            "ipa": "/faɪn/",
+            "examples": [
+                { "en": "I got a fine for parking on the sidewalk.", "vi": "Mình bị phạt vì đỗ xe trên vỉa hè.", "highlight": "fine" }
+            ],
+            "noteVi": "Cùng chữ với fine (khỏe, ổn). get a fine, pay a fine; động từ: be fined 500,000 dong. ❌ \"I was punished money\"."
+        },
+        {
+            "slug": "allowed-to",
+            "type": "GRAMMAR",
+            "text": "be allowed to / let + người + V / can / may: được phép",
+            "meaningVi": "nói chuyện được phép, bị cấm",
+            "examples": [
+                { "en": "Are we allowed to work from home on Fridays?", "vi": "Thứ Sáu bọn mình có được làm ở nhà không?", "highlight": "Are we allowed to work" }
+            ],
+            "grammar": {
+                "ruleVi": "be allowed to + V: được (người có quyền) cho phép; not allowed to: bị cấm. let + người + V nguyên mẫu (không có to): ai đó cho ai làm gì. can / can't là cách nói thường ngày, may là trang trọng (biển báo, văn bản). Bị cấm hẳn trên biển báo: prohibited, banned.",
+                "forms": [
+                    { "label": "hỏi phép", "example": "Are we allowed to bring our own food?" },
+                    { "label": "bị cấm", "example": "Students aren't allowed to use phones in class." },
+                    { "label": "let", "example": "My boss lets us leave early on Fridays." },
+                    { "label": "quá khứ", "example": "When I was a kid, I wasn't allowed to stay out late." },
+                    { "label": "trang trọng", "example": "Guests may use the pool until 10 p.m." }
+                ],
+                "pitfallsVi": [
+                    "\"We are not allow to smoke\" → We aren't allowed to smoke.",
+                    "\"My boss lets us to leave early\" → My boss lets us leave early. (let không có to)",
+                    "\"It is allowed to park here?\" → Are we allowed to park here? / Can I park here?"
+                ]
+            }
+        },
+        {
+            "slug": "are-we-allowed-to",
+            "type": "PATTERN",
+            "text": "Are we allowed to …?",
+            "meaningVi": "Mình có được phép … không?",
+            "examples": [
+                { "en": "Are we allowed to bring our own food?", "vi": "Mình có được mang đồ ăn riêng vào không?", "highlight": "Are we allowed to bring" }
+            ],
+            "pattern": {
+                "template": "Are we allowed to {do}?",
+                "slots": [
+                    { "name": "do", "hintVi": "động từ nguyên mẫu", "options": ["bring our own food", "work from home on Fridays", "park in the basement", "keep a cat in the apartment", "use the gym after ten"] }
+                ]
+            },
+            "noteVi": "Hỏi quy định chung. Hỏi cho riêng mình: Am I allowed to…? Nhẹ hơn: Is it OK if I…?"
+        },
+        {
+            "slug": "they-dont-let-us",
+            "type": "PATTERN",
+            "text": "They don't let us ….",
+            "meaningVi": "Họ không cho bọn tôi ….",
+            "examples": [
+                { "en": "They don't let us use the elevator after midnight.", "vi": "Họ không cho bọn mình dùng thang máy sau nửa đêm.", "highlight": "They don't let us use" }
+            ],
+            "pattern": {
+                "template": "They don't let us {do}.",
+                "slots": [
+                    { "name": "do", "hintVi": "động từ nguyên mẫu (không to)", "options": ["use the elevator after midnight", "wear shorts at work", "cook in our rooms", "have visitors after ten", "leave before six"] }
+                ]
+            },
+            "noteVi": "let + người + V, không có to: ❌ \"let us to use\". Khẳng định: They let us… (cho phép). Quá khứ vẫn là let: My parents never let me go out."
+        },
+        {
+            "slug": "is-it-ok-if",
+            "type": "PATTERN",
+            "text": "Is it OK if I …?",
+            "meaningVi": "Tôi … có được không?",
+            "examples": [
+                { "en": "Is it OK if I leave a bit early today?", "vi": "Hôm nay em về sớm một chút được không ạ?", "highlight": "Is it OK if I leave" }
+            ],
+            "pattern": {
+                "template": "Is it OK if I {do}?",
+                "slots": [
+                    { "name": "do", "hintVi": "động từ hiện tại đơn", "options": ["leave a bit early today", "open the window", "park here for five minutes", "bring a friend", "pay next week"] }
+                ]
+            },
+            "noteVi": "Xin phép thân mật, sau if là hiện tại đơn (❌ \"if I will leave\"). Lịch sự hơn: Would it be possible to…? (B2 05). Trả lời: Sure, go ahead. / I'm afraid not."
+        },
+        {
+            "slug": "no-exceptions",
+            "type": "PHRASE",
+            "text": "No exceptions.",
+            "meaningVi": "Không có ngoại lệ.",
+            "examples": [
+                { "en": "Everyone has to show their ID. No exceptions.", "vi": "Ai cũng phải trình giấy tờ. Không có ngoại lệ.", "highlight": "No exceptions" }
+            ],
+            "noteVi": "Nói khi quy định áp dụng cho mọi người. Xin ngoại lệ: Could you make an exception this time?"
+        },
+        {
+            "slug": "permission",
+            "type": "LEXICAL",
+            "text": "permission",
+            "meaningVi": "sự cho phép",
+            "ipa": "/pərˈmɪʃən/",
+            "examples": [
+                { "en": "You need permission from the manager to use this room.", "vi": "Muốn dùng phòng này phải có quản lý cho phép.", "highlight": "permission" }
+            ],
+            "noteVi": "Không đếm được: ask for permission, get permission, without permission. ❌ \"a permission\". Động từ: permit (trang trọng)."
+        },
+        {
+            "slug": "ban",
+            "type": "LEXICAL",
+            "text": "ban",
+            "meaningVi": "cấm; lệnh cấm",
+            "ipa": "/bæn/",
+            "examples": [
+                { "en": "The city has banned motorbikes from the old quarter at weekends.", "vi": "Thành phố đã cấm xe máy vào phố cổ cuối tuần.", "highlight": "banned" }
+            ],
+            "noteVi": "ban something, ban someone from doing something; danh từ: a ban on plastic bags. Hay gặp trong tin tức, nói thường dùng not allowed."
+        },
+        {
+            "slug": "prohibited",
+            "type": "LEXICAL",
+            "text": "prohibited",
+            "meaningVi": "bị cấm (trang trọng, biển báo)",
+            "ipa": "/proʊˈhɪbɪtɪd/",
+            "examples": [
+                { "en": "Smoking is prohibited in all areas of the building.", "vi": "Cấm hút thuốc ở mọi khu vực trong tòa nhà.", "highlight": "prohibited" }
+            ],
+            "noteVi": "Chủ yếu thấy trên biển báo và nội quy. Nói chuyện thì dùng You can't / You're not allowed to…."
+        },
+        {
+            "slug": "need-not",
+            "type": "GRAMMAR",
+            "text": "don't need to / needn't / didn't need to / needn't have + V3",
+            "meaningVi": "không cần, đã không cần, lẽ ra không cần",
+            "examples": [
+                { "en": "I needn't have brought so many copies. They only checked one.", "vi": "Lẽ ra mình không cần mang nhiều bản sao thế. Họ chỉ xem một bản.", "highlight": "needn't have brought" }
+            ],
+            "grammar": {
+                "ruleVi": "Hiện tại: don't have to / don't need to / needn't + V: không bắt buộc (khác mustn't: cấm). Quá khứ có hai nghĩa: didn't need to + V: không cần nên (thường) đã không làm; needn't have + V3: đã làm rồi mới biết là không cần, hơi tiếc công.",
+                "forms": [
+                    { "label": "không bắt buộc", "example": "You don't need to print it. An email is fine." },
+                    { "label": "needn't (Anh, trang trọng)", "example": "You needn't come if you're busy." },
+                    { "label": "không cần nên không làm", "example": "I didn't need to wait. The doctor saw me right away." },
+                    { "label": "đã làm, hóa ra thừa", "example": "I needn't have hurried. The meeting started late." },
+                    { "label": "cấm (so sánh)", "example": "You mustn't take photos here." }
+                ],
+                "pitfallsVi": [
+                    "\"You mustn't come\" (ý là không cần đến) → You don't have to come. (mustn't = cấm)",
+                    "\"I needn't have hurry\" → I needn't have hurried. (have + V3)",
+                    "\"I didn't need to hurry\" khi thật ra đã vội → I needn't have hurried."
+                ]
+            }
+        },
+        {
+            "slug": "i-neednt-have",
+            "type": "PATTERN",
+            "text": "I needn't have ….",
+            "meaningVi": "Lẽ ra tôi không cần … (mà đã làm).",
+            "examples": [
+                { "en": "I needn't have taken a taxi. The office was just around the corner.", "vi": "Lẽ ra mình không cần đi taxi. Văn phòng ngay gần góc phố.", "highlight": "I needn't have taken" }
+            ],
+            "pattern": {
+                "template": "I needn't have {done}.",
+                "slots": [
+                    { "name": "done", "hintVi": "V3", "options": ["brought so many copies", "taken a taxi", "hurried", "cooked so much food", "printed all the forms"] }
+                ]
+            },
+            "noteVi": "Kiểu Mỹ thường nói: I didn't have to bring so many copies (after all). Cả hai đều đúng; needn't have rõ nghĩa \"đã làm mà thừa\" hơn."
+        },
+        {
+            "slug": "whats-the-point-of",
+            "type": "PATTERN",
+            "text": "What's the point of …?",
+            "meaningVi": "… để làm gì chứ?",
+            "examples": [
+                { "en": "What's the point of printing forms if nobody reads them?", "vi": "In mẫu đơn ra làm gì nếu chẳng ai đọc?", "highlight": "What's the point of printing" }
+            ],
+            "pattern": {
+                "template": "What's the point of {doing}?",
+                "slots": [
+                    { "name": "doing", "hintVi": "V-ing (+ ý)", "options": ["printing forms if nobody reads them", "having a meeting every morning", "signing in twice", "waiting in line for an hour", "keeping all these receipts"] }
+                ]
+            },
+            "noteVi": "Phàn nàn (hơi mạnh) rằng một việc vô ích. Sau of là V-ing. Nhẹ hơn: I'm not sure why we need to…. There's no point in + V-ing: làm … cũng vô ích."
+        },
+        {
+            "slug": "it-doesnt-make-sense",
+            "type": "PHRASE",
+            "text": "It doesn't make sense.",
+            "meaningVi": "Thật vô lý. / Chẳng hợp lý gì cả.",
+            "examples": [
+                { "en": "It doesn't make sense to close the park at five in summer.", "vi": "Đóng công viên lúc năm giờ vào mùa hè thật vô lý.", "highlight": "It doesn't make sense" }
+            ],
+            "noteVi": "make sense = hợp lý, dễ hiểu (Does that make sense?, A1 10). ❌ \"It's not make sense\", ❌ \"It doesn't make a sense\"."
+        },
+        {
+            "slug": "unfair",
+            "type": "LEXICAL",
+            "text": "unfair",
+            "meaningVi": "không công bằng",
+            "ipa": "/ʌnˈfer/",
+            "examples": [
+                { "en": "It's unfair that part-time staff can't use the parking lot.", "vi": "Nhân viên bán thời gian không được dùng bãi xe là không công bằng.", "highlight": "unfair" }
+            ],
+            "noteVi": "unfair on / to someone. Trái nghĩa: fair. Phàn nàn nhẹ: That seems a bit unfair."
+        },
+        {
+            "slug": "pointless",
+            "type": "LEXICAL",
+            "text": "pointless",
+            "meaningVi": "vô ích, chẳng để làm gì",
+            "ipa": "/ˈpɔɪntləs/",
+            "examples": [
+                { "en": "Half of these meetings are completely pointless.", "vi": "Một nửa số cuộc họp này hoàn toàn vô ích.", "highlight": "pointless" }
+            ],
+            "noteVi": "Hay đi với completely, a bit. Nói lịch sự hơn: not very useful."
+        },
+        {
+            "slug": "paperwork",
+            "type": "LEXICAL",
+            "text": "paperwork",
+            "meaningVi": "giấy tờ, thủ tục giấy tờ",
+            "ipa": "/ˈpeɪpərwɜːrk/",
+            "examples": [
+                { "en": "Getting a work visa takes a lot of paperwork.", "vi": "Xin visa lao động tốn nhiều thủ tục giấy tờ.", "highlight": "paperwork" }
+            ],
+            "noteVi": "Không đếm được: a lot of paperwork, ❌ \"many paperworks\". Thủ tục rườm rà: red tape."
+        },
+        {
+            "slug": "unnecessary",
+            "type": "LEXICAL",
+            "text": "unnecessary",
+            "meaningVi": "không cần thiết",
+            "ipa": "/ʌnˈnesəseri/",
+            "examples": [
+                { "en": "Asking for three copies of the same form seems unnecessary.", "vi": "Đòi ba bản của cùng một mẫu đơn có vẻ không cần thiết.", "highlight": "unnecessary" }
+            ],
+            "noteVi": "Nhấn âm \"nes\". Trái nghĩa: necessary. ❌ \"no necessary\" → It's not necessary."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "b2-09-building-rules",
+            "title": "Are we allowed to…?",
+            "situationVi": "Bạn vừa chuyển đến một căn hộ mới và xuống hỏi chị Mai, quản lý tòa nhà, về nội quy.",
+            "lines": [
+                { "speaker": "Mai", "en": "Hi! You're the new tenant on the eighth floor, right? How can I help?", "vi": "Chào em! Em là người mới thuê ở tầng tám phải không? Chị giúp gì được em?" },
+                { "speaker": "You", "en": "Yes, hi. I have a few questions about the rules. Are we allowed to keep a cat in the apartment?", "vi": "Vâng, chào chị. Em có vài câu hỏi về nội quy. Mình có được nuôi mèo trong căn hộ không ạ?", "learnerTurn": true },
+                { "speaker": "Mai", "en": "Small pets are fine, but you need permission from the owner first.", "vi": "Thú nhỏ thì được, nhưng em cần chủ nhà cho phép trước." },
+                { "speaker": "You", "en": "OK, I'll ask him. And is it OK if I park my motorbike in the basement?", "vi": "Vâng, em sẽ hỏi anh ấy. Còn em để xe máy dưới tầng hầm được không ạ?", "learnerTurn": true },
+                { "speaker": "Mai", "en": "Yes, but you're supposed to register it at the front desk. There's a fine if you don't.", "vi": "Được, nhưng theo quy định em phải đăng ký ở quầy lễ tân. Không đăng ký là bị phạt đấy." },
+                { "speaker": "You", "en": "Got it. My neighbor said they don't let us have visitors after ten. Is that true?", "vi": "Em hiểu rồi. Hàng xóm em bảo là họ không cho mình tiếp khách sau mười giờ. Có đúng không chị?", "learnerTurn": true },
+                { "speaker": "Mai", "en": "In theory, yes. Visitors are supposed to leave by ten. But we're not that strict.", "vi": "Trên lý thuyết là đúng. Khách phải về trước mười giờ. Nhưng bọn chị cũng không nghiêm đến thế." },
+                { "speaker": "You", "en": "Good to know. Thanks, that's really helpful.", "vi": "Hay quá. Cảm ơn chị, thông tin rất có ích.", "learnerTurn": true },
+                { "speaker": "Mai", "en": "You're welcome. Oh, and smoking is prohibited on the balconies!", "vi": "Không có gì. À, cấm hút thuốc ngoài ban công nhé!" }
+            ]
+        },
+        {
+            "slug": "b2-09-visa-office",
+            "title": "What's the point?",
+            "situationVi": "Bạn vừa làm xong thủ tục xin visa và kể với chị đồng nghiệp Emma, người nước ngoài, cũng từng làm thủ tục này.",
+            "lines": [
+                { "speaker": "Emma", "en": "So, how was the visa office? Did you get everything done?", "vi": "Thế nào, phòng visa ra sao? Em làm xong hết chưa?" },
+                { "speaker": "You", "en": "Finally, yes. But the paperwork was crazy. I needn't have brought so many copies.", "vi": "Cuối cùng cũng xong. Nhưng giấy tờ kinh khủng lắm. Lẽ ra em không cần mang nhiều bản sao thế.", "learnerTurn": true },
+                { "speaker": "Emma", "en": "Ha, I did the same. They only checked one, right?", "vi": "Haha, chị cũng thế. Họ chỉ xem một bản đúng không?" },
+                { "speaker": "You", "en": "Exactly. And I didn't need to wait long, luckily. But they asked me to fill out the same form twice. What's the point of that?", "vi": "Đúng vậy. May là em không phải chờ lâu. Nhưng họ bắt em điền cùng một mẫu đơn hai lần. Làm thế để làm gì chứ?", "learnerTurn": true },
+                { "speaker": "Emma", "en": "No idea. Maybe one is for their records.", "vi": "Chịu. Có lẽ một bản để họ lưu." },
+                { "speaker": "You", "en": "Maybe, but it doesn't make sense. The information is exactly the same. It just seems unnecessary.", "vi": "Có thể, nhưng vô lý lắm. Thông tin y hệt nhau. Có vẻ không cần thiết.", "learnerTurn": true },
+                { "speaker": "Emma", "en": "Did they let you pay by card at least?", "vi": "Ít nhất họ có cho trả bằng thẻ không?" },
+                { "speaker": "You", "en": "No, cash only. No exceptions. I was supposed to be back at work by eleven, but I had to find an ATM.", "vi": "Không, chỉ tiền mặt. Không có ngoại lệ. Đáng lẽ em phải về công ty trước mười một giờ, nhưng em phải đi tìm cây ATM.", "learnerTurn": true },
+                { "speaker": "Emma", "en": "Oh no. Well, at least it's done now.", "vi": "Ôi. Thôi, ít nhất giờ cũng xong rồi." }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "b2-09-l1-supposed-to",
+            "title": "You're not supposed to…",
+            "titleVi": "Quy định và điều lẽ ra phải xảy ra",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "supposed-to", "role": "INTRODUCE" },
+                { "item": "youre-not-supposed-to", "role": "INTRODUCE" },
+                { "item": "i-was-supposed-to", "role": "INTRODUCE" },
+                { "item": "against-the-rules", "role": "INTRODUCE" },
+                { "item": "in-theory", "role": "INTRODUCE" },
+                { "item": "rule", "role": "INTRODUCE" },
+                { "item": "strict", "role": "INTRODUCE" },
+                { "item": "fine-penalty", "role": "INTRODUCE" },
+                { "item": "have-to", "role": "RECYCLE" },
+                { "item": "should-shouldnt", "role": "RECYCLE" },
+                { "item": "should-have", "role": "RECYCLE" },
+                { "item": "schedule", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["youre-not-supposed-to", "i-was-supposed-to", "against-the-rules", "in-theory", "rule", "strict", "fine-penalty"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "have to, should hay be supposed to?",
+                        "bodyVi": "Ba cách nói \"phải\" khác nhau ở chỗ ai muốn việc đó:\n\n| câu | nghĩa | ai muốn |\n|---|---|---|\n| I **have to** wear a badge. | bắt buộc, không làm không được | quy định, và mình chấp nhận |\n| You **should** wear a badge. | nên | người nói khuyên |\n| We're **supposed to** wear a badge. | theo quy định thì phải | quy định, nhưng thực tế có khi không ai làm |\n\nNên **be supposed to** hay đi với **in theory**: **In theory**, we're supposed to wear a badge, but nobody does.\n\nỞ quá khứ, **was supposed to** là kế hoạch đã hỏng:\n\n| câu | nghĩa |\n|---|---|\n| The train **was supposed to** leave at 8. | theo lịch là 8 giờ (nhưng không chạy) |\n| I **was supposed to** call her, **but** I forgot. | đã hứa / định gọi |\n| I **should have** called her. (B2 02) | lẽ ra nên gọi (tự trách) |\n\nLàm trái quy định: It's **against the rules**. / You could get a **fine**. Quy định chặt: The **rules** are **strict**.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| We suppose to finish by five. | We're **supposed to** finish by five. |\n| The bus supposed to come at 8. | The bus **was supposed to** come at 8. |\n| I was punished 500,000 dong. | I got a 500,000 dong **fine**. |\n\n❌ We suppose to ❌ The bus supposed to come ✅ **The bus was supposed to come at 8, but it didn't.**",
+                        "items": ["supposed-to", "youre-not-supposed-to", "i-was-supposed-to", "against-the-rules", "in-theory", "rule", "strict", "fine-penalty", "have-to", "should-shouldnt", "should-have"],
+                        "examples": [
+                            { "en": "We're supposed to wear a badge at work.", "vi": "Theo quy định, bọn mình phải đeo thẻ ở chỗ làm.", "highlight": "We're supposed to wear" },
+                            { "en": "I was supposed to call her, but I forgot.", "vi": "Đáng lẽ mình phải gọi cho chị ấy, nhưng mình quên mất.", "highlight": "I was supposed to call" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "youre-not-supposed-to",
+                        "prompts": [
+                            { "cueVi": "Theo quy định thì không được đỗ xe ở đây.", "slots": { "do": "park here" }, "answer": "You're not supposed to park here." },
+                            { "cueVi": "Theo quy định thì không được ăn ở bàn làm việc.", "slots": { "do": "eat at your desk" }, "answer": "You're not supposed to eat at your desk." },
+                            { "cueVi": "Theo quy định thì không được chụp ảnh trong bảo tàng.", "slots": { "do": "take photos in the museum" }, "answer": "You're not supposed to take photos in the museum." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "i-was-supposed-to",
+                        "prompts": [
+                            { "cueVi": "Đáng lẽ tôi phải gọi cho mẹ, nhưng tôi quên mất.", "slots": { "do": "call my mom", "reason": "I forgot" }, "answer": "I was supposed to call my mom, but I forgot." },
+                            { "cueVi": "Đáng lẽ hôm nay tôi bay ra Đà Nẵng, nhưng chuyến bay bị hoãn.", "slots": { "do": "fly to Da Nang today", "reason": "the flight was delayed" }, "answer": "I was supposed to fly to Da Nang today, but the flight was delayed." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["against-the-rules", "in-theory", "rule", "strict", "fine-penalty", "schedule"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "We're supposed to wear a badge at work.", "vi": "Theo quy định, bọn mình phải đeo thẻ ở chỗ làm." },
+                            { "en": "You're not supposed to use your phone in here.", "vi": "Ở đây theo quy định thì không được dùng điện thoại." },
+                            { "en": "I was supposed to finish the report, but the system was down.", "vi": "Đáng lẽ tôi phải xong báo cáo, nhưng hệ thống bị sập." },
+                            { "en": "In theory, we finish at five, but in practice we often stay until seven.", "vi": "Trên lý thuyết bọn mình tan lúc năm giờ, nhưng thực tế hay ở đến bảy giờ." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["We suppose to finish by five.", "We're supposed to finish by five.", "We're supposed finish by five."],
+                                "answer": 1,
+                                "item": "supposed-to"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Xe buýt theo lịch đến lúc 8 giờ, nhưng không đến. Bạn nói:",
+                                "options": ["The bus supposed to come at 8.", "The bus should come at 8.", "The bus was supposed to come at 8."],
+                                "answer": 2,
+                                "item": "i-was-supposed-to"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I got a ___ for parking on the sidewalk.",
+                                "hintVi": "tiền phạt",
+                                "answers": ["fine"],
+                                "item": "fine-penalty"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Sorry, you can't bring your dog in. It's against the rules.",
+                                "options": ["Xin lỗi, anh không mang chó vào được. Trái quy định ạ.", "Xin lỗi, con chó của anh không theo quy định.", "Xin lỗi, anh phải dắt chó đi đường khác."],
+                                "answer": 0,
+                                "item": "against-the-rules"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Bố mẹ mình rất nghiêm chuyện bài tập về nhà.",
+                                "answer": "My parents were very strict about homework.",
+                                "item": "strict"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b2-09-l2-allowed",
+            "title": "Are we allowed to…?",
+            "titleVi": "Xin phép và điều bị cấm",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "allowed-to", "role": "INTRODUCE" },
+                { "item": "are-we-allowed-to", "role": "INTRODUCE" },
+                { "item": "they-dont-let-us", "role": "INTRODUCE" },
+                { "item": "is-it-ok-if", "role": "INTRODUCE" },
+                { "item": "no-exceptions", "role": "INTRODUCE" },
+                { "item": "permission", "role": "INTRODUCE" },
+                { "item": "ban", "role": "INTRODUCE" },
+                { "item": "prohibited", "role": "INTRODUCE" },
+                { "item": "can-ability", "role": "RECYCLE" },
+                { "item": "im-afraid", "role": "RECYCLE" },
+                { "item": "youre-not-supposed-to", "role": "RECYCLE" },
+                { "item": "rule", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["are-we-allowed-to", "they-dont-let-us", "is-it-ok-if", "no-exceptions", "permission", "ban", "prohibited"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Được phép, bị cấm: nói sao cho đúng?",
+                        "bodyVi": "Từ thân mật đến trang trọng:\n\n| mức | được phép | bị cấm |\n|---|---|---|\n| nói thường | You **can** park here. | You **can't** park here. |\n| quy định | You're **allowed to** park here. | You're **not allowed to** park here. |\n| ai đó cho phép | They **let us** park here. | They **don't let us** park here. |\n| biển báo | Parking **permitted**. | Parking **prohibited**. / a **ban** on parking |\n\n**let** + người + V nguyên mẫu, không có to. **be allowed to** luôn có be.\n\nXin phép: **Is it OK if I** leave early? (thân) → **Are we allowed to** leave early? (hỏi quy định) → Would it be possible to…? (B2 05, rất lịch sự). Từ chối: **I'm afraid** not. Nhất quyết: **No exceptions.**\n\nSo với bài 1: **not allowed to** là cấm hẳn; **not supposed to** là có quy định nhưng người ta vẫn có khi làm.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| We are not allow to smoke. | We **aren't allowed to** smoke. |\n| My boss lets us to leave early. | My boss **lets us leave** early. |\n| It is allowed to park here? | **Are we allowed to** park here? |\n\n❌ not allow to ❌ lets us to leave ✅ **They don't let us leave before six.**",
+                        "items": ["allowed-to", "are-we-allowed-to", "they-dont-let-us", "is-it-ok-if", "no-exceptions", "permission", "ban", "prohibited", "can-ability", "im-afraid", "youre-not-supposed-to"],
+                        "examples": [
+                            { "en": "Are we allowed to work from home on Fridays?", "vi": "Thứ Sáu bọn mình có được làm ở nhà không?", "highlight": "Are we allowed to" },
+                            { "en": "My boss lets us leave early on Fridays.", "vi": "Sếp cho bọn mình về sớm vào thứ Sáu.", "highlight": "lets us leave" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "are-we-allowed-to",
+                        "prompts": [
+                            { "cueVi": "Mình có được mang đồ ăn riêng vào không?", "slots": { "do": "bring our own food" }, "answer": "Are we allowed to bring our own food?" },
+                            { "cueVi": "Mình có được nuôi mèo trong căn hộ không?", "slots": { "do": "keep a cat in the apartment" }, "answer": "Are we allowed to keep a cat in the apartment?" },
+                            { "cueVi": "Mình có được dùng phòng gym sau mười giờ không?", "slots": { "do": "use the gym after ten" }, "answer": "Are we allowed to use the gym after ten?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "they-dont-let-us",
+                        "prompts": [
+                            { "cueVi": "Họ không cho bọn tôi mặc quần short đi làm.", "slots": { "do": "wear shorts at work" }, "answer": "They don't let us wear shorts at work." },
+                            { "cueVi": "Họ không cho bọn tôi nấu ăn trong phòng.", "slots": { "do": "cook in our rooms" }, "answer": "They don't let us cook in our rooms." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["no-exceptions", "permission", "ban", "prohibited", "rule"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b2-09-building-rules", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["We are not allow to smoke here.", "We aren't allowed to smoke here.", "We don't allowed to smoke here."],
+                                "answer": 1,
+                                "item": "allowed-to"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["They don't let us to cook in our rooms.", "They don't let us cooking in our rooms.", "They don't let us cook in our rooms."],
+                                "answer": 2,
+                                "item": "they-dont-let-us"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "You need ___ from the manager to use this room.",
+                                "hintVi": "sự cho phép",
+                                "answers": ["permission"],
+                                "item": "permission"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Smoking is prohibited in all areas of the building.",
+                                "options": ["Chỉ được hút thuốc ở một số khu vực.", "Cấm hút thuốc ở mọi khu vực trong tòa nhà.", "Tòa nhà có khu vực riêng để hút thuốc."],
+                                "answer": 1,
+                                "item": "prohibited"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Hôm nay em về sớm một chút được không ạ?",
+                                "answer": "Is it OK if I leave a bit early today?",
+                                "item": "is-it-ok-if"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b2-09-l3-complaining",
+            "title": "What's the point?",
+            "titleVi": "Không cần và phàn nàn về quy định",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "need-not", "role": "INTRODUCE" },
+                { "item": "i-neednt-have", "role": "INTRODUCE" },
+                { "item": "whats-the-point-of", "role": "INTRODUCE" },
+                { "item": "it-doesnt-make-sense", "role": "INTRODUCE" },
+                { "item": "unfair", "role": "INTRODUCE" },
+                { "item": "pointless", "role": "INTRODUCE" },
+                { "item": "paperwork", "role": "INTRODUCE" },
+                { "item": "unnecessary", "role": "INTRODUCE" },
+                { "item": "do-you-have-to", "role": "RECYCLE" },
+                { "item": "complain", "role": "RECYCLE" },
+                { "item": "strict", "role": "RECYCLE" },
+                { "item": "fill-out", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["i-neednt-have", "whats-the-point-of", "it-doesnt-make-sense", "unfair", "pointless", "paperwork", "unnecessary"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Không cần, đã không cần, lẽ ra không cần",
+                        "bodyVi": "**mustn't** và **don't have to** trái nghĩa hẳn nhau:\n\n| câu | nghĩa |\n|---|---|\n| You **mustn't** print it. | cấm in |\n| You **don't have to** / **don't need to** / **needn't** print it. | không cần in (in cũng được) |\n\nỞ quá khứ, tiếng Anh tách hai trường hợp mà tiếng Việt đều nói \"không cần\":\n\n| câu | chuyện gì đã xảy ra |\n|---|---|\n| I **didn't need to** wait. The doctor saw me right away. | không cần, và không chờ |\n| I **needn't have** hurried. The meeting started late. | đã vội, rồi mới biết là thừa |\n\nPhàn nàn về quy định có lý lẽ, từ nhẹ đến mạnh: It seems **unnecessary**. → It **doesn't make sense**. → It's **unfair**. → **What's the point of** + V-ing? / It's completely **pointless**. Nên kèm lý do: …, because the information is the same.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| You mustn't come. (ý: không cần) | You **don't have to** come. |\n| I needn't have hurry. | I **needn't have hurried**. |\n| It's not make sense. | It **doesn't make sense**. |\n| So many paperworks! | So much **paperwork**! |\n\n❌ It's not make sense ❌ I needn't have hurry ✅ **I needn't have hurried. It doesn't make sense.**",
+                        "items": ["need-not", "i-neednt-have", "whats-the-point-of", "it-doesnt-make-sense", "unfair", "pointless", "paperwork", "unnecessary", "do-you-have-to", "complain"],
+                        "examples": [
+                            { "en": "I needn't have brought so many copies. They only checked one.", "vi": "Lẽ ra mình không cần mang nhiều bản sao thế. Họ chỉ xem một bản.", "highlight": "needn't have brought" },
+                            { "en": "What's the point of printing forms if nobody reads them?", "vi": "In mẫu đơn ra làm gì nếu chẳng ai đọc?", "highlight": "What's the point of" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "i-neednt-have",
+                        "prompts": [
+                            { "cueVi": "Lẽ ra mình không cần đi taxi.", "slots": { "done": "taken a taxi" }, "answer": "I needn't have taken a taxi." },
+                            { "cueVi": "Lẽ ra mình không cần nấu nhiều đồ ăn thế.", "slots": { "done": "cooked so much food" }, "answer": "I needn't have cooked so much food." },
+                            { "cueVi": "Lẽ ra mình không cần vội.", "slots": { "done": "hurried" }, "answer": "I needn't have hurried." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "whats-the-point-of",
+                        "prompts": [
+                            { "cueVi": "Sáng nào cũng họp thì để làm gì chứ?", "slots": { "doing": "having a meeting every morning" }, "answer": "What's the point of having a meeting every morning?" },
+                            { "cueVi": "Giữ hết đống hóa đơn này để làm gì chứ?", "slots": { "doing": "keeping all these receipts" }, "answer": "What's the point of keeping all these receipts?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["it-doesnt-make-sense", "unfair", "pointless", "paperwork", "unnecessary", "complain", "fill-out"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b2-09-visa-office", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn muốn nói với bạn \"Không cần đến đâu, bận thì thôi\":",
+                                "options": ["You mustn't come if you're busy.", "You don't have to come if you're busy.", "You needn't have come if you're busy."],
+                                "answer": 1,
+                                "item": "need-not"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn đã vội đến nơi, rồi mới biết cuộc họp bắt đầu muộn. Bạn nói:",
+                                "options": ["I needn't have hurried.", "I didn't need to hurry.", "I mustn't hurry."],
+                                "answer": 0,
+                                "item": "i-neednt-have"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Getting a work visa takes a lot of ___.",
+                                "hintVi": "giấy tờ, thủ tục",
+                                "answers": ["paperwork"],
+                                "item": "paperwork"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "It doesn't make sense to close the park at five in summer.",
+                                "options": ["Công viên đóng cửa lúc năm giờ vào mùa hè.", "Mùa hè nên đóng công viên sớm hơn.", "Đóng công viên lúc năm giờ vào mùa hè thật vô lý."],
+                                "answer": 2,
+                                "item": "it-doesnt-make-sense"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Một nửa số cuộc họp này hoàn toàn vô ích.",
+                                "answer": "Half of these meetings are completely pointless.",
+                                "item": "pointless"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "b2-09-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["I was supposed to call her, but I forgot.", "I supposed to call her, but I forgot.", "I was supposed to called her, but I forgot."],
+                "answer": 0,
+                "item": "supposed-to"
+            },
+            {
+                "kind": "gap",
+                "sentence": "In ___, we finish at five, but in practice we stay until seven.",
+                "hintVi": "trên lý thuyết",
+                "answers": ["theory"],
+                "item": "in-theory"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["My parents never let me to go out late.", "My parents never let me go out late.", "My parents never allowed me go out late."],
+                "answer": 1,
+                "item": "allowed-to"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Bác sĩ khám ngay nên bạn không phải chờ. Bạn nói:",
+                "options": ["I needn't have waited.", "I mustn't wait.", "I didn't need to wait."],
+                "answer": 2,
+                "item": "need-not"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "It's unfair that part-time staff can't use the parking lot.",
+                "options": ["Nhân viên bán thời gian không được dùng bãi xe là không công bằng.", "Nhân viên bán thời gian phải trả tiền gửi xe.", "Bãi xe chỉ dành cho nhân viên bán thời gian."],
+                "answer": 0,
+                "item": "unfair"
+            },
+            {
+                "kind": "order",
+                "vi": "Mình có được mang đồ ăn riêng vào không?",
+                "answer": "Are we allowed to bring our own food?",
+                "item": "are-we-allowed-to"
+            }
+        ]
+    }
+}

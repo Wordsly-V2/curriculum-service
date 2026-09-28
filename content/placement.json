@@ -784,6 +784,70 @@
             "options": ["She broke up her boyfriend.", "I can't put it up with any more.", "I can't put up with it any more."],
             "answer": 2,
             "item": "three-part-phrasal-verbs"
+        },
+        {
+            "unit": "b2-09-supposed-to",
+            "kind": "choice",
+            "prompt": "Tàu theo lịch chạy lúc 8 giờ nhưng không chạy. Câu nào đúng?",
+            "options": ["The train supposed to leave at 8.","The train was supposed to leave at 8.","The train is suppose to leave at 8."],
+            "answer": 1,
+            "item": "supposed-to"
+        },
+        {
+            "unit": "b2-09-supposed-to",
+            "kind": "choice",
+            "prompt": "Bạn đã vội đến nơi, rồi mới biết cuộc họp bắt đầu muộn. Bạn nói:",
+            "options": ["I needn't have hurried.","I mustn't hurry.","I didn't need hurry."],
+            "answer": 0,
+            "item": "need-not"
+        },
+        {
+            "unit": "b2-10-linking",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["Although it was raining, but we went out.","It was raining. However, we went out.","It was raining, however we went out, but."],
+            "answer": 1,
+            "item": "linking-words"
+        },
+        {
+            "unit": "b2-10-linking",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["We were late because of the traffic was bad.","We were late due to the traffic was bad.","We were late because of the bad traffic."],
+            "answer": 2,
+            "item": "cause-effect"
+        },
+        {
+            "unit": "b2-11-what-if",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["I'd rather you didn't smoke in the kitchen.","I'd rather you don't smoke in the kitchen.","I'd rather you not to smoke in the kitchen."],
+            "answer": 0,
+            "item": "id-rather"
+        },
+        {
+            "unit": "b2-11-what-if",
+            "kind": "choice",
+            "prompt": "Hồi đó bạn không đi du học. Bạn nói về bây giờ:",
+            "options": ["If I studied abroad, I would speak better English now.","If I'd studied abroad, I'd speak better English now.","If I'd studied abroad, I would have spoken better English now."],
+            "answer": 1,
+            "item": "mixed-conditional"
+        },
+        {
+            "unit": "b2-12-strategy",
+            "kind": "choice",
+            "prompt": "Bạn giải thích một từ tiếng Việt khó dịch:",
+            "options": ["In English don't have this word.","It's not exactly fate, more like a lucky connection.","It's relate to luck, like fate but no."],
+            "answer": 1,
+            "item": "not-exactly-more-like"
+        },
+        {
+            "unit": "b2-12-strategy",
+            "kind": "choice",
+            "prompt": "Bạn bị ngắt lời giữa chừng. Cách giữ lượt lịch sự:",
+            "options": ["Wait, I'm not finish!","Sorry, if I could just finish…","Stop, it's my turn."],
+            "answer": 1,
+            "item": "if-i-could-just-finish"
         }
     ]
 }

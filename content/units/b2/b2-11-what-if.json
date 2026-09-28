@@ -1,0 +1,797 @@
+{
+    "slug": "b2-11-what-if",
+    "stage": "b2",
+    "order": 11,
+    "title": "What if…?",
+    "titleVi": "Giả định: what if, I'd rather, điều kiện hỗn hợp",
+    "descriptionVi": "Đặt giả định và bàn phương án dự phòng (Suppose…, What if…? + quá khứ, in that case, a backup plan), nói điều mình muốn người khác làm một cách khéo (I'd rather you…, It's time we…), và nối quá khứ với hiện tại bằng câu điều kiện hỗn hợp (If I'd…, I'd … now).",
+    "canDo": [
+        "Tôi đặt ra được tình huống giả định và cùng người khác bàn phương án dự phòng.",
+        "Tôi nói được điều mình thích hơn, và nhờ người khác thay đổi một thói quen một cách tế nhị.",
+        "Tôi nói được một lựa chọn trong quá khứ đã ảnh hưởng đến cuộc sống hiện tại của mình ra sao."
+    ],
+    "items": [
+        {
+            "slug": "hypothetical-past",
+            "type": "GRAMMAR",
+            "text": "Suppose / What if / Imagine + quá khứ đơn → would",
+            "meaningVi": "đặt tình huống giả định",
+            "examples": [
+                { "en": "What if the client said no? What would we do?", "vi": "Giả sử khách hàng từ chối thì sao? Mình sẽ làm gì?", "highlight": "What if the client said no" }
+            ],
+            "grammar": {
+                "ruleVi": "Suppose / Supposing / What if / Imagine + quá khứ đơn đặt ra một tình huống không có thật hoặc khó xảy ra, câu sau dùng would. Giống điều kiện loại 2 (B1 06), chỉ thay If bằng các từ này. Nếu tình huống dễ xảy ra, dùng hiện tại: What if it rains? We'll move inside. What if we + hiện tại (B2 05) là lời đề nghị, không phải giả định.",
+                "forms": [
+                    { "label": "suppose", "example": "Suppose you lost your job. What would you do?" },
+                    { "label": "what if (khó xảy ra)", "example": "What if nobody came to the party?" },
+                    { "label": "what if (dễ xảy ra)", "example": "What if it rains? We'll move inside." },
+                    { "label": "đề nghị (B2 05)", "example": "What if we meet on Monday instead?" },
+                    { "label": "quá khứ", "example": "What if you had missed the flight?" }
+                ],
+                "pitfallsVi": [
+                    "\"Suppose you lose your job, what will you do?\" (ý là rất khó xảy ra) → Suppose you lost your job. What would you do?",
+                    "\"What if nobody will come?\" → What if nobody comes? / What if nobody came?",
+                    "\"Suppose if you won\" → Suppose you won… (không thêm if)"
+                ]
+            }
+        },
+        {
+            "slug": "suppose-you",
+            "type": "PATTERN",
+            "text": "Suppose you …. What would you do?",
+            "meaningVi": "Giả sử bạn …. Bạn sẽ làm gì?",
+            "examples": [
+                { "en": "Suppose you lost your phone abroad. What would you do?", "vi": "Giả sử bạn mất điện thoại ở nước ngoài. Bạn sẽ làm gì?", "highlight": "Suppose you lost" }
+            ],
+            "pattern": {
+                "template": "Suppose you {did}. What would you do?",
+                "slots": [
+                    { "name": "did", "hintVi": "quá khứ đơn", "options": ["lost your phone abroad", "missed the last train", "found a wallet on the street", "got two job offers", "had a year off"] }
+                ]
+            },
+            "noteVi": "Mở một câu hỏi giả định, hay dùng khi phỏng vấn hoặc tán gẫu. Thân mật hơn: Imagine you…"
+        },
+        {
+            "slug": "what-if-happened",
+            "type": "PATTERN",
+            "text": "What if …?",
+            "meaningVi": "Lỡ … thì sao?",
+            "examples": [
+                { "en": "What if the flight got canceled?", "vi": "Lỡ chuyến bay bị hủy thì sao?", "highlight": "What if the flight got canceled" }
+            ],
+            "pattern": {
+                "template": "What if {event}?",
+                "slots": [
+                    { "name": "event", "hintVi": "việc giả định (quá khứ đơn)", "options": ["the flight got canceled", "nobody came", "the client said no", "it rained all weekend", "we ran out of money"] }
+                ]
+            },
+            "noteVi": "Dùng để nêu rủi ro. Nối tiếp What if we…? (B2 05, đề nghị + hiện tại). Trả lời: In that case, we'd…."
+        },
+        {
+            "slug": "in-that-case",
+            "type": "PHRASE",
+            "text": "In that case, …",
+            "meaningVi": "Nếu vậy thì, …",
+            "examples": [
+                { "en": "It might rain. In that case, we'll have the party indoors.", "vi": "Có thể trời mưa. Nếu vậy thì mình tổ chức tiệc trong nhà.", "highlight": "In that case" }
+            ],
+            "noteVi": "Trả lời một tình huống vừa được nêu. Thân mật: Then… / If so, …."
+        },
+        {
+            "slug": "worst-case-scenario",
+            "type": "PHRASE",
+            "text": "the worst-case scenario",
+            "meaningVi": "trường hợp xấu nhất",
+            "examples": [
+                { "en": "The worst-case scenario is that we have to cancel the trip.", "vi": "Trường hợp xấu nhất là mình phải hủy chuyến đi.", "highlight": "The worst-case scenario" }
+            ],
+            "noteVi": "Hay mở đầu: In the worst-case scenario, …. Nói gọn: At worst, …. Trường hợp tốt nhất: the best-case scenario."
+        },
+        {
+            "slug": "backup-plan",
+            "type": "PHRASE",
+            "text": "a backup plan",
+            "meaningVi": "phương án dự phòng",
+            "examples": [
+                { "en": "We need a backup plan in case it rains.", "vi": "Mình cần một phương án dự phòng phòng khi trời mưa.", "highlight": "a backup plan" }
+            ],
+            "noteVi": "Cũng nói plan B. in case + hiện tại đơn: phòng khi (❌ \"in case it will rain\")."
+        },
+        {
+            "slug": "hypothetically",
+            "type": "LEXICAL",
+            "text": "hypothetically",
+            "meaningVi": "giả dụ, về mặt giả định",
+            "ipa": "/ˌhaɪpəˈθetɪkli/",
+            "examples": [
+                { "en": "Hypothetically, if you could live anywhere, where would you go?", "vi": "Giả dụ bạn được sống ở bất cứ đâu, bạn sẽ đi đâu?", "highlight": "Hypothetically" }
+            ],
+            "noteVi": "Báo trước rằng câu hỏi chỉ là giả định. Nói thường: Just imagine…. Danh từ: a hypothetical question."
+        },
+        {
+            "slug": "risk",
+            "type": "LEXICAL",
+            "text": "risk",
+            "meaningVi": "rủi ro; liều",
+            "ipa": "/rɪsk/",
+            "examples": [
+                { "en": "There's a risk that the shop won't be ready on time.", "vi": "Có rủi ro là cửa hàng sẽ không kịp xong đúng hạn.", "highlight": "risk" }
+            ],
+            "noteVi": "take a risk (chấp nhận rủi ro), at risk (gặp nguy). Động từ: I don't want to risk losing the deposit. (risk + V-ing)"
+        },
+        {
+            "slug": "id-rather",
+            "type": "GRAMMAR",
+            "text": "would rather + V; would rather + người + quá khứ; It's time + quá khứ",
+            "meaningVi": "nói điều mình thích hơn, điều muốn người khác làm",
+            "examples": [
+                { "en": "I'd rather you didn't smoke in the kitchen.", "vi": "Mình mong bạn đừng hút thuốc trong bếp.", "highlight": "I'd rather you didn't smoke" }
+            ],
+            "grammar": {
+                "ruleVi": "I'd rather + V nguyên mẫu (không to): tôi thích … hơn. Khi muốn người khác làm (hay không làm) gì: I'd rather + người + quá khứ đơn, dù nói về hiện tại, nghe rất tế nhị. It's time (hoặc It's high time) + người + quá khứ đơn: đến lúc (lẽ ra đã phải) làm rồi. Nhắc lại: It's time to + V (A1 02) là nói chung, không có người.",
+                "forms": [
+                    { "label": "mình thích hơn", "example": "I'd rather stay home tonight." },
+                    { "label": "so sánh", "example": "I'd rather walk than take a taxi." },
+                    { "label": "muốn người khác", "example": "I'd rather you called first." },
+                    { "label": "từ chối nhẹ", "example": "I'd rather not talk about it." },
+                    { "label": "đến lúc rồi", "example": "It's time we made a cleaning schedule." }
+                ],
+                "pitfallsVi": [
+                    "\"I'd rather to stay home\" → I'd rather stay home.",
+                    "\"I'd rather you don't smoke here\" → I'd rather you didn't smoke here.",
+                    "\"It's time we make a plan\" → It's time we made a plan. / It's time to make a plan."
+                ]
+            }
+        },
+        {
+            "slug": "id-rather-you",
+            "type": "PATTERN",
+            "text": "I'd rather you ….",
+            "meaningVi": "Tôi mong bạn … (thì hơn).",
+            "examples": [
+                { "en": "I'd rather you didn't leave the dishes in the sink.", "vi": "Mình mong bạn đừng để bát đĩa trong bồn rửa.", "highlight": "I'd rather you didn't leave" }
+            ],
+            "pattern": {
+                "template": "I'd rather you {did}.",
+                "slots": [
+                    { "name": "did", "hintVi": "quá khứ đơn (didn't + V nếu phủ định)", "options": ["didn't leave the dishes in the sink", "called first", "didn't tell anyone yet", "asked me first", "turned the music down after eleven"] }
+                ]
+            },
+            "noteVi": "Nhờ ai đổi thói quen mà không nghe như ra lệnh. Mềm hơn nữa: I'd rather you didn't…, if you don't mind."
+        },
+        {
+            "slug": "its-time-we",
+            "type": "PATTERN",
+            "text": "It's time we ….",
+            "meaningVi": "Đến lúc chúng ta … rồi.",
+            "examples": [
+                { "en": "It's time we made a cleaning schedule.", "vi": "Đến lúc mình lập lịch dọn dẹp rồi.", "highlight": "It's time we made" }
+            ],
+            "pattern": {
+                "template": "It's time we {did}.",
+                "slots": [
+                    { "name": "did", "hintVi": "quá khứ đơn", "options": ["made a cleaning schedule", "talked about the rent", "went home", "fixed the leak", "started saving money"] }
+                ]
+            },
+            "noteVi": "Nghĩa: lẽ ra phải làm rồi, hơi muộn. Mạnh hơn: It's high time we…. Nói chung, không có người: It's time to go (A1 02)."
+        },
+        {
+            "slug": "id-rather-not",
+            "type": "PHRASE",
+            "text": "I'd rather not.",
+            "meaningVi": "Tôi không muốn thì hơn.",
+            "examples": [
+                { "en": "Do you want to talk about it? — I'd rather not, if that's OK.", "vi": "Bạn có muốn kể không? — Mình không muốn lắm, nếu được.", "highlight": "I'd rather not" }
+            ],
+            "noteVi": "Từ chối rất nhẹ, không cần lý do. Kèm động từ: I'd rather not say. ❌ \"I'd rather don't\"."
+        },
+        {
+            "slug": "if-you-dont-mind",
+            "type": "PHRASE",
+            "text": "…, if you don't mind.",
+            "meaningVi": "…, nếu bạn không phiền.",
+            "examples": [
+                { "en": "I'd like to go to bed early tonight, if you don't mind.", "vi": "Tối nay mình muốn đi ngủ sớm, nếu bạn không phiền.", "highlight": "if you don't mind" }
+            ],
+            "noteVi": "Thêm vào cuối câu cho mềm. Khác Would you mind + V-ing (B1 07, nhờ việc). Đáp lại: Not at all. / Of course not."
+        },
+        {
+            "slug": "annoyed",
+            "type": "LEXICAL",
+            "text": "annoyed",
+            "meaningVi": "bực mình, khó chịu",
+            "ipa": "/əˈnɔɪd/",
+            "examples": [
+                { "en": "I get annoyed when people are late without telling me.", "vi": "Mình bực mình khi người ta đến muộn mà không báo.", "highlight": "annoyed" }
+            ],
+            "noteVi": "Người thấy bực: annoyed; việc gây bực: annoying (B2 06). annoyed with someone, annoyed about something."
+        },
+        {
+            "slug": "habit",
+            "type": "LEXICAL",
+            "text": "habit",
+            "meaningVi": "thói quen",
+            "ipa": "/ˈhæbɪt/",
+            "examples": [
+                { "en": "He has a habit of leaving his shoes everywhere.", "vi": "Anh ấy có thói quen vứt giày khắp nơi.", "highlight": "habit" }
+            ],
+            "noteVi": "a good / bad habit, have a habit of + V-ing, break a habit (bỏ thói quen). ❌ \"habit to do\"."
+        },
+        {
+            "slug": "frankly",
+            "type": "LEXICAL",
+            "text": "frankly",
+            "meaningVi": "thẳng thắn mà nói",
+            "ipa": "/ˈfræŋkli/",
+            "examples": [
+                { "en": "Frankly, I'd rather not share a room with him again.", "vi": "Thẳng thắn mà nói, mình không muốn ở chung phòng với anh ấy nữa.", "highlight": "Frankly" }
+            ],
+            "noteVi": "Báo trước một câu thẳng. To be frank, …; gần nghĩa honestly (B1 12)."
+        },
+        {
+            "slug": "mixed-conditional",
+            "type": "GRAMMAR",
+            "text": "If + had + V3, would + V (bây giờ); If + quá khứ đơn, would have + V3",
+            "meaningVi": "câu điều kiện hỗn hợp: nối quá khứ và hiện tại",
+            "examples": [
+                { "en": "If I'd studied abroad, I'd speak better English now.", "vi": "Nếu hồi đó mình đi du học thì giờ mình nói tiếng Anh tốt hơn rồi.", "highlight": "If I'd studied abroad, I'd speak" }
+            ],
+            "grammar": {
+                "ruleVi": "Điều kiện loại 3 (B2 02) nói quá khứ → quá khứ. Khi một việc trong quá khứ ảnh hưởng đến bây giờ, ghép vế if của loại 3 với vế kết quả của loại 2: If + had + V3, would + V (now). Chiều ngược lại, một sự thật lâu dài ảnh hưởng một việc đã qua: If + quá khứ đơn, would have + V3.",
+                "forms": [
+                    { "label": "quá khứ → bây giờ", "example": "If I'd taken that job, I'd live in Singapore now." },
+                    { "label": "phủ định", "example": "If I hadn't met her, I wouldn't be here today." },
+                    { "label": "sự thật → quá khứ", "example": "If I weren't so shy, I would have asked her out." },
+                    { "label": "so sánh loại 3", "example": "If I'd taken that job, I would have moved to Singapore." }
+                ],
+                "pitfallsVi": [
+                    "\"If I studied abroad, I would speak better now\" (ý là hồi đó) → If I'd studied abroad, I'd speak better now.",
+                    "\"If I had taken that job, I would have lived in Singapore now\" → …, I'd live in Singapore now.",
+                    "\"If I wasn't shy, I would ask her\" (ý là hôm đó) → If I weren't so shy, I would have asked her."
+                ]
+            }
+        },
+        {
+            "slug": "if-id-now",
+            "type": "PATTERN",
+            "text": "If I'd …, I'd … now.",
+            "meaningVi": "Nếu hồi đó tôi … thì giờ tôi đã ….",
+            "examples": [
+                { "en": "If I'd saved more money, I'd have my own apartment now.", "vi": "Nếu hồi đó mình tiết kiệm nhiều hơn thì giờ đã có căn hộ riêng.", "highlight": "If I'd saved more money, I'd have" }
+            ],
+            "pattern": {
+                "template": "If I'd {done}, I'd {result} now.",
+                "slots": [
+                    { "name": "done", "hintVi": "việc trong quá khứ (V3)", "options": ["studied abroad", "saved more money", "taken that job", "learned to drive", "gone to bed earlier"] },
+                    { "name": "result", "hintVi": "kết quả bây giờ (V nguyên mẫu)", "options": ["speak better English", "have my own apartment", "live in Singapore", "have more freedom", "feel less tired"] }
+                ]
+            },
+            "noteVi": "I'd đầu tiên = I had, I'd thứ hai = I would. Nhớ now (hoặc today) ở cuối để rõ nghĩa hiện tại."
+        },
+        {
+            "slug": "if-i-werent",
+            "type": "PATTERN",
+            "text": "If I weren't …, I would have ….",
+            "meaningVi": "Nếu tôi không … (vốn dĩ), thì tôi đã ….",
+            "examples": [
+                { "en": "If I weren't so shy, I would have asked her out.", "vi": "Nếu mình không nhút nhát thế thì đã rủ cô ấy đi chơi rồi.", "highlight": "If I weren't so shy, I would have asked" }
+            ],
+            "pattern": {
+                "template": "If I weren't {state}, I would have {done}.",
+                "slots": [
+                    { "name": "state", "hintVi": "tính cách, tình trạng lâu dài", "options": ["so shy", "afraid of flying", "so busy", "allergic to cats", "so bad with money"] },
+                    { "name": "done", "hintVi": "việc đã không làm (V3)", "options": ["asked her out", "visited you in Japan", "come to your wedding", "kept the kitten", "bought a house by now"] }
+                ]
+            },
+            "noteVi": "Vế đầu là sự thật đến giờ vẫn đúng (vẫn nhút nhát), vế sau là việc đã qua. Văn nói cũng dùng If I wasn't…."
+        },
+        {
+            "slug": "by-now",
+            "type": "PHRASE",
+            "text": "by now",
+            "meaningVi": "đến giờ này (thì đã)",
+            "examples": [
+                { "en": "If we'd left earlier, we'd be there by now.", "vi": "Nếu mình đi sớm hơn thì giờ này đã tới nơi rồi.", "highlight": "by now" }
+            ],
+            "noteVi": "Hay đi với hoàn thành hoặc câu điều kiện: She should have arrived by now. So sánh by then (B2 07: đến lúc đó)."
+        },
+        {
+            "slug": "things-would-be-different",
+            "type": "PHRASE",
+            "text": "Things would be different.",
+            "meaningVi": "Mọi chuyện đã khác.",
+            "examples": [
+                { "en": "If I'd listened to my parents, things would be very different now.", "vi": "Nếu hồi đó nghe lời bố mẹ thì giờ mọi chuyện đã khác lắm.", "highlight": "things would be very different" }
+            ],
+            "noteVi": "Câu hay dùng khi nhìn lại một ngã rẽ. Nhẹ nhàng hơn: Who knows? Maybe…."
+        },
+        {
+            "slug": "fluent",
+            "type": "LEXICAL",
+            "text": "fluent",
+            "meaningVi": "trôi chảy, thông thạo",
+            "ipa": "/ˈfluːənt/",
+            "examples": [
+                { "en": "She's fluent in English and Japanese.", "vi": "Cô ấy nói thạo tiếng Anh và tiếng Nhật.", "highlight": "fluent" }
+            ],
+            "noteVi": "fluent in + ngôn ngữ; speak fluent English. Danh từ: fluency. ❌ \"fluent with English\"."
+        },
+        {
+            "slug": "confident",
+            "type": "LEXICAL",
+            "text": "confident",
+            "meaningVi": "tự tin",
+            "ipa": "/ˈkɑːnfɪdənt/",
+            "examples": [
+                { "en": "If I'd practiced speaking more, I'd feel more confident now.", "vi": "Nếu hồi đó luyện nói nhiều hơn thì giờ mình đã tự tin hơn.", "highlight": "confident" }
+            ],
+            "noteVi": "confident about / in something. Danh từ: confidence (tự tin), self-confidence. Khác confidential (bí mật)."
+        },
+        {
+            "slug": "circumstances",
+            "type": "LEXICAL",
+            "text": "circumstances",
+            "meaningVi": "hoàn cảnh",
+            "ipa": "/ˈsɜːrkəmstænsɪz/",
+            "examples": [
+                { "en": "In different circumstances, I would have stayed in the countryside.", "vi": "Trong hoàn cảnh khác thì mình đã ở lại quê.", "highlight": "circumstances" }
+            ],
+            "noteVi": "Hay dùng số nhiều. under / in the circumstances (trong hoàn cảnh này). Nói thường: situation."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "b2-11-roommate",
+            "title": "I'd rather you didn't…",
+            "situationVi": "Bạn ở chung căn hộ với Jake, một bạn người Canada. Anh ấy hay để bát đĩa bẩn và bật nhạc to buổi tối. Bạn muốn nói chuyện với anh ấy thật tế nhị.",
+            "lines": [
+                { "speaker": "Jake", "en": "Hey, you said you wanted to talk? Is everything OK?", "vi": "Này, cậu bảo muốn nói chuyện à? Mọi thứ ổn chứ?" },
+                { "speaker": "You", "en": "Yeah, it's nothing big. It's just that I'd rather you didn't leave the dishes in the sink overnight.", "vi": "Ừ, không có gì to tát. Chỉ là mình mong cậu đừng để bát đĩa trong bồn qua đêm.", "learnerTurn": true },
+                { "speaker": "Jake", "en": "Oh, sorry. I guess it's a bad habit. I always plan to do them in the morning.", "vi": "Ôi, xin lỗi. Chắc là thói quen xấu. Mình toàn định sáng ra mới rửa." },
+                { "speaker": "You", "en": "I know. Frankly, I get a bit annoyed when there are ants everywhere. Maybe it's time we made a cleaning schedule.", "vi": "Mình biết. Nói thẳng là mình hơi bực khi kiến bò khắp nơi. Có lẽ đến lúc mình lập lịch dọn dẹp rồi.", "learnerTurn": true },
+                { "speaker": "Jake", "en": "That's fair. Anything else?", "vi": "Hợp lý. Còn gì nữa không?" },
+                { "speaker": "You", "en": "Just one thing. I have to get up at six, so I'd rather you turned the music down after eleven, if you don't mind.", "vi": "Một chuyện nữa thôi. Mình phải dậy lúc sáu giờ, nên mình mong cậu vặn nhỏ nhạc sau mười một giờ, nếu cậu không phiền.", "learnerTurn": true },
+                { "speaker": "Jake", "en": "No problem. Should we tell the landlord about the schedule?", "vi": "Không vấn đề gì. Có nên báo chủ nhà về cái lịch không?" },
+                { "speaker": "You", "en": "I'd rather not. Let's just try it for a month and see.", "vi": "Mình nghĩ thôi không cần. Cứ thử một tháng xem sao.", "learnerTurn": true },
+                { "speaker": "Jake", "en": "Deal. Thanks for being so nice about it.", "vi": "Chốt. Cảm ơn cậu đã nói nhẹ nhàng thế." }
+            ]
+        },
+        {
+            "slug": "b2-11-reunion",
+            "title": "If I'd taken that job…",
+            "situationVi": "Ở buổi họp lớp, bạn gặp lại Thảo, bạn cùng lớp đại học. Hai người nhìn lại những lựa chọn đã qua.",
+            "lines": [
+                { "speaker": "Thao", "en": "I can't believe it's been ten years! Do you ever think about that job offer in Singapore?", "vi": "Không tin nổi đã mười năm rồi! Cậu có bao giờ nghĩ lại lời mời làm việc ở Singapore không?" },
+                { "speaker": "You", "en": "Sometimes. If I'd taken that job, I'd live in Singapore now.", "vi": "Thỉnh thoảng. Nếu hồi đó mình nhận việc ấy thì giờ mình đang sống ở Singapore rồi.", "learnerTurn": true },
+                { "speaker": "Thao", "en": "And you'd be rich!", "vi": "Và giàu nữa!" },
+                { "speaker": "You", "en": "Maybe! But if I'd gone, I wouldn't have met Minh. Things would be very different.", "vi": "Có thể! Nhưng nếu mình đi thì đã không gặp Minh. Mọi chuyện đã khác lắm.", "learnerTurn": true },
+                { "speaker": "Thao", "en": "True. For me, I wish I'd studied abroad. My English would be much better.", "vi": "Đúng. Còn mình thì ước hồi đó đi du học. Tiếng Anh của mình sẽ tốt hơn nhiều." },
+                { "speaker": "You", "en": "Your English is great! But I know what you mean. If I'd practiced speaking more, I'd feel more confident now.", "vi": "Tiếng Anh của cậu tốt mà! Nhưng mình hiểu ý cậu. Nếu hồi đó mình luyện nói nhiều hơn thì giờ đã tự tin hơn.", "learnerTurn": true },
+                { "speaker": "Thao", "en": "Well, it's never too late. Hypothetically, if you got the same offer today, would you go?", "vi": "Mà chưa bao giờ là muộn. Giả dụ hôm nay cậu nhận được lời mời y như vậy, cậu có đi không?" },
+                { "speaker": "You", "en": "In different circumstances, maybe. But I'm happy here. I'd rather not start all over again.", "vi": "Hoàn cảnh khác thì có thể. Nhưng mình đang vui ở đây. Mình không muốn bắt đầu lại từ đầu.", "learnerTurn": true },
+                { "speaker": "Thao", "en": "That's a good answer. Let's get another drink!", "vi": "Câu trả lời hay đấy. Đi lấy thêm đồ uống thôi!" }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "b2-11-l1-what-if",
+            "title": "What if…?",
+            "titleVi": "Giả định và phương án dự phòng",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "hypothetical-past", "role": "INTRODUCE" },
+                { "item": "suppose-you", "role": "INTRODUCE" },
+                { "item": "what-if-happened", "role": "INTRODUCE" },
+                { "item": "in-that-case", "role": "INTRODUCE" },
+                { "item": "worst-case-scenario", "role": "INTRODUCE" },
+                { "item": "backup-plan", "role": "INTRODUCE" },
+                { "item": "hypothetically", "role": "INTRODUCE" },
+                { "item": "risk", "role": "INTRODUCE" },
+                { "item": "second-conditional", "role": "RECYCLE" },
+                { "item": "imagine", "role": "RECYCLE" },
+                { "item": "what-if-we", "role": "RECYCLE" },
+                { "item": "what-would-you-do-if", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["suppose-you", "what-if-happened", "in-that-case", "worst-case-scenario", "backup-plan", "hypothetically", "risk"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "What if + hiện tại hay quá khứ?",
+                        "bodyVi": "**Suppose**, **What if**, **Imagine** thay cho If trong câu điều kiện. Thì của động từ cho biết tình huống xa hay gần:\n\n| câu | nghĩa |\n|---|---|\n| **What if** it **rains**? We'll move inside. | rất có thể xảy ra (như loại 1) |\n| **What if** nobody **came**? | khó xảy ra, chỉ giả định (như loại 2, B1 06) |\n| **Suppose** you **lost** your phone. What **would** you do? | câu hỏi giả định |\n| **What if we** move it to Monday? (B2 05) | lời đề nghị, không phải giả định |\n\nBàn rủi ro và phương án dự phòng:\n\n| mục đích | câu |\n|---|---|\n| nêu rủi ro | There's a **risk** that… / **What if** the client said no? |\n| xấu nhất | **The worst-case scenario** is that we cancel. |\n| phương án B | We need **a backup plan**. |\n| trả lời | **In that case**, we'd ask another company. |\n| báo trước là giả định | **Hypothetically**, if you could… |\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| Suppose if you won, what will you do? | **Suppose** you **won**. What **would** you do? |\n| What if nobody will come? | What if nobody **comes**? / What if nobody **came**? |\n| We need a plan B in case it will rain. | We need **a backup plan** in case it **rains**. |\n\n❌ Suppose if you won ❌ What if nobody will come ✅ **Suppose you won the lottery. What would you do?**",
+                        "items": ["hypothetical-past", "suppose-you", "what-if-happened", "in-that-case", "worst-case-scenario", "backup-plan", "hypothetically", "risk", "second-conditional", "what-if-we"],
+                        "examples": [
+                            { "en": "What if the client said no? What would we do?", "vi": "Giả sử khách hàng từ chối thì sao? Mình sẽ làm gì?", "highlight": "What if the client said no" },
+                            { "en": "It might rain. In that case, we'll have the party indoors.", "vi": "Có thể trời mưa. Nếu vậy thì mình tổ chức tiệc trong nhà.", "highlight": "In that case" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "suppose-you",
+                        "prompts": [
+                            { "cueVi": "Giả sử bạn lỡ chuyến tàu cuối. Bạn sẽ làm gì?", "slots": { "did": "missed the last train" }, "answer": "Suppose you missed the last train. What would you do?" },
+                            { "cueVi": "Giả sử bạn nhặt được một chiếc ví ngoài đường. Bạn sẽ làm gì?", "slots": { "did": "found a wallet on the street" }, "answer": "Suppose you found a wallet on the street. What would you do?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "what-if-happened",
+                        "prompts": [
+                            { "cueVi": "Lỡ chuyến bay bị hủy thì sao?", "slots": { "event": "the flight got canceled" }, "answer": "What if the flight got canceled?" },
+                            { "cueVi": "Lỡ không ai đến thì sao?", "slots": { "event": "nobody came" }, "answer": "What if nobody came?" },
+                            { "cueVi": "Lỡ mình hết tiền thì sao?", "slots": { "event": "we ran out of money" }, "answer": "What if we ran out of money?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["in-that-case", "worst-case-scenario", "backup-plan", "hypothetically", "risk", "imagine"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "Suppose you lost your phone abroad. What would you do?", "vi": "Giả sử bạn mất điện thoại ở nước ngoài. Bạn sẽ làm gì?" },
+                            { "en": "What if the flight got canceled?", "vi": "Lỡ chuyến bay bị hủy thì sao?" },
+                            { "en": "We need a backup plan in case it rains.", "vi": "Mình cần một phương án dự phòng phòng khi trời mưa." },
+                            { "en": "The worst-case scenario is that we have to cancel the trip.", "vi": "Trường hợp xấu nhất là mình phải hủy chuyến đi." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu hỏi giả định nào đúng?",
+                                "options": ["Suppose if you won the lottery, what will you do?", "Suppose you won the lottery. What would you do?", "Suppose you will win the lottery. What would you do?"],
+                                "answer": 1,
+                                "item": "hypothetical-past"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn lo không ai đến dự buổi ra mắt (khó xảy ra). Bạn nói:",
+                                "options": ["What if nobody came?", "What if nobody will come?", "What if we nobody come?"],
+                                "answer": 0,
+                                "item": "what-if-happened"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "It might rain. In that ___, we'll have the party indoors.",
+                                "hintVi": "nếu vậy thì",
+                                "answers": ["case"],
+                                "item": "in-that-case"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "We need a backup plan in case it rains.",
+                                "options": ["Mình cần một phương án dự phòng phòng khi trời mưa.", "Mình phải quay lại kế hoạch cũ vì trời mưa.", "Mình cần mang ô vì trời sắp mưa."],
+                                "answer": 0,
+                                "item": "backup-plan"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Trường hợp xấu nhất là mình phải hủy chuyến đi.",
+                                "answer": "The worst-case scenario is that we have to cancel the trip.",
+                                "item": "worst-case-scenario"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b2-11-l2-id-rather",
+            "title": "I'd rather you didn't…",
+            "titleVi": "Thích hơn và nhờ khéo",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "id-rather", "role": "INTRODUCE" },
+                { "item": "id-rather-you", "role": "INTRODUCE" },
+                { "item": "its-time-we", "role": "INTRODUCE" },
+                { "item": "id-rather-not", "role": "INTRODUCE" },
+                { "item": "if-you-dont-mind", "role": "INTRODUCE" },
+                { "item": "annoyed", "role": "INTRODUCE" },
+                { "item": "habit", "role": "INTRODUCE" },
+                { "item": "frankly", "role": "INTRODUCE" },
+                { "item": "prefer", "role": "RECYCLE" },
+                { "item": "its-time", "role": "RECYCLE" },
+                { "item": "youd-better", "role": "RECYCLE" },
+                { "item": "hypothetical-past", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["id-rather-you", "its-time-we", "id-rather-not", "if-you-dont-mind", "annoyed", "habit", "frankly"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "I'd rather: nói về mình và về người khác",
+                        "bodyVi": "Động từ lùi về quá khứ để câu nghe xa, tế nhị hơn, giống câu giả định ở bài 1:\n\n| câu | ai làm | động từ |\n|---|---|---|\n| I'd rather stay home. | mình | V nguyên mẫu (không to) |\n| I'd rather walk than take a taxi. | mình, so sánh | V … than V |\n| **I'd rather you** called first. | người khác | quá khứ đơn (dù nói hiện tại) |\n| **I'd rather you didn't** smoke here. | người khác, phủ định | didn't + V |\n| **I'd rather not.** | từ chối nhẹ | không cần lý do |\n\nSo với **prefer** (A2 08): I **prefer** tea **to** coffee (sở thích chung) / I'd rather have tea (lựa chọn lúc này).\n\n**It's time we** + quá khứ đơn = lẽ ra phải làm rồi. Khác **It's time to** + V (A1 02), nói chung.\n\nMức độ nhờ người khác đổi **habit**, từ nhẹ đến mạnh: I'd rather you didn't…, **if you don't mind**. → **Frankly**, I get **annoyed** when… → **It's time we** talked about… → You'd better… (B1 06, gần như cảnh báo).\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| I'd rather to stay home. | I'd rather **stay** home. |\n| I'd rather you don't smoke here. | I'd rather you **didn't** smoke here. |\n| It's time we make a schedule. | It's time we **made** a schedule. |\n\n❌ I'd rather you don't ❌ It's time we make ✅ **I'd rather you didn't smoke here. It's time we made some rules.**",
+                        "items": ["id-rather", "id-rather-you", "its-time-we", "id-rather-not", "if-you-dont-mind", "annoyed", "habit", "frankly", "prefer", "its-time", "youd-better"],
+                        "examples": [
+                            { "en": "I'd rather you didn't leave the dishes in the sink.", "vi": "Mình mong bạn đừng để bát đĩa trong bồn rửa.", "highlight": "I'd rather you didn't leave" },
+                            { "en": "It's time we made a cleaning schedule.", "vi": "Đến lúc mình lập lịch dọn dẹp rồi.", "highlight": "It's time we made" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "id-rather-you",
+                        "prompts": [
+                            { "cueVi": "Mình mong bạn gọi trước.", "slots": { "did": "called first" }, "answer": "I'd rather you called first." },
+                            { "cueVi": "Mình mong bạn chưa kể với ai.", "slots": { "did": "didn't tell anyone yet" }, "answer": "I'd rather you didn't tell anyone yet." },
+                            { "cueVi": "Mình mong bạn hỏi mình trước.", "slots": { "did": "asked me first" }, "answer": "I'd rather you asked me first." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "its-time-we",
+                        "prompts": [
+                            { "cueVi": "Đến lúc mình nói chuyện về tiền nhà rồi.", "slots": { "did": "talked about the rent" }, "answer": "It's time we talked about the rent." },
+                            { "cueVi": "Đến lúc mình bắt đầu tiết kiệm rồi.", "slots": { "did": "started saving money" }, "answer": "It's time we started saving money." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["id-rather-not", "if-you-dont-mind", "annoyed", "habit", "frankly", "prefer"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b2-11-roommate", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I'd rather to stay home tonight.", "I'd rather staying home tonight.", "I'd rather stay home tonight."],
+                                "answer": 2,
+                                "item": "id-rather"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn muốn nhờ bạn cùng phòng đừng hút thuốc trong bếp, thật tế nhị:",
+                                "options": ["I'd rather you didn't smoke in the kitchen.", "I'd rather you don't smoke in the kitchen.", "Don't smoke in the kitchen."],
+                                "answer": 0,
+                                "item": "id-rather-you"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "It's time we ___ a cleaning schedule.",
+                                "hintVi": "make",
+                                "answers": ["made"],
+                                "item": "its-time-we"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "He has a habit of leaving his shoes everywhere.",
+                                "options": ["Anh ấy thích mua giày mới.", "Anh ấy có thói quen vứt giày khắp nơi.", "Anh ấy hay quên giày ở chỗ làm."],
+                                "answer": 1,
+                                "item": "habit"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Tối nay mình muốn đi ngủ sớm, nếu bạn không phiền.",
+                                "answer": "I'd like to go to bed early tonight, if you don't mind.",
+                                "item": "if-you-dont-mind"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "b2-11-l3-mixed",
+            "title": "If I'd…, I'd… now",
+            "titleVi": "Câu điều kiện hỗn hợp",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "mixed-conditional", "role": "INTRODUCE" },
+                { "item": "if-id-now", "role": "INTRODUCE" },
+                { "item": "if-i-werent", "role": "INTRODUCE" },
+                { "item": "by-now", "role": "INTRODUCE" },
+                { "item": "things-would-be-different", "role": "INTRODUCE" },
+                { "item": "fluent", "role": "INTRODUCE" },
+                { "item": "confident", "role": "INTRODUCE" },
+                { "item": "circumstances", "role": "INTRODUCE" },
+                { "item": "third-conditional", "role": "RECYCLE" },
+                { "item": "wish-past-perfect", "role": "RECYCLE" },
+                { "item": "looking-back", "role": "RECYCLE" },
+                { "item": "hypothetically", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["if-id-now", "if-i-werent", "by-now", "things-would-be-different", "fluent", "confident", "circumstances"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Quá khứ đổi thì bây giờ đổi",
+                        "bodyVi": "Câu điều kiện loại 3 (B2 02) nói một chuyện quá khứ dẫn tới một chuyện quá khứ khác. Khi hậu quả kéo dài **đến bây giờ**, ghép hai loại lại:\n\n| loại | vế if | vế kết quả | ví dụ |\n|---|---|---|---|\n| 3 | had + V3 (quá khứ) | would have + V3 (quá khứ) | If I'd taken that job, I **would have moved** to Singapore. |\n| hỗn hợp 1 | had + V3 (quá khứ) | would + V (**bây giờ**) | **If I'd** taken that job, **I'd** live in Singapore **now**. |\n| hỗn hợp 2 | quá khứ đơn (sự thật lâu dài) | would have + V3 (quá khứ) | **If I weren't** so shy, **I would have** asked her out. |\n\nThêm **now**, **today**, **by now** để rõ là nói hiện tại. Câu nhìn lại hay đi kèm: **Looking back**, … / **Things would be** very **different**. / In different **circumstances**, …\n\nĐừng nhầm: I **wish I'd** studied abroad (B2 02, tiếc) → If I'd studied abroad, I'd be **fluent** now (hệ quả bây giờ).\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| If I studied abroad, I would speak better now. (ý: hồi đó) | **If I'd studied** abroad, I**'d speak** better now. |\n| If I had taken that job, I would have lived in Singapore now. | …, I**'d live** in Singapore now. |\n| If I wasn't shy, I would ask her. (ý: hôm đó) | If I weren't so shy, I **would have asked** her. |\n\n❌ If I studied abroad, I would speak better now ✅ **If I'd studied abroad, I'd be more confident now.**",
+                        "items": ["mixed-conditional", "if-id-now", "if-i-werent", "by-now", "things-would-be-different", "fluent", "confident", "circumstances", "third-conditional", "wish-past-perfect", "looking-back"],
+                        "examples": [
+                            { "en": "If I'd studied abroad, I'd speak better English now.", "vi": "Nếu hồi đó mình đi du học thì giờ mình nói tiếng Anh tốt hơn rồi.", "highlight": "If I'd studied abroad, I'd speak" },
+                            { "en": "If I weren't so shy, I would have asked her out.", "vi": "Nếu mình không nhút nhát thế thì đã rủ cô ấy đi chơi rồi.", "highlight": "If I weren't so shy" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "if-id-now",
+                        "prompts": [
+                            { "cueVi": "Nếu hồi đó mình đi du học thì giờ nói tiếng Anh tốt hơn rồi.", "slots": { "done": "studied abroad", "result": "speak better English" }, "answer": "If I'd studied abroad, I'd speak better English now." },
+                            { "cueVi": "Nếu hồi đó mình nhận việc ấy thì giờ đang sống ở Singapore.", "slots": { "done": "taken that job", "result": "live in Singapore" }, "answer": "If I'd taken that job, I'd live in Singapore now." },
+                            { "cueVi": "Nếu tối qua đi ngủ sớm hơn thì giờ mình đỡ mệt hơn.", "slots": { "done": "gone to bed earlier", "result": "feel less tired" }, "answer": "If I'd gone to bed earlier, I'd feel less tired now." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "if-i-werent",
+                        "prompts": [
+                            { "cueVi": "Nếu mình không sợ đi máy bay thì đã sang Nhật thăm bạn rồi.", "slots": { "state": "afraid of flying", "done": "visited you in Japan" }, "answer": "If I weren't afraid of flying, I would have visited you in Japan." },
+                            { "cueVi": "Nếu mình không bận thế thì đã đến đám cưới bạn rồi.", "slots": { "state": "so busy", "done": "come to your wedding" }, "answer": "If I weren't so busy, I would have come to your wedding." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["by-now", "things-would-be-different", "fluent", "confident", "circumstances", "looking-back"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "b2-11-reunion", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Hồi đó bạn không nhận việc ở Singapore. Bạn nói về bây giờ:",
+                                "options": ["If I took that job, I would live in Singapore now.", "If I'd taken that job, I'd live in Singapore now.", "If I'd taken that job, I would have lived in Singapore now."],
+                                "answer": 1,
+                                "item": "mixed-conditional"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn vốn nhút nhát, nên hôm đó đã không rủ cô ấy đi chơi. Bạn nói:",
+                                "options": ["If I weren't so shy, I would have asked her out.", "If I hadn't been shy, I would ask her out now.", "If I wasn't shy, I will ask her out."],
+                                "answer": 0,
+                                "item": "if-i-werent"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "If we'd left earlier, we'd be there by ___.",
+                                "hintVi": "giờ này",
+                                "answers": ["now"],
+                                "item": "by-now"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "She's fluent in English and Japanese.",
+                                "options": ["Cô ấy đang học tiếng Anh và tiếng Nhật.", "Cô ấy nói thạo tiếng Anh và tiếng Nhật.", "Cô ấy dạy tiếng Anh ở Nhật."],
+                                "answer": 1,
+                                "item": "fluent"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Nếu hồi đó nghe lời bố mẹ thì giờ mọi chuyện đã khác lắm.",
+                                "answer": "If I'd listened to my parents, things would be very different now.",
+                                "item": "things-would-be-different"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "b2-11-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["Suppose you lost your job. What would you do?", "Suppose you lose your job. What would you did?", "Suppose if you lost your job, what you would do?"],
+                "answer": 0,
+                "item": "hypothetical-past"
+            },
+            {
+                "kind": "gap",
+                "sentence": "The ___ scenario is that we have to cancel the trip.",
+                "hintVi": "xấu nhất (có gạch nối)",
+                "answers": ["worst-case", "worst case"],
+                "item": "worst-case-scenario"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["I'd rather you don't tell anyone.", "I'd rather you didn't tell anyone.", "I'd rather you not to tell anyone."],
+                "answer": 1,
+                "item": "id-rather"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Bạn không muốn nói về chuyện đó, trả lời nhẹ nhàng:",
+                "options": ["I'd rather don't.", "No, I don't want.", "I'd rather not."],
+                "answer": 2,
+                "item": "id-rather-not"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "If I'd practiced speaking more, I'd feel more confident now.",
+                "options": ["Nếu hồi đó luyện nói nhiều hơn thì giờ mình đã tự tin hơn.", "Mình sẽ luyện nói nhiều hơn để tự tin hơn.", "Nếu luyện nói nhiều thì mình sẽ tự tin."],
+                "answer": 0,
+                "item": "mixed-conditional"
+            },
+            {
+                "kind": "order",
+                "vi": "Nếu hồi đó mình tiết kiệm nhiều hơn thì giờ đã có căn hộ riêng.",
+                "answer": "If I'd saved more money, I'd have my own apartment now.",
+                "item": "if-id-now"
+            }
+        ]
+    }
+}
