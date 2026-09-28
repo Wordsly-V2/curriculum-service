@@ -848,6 +848,70 @@
             "options": ["Wait, I'm not finish!","Sorry, if I could just finish…","Stop, it's my turn."],
             "answer": 1,
             "item": "if-i-could-just-finish"
+        },
+        {
+            "unit": "c1-01-to-some-extent",
+            "kind": "choice",
+            "prompt": "Bạn chưa chắc chắn, muốn nói thận trọng trong cuộc họp:",
+            "options": ["It is sure that nobody read the email.","It would seem that nobody read the email.","Nobody read the email, 100 percent."],
+            "answer": 1,
+            "item": "hedging"
+        },
+        {
+            "unit": "c1-01-to-some-extent",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["The trip was a bit of disaster.","The trip was a bit of a disaster.","The trip was a bit a disaster."],
+            "answer": 1,
+            "item": "understatement"
+        },
+        {
+            "unit": "c1-02-what-i-need-is",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["What I need it is more time.","What I need are more time.","What I need is more time."],
+            "answer": 2,
+            "item": "wh-cleft"
+        },
+        {
+            "unit": "c1-02-what-i-need-is",
+            "kind": "choice",
+            "prompt": "Sếp tưởng bạn gửi nhầm file. Thật ra là Nam. Bạn nói:",
+            "options": ["It was Nam who sent it, not me.","It was Nam sent it, not me.","Was Nam it who sent, not me."],
+            "answer": 0,
+            "item": "it-cleft"
+        },
+        {
+            "unit": "c1-03-little-did-i-know",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["Never I have seen such a beautiful view.","Never have I seen such a beautiful view.","Never have I saw such a beautiful view."],
+            "answer": 1,
+            "item": "negative-inversion"
+        },
+        {
+            "unit": "c1-03-little-did-i-know",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["No sooner had I sat down than the phone rang.","No sooner I had sat down when the phone rang.","No sooner did I sat down than the phone rang."],
+            "answer": 0,
+            "item": "time-inversion"
+        },
+        {
+            "unit": "c1-04-idioms",
+            "kind": "choice",
+            "prompt": "\"Giọt nước tràn ly\" trong tiếng Anh là:",
+            "options": ["the last drop of water","the last straw","the full cup"],
+            "answer": 1,
+            "item": "idioms-and-vietnamese"
+        },
+        {
+            "unit": "c1-04-idioms",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["Later or sooner, you will have to tell her.","I'm sick and tired to wait.","Sooner or later, you will have to tell her."],
+            "answer": 2,
+            "item": "fixed-binomials"
         }
     ]
 }

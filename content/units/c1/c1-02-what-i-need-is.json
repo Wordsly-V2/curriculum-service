@@ -1,0 +1,830 @@
+{
+    "slug": "c1-02-what-i-need-is",
+    "stage": "c1",
+    "order": 2,
+    "title": "What I need is…",
+    "titleVi": "Nhấn mạnh: câu chẻ và do / did",
+    "descriptionVi": "Đưa điều quan trọng lên đầu câu bằng câu chẻ với what (What I need is…, What I love about… is…, What happened was…, All I want is…), bằng it (It was … that…, It's not … that bothers me, it's…, The reason why… is that…), và nhấn mạnh bằng do / did, by far, such a … that, no matter what.",
+    "canDo": [
+        "Tôi làm nổi bật được điều mình thật sự cần, thích hay muốn nói bằng câu chẻ với what.",
+        "Tôi sửa được một hiểu lầm bằng cách nhấn vào đúng chi tiết (It wasn't Lan who…, it was…).",
+        "Tôi nhấn mạnh được cảm xúc và quan điểm của mình để người nghe thấy rõ mức độ."
+    ],
+    "items": [
+        {
+            "slug": "wh-cleft",
+            "type": "GRAMMAR",
+            "text": "câu chẻ với what: What + mệnh đề + is / was + điều muốn nhấn",
+            "meaningVi": "đưa ý chính xuống cuối câu để nhấn mạnh",
+            "examples": [
+                { "en": "What I need is a long holiday.", "vi": "Cái mình cần là một kỳ nghỉ dài.", "highlight": "What I need is" }
+            ],
+            "grammar": {
+                "ruleVi": "Thay vì nói I need a holiday, người bản ngữ hay \"chẻ\" câu làm hai: What I need (phần đã biết) + is + a holiday (phần mới, được nhấn). Điều được nhấn đứng cuối, sau is / was. Động từ be chia theo phần sau is (thường là số ít). Với hành động: What I did was (to) call the police. Dạng ngắn: All I want is… (chỉ… thôi), The thing is… (vấn đề là…).",
+                "forms": [
+                    { "label": "danh từ", "example": "What I need is more time." },
+                    { "label": "mệnh đề", "example": "What I love about Hanoi is that every street has a story." },
+                    { "label": "hành động", "example": "What I did was call the bank right away." },
+                    { "label": "kể chuyện", "example": "What happened was that the train broke down." },
+                    { "label": "chỉ thế thôi", "example": "All I want is a quiet weekend." }
+                ],
+                "pitfallsVi": [
+                    "\"What I need it is more time\" → What I need is more time.",
+                    "\"The thing what I love is…\" → What I love is… / The thing (that) I love is…",
+                    "\"All I want are a quiet weekend\" → All I want is a quiet weekend."
+                ]
+            }
+        },
+        {
+            "slug": "what-i-need-is",
+            "type": "PATTERN",
+            "text": "What I need is ….",
+            "meaningVi": "Cái tôi cần là ….",
+            "examples": [
+                { "en": "What I need is a few days off.", "vi": "Cái mình cần là vài ngày nghỉ.", "highlight": "What I need is" }
+            ],
+            "pattern": {
+                "template": "What I need is {thing}.",
+                "slots": [
+                    { "name": "thing", "hintVi": "danh từ / to V", "options": ["a few days off", "more time", "someone to talk to", "a clear plan", "a strong coffee"] }
+                ]
+            },
+            "noteVi": "Mạnh hơn I need…. Tương tự: What we need to do is…, What you should do is…."
+        },
+        {
+            "slug": "what-i-love-about",
+            "type": "PATTERN",
+            "text": "What I love about … is ….",
+            "meaningVi": "Điều tôi thích ở … là ….",
+            "examples": [
+                { "en": "What I love about my job is the people I work with.", "vi": "Điều mình thích ở công việc là những người làm cùng.", "highlight": "What I love about my job is" }
+            ],
+            "pattern": {
+                "template": "What I love about {thing} is {reason}.",
+                "slots": [
+                    { "name": "thing", "hintVi": "người, nơi, việc", "options": ["my job", "Hanoi", "this app", "living alone", "my hometown"] },
+                    { "name": "reason", "hintVi": "danh từ / that + mệnh đề", "options": ["the people I work with", "that every street has a story", "how easy it is to use", "the freedom", "the food"] }
+                ]
+            },
+            "noteVi": "Đổi love thành hate, miss, find difficult: What I miss about home is my mom's cooking."
+        },
+        {
+            "slug": "what-happened-was",
+            "type": "PATTERN",
+            "text": "What happened was (that) ….",
+            "meaningVi": "Chuyện là ….",
+            "examples": [
+                { "en": "What happened was that my alarm didn't go off.", "vi": "Chuyện là chuông báo thức của mình không kêu.", "highlight": "What happened was that" }
+            ],
+            "pattern": {
+                "template": "What happened was that {event}.",
+                "slots": [
+                    { "name": "event", "hintVi": "sự việc (quá khứ)", "options": ["my alarm didn't go off", "the train broke down", "I sent the email to the wrong person", "nobody told me the meeting had moved", "the client canceled at the last minute"] }
+                ]
+            },
+            "noteVi": "Mở đầu lời giải thích khi đến muộn hay có sự cố. Nói nhanh hay bỏ that: What happened was, the train broke down."
+        },
+        {
+            "slug": "all-i-want-is",
+            "type": "PATTERN",
+            "text": "All I want is ….",
+            "meaningVi": "Tôi chỉ muốn … thôi.",
+            "examples": [
+                { "en": "All I want is a quiet weekend at home.", "vi": "Mình chỉ muốn một cuối tuần yên tĩnh ở nhà thôi.", "highlight": "All I want is" }
+            ],
+            "pattern": {
+                "template": "All I want is {thing}.",
+                "slots": [
+                    { "name": "thing", "hintVi": "danh từ / to V / for sb to V", "options": ["a quiet weekend at home", "to get some sleep", "a straight answer", "for everyone to be happy", "a bit of respect"] }
+                ]
+            },
+            "noteVi": "all = điều duy nhất, nên động từ là is (số ít). Tương tự: All you have to do is click here. (bỏ to sau is)"
+        },
+        {
+            "slug": "the-thing-is",
+            "type": "PHRASE",
+            "text": "The thing is, …",
+            "meaningVi": "Vấn đề là, …",
+            "examples": [
+                { "en": "I'd love to come. The thing is, I have to work that day.", "vi": "Mình rất muốn đến. Vấn đề là hôm đó mình phải làm.", "highlight": "The thing is" }
+            ],
+            "noteVi": "Báo trước một khó khăn hay lý do, rất tự nhiên khi nói. Gần nghĩa The point is (B1 12), nhưng hay dùng để giải thích vì sao không được."
+        },
+        {
+            "slug": "crucial",
+            "type": "LEXICAL",
+            "text": "crucial",
+            "meaningVi": "cực kỳ quan trọng, then chốt",
+            "ipa": "/ˈkruːʃəl/",
+            "examples": [
+                { "en": "What's crucial is that we finish before the rainy season.", "vi": "Điều then chốt là mình xong trước mùa mưa.", "highlight": "crucial" }
+            ],
+            "noteVi": "Mạnh hơn important. crucial to / for something. Gần nghĩa: essential, vital."
+        },
+        {
+            "slug": "genuinely",
+            "type": "LEXICAL",
+            "text": "genuinely",
+            "meaningVi": "thật sự, thật lòng",
+            "ipa": "/ˈdʒenjuɪnli/",
+            "examples": [
+                { "en": "I'm genuinely happy for you.", "vi": "Mình thật lòng mừng cho bạn.", "highlight": "genuinely" }
+            ],
+            "noteVi": "Nhấn rằng mình nói thật, không xã giao. Tính từ: genuine (a genuine smile, hàng thật: genuine leather)."
+        },
+        {
+            "slug": "it-cleft",
+            "type": "GRAMMAR",
+            "text": "câu chẻ với it: It is / was + phần nhấn + that / who + phần còn lại",
+            "meaningVi": "nhấn đúng một chi tiết, thường để sửa hiểu lầm",
+            "examples": [
+                { "en": "It was Lan who found the mistake, not me.", "vi": "Chính Lan là người tìm ra lỗi, không phải mình.", "highlight": "It was Lan who" }
+            ],
+            "grammar": {
+                "ruleVi": "It + be + phần cần nhấn + that (who cho người) + phần còn lại. Hay dùng để sửa một chi tiết sai: người, thời gian, nơi chốn, lý do. Dạng tương phản: It's not X that…, it's Y. Giải thích lý do: The reason (why) … is that … (❌ \"The reason is because…\" trong văn trang trọng).",
+                "forms": [
+                    { "label": "người", "example": "It was Minh who called, not Nam." },
+                    { "label": "thời gian", "example": "It was only last week that I found out." },
+                    { "label": "tương phản", "example": "It's not the price that bothers me, it's the service." },
+                    { "label": "lý do", "example": "The reason why I left is that I wanted a change." },
+                    { "label": "điều cuối cùng", "example": "The last thing I want is to upset her." }
+                ],
+                "pitfallsVi": [
+                    "\"It was Lan found the mistake\" → It was Lan who / that found the mistake.",
+                    "\"The reason why I left is because…\" → The reason why I left is that…",
+                    "\"It's not the price bothers me\" → It's not the price that bothers me."
+                ]
+            }
+        },
+        {
+            "slug": "it-was-that",
+            "type": "PATTERN",
+            "text": "It was … that ….",
+            "meaningVi": "Chính … mà ….",
+            "examples": [
+                { "en": "It was in Da Lat that we first met.", "vi": "Chính ở Đà Lạt là nơi bọn mình gặp nhau lần đầu.", "highlight": "It was in Da Lat that" }
+            ],
+            "pattern": {
+                "template": "It was {focus} that {rest}.",
+                "slots": [
+                    { "name": "focus", "hintVi": "chi tiết cần nhấn", "options": ["in Da Lat", "only last week", "my sister", "the noise", "your advice"] },
+                    { "name": "rest", "hintVi": "phần còn lại của câu", "options": ["we first met", "I found out", "told me about this place", "kept me awake", "helped me the most"] }
+                ]
+            },
+            "noteVi": "Với người, dùng who hay hơn: It was my sister who told me. Hiện tại: It's the traffic that makes me late."
+        },
+        {
+            "slug": "its-not-its",
+            "type": "PATTERN",
+            "text": "It's not … that bothers me, it's ….",
+            "meaningVi": "Tôi không khó chịu vì …, mà vì ….",
+            "examples": [
+                { "en": "It's not the price that bothers me, it's the service.", "vi": "Mình không khó chịu vì giá, mà vì cách phục vụ.", "highlight": "It's not the price that bothers me, it's" }
+            ],
+            "pattern": {
+                "template": "It's not {first} that bothers me, it's {second}.",
+                "slots": [
+                    { "name": "first", "hintVi": "điều người ta tưởng", "options": ["the price", "the work", "the noise", "the distance", "what he said"] },
+                    { "name": "second", "hintVi": "điều thật sự", "options": ["the service", "the long hours", "the smell", "the traffic", "the way he said it"] }
+                ]
+            },
+            "noteVi": "Sửa một giả định sai của người nghe. Đổi bothers me thành matters, worries me: It's not the money that matters, it's the time."
+        },
+        {
+            "slug": "the-reason-why",
+            "type": "PATTERN",
+            "text": "The reason why … is that ….",
+            "meaningVi": "Lý do … là vì ….",
+            "examples": [
+                { "en": "The reason why I left is that I wanted a new challenge.", "vi": "Lý do mình nghỉ là vì mình muốn một thử thách mới.", "highlight": "The reason why I left is that" }
+            ],
+            "pattern": {
+                "template": "The reason why {fact} is that {reason}.",
+                "slots": [
+                    { "name": "fact", "hintVi": "sự việc", "options": ["I left", "I'm late", "we chose this hotel", "I study English", "sales fell"] },
+                    { "name": "reason", "hintVi": "lý do", "options": ["I wanted a new challenge", "there was an accident", "it's close to the beach", "I want to work abroad", "prices went up"] }
+                ]
+            },
+            "noteVi": "Có thể bỏ why: The reason I left is that…. Văn nói hay nghe \"is because\", nhưng viết trang trọng nên dùng that. Nối tiếp The main reason is… (B1 04)."
+        },
+        {
+            "slug": "the-last-thing",
+            "type": "PATTERN",
+            "text": "The last thing I want is ….",
+            "meaningVi": "Điều tôi không muốn nhất là ….",
+            "examples": [
+                { "en": "The last thing I want is to upset her.", "vi": "Điều mình không muốn nhất là làm cô ấy buồn.", "highlight": "The last thing I want is" }
+            ],
+            "pattern": {
+                "template": "The last thing I want is {thing}.",
+                "slots": [
+                    { "name": "thing", "hintVi": "to V / danh từ", "options": ["to upset her", "another meeting", "to cause any trouble", "to be late on my first day", "an argument"] }
+                ]
+            },
+            "noteVi": "last ở đây = ít muốn nhất, không phải \"cuối cùng\". Tương tự: The last thing we need right now is more rain."
+        },
+        {
+            "slug": "bother",
+            "type": "LEXICAL",
+            "text": "bother",
+            "meaningVi": "làm phiền, làm khó chịu",
+            "ipa": "/ˈbɑːðər/",
+            "examples": [
+                { "en": "Does the noise bother you? — Not really.", "vi": "Tiếng ồn có làm bạn khó chịu không? — Không hẳn.", "highlight": "bother" }
+            ],
+            "noteVi": "Something bothers me = làm tôi khó chịu. Sorry to bother you (xin lỗi làm phiền). Don't bother = khỏi phải làm."
+        },
+        {
+            "slug": "precisely",
+            "type": "LEXICAL",
+            "text": "precisely",
+            "meaningVi": "chính xác, đúng là",
+            "ipa": "/prɪˈsaɪsli/",
+            "examples": [
+                { "en": "That's precisely why I didn't say anything.", "vi": "Đó chính là lý do mình không nói gì.", "highlight": "precisely" }
+            ],
+            "noteVi": "That's precisely the point / why… = nhấn đúng chỗ. Trả lời đồng ý mạnh: Precisely! (như Exactly!, A1 10)."
+        },
+        {
+            "slug": "emphasize",
+            "type": "LEXICAL",
+            "text": "emphasize",
+            "meaningVi": "nhấn mạnh",
+            "ipa": "/ˈemfəsaɪz/",
+            "examples": [
+                { "en": "I want to emphasize that this is only a first draft.", "vi": "Mình muốn nhấn mạnh rằng đây chỉ là bản nháp đầu.", "highlight": "emphasize" }
+            ],
+            "noteVi": "emphasize something / that…, không có on (❌ \"emphasize on\"). Danh từ: put emphasis on something (có on)."
+        },
+        {
+            "slug": "emphatic-do",
+            "type": "GRAMMAR",
+            "text": "do / does / did + V nguyên mẫu để nhấn; by far, such a … that, no matter what",
+            "meaningVi": "nhấn mạnh một câu khẳng định",
+            "examples": [
+                { "en": "I did call you! Twice!", "vi": "Mình có gọi cho bạn mà! Hai lần!", "highlight": "I did call" }
+            ],
+            "grammar": {
+                "ruleVi": "Thêm do / does / did (nhấn giọng) trước động từ nguyên mẫu trong câu khẳng định để nhấn mạnh, nhất là khi người kia nghĩ ngược lại hoặc khi thêm sự tương phản: I do like it, but…. Các cách nhấn khác: by far + so sánh nhất (hơn hẳn), such a + danh từ + that (đến nỗi), absolutely / incredibly + tính từ mạnh, no matter what (dù thế nào).",
+                "forms": [
+                    { "label": "phản bác", "example": "I did send it. Check your spam folder." },
+                    { "label": "tương phản", "example": "I do think it's a good idea, but it's expensive." },
+                    { "label": "hơn hẳn", "example": "It's by far the best pho in town." },
+                    { "label": "đến nỗi", "example": "It was such a long day that I fell asleep on the bus." },
+                    { "label": "tính từ mạnh", "example": "The view was absolutely stunning." }
+                ],
+                "pitfallsVi": [
+                    "\"I did called you\" → I did call you. (sau do / did là nguyên mẫu)",
+                    "\"It was so a long day\" → It was such a long day / The day was so long.",
+                    "\"very delicious\", \"very exhausted\" → absolutely delicious / completely exhausted (tính từ mạnh không đi với very)."
+                ]
+            }
+        },
+        {
+            "slug": "i-do-think",
+            "type": "PATTERN",
+            "text": "I do think ….",
+            "meaningVi": "Tôi thật sự nghĩ là ….",
+            "examples": [
+                { "en": "I do think we should ask for help.", "vi": "Mình thật sự nghĩ là mình nên nhờ giúp.", "highlight": "I do think" }
+            ],
+            "pattern": {
+                "template": "I do think {opinion}.",
+                "slots": [
+                    { "name": "opinion", "hintVi": "ý kiến (mệnh đề)", "options": ["we should ask for help", "it's a good idea", "she deserves a second chance", "we need more time", "you're right about this"] }
+                ]
+            },
+            "noteVi": "Nhấn giọng vào do. Hay đi sau một lời nhượng bộ: I know it's hard, but I do think we can finish."
+        },
+        {
+            "slug": "by-far-the",
+            "type": "PATTERN",
+            "text": "It's by far the … I've ever ….",
+            "meaningVi": "Đó là … nhất mà tôi từng … (hơn hẳn).",
+            "examples": [
+                { "en": "It's by far the best pho I've ever had.", "vi": "Đó là tô phở ngon nhất mình từng ăn, hơn hẳn.", "highlight": "by far the best" }
+            ],
+            "pattern": {
+                "template": "It's by far the {superlative} I've ever {done}.",
+                "slots": [
+                    { "name": "superlative", "hintVi": "so sánh nhất + danh từ", "options": ["best pho", "hardest exam", "most beautiful beach", "worst hotel", "longest flight"] },
+                    { "name": "done", "hintVi": "V3", "options": ["had", "taken", "seen", "stayed in", "been on"] }
+                ]
+            },
+            "noteVi": "by far đứng trước the + so sánh nhất, hoặc sau so sánh hơn: This one is better by far. Nối tiếp superlatives (A2 08)."
+        },
+        {
+            "slug": "such-a-that",
+            "type": "PATTERN",
+            "text": "It was such a … that ….",
+            "meaningVi": "… đến nỗi ….",
+            "examples": [
+                { "en": "It was such a long day that I fell asleep on the bus.", "vi": "Hôm đó dài đến nỗi mình ngủ gục trên xe buýt.", "highlight": "such a long day that" }
+            ],
+            "pattern": {
+                "template": "It was such a {noun} that {result}.",
+                "slots": [
+                    { "name": "noun", "hintVi": "tính từ + danh từ số ít", "options": ["long day", "good movie", "beautiful place", "stressful week", "funny story"] },
+                    { "name": "result", "hintVi": "kết quả", "options": ["I fell asleep on the bus", "I watched it twice", "we didn't want to leave", "I forgot to eat", "everyone was crying with laughter"] }
+                ]
+            },
+            "noteVi": "such a + tính từ + danh từ; so + tính từ: The day was so long that…. ❌ \"so a long day\". Số nhiều / không đếm được: such nice people, such bad weather."
+        },
+        {
+            "slug": "whatsoever",
+            "type": "LEXICAL",
+            "text": "whatsoever",
+            "meaningVi": "(không) … chút nào",
+            "ipa": "/ˌwʌtsoʊˈevər/",
+            "examples": [
+                { "en": "I have no idea whatsoever where he went.", "vi": "Mình không biết chút nào là anh ấy đi đâu.", "highlight": "whatsoever" }
+            ],
+            "noteVi": "Đứng sau no / any + danh từ để nhấn phủ định: no problem whatsoever, nothing whatsoever. Nói thường: at all."
+        },
+        {
+            "slug": "absolutely",
+            "type": "LEXICAL",
+            "text": "absolutely",
+            "meaningVi": "hoàn toàn, cực kỳ",
+            "ipa": "/ˌæbsəˈluːtli/",
+            "examples": [
+                { "en": "The view from the top was absolutely stunning.", "vi": "Cảnh từ trên đỉnh đẹp tuyệt vời.", "highlight": "absolutely" }
+            ],
+            "noteVi": "Đi với tính từ mạnh: absolutely delicious / exhausted / freezing. ❌ \"absolutely good\" (dùng very / really good). Trả lời: Absolutely! = Chắc chắn rồi!"
+        },
+        {
+            "slug": "incredibly",
+            "type": "LEXICAL",
+            "text": "incredibly",
+            "meaningVi": "cực kỳ, vô cùng",
+            "ipa": "/ɪnˈkredəbli/",
+            "examples": [
+                { "en": "She's incredibly patient with her students.", "vi": "Cô ấy cực kỳ kiên nhẫn với học trò.", "highlight": "incredibly" }
+            ],
+            "noteVi": "Đi được với tính từ thường: incredibly busy, incredibly kind. Mạnh hơn very, tự nhiên hơn \"very very\"."
+        },
+        {
+            "slug": "no-matter-what",
+            "type": "PHRASE",
+            "text": "no matter what",
+            "meaningVi": "dù thế nào đi nữa",
+            "examples": [
+                { "en": "I'll be there for you, no matter what.", "vi": "Dù thế nào mình cũng sẽ ở bên bạn.", "highlight": "no matter what" }
+            ],
+            "noteVi": "Có thể theo sau bằng mệnh đề: no matter what happens, no matter how hard it is, no matter where you go."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "c1-02-the-mix-up",
+            "title": "It wasn't me who…",
+            "situationVi": "Chị Karen, trưởng phòng, tưởng bạn đã gửi nhầm file cho khách hàng. Thật ra là anh Nam gửi, còn bạn là người phát hiện ra lỗi.",
+            "lines": [
+                { "speaker": "Karen", "en": "I heard you sent the wrong file to the client yesterday. What happened?", "vi": "Chị nghe nói hôm qua em gửi nhầm file cho khách. Chuyện gì vậy?" },
+                { "speaker": "You", "en": "Actually, it wasn't me who sent it. It was Nam. What happened was that he attached the old version by mistake.", "vi": "Thật ra không phải em gửi. Là anh Nam. Chuyện là anh ấy đính kèm nhầm bản cũ.", "learnerTurn": true },
+                { "speaker": "Karen", "en": "Oh, I see. Sorry, I misunderstood. So how did you find out?", "vi": "À, chị hiểu rồi. Xin lỗi, chị hiểu nhầm. Vậy sao em phát hiện ra?" },
+                { "speaker": "You", "en": "It was only this morning that I noticed. The client emailed me with a question about some old figures.", "vi": "Mãi sáng nay em mới để ý. Khách email hỏi em về vài con số cũ.", "learnerTurn": true },
+                { "speaker": "Karen", "en": "Is the client upset?", "vi": "Khách có bực không?" },
+                { "speaker": "You", "en": "Not really. It's not the mistake that bothers them, it's the delay. The reason why they're worried is that the meeting is on Friday.", "vi": "Không hẳn. Họ không khó chịu vì lỗi, mà vì bị chậm. Lý do họ lo là cuộc họp vào thứ Sáu.", "learnerTurn": true },
+                { "speaker": "Karen", "en": "OK. What should we do now?", "vi": "Được. Giờ mình nên làm gì?" },
+                { "speaker": "You", "en": "What we need is a quick call with them today. And the last thing I want is to blame Nam. It was an easy mistake to make.", "vi": "Cái mình cần là gọi nhanh cho họ trong hôm nay. Và điều em không muốn nhất là đổ lỗi cho anh Nam. Lỗi đó ai cũng dễ mắc.", "learnerTurn": true },
+                { "speaker": "Karen", "en": "Agreed. Thanks for handling it so well.", "vi": "Đồng ý. Cảm ơn em đã xử lý khéo như vậy." }
+            ]
+        },
+        {
+            "slug": "c1-02-farewell-speech",
+            "title": "I do want to say…",
+            "situationVi": "Buổi chia tay chị Helen, đồng nghiệp người Úc sắp về nước sau năm năm làm cùng nhóm bạn. Chị hỏi bạn có buồn không, và bạn nói vài lời cảm ơn.",
+            "lines": [
+                { "speaker": "Helen", "en": "I can't believe it's my last day. Are you going to miss me, or are you secretly happy?", "vi": "Không tin nổi hôm nay là ngày cuối của chị. Em có nhớ chị không, hay đang mừng thầm?" },
+                { "speaker": "You", "en": "Of course I'll miss you! I genuinely mean that. What I love about working with you is that you always listen.", "vi": "Tất nhiên là em sẽ nhớ chị! Em nói thật lòng đấy. Điều em thích khi làm với chị là chị luôn lắng nghe.", "learnerTurn": true },
+                { "speaker": "Helen", "en": "That's sweet. I wasn't sure I was a good manager at the start.", "vi": "Dễ thương quá. Hồi đầu chị cũng không chắc mình là quản lý tốt." },
+                { "speaker": "You", "en": "You were by far the best manager I've ever had. I do think the team is stronger because of you.", "vi": "Chị là quản lý tốt nhất em từng có, hơn hẳn. Em thật sự nghĩ nhóm vững hơn là nhờ chị.", "learnerTurn": true },
+                { "speaker": "Helen", "en": "Stop, you'll make me cry! Do you remember your first week?", "vi": "Thôi, em làm chị khóc mất! Em có nhớ tuần đầu của em không?" },
+                { "speaker": "You", "en": "How could I forget? It was such a stressful week that I almost quit. You told me not to give up.", "vi": "Sao quên được? Tuần đó căng đến nỗi em suýt nghỉ việc. Chị bảo em đừng bỏ cuộc.", "learnerTurn": true },
+                { "speaker": "Helen", "en": "And look at you now! So, will you visit me in Melbourne?", "vi": "Và nhìn em bây giờ xem! Vậy em có sang Melbourne thăm chị không?" },
+                { "speaker": "You", "en": "Absolutely. I'll come, no matter what. All I want is a free tour guide!", "vi": "Chắc chắn rồi. Dù thế nào em cũng sẽ sang. Em chỉ cần một hướng dẫn viên miễn phí thôi!", "learnerTurn": true },
+                { "speaker": "Helen", "en": "Deal!", "vi": "Chốt!" }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "c1-02-l1-what-i-need",
+            "title": "What I need is…",
+            "titleVi": "Câu chẻ với what",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "wh-cleft", "role": "INTRODUCE" },
+                { "item": "what-i-need-is", "role": "INTRODUCE" },
+                { "item": "what-i-love-about", "role": "INTRODUCE" },
+                { "item": "what-happened-was", "role": "INTRODUCE" },
+                { "item": "all-i-want-is", "role": "INTRODUCE" },
+                { "item": "the-thing-is", "role": "INTRODUCE" },
+                { "item": "crucial", "role": "INTRODUCE" },
+                { "item": "genuinely", "role": "INTRODUCE" },
+                { "item": "the-point-is", "role": "RECYCLE" },
+                { "item": "what-im-trying-to-say", "role": "RECYCLE" },
+                { "item": "basically", "role": "RECYCLE" },
+                { "item": "honestly", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["what-i-need-is", "what-i-love-about", "what-happened-was", "all-i-want-is", "the-thing-is", "crucial", "genuinely"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Để điều quan trọng đứng cuối",
+                        "bodyVi": "Tiếng Việt nhấn bằng \"chính\", \"cái… là\". Tiếng Anh hay chẻ câu làm hai và để điều mới, điều quan trọng ở cuối:\n\n| câu thường | câu chẻ (nhấn) |\n|---|---|\n| I need a holiday. | **What I need is** a holiday. |\n| I love the people at my job. | **What I love about** my job **is** the people. |\n| My alarm didn't go off. | **What happened was that** my alarm didn't go off. |\n| I only want some sleep. | **All I want is** some sleep. |\n| I called the bank. | What I did was call the bank. |\n\nCác câu mở đầu cùng họ: **The thing is**, … (vấn đề là, báo trước khó khăn), **The point is**… (B1 12), **What I'm trying to say is**… (B2 12). Tính từ nhấn: What's **crucial** is that…\n\nĐộng từ be sau phần what thường là **is** / **was**, dù phần sau là gì: What I need **is** two days off.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| What I need it is more time. | **What I need is** more time. |\n| The thing what I love is the food. | **What I love is** the food. |\n| All I want are some sleep. | **All I want is** some sleep. |\n\n❌ What I need it is ❌ The thing what I love ✅ **What I love about Hanoi is the food.**",
+                        "items": ["wh-cleft", "what-i-need-is", "what-i-love-about", "what-happened-was", "all-i-want-is", "the-thing-is", "crucial", "the-point-is", "what-im-trying-to-say"],
+                        "examples": [
+                            { "en": "What I need is a long holiday.", "vi": "Cái mình cần là một kỳ nghỉ dài.", "highlight": "What I need is" },
+                            { "en": "What happened was that my alarm didn't go off.", "vi": "Chuyện là chuông báo thức của mình không kêu.", "highlight": "What happened was that" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "what-i-need-is",
+                        "prompts": [
+                            { "cueVi": "Cái mình cần là thêm thời gian.", "slots": { "thing": "more time" }, "answer": "What I need is more time." },
+                            { "cueVi": "Cái mình cần là một người để tâm sự.", "slots": { "thing": "someone to talk to" }, "answer": "What I need is someone to talk to." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "what-happened-was",
+                        "prompts": [
+                            { "cueVi": "Chuyện là tàu bị hỏng.", "slots": { "event": "the train broke down" }, "answer": "What happened was that the train broke down." },
+                            { "cueVi": "Chuyện là mình gửi email nhầm người.", "slots": { "event": "I sent the email to the wrong person" }, "answer": "What happened was that I sent the email to the wrong person." },
+                            { "cueVi": "Chuyện là khách hủy vào phút chót.", "slots": { "event": "the client canceled at the last minute" }, "answer": "What happened was that the client canceled at the last minute." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["the-thing-is", "crucial", "genuinely", "basically", "honestly"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "What I need is a few days off.", "vi": "Cái mình cần là vài ngày nghỉ." },
+                            { "en": "What I love about my job is the people I work with.", "vi": "Điều mình thích ở công việc là những người làm cùng." },
+                            { "en": "What happened was that my alarm didn't go off.", "vi": "Chuyện là chuông báo thức của mình không kêu." },
+                            { "en": "I'd love to come. The thing is, I have to work that day.", "vi": "Mình rất muốn đến. Vấn đề là hôm đó mình phải làm." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["What I need it is more time.", "What I need is more time.", "What I need are more time."],
+                                "answer": 1,
+                                "item": "wh-cleft"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn đến muộn và bắt đầu giải thích:",
+                                "options": ["What happened was that the train broke down.", "What was happened is the train broke down.", "The happened was the train broke."],
+                                "answer": 0,
+                                "item": "what-happened-was"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "All I want ___ a quiet weekend at home.",
+                                "hintVi": "be",
+                                "answers": ["is"],
+                                "item": "all-i-want-is"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "I'd love to come. The thing is, I have to work that day.",
+                                "options": ["Mình rất muốn đến. Vấn đề là hôm đó mình phải làm.", "Mình sẽ mang đồ đến hôm đó.", "Mình không thích việc hôm đó."],
+                                "answer": 0,
+                                "item": "the-thing-is"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Điều mình thích ở công việc là những người làm cùng.",
+                                "answer": "What I love about my job is the people I work with.",
+                                "item": "what-i-love-about"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "c1-02-l2-it-was",
+            "title": "It wasn't me who…",
+            "titleVi": "Câu chẻ với it: sửa hiểu lầm",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "it-cleft", "role": "INTRODUCE" },
+                { "item": "it-was-that", "role": "INTRODUCE" },
+                { "item": "its-not-its", "role": "INTRODUCE" },
+                { "item": "the-reason-why", "role": "INTRODUCE" },
+                { "item": "the-last-thing", "role": "INTRODUCE" },
+                { "item": "bother", "role": "INTRODUCE" },
+                { "item": "precisely", "role": "INTRODUCE" },
+                { "item": "emphasize", "role": "INTRODUCE" },
+                { "item": "the-main-reason", "role": "RECYCLE" },
+                { "item": "misunderstand", "role": "RECYCLE" },
+                { "item": "what-i-meant-was", "role": "RECYCLE" },
+                { "item": "wh-cleft", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["it-was-that", "its-not-its", "the-reason-why", "the-last-thing", "bother", "precisely", "emphasize"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "\"Chính là…\": nhấn đúng chi tiết",
+                        "bodyVi": "**It + be + chi tiết + that / who + phần còn lại** nhấn một chi tiết, hay dùng khi người kia **misunderstand** (hiểu nhầm):\n\n| câu thường | câu chẻ (sửa chi tiết) |\n|---|---|\n| Lan found the mistake. | **It was** Lan **who** found the mistake (not me). |\n| I found out last week. | **It was** only last week **that** I found out. |\n| We met in Da Lat. | **It was** in Da Lat **that** we met (not Hanoi). |\n| The service bothers me. | **It's not** the price **that bothers me, it's** the service. |\n\nGiải thích lý do: **The reason why** I left **is that**… (nối tiếp The main reason is…, B1 04). Nhấn điều mình không muốn: **The last thing I want is** to upset her. Đồng ý đúng chỗ: That's **precisely** why…\n\nMuốn nhấn một ý khi nói: I want to **emphasize** that… (không có on).\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| It was Lan found the mistake. | It was Lan **who** found the mistake. |\n| The reason why I left is because… | The reason why I left **is that**… |\n| I want to emphasize on this point. | I want to **emphasize** this point. |\n\n❌ It was Lan found ❌ emphasize on ✅ **It wasn't me who sent it. It was Nam.**",
+                        "items": ["it-cleft", "it-was-that", "its-not-its", "the-reason-why", "the-last-thing", "bother", "precisely", "emphasize", "the-main-reason", "misunderstand"],
+                        "examples": [
+                            { "en": "It was Lan who found the mistake, not me.", "vi": "Chính Lan là người tìm ra lỗi, không phải mình.", "highlight": "It was Lan who" },
+                            { "en": "It's not the price that bothers me, it's the service.", "vi": "Mình không khó chịu vì giá, mà vì cách phục vụ.", "highlight": "It's not the price that bothers me" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "its-not-its",
+                        "prompts": [
+                            { "cueVi": "Mình không khó chịu vì công việc, mà vì phải làm nhiều giờ.", "slots": { "first": "the work", "second": "the long hours" }, "answer": "It's not the work that bothers me, it's the long hours." },
+                            { "cueVi": "Mình không khó chịu vì khoảng cách, mà vì tắc đường.", "slots": { "first": "the distance", "second": "the traffic" }, "answer": "It's not the distance that bothers me, it's the traffic." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "the-reason-why",
+                        "prompts": [
+                            { "cueVi": "Lý do mình đến muộn là vì có tai nạn.", "slots": { "fact": "I'm late", "reason": "there was an accident" }, "answer": "The reason why I'm late is that there was an accident." },
+                            { "cueVi": "Lý do mình chọn khách sạn này là vì nó gần biển.", "slots": { "fact": "we chose this hotel", "reason": "it's close to the beach" }, "answer": "The reason why we chose this hotel is that it's close to the beach." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["bother", "precisely", "emphasize", "misunderstand"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "c1-02-the-mix-up", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Sếp tưởng bạn gửi nhầm file. Thật ra là Nam. Bạn nói:",
+                                "options": ["It was Nam who sent it, not me.", "It was Nam sent it, not me.", "Nam it was who sent it."],
+                                "answer": 0,
+                                "item": "it-cleft"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["The reason why I left is because I wanted a change.", "The reason why I left is that I wanted a change.", "The reason I left it is I wanted a change."],
+                                "answer": 1,
+                                "item": "the-reason-why"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "It was only last week ___ I found out.",
+                                "hintVi": "từ nối của câu chẻ",
+                                "answers": ["that"],
+                                "item": "it-was-that"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "The last thing I want is to upset her.",
+                                "options": ["Việc cuối cùng mình làm là làm cô ấy buồn.", "Điều mình không muốn nhất là làm cô ấy buồn.", "Lần cuối mình làm cô ấy buồn."],
+                                "answer": 1,
+                                "item": "the-last-thing"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Mình muốn nhấn mạnh rằng đây chỉ là bản nháp đầu.",
+                                "answer": "I want to emphasize that this is only a first draft.",
+                                "item": "emphasize"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "c1-02-l3-i-do-think",
+            "title": "I do think…",
+            "titleVi": "Nhấn mạnh bằng do, by far, such a",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "emphatic-do", "role": "INTRODUCE" },
+                { "item": "i-do-think", "role": "INTRODUCE" },
+                { "item": "by-far-the", "role": "INTRODUCE" },
+                { "item": "such-a-that", "role": "INTRODUCE" },
+                { "item": "whatsoever", "role": "INTRODUCE" },
+                { "item": "absolutely", "role": "INTRODUCE" },
+                { "item": "incredibly", "role": "INTRODUCE" },
+                { "item": "no-matter-what", "role": "INTRODUCE" },
+                { "item": "totally", "role": "RECYCLE" },
+                { "item": "definitely", "role": "RECYCLE" },
+                { "item": "superlatives", "role": "RECYCLE" },
+                { "item": "genuinely", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["i-do-think", "by-far-the", "such-a-that", "whatsoever", "absolutely", "incredibly", "no-matter-what"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Nhấn mạnh mà không cần \"very very\"",
+                        "bodyVi": "**do / does / did + V nguyên mẫu** trong câu khẳng định (nhấn giọng vào do):\n\n| tình huống | câu |\n|---|---|\n| người kia không tin | I **did** call you! Twice! |\n| thêm tương phản | I **do** think it's a good idea, but it's expensive. |\n| thật lòng | I **do** appreciate your help. |\n\nCác cách nhấn khác:\n\n| cách | ví dụ |\n|---|---|\n| hơn hẳn | It's **by far the** best pho I've ever had. (superlatives, A2 08) |\n| đến nỗi | It was **such a** long day **that** I fell asleep. |\n| tính từ mạnh | **absolutely** stunning / exhausted / freezing |\n| tính từ thường | **incredibly** kind, **genuinely** happy, **totally** different |\n| phủ định | no idea **whatsoever** |\n| dù thế nào | I'll be there, **no matter what**. |\n\nTính từ mạnh (delicious, exhausted, huge) không đi với very: dùng **absolutely**. Tính từ thường thì dùng **incredibly**, really.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| I did called you! | I **did call** you! |\n| It was so a long day. | It was **such a** long day. |\n| The food was very very delicious. | The food was **absolutely** delicious. |\n\n❌ I did called ❌ so a long day ✅ **It was such a long day, but the view was absolutely stunning.**",
+                        "items": ["emphatic-do", "i-do-think", "by-far-the", "such-a-that", "whatsoever", "absolutely", "incredibly", "no-matter-what", "superlatives", "genuinely", "totally"],
+                        "examples": [
+                            { "en": "I did call you! Twice!", "vi": "Mình có gọi cho bạn mà! Hai lần!", "highlight": "I did call" },
+                            { "en": "It was such a long day that I fell asleep on the bus.", "vi": "Hôm đó dài đến nỗi mình ngủ gục trên xe buýt.", "highlight": "such a long day that" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "by-far-the",
+                        "prompts": [
+                            { "cueVi": "Đó là bài thi khó nhất mình từng làm, hơn hẳn.", "slots": { "superlative": "hardest exam", "done": "taken" }, "answer": "It's by far the hardest exam I've ever taken." },
+                            { "cueVi": "Đó là bãi biển đẹp nhất mình từng thấy, hơn hẳn.", "slots": { "superlative": "most beautiful beach", "done": "seen" }, "answer": "It's by far the most beautiful beach I've ever seen." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "such-a-that",
+                        "prompts": [
+                            { "cueVi": "Phim hay đến nỗi mình xem hai lần.", "slots": { "noun": "good movie", "result": "I watched it twice" }, "answer": "It was such a good movie that I watched it twice." },
+                            { "cueVi": "Chỗ đó đẹp đến nỗi bọn mình không muốn về.", "slots": { "noun": "beautiful place", "result": "we didn't want to leave" }, "answer": "It was such a beautiful place that we didn't want to leave." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["whatsoever", "absolutely", "incredibly", "no-matter-what", "definitely", "genuinely"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "c1-02-farewell-speech", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn của bạn nói bạn quên gọi. Bạn phản bác:",
+                                "options": ["I did called you!", "I did call you!", "I do called you!"],
+                                "answer": 1,
+                                "item": "emphatic-do"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["It was so a long day that I fell asleep.", "It was such long day that I fell asleep.", "It was such a long day that I fell asleep."],
+                                "answer": 2,
+                                "item": "such-a-that"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "The view from the top was ___ stunning.",
+                                "hintVi": "cực kỳ (tính từ mạnh)",
+                                "answers": ["absolutely"],
+                                "item": "absolutely"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "I have no idea whatsoever where he went.",
+                                "options": ["Mình không biết chút nào là anh ấy đi đâu.", "Mình có vài ý tưởng về nơi anh ấy đến.", "Anh ấy đi đâu cũng được."],
+                                "answer": 0,
+                                "item": "whatsoever"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Đó là tô phở ngon nhất mình từng ăn, hơn hẳn.",
+                                "answer": "It's by far the best pho I've ever had.",
+                                "item": "by-far-the"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "c1-02-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Câu nào nhấn mạnh điều bạn cần?",
+                "options": ["What I need is a few days off.", "What I need it is a few days off.", "That I need is a few days off."],
+                "answer": 0,
+                "item": "wh-cleft"
+            },
+            {
+                "kind": "gap",
+                "sentence": "It was my sister ___ told me about this place.",
+                "hintVi": "câu chẻ, chỉ người",
+                "answers": ["who", "that"],
+                "item": "it-cleft"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Người ta tưởng bạn phiền vì giá. Thật ra là vì cách phục vụ:",
+                "options": ["It's not the price bothers me, it's the service.", "It's not the price that bothers me, it's the service.", "Not the price bothers me, the service it is."],
+                "answer": 1,
+                "item": "its-not-its"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["I do think we should ask for help.", "I do thinking we should ask for help.", "I does think we should ask for help."],
+                "answer": 0,
+                "item": "emphatic-do"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "I'll be there for you, no matter what.",
+                "options": ["Dù thế nào mình cũng sẽ ở bên bạn.", "Mình không quan tâm bạn ở đâu.", "Việc gì mình cũng không làm được."],
+                "answer": 0,
+                "item": "no-matter-what"
+            },
+            {
+                "kind": "order",
+                "vi": "Mình chỉ muốn một cuối tuần yên tĩnh ở nhà thôi.",
+                "answer": "All I want is a quiet weekend at home.",
+                "item": "all-i-want-is"
+            }
+        ]
+    }
+}

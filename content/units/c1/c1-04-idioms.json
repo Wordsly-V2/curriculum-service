@@ -1,0 +1,736 @@
+{
+    "slug": "c1-04-idioms",
+    "stage": "c1",
+    "order": 4,
+    "title": "Idioms that people really use",
+    "titleVi": "Thành ngữ người bản ngữ hay dùng",
+    "descriptionVi": "Thành ngữ công sở (on the same page, the ball is in your court, cut corners, back to square one, a ballpark figure), thành ngữ đời sống và cách so với tiếng Việt (a blessing in disguise, beat around the bush, the last straw, cost an arm and a leg), và các cặp từ cố định (sooner or later, ups and downs, by and large, sick and tired).",
+    "canDo": [
+        "Tôi hiểu và dùng được các thành ngữ thông dụng nhất trong cuộc họp và email công việc.",
+        "Tôi dùng được thành ngữ đời sống đúng lúc, và biết khi nào không nên dịch thành ngữ tiếng Việt sang tiếng Anh.",
+        "Mốc C1: tôi diễn đạt linh hoạt và tự nhiên, dùng được thành ngữ và cách nói cố định như người bản ngữ mà không lạm dụng."
+    ],
+    "items": [
+        {
+            "slug": "idiom-basics",
+            "type": "GRAMMAR",
+            "text": "thành ngữ: cụm cố định, nghĩa không cộng từ từng chữ; chỉ chia động từ",
+            "meaningVi": "cách dùng thành ngữ cho đúng",
+            "examples": [
+                { "en": "Let's make sure we're all on the same page.", "vi": "Mình kiểm tra xem mọi người đã hiểu giống nhau chưa nhé.", "highlight": "on the same page" }
+            ],
+            "grammar": {
+                "ruleVi": "Thành ngữ là cụm cố định: nghĩa của nó không phải nghĩa của từng chữ cộng lại, và không được thay từ (❌ \"on the same paper\"). Chỉ động từ và đại từ đổi theo câu: He cut corners / They're cutting corners; It's in your court / The ball is in their court. Thành ngữ phần lớn là văn nói thân mật hoặc bán trang trọng; dùng một hai cái trong một lần nói là tự nhiên, dồn nhiều cái vào nghe gượng.",
+                "forms": [
+                    { "label": "chia động từ", "example": "We had to go back to square one." },
+                    { "label": "đổi đại từ", "example": "The ball is in their court now." },
+                    { "label": "làm danh từ", "example": "Can you give me a ballpark figure?" },
+                    { "label": "phủ định", "example": "We can't afford to cut corners on safety." }
+                ],
+                "pitfallsVi": [
+                    "\"We are on the same paper\" → We're on the same page. (không thay từ)",
+                    "Dùng thành ngữ trong văn bản rất trang trọng (hợp đồng, luận văn) → dùng từ thường: agree, reduce quality.",
+                    "Học thành ngữ cũ, ít ai dùng (raining cats and dogs) → ưu tiên thành ngữ còn phổ biến."
+                ]
+            }
+        },
+        {
+            "slug": "on-the-same-page",
+            "type": "PHRASE",
+            "text": "be on the same page",
+            "meaningVi": "hiểu giống nhau, thống nhất",
+            "examples": [
+                { "en": "Before we start, let's make sure we're all on the same page.", "vi": "Trước khi bắt đầu, mình kiểm tra xem mọi người đã thống nhất chưa nhé.", "highlight": "on the same page" }
+            ],
+            "noteVi": "Rất hay dùng trong họp. Hỏi: Are we on the same page? Chưa thống nhất: We're not on the same page about the budget."
+        },
+        {
+            "slug": "ball-in-your-court",
+            "type": "PHRASE",
+            "text": "The ball is in your court.",
+            "meaningVi": "Giờ đến lượt bạn quyết định.",
+            "examples": [
+                { "en": "We've sent our offer. The ball is in their court now.", "vi": "Mình gửi đề nghị rồi. Giờ đến lượt họ quyết.", "highlight": "The ball is in their court" }
+            ],
+            "noteVi": "Từ quần vợt: bóng đang ở sân bên kia. Đổi đại từ: in your / their / his court."
+        },
+        {
+            "slug": "cut-corners",
+            "type": "PHRASE",
+            "text": "cut corners",
+            "meaningVi": "làm ẩu, đi tắt để tiết kiệm",
+            "examples": [
+                { "en": "If we cut corners now, we'll have problems later.", "vi": "Giờ mà làm ẩu thì sau này sẽ gặp rắc rối.", "highlight": "cut corners" }
+            ],
+            "noteVi": "Luôn mang ý chê: bỏ bớt bước để nhanh hoặc rẻ, làm giảm chất lượng. ❌ \"cut the corner\" (số nhiều, không có the)."
+        },
+        {
+            "slug": "get-the-ball-rolling",
+            "type": "PHRASE",
+            "text": "get the ball rolling",
+            "meaningVi": "bắt đầu, khởi động (một việc)",
+            "examples": [
+                { "en": "Let's get the ball rolling. Who wants to go first?", "vi": "Mình bắt đầu nhé. Ai muốn nói trước?", "highlight": "get the ball rolling" }
+            ],
+            "noteVi": "Mở đầu cuộc họp hay dự án. Gần nghĩa: Let's get started (B2 05). To keep the ball rolling = giữ đà."
+        },
+        {
+            "slug": "back-to-square-one",
+            "type": "PHRASE",
+            "text": "back to square one",
+            "meaningVi": "quay về vạch xuất phát, làm lại từ đầu",
+            "examples": [
+                { "en": "The client rejected the design, so we're back to square one.", "vi": "Khách từ chối bản thiết kế, nên mình phải làm lại từ đầu.", "highlight": "back to square one" }
+            ],
+            "noteVi": "Khi mọi công sức trước đó coi như bỏ. Gần nghĩa: back to the drawing board."
+        },
+        {
+            "slug": "ballpark-figure",
+            "type": "PHRASE",
+            "text": "a ballpark figure",
+            "meaningVi": "con số ước chừng",
+            "examples": [
+                { "en": "I don't need the exact price. Just give me a ballpark figure.", "vi": "Mình không cần giá chính xác. Cứ cho mình con số ước chừng.", "highlight": "a ballpark figure" }
+            ],
+            "noteVi": "Kiểu Mỹ, rất hay dùng khi hỏi giá, chi phí, thời gian. Trả lời: I'd say around… (C1 01). Tương tự: in the ballpark (gần đúng)."
+        },
+        {
+            "slug": "lets-touch-base",
+            "type": "PATTERN",
+            "text": "Let's touch base ….",
+            "meaningVi": "Mình trao đổi nhanh lại ….",
+            "examples": [
+                { "en": "Let's touch base next week and see how it's going.", "vi": "Tuần sau mình trao đổi nhanh lại xem tình hình thế nào nhé.", "highlight": "Let's touch base next week" }
+            ],
+            "pattern": {
+                "template": "Let's touch base {time}.",
+                "slots": [
+                    { "name": "time", "hintVi": "thời gian", "options": ["next week", "on Friday", "after the meeting", "before the launch", "at the end of the month"] }
+                ]
+            },
+            "noteVi": "Liên lạc ngắn để cập nhật, rất hay gặp trong email. touch base with someone. Gần nghĩa: catch up (B2 08), check in."
+        },
+        {
+            "slug": "idioms-and-vietnamese",
+            "type": "GRAMMAR",
+            "text": "thành ngữ Anh và Việt: có tương đương, gần giống, và không dịch được",
+            "meaningVi": "khi nào có thể mượn thành ngữ tiếng Việt, khi nào không",
+            "examples": [
+                { "en": "Losing that job was a blessing in disguise.", "vi": "Mất việc đó hóa ra lại là trong cái rủi có cái may.", "highlight": "a blessing in disguise" }
+            ],
+            "grammar": {
+                "ruleVi": "Một số thành ngữ tiếng Anh có nghĩa gần với tiếng Việt nhưng hình ảnh khác hẳn (a blessing in disguise ≈ trong cái rủi có cái may; beat around the bush ≈ vòng vo tam quốc). Dịch nguyên văn thành ngữ Việt sang tiếng Anh gần như luôn khó hiểu (❌ \"like a frog at the bottom of a well\"): khi đó nói nghĩa bằng câu thường hoặc giải thích (It's a Vietnamese saying that means…).",
+                "forms": [
+                    { "label": "có tương đương", "example": "It was the last straw. (≈ giọt nước tràn ly)" },
+                    { "label": "hình ảnh khác", "example": "Stop beating around the bush. (≈ đừng vòng vo)" },
+                    { "label": "không có tương đương", "example": "We have a saying in Vietnamese that means \"no pain, no gain\"." },
+                    { "label": "câu thường", "example": "He's never been abroad, so he doesn't know much about the world." }
+                ],
+                "pitfallsVi": [
+                    "\"The last drop of water\" (dịch từ giọt nước tràn ly) → the last straw.",
+                    "\"Don't go around the bush\" → Don't beat around the bush.",
+                    "\"He is like a frog in a well\" → He doesn't know much about the world outside. (hoặc giải thích là tục ngữ Việt)"
+                ]
+            }
+        },
+        {
+            "slug": "blessing-in-disguise",
+            "type": "PHRASE",
+            "text": "a blessing in disguise",
+            "meaningVi": "trong cái rủi có cái may",
+            "examples": [
+                { "en": "Missing that flight was a blessing in disguise. I met my best friend at the airport.", "vi": "Lỡ chuyến bay đó hóa ra lại hay. Mình gặp bạn thân ở sân bay.", "highlight": "a blessing in disguise" }
+            ],
+            "noteVi": "Chuyện tưởng xấu hóa ra tốt. Hay đi với turn out to be / was: It turned out to be a blessing in disguise."
+        },
+        {
+            "slug": "beat-around-the-bush",
+            "type": "PHRASE",
+            "text": "beat around the bush",
+            "meaningVi": "nói vòng vo, không vào thẳng vấn đề",
+            "examples": [
+                { "en": "Stop beating around the bush and tell me what happened.", "vi": "Đừng vòng vo nữa, kể mình nghe chuyện gì đã xảy ra.", "highlight": "beating around the bush" }
+            ],
+            "noteVi": "Kiểu Mỹ around, kiểu Anh about. Muốn nói thẳng: I won't beat around the bush: we need to cut costs."
+        },
+        {
+            "slug": "hit-the-nail-on-the-head",
+            "type": "PHRASE",
+            "text": "hit the nail on the head",
+            "meaningVi": "nói trúng phóc, nói đúng vấn đề",
+            "examples": [
+                { "en": "You hit the nail on the head. The real problem is communication.", "vi": "Bạn nói trúng phóc. Vấn đề thật là giao tiếp.", "highlight": "hit the nail on the head" }
+            ],
+            "noteVi": "Khen người khác chỉ ra đúng nguyên nhân. Nhẹ hơn: That's a good point (B1 04), Precisely! (C1 02)."
+        },
+        {
+            "slug": "once-in-a-blue-moon",
+            "type": "PHRASE",
+            "text": "once in a blue moon",
+            "meaningVi": "năm thì mười họa",
+            "examples": [
+                { "en": "I only eat fast food once in a blue moon.", "vi": "Năm thì mười họa mình mới ăn đồ ăn nhanh.", "highlight": "once in a blue moon" }
+            ],
+            "noteVi": "Rất hiếm khi, thường đứng cuối câu. Thân mật hơn rarely, seldom (C1 03)."
+        },
+        {
+            "slug": "the-last-straw",
+            "type": "PHRASE",
+            "text": "the last straw",
+            "meaningVi": "giọt nước tràn ly",
+            "examples": [
+                { "en": "He was late again today, and that was the last straw.", "vi": "Hôm nay anh ta lại đến muộn, và đó là giọt nước tràn ly.", "highlight": "the last straw" }
+            ],
+            "noteVi": "straw = cọng rơm (từ câu cọng rơm cuối cùng làm gãy lưng lạc đà). ❌ \"the last drop\". Nối tiếp I can't put up with… (B2 08)."
+        },
+        {
+            "slug": "under-the-weather",
+            "type": "PHRASE",
+            "text": "feel under the weather",
+            "meaningVi": "thấy hơi mệt, không được khỏe",
+            "examples": [
+                { "en": "I'm feeling a bit under the weather, so I'll work from home today.", "vi": "Mình thấy hơi mệt nên hôm nay làm ở nhà.", "highlight": "under the weather" }
+            ],
+            "noteVi": "Ốm nhẹ, không nặng. Lịch sự hơn I'm sick khi xin nghỉ. Nối tiếp I don't feel well (A2 06)."
+        },
+        {
+            "slug": "cost-an-arm-and-a-leg",
+            "type": "PATTERN",
+            "text": "… cost me an arm and a leg.",
+            "meaningVi": "… tốn của tôi cả núi tiền.",
+            "examples": [
+                { "en": "My new laptop cost me an arm and a leg.", "vi": "Cái laptop mới tốn của mình cả núi tiền.", "highlight": "cost me an arm and a leg" }
+            ],
+            "pattern": {
+                "template": "{thing} cost me an arm and a leg.",
+                "slots": [
+                    { "name": "thing", "hintVi": "thứ đắt tiền", "options": ["My new laptop", "The wedding", "That hotel", "Fixing the car", "The concert tickets"] }
+                ]
+            },
+            "noteVi": "cost – cost – cost (quá khứ không đổi). Hiện tại / tương lai: It costs / It'll cost an arm and a leg. Nếu bị chặt chém thì là a rip-off (B2 04)."
+        },
+        {
+            "slug": "fixed-binomials",
+            "type": "GRAMMAR",
+            "text": "cặp từ cố định: A and / or B, thứ tự không đảo",
+            "meaningVi": "các cặp từ đi liền nhau theo thứ tự cố định",
+            "examples": [
+                { "en": "Every relationship has its ups and downs.", "vi": "Mối quan hệ nào cũng có lúc thăng lúc trầm.", "highlight": "ups and downs" }
+            ],
+            "grammar": {
+                "ruleVi": "Tiếng Anh có nhiều cặp từ đi với nhau theo thứ tự cố định, giống \"lên xuống\", \"sớm muộn\" trong tiếng Việt. Đảo thứ tự nghe sai hẳn: sooner or later (❌ later or sooner), pros and cons (B2 03, ❌ cons and pros). Nhiều cặp mang nghĩa bóng: by and large = nói chung, give and take = có qua có lại.",
+                "forms": [
+                    { "label": "thời gian", "example": "Sooner or later, you'll have to tell her." },
+                    { "label": "lên xuống", "example": "Business has its ups and downs." },
+                    { "label": "nói chung", "example": "By and large, the trip went well." },
+                    { "label": "cảm xúc", "example": "I'm sick and tired of the noise." },
+                    { "label": "an toàn", "example": "They got home safe and sound." }
+                ],
+                "pitfallsVi": [
+                    "\"later or sooner\" → sooner or later.",
+                    "\"downs and ups\" → ups and downs.",
+                    "\"I'm sick and tired to wait\" → I'm sick and tired of waiting."
+                ]
+            }
+        },
+        {
+            "slug": "sooner-or-later",
+            "type": "PHRASE",
+            "text": "sooner or later",
+            "meaningVi": "sớm muộn gì",
+            "examples": [
+                { "en": "Sooner or later, you'll have to tell her the truth.", "vi": "Sớm muộn gì bạn cũng phải nói thật với cô ấy.", "highlight": "Sooner or later" }
+            ],
+            "noteVi": "Đứng đầu hoặc cuối câu. Giống hệt thứ tự tiếng Việt \"sớm muộn\", dễ nhớ."
+        },
+        {
+            "slug": "ups-and-downs",
+            "type": "PHRASE",
+            "text": "ups and downs",
+            "meaningVi": "lúc thăng lúc trầm",
+            "examples": [
+                { "en": "Every relationship has its ups and downs.", "vi": "Mối quan hệ nào cũng có lúc thăng lúc trầm.", "highlight": "ups and downs" }
+            ],
+            "noteVi": "Luôn số nhiều: have its / their ups and downs. Dùng cho cuộc sống, công việc, kinh doanh."
+        },
+        {
+            "slug": "by-and-large",
+            "type": "PHRASE",
+            "text": "by and large",
+            "meaningVi": "nhìn chung, nói chung",
+            "examples": [
+                { "en": "By and large, the new system works well.", "vi": "Nhìn chung, hệ thống mới chạy tốt.", "highlight": "By and large" }
+            ],
+            "noteVi": "Đồng nghĩa on the whole (B2 03), in general. Không liên quan đến \"large\" (lớn)."
+        },
+        {
+            "slug": "give-and-take",
+            "type": "PHRASE",
+            "text": "give and take",
+            "meaningVi": "có qua có lại, nhường nhịn nhau",
+            "examples": [
+                { "en": "Living with roommates is all about give and take.", "vi": "Ở chung phòng là phải biết nhường nhịn nhau.", "highlight": "give and take" }
+            ],
+            "noteVi": "Dùng như danh từ: There has to be some give and take. Gần nghĩa: compromise (thỏa hiệp)."
+        },
+        {
+            "slug": "safe-and-sound",
+            "type": "PHRASE",
+            "text": "safe and sound",
+            "meaningVi": "bình an vô sự",
+            "examples": [
+                { "en": "After the storm, we were relieved to find everyone safe and sound.", "vi": "Sau cơn bão, mình nhẹ cả người khi thấy mọi người bình an vô sự.", "highlight": "safe and sound" }
+            ],
+            "noteVi": "Hay đi với get home / arrive / be: Text me when you get home safe and sound."
+        },
+        {
+            "slug": "sick-and-tired",
+            "type": "PATTERN",
+            "text": "I'm sick and tired of ….",
+            "meaningVi": "Tôi phát ngán …. rồi.",
+            "examples": [
+                { "en": "I'm sick and tired of waiting for the landlord to fix the leak.", "vi": "Mình phát ngán vụ chờ chủ nhà sửa chỗ dột rồi.", "highlight": "I'm sick and tired of waiting" }
+            ],
+            "pattern": {
+                "template": "I'm sick and tired of {doing}.",
+                "slots": [
+                    { "name": "doing", "hintVi": "V-ing / danh từ", "options": ["waiting for the landlord to fix the leak", "the noise", "hearing the same excuses", "working late every day", "his complaints"] }
+                ]
+            },
+            "noteVi": "Mạnh hơn I can't put up with… any more (B2 08). Sau of là V-ing / danh từ (❌ \"sick and tired to wait\"). Không liên quan đến ốm."
+        },
+        {
+            "slug": "idiomatic",
+            "type": "LEXICAL",
+            "text": "idiomatic",
+            "meaningVi": "tự nhiên như người bản ngữ; có tính thành ngữ",
+            "ipa": "/ˌɪdiəˈmætɪk/",
+            "examples": [
+                { "en": "Her English is fluent and very idiomatic.", "vi": "Tiếng Anh của cô ấy trôi chảy và rất tự nhiên.", "highlight": "idiomatic" }
+            ],
+            "noteVi": "Khen cách nói tự nhiên, đúng kiểu bản ngữ. Danh từ: idiom (thành ngữ). an idiomatic expression = một cách nói cố định."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "c1-04-project-kickoff",
+            "title": "Let's get the ball rolling",
+            "situationVi": "Bạn chủ trì buổi họp khởi động dự án với anh Jason, khách hàng người Mỹ. Khách đã từ chối bản thiết kế trước, giờ cả hai bên bàn lại kế hoạch.",
+            "lines": [
+                { "speaker": "Jason", "en": "Thanks for setting this up. Sorry our team didn't like the first design.", "vi": "Cảm ơn đã sắp xếp buổi này. Xin lỗi vì nhóm tôi không thích bản thiết kế đầu." },
+                { "speaker": "You", "en": "No problem. We're back to square one, but that's OK. Let's get the ball rolling. First, I want to make sure we're on the same page.", "vi": "Không sao ạ. Mình làm lại từ đầu, nhưng cũng được. Mình bắt đầu nhé. Trước hết, tôi muốn chắc là hai bên đã thống nhất.", "learnerTurn": true },
+                { "speaker": "Jason", "en": "Sure. We want something simpler and faster. Can you do it in four weeks?", "vi": "Được. Chúng tôi muốn thứ gì đơn giản hơn và nhanh hơn. Bên anh làm trong bốn tuần được không?" },
+                { "speaker": "You", "en": "Four weeks is possible, but we don't want to cut corners. Six weeks would be more realistic.", "vi": "Bốn tuần thì có thể, nhưng chúng tôi không muốn làm ẩu. Sáu tuần thì khả thi hơn.", "learnerTurn": true },
+                { "speaker": "Jason", "en": "Hmm. And the cost? Just a ballpark figure is fine.", "vi": "Hừm. Còn chi phí? Con số ước chừng cũng được." },
+                { "speaker": "You", "en": "I'd say around twenty thousand dollars. I'll send you a detailed quote tomorrow, and then the ball is in your court.", "vi": "Tôi ước khoảng hai mươi nghìn đô. Mai tôi gửi báo giá chi tiết, rồi đến lượt anh quyết.", "learnerTurn": true },
+                { "speaker": "Jason", "en": "Sounds good. When should we talk again?", "vi": "Nghe ổn. Khi nào mình nói chuyện lại?" },
+                { "speaker": "You", "en": "Let's touch base on Friday, after you've read the quote.", "vi": "Thứ Sáu mình trao đổi nhanh lại nhé, sau khi anh đọc báo giá.", "learnerTurn": true },
+                { "speaker": "Jason", "en": "Perfect. Talk then.", "vi": "Tuyệt. Hẹn lúc đó." }
+            ]
+        },
+        {
+            "slug": "c1-04-the-last-straw",
+            "title": "That was the last straw",
+            "situationVi": "Chị Sophie, bạn người Anh, hỏi vì sao bạn chuyển nhà gấp. Bạn kể chuyện ông chủ nhà cũ và vì sao việc chuyển đi hóa ra lại tốt.",
+            "lines": [
+                { "speaker": "Sophie", "en": "I heard you moved out suddenly. What happened? Don't beat around the bush!", "vi": "Nghe nói cậu chuyển nhà đột ngột. Chuyện gì thế? Đừng vòng vo nhé!" },
+                { "speaker": "You", "en": "OK, OK! The landlord never fixed anything. I was sick and tired of waiting for him to fix the leak.", "vi": "Rồi, rồi! Chủ nhà chẳng bao giờ sửa gì cả. Mình phát ngán vụ chờ ông ấy sửa chỗ dột.", "learnerTurn": true },
+                { "speaker": "Sophie", "en": "That sounds awful. But why move so fast?", "vi": "Nghe tệ thật. Nhưng sao chuyển nhanh thế?" },
+                { "speaker": "You", "en": "Then he raised the rent by thirty percent. That was the last straw.", "vi": "Rồi ông ấy tăng tiền nhà ba mươi phần trăm. Đó là giọt nước tràn ly.", "learnerTurn": true },
+                { "speaker": "Sophie", "en": "Thirty percent? That's a rip-off! Was the new place expensive?", "vi": "Ba mươi phần trăm á? Chặt chém quá! Chỗ mới có đắt không?" },
+                { "speaker": "You", "en": "The move cost me an arm and a leg. But honestly, it was a blessing in disguise. The new place is much nicer.", "vi": "Chuyển nhà tốn cả núi tiền. Nhưng nói thật, trong cái rủi có cái may. Chỗ mới đẹp hơn nhiều.", "learnerTurn": true },
+                { "speaker": "Sophie", "en": "So you're happy there?", "vi": "Vậy cậu vui ở đó chứ?" },
+                { "speaker": "You", "en": "By and large, yes. Every place has its ups and downs, but I only see my new landlord once in a blue moon. That's a good sign!", "vi": "Nhìn chung là có. Chỗ nào cũng có cái hay cái dở, nhưng năm thì mười họa mình mới gặp chủ nhà mới. Dấu hiệu tốt đấy!", "learnerTurn": true },
+                { "speaker": "Sophie", "en": "Ha! You hit the nail on the head there.", "vi": "Haha! Cậu nói trúng phóc rồi đấy." }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "c1-04-l1-at-work",
+            "title": "On the same page",
+            "titleVi": "Thành ngữ trong công việc",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "idiom-basics", "role": "INTRODUCE" },
+                { "item": "on-the-same-page", "role": "INTRODUCE" },
+                { "item": "ball-in-your-court", "role": "INTRODUCE" },
+                { "item": "cut-corners", "role": "INTRODUCE" },
+                { "item": "get-the-ball-rolling", "role": "INTRODUCE" },
+                { "item": "back-to-square-one", "role": "INTRODUCE" },
+                { "item": "ballpark-figure", "role": "INTRODUCE" },
+                { "item": "lets-touch-base", "role": "INTRODUCE" },
+                { "item": "lets-move-on", "role": "RECYCLE" },
+                { "item": "deadline", "role": "RECYCLE" },
+                { "item": "agenda", "role": "RECYCLE" },
+                { "item": "in-charge-of", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["on-the-same-page", "ball-in-your-court", "cut-corners", "get-the-ball-rolling", "back-to-square-one", "ballpark-figure", "lets-touch-base"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Thành ngữ trong một cuộc họp",
+                        "bodyVi": "Thành ngữ là cụm cố định: không thay từ, chỉ chia động từ và đổi đại từ. Đây là những cái bạn sẽ nghe nhiều nhất trong một cuộc họp:\n\n| lúc | thành ngữ | nghĩa |\n|---|---|---|\n| mở đầu | Let's **get the ball rolling**. | mình bắt đầu nhé |\n| kiểm tra | Are we all **on the same page**? | mọi người hiểu giống nhau chưa? |\n| hỏi ước lượng | Can you give me **a ballpark figure**? | con số ước chừng |\n| cảnh báo | We can't **cut corners** on safety. | làm ẩu, đi tắt |\n| thất bại | We're **back to square one**. | làm lại từ đầu |\n| chuyển quyết định | **The ball is in their court.** | đến lượt họ quyết |\n| hẹn lại | **Let's touch base** on Friday. | trao đổi nhanh lại |\n\nNhững câu thường vẫn dùng song song: Let's move on to… (B2 05), Who's in charge of…?, the **deadline**, the **agenda**.\n\nMột hai thành ngữ mỗi lần nói là tự nhiên; câu nào cũng có thì nghe gượng. Văn bản rất trang trọng (hợp đồng, báo cáo chính thức) thì dùng từ thường.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| We are on the same paper. | We're **on the same page**. |\n| We must start again from zero. | We're **back to square one**. |\n| Give me a number about. | Give me **a ballpark figure**. |\n\n❌ on the same paper ❌ cut the corner ✅ **Let's make sure we're on the same page before we get the ball rolling.**",
+                        "items": ["idiom-basics", "on-the-same-page", "ball-in-your-court", "cut-corners", "get-the-ball-rolling", "back-to-square-one", "ballpark-figure", "lets-touch-base", "lets-move-on", "deadline", "agenda", "in-charge-of"],
+                        "examples": [
+                            { "en": "Before we start, let's make sure we're all on the same page.", "vi": "Trước khi bắt đầu, mình kiểm tra xem mọi người đã thống nhất chưa nhé.", "highlight": "on the same page" },
+                            { "en": "The client rejected the design, so we're back to square one.", "vi": "Khách từ chối bản thiết kế, nên mình phải làm lại từ đầu.", "highlight": "back to square one" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "lets-touch-base",
+                        "prompts": [
+                            { "cueVi": "Thứ Sáu mình trao đổi nhanh lại nhé.", "slots": { "time": "on Friday" }, "answer": "Let's touch base on Friday." },
+                            { "cueVi": "Sau cuộc họp mình trao đổi nhanh lại nhé.", "slots": { "time": "after the meeting" }, "answer": "Let's touch base after the meeting." },
+                            { "cueVi": "Trước buổi ra mắt mình trao đổi nhanh lại nhé.", "slots": { "time": "before the launch" }, "answer": "Let's touch base before the launch." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["on-the-same-page", "ball-in-your-court", "cut-corners", "get-the-ball-rolling", "back-to-square-one", "ballpark-figure", "agenda"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "Let's get the ball rolling. Who wants to go first?", "vi": "Mình bắt đầu nhé. Ai muốn nói trước?" },
+                            { "en": "Before we start, let's make sure we're all on the same page.", "vi": "Trước khi bắt đầu, mình kiểm tra xem mọi người đã thống nhất chưa nhé." },
+                            { "en": "I don't need the exact price. Just give me a ballpark figure.", "vi": "Mình không cần giá chính xác. Cứ cho mình con số ước chừng." },
+                            { "en": "We've sent our offer. The ball is in their court now.", "vi": "Mình gửi đề nghị rồi. Giờ đến lượt họ quyết." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["Are we all on the same paper?", "Are we all on the same page?", "Are we all in same pages?"],
+                                "answer": 1,
+                                "item": "idiom-basics"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Khách vừa từ chối toàn bộ bản thiết kế. Bạn nói:",
+                                "options": ["We're back to square one.", "The ball is rolling now.", "We're on the same page."],
+                                "answer": 0,
+                                "item": "back-to-square-one"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "If we cut ___ now, we'll have problems later.",
+                                "hintVi": "làm ẩu (số nhiều)",
+                                "answers": ["corners"],
+                                "item": "cut-corners"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "We've sent our offer. The ball is in their court now.",
+                                "options": ["Mình gửi đề nghị rồi. Giờ đến lượt họ quyết.", "Mình gửi bóng cho họ chơi rồi.", "Họ đang ở sân tòa án."],
+                                "answer": 0,
+                                "item": "ball-in-your-court"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Mình bắt đầu nhé. Ai muốn nói trước?",
+                                "answer": "Let's get the ball rolling. Who wants to go first?",
+                                "item": "get-the-ball-rolling"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "c1-04-l2-in-life",
+            "title": "A blessing in disguise",
+            "titleVi": "Thành ngữ đời sống, so với tiếng Việt",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "idioms-and-vietnamese", "role": "INTRODUCE" },
+                { "item": "blessing-in-disguise", "role": "INTRODUCE" },
+                { "item": "beat-around-the-bush", "role": "INTRODUCE" },
+                { "item": "hit-the-nail-on-the-head", "role": "INTRODUCE" },
+                { "item": "once-in-a-blue-moon", "role": "INTRODUCE" },
+                { "item": "the-last-straw", "role": "INTRODUCE" },
+                { "item": "under-the-weather", "role": "INTRODUCE" },
+                { "item": "cost-an-arm-and-a-leg", "role": "INTRODUCE" },
+                { "item": "rip-off", "role": "RECYCLE" },
+                { "item": "luckily", "role": "RECYCLE" },
+                { "item": "i-dont-feel-well", "role": "RECYCLE" },
+                { "item": "to-make-matters-worse", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["blessing-in-disguise", "beat-around-the-bush", "hit-the-nail-on-the-head", "once-in-a-blue-moon", "the-last-straw", "under-the-weather", "cost-an-arm-and-a-leg"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Đừng dịch thành ngữ Việt từng chữ",
+                        "bodyVi": "Nhiều thành ngữ Anh có nghĩa gần thành ngữ Việt, nhưng hình ảnh khác hẳn:\n\n| tiếng Anh | tiếng Việt gần nghĩa | hình ảnh gốc |\n|---|---|---|\n| **a blessing in disguise** | trong cái rủi có cái may | phước lành trá hình |\n| **beat around the bush** | vòng vo tam quốc | đập quanh bụi cây |\n| **the last straw** | giọt nước tràn ly | cọng rơm cuối cùng |\n| **once in a blue moon** | năm thì mười họa | trăng xanh |\n| **cost an arm and a leg** | tốn cả núi tiền | tốn một tay một chân |\n| **hit the nail on the head** | nói trúng phóc | đóng trúng đầu đinh |\n| **under the weather** | trong người hơi mệt | dưới thời tiết |\n\nThành ngữ Việt không có bản tiếng Anh (ếch ngồi đáy giếng, ăn cháo đá bát…) thì nói nghĩa bằng câu thường, hoặc giới thiệu: We have a saying in Vietnamese that means… Đó cũng là cách diễn đạt vòng (B2 12).\n\nNói nhẹ hơn khi cần: I'm **under the weather** lịch sự hơn I'm sick; bị chặt chém thì là a **rip-off** (B2 04).\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| It's the last drop of water. | That was **the last straw**. |\n| Don't go around the bush. | Don't **beat around the bush**. |\n| He is a frog in a well. | He doesn't know much about the world. |\n\n❌ the last drop of water ❌ go around the bush ✅ **Stop beating around the bush. That was the last straw!**",
+                        "items": ["idioms-and-vietnamese", "blessing-in-disguise", "beat-around-the-bush", "hit-the-nail-on-the-head", "once-in-a-blue-moon", "the-last-straw", "under-the-weather", "cost-an-arm-and-a-leg", "rip-off", "i-dont-feel-well"],
+                        "examples": [
+                            { "en": "Losing that job was a blessing in disguise.", "vi": "Mất việc đó hóa ra lại là trong cái rủi có cái may.", "highlight": "a blessing in disguise" },
+                            { "en": "He was late again today, and that was the last straw.", "vi": "Hôm nay anh ta lại đến muộn, và đó là giọt nước tràn ly.", "highlight": "the last straw" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "cost-an-arm-and-a-leg",
+                        "prompts": [
+                            { "cueVi": "Đám cưới tốn của mình cả núi tiền.", "slots": { "thing": "The wedding" }, "answer": "The wedding cost me an arm and a leg." },
+                            { "cueVi": "Sửa xe tốn của mình cả núi tiền.", "slots": { "thing": "Fixing the car" }, "answer": "Fixing the car cost me an arm and a leg." },
+                            { "cueVi": "Vé xem hòa nhạc tốn của mình cả núi tiền.", "slots": { "thing": "The concert tickets" }, "answer": "The concert tickets cost me an arm and a leg." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["blessing-in-disguise", "beat-around-the-bush", "hit-the-nail-on-the-head", "once-in-a-blue-moon", "the-last-straw", "under-the-weather", "rip-off"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "c1-04-project-kickoff", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Giọt nước tràn ly\" trong tiếng Anh là:",
+                                "options": ["the last drop of water", "the last straw", "the full glass"],
+                                "answer": 1,
+                                "item": "idioms-and-vietnamese"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn muốn bạn mình nói thẳng vào vấn đề:",
+                                "options": ["Stop beating around the bush.", "Stop going around the bush.", "Stop hitting the bush."],
+                                "answer": 0,
+                                "item": "beat-around-the-bush"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I only eat fast food once in a blue ___.",
+                                "hintVi": "năm thì mười họa",
+                                "answers": ["moon"],
+                                "item": "once-in-a-blue-moon"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "I'm feeling a bit under the weather, so I'll work from home today.",
+                                "options": ["Trời xấu nên hôm nay mình làm ở nhà.", "Mình thấy hơi mệt nên hôm nay làm ở nhà.", "Mình thích làm ở nhà khi trời mưa."],
+                                "answer": 1,
+                                "item": "under-the-weather"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Bạn nói trúng phóc. Vấn đề thật là giao tiếp.",
+                                "answer": "You hit the nail on the head. The real problem is communication.",
+                                "item": "hit-the-nail-on-the-head"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "c1-04-l3-pairs",
+            "title": "Sooner or later",
+            "titleVi": "Cặp từ cố định",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "fixed-binomials", "role": "INTRODUCE" },
+                { "item": "sooner-or-later", "role": "INTRODUCE" },
+                { "item": "ups-and-downs", "role": "INTRODUCE" },
+                { "item": "by-and-large", "role": "INTRODUCE" },
+                { "item": "give-and-take", "role": "INTRODUCE" },
+                { "item": "safe-and-sound", "role": "INTRODUCE" },
+                { "item": "sick-and-tired", "role": "INTRODUCE" },
+                { "item": "idiomatic", "role": "INTRODUCE" },
+                { "item": "pros-and-cons", "role": "RECYCLE" },
+                { "item": "on-the-whole", "role": "RECYCLE" },
+                { "item": "i-cant-put-up-with", "role": "RECYCLE" },
+                { "item": "the-last-straw", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["sooner-or-later", "ups-and-downs", "by-and-large", "give-and-take", "safe-and-sound", "sick-and-tired", "idiomatic"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Cặp đôi không được đảo",
+                        "bodyVi": "Giống \"sớm muộn\", \"lên xuống\" trong tiếng Việt, tiếng Anh có những cặp từ luôn đi theo một thứ tự:\n\n| cặp | nghĩa | ví dụ |\n|---|---|---|\n| **sooner or later** | sớm muộn gì | **Sooner or later**, you'll have to tell her. |\n| **ups and downs** | lúc thăng lúc trầm | Every job has its **ups and downs**. |\n| **pros and cons** (B2 03) | mặt lợi và hại | Let's look at the **pros and cons**. |\n| **by and large** | nhìn chung (= **on the whole**) | **By and large**, it went well. |\n| **give and take** | có qua có lại | Marriage is all about **give and take**. |\n| **safe and sound** | bình an vô sự | They got home **safe and sound**. |\n| **sick and tired** of | phát ngán | I'm **sick and tired of** the noise. |\n\nsick and tired mạnh hơn I can't put up with… (B2 08) và thường đi trước the last straw khi kể chuyện.\n\nDùng đúng những cặp này làm câu nói của bạn nghe **idiomatic** (tự nhiên như người bản ngữ).\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| later or sooner | **sooner or later** |\n| cons and pros | **pros and cons** |\n| I'm sick and tired to wait. | I'm **sick and tired of waiting**. |\n\n❌ later or sooner ❌ sick and tired to wait ✅ **Sooner or later, I'll get sick and tired of waiting.**",
+                        "items": ["fixed-binomials", "sooner-or-later", "ups-and-downs", "by-and-large", "give-and-take", "safe-and-sound", "sick-and-tired", "idiomatic", "pros-and-cons", "on-the-whole", "i-cant-put-up-with", "the-last-straw"],
+                        "examples": [
+                            { "en": "Every relationship has its ups and downs.", "vi": "Mối quan hệ nào cũng có lúc thăng lúc trầm.", "highlight": "ups and downs" },
+                            { "en": "Sooner or later, you'll have to tell her the truth.", "vi": "Sớm muộn gì bạn cũng phải nói thật với cô ấy.", "highlight": "Sooner or later" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "sick-and-tired",
+                        "prompts": [
+                            { "cueVi": "Mình phát ngán tiếng ồn rồi.", "slots": { "doing": "the noise" }, "answer": "I'm sick and tired of the noise." },
+                            { "cueVi": "Mình phát ngán phải nghe mãi một kiểu lý do rồi.", "slots": { "doing": "hearing the same excuses" }, "answer": "I'm sick and tired of hearing the same excuses." },
+                            { "cueVi": "Mình phát ngán vụ ngày nào cũng làm muộn rồi.", "slots": { "doing": "working late every day" }, "answer": "I'm sick and tired of working late every day." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["sooner-or-later", "ups-and-downs", "by-and-large", "give-and-take", "safe-and-sound", "idiomatic", "on-the-whole"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "c1-04-the-last-straw", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["Later or sooner, you'll have to tell her.", "Sooner or later, you'll have to tell her.", "Soon or late, you'll have to tell her."],
+                                "answer": 1,
+                                "item": "fixed-binomials"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["I'm sick and tired to wait.", "I'm sick and tired for waiting.", "I'm sick and tired of waiting."],
+                                "answer": 2,
+                                "item": "sick-and-tired"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Every relationship has its ups and ___.",
+                                "hintVi": "lúc trầm",
+                                "answers": ["downs"],
+                                "item": "ups-and-downs"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "By and large, the new system works well.",
+                                "options": ["Hệ thống mới to và chạy tốt.", "Nhìn chung, hệ thống mới chạy tốt.", "Hệ thống mới chạy tốt ở nơi rộng."],
+                                "answer": 1,
+                                "item": "by-and-large"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Ở chung phòng là phải biết nhường nhịn nhau.",
+                                "answer": "Living with roommates is all about give and take.",
+                                "item": "give-and-take"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "c1-04-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Trong cuộc họp, bạn muốn kiểm tra mọi người đã thống nhất chưa:",
+                "options": ["Are we all on the same page?", "Are we all on the same paper?", "Are we all in one book?"],
+                "answer": 0,
+                "item": "on-the-same-page"
+            },
+            {
+                "kind": "gap",
+                "sentence": "I don't need the exact price. Just give me a ___ figure.",
+                "hintVi": "ước chừng",
+                "answers": ["ballpark"],
+                "item": "ballpark-figure"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Bạn bị mất việc, nhưng nhờ vậy tìm được việc tốt hơn. Bạn nói:",
+                "options": ["It was a blessing in disguise.", "It was the last straw.", "It cost an arm and a leg."],
+                "answer": 0,
+                "item": "blessing-in-disguise"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào nên dùng để nói ý \"ếch ngồi đáy giếng\"?",
+                "options": ["He is a frog in a well.", "He doesn't know much about the world outside.", "He sits in the bottom of well."],
+                "answer": 1,
+                "item": "idioms-and-vietnamese"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "After the storm, we were relieved to find everyone safe and sound.",
+                "options": ["Sau cơn bão, mình nhẹ cả người khi thấy mọi người bình an vô sự.", "Sau cơn bão, ai cũng nghe thấy âm thanh lạ.", "Sau cơn bão, mình tìm chỗ an toàn để trú."],
+                "answer": 0,
+                "item": "safe-and-sound"
+            },
+            {
+                "kind": "order",
+                "vi": "Mình gửi đề nghị rồi. Giờ đến lượt họ quyết.",
+                "answer": "We've sent our offer. The ball is in their court now.",
+                "item": "ball-in-your-court"
+            }
+        ]
+    }
+}
