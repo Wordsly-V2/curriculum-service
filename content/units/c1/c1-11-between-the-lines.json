@@ -1,0 +1,774 @@
+{
+    "slug": "c1-11-between-the-lines",
+    "stage": "c1",
+    "order": 11,
+    "title": "Reading between the lines",
+    "titleVi": "Hiểu hàm ý và giọng điệu",
+    "descriptionVi": "Hiểu điều người bản ngữ thật sự muốn nói: câu lịch sự mang nghĩa khác (I'll bear it in mind, With respect…, That's an interesting idea, You might want to…), mỉa mai và đùa (That's just what I needed, Don't tell me…, I'm only joking, Very funny, Are you pulling my leg?), và small talk tự nhiên bằng câu hỏi đuôi tìm đồng tình (It's freezing, isn't it?), Tell me about it, Can't complain, What brings you here?.",
+    "canDo": [
+        "Tôi hiểu được nghĩa thật của các câu lịch sự kiểu Anh (I'll bear it in mind, With respect…) và tự dùng được chúng khi cần từ chối hay phản đối khéo.",
+        "Tôi nhận ra được lời mỉa mai và lời đùa qua ngữ cảnh và giọng, và đáp lại tự nhiên.",
+        "Tôi bắt chuyện và duy trì được small talk bằng câu hỏi đuôi và các câu đáp quen thuộc của người bản ngữ."
+    ],
+    "items": [
+        {
+            "slug": "polite-code",
+            "type": "GRAMMAR",
+            "text": "câu lịch sự nói một đằng hiểu một nẻo: I'll bear it in mind, With respect…, I hear what you say, That's an interesting idea, You might want to…",
+            "meaningVi": "nghĩa thật của những câu nói giảm quen thuộc",
+            "examples": [
+                { "en": "Thanks for the suggestion. I'll bear it in mind.", "vi": "Cảm ơn góp ý. Tôi sẽ ghi nhận. (thường: chắc không làm đâu)", "highlight": "I'll bear it in mind" }
+            ],
+            "grammar": {
+                "ruleVi": "Người bản ngữ, nhất là người Anh, ít khi nói thẳng \"không\" hay \"bạn sai\". Họ dùng câu lịch sự, và người nghe phải hiểu nghĩa thật qua ngữ cảnh và giọng. Nguyên tắc: câu càng lịch sự và mơ hồ trong tình huống căng thẳng thì nghĩa thật càng tiêu cực. Người Việt cũng có lối nói tránh này (\"để em xem đã\"), nên khi nghe hãy hỏi: nếu họ đồng ý thật, họ có nói vậy không? Ngược lại, You might want to… nghe như gợi ý nhưng thường là yêu cầu thật. Người Mỹ thẳng hơn một chút, nhưng vẫn dùng các câu này.",
+                "forms": [
+                    { "label": "I'll bear it in mind.", "example": "= chắc tôi sẽ không làm." },
+                    { "label": "With respect, …", "example": "= tôi không đồng ý (khá mạnh)." },
+                    { "label": "I hear what you say.", "example": "= tôi không đồng ý, thôi đừng bàn nữa." },
+                    { "label": "That's an interesting idea.", "example": "= tôi không thích ý đó." },
+                    { "label": "You might want to…", "example": "= bạn nên làm ngay (yêu cầu)." }
+                ],
+                "pitfallsVi": [
+                    "Nghe \"I'll bear it in mind\" rồi chờ họ làm → hiểu đó thường là lời từ chối nhẹ.",
+                    "Nghĩ \"With respect\" là khen → đó là dấu hiệu sắp phản đối.",
+                    "\"I will bear it on my mind\" → I'll bear it in mind."
+                ]
+            }
+        },
+        {
+            "slug": "ill-bear-it-in-mind",
+            "type": "PHRASE",
+            "text": "I'll bear it in mind.",
+            "meaningVi": "Tôi sẽ ghi nhận / cân nhắc.",
+            "examples": [
+                { "en": "Thanks for the suggestion. I'll bear it in mind.", "vi": "Cảm ơn góp ý. Tôi sẽ ghi nhận.", "highlight": "I'll bear it in mind" }
+            ],
+            "noteVi": "Có thể là thật (sẽ nhớ để sau này cân nhắc), nhưng khi nói ngắn, không hỏi thêm, thường là từ chối lịch sự. Kiểu Mỹ hay nói I'll keep that in mind. ❌ bear it on mind."
+        },
+        {
+            "slug": "with-respect",
+            "type": "PATTERN",
+            "text": "With respect, ….",
+            "meaningVi": "Xin phép được nói thẳng, … (tôi không đồng ý)",
+            "examples": [
+                { "en": "With respect, I don't think that's the real problem.", "vi": "Xin phép nói thẳng, tôi không nghĩ đó là vấn đề thật sự.", "highlight": "With respect" }
+            ],
+            "pattern": {
+                "template": "With respect, {opinion}.",
+                "slots": [
+                    { "name": "opinion", "hintVi": "ý phản đối (mệnh đề)", "options": ["I don't think that's the real problem", "the numbers tell a different story", "I think we're missing the point", "that isn't what the client asked for", "I can't agree with that"] }
+                ]
+            },
+            "noteVi": "Nghe lịch sự nhưng báo hiệu phản đối. With all due respect còn mạnh hơn, có khi gần như bực. Dùng với sếp hay người lớn tuổi hơn khi buộc phải phản đối."
+        },
+        {
+            "slug": "you-might-want-to",
+            "type": "PATTERN",
+            "text": "You might want to ….",
+            "meaningVi": "Bạn nên … (thật ra là yêu cầu)",
+            "examples": [
+                { "en": "You might want to check the figures before you send it.", "vi": "Bạn nên kiểm tra lại số liệu trước khi gửi.", "highlight": "You might want to" }
+            ],
+            "pattern": {
+                "template": "You might want to {do}.",
+                "slots": [
+                    { "name": "do", "hintVi": "V nguyên mẫu", "options": ["check the figures before you send it", "call the client back today", "take another look at page three", "leave a bit earlier tomorrow", "talk to the manager first"] }
+                ]
+            },
+            "noteVi": "Nghe như gợi ý, nhưng từ sếp hay đồng nghiệp lâu năm thì gần như là \"hãy làm đi\". Thường có nghĩa: có vấn đề ở đây. Nối tiếp tactful-feedback (C1 08)."
+        },
+        {
+            "slug": "i-hear-what-you-say",
+            "type": "PHRASE",
+            "text": "I hear what you say.",
+            "meaningVi": "Tôi hiểu ý bạn (nhưng không đồng ý).",
+            "examples": [
+                { "en": "I hear what you say, but we're going ahead with the plan.", "vi": "Tôi hiểu ý bạn, nhưng chúng ta vẫn làm theo kế hoạch.", "highlight": "I hear what you say" }
+            ],
+            "noteVi": "Kiểu Anh: công nhận là đã nghe, nhưng không đổi ý và muốn kết thúc cuộc tranh luận. Khác I see your point (B2 03), vốn công nhận ý kia có lý. Kiểu Mỹ I hear you có thể là đồng cảm thật."
+        },
+        {
+            "slug": "thats-an-interesting-idea",
+            "type": "PHRASE",
+            "text": "That's an interesting idea.",
+            "meaningVi": "Ý đó thú vị đấy. (thường: tôi không thích lắm)",
+            "examples": [
+                { "en": "Hmm, that's an interesting idea. Let's come back to it later.", "vi": "Hừm, ý đó thú vị đấy. Để sau hẵng bàn.", "highlight": "that's an interesting idea" }
+            ],
+            "noteVi": "Nếu người nói hào hứng hỏi thêm thì là khen thật. Nếu đi kèm Let's come back to it later hay im lặng thì nghĩa là không. Đọc giọng và câu tiếp theo."
+        },
+        {
+            "slug": "read-between-the-lines",
+            "type": "PHRASE",
+            "text": "read between the lines",
+            "meaningVi": "hiểu ẩn ý, đọc được ý ngầm",
+            "examples": [
+                { "en": "She said the plan was \"brave\". Reading between the lines, she thinks it's too risky.", "vi": "Chị ấy bảo kế hoạch \"táo bạo\". Hiểu ý ngầm thì chị ấy thấy nó quá rủi ro.", "highlight": "Reading between the lines" }
+            ],
+            "noteVi": "Dùng cả cho lời nói, email, thông báo. Người bản ngữ cũng dùng từ brave (táo bạo) để nói một ý là liều."
+        },
+        {
+            "slug": "imply",
+            "type": "LEXICAL",
+            "text": "imply",
+            "meaningVi": "ngụ ý, ám chỉ",
+            "ipa": "/ɪmˈplaɪ/",
+            "examples": [
+                { "en": "Are you implying that I made a mistake?", "vi": "Bạn đang ám chỉ là tôi làm sai à?", "highlight": "implying" }
+            ],
+            "noteVi": "Người nói imply (ngụ ý), người nghe infer (suy ra). Danh từ: implication. Are you implying…? nghe hơi phật ý."
+        },
+        {
+            "slug": "sarcasm-irony",
+            "type": "GRAMMAR",
+            "text": "mỉa mai: nói ngược ý bằng giọng (Oh, great., That's just what I needed., Lovely weather!) và đùa (I'm only joking, Very funny)",
+            "meaningVi": "nhận ra và đáp lại lời mỉa mai, lời đùa",
+            "examples": [
+                { "en": "The printer's broken again. That's just what I needed.", "vi": "Máy in lại hỏng. Đúng thứ mình cần đây (mỉa mai).", "highlight": "That's just what I needed" }
+            ],
+            "grammar": {
+                "ruleVi": "Người Anh, Úc và nhiều người Mỹ dùng mỉa mai rất thường xuyên, kể cả với người mới quen, để đùa về chuyện xui (trời mưa, xe trễ, máy hỏng). Dấu hiệu: lời khen trong tình huống xấu (Lovely weather! khi đang mưa), giọng đều hoặc kéo dài (Oh, grea-a-at), mặt không cười. Cách đáp: đùa lại theo cùng giọng (Tell me about it / I know, perfect timing), không giải thích là trời đang mưa. Khi bị trêu: Very funny. Khi mình đùa và người kia tưởng thật: I'm only joking. Tránh mỉa mai trong email và với người chưa quen văn hóa này: không có giọng, dễ thành passive-aggressive (C1 07).",
+                "forms": [
+                    { "label": "chuyện xui", "example": "Oh, great. That's just what I needed." },
+                    { "label": "thời tiết xấu", "example": "Lovely weather, isn't it? (trời đang mưa)" },
+                    { "label": "đoán tin xấu", "example": "Don't tell me the train's late again." },
+                    { "label": "mình đùa", "example": "I'm only joking!" },
+                    { "label": "bị trêu", "example": "Very funny. / Are you pulling my leg?" }
+                ],
+                "pitfallsVi": [
+                    "Đáp \"No, it's raining!\" khi nghe \"Lovely weather!\" → Tell me about it! / I know, perfect beach weather.",
+                    "\"Are you joke me?\" → Are you joking? / You're kidding! / Are you pulling my leg?",
+                    "\"I'm just joke\" → I'm only joking. / Just kidding."
+                ]
+            }
+        },
+        {
+            "slug": "just-what-i-needed",
+            "type": "PHRASE",
+            "text": "That's just what I needed.",
+            "meaningVi": "Đúng thứ mình cần đây. (mỉa mai: chán quá)",
+            "examples": [
+                { "en": "It's raining and I forgot my umbrella. That's just what I needed.", "vi": "Trời mưa mà mình quên ô. Đúng thứ mình cần đây.", "highlight": "That's just what I needed" }
+            ],
+            "noteVi": "Có thể là thật (được mời cà phê khi đang mệt), nhưng sau một chuyện xui thì là mỉa mai. Tương tự: Oh, great. / Perfect. / Brilliant. với giọng đều."
+        },
+        {
+            "slug": "im-only-joking",
+            "type": "PHRASE",
+            "text": "I'm only joking.",
+            "meaningVi": "Mình đùa thôi.",
+            "examples": [
+                { "en": "Relax, I'm only joking. The meeting is still on Friday.", "vi": "Bình tĩnh, mình đùa thôi. Cuộc họp vẫn vào thứ Sáu.", "highlight": "I'm only joking" }
+            ],
+            "noteVi": "Thân mật hơn: Just kidding! Nói ngay khi thấy người kia tưởng thật. ❌ I'm just joke."
+        },
+        {
+            "slug": "very-funny",
+            "type": "PHRASE",
+            "text": "Very funny.",
+            "meaningVi": "Hài lắm. (khi bị trêu, không thấy buồn cười)",
+            "examples": [
+                { "en": "Very funny. For a second I thought you were serious.", "vi": "Hài lắm. Mình tưởng bạn nói thật đấy.", "highlight": "Very funny" }
+            ],
+            "noteVi": "Nói với giọng đều, hơi cười: không phải khen mà là \"thôi đừng trêu nữa\". Khen thật thì: That's hilarious! (A2 11: funny)."
+        },
+        {
+            "slug": "pulling-my-leg",
+            "type": "PHRASE",
+            "text": "Are you pulling my leg?",
+            "meaningVi": "Bạn đang trêu mình à?",
+            "examples": [
+                { "en": "The coffee machine is broken too? Are you pulling my leg?", "vi": "Máy cà phê cũng hỏng à? Bạn đang trêu mình à?", "highlight": "pulling my leg" }
+            ],
+            "noteVi": "pull someone's leg = trêu ai bằng cách nói điều không thật. Không liên quan đến chân. Tương tự: Are you kidding me? / You're joking!"
+        },
+        {
+            "slug": "dont-tell-me",
+            "type": "PATTERN",
+            "text": "Don't tell me ….",
+            "meaningVi": "Đừng bảo là … nhé. (đoán tin xấu)",
+            "examples": [
+                { "en": "Don't tell me the train's late again.", "vi": "Đừng bảo là tàu lại trễ nữa nhé.", "highlight": "Don't tell me" }
+            ],
+            "pattern": {
+                "template": "Don't tell me {news}.",
+                "slots": [
+                    { "name": "news", "hintVi": "tin xấu mình đoán (mệnh đề)", "options": ["the train's late again", "you forgot the tickets", "she's moved the deadline again", "it's raining again", "the printer's broken"] }
+                ]
+            },
+            "noteVi": "Không phải \"đừng kể\" mà là \"mình đoán ra rồi, đừng có mà…\". Nửa đùa, nửa than. Hay đi với again."
+        },
+        {
+            "slug": "sarcastic",
+            "type": "LEXICAL",
+            "text": "sarcastic",
+            "meaningVi": "mỉa mai, châm biếm",
+            "ipa": "/sɑːrˈkæstɪk/",
+            "examples": [
+                { "en": "Don't worry, I'm just being sarcastic.", "vi": "Đừng lo, mình chỉ mỉa mai thôi.", "highlight": "sarcastic" }
+            ],
+            "noteVi": "Danh từ: sarcasm /ˈsɑːrkæzəm/. Người Anh coi mỉa mai nhẹ là thân thiện; nhưng a sarcastic comment về người khác thì là chê. Nối tiếp tone (C1 07)."
+        },
+        {
+            "slug": "sense-of-humor",
+            "type": "PHRASE",
+            "text": "a sense of humor",
+            "meaningVi": "óc hài hước",
+            "examples": [
+                { "en": "At least you've still got your sense of humor.", "vi": "Ít ra bạn vẫn còn giữ được óc hài hước.", "highlight": "sense of humor" }
+            ],
+            "noteVi": "have a good / great sense of humor, no sense of humor. Kiểu Anh viết humour. ❌ humor sense, funny sense."
+        },
+        {
+            "slug": "tag-questions",
+            "type": "GRAMMAR",
+            "text": "câu hỏi đuôi tìm đồng tình: It's freezing, isn't it? You've been here before, haven't you?",
+            "meaningVi": "dùng câu hỏi đuôi để bắt chuyện và mời người kia đồng ý",
+            "examples": [
+                { "en": "It's freezing today, isn't it?", "vi": "Hôm nay lạnh cóng nhỉ?", "highlight": "isn't it" }
+            ],
+            "grammar": {
+                "ruleVi": "Câu hỏi đuôi xuống giọng không phải để hỏi mà để mời người kia đồng ý, như \"nhỉ\", \"ha\" trong tiếng Việt, nên rất hợp khi bắt chuyện. Cách làm: lấy trợ động từ của câu chính, đổi khẳng định ↔ phủ định, dùng đại từ. It's… → isn't it?; You've… → haven't you?; You work… → don't you?; They didn't… → did they?; I'm… → aren't I?; Let's… → shall we?. Lên giọng ở đuôi thì là hỏi thật (không chắc). Người đáp thường đồng ý và nói thêm: Tell me about it. / It is, isn't it? / Yes, I have. It's my third time.",
+                "forms": [
+                    { "label": "be", "example": "It's a great venue, isn't it?" },
+                    { "label": "hiện tại hoàn thành", "example": "You've been here before, haven't you?" },
+                    { "label": "hiện tại đơn", "example": "You work with Tom, don't you?" },
+                    { "label": "phủ định → khẳng định", "example": "It isn't very warm, is it?" },
+                    { "label": "đặc biệt", "example": "I'm late, aren't I? / Let's go, shall we?" }
+                ],
+                "pitfallsVi": [
+                    "\"You've been here before, isn't it?\" → …, haven't you? (đuôi theo trợ động từ, không phải lúc nào cũng isn't it).",
+                    "\"It's cold, isn't?\" → It's cold, isn't it? (có đại từ).",
+                    "\"I'm late, amn't I?\" → I'm late, aren't I?"
+                ]
+            }
+        },
+        {
+            "slug": "isnt-it",
+            "type": "PATTERN",
+            "text": "It's …, isn't it?",
+            "meaningVi": "… nhỉ?",
+            "examples": [
+                { "en": "It's a great venue, isn't it?", "vi": "Địa điểm tuyệt nhỉ?", "highlight": "isn't it?" }
+            ],
+            "pattern": {
+                "template": "It's {comment}, isn't it?",
+                "slots": [
+                    { "name": "comment", "hintVi": "nhận xét về thứ cả hai cùng thấy", "options": ["freezing today", "a great venue", "really busy tonight", "a long way from the city", "terrible coffee"] }
+                ]
+            },
+            "noteVi": "Câu mở đầu small talk kinh điển: nhận xét về thứ cả hai đang thấy (thời tiết, chỗ, đồ ăn). Xuống giọng ở cuối."
+        },
+        {
+            "slug": "havent-you",
+            "type": "PATTERN",
+            "text": "You've … before, haven't you?",
+            "meaningVi": "Bạn … trước đây rồi phải không?",
+            "examples": [
+                { "en": "You've been to this conference before, haven't you?", "vi": "Bạn đến hội thảo này rồi phải không?", "highlight": "haven't you?" }
+            ],
+            "pattern": {
+                "template": "You've {done} before, haven't you?",
+                "slots": [
+                    { "name": "done", "hintVi": "V3 (+ nơi / việc)", "options": ["been to this conference", "worked with Tom", "tried this dish", "met my manager", "given a talk here"] }
+                ]
+            },
+            "noteVi": "Dùng khi đoán gần chắc, để người kia kể thêm. Đuôi theo trợ động từ have: You've… → haven't you?; You went… → didn't you?"
+        },
+        {
+            "slug": "tell-me-about-it",
+            "type": "PHRASE",
+            "text": "Tell me about it.",
+            "meaningVi": "Còn phải nói! / Đúng thế thật.",
+            "examples": [
+                { "en": "This queue is so long! — Tell me about it. I've been here for half an hour.", "vi": "Hàng dài quá! — Còn phải nói. Mình đứng đây nửa tiếng rồi.", "highlight": "Tell me about it" }
+            ],
+            "noteVi": "Không phải \"kể cho tôi nghe đi\" mà là đồng ý mạnh về chuyện khó chịu. Giọng xuống, thường kèm một câu than thêm."
+        },
+        {
+            "slug": "cant-complain",
+            "type": "PHRASE",
+            "text": "Can't complain.",
+            "meaningVi": "Cũng ổn. / Không có gì phải than.",
+            "examples": [
+                { "en": "How's business? — Can't complain. It's been a busy year.", "vi": "Làm ăn thế nào? — Cũng ổn. Năm nay bận rộn.", "highlight": "Can't complain" }
+            ],
+            "noteVi": "Đáp How are you? / How's work? kiểu khiêm tốn, nghĩa là khá tốt. Kiểu Anh cũng nói: Mustn't grumble. Nối tiếp complain (B1 09)."
+        },
+        {
+            "slug": "what-brings-you-here",
+            "type": "PHRASE",
+            "text": "So, what brings you here?",
+            "meaningVi": "Thế bạn đến đây vì việc gì?",
+            "examples": [
+                { "en": "So, what brings you here? Are you giving a talk?", "vi": "Thế bạn đến đây vì việc gì? Bạn có thuyết trình không?", "highlight": "what brings you here" }
+            ],
+            "noteVi": "Câu hỏi mở tự nhiên ở hội thảo, tiệc, chuyến du lịch. Lịch sự hơn Why are you here? (nghe như chất vấn)."
+        },
+        {
+            "slug": "small-talk",
+            "type": "PHRASE",
+            "text": "small talk",
+            "meaningVi": "chuyện phiếm xã giao",
+            "examples": [
+                { "en": "I'm not very good at small talk, but I'm getting better.", "vi": "Mình không giỏi nói chuyện xã giao lắm, nhưng đang khá hơn.", "highlight": "small talk" }
+            ],
+            "noteVi": "make small talk (không phải do / say). Chủ đề an toàn: thời tiết, chuyến đi, đồ ăn, công việc chung chung. Tránh: lương, tuổi, cân nặng, tôn giáo."
+        },
+        {
+            "slug": "awkward",
+            "type": "LEXICAL",
+            "text": "awkward",
+            "meaningVi": "ngượng ngùng, khó xử",
+            "ipa": "/ˈɔːkwərd/",
+            "examples": [
+                { "en": "There was an awkward silence after his joke.", "vi": "Sau câu đùa của anh ấy là một khoảng im lặng ngượng ngùng.", "highlight": "awkward" }
+            ],
+            "noteVi": "an awkward silence / moment / question. Nói chuyện: That's awkward! (khó xử quá). Small talk giúp tránh im lặng khó xử."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "c1-11-rainy-monday",
+            "title": "That's just what I needed",
+            "situationVi": "Sáng thứ Hai trời mưa, bạn đến văn phòng muộn và ướt sũng. Jack, đồng nghiệp người Anh, rất hay đùa.",
+            "lines": [
+                { "speaker": "Jack", "en": "Morning! Lovely weather, isn't it?", "vi": "Chào buổi sáng! Thời tiết đẹp nhỉ? (mỉa mai)" },
+                { "speaker": "You", "en": "Oh, lovely. And the printer's broken again. That's just what I needed on a Monday.", "vi": "Ôi, đẹp lắm. Máy in lại hỏng nữa. Đúng thứ mình cần vào sáng thứ Hai.", "learnerTurn": true },
+                { "speaker": "Jack", "en": "Well, I've got some news. The boss wants the report today instead of Friday.", "vi": "Mình có tin này. Sếp muốn có báo cáo hôm nay chứ không phải thứ Sáu." },
+                { "speaker": "You", "en": "Don't tell me she's moved the deadline again!", "vi": "Đừng bảo là chị ấy lại dời hạn chót nữa nhé!", "learnerTurn": true },
+                { "speaker": "Jack", "en": "Relax, I'm only joking. It's still Friday.", "vi": "Bình tĩnh, mình đùa thôi. Vẫn là thứ Sáu." },
+                { "speaker": "You", "en": "Very funny. For a second I thought you were serious.", "vi": "Hài lắm. Mình tưởng bạn nói thật đấy.", "learnerTurn": true },
+                { "speaker": "Jack", "en": "Sorry. Seriously, though, the coffee machine is broken too.", "vi": "Xin lỗi. Nhưng nói thật, máy cà phê cũng hỏng rồi." },
+                { "speaker": "You", "en": "Now you're pulling my leg, right?", "vi": "Giờ thì bạn đang trêu mình, đúng không?", "learnerTurn": true },
+                { "speaker": "Jack", "en": "No, that one's true. Sorry! I'm not being sarcastic this time.", "vi": "Không, cái đó là thật. Xin lỗi! Lần này mình không mỉa mai đâu." },
+                { "speaker": "You", "en": "Well, at least you've still got your sense of humor. I'm going to need one today.", "vi": "Ít ra bạn vẫn còn óc hài hước. Hôm nay mình sẽ cần nó đấy.", "learnerTurn": true }
+            ]
+        },
+        {
+            "slug": "c1-11-conference-coffee",
+            "title": "Terrible coffee, isn't it?",
+            "situationVi": "Giờ nghỉ giải lao ở một hội thảo quốc tế. Bạn đứng xếp hàng lấy cà phê cạnh Emma, một người Anh bạn chưa quen.",
+            "lines": [
+                { "speaker": "Emma", "en": "Terrible coffee, isn't it?", "vi": "Cà phê dở nhỉ?" },
+                { "speaker": "You", "en": "Tell me about it. I think I need a second cup just to stay awake.", "vi": "Còn phải nói. Chắc phải thêm ly nữa mới tỉnh được.", "learnerTurn": true },
+                { "speaker": "Emma", "en": "Ha! I'm Emma, by the way. I work for a design agency in London.", "vi": "Ha! Nhân tiện, mình là Emma. Mình làm cho một công ty thiết kế ở London." },
+                { "speaker": "You", "en": "Nice to meet you. So, what brings you here? You've been to this conference before, haven't you?", "vi": "Rất vui được gặp. Thế bạn đến đây vì việc gì? Bạn đến hội thảo này rồi phải không?", "learnerTurn": true },
+                { "speaker": "Emma", "en": "Yes, this is my third time. How about you?", "vi": "Ừ, lần thứ ba rồi. Còn bạn?" },
+                { "speaker": "You", "en": "It's my first. It's a great venue, isn't it? Much bigger than I expected.", "vi": "Lần đầu. Địa điểm tuyệt nhỉ? Lớn hơn mình tưởng nhiều.", "learnerTurn": true },
+                { "speaker": "Emma", "en": "It is. So, how's business?", "vi": "Đúng vậy. Công việc thế nào?" },
+                { "speaker": "You", "en": "Can't complain. It's been a busy year.", "vi": "Cũng ổn. Năm nay bận rộn.", "learnerTurn": true },
+                { "speaker": "Emma", "en": "Well, I should get back. The next talk is about to start.", "vi": "Thôi, mình phải quay lại. Bài nói tiếp theo sắp bắt đầu." },
+                { "speaker": "You", "en": "Of course. It was lovely chatting. Let's keep in touch.", "vi": "Ừ. Nói chuyện vui lắm. Giữ liên lạc nhé.", "learnerTurn": true }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "c1-11-l1-what-they-really-mean",
+            "title": "I'll bear it in mind",
+            "titleVi": "Nghĩa thật của câu lịch sự",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "polite-code", "role": "INTRODUCE" },
+                { "item": "ill-bear-it-in-mind", "role": "INTRODUCE" },
+                { "item": "with-respect", "role": "INTRODUCE" },
+                { "item": "you-might-want-to", "role": "INTRODUCE" },
+                { "item": "i-hear-what-you-say", "role": "INTRODUCE" },
+                { "item": "thats-an-interesting-idea", "role": "INTRODUCE" },
+                { "item": "read-between-the-lines", "role": "INTRODUCE" },
+                { "item": "imply", "role": "INTRODUCE" },
+                { "item": "understatement", "role": "RECYCLE" },
+                { "item": "hedging", "role": "RECYCLE" },
+                { "item": "not-particularly", "role": "RECYCLE" },
+                { "item": "im-not-entirely-convinced", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["ill-bear-it-in-mind", "with-respect", "you-might-want-to", "i-hear-what-you-say", "thats-an-interesting-idea", "read-between-the-lines", "imply"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Họ nói gì, họ nghĩ gì",
+                        "bodyVi": "Ở C1 01 bạn đã học **understatement** và **hedging** để nói giảm. Giờ là chiều ngược lại: nghe ra ý thật khi người khác nói giảm. Phải **read between the lines**:\n\n| họ nói | nghe như | thật ra thường là |\n|---|---|---|\n| **I'll bear it in mind.** | tôi sẽ nhớ | chắc không làm đâu |\n| **With respect, …** | tôi tôn trọng bạn | tôi không đồng ý |\n| **I hear what you say.** | tôi hiểu | tôi không đổi ý, thôi bàn |\n| **That's an interesting idea.** | ý hay | tôi không thích |\n| **You might want to** check that. | gợi ý thôi | kiểm tra ngay đi, có lỗi |\n| It's **not particularly** good. (C1 01) | không đặc biệt lắm | khá tệ |\n| **I'm not entirely convinced.** (C1 01) | chưa hẳn tin | tôi không đồng ý |\n\nKhông phải lúc nào cũng vậy: xem giọng, nét mặt và câu tiếp theo. Nếu họ hào hứng hỏi thêm thì là thật. Người nói **imply**, người nghe infer.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| (nghe \"I'll bear it in mind\") Great, thank you! When will you do it? | (hiểu đó là \"không\", đổi cách đề xuất) |\n| You're wrong. | **With respect**, I don't think that's right. |\n| I will bear it on my mind. | **I'll bear it in mind.** |\n\n❌ bear it on mind ❌ nghĩ \"With respect\" là khen ✅ **She said \"That's an interesting idea\" and changed the subject. Reading between the lines, it's a no.**",
+                        "items": ["polite-code", "ill-bear-it-in-mind", "with-respect", "you-might-want-to", "i-hear-what-you-say", "thats-an-interesting-idea", "read-between-the-lines", "imply", "understatement", "hedging", "not-particularly", "im-not-entirely-convinced"],
+                        "examples": [
+                            { "en": "Thanks for the suggestion. I'll bear it in mind.", "vi": "Cảm ơn góp ý. Tôi sẽ ghi nhận.", "highlight": "I'll bear it in mind" },
+                            { "en": "With respect, I don't think that's the real problem.", "vi": "Xin phép nói thẳng, tôi không nghĩ đó là vấn đề thật sự.", "highlight": "With respect" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "with-respect",
+                        "prompts": [
+                            { "cueVi": "Xin phép nói thẳng, số liệu cho thấy điều khác.", "slots": { "opinion": "the numbers tell a different story" }, "answer": "With respect, the numbers tell a different story." },
+                            { "cueVi": "Xin phép nói thẳng, đó không phải điều khách hàng yêu cầu.", "slots": { "opinion": "that isn't what the client asked for" }, "answer": "With respect, that isn't what the client asked for." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "you-might-want-to",
+                        "prompts": [
+                            { "cueVi": "Bạn nên gọi lại cho khách hôm nay.", "slots": { "do": "call the client back today" }, "answer": "You might want to call the client back today." },
+                            { "cueVi": "Bạn nên xem lại trang ba.", "slots": { "do": "take another look at page three" }, "answer": "You might want to take another look at page three." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["ill-bear-it-in-mind", "i-hear-what-you-say", "thats-an-interesting-idea", "read-between-the-lines", "imply", "im-not-entirely-convinced"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "Thanks for the suggestion. I'll bear it in mind.", "vi": "Cảm ơn góp ý. Tôi sẽ ghi nhận." },
+                            { "en": "With respect, I don't think that's the real problem.", "vi": "Xin phép nói thẳng, tôi không nghĩ đó là vấn đề thật sự." },
+                            { "en": "You might want to check the figures before you send it.", "vi": "Bạn nên kiểm tra lại số liệu trước khi gửi." },
+                            { "en": "I hear what you say, but we're going ahead with the plan.", "vi": "Tôi hiểu ý bạn, nhưng chúng ta vẫn làm theo kế hoạch." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn đề xuất một ý, sếp người Anh đáp ngắn: \"I'll bear it in mind.\" rồi chuyển chủ đề. Nghĩa thật thường là:",
+                                "options": ["Sếp sẽ làm ngay.", "Sếp rất thích ý đó.", "Chắc sếp sẽ không làm."],
+                                "answer": 2,
+                                "item": "polite-code"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Đồng nghiệp lâu năm nói: \"You might want to check the figures.\" Bạn nên:",
+                                "options": ["Kiểm tra số liệu ngay, có thể có lỗi.", "Bỏ qua, đó chỉ là gợi ý.", "Hỏi họ có muốn kiểm tra không."],
+                                "answer": 0,
+                                "item": "you-might-want-to"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Are you ___ that I made a mistake?",
+                                "hintVi": "ám chỉ (V-ing)",
+                                "answers": ["implying"],
+                                "item": "imply"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "I hear what you say, but we're going ahead with the plan.",
+                                "options": ["Tôi không nghe rõ, bạn nói lại được không?", "Tôi hiểu ý bạn, nhưng chúng ta vẫn làm theo kế hoạch.", "Tôi đồng ý, chúng ta đổi kế hoạch."],
+                                "answer": 1,
+                                "item": "i-hear-what-you-say"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Xin phép nói thẳng, tôi không nghĩ đó là vấn đề thật sự.",
+                                "answer": "With respect, I don't think that's the real problem.",
+                                "item": "with-respect"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "c1-11-l2-sarcasm",
+            "title": "That's just what I needed",
+            "titleVi": "Mỉa mai và đùa",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "sarcasm-irony", "role": "INTRODUCE" },
+                { "item": "just-what-i-needed", "role": "INTRODUCE" },
+                { "item": "im-only-joking", "role": "INTRODUCE" },
+                { "item": "very-funny", "role": "INTRODUCE" },
+                { "item": "pulling-my-leg", "role": "INTRODUCE" },
+                { "item": "dont-tell-me", "role": "INTRODUCE" },
+                { "item": "sarcastic", "role": "INTRODUCE" },
+                { "item": "sense-of-humor", "role": "INTRODUCE" },
+                { "item": "tone", "role": "RECYCLE" },
+                { "item": "passive-aggressive", "role": "RECYCLE" },
+                { "item": "funny", "role": "RECYCLE" },
+                { "item": "blunt", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["just-what-i-needed", "im-only-joking", "very-funny", "pulling-my-leg", "dont-tell-me", "sarcastic", "sense-of-humor"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Nghe giọng, đừng nghe chữ",
+                        "bodyVi": "Người Anh, Úc và nhiều người Mỹ hay mỉa mai về chuyện xui, kể cả với người mới quen. Chữ thì tích cực, **tone** thì đều hoặc kéo dài, mặt không cười:\n\n| tình huống | họ nói | nghĩa thật |\n|---|---|---|\n| trời mưa to | Lovely weather! | thời tiết tệ quá |\n| máy in hỏng | Oh, great. **That's just what I needed.** | chán thật |\n| đoán tin xấu | **Don't tell me** the train's late again. | chắc lại trễ rồi |\n| mình đùa, họ tưởng thật | **I'm only joking.** / Just kidding. | mình đùa thôi |\n| bị trêu | **Very funny.** | thôi đừng trêu nữa |\n| nghi bị trêu | **Are you pulling my leg?** | bạn đùa à? |\n\nCách đáp mỉa mai: đùa lại cùng giọng (I know, perfect beach weather!), không sửa lời họ. Người có **sense of humor** thì đùa được cả chuyện của mình. Tránh **sarcastic** trong email và với người không quen kiểu đùa này: không có giọng, dễ thành **passive-aggressive** hoặc **blunt** (C1 07). Khen thật thì: That's so **funny**! / hilarious!\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| (nghe \"Lovely weather!\") No, it's raining! | **Tell me about it!** / I know, perfect beach weather. |\n| Are you joke me? | **Are you pulling my leg?** / You're kidding! |\n| I'm just joke. | **I'm only joking.** |\n\n❌ Are you joke me? ❌ I'm just joke ✅ **Don't tell me the printer's broken again. That's just what I needed!**",
+                        "items": ["sarcasm-irony", "just-what-i-needed", "im-only-joking", "very-funny", "pulling-my-leg", "dont-tell-me", "sarcastic", "sense-of-humor", "tone", "passive-aggressive", "funny", "blunt"],
+                        "examples": [
+                            { "en": "The printer's broken again. That's just what I needed.", "vi": "Máy in lại hỏng. Đúng thứ mình cần đây (mỉa mai).", "highlight": "That's just what I needed" },
+                            { "en": "Relax, I'm only joking. The meeting is still on Friday.", "vi": "Bình tĩnh, mình đùa thôi. Cuộc họp vẫn vào thứ Sáu.", "highlight": "I'm only joking" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "dont-tell-me",
+                        "prompts": [
+                            { "cueVi": "Đừng bảo là bạn quên vé nhé.", "slots": { "news": "you forgot the tickets" }, "answer": "Don't tell me you forgot the tickets." },
+                            { "cueVi": "Đừng bảo là trời lại mưa nữa nhé.", "slots": { "news": "it's raining again" }, "answer": "Don't tell me it's raining again." },
+                            { "cueVi": "Đừng bảo là máy in hỏng nhé.", "slots": { "news": "the printer's broken" }, "answer": "Don't tell me the printer's broken." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["just-what-i-needed", "im-only-joking", "very-funny", "pulling-my-leg", "sarcastic", "sense-of-humor"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "c1-11-rainy-monday", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Trời mưa như trút, đồng nghiệp người Anh nói: \"Lovely weather, isn't it?\" Bạn đáp:",
+                                "options": ["No, it's raining a lot!", "Tell me about it. Perfect beach weather.", "Yes, it's very beautiful today."],
+                                "answer": 1,
+                                "item": "sarcasm-irony"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn trêu bạn mình và thấy họ tưởng thật. Bạn nói:",
+                                "options": ["I'm just joke.", "I'm only joking.", "I joked you."],
+                                "answer": 1,
+                                "item": "im-only-joking"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Are you pulling my ___?",
+                                "hintVi": "(trêu) chân",
+                                "answers": ["leg"],
+                                "item": "pulling-my-leg"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "It's raining and I forgot my umbrella. That's just what I needed.",
+                                "options": ["Trời mưa mà mình quên ô. Chán thật.", "Trời mưa, may mà mình cần ô.", "Mình cần trời mưa để thử ô mới."],
+                                "answer": 0,
+                                "item": "just-what-i-needed"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Đừng bảo là tàu lại trễ nữa nhé.",
+                                "answer": "Don't tell me the train's late again.",
+                                "item": "dont-tell-me"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "c1-11-l3-small-talk",
+            "title": "Terrible coffee, isn't it?",
+            "titleVi": "Small talk tự nhiên",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "tag-questions", "role": "INTRODUCE" },
+                { "item": "isnt-it", "role": "INTRODUCE" },
+                { "item": "havent-you", "role": "INTRODUCE" },
+                { "item": "tell-me-about-it", "role": "INTRODUCE" },
+                { "item": "cant-complain", "role": "INTRODUCE" },
+                { "item": "what-brings-you-here", "role": "INTRODUCE" },
+                { "item": "small-talk", "role": "INTRODUCE" },
+                { "item": "awkward", "role": "INTRODUCE" },
+                { "item": "weather", "role": "RECYCLE" },
+                { "item": "catch-up-with", "role": "RECYCLE" },
+                { "item": "keep-in-touch", "role": "RECYCLE" },
+                { "item": "sarcastic", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["isnt-it", "havent-you", "tell-me-about-it", "cant-complain", "what-brings-you-here", "small-talk", "awkward"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Câu hỏi đuôi là chữ \"nhỉ\"",
+                        "bodyVi": "**small talk** bắt đầu bằng một nhận xét về thứ cả hai cùng thấy (**weather**, chỗ, đồ ăn), gắn đuôi để mời người kia đồng ý, giống \"nhỉ\", \"ha\":\n\n| câu chính | đuôi |\n|---|---|\n| It's a great venue, | **isn't it?** |\n| You've been here before, | **haven't you?** |\n| You work with Tom, | **don't you?** |\n| It isn't very warm, | **is it?** |\n| I'm a bit early, | **aren't I?** |\n\nĐuôi theo trợ động từ của câu chính, không phải lúc nào cũng isn't it. Xuống giọng = mời đồng ý; lên giọng = hỏi thật.\n\nCâu đáp quen thuộc:\n\n| họ nói | bạn đáp |\n|---|---|\n| This queue is so long! | **Tell me about it.** (đồng ý mạnh) |\n| How's work? | **Can't complain.** (khá ổn) |\n| (ở hội thảo, tiệc) | **So, what brings you here?** |\n| (kết thúc) | Let's **keep in touch**. / We should **catch up** soon. |\n\nsmall talk giúp tránh im lặng **awkward**. Mỉa mai nhẹ về thời tiết (**sarcastic**) là small talk rất Anh.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| You've been here before, isn't it? | You've been here before, **haven't you?** |\n| Why are you here? | **So, what brings you here?** |\n| (được hỏi How's work?) Work is very stressful, my boss… | **Can't complain.** It's been a busy year. |\n\n❌ …, isn't it? cho mọi câu ❌ Why are you here? ✅ **Terrible coffee, isn't it? So, what brings you here?**",
+                        "items": ["tag-questions", "isnt-it", "havent-you", "tell-me-about-it", "cant-complain", "what-brings-you-here", "small-talk", "awkward", "weather", "catch-up-with", "keep-in-touch", "sarcastic"],
+                        "examples": [
+                            { "en": "It's freezing today, isn't it?", "vi": "Hôm nay lạnh cóng nhỉ?", "highlight": "isn't it" },
+                            { "en": "You've been to this conference before, haven't you?", "vi": "Bạn đến hội thảo này rồi phải không?", "highlight": "haven't you?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "isnt-it",
+                        "prompts": [
+                            { "cueVi": "Hôm nay lạnh cóng nhỉ?", "slots": { "comment": "freezing today" }, "answer": "It's freezing today, isn't it?" },
+                            { "cueVi": "Tối nay đông thật nhỉ?", "slots": { "comment": "really busy tonight" }, "answer": "It's really busy tonight, isn't it?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "havent-you",
+                        "prompts": [
+                            { "cueVi": "Bạn làm việc với Tom rồi phải không?", "slots": { "done": "worked with Tom" }, "answer": "You've worked with Tom before, haven't you?" },
+                            { "cueVi": "Bạn ăn món này rồi phải không?", "slots": { "done": "tried this dish" }, "answer": "You've tried this dish before, haven't you?" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["tell-me-about-it", "cant-complain", "what-brings-you-here", "small-talk", "awkward", "keep-in-touch"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "c1-11-conference-coffee", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Chọn đuôi đúng: \"You've been here before, ___\"",
+                                "options": ["isn't it?", "haven't you?", "don't you?"],
+                                "answer": 1,
+                                "item": "tag-questions"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Người lạ ở hàng chờ nói: \"This queue is so long!\" Bạn đồng ý:",
+                                "options": ["Tell me about it.", "Tell me about the queue.", "Please tell me more."],
+                                "answer": 0,
+                                "item": "tell-me-about-it"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "There was an ___ silence after his joke.",
+                                "hintVi": "ngượng ngùng",
+                                "answers": ["awkward"],
+                                "item": "awkward"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "How's business? Can't complain. It's been a busy year.",
+                                "options": ["Làm ăn thế nào? Tệ lắm, không muốn nói.", "Làm ăn thế nào? Cũng ổn. Năm nay bận rộn.", "Làm ăn thế nào? Không được phàn nàn."],
+                                "answer": 1,
+                                "item": "cant-complain"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Địa điểm tuyệt nhỉ?",
+                                "answer": "It's a great venue, isn't it?",
+                                "item": "isnt-it"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "c1-11-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Trong cuộc họp, đồng nghiệp người Anh nói: \"With respect, …\". Họ sắp:",
+                "options": ["khen bạn", "phản đối bạn", "cảm ơn bạn"],
+                "answer": 1,
+                "item": "with-respect"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Bạn đề xuất một ý, người kia đáp \"That's an interesting idea. Let's come back to it later.\" rồi chuyển chủ đề. Nghĩa thật thường là:",
+                "options": ["Họ rất thích và sẽ làm ngay.", "Họ không thích lắm.", "Họ chưa nghe rõ."],
+                "answer": 1,
+                "item": "polite-code"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "Very funny. For a second I thought you were serious.",
+                "options": ["Hài lắm. Mình tưởng bạn nói thật đấy.", "Buồn cười quá, bạn kể tiếp đi.", "Mình nghiêm túc đấy, không đùa đâu."],
+                "answer": 0,
+                "item": "very-funny"
+            },
+            {
+                "kind": "gap",
+                "sentence": "Don't ___ me you forgot the tickets!",
+                "hintVi": "(đừng) bảo",
+                "answers": ["tell"],
+                "item": "dont-tell-me"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Chọn câu đúng:",
+                "options": ["You work with Tom, isn't it?", "You work with Tom, don't you?", "You work with Tom, doesn't he?"],
+                "answer": 1,
+                "item": "tag-questions"
+            },
+            {
+                "kind": "order",
+                "vi": "Thế bạn đến đây vì việc gì?",
+                "answer": "So, what brings you here?",
+                "item": "what-brings-you-here"
+            }
+        ]
+    }
+}

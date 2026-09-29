@@ -1,0 +1,774 @@
+{
+    "slug": "c1-09-collocations",
+    "stage": "c1",
+    "order": 9,
+    "title": "Heavy traffic, strong coffee",
+    "titleVi": "Từ hay đi với nhau (collocation)",
+    "descriptionVi": "Collocation là những từ người bản ngữ luôn ghép với nhau: heavy traffic (không phải big traffic), strong coffee (không phải thick coffee), make a decision (không phải do a decision), bitterly disappointed, highly unlikely, deeply grateful. Dịch từng chữ từ tiếng Việt thì câu vẫn hiểu được nhưng nghe lạ; dùng đúng collocation là thứ làm tiếng Anh nghe tự nhiên ở trình độ C1.",
+    "canDo": [
+        "Tôi dùng được collocation tính từ + danh từ thông dụng thay vì dịch từng chữ từ tiếng Việt.",
+        "Tôi chọn đúng make, do, take, pay trong các cụm động từ + danh từ hay gặp.",
+        "Tôi nhấn mạnh cảm xúc và mức độ bằng cặp trạng từ + tính từ tự nhiên (bitterly disappointed, highly unlikely, deeply grateful)."
+    ],
+    "items": [
+        {
+            "slug": "collocations",
+            "type": "GRAMMAR",
+            "text": "collocation tính từ + danh từ: heavy traffic, strong coffee, high prices, a close friend",
+            "meaningVi": "những từ luôn đi với nhau, không thay bằng từ đồng nghĩa",
+            "examples": [
+                { "en": "There was heavy traffic on the way to work.", "vi": "Trên đường đi làm kẹt xe nặng.", "highlight": "heavy traffic" }
+            ],
+            "grammar": {
+                "ruleVi": "Collocation là cặp từ mà người bản ngữ luôn dùng cùng nhau. Không có quy tắc logic: người ta nói heavy rain nhưng strong wind, high prices nhưng expensive food. Thay bằng từ đồng nghĩa (big rain, thick coffee, expensive prices) thì câu vẫn hiểu được nhưng nghe như dịch. Cách học: học cả cụm, không học từ đơn lẻ; khi tra từ, xem từ đó hay đi với từ nào. Collocation giống thành ngữ (C1 04) ở chỗ phải dùng nguyên cụm, nhưng nghĩa thì đọc là hiểu.",
+                "forms": [
+                    { "label": "heavy", "example": "heavy traffic, heavy rain, a heavy smoker" },
+                    { "label": "strong", "example": "strong coffee, a strong wind, a strong accent" },
+                    { "label": "high", "example": "high prices, a high salary, high quality" },
+                    { "label": "close", "example": "a close friend, a close relationship" },
+                    { "label": "wide", "example": "a wide range of, a wide choice" }
+                ],
+                "pitfallsVi": [
+                    "\"There's big rain today\" → There's heavy rain today.",
+                    "\"thick coffee\" (dịch từ cà phê đặc) → strong coffee.",
+                    "\"The price is expensive\" → The price is high. / It's expensive."
+                ]
+            }
+        },
+        {
+            "slug": "heavy-traffic",
+            "type": "PHRASE",
+            "text": "heavy traffic",
+            "meaningVi": "kẹt xe nặng, đường đông",
+            "examples": [
+                { "en": "Sorry I'm late. There was really heavy traffic on the bridge.", "vi": "Xin lỗi mình đến muộn. Trên cầu kẹt xe nặng quá.", "highlight": "heavy traffic" }
+            ],
+            "noteVi": "heavy đi với traffic, rain, snow, smoker. ❌ big traffic, many traffic (traffic không đếm được). Kẹt cứng: a traffic jam, be stuck in traffic."
+        },
+        {
+            "slug": "strong-coffee",
+            "type": "PHRASE",
+            "text": "strong coffee",
+            "meaningVi": "cà phê đặc, đậm",
+            "examples": [
+                { "en": "I need a cup of strong coffee before the meeting.", "vi": "Mình cần một ly cà phê đặc trước buổi họp.", "highlight": "strong coffee" }
+            ],
+            "noteVi": "Ngược lại: weak coffee (cà phê loãng). strong cũng đi với tea, wind, accent, opinion. ❌ thick coffee (thick dùng cho súp, sốt)."
+        },
+        {
+            "slug": "high-prices",
+            "type": "PHRASE",
+            "text": "high prices",
+            "meaningVi": "giá cao",
+            "examples": [
+                { "en": "High prices are the main reason people are leaving the city center.", "vi": "Giá cao là lý do chính khiến mọi người rời khỏi trung tâm thành phố.", "highlight": "High prices" }
+            ],
+            "noteVi": "price đi với high / low, không đi với expensive / cheap: The price is high, nhưng The food is expensive. Tương tự: a high salary, a low income."
+        },
+        {
+            "slug": "close-friend",
+            "type": "PHRASE",
+            "text": "a close friend",
+            "meaningVi": "bạn thân",
+            "examples": [
+                { "en": "Minh and I have been close friends since high school.", "vi": "Minh và mình là bạn thân từ hồi cấp ba.", "highlight": "close friends" }
+            ],
+            "noteVi": "close /kloʊs/ (gần gũi), không phải close /kloʊz/ (đóng). best friend (A2 11) là bạn thân nhất, chỉ một hai người. ❌ near friend, very friend."
+        },
+        {
+            "slug": "common-sense",
+            "type": "PHRASE",
+            "text": "common sense",
+            "meaningVi": "lẽ thường, óc phán đoán thông thường",
+            "examples": [
+                { "en": "It's just common sense to back up your files.", "vi": "Sao lưu tài liệu là chuyện hiển nhiên thôi.", "highlight": "common sense" }
+            ],
+            "noteVi": "Không đếm được: have (some) common sense, use your common sense. ❌ a common sense. It's common sense = ai cũng nên biết."
+        },
+        {
+            "slug": "a-wide-range-of",
+            "type": "PATTERN",
+            "text": "There's a wide range of ….",
+            "meaningVi": "Có rất nhiều loại … (để chọn).",
+            "examples": [
+                { "en": "There's a wide range of dishes on the menu, so everyone can find something.", "vi": "Thực đơn có rất nhiều món, nên ai cũng tìm được món hợp.", "highlight": "There's a wide range of" }
+            ],
+            "pattern": {
+                "template": "There's a wide range of {things}.",
+                "slots": [
+                    { "name": "things", "hintVi": "danh từ số nhiều (+ nơi chốn)", "options": ["dishes on the menu", "courses for beginners", "jobs in the city", "opinions on this", "options to choose from"] }
+                ]
+            },
+            "noteVi": "range đi với wide, không đi với big / many. Trang trọng hơn a lot of, và nói rõ là nhiều loại khác nhau. Tương tự: a wide choice of, a wide variety of."
+        },
+        {
+            "slug": "collocation",
+            "type": "LEXICAL",
+            "text": "collocation",
+            "meaningVi": "cụm từ hay đi với nhau",
+            "ipa": "/ˌkɑːləˈkeɪʃən/",
+            "examples": [
+                { "en": "\"Make a decision\" is a common collocation. \"Do a decision\" is wrong.", "vi": "\"Make a decision\" là một collocation thông dụng. \"Do a decision\" là sai.", "highlight": "collocation" }
+            ],
+            "noteVi": "Tra từ điển collocation (ví dụ Oxford Collocations) để biết một từ hay đi với từ nào. Động từ: collocate with."
+        },
+        {
+            "slug": "make-do-take",
+            "type": "GRAMMAR",
+            "text": "make / do / take / pay + danh từ: make a decision, do someone a favor, take a break, pay attention",
+            "meaningVi": "chọn đúng động từ đi với danh từ",
+            "examples": [
+                { "en": "We need to make a decision by Friday.", "vi": "Chúng ta cần đưa ra quyết định trước thứ Sáu.", "highlight": "make a decision" }
+            ],
+            "grammar": {
+                "ruleVi": "Tiếng Việt dùng \"làm\" cho gần như mọi thứ, nên người Việt hay chọn sai giữa make và do. Hướng dẫn chung: make là tạo ra một thứ mới (make a decision, make progress, make an effort, make a mistake, make a plan); do là làm việc, nhiệm vụ, hoạt động (do homework, do the dishes, do research, do someone a favor). take đi với khoảng thời gian và hành động ngắn (take a break, take a seat, take a shower, take responsibility). pay đi với attention, a visit, a compliment. Có nhiều ngoại lệ, nên học cả cụm.",
+                "forms": [
+                    { "label": "make", "example": "make a decision, make progress, make an effort" },
+                    { "label": "do", "example": "do research, do your homework, do me a favor" },
+                    { "label": "take", "example": "take a break, take responsibility for" },
+                    { "label": "pay", "example": "pay attention to, pay a visit" },
+                    { "label": "tận dụng (B2 02)", "example": "make the most of" }
+                ],
+                "pitfallsVi": [
+                    "\"do a decision\" → make a decision.",
+                    "\"make homework\", \"make research\" → do homework, do research.",
+                    "\"make a break\", \"take attention\" → take a break, pay attention."
+                ]
+            }
+        },
+        {
+            "slug": "make-a-decision",
+            "type": "PHRASE",
+            "text": "make a decision",
+            "meaningVi": "đưa ra quyết định",
+            "examples": [
+                { "en": "We can't wait any longer. We need to make a decision today.", "vi": "Không thể chờ thêm được. Hôm nay chúng ta cần đưa ra quyết định.", "highlight": "make a decision" }
+            ],
+            "noteVi": "Nối tiếp decision (B2 02). make a big / difficult / final decision. Trang trọng: reach a decision. ❌ do a decision, take a decision (kiểu Anh cũ, người Mỹ ít dùng)."
+        },
+        {
+            "slug": "make-progress",
+            "type": "PHRASE",
+            "text": "make progress",
+            "meaningVi": "tiến bộ, có tiến triển",
+            "examples": [
+                { "en": "We've made a lot of progress on the project this week.", "vi": "Tuần này dự án đã có nhiều tiến triển.", "highlight": "made a lot of progress" }
+            ],
+            "noteVi": "progress không đếm được: a lot of progress, good progress. ❌ a progress, progresses. Nối tiếp progress (B2 07)."
+        },
+        {
+            "slug": "make-an-effort",
+            "type": "PHRASE",
+            "text": "make an effort",
+            "meaningVi": "cố gắng, nỗ lực",
+            "examples": [
+                { "en": "Everyone on the team is making a real effort.", "vi": "Mọi người trong nhóm đều đang thật sự nỗ lực.", "highlight": "making a real effort" }
+            ],
+            "noteVi": "make an effort to + V: I'm making an effort to speak more in meetings. make a real / big / special effort. ❌ do an effort."
+        },
+        {
+            "slug": "do-me-a-favor",
+            "type": "PHRASE",
+            "text": "Could you do me a favor?",
+            "meaningVi": "Bạn giúp mình một việc được không?",
+            "examples": [
+                { "en": "Could you do me a favor and send me the file?", "vi": "Bạn giúp mình gửi tài liệu được không?", "highlight": "do me a favor" }
+            ],
+            "noteVi": "do someone a favor (giúp ai), ask someone a favor (nhờ ai). Kiểu Anh viết favour. ❌ make me a favor. Đáp: Sure, what is it?"
+        },
+        {
+            "slug": "take-a-break",
+            "type": "PHRASE",
+            "text": "take a break",
+            "meaningVi": "nghỉ giải lao",
+            "examples": [
+                { "en": "You look exhausted. Why don't you take a break?", "vi": "Trông bạn mệt lắm. Sao không nghỉ một lát?", "highlight": "take a break" }
+            ],
+            "noteVi": "take a (short / quick / ten-minute) break. Cùng kiểu: take a seat, take a nap, take a shower (A1 07). ❌ make a break. Kiểu Anh cũng nói have a break."
+        },
+        {
+            "slug": "pay-attention-to",
+            "type": "PATTERN",
+            "text": "Please pay attention to ….",
+            "meaningVi": "Xin chú ý đến ….",
+            "examples": [
+                { "en": "Please pay attention to the delivery dates.", "vi": "Xin chú ý đến ngày giao hàng.", "highlight": "pay attention to" }
+            ],
+            "pattern": {
+                "template": "Please pay attention to {thing}.",
+                "slots": [
+                    { "name": "thing", "hintVi": "điều cần chú ý (danh từ)", "options": ["the delivery dates", "the details", "the safety rules", "what the client says", "the last page"] }
+                ]
+            },
+            "noteVi": "pay attention to + danh từ / V-ing. pay close attention (chú ý kỹ). ❌ take attention, give attention on. Thân mật: Listen up!"
+        },
+        {
+            "slug": "take-responsibility-for",
+            "type": "PATTERN",
+            "text": "I take full responsibility for ….",
+            "meaningVi": "Tôi chịu hoàn toàn trách nhiệm về ….",
+            "examples": [
+                { "en": "I take full responsibility for the delay.", "vi": "Tôi chịu hoàn toàn trách nhiệm về việc chậm trễ.", "highlight": "take full responsibility for" }
+            ],
+            "pattern": {
+                "template": "I take full responsibility for {thing}.",
+                "slots": [
+                    { "name": "thing", "hintVi": "việc mình nhận trách nhiệm (danh từ)", "options": ["the delay", "the mistake", "the budget", "what happened", "the final decision"] }
+                ]
+            },
+            "noteVi": "take responsibility for (nhận trách nhiệm), be responsible for (phụ trách). full đi với responsibility để nhấn mạnh. ❌ take responsible."
+        },
+        {
+            "slug": "adverb-collocations",
+            "type": "GRAMMAR",
+            "text": "trạng từ + tính từ: bitterly disappointed, highly unlikely, deeply grateful, fully aware, utterly exhausted",
+            "meaningVi": "cặp trạng từ nhấn mạnh hay đi với một tính từ nhất định",
+            "examples": [
+                { "en": "I was bitterly disappointed when I didn't get the job.", "vi": "Mình thất vọng ê chề khi không được nhận việc.", "highlight": "bitterly disappointed" }
+            ],
+            "grammar": {
+                "ruleVi": "very đi được với mọi tính từ nên nghe bình thường. Người nói C1 dùng trạng từ hay đi với từng tính từ: bitterly disappointed, highly unlikely / likely / recommended, deeply grateful / moved / sorry, fully aware, utterly exhausted / ridiculous, painfully slow / shy. Với tính từ mạnh (exhausted, ridiculous, delicious) không dùng very mà dùng absolutely, utterly, totally (C1 02). Thay trạng từ bằng từ đồng nghĩa (strongly disappointed, highly grateful) nghe sai.",
+                "forms": [
+                    { "label": "bitterly", "example": "bitterly disappointed, bitterly cold" },
+                    { "label": "highly", "example": "highly unlikely, highly recommended" },
+                    { "label": "deeply", "example": "deeply grateful, deeply sorry" },
+                    { "label": "fully", "example": "fully aware, fully booked" },
+                    { "label": "utterly / painfully", "example": "utterly exhausted, painfully slow" }
+                ],
+                "pitfallsVi": [
+                    "\"strongly disappointed\" → bitterly / deeply disappointed.",
+                    "\"very exhausted\" → utterly / absolutely exhausted.",
+                    "\"I'm full aware\" → I'm fully aware (trạng từ fully)."
+                ]
+            }
+        },
+        {
+            "slug": "bitterly-disappointed",
+            "type": "PHRASE",
+            "text": "bitterly disappointed",
+            "meaningVi": "thất vọng ê chề",
+            "examples": [
+                { "en": "To be honest, I was bitterly disappointed with the result.", "vi": "Nói thật, mình thất vọng ê chề với kết quả.", "highlight": "bitterly disappointed" }
+            ],
+            "noteVi": "bitterly cũng đi với cold (lạnh cắt da), complain, regret. disappointed with / by + điều, in + người. ❌ strongly disappointed."
+        },
+        {
+            "slug": "highly-unlikely",
+            "type": "PHRASE",
+            "text": "highly unlikely",
+            "meaningVi": "rất khó xảy ra",
+            "examples": [
+                { "en": "It's highly unlikely that the price will go down this year.", "vi": "Rất khó có chuyện giá giảm trong năm nay.", "highlight": "highly unlikely" }
+            ],
+            "noteVi": "Nối tiếp is likely to (B2 07). highly đi với likely / unlikely, recommended, qualified, successful. very unlikely cũng đúng, nhưng highly nghe trang trọng và chắc hơn."
+        },
+        {
+            "slug": "deeply-grateful",
+            "type": "PATTERN",
+            "text": "I'm deeply grateful for ….",
+            "meaningVi": "Tôi vô cùng biết ơn vì ….",
+            "examples": [
+                { "en": "I'm deeply grateful for your support this year.", "vi": "Tôi vô cùng biết ơn sự ủng hộ của bạn trong năm nay.", "highlight": "deeply grateful for" }
+            ],
+            "pattern": {
+                "template": "I'm deeply grateful for {thing}.",
+                "slots": [
+                    { "name": "thing", "hintVi": "điều mình biết ơn (danh từ)", "options": ["your support this year", "everything you've done", "your advice", "this opportunity", "your patience"] }
+                ]
+            },
+            "noteVi": "grateful for + điều, grateful to + người: I'm grateful to you for your help. deeply cũng đi với sorry, moved, concerned. ❌ highly grateful."
+        },
+        {
+            "slug": "fully-aware",
+            "type": "PATTERN",
+            "text": "I'm fully aware that ….",
+            "meaningVi": "Tôi hoàn toàn nhận thức được rằng ….",
+            "examples": [
+                { "en": "I'm fully aware that I need more experience.", "vi": "Tôi hoàn toàn hiểu rằng mình cần thêm kinh nghiệm.", "highlight": "I'm fully aware that" }
+            ],
+            "pattern": {
+                "template": "I'm fully aware that {fact}.",
+                "slots": [
+                    { "name": "fact", "hintVi": "mệnh đề", "options": ["I need more experience", "the deadline is tight", "this is a big risk", "we're over budget", "it won't be easy"] }
+                ]
+            },
+            "noteVi": "Cho thấy mình đã hiểu vấn đề, hay dùng trước but: I'm fully aware that…, but…. be aware of + danh từ. ❌ I'm full aware."
+        },
+        {
+            "slug": "strongly-recommend",
+            "type": "PHRASE",
+            "text": "strongly recommend",
+            "meaningVi": "rất khuyên, đặc biệt khuyên",
+            "examples": [
+                { "en": "I strongly recommend taking the leadership course.", "vi": "Tôi rất khuyên bạn tham gia khóa học lãnh đạo.", "highlight": "strongly recommend" }
+            ],
+            "noteVi": "Nối tiếp recommend (B2 06). recommend + V-ing hoặc that + S + V. strongly cũng đi với believe, disagree, suggest. ❌ recommend you to take. highly recommend cũng dùng được, nhất là với danh từ: I highly recommend this book."
+        },
+        {
+            "slug": "utterly",
+            "type": "LEXICAL",
+            "text": "utterly",
+            "meaningVi": "hoàn toàn, cực kỳ (thường với nghĩa xấu)",
+            "ipa": "/ˈʌtərli/",
+            "examples": [
+                { "en": "It's been an utterly exhausting week.", "vi": "Tuần này mệt rã rời.", "highlight": "utterly" }
+            ],
+            "noteVi": "Đi với tính từ mạnh, thường tiêu cực: utterly exhausted, ridiculous, useless, impossible. Không đi với very good hay tall."
+        },
+        {
+            "slug": "painfully",
+            "type": "LEXICAL",
+            "text": "painfully",
+            "meaningVi": "đến mức khổ sở (chậm, ngại, rõ ràng…)",
+            "ipa": "/ˈpeɪnfəli/",
+            "examples": [
+                { "en": "The internet here is painfully slow.", "vi": "Mạng ở đây chậm phát bực.", "highlight": "painfully" }
+            ],
+            "noteVi": "painfully slow, shy, obvious, aware. Không liên quan đến đau thật. Tương tự nghĩa: frustratingly slow."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "c1-09-busy-week",
+            "title": "Why don't you take a break?",
+            "situationVi": "Còn hai ngày nữa là ra mắt sản phẩm. Bạn và Mark, đồng nghiệp, vẫn chưa chọn xong nhà cung cấp hộp đựng. Mark trông rất mệt.",
+            "lines": [
+                { "speaker": "Mark", "en": "I've been here since seven. I can't think straight any more.", "vi": "Mình ở đây từ bảy giờ. Không nghĩ nổi nữa rồi." },
+                { "speaker": "You", "en": "You look exhausted. Why don't you take a break? Ten minutes won't hurt.", "vi": "Trông bạn mệt lắm. Sao không nghỉ một lát? Mười phút cũng chẳng sao.", "learnerTurn": true },
+                { "speaker": "Mark", "en": "Maybe. But we still have to choose a supplier for the boxes.", "vi": "Có lẽ. Nhưng mình vẫn phải chọn nhà cung cấp hộp." },
+                { "speaker": "You", "en": "True. We need to make a decision by tomorrow. Could you do me a favor and send me the two quotes?", "vi": "Đúng. Mai phải quyết rồi. Bạn gửi giúp mình hai bảng báo giá được không?", "learnerTurn": true },
+                { "speaker": "Mark", "en": "Sure. Honestly, I feel like we're not getting anywhere.", "vi": "Được. Nói thật, mình thấy như chẳng tiến được chút nào." },
+                { "speaker": "You", "en": "I don't agree. We've made a lot of progress this week, and everyone's making a real effort.", "vi": "Mình không nghĩ vậy. Tuần này đã có nhiều tiến triển, và ai cũng đang thật sự nỗ lực.", "learnerTurn": true },
+                { "speaker": "Mark", "en": "That's true. But what if the boxes arrive late?", "vi": "Cũng đúng. Nhưng nếu hộp giao trễ thì sao?" },
+                { "speaker": "You", "en": "Then I'll take full responsibility for it. Just pay attention to the delivery dates in the quotes.", "vi": "Thì mình chịu hoàn toàn trách nhiệm. Bạn chỉ cần chú ý ngày giao trong bảng báo giá thôi.", "learnerTurn": true },
+                { "speaker": "Mark", "en": "Deal. OK, I'm going to get a coffee. A strong one.", "vi": "Chốt. Rồi, mình đi lấy cà phê đây. Một ly thật đặc." },
+                { "speaker": "You", "en": "Good idea. Let's make the most of the afternoon.", "vi": "Ý hay. Tận dụng buổi chiều cho tốt nào.", "learnerTurn": true }
+            ]
+        },
+        {
+            "slug": "c1-09-missed-promotion",
+            "title": "Bitterly disappointed",
+            "situationVi": "Bạn vừa biết mình không được thăng chức. Chị Hannah, người hướng dẫn bạn ở công ty, gọi điện hỏi thăm.",
+            "lines": [
+                { "speaker": "Hannah", "en": "I heard about the promotion. How are you feeling?", "vi": "Chị nghe chuyện thăng chức rồi. Bạn thấy thế nào?" },
+                { "speaker": "You", "en": "To be honest, I was bitterly disappointed. I really thought I had a chance.", "vi": "Nói thật là thất vọng ê chề. Mình tưởng mình có cơ hội thật.", "learnerTurn": true },
+                { "speaker": "Hannah", "en": "That's completely understandable. Did they tell you why?", "vi": "Hoàn toàn dễ hiểu. Họ có nói lý do không?" },
+                { "speaker": "You", "en": "They said I need more management experience. I'm fully aware that I've never led a team.", "vi": "Họ bảo mình cần thêm kinh nghiệm quản lý. Mình hoàn toàn hiểu là mình chưa từng dẫn dắt nhóm nào.", "learnerTurn": true },
+                { "speaker": "Hannah", "en": "Will there be another chance this year?", "vi": "Năm nay còn cơ hội nào nữa không?" },
+                { "speaker": "You", "en": "It's highly unlikely. The next round is probably next spring.", "vi": "Rất khó. Đợt sau chắc là mùa xuân năm tới.", "learnerTurn": true },
+                { "speaker": "Hannah", "en": "In that case, I strongly recommend taking the leadership course. It's painfully long, but it's worth it.", "vi": "Vậy thì chị rất khuyên bạn học khóa lãnh đạo. Nó dài phát ngán, nhưng đáng lắm." },
+                { "speaker": "You", "en": "That's a great idea. I'm deeply grateful for your support, Hannah. It's been an utterly exhausting week.", "vi": "Ý hay quá. Mình vô cùng biết ơn chị đã ủng hộ. Tuần này mệt rã rời.", "learnerTurn": true },
+                { "speaker": "Hannah", "en": "You'll get it next time. I'm absolutely sure.", "vi": "Lần sau bạn sẽ được thôi. Chị chắc chắn đấy." }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "c1-09-l1-heavy-traffic",
+            "title": "Heavy traffic, strong coffee",
+            "titleVi": "Tính từ + danh từ",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "collocations", "role": "INTRODUCE" },
+                { "item": "heavy-traffic", "role": "INTRODUCE" },
+                { "item": "strong-coffee", "role": "INTRODUCE" },
+                { "item": "high-prices", "role": "INTRODUCE" },
+                { "item": "close-friend", "role": "INTRODUCE" },
+                { "item": "common-sense", "role": "INTRODUCE" },
+                { "item": "a-wide-range-of", "role": "INTRODUCE" },
+                { "item": "collocation", "role": "INTRODUCE" },
+                { "item": "traffic", "role": "RECYCLE" },
+                { "item": "best-friend", "role": "RECYCLE" },
+                { "item": "idiom-basics", "role": "RECYCLE" },
+                { "item": "idioms-and-vietnamese", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["heavy-traffic", "strong-coffee", "high-prices", "close-friend", "common-sense", "a-wide-range-of", "collocation"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Đừng dịch từng chữ",
+                        "bodyVi": "Tiếng Việt nói \"mưa to\", \"cà phê đặc\", \"giá đắt\". Dịch từng chữ ra tiếng Anh thì người nghe vẫn hiểu, nhưng biết ngay là dịch. Người bản ngữ dùng **collocation**, những cặp từ cố định:\n\n| tiếng Việt | dịch từng chữ | collocation |\n|---|---|---|\n| mưa to | big rain | **heavy** rain |\n| kẹt xe nặng | big traffic | **heavy traffic** |\n| cà phê đặc | thick coffee | **strong coffee** |\n| giá đắt | expensive price | **high prices** |\n| bạn thân | near friend | a **close friend** |\n| lẽ thường | normal sense | **common sense** |\n| nhiều loại | many kinds of | **a wide range of** |\n\nGiống thành ngữ (C1 04), collocation phải dùng nguyên cụm, không thay bằng từ đồng nghĩa. Khác ở chỗ nghĩa thì đọc là hiểu. **traffic** không đếm được. a close friend có thể nhiều người; your **best friend** chỉ một hai người.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| There's big rain today. | There's **heavy rain** today. |\n| The price is very expensive. | The price is very **high**. |\n| He's my near friend. | He's **a close friend** of mine. |\n\n❌ thick coffee ❌ expensive prices ✅ **Sorry I'm late. There was heavy traffic, so I stopped for a strong coffee.**",
+                        "items": ["collocations", "heavy-traffic", "strong-coffee", "high-prices", "close-friend", "common-sense", "a-wide-range-of", "collocation", "traffic", "best-friend", "idiom-basics", "idioms-and-vietnamese"],
+                        "examples": [
+                            { "en": "There was heavy traffic on the way to work.", "vi": "Trên đường đi làm kẹt xe nặng.", "highlight": "heavy traffic" },
+                            { "en": "High prices are the main reason people are leaving the city center.", "vi": "Giá cao là lý do chính khiến mọi người rời khỏi trung tâm thành phố.", "highlight": "High prices" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "a-wide-range-of",
+                        "prompts": [
+                            { "cueVi": "Có rất nhiều khóa học cho người mới bắt đầu.", "slots": { "things": "courses for beginners" }, "answer": "There's a wide range of courses for beginners." },
+                            { "cueVi": "Thành phố có rất nhiều loại việc làm.", "slots": { "things": "jobs in the city" }, "answer": "There's a wide range of jobs in the city." },
+                            { "cueVi": "Có rất nhiều ý kiến khác nhau về chuyện này.", "slots": { "things": "opinions on this" }, "answer": "There's a wide range of opinions on this." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["heavy-traffic", "strong-coffee", "high-prices", "close-friend", "common-sense", "collocation"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "Sorry I'm late. There was really heavy traffic on the bridge.", "vi": "Xin lỗi mình đến muộn. Trên cầu kẹt xe nặng quá." },
+                            { "en": "I need a cup of strong coffee before the meeting.", "vi": "Mình cần một ly cà phê đặc trước buổi họp." },
+                            { "en": "Minh and I have been close friends since high school.", "vi": "Minh và mình là bạn thân từ hồi cấp ba." },
+                            { "en": "There's a wide range of dishes on the menu, so everyone can find something.", "vi": "Thực đơn có rất nhiều món, nên ai cũng tìm được món hợp." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "\"Hôm nay mưa to.\" Câu nào tự nhiên nhất?",
+                                "options": ["There's big rain today.", "There's heavy rain today.", "There's strong rain today."],
+                                "answer": 1,
+                                "item": "collocations"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn muốn gọi một ly cà phê đặc:",
+                                "options": ["A thick coffee, please.", "A heavy coffee, please.", "A strong coffee, please."],
+                                "answer": 2,
+                                "item": "strong-coffee"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "Prices are really ___ in this part of the city.",
+                                "hintVi": "cao (giá)",
+                                "answers": ["high"],
+                                "item": "high-prices"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "It's just common sense to back up your files.",
+                                "options": ["Sao lưu tài liệu là chuyện hiển nhiên thôi.", "Sao lưu tài liệu rất phức tạp.", "Ai cũng có chung một tài liệu."],
+                                "answer": 0,
+                                "item": "common-sense"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Có rất nhiều khóa học cho người mới bắt đầu.",
+                                "answer": "There's a wide range of courses for beginners.",
+                                "item": "a-wide-range-of"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "c1-09-l2-make-do-take",
+            "title": "Make a decision, take a break",
+            "titleVi": "make, do, take, pay",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "make-do-take", "role": "INTRODUCE" },
+                { "item": "make-a-decision", "role": "INTRODUCE" },
+                { "item": "make-progress", "role": "INTRODUCE" },
+                { "item": "make-an-effort", "role": "INTRODUCE" },
+                { "item": "do-me-a-favor", "role": "INTRODUCE" },
+                { "item": "take-a-break", "role": "INTRODUCE" },
+                { "item": "pay-attention-to", "role": "INTRODUCE" },
+                { "item": "take-responsibility-for", "role": "INTRODUCE" },
+                { "item": "do-homework", "role": "RECYCLE" },
+                { "item": "take-a-shower", "role": "RECYCLE" },
+                { "item": "make-the-most-of", "role": "RECYCLE" },
+                { "item": "decision", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["make-a-decision", "make-progress", "make-an-effort", "do-me-a-favor", "take-a-break", "pay-attention-to", "take-responsibility-for"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "\"Làm\" là make hay do?",
+                        "bodyVi": "Tiếng Việt dùng \"làm\" cho gần hết, tiếng Anh chia ra nhiều động từ. Hướng dẫn chung (có ngoại lệ, nên học cả cụm):\n\n| động từ | khi nào | cụm hay gặp |\n|---|---|---|\n| **make** | tạo ra cái mới | **make a decision**, **make progress**, **make an effort**, make a mistake, **make the most of** (B2 02) |\n| **do** | làm việc, nhiệm vụ | **do homework** (A1 07), do research, **do me a favor** |\n| **take** | khoảng thời gian, hành động ngắn | **take a break**, **take a shower** (A1 07), **take responsibility for** |\n| **pay** | một số danh từ cố định | **pay attention to**, pay a visit |\n\nprogress và research không đếm được: a lot of progress, some research. take full responsibility nghe mạnh và thật lòng hơn I'm sorry.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| We need to do a decision. | We need to **make a decision**. |\n| I'm making my homework. | I'm **doing** my homework. |\n| Please take attention to the dates. | Please **pay attention to** the dates. |\n\n❌ do a decision ❌ make a break ✅ **We've made a lot of progress. Let's take a break and make a decision after lunch.**",
+                        "items": ["make-do-take", "make-a-decision", "make-progress", "make-an-effort", "do-me-a-favor", "take-a-break", "pay-attention-to", "take-responsibility-for", "do-homework", "take-a-shower", "make-the-most-of", "decision"],
+                        "examples": [
+                            { "en": "We need to make a decision by Friday.", "vi": "Chúng ta cần đưa ra quyết định trước thứ Sáu.", "highlight": "make a decision" },
+                            { "en": "You look exhausted. Why don't you take a break?", "vi": "Trông bạn mệt lắm. Sao không nghỉ một lát?", "highlight": "take a break" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "pay-attention-to",
+                        "prompts": [
+                            { "cueVi": "Xin chú ý đến các quy định an toàn.", "slots": { "thing": "the safety rules" }, "answer": "Please pay attention to the safety rules." },
+                            { "cueVi": "Xin chú ý đến những gì khách hàng nói.", "slots": { "thing": "what the client says" }, "answer": "Please pay attention to what the client says." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "take-responsibility-for",
+                        "prompts": [
+                            { "cueVi": "Tôi chịu hoàn toàn trách nhiệm về lỗi đó.", "slots": { "thing": "the mistake" }, "answer": "I take full responsibility for the mistake." },
+                            { "cueVi": "Tôi chịu hoàn toàn trách nhiệm về quyết định cuối cùng.", "slots": { "thing": "the final decision" }, "answer": "I take full responsibility for the final decision." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["make-a-decision", "make-progress", "make-an-effort", "do-me-a-favor", "take-a-break", "make-the-most-of"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "c1-09-busy-week", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["We need to do a decision today.", "We need to make a decision today.", "We need to take a decision on today."],
+                                "answer": 1,
+                                "item": "make-a-decision"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Chọn động từ đúng: \"I'm ___ some research for my thesis.\"",
+                                "options": ["making", "doing", "taking"],
+                                "answer": 1,
+                                "item": "make-do-take"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "You look exhausted. Why don't you ___ a break?",
+                                "hintVi": "(nghỉ giải lao) lấy",
+                                "answers": ["take"],
+                                "item": "take-a-break"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "We've made a lot of progress on the project this week.",
+                                "options": ["Tuần này dự án có nhiều vấn đề.", "Tuần này dự án đã có nhiều tiến triển.", "Tuần này chúng tôi làm nhiều dự án."],
+                                "answer": 1,
+                                "item": "make-progress"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Tôi chịu hoàn toàn trách nhiệm về việc chậm trễ.",
+                                "answer": "I take full responsibility for the delay.",
+                                "item": "take-responsibility-for"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "c1-09-l3-bitterly-disappointed",
+            "title": "Bitterly disappointed",
+            "titleVi": "Trạng từ + tính từ",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "adverb-collocations", "role": "INTRODUCE" },
+                { "item": "bitterly-disappointed", "role": "INTRODUCE" },
+                { "item": "highly-unlikely", "role": "INTRODUCE" },
+                { "item": "deeply-grateful", "role": "INTRODUCE" },
+                { "item": "fully-aware", "role": "INTRODUCE" },
+                { "item": "strongly-recommend", "role": "INTRODUCE" },
+                { "item": "utterly", "role": "INTRODUCE" },
+                { "item": "painfully", "role": "INTRODUCE" },
+                { "item": "absolutely", "role": "RECYCLE" },
+                { "item": "incredibly", "role": "RECYCLE" },
+                { "item": "degree-adverbs", "role": "RECYCLE" },
+                { "item": "totally", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["bitterly-disappointed", "highly-unlikely", "deeply-grateful", "fully-aware", "strongly-recommend", "utterly", "painfully"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Thay very bằng trạng từ đúng cặp",
+                        "bodyVi": "very đi được với mọi tính từ, nên nghe bình thường. Ở C1, mỗi tính từ có trạng từ \"ruột\":\n\n| very… | tự nhiên hơn |\n|---|---|\n| very disappointed | **bitterly disappointed** |\n| very unlikely | **highly unlikely** |\n| very grateful | **deeply grateful** |\n| I know very well that… | **I'm fully aware that…** |\n| I really recommend | I **strongly recommend** + V-ing |\n| very tired (tính từ mạnh: exhausted) | **utterly** / **absolutely** exhausted (C1 02) |\n| very slow | **painfully** slow |\n\nTrạng từ chỉ mức độ chung (fairly, rather, considerably, C1 01) vẫn dùng được; **incredibly**, **totally** thì thân mật hơn. Tính từ mạnh (exhausted, ridiculous) không đi với very.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| I was strongly disappointed. | I was **bitterly disappointed**. |\n| I'm highly grateful for your help. | I'm **deeply grateful** for your help. |\n| I'm full aware of that. | I'm **fully aware** of that. |\n\n❌ strongly disappointed ❌ very exhausted ✅ **I was bitterly disappointed, but I'm deeply grateful for your support.**",
+                        "items": ["adverb-collocations", "bitterly-disappointed", "highly-unlikely", "deeply-grateful", "fully-aware", "strongly-recommend", "utterly", "painfully", "absolutely", "incredibly", "degree-adverbs", "totally"],
+                        "examples": [
+                            { "en": "I was bitterly disappointed when I didn't get the job.", "vi": "Mình thất vọng ê chề khi không được nhận việc.", "highlight": "bitterly disappointed" },
+                            { "en": "It's highly unlikely that the price will go down this year.", "vi": "Rất khó có chuyện giá giảm trong năm nay.", "highlight": "highly unlikely" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "deeply-grateful",
+                        "prompts": [
+                            { "cueVi": "Tôi vô cùng biết ơn lời khuyên của bạn.", "slots": { "thing": "your advice" }, "answer": "I'm deeply grateful for your advice." },
+                            { "cueVi": "Tôi vô cùng biết ơn cơ hội này.", "slots": { "thing": "this opportunity" }, "answer": "I'm deeply grateful for this opportunity." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "fully-aware",
+                        "prompts": [
+                            { "cueVi": "Tôi hoàn toàn hiểu rằng hạn chót rất gấp.", "slots": { "fact": "the deadline is tight" }, "answer": "I'm fully aware that the deadline is tight." },
+                            { "cueVi": "Tôi hoàn toàn hiểu rằng đây là một rủi ro lớn.", "slots": { "fact": "this is a big risk" }, "answer": "I'm fully aware that this is a big risk." },
+                            { "cueVi": "Tôi hoàn toàn hiểu rằng chuyện này sẽ không dễ.", "slots": { "fact": "it won't be easy" }, "answer": "I'm fully aware that it won't be easy." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["bitterly-disappointed", "highly-unlikely", "strongly-recommend", "utterly", "painfully", "absolutely"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "c1-09-missed-promotion", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Cặp nào tự nhiên nhất?",
+                                "options": ["strongly disappointed", "bitterly disappointed", "heavily disappointed"],
+                                "answer": 1,
+                                "item": "adverb-collocations"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn muốn nói điều đó gần như chắc chắn không xảy ra:",
+                                "options": ["It's highly unlikely.", "It's strongly unlikely.", "It's high unlikely."],
+                                "answer": 0,
+                                "item": "highly-unlikely"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I'm ___ aware that we're over budget.",
+                                "hintVi": "hoàn toàn (trạng từ)",
+                                "answers": ["fully"],
+                                "item": "fully-aware"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "The internet here is painfully slow.",
+                                "options": ["Mạng ở đây chậm phát bực.", "Dùng mạng ở đây làm đau mắt.", "Mạng ở đây hơi chậm một chút."],
+                                "answer": 0,
+                                "item": "painfully"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Tôi vô cùng biết ơn sự ủng hộ của bạn.",
+                                "answer": "I'm deeply grateful for your support.",
+                                "item": "deeply-grateful"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "c1-09-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "\"Trên cầu kẹt xe nặng.\" Câu nào tự nhiên nhất?",
+                "options": ["There was big traffic on the bridge.", "There was heavy traffic on the bridge.", "There were many traffics on the bridge."],
+                "answer": 1,
+                "item": "heavy-traffic"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["The price of this flat is very expensive.", "The price of this flat is very high.", "The price of this flat is very big."],
+                "answer": 1,
+                "item": "collocations"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Chọn cụm đúng:",
+                "options": ["make homework, do a decision", "do homework, make a decision", "do homework, do a decision"],
+                "answer": 1,
+                "item": "make-do-take"
+            },
+            {
+                "kind": "gap",
+                "sentence": "Please pay ___ to the delivery dates.",
+                "hintVi": "sự chú ý",
+                "answers": ["attention"],
+                "item": "pay-attention-to"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "To be honest, I was bitterly disappointed with the result.",
+                "options": ["Nói thật, mình hơi tiếc về kết quả.", "Nói thật, mình thất vọng ê chề với kết quả.", "Nói thật, kết quả đắng lắm."],
+                "answer": 1,
+                "item": "bitterly-disappointed"
+            },
+            {
+                "kind": "order",
+                "vi": "Tôi rất khuyên bạn tham gia khóa học lãnh đạo.",
+                "answer": "I strongly recommend taking the leadership course.",
+                "item": "strongly-recommend"
+            }
+        ]
+    }
+}

@@ -13,7 +13,7 @@ Trạng thái: `draft` đã soạn, qua validator · `reviewed` đã có ngườ
 | A2 | 12 | 12 | 36 | 301 | 155 | 70 | 49 | 27 |
 | B1 | 12 | 12 | 36 | 287 | 122 | 68 | 65 | 32 |
 | B2 | 12 | 12 | 36 | 288 | 112 | 77 | 66 | 33 |
-| C1 | 12 | 8 | 24 | 192 | 53 | 67 | 48 | 24 |
+| C1 | 12 | 12 | 36 | 288 | 70 | 112 | 73 | 33 |
 
 ## Placement (`placement.json`)
 
@@ -26,7 +26,7 @@ Một bài xếp lớp cho cả lộ trình, 2 câu mỗi unit, theo thứ tự 
 | A2 | 12/12 | 24 |
 | B1 | 12/12 | 24 |
 | B2 | 12/12 | 24 |
-| C1 | 8/12 | 16 |
+| C1 | 12/12 | 24 |
 
 ## Pre-A1: Foundations
 
@@ -625,7 +625,7 @@ Mốc của stage: "Tôi thảo luận được chủ đề trừu tượng" (un
 
 ## C1: Advanced
 
-Mốc của stage: "Tôi diễn đạt linh hoạt, tự nhiên" (unit 04). Khung 12 unit (chốt ở P4-7a, user nâng từ 8 lên 12; P4-7b soạn 05–08, P4-7c soạn 09–12):
+Mốc của stage: "Tôi diễn đạt linh hoạt, tự nhiên" (unit 04). Khung 12 unit (chốt ở P4-7a, user nâng từ 8 lên 12; P4-7a soạn 01–04, P4-7b soạn 05–08, P4-7c soạn 09–12):
 
 | # | Unit | Can-do (tóm tắt) | Bài | Item (L/Ph/Pa/G) | Dialogue | Trạng thái |
 |---|---|---|---|---|---|---|
@@ -637,10 +637,10 @@ Mốc của stage: "Tôi diễn đạt linh hoạt, tự nhiên" (unit 04). Khun
 | 6 | `c1-06-persuading` | thuyết phục và đàm phán: điều kiện (provided that, as long as, on condition that, If you were to…, in return, terms, proposal), nhượng bộ và đổi chác (I'm prepared to, meet someone halfway, the bottom line, That's the best we can do, wiggle room, compromise, deal-breaker), chốt thỏa thuận (So, we've agreed that, Do we have a deal?, put it in writing, Let me sleep on it, a win-win, You have my word) | 3 | 24 (5/12/4/3) | 2 | draft |
 | 7 | `c1-07-register` | văn phong: từ trang trọng ↔ thân mật (obtain, assist, commence, inquire, sufficient, purchase, I would be grateful if), danh từ hóa và bị động (There has been a … in, It has been decided that, approval, implementation, reduction, following, prior to), viết lại email bực bội (It appears that, Just a gentle reminder, As per my last email, I appreciate that, tone, blunt, passive-aggressive) | 3 | 24 (12/5/4/3) | 2 | draft |
 | 8 | `c1-08-feedback` | góp ý khéo (It might be worth, I wonder if it would help to, One thing you could consider is, Have you thought about, food for thought, constructive, feedback), khen cụ thể (I was really impressed by, You did a great job of, What worked well was, spot on, Keep up the good work, Credit where credit's due, praise), nhận phê bình (Thanks for pointing out, take on board, Point taken, Could you give me an example?, in hindsight, defensive, criticism) | 3 | 24 (6/9/6/3) | 2 | draft |
-| 9 | `c1-09-collocations` | collocation mạnh (heavy traffic, make / do / take, bitterly disappointed, highly unlikely, deeply grateful), trạng từ đi đôi với tính từ, tránh dịch từng chữ | | | | dự kiến |
-| 10 | `c1-10-trends` | bình luận xu hướng xã hội: be bound to / be set to / be on the verge of, mệnh đề phân từ (Having finished…, Given that…, Faced with…), dẫn số liệu và nguồn | | | | dự kiến |
-| 11 | `c1-11-between-the-lines` | hiểu hàm ý và giọng: mỉa mai, nói giảm kiểu Anh (I'll bear it in mind, With respect…), câu hỏi đuôi tìm đồng tình, đùa và đáp lời đùa, small talk tinh tế | | | | dự kiến |
-| 12 | `c1-12-strategy` | chiến lược C1: diễn giải và tóm tắt lời người khác (If I understand you correctly…, So what you're saying is…), phản đối tinh tế, xử lý câu hỏi khó, kết thúc cuộc trò chuyện; can-do tổng kết C1 và cả lộ trình | | | | dự kiến |
+| 9 | `c1-09-collocations` | collocation tính từ + danh từ (heavy traffic, strong coffee, high prices, a close friend, common sense, a wide range of), make / do / take / pay + danh từ (make a decision, make progress, make an effort, do me a favor, take a break, pay attention to, take full responsibility for), trạng từ + tính từ (bitterly disappointed, highly unlikely, deeply grateful, fully aware, strongly recommend, utterly, painfully); tránh dịch từng chữ | 3 | 24 (3/13/5/3) | 2 | draft |
+| 10 | `c1-10-trends` | bình luận xu hướng: tương lai kiểu C1 (be bound to, be set to, be on the verge of, It's only a matter of time before, for the foreseeable future, inevitable, widespread), mệnh đề phân từ (Having + V3, Given that, Faced with, Judging by, considering; remote work, lifestyle), dẫn nguồn và số liệu (A recent study found that, Research suggests that, A growing number of, the vast majority of, take it with a grain of salt, statistics, reportedly) | 3 | 24 (6/7/8/3) | 2 | draft |
+| 11 | `c1-11-between-the-lines` | hiểu hàm ý: câu lịch sự nói một đằng hiểu một nẻo (I'll bear it in mind, With respect, You might want to, I hear what you say, That's an interesting idea, read between the lines, imply), mỉa mai và đùa (That's just what I needed, I'm only joking, Very funny, Are you pulling my leg?, Don't tell me, sarcastic, a sense of humor), small talk (câu hỏi đuôi tìm đồng tình, Tell me about it, Can't complain, What brings you here?, small talk, awkward) | 3 | 24 (3/13/5/3) | 2 | draft |
+| 12 | `c1-12-strategy` | chiến lược C1: diễn giải và tóm tắt (If I understand you correctly, So what you're saying is that, Am I right in thinking that, Correct me if I'm wrong, but, To recap, In essence, gist, paraphrase), phản đối tinh tế (I take your point, but, I see it a bit differently, I wouldn't go that far, That's one way of looking at it, play devil's advocate, Let's agree to disagree, valid, nuance), câu hỏi khó và kết thúc (That's a tricky one, The short answer is, I'd rather not go into, I should let you go, I won't keep you, It's been great catching up, Let's pick this up another time, diplomatic); can-do tổng kết C1 và cả lộ trình | 3 | 24 (5/12/7/0) | 2 | draft |
 
 ### Mẫu câu (PATTERN)
 
@@ -694,6 +694,31 @@ Mốc của stage: "Tôi diễn đạt linh hoạt, tự nhiên" (unit 04). Khun
 | `i-was-impressed-by` | I was really impressed by {thing}. | 08 |
 | `you-did-a-great-job-of` | You did a great job of {doing}. | 08 |
 | `thanks-for-pointing-out` | Thanks for pointing out {problem}. | 08 |
+| `a-wide-range-of` | There's a wide range of {things}. | 09 |
+| `pay-attention-to` | Please pay attention to {thing}. | 09 |
+| `take-responsibility-for` | I take full responsibility for {thing}. | 09 |
+| `deeply-grateful` | I'm deeply grateful for {thing}. | 09 |
+| `fully-aware` | I'm fully aware that {fact}. | 09 |
+| `be-bound-to` | {thing} is bound to {happen}. | 10 |
+| `be-set-to` | {thing} is set to {change}. | 10 |
+| `having-finished` | Having {done}, {result}. | 10 |
+| `given-that` | Given that {fact}, {conclusion}. | 10 |
+| `faced-with` | Faced with {problem}, {reaction}. | 10 |
+| `a-recent-study` | A recent study found that {finding}. | 10 |
+| `research-suggests` | Research suggests that {finding}. | 10 |
+| `a-growing-number-of` | A growing number of {people} are {doing}. | 10 |
+| `with-respect` | With respect, {opinion}. | 11 |
+| `you-might-want-to` | You might want to {do}. | 11 |
+| `dont-tell-me` | Don't tell me {news}. | 11 |
+| `isnt-it` | It's {comment}, isn't it? | 11 |
+| `havent-you` | You've {done} before, haven't you? | 11 |
+| `if-i-understand-you-correctly` | If I understand you correctly, {paraphrase}. | 12 |
+| `so-what-youre-saying-is` | So what you're saying is that {paraphrase}. | 12 |
+| `am-i-right-in-thinking` | Am I right in thinking that {assumption}? | 12 |
+| `i-take-your-point` | I take your point, but {counter}. | 12 |
+| `i-see-it-differently` | I see it a bit differently. For me, {view}. | 12 |
+| `the-short-answer-is` | The short answer is {answer}. | 12 |
+| `id-rather-not-go-into` | I'd rather not go into {topic}. | 12 |
 
 ### Ngữ pháp (GRAMMAR)
 
@@ -723,6 +748,15 @@ Mốc của stage: "Tôi diễn đạt linh hoạt, tự nhiên" (unit 04). Khun
 | `tactful-feedback` | It might be worth + V-ing, I wonder if it would help to + V, One thing you could consider is + V-ing, Have you thought about + V-ing? | 08 |
 | `specific-praise` | I was impressed by + N / how…, You did a great job of + V-ing, What worked well was…, Credit where credit's due | 08 |
 | `responding-to-criticism` | cảm ơn → hỏi rõ → nhận phần đúng (Point taken, In hindsight, I should have…) → nói việc sẽ làm (take on board) | 08 |
+| `collocations` | cặp tính từ + danh từ cố định (heavy traffic / rain, strong coffee, high prices, a close friend); không thay bằng từ đồng nghĩa | 09 |
+| `make-do-take` | make (tạo ra: decision, progress, effort), do (việc: homework, research, a favor), take (break, responsibility), pay (attention) | 09 |
+| `adverb-collocations` | trạng từ đi đôi với tính từ: bitterly disappointed, highly unlikely, deeply grateful, fully aware, utterly exhausted, painfully slow | 09 |
+| `future-expressions` | be bound to + V (chắc chắn), be set to + V (đã dự kiến), be on the verge of + V-ing (sắp), It's only a matter of time before + hiện tại | 10 |
+| `participle-clauses` | Having + V3, …; Faced with + N, …; Given that…, …; Judging by…; considering; chủ ngữ ngầm = chủ ngữ vế chính | 10 |
+| `citing-sources` | According to…, A recent study found that…, Research suggests that… (research không đếm được), the vast majority of, reportedly; According to me ✗ | 10 |
+| `polite-code` | nghĩa thật: I'll bear it in mind (chắc không), With respect (phản đối), I hear what you say, That's an interesting idea, You might want to (yêu cầu) | 11 |
+| `sarcasm-irony` | mỉa mai về chuyện xui (Lovely weather!, That's just what I needed), đáp cùng giọng; I'm only joking, Very funny, pull someone's leg | 11 |
+| `tag-questions` | câu hỏi đuôi xuống giọng tìm đồng tình: trợ động từ + đại từ, khẳng định ↔ phủ định; I'm → aren't I, Let's → shall we | 11 |
 
 ### Lỗi thường gặp của người Việt (C1)
 
@@ -734,6 +768,10 @@ Mốc của stage: "Tôi diễn đạt linh hoạt, tự nhiên" (unit 04). Khun
 - "provided that you will order", "If you would sign today…" (ý là If you were to), "meet in the half", "take it or leave it", "So we agree that…" khi tóm lại, gật đầu cho xong rồi đổi ý (unit 06).
 - "I will assist you to obtain tickets" khi nhắn bạn bè, "inquire you about", trộn từ hai văn phong, "a reduce in costs", "prior to leave", "It has decided that…", "You made a mistake AGAIN!!!", "Why you still not reply?", tưởng "As per my last email" là lịch sự (unit 07).
 - "You should change this. It's wrong.", "worth to add", "a feedback", "Good job, very good, very good", "impressed with your present", "a great job to explain", giải thích ngay khi bị chê, "take it on my board", "In hindsight, I should check" (unit 08).
+- "big rain", "big traffic", "thick coffee", "expensive price", "near friend", "a common sense", "do a decision", "make homework", "make a break", "take attention", "strongly disappointed", "highly grateful", "very exhausted", "I'm full aware" (unit 09).
+- "It is bound that…", "on the verge to close", "before it will happen", "Having finish…", "Facing with…", chủ ngữ ngầm sai ("Having finished the report, my boss called me"), "According to me", "a research", "Researches suggest", "The majority of people thinks" (unit 10).
+- Tưởng "I'll bear it in mind" là hứa làm, tưởng "With respect" là khen, "bear it on mind", đáp "No, it's raining!" khi bị mỉa mai, "Are you joke me?", "I'm just joke", tưởng "Very funny" là khen, "isn't it?" cho mọi câu hỏi đuôi, "It's cold, isn't?", "Why are you here?" ở hội thảo, hiểu "Tell me about it" là "kể đi" (unit 11).
+- "You mean what?", gật đầu dù không chắc hiểu, "No, that's wrong" / "You don't understand" khi phản đối, im lặng cho qua rồi bực trong lòng, "I don't want to answer", "It's not your business", "I must go now. Bye.", "We talk again later" (unit 12).
 
 ### Ghi chú C1
 
@@ -745,4 +783,9 @@ Mốc của stage: "Tôi diễn đạt linh hoạt, tự nhiên" (unit 04). Khun
 - `c1-06`: `first-conditional`, `unless`, `would-it-be-possible-to`, `making-suggestions`, `softening-refusals`, `i-see-your-point-but`, `contrast-concession`, `ballpark-figure`, `on-the-same-page`, `ball-in-your-court`, `making-a-case`, `formal-email` chỉ RECYCLE. `if-you-were-to` là điều kiện loại 2 dạng thăm dò, nối với đảo ngữ Were you to (C1 03). `wiggle-room` kiểu Mỹ (Anh: room for manoeuvre). Hội thoại bài 2 đàm phán giá với nhà cung cấp, bài 3 chốt thỏa thuận và xin thời gian.
 - `c1-07`: 12 LEXICAL vì bài 1 là cặp từ trang trọng ↔ thân mật và bài 2 là danh từ hóa. `regarding` (B2 05), `should-you-need` (C1 03), `figure-out` (B2 08), `formal-email`, `passive-present`, `due-to`, `linking-words`, `understatement`, `softening-refusals`, `polite-requests` chỉ RECYCLE; `assist`, `i-would-be-grateful-if` được RECYCLE ngay trong unit. `inquire` viết kiểu Mỹ (Anh: enquire). require chỉ nằm trong EXPLAIN. `as-per-my-last-email` dạy để nghe ra ý bực, không để dùng. Hội thoại bài 2 sửa thông báo gửi khách, bài 3 sửa email bực bội của đồng nghiệp.
 - `c1-08`: `understatement`, `making-suggestions`, `id-suggest`, `im-not-entirely-convinced`, `wh-cleft`, `emphatic-do`, `absolutely`, `point-out`, `should-have`, `i-see-your-point-but` chỉ RECYCLE. Không có item I'll bear it in mind: để dành cho `c1-11`. `feedback` ghi chú không đếm được. Hội thoại bài 2 người học góp ý cho đồng nghiệp mới, bài 3 người học nhận góp ý từ trưởng nhóm.
+- `c1-09`: collocation chủ yếu là PHRASE (13), như thành ngữ ở `c1-04`. `traffic` (B1 01), `best-friend` (A2 11), `do-homework`, `take-a-shower` (A1 07), `make-the-most-of` (B2 02), `decision` (B2 02), `idiom-basics`, `idioms-and-vietnamese`, `absolutely`, `incredibly`, `degree-adverbs`, `totally` chỉ RECYCLE. heavy rain, a traffic jam, do research, make a mistake chỉ nằm trong EXPLAIN / `forms`. `do-me-a-favor` viết kiểu Mỹ (Anh: favour). Hội thoại bài 2 gấp rút trước ngày ra mắt sản phẩm, bài 3 trượt thăng chức và cảm ơn người hướng dẫn.
+- `c1-10`: `in-the-long-run` đã có ở B2 07 nên chỉ RECYCLE (cùng `trend`, `is-likely-to`, `future-certainty`); `having-said-that`, `generation`, `social-media`, `according-to`, `survey`, `describing-trends`, `has-risen-by` chỉ RECYCLE. `matter-of-time` là slug của It's only a matter of time before…. `grain-of-salt` kiểu Mỹ (Anh: a pinch of salt). `citing-sources` sửa lỗi "According to me". Hội thoại bài 2 là podcast về làm việc từ xa, bài 3 kiểm chứng một bài báo lan truyền.
+- `c1-11`: `polite-code` là chiều nghe của `understatement`, `hedging` (C1 01); `not-particularly`, `im-not-entirely-convinced` chỉ RECYCLE. `ill-bear-it-in-mind` để dành từ `c1-08`; kiểu Mỹ I'll keep that in mind chỉ nằm trong `noteVi`. `tone`, `passive-aggressive`, `blunt` (C1 07), `funny` (A2 11), `weather` (A1 08), `catch-up-with` (B2 08), `keep-in-touch` (A2 12) chỉ RECYCLE. `sense-of-humor` viết kiểu Mỹ. Hội thoại bài 2 đồng nghiệp người Anh hay đùa, bài 3 bắt chuyện ở giờ nghỉ hội thảo.
+- `c1-12` giống `b1-12`, `b2-12`: không GRAMMAR, mỗi bài 8 INTRODUCE đều vào INTRO, canDo thứ tư tổng kết C1 và cả lộ trình, checkpoint 8 câu có 2 câu ôn (`wh-cleft`, `negative-inversion`). `in-other-words`, `let-me-make-sure`, `summarize`, `to-sum-up`, `i-see-your-point-but`, `its-fair-to-say`, `hedging`, `fair-enough`, `thats-a-good-question`, `how-can-i-put-it`, `handling-questions`, `nice-talking-to-you` chỉ RECYCLE. `paraphrase` (nói lại ý người khác) phân biệt với `rephrase` (B2 12, tự nói lại câu mình). Hội thoại bài 2 tranh luận với bạn Mỹ về AI dịch thuật, bài 3 gặp lại đồng nghiệp cũ hỏi chuyện riêng rồi chào tạm biệt.
+- Stage C1 xong (P4-7c): 12 unit, 36 bài, 288 item, placement 24 câu. Cả lộ trình: 64 unit, 193 bài, 1552 item, placement 128 câu.
 

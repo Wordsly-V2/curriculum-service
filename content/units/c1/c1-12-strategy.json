@@ -1,0 +1,772 @@
+{
+    "slug": "c1-12-strategy",
+    "stage": "c1",
+    "order": 12,
+    "title": "So what you're saying is…",
+    "titleVi": "Chiến lược giao tiếp C1",
+    "descriptionVi": "Những kỹ năng giúp cuộc trò chuyện ở mức C1 trôi chảy: diễn giải và tóm tắt lời người khác để chắc mình hiểu đúng (If I understand you correctly…, So what you're saying is…, Correct me if I'm wrong, but…, To recap…), phản đối tinh tế mà không làm mất lòng (I take your point, but…, I wouldn't go that far, That's one way of looking at it, Let's agree to disagree), xử lý câu hỏi khó (That's a tricky one, The short answer is…, I'd rather not go into…) và kết thúc cuộc trò chuyện tự nhiên (I won't keep you, It's been great catching up). Unit cuối của lộ trình Wordsly Path.",
+    "canDo": [
+        "Tôi diễn giải và tóm tắt được lời người khác để kiểm tra mình hiểu đúng, và nắm được ý chính của một cuộc thảo luận dài.",
+        "Tôi phản đối được một cách tinh tế, công nhận phần có lý của người kia, và khép lại tranh luận mà vẫn giữ được quan hệ.",
+        "Tôi xử lý được câu hỏi khó hay nhạy cảm một cách khéo léo, và kết thúc cuộc trò chuyện tự nhiên, lịch sự.",
+        "Tổng kết C1 và cả lộ trình: tôi diễn đạt linh hoạt, tự nhiên và chính xác trong công việc lẫn đời sống, điều chỉnh được văn phong và giọng điệu theo người nghe, hiểu được hàm ý, và dẫn dắt được cuộc trò chuyện với người bản ngữ từ lời chào đầu tiên đến lời tạm biệt."
+    ],
+    "items": [
+        {
+            "slug": "if-i-understand-you-correctly",
+            "type": "PATTERN",
+            "text": "If I understand you correctly, ….",
+            "meaningVi": "Nếu tôi hiểu đúng ý bạn thì ….",
+            "examples": [
+                { "en": "If I understand you correctly, the project won't start until March.", "vi": "Nếu tôi hiểu đúng thì dự án phải đến tháng Ba mới bắt đầu.", "highlight": "If I understand you correctly" }
+            ],
+            "pattern": {
+                "template": "If I understand you correctly, {paraphrase}.",
+                "slots": [
+                    { "name": "paraphrase", "hintVi": "diễn giải lời người kia (mệnh đề)", "options": ["the project won't start until March", "you need the report by Friday", "the budget is fixed", "you'd prefer to work from home", "the client wants a lower price"] }
+                ]
+            },
+            "noteVi": "Diễn giải lại để kiểm tra, nhất là trước khi đồng ý hay phản đối. Trang trọng hơn let me make sure I understand (B1 12). Người kia sẽ xác nhận: Exactly. / Not quite…."
+        },
+        {
+            "slug": "so-what-youre-saying-is",
+            "type": "PATTERN",
+            "text": "So what you're saying is that ….",
+            "meaningVi": "Vậy ý bạn là ….",
+            "examples": [
+                { "en": "So what you're saying is that we need more time, not more money.", "vi": "Vậy ý bạn là chúng ta cần thêm thời gian, không phải thêm tiền.", "highlight": "So what you're saying is that" }
+            ],
+            "pattern": {
+                "template": "So what you're saying is that {paraphrase}.",
+                "slots": [
+                    { "name": "paraphrase", "hintVi": "ý chính của người kia (mệnh đề)", "options": ["we need more time, not more money", "the plan won't work", "the problem is the design", "we should wait until next year", "the price is too high"] }
+                ]
+            },
+            "noteVi": "Câu chẻ với what (C1 02). Giọng trung tính là kiểm tra; giọng nhấn mạnh có thể nghe như bắt lỗi (So what you're saying is that it's MY fault?)."
+        },
+        {
+            "slug": "am-i-right-in-thinking",
+            "type": "PATTERN",
+            "text": "Am I right in thinking that …?",
+            "meaningVi": "Tôi nghĩ … có đúng không?",
+            "examples": [
+                { "en": "Am I right in thinking that you've worked in Japan?", "vi": "Tôi nghĩ bạn từng làm việc ở Nhật, có đúng không?", "highlight": "Am I right in thinking that" }
+            ],
+            "pattern": {
+                "template": "Am I right in thinking that {assumption}?",
+                "slots": [
+                    { "name": "assumption", "hintVi": "điều mình đoán (mệnh đề)", "options": ["you've worked in Japan", "the meeting has been moved", "this is your first visit", "the price includes delivery", "you're leading the project"] }
+                ]
+            },
+            "noteVi": "Hỏi xác nhận một điều mình khá chắc, lịch sự và trang trọng. Sau in là thinking (V-ing). Am I right to think… cũng được nhưng ít dùng hơn."
+        },
+        {
+            "slug": "correct-me-if-im-wrong",
+            "type": "PHRASE",
+            "text": "Correct me if I'm wrong, but …",
+            "meaningVi": "Nếu tôi sai thì bạn cứ sửa, nhưng …",
+            "examples": [
+                { "en": "Correct me if I'm wrong, but didn't we agree on this last week?", "vi": "Nếu tôi nhớ sai thì bạn sửa nhé, nhưng tuần trước mình đã thống nhất chuyện này rồi mà?", "highlight": "Correct me if I'm wrong, but" }
+            ],
+            "noteVi": "Mở lời trước khi nói điều có thể làm người kia không vui, hoặc khi mình khá chắc là mình đúng. Tương tự: I might be wrong, but… (C1 01)."
+        },
+        {
+            "slug": "to-recap",
+            "type": "PHRASE",
+            "text": "To recap, …",
+            "meaningVi": "Tóm lại những gì đã nói, …",
+            "examples": [
+                { "en": "To recap, we've agreed on the price, and Tom will send the contract.", "vi": "Tóm lại, chúng ta đã thống nhất giá, và Tom sẽ gửi hợp đồng.", "highlight": "To recap" }
+            ],
+            "noteVi": "Nhắc lại các điểm chính cuối cuộc họp hay cuộc gọi. Ngắn hơn to sum up (B1 12). Danh từ: a quick recap."
+        },
+        {
+            "slug": "in-essence",
+            "type": "PHRASE",
+            "text": "In essence, …",
+            "meaningVi": "Về bản chất, …",
+            "examples": [
+                { "en": "In essence, the new policy means fewer meetings and more flexible hours.", "vi": "Về bản chất, chính sách mới nghĩa là ít họp hơn và giờ giấc linh hoạt hơn.", "highlight": "In essence" }
+            ],
+            "noteVi": "Rút ra điểm cốt lõi của một ý dài. Trang trọng hơn basically (B1 12). Tương tự: In a nutshell (B2 10, thân mật)."
+        },
+        {
+            "slug": "gist",
+            "type": "LEXICAL",
+            "text": "gist",
+            "meaningVi": "ý chính",
+            "ipa": "/dʒɪst/",
+            "examples": [
+                { "en": "I didn't catch every word, but I got the gist.", "vi": "Mình không nghe được từng chữ, nhưng hiểu được ý chính.", "highlight": "gist" }
+            ],
+            "noteVi": "get / give someone the gist (of something). Hữu ích khi nghe người bản ngữ nói nhanh: không cần hiểu hết từng chữ."
+        },
+        {
+            "slug": "paraphrase",
+            "type": "LEXICAL",
+            "text": "paraphrase",
+            "meaningVi": "diễn giải, nói lại bằng lời khác",
+            "ipa": "/ˈpærəfreɪz/",
+            "examples": [
+                { "en": "Let me paraphrase to make sure I've got it right.", "vi": "Để tôi nói lại bằng lời của mình cho chắc là hiểu đúng.", "highlight": "paraphrase" }
+            ],
+            "noteVi": "Vừa là động từ vừa là danh từ. Khác rephrase (B2 12: tự nói lại câu của mình): paraphrase thường là nói lại ý của người khác."
+        },
+        {
+            "slug": "i-take-your-point",
+            "type": "PATTERN",
+            "text": "I take your point, but ….",
+            "meaningVi": "Tôi hiểu ý bạn, nhưng ….",
+            "examples": [
+                { "en": "I take your point, but translation apps still miss a lot.", "vi": "Tôi hiểu ý bạn, nhưng ứng dụng dịch vẫn bỏ sót nhiều thứ.", "highlight": "I take your point, but" }
+            ],
+            "pattern": {
+                "template": "I take your point, but {counter}.",
+                "slots": [
+                    { "name": "counter", "hintVi": "ý phản biện (mệnh đề)", "options": ["translation apps still miss a lot", "the cost is still too high", "we don't have enough time", "not everyone can work from home", "the data tells a different story"] }
+                ]
+            },
+            "noteVi": "Nâng cấp của I see your point, but (B2 03), nghe chín chắn hơn. Khác Point taken (C1 08): Point taken là chấp nhận, không có but."
+        },
+        {
+            "slug": "i-see-it-differently",
+            "type": "PATTERN",
+            "text": "I see it a bit differently. For me, ….",
+            "meaningVi": "Tôi nhìn chuyện này hơi khác. Với tôi, ….",
+            "examples": [
+                { "en": "I see it a bit differently. For me, a language is about connecting with people.", "vi": "Tôi nhìn chuyện này hơi khác. Với tôi, ngôn ngữ là để kết nối với con người.", "highlight": "I see it a bit differently" }
+            ],
+            "pattern": {
+                "template": "I see it a bit differently. For me, {view}.",
+                "slots": [
+                    { "name": "view", "hintVi": "quan điểm của mình (mệnh đề)", "options": ["a language is about connecting with people", "the real problem is the price", "quality matters more than speed", "experience is more important than a degree", "it's a question of trust"] }
+                ]
+            },
+            "noteVi": "Nêu quan điểm khác như một góc nhìn, không nói người kia sai. a bit / slightly làm câu mềm hơn (C1 01)."
+        },
+        {
+            "slug": "i-wouldnt-go-that-far",
+            "type": "PHRASE",
+            "text": "I wouldn't go that far.",
+            "meaningVi": "Tôi không nghĩ đến mức đó.",
+            "examples": [
+                { "en": "Nobody will need to learn languages? I wouldn't go that far.", "vi": "Không ai cần học ngoại ngữ nữa à? Mình không nghĩ đến mức đó.", "highlight": "I wouldn't go that far" }
+            ],
+            "noteVi": "Đồng ý một phần nhưng thấy người kia nói quá. Mềm hơn nhiều so với That's not true."
+        },
+        {
+            "slug": "one-way-of-looking-at-it",
+            "type": "PHRASE",
+            "text": "That's one way of looking at it.",
+            "meaningVi": "Đó là một cách nhìn. (nhưng tôi không hẳn đồng ý)",
+            "examples": [
+                { "en": "That's one way of looking at it. But I'd still rather talk to people myself.", "vi": "Đó cũng là một cách nhìn. Nhưng mình vẫn thích tự nói chuyện với mọi người hơn.", "highlight": "That's one way of looking at it" }
+            ],
+            "noteVi": "Công nhận ý kia là một góc nhìn, ngầm nói còn góc nhìn khác (của mình). Giống polite-code (C1 11): nghe lịch sự nhưng thường là không đồng ý."
+        },
+        {
+            "slug": "devils-advocate",
+            "type": "PHRASE",
+            "text": "play devil's advocate",
+            "meaningVi": "cố tình nói ngược để tranh luận",
+            "examples": [
+                { "en": "Just to play devil's advocate: what if the AI sounds exactly like you?", "vi": "Mình cố tình nói ngược nhé: nếu AI nói giống hệt bạn thì sao?", "highlight": "play devil's advocate" }
+            ],
+            "noteVi": "Nói trước khi đưa ra ý mình không hẳn tin, để thử lập luận của người kia. Người nghe hiểu là không phải công kích cá nhân."
+        },
+        {
+            "slug": "agree-to-disagree",
+            "type": "PHRASE",
+            "text": "Let's agree to disagree.",
+            "meaningVi": "Mỗi người một ý vậy.",
+            "examples": [
+                { "en": "We're never going to agree on this. Let's agree to disagree.", "vi": "Mình sẽ không bao giờ thống nhất được chuyện này. Mỗi người một ý vậy.", "highlight": "Let's agree to disagree" }
+            ],
+            "noteVi": "Khép lại tranh luận một cách thân thiện, không ai phải thua. Hay nói kèm nụ cười rồi đổi chủ đề."
+        },
+        {
+            "slug": "valid",
+            "type": "LEXICAL",
+            "text": "valid",
+            "meaningVi": "có lý, xác đáng; còn hiệu lực",
+            "ipa": "/ˈvælɪd/",
+            "examples": [
+                { "en": "That's a valid point. They are getting better every month.", "vi": "Ý đó có lý. Chúng đúng là tốt lên từng tháng.", "highlight": "valid" }
+            ],
+            "noteVi": "a valid point / argument / concern. Nghĩa khác: a valid passport / ticket (còn hiệu lực). Trái nghĩa: invalid."
+        },
+        {
+            "slug": "nuance",
+            "type": "LEXICAL",
+            "text": "nuance",
+            "meaningVi": "sắc thái tinh tế",
+            "ipa": "/ˈnuːɑːns/",
+            "examples": [
+                { "en": "Translation apps still miss a lot of nuance.", "vi": "Ứng dụng dịch vẫn bỏ sót nhiều sắc thái.", "highlight": "nuance" }
+            ],
+            "noteVi": "Đếm được và không đếm được: the nuances of a language, a lot of nuance. Tính từ: nuanced (a nuanced view = nhìn nhiều chiều)."
+        },
+        {
+            "slug": "thats-a-tricky-one",
+            "type": "PHRASE",
+            "text": "That's a tricky one.",
+            "meaningVi": "Câu này khó trả lời đây.",
+            "examples": [
+                { "en": "Why did I leave? That's a tricky one.", "vi": "Sao mình nghỉ à? Câu này khó trả lời đây.", "highlight": "That's a tricky one" }
+            ],
+            "noteVi": "Câu giờ khi gặp câu hỏi khó hay nhạy cảm, thân mật hơn That's a good question (B1 12). tricky = khó, cần khéo."
+        },
+        {
+            "slug": "the-short-answer-is",
+            "type": "PATTERN",
+            "text": "The short answer is ….",
+            "meaningVi": "Nói ngắn gọn thì ….",
+            "examples": [
+                { "en": "The short answer is that I wanted a new challenge.", "vi": "Nói ngắn gọn thì mình muốn một thử thách mới.", "highlight": "The short answer is" }
+            ],
+            "pattern": {
+                "template": "The short answer is {answer}.",
+                "slots": [
+                    { "name": "answer", "hintVi": "câu trả lời gọn (that + mệnh đề, hoặc yes / no)", "options": ["that I wanted a new challenge", "yes, but it's complicated", "no, not this year", "that we ran out of time", "that it depends on the budget"] }
+                ]
+            },
+            "noteVi": "Trả lời gọn trước, rồi tùy người nghe mà nói thêm: The long answer is…. Hợp khi không muốn kể hết chuyện riêng."
+        },
+        {
+            "slug": "id-rather-not-go-into",
+            "type": "PATTERN",
+            "text": "I'd rather not go into ….",
+            "meaningVi": "Tôi xin phép không nói chi tiết về ….",
+            "examples": [
+                { "en": "I'd rather not go into that, if you don't mind.", "vi": "Mình xin phép không nói chi tiết chuyện đó, nếu bạn không phiền.", "highlight": "I'd rather not go into" }
+            ],
+            "pattern": {
+                "template": "I'd rather not go into {topic}.",
+                "slots": [
+                    { "name": "topic", "hintVi": "chủ đề nhạy cảm (danh từ)", "options": ["that, if you don't mind", "the details", "my salary", "what happened with the old manager", "that right now"] }
+                ]
+            },
+            "noteVi": "Từ chối trả lời mà không cộc lốc. go into = đi vào chi tiết. Hay kèm Let's just say… để nói gọn một ý. Nối tiếp id-rather (B2 11)."
+        },
+        {
+            "slug": "i-should-let-you-go",
+            "type": "PHRASE",
+            "text": "I should let you go.",
+            "meaningVi": "Thôi mình không làm phiền bạn nữa.",
+            "examples": [
+                { "en": "Anyway, I should let you go. I know you're busy.", "vi": "Thôi, mình không làm phiền bạn nữa. Mình biết bạn bận.", "highlight": "I should let you go" }
+            ],
+            "noteVi": "Kết thúc cuộc gọi hay cuộc trò chuyện bằng cách \"nghĩ cho\" người kia. Không phải \"để bạn đi\" theo nghĩa đen, và cũng không phải sa thải (let someone go ở công ty)."
+        },
+        {
+            "slug": "i-wont-keep-you",
+            "type": "PHRASE",
+            "text": "I won't keep you.",
+            "meaningVi": "Mình không giữ bạn lâu nữa.",
+            "examples": [
+                { "en": "You have to pick up your son? Then I won't keep you.", "vi": "Bạn phải đón con à? Vậy mình không giữ bạn lâu nữa.", "highlight": "I won't keep you" }
+            ],
+            "noteVi": "Dùng khi người kia vừa nhắc là bận. Cũng nói: I won't keep you any longer. Tự nhiên hơn nhiều so với I must go now."
+        },
+        {
+            "slug": "great-catching-up",
+            "type": "PHRASE",
+            "text": "It's been great catching up.",
+            "meaningVi": "Gặp lại nói chuyện vui quá.",
+            "examples": [
+                { "en": "It's been great catching up. We should do this more often.", "vi": "Gặp lại nói chuyện vui quá. Nên gặp nhau thường xuyên hơn.", "highlight": "It's been great catching up" }
+            ],
+            "noteVi": "Nối tiếp catch up (B2 08). Dùng với người quen lâu không gặp; với người mới quen thì nói nice talking to you (A2 12)."
+        },
+        {
+            "slug": "lets-pick-this-up",
+            "type": "PHRASE",
+            "text": "Let's pick this up another time.",
+            "meaningVi": "Để hôm khác mình nói tiếp nhé.",
+            "examples": [
+                { "en": "We're running out of time. Let's pick this up another time.", "vi": "Hết giờ rồi. Để hôm khác mình nói tiếp nhé.", "highlight": "Let's pick this up another time" }
+            ],
+            "noteVi": "pick up = tiếp tục chuyện đang dở. Ở công ty: Let's pick this up in tomorrow's meeting. Khép lại mà hứa sẽ quay lại."
+        },
+        {
+            "slug": "diplomatic",
+            "type": "LEXICAL",
+            "text": "diplomatic",
+            "meaningVi": "khéo léo, tế nhị (trong lời nói)",
+            "ipa": "/ˌdɪpləˈmætɪk/",
+            "examples": [
+                { "en": "That's a very diplomatic answer!", "vi": "Câu trả lời khéo thật đấy!", "highlight": "diplomatic" }
+            ],
+            "noteVi": "Nói được điều khó mà không làm ai phật lòng. Cũng là \"ngoại giao\": a diplomatic visit. Trái nghĩa: blunt (C1 07)."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "c1-12-ai-translation",
+            "title": "I wouldn't go that far",
+            "situationVi": "Uống cà phê với Daniel, một người bạn Mỹ. Daniel tin rằng AI sẽ làm việc học ngoại ngữ trở nên vô nghĩa. Bạn không đồng ý, nhưng không muốn cãi nhau.",
+            "lines": [
+                { "speaker": "Daniel", "en": "Honestly, in ten years nobody will need to learn languages. AI will translate everything.", "vi": "Nói thật, mười năm nữa chẳng ai cần học ngoại ngữ. AI sẽ dịch hết." },
+                { "speaker": "You", "en": "I take your point, but I wouldn't go that far. Translation apps still miss a lot of nuance.", "vi": "Mình hiểu ý bạn, nhưng mình không nghĩ đến mức đó. Ứng dụng dịch vẫn bỏ sót nhiều sắc thái.", "learnerTurn": true },
+                { "speaker": "Daniel", "en": "Come on. They're getting better every month.", "vi": "Thôi nào. Chúng tốt lên từng tháng mà." },
+                { "speaker": "You", "en": "That's a valid point. It's fair to say that they're great for menus and signs.", "vi": "Ý đó có lý. Phải công nhận là chúng rất tốt để đọc thực đơn và biển báo.", "learnerTurn": true },
+                { "speaker": "Daniel", "en": "So why spend years learning English?", "vi": "Vậy sao phải mất bao năm học tiếng Anh?" },
+                { "speaker": "You", "en": "I see it a bit differently. For me, a language is about connecting with people, not just understanding words.", "vi": "Mình nhìn chuyện này hơi khác. Với mình, ngôn ngữ là để kết nối với con người, không chỉ để hiểu chữ.", "learnerTurn": true },
+                { "speaker": "Daniel", "en": "OK, just to play devil's advocate: what if the AI sounds exactly like you?", "vi": "Được, mình cố tình nói ngược nhé: nếu AI nói giống hệt bạn thì sao?" },
+                { "speaker": "You", "en": "That's one way of looking at it. But I'd still rather talk to you myself!", "vi": "Đó cũng là một cách nhìn. Nhưng mình vẫn thích tự nói chuyện với bạn hơn!", "learnerTurn": true },
+                { "speaker": "Daniel", "en": "Ha! Fair enough.", "vi": "Ha! Cũng phải." },
+                { "speaker": "You", "en": "Let's agree to disagree. Another coffee?", "vi": "Mỗi người một ý vậy. Thêm ly cà phê nữa không?", "learnerTurn": true }
+            ]
+        },
+        {
+            "slug": "c1-12-old-colleague",
+            "title": "That's a tricky one",
+            "situationVi": "Bạn tình cờ gặp lại Rachel, đồng nghiệp cũ, ở một quán cà phê. Rachel rất cởi mở và hỏi thẳng mấy câu khá riêng tư.",
+            "lines": [
+                { "speaker": "Rachel", "en": "It's so good to see you! So, why did you leave the company? Everyone was surprised.", "vi": "Gặp lại bạn vui quá! Mà sao bạn nghỉ việc vậy? Ai cũng bất ngờ." },
+                { "speaker": "You", "en": "That's a tricky one. The short answer is that I wanted a new challenge.", "vi": "Câu này khó trả lời đây. Nói ngắn gọn thì mình muốn một thử thách mới.", "learnerTurn": true },
+                { "speaker": "Rachel", "en": "Come on, there must be more to it. Was it the new manager?", "vi": "Thôi nào, chắc còn lý do khác. Tại quản lý mới à?" },
+                { "speaker": "You", "en": "I'd rather not go into that, if you don't mind. Let's just say it was time for a change.", "vi": "Mình xin phép không nói chi tiết chuyện đó, nếu bạn không phiền. Chỉ biết là đã đến lúc thay đổi.", "learnerTurn": true },
+                { "speaker": "Rachel", "en": "Fair enough. And the new job? Are they paying you more?", "vi": "Cũng được. Còn việc mới thì sao? Họ trả lương cao hơn à?" },
+                { "speaker": "You", "en": "How can I put it? I can't complain. And the team is great.", "vi": "Nói sao nhỉ? Cũng ổn. Và nhóm mới rất tuyệt.", "learnerTurn": true },
+                { "speaker": "Rachel", "en": "That's very diplomatic! Oh, is that the time? I have to pick up my son at four.", "vi": "Trả lời khéo thật đấy! Ôi, mấy giờ rồi? Mình phải đón con lúc bốn giờ." },
+                { "speaker": "You", "en": "Then I won't keep you. It's been great catching up.", "vi": "Vậy mình không giữ bạn lâu nữa. Gặp lại nói chuyện vui quá.", "learnerTurn": true },
+                { "speaker": "Rachel", "en": "It really has. But you still haven't told me about your trip to Japan!", "vi": "Thật đấy. Nhưng bạn vẫn chưa kể về chuyến đi Nhật!" },
+                { "speaker": "You", "en": "Let's pick this up another time. Lunch next week?", "vi": "Để hôm khác mình kể tiếp nhé. Tuần sau ăn trưa không?", "learnerTurn": true },
+                { "speaker": "Rachel", "en": "Perfect. It was so nice talking to you!", "vi": "Tuyệt. Nói chuyện với bạn vui lắm!" }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "c1-12-l1-paraphrasing",
+            "title": "So what you're saying is…",
+            "titleVi": "Diễn giải và tóm tắt",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "if-i-understand-you-correctly", "role": "INTRODUCE" },
+                { "item": "so-what-youre-saying-is", "role": "INTRODUCE" },
+                { "item": "am-i-right-in-thinking", "role": "INTRODUCE" },
+                { "item": "correct-me-if-im-wrong", "role": "INTRODUCE" },
+                { "item": "to-recap", "role": "INTRODUCE" },
+                { "item": "in-essence", "role": "INTRODUCE" },
+                { "item": "gist", "role": "INTRODUCE" },
+                { "item": "paraphrase", "role": "INTRODUCE" },
+                { "item": "in-other-words", "role": "RECYCLE" },
+                { "item": "let-me-make-sure", "role": "RECYCLE" },
+                { "item": "summarize", "role": "RECYCLE" },
+                { "item": "to-sum-up", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["if-i-understand-you-correctly", "so-what-youre-saying-is", "am-i-right-in-thinking", "correct-me-if-im-wrong", "to-recap", "in-essence", "gist", "paraphrase"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Nói lại để chắc mình hiểu",
+                        "bodyVi": "Ở B1 bạn đã hỏi lại khi không hiểu (**Let me make sure I understand**). Ở C1, bạn **paraphrase** ý người kia để kiểm tra, để cho thấy mình đang nghe, và để dẫn cuộc trò chuyện:\n\n| mục đích | cách nói |\n|---|---|\n| diễn giải để kiểm tra | **If I understand you correctly**, the project won't start until March. |\n| tóm ý chính của người kia | **So what you're saying is that** we need more time. |\n| xác nhận điều mình đoán | **Am I right in thinking that** you've worked in Japan? |\n| nói điều có thể trái ý | **Correct me if I'm wrong, but** didn't we agree on this? |\n| rút ra cốt lõi | **In essence**, it means fewer meetings. |\n| nói lại cho rõ (A1 10) | **In other words**, … |\n| chốt cuối cuộc họp | **To recap**, … / **To sum up**, … (B1 12) |\n\nKhông cần hiểu từng chữ: nắm được **gist** rồi diễn giải, người kia sẽ sửa nếu bạn sai (Not quite. What I meant was…). **summarize** là tóm tắt cả cuộc nói chuyện, paraphrase là nói lại một ý.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| You mean what? | **So what you're saying is that…?** |\n| (gật đầu dù không chắc hiểu) | **If I understand you correctly**, … |\n| Am I right when I think that…? | **Am I right in thinking that…?** |\n\n❌ gật đầu cho qua ❌ You mean what? ✅ **If I understand you correctly, the budget is fixed. So what you're saying is that we need to cut costs?**",
+                        "items": ["if-i-understand-you-correctly", "so-what-youre-saying-is", "am-i-right-in-thinking", "correct-me-if-im-wrong", "to-recap", "in-essence", "gist", "paraphrase", "in-other-words", "let-me-make-sure", "summarize", "to-sum-up"],
+                        "examples": [
+                            { "en": "If I understand you correctly, the project won't start until March.", "vi": "Nếu tôi hiểu đúng thì dự án phải đến tháng Ba mới bắt đầu.", "highlight": "If I understand you correctly" },
+                            { "en": "So what you're saying is that we need more time, not more money.", "vi": "Vậy ý bạn là chúng ta cần thêm thời gian, không phải thêm tiền.", "highlight": "So what you're saying is that" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "if-i-understand-you-correctly",
+                        "prompts": [
+                            { "cueVi": "Nếu tôi hiểu đúng thì bạn cần báo cáo trước thứ Sáu.", "slots": { "paraphrase": "you need the report by Friday" }, "answer": "If I understand you correctly, you need the report by Friday." },
+                            { "cueVi": "Nếu tôi hiểu đúng thì khách hàng muốn giá thấp hơn.", "slots": { "paraphrase": "the client wants a lower price" }, "answer": "If I understand you correctly, the client wants a lower price." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "so-what-youre-saying-is",
+                        "prompts": [
+                            { "cueVi": "Vậy ý bạn là vấn đề nằm ở thiết kế.", "slots": { "paraphrase": "the problem is the design" }, "answer": "So what you're saying is that the problem is the design." },
+                            { "cueVi": "Vậy ý bạn là chúng ta nên đợi đến năm sau.", "slots": { "paraphrase": "we should wait until next year" }, "answer": "So what you're saying is that we should wait until next year." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["correct-me-if-im-wrong", "to-recap", "in-essence", "gist", "paraphrase", "in-other-words"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "If I understand you correctly, the project won't start until March.", "vi": "Nếu tôi hiểu đúng thì dự án phải đến tháng Ba mới bắt đầu." },
+                            { "en": "So what you're saying is that we need more time, not more money.", "vi": "Vậy ý bạn là chúng ta cần thêm thời gian, không phải thêm tiền." },
+                            { "en": "Correct me if I'm wrong, but didn't we agree on this last week?", "vi": "Nếu tôi nhớ sai thì bạn sửa nhé, nhưng tuần trước mình đã thống nhất chuyện này rồi mà?" },
+                            { "en": "To recap, we've agreed on the price, and Tom will send the contract.", "vi": "Tóm lại, chúng ta đã thống nhất giá, và Tom sẽ gửi hợp đồng." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn muốn kiểm tra xem mình hiểu đúng ý đối tác chưa:",
+                                "options": ["You mean what?", "If I understand you correctly, the budget is fixed.", "I understand. Yes, yes."],
+                                "answer": 1,
+                                "item": "if-i-understand-you-correctly"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["Am I right in thinking that you've worked in Japan?", "Am I right in think that you've worked in Japan?", "Am I thinking right that you worked in Japan?"],
+                                "answer": 0,
+                                "item": "am-i-right-in-thinking"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "I didn't catch every word, but I got the ___.",
+                                "hintVi": "ý chính",
+                                "answers": ["gist"],
+                                "item": "gist"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Correct me if I'm wrong, but didn't we agree on this last week?",
+                                "options": ["Tôi sai rồi, tuần trước mình chưa thống nhất.", "Nếu tôi nhớ sai thì bạn sửa nhé, nhưng tuần trước mình đã thống nhất chuyện này rồi mà?", "Bạn sửa giúp tôi lỗi trong bản thỏa thuận tuần trước."],
+                                "answer": 1,
+                                "item": "correct-me-if-im-wrong"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Vậy ý bạn là kế hoạch sẽ không thành công.",
+                                "answer": "So what you're saying is that the plan won't work.",
+                                "item": "so-what-youre-saying-is"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "c1-12-l2-disagreeing-subtly",
+            "title": "I wouldn't go that far",
+            "titleVi": "Phản đối tinh tế",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "i-take-your-point", "role": "INTRODUCE" },
+                { "item": "i-see-it-differently", "role": "INTRODUCE" },
+                { "item": "i-wouldnt-go-that-far", "role": "INTRODUCE" },
+                { "item": "one-way-of-looking-at-it", "role": "INTRODUCE" },
+                { "item": "devils-advocate", "role": "INTRODUCE" },
+                { "item": "agree-to-disagree", "role": "INTRODUCE" },
+                { "item": "valid", "role": "INTRODUCE" },
+                { "item": "nuance", "role": "INTRODUCE" },
+                { "item": "i-see-your-point-but", "role": "RECYCLE" },
+                { "item": "its-fair-to-say", "role": "RECYCLE" },
+                { "item": "hedging", "role": "RECYCLE" },
+                { "item": "fair-enough", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["i-take-your-point", "i-see-it-differently", "i-wouldnt-go-that-far", "one-way-of-looking-at-it", "devils-advocate", "agree-to-disagree", "valid", "nuance"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Không đồng ý mà vẫn vui vẻ",
+                        "bodyVi": "Ở B2 bạn đã phản bác bằng **I see your point, but…** (B2 03). Ở C1, phản đối tinh tế theo ba bước: công nhận phần có lý → nêu góc nhìn khác → khép lại nếu không thống nhất được:\n\n| bước | cách nói |\n|---|---|\n| công nhận | That's a **valid** point. / **It's fair to say that**… (C1 01) / **Fair enough.** |\n| phản đối mềm | **I take your point, but**… / **I wouldn't go that far.** |\n| nêu góc nhìn khác | **I see it a bit differently.** For me, … |\n| nghe lịch sự, ngầm không đồng ý | **That's one way of looking at it.** |\n| cố tình nói ngược để thử | Just to **play devil's advocate**, … |\n| khép lại | **Let's agree to disagree.** |\n\nThêm **hedging** (C1 01) để mềm thêm: I'd say…, to some extent. Người nói C1 thấy được **nuance**, không nói kiểu trắng đen.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| No, that's wrong. | **I wouldn't go that far.** |\n| You don't understand. | **I see it a bit differently.** |\n| (im lặng cho qua dù không đồng ý) | **I take your point, but**… |\n\n❌ No, you're wrong ❌ im lặng rồi bực trong lòng ✅ **That's a valid point, but I wouldn't go that far. Let's agree to disagree.**",
+                        "items": ["i-take-your-point", "i-see-it-differently", "i-wouldnt-go-that-far", "one-way-of-looking-at-it", "devils-advocate", "agree-to-disagree", "valid", "nuance", "i-see-your-point-but", "its-fair-to-say", "hedging", "fair-enough"],
+                        "examples": [
+                            { "en": "I take your point, but translation apps still miss a lot.", "vi": "Tôi hiểu ý bạn, nhưng ứng dụng dịch vẫn bỏ sót nhiều thứ.", "highlight": "I take your point, but" },
+                            { "en": "Nobody will need to learn languages? I wouldn't go that far.", "vi": "Không ai cần học ngoại ngữ nữa à? Mình không nghĩ đến mức đó.", "highlight": "I wouldn't go that far" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "i-take-your-point",
+                        "prompts": [
+                            { "cueVi": "Tôi hiểu ý bạn, nhưng chi phí vẫn quá cao.", "slots": { "counter": "the cost is still too high" }, "answer": "I take your point, but the cost is still too high." },
+                            { "cueVi": "Tôi hiểu ý bạn, nhưng không phải ai cũng làm ở nhà được.", "slots": { "counter": "not everyone can work from home" }, "answer": "I take your point, but not everyone can work from home." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "i-see-it-differently",
+                        "prompts": [
+                            { "cueVi": "Tôi nhìn chuyện này hơi khác. Với tôi, chất lượng quan trọng hơn tốc độ.", "slots": { "view": "quality matters more than speed" }, "answer": "I see it a bit differently. For me, quality matters more than speed." },
+                            { "cueVi": "Tôi nhìn chuyện này hơi khác. Với tôi, đó là chuyện lòng tin.", "slots": { "view": "it's a question of trust" }, "answer": "I see it a bit differently. For me, it's a question of trust." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["i-wouldnt-go-that-far", "one-way-of-looking-at-it", "devils-advocate", "agree-to-disagree", "valid", "nuance"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "c1-12-ai-translation", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn thấy người kia nói hơi quá, nhưng không muốn nói thẳng là sai:",
+                                "options": ["No, that's wrong.", "I wouldn't go that far.", "You don't understand."],
+                                "answer": 1,
+                                "item": "i-wouldnt-go-that-far"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Tranh luận mãi không ngã ngũ, bạn muốn khép lại vui vẻ:",
+                                "options": ["Let's agree to disagree.", "Let's disagree to agree.", "OK, you win, whatever."],
+                                "answer": 0,
+                                "item": "agree-to-disagree"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "That's a ___ point. They are getting better every month.",
+                                "hintVi": "có lý, xác đáng",
+                                "answers": ["valid"],
+                                "item": "valid"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Just to play devil's advocate: what if the AI sounds exactly like you?",
+                                "options": ["AI là ác quỷ, đừng dùng nó.", "Mình cố tình nói ngược nhé: nếu AI nói giống hệt bạn thì sao?", "Luật sư của bạn nghĩ AI giống bạn."],
+                                "answer": 1,
+                                "item": "devils-advocate"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Tôi hiểu ý bạn, nhưng chúng ta không có đủ thời gian.",
+                                "answer": "I take your point, but we don't have enough time.",
+                                "item": "i-take-your-point"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "c1-12-l3-tough-questions",
+            "title": "That's a tricky one",
+            "titleVi": "Câu hỏi khó và lời tạm biệt",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "thats-a-tricky-one", "role": "INTRODUCE" },
+                { "item": "the-short-answer-is", "role": "INTRODUCE" },
+                { "item": "id-rather-not-go-into", "role": "INTRODUCE" },
+                { "item": "i-should-let-you-go", "role": "INTRODUCE" },
+                { "item": "i-wont-keep-you", "role": "INTRODUCE" },
+                { "item": "great-catching-up", "role": "INTRODUCE" },
+                { "item": "lets-pick-this-up", "role": "INTRODUCE" },
+                { "item": "diplomatic", "role": "INTRODUCE" },
+                { "item": "thats-a-good-question", "role": "RECYCLE" },
+                { "item": "how-can-i-put-it", "role": "RECYCLE" },
+                { "item": "handling-questions", "role": "RECYCLE" },
+                { "item": "nice-talking-to-you", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["thats-a-tricky-one", "the-short-answer-is", "id-rather-not-go-into", "i-should-let-you-go", "i-wont-keep-you", "great-catching-up", "lets-pick-this-up", "diplomatic"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Khéo khi bị hỏi, khéo khi chào",
+                        "bodyVi": "Câu hỏi riêng tư hay khó (vì sao nghỉ việc, lương bao nhiêu) không bắt buộc phải trả lời hết. Câu trả lời **diplomatic** vừa thật vừa không kể quá nhiều:\n\n| bước | cách nói |\n|---|---|\n| câu giờ | **That's a tricky one.** / **That's a good question.** (B1 12) / **How can I put it?** (B2 12) |\n| trả lời gọn | **The short answer is that** I wanted a new challenge. |\n| từ chối chi tiết | **I'd rather not go into** that, if you don't mind. Let's just say… |\n\nỞ hội thảo, bạn đã học **handling-questions** (C1 05); ở đây là chuyện đời thường, giọng nhẹ nhàng hơn.\n\nKết thúc cuộc trò chuyện: người bản ngữ ít khi nói thẳng I must go now. Họ \"nghĩ cho\" người kia:\n\n| tình huống | cách nói |\n|---|---|\n| người kia bận | **I should let you go.** / **I won't keep you.** |\n| gặp lại người quen | **It's been great catching up.** |\n| người mới quen (A2 12) | **It was nice talking to you.** |\n| chuyện còn dở | **Let's pick this up another time.** |\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| I don't want to answer. | **I'd rather not go into that**, if you don't mind. |\n| I must go now. Bye. | **I should let you go.** It's been great catching up. |\n| We talk again later. | **Let's pick this up another time.** |\n\n❌ I don't want to answer ❌ I must go now ✅ **That's a tricky one. The short answer is that it was time for a change. Anyway, I won't keep you.**",
+                        "items": ["thats-a-tricky-one", "the-short-answer-is", "id-rather-not-go-into", "i-should-let-you-go", "i-wont-keep-you", "great-catching-up", "lets-pick-this-up", "diplomatic", "thats-a-good-question", "how-can-i-put-it", "handling-questions", "nice-talking-to-you"],
+                        "examples": [
+                            { "en": "The short answer is that I wanted a new challenge.", "vi": "Nói ngắn gọn thì mình muốn một thử thách mới.", "highlight": "The short answer is" },
+                            { "en": "Anyway, I should let you go. I know you're busy.", "vi": "Thôi, mình không làm phiền bạn nữa. Mình biết bạn bận.", "highlight": "I should let you go" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "the-short-answer-is",
+                        "prompts": [
+                            { "cueVi": "Nói ngắn gọn thì chúng tôi hết thời gian.", "slots": { "answer": "that we ran out of time" }, "answer": "The short answer is that we ran out of time." },
+                            { "cueVi": "Nói ngắn gọn thì còn tùy vào ngân sách.", "slots": { "answer": "that it depends on the budget" }, "answer": "The short answer is that it depends on the budget." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "id-rather-not-go-into",
+                        "prompts": [
+                            { "cueVi": "Mình xin phép không nói chi tiết.", "slots": { "topic": "the details" }, "answer": "I'd rather not go into the details." },
+                            { "cueVi": "Mình xin phép không nói về lương.", "slots": { "topic": "my salary" }, "answer": "I'd rather not go into my salary." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["thats-a-tricky-one", "i-should-let-you-go", "i-wont-keep-you", "great-catching-up", "lets-pick-this-up", "diplomatic"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "c1-12-old-colleague", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Người quen hỏi lương của bạn. Bạn không muốn nói nhưng không muốn cộc lốc:",
+                                "options": ["I don't want to answer.", "I'd rather not go into that, if you don't mind.", "It's not your business."],
+                                "answer": 1,
+                                "item": "id-rather-not-go-into"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Người kia vừa nói phải đi đón con. Bạn đáp:",
+                                "options": ["I must go now. Bye.", "Then I won't keep you.", "OK, you can go."],
+                                "answer": 1,
+                                "item": "i-wont-keep-you"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "It's been great ___ up. We should do this more often.",
+                                "hintVi": "gặp lại nói chuyện (V-ing)",
+                                "answers": ["catching"],
+                                "item": "great-catching-up"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "We're running out of time. Let's pick this up another time.",
+                                "options": ["Hết giờ rồi. Để hôm khác mình nói tiếp nhé.", "Hết giờ rồi. Nhặt đồ lên rồi đi thôi.", "Còn nhiều thời gian, mình nói tiếp đi."],
+                                "answer": 0,
+                                "item": "lets-pick-this-up"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Nói ngắn gọn thì mình muốn một thử thách mới.",
+                                "answer": "The short answer is that I wanted a new challenge.",
+                                "item": "the-short-answer-is"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "c1-12-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Bạn muốn diễn giải lời đối tác để kiểm tra mình hiểu đúng:",
+                "options": ["If I understand you correctly, the price includes delivery.", "If I correctly understand you, is the price include delivery?", "You mean the price includes delivery or what?"],
+                "answer": 0,
+                "item": "if-i-understand-you-correctly"
+            },
+            {
+                "kind": "gap",
+                "sentence": "So what you're ___ is that we need more time?",
+                "hintVi": "nói (V-ing)",
+                "answers": ["saying"],
+                "item": "so-what-youre-saying-is"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào phản đối tinh tế nhất?",
+                "options": ["No, you're wrong.", "I take your point, but the cost is still too high.", "That's stupid."],
+                "answer": 1,
+                "item": "i-take-your-point"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "That's one way of looking at it.",
+                "options": ["Đó là cách duy nhất để nhìn nhận.", "Đó cũng là một cách nhìn. (nhưng tôi không hẳn đồng ý)", "Hãy nhìn theo cách này."],
+                "answer": 1,
+                "item": "one-way-of-looking-at-it"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Bạn bị hỏi vì sao nghỉ việc và chỉ muốn trả lời gọn:",
+                "options": ["The short answer is that I wanted a new challenge.", "The answer short is I wanted challenge new.", "I don't want to say."],
+                "answer": 0,
+                "item": "the-short-answer-is"
+            },
+            {
+                "kind": "order",
+                "vi": "Thôi, mình không làm phiền bạn nữa. Gặp lại nói chuyện vui quá.",
+                "answer": "I should let you go. It's been great catching up.",
+                "item": "i-should-let-you-go"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Ôn C1 02. Câu nào đúng?",
+                "options": ["What I need it is more time.", "What I need is more time.", "The thing what I need is more time."],
+                "answer": 1,
+                "item": "wh-cleft"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Ôn C1 03. Câu nào đúng?",
+                "options": ["Never I have seen such a view.", "Never have I seen such a view.", "Never have I saw such a view."],
+                "answer": 1,
+                "item": "negative-inversion"
+            }
+        ]
+    }
+}
