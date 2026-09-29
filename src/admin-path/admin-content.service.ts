@@ -20,8 +20,10 @@ import { writeRecord } from '@/content/content-writer';
 import type { ContentStatus } from '@/content/content.schema';
 import { PrismaService } from '@/prisma/prisma.service';
 import { type RowOrigin, rowOrigin } from './admin-path.logic';
+import { type OrderedRow, planReorder } from './admin-reorder.logic';
 import { AdminPathService, type ValidationResult } from './admin-path.service';
 import { type AdminKind, parseAdminRecord } from './admin-records';
+import type { ReorderKind } from './dto/reorder.dto';
 
 type Tx = Prisma.TransactionClient;
 
@@ -40,6 +42,14 @@ export interface AdminRecord {
 
 export interface AdminWriteResult extends AdminRecord {
     /** The whole working copy after this write; a publish needs `ok`. */
+    validation: ValidationResult;
+}
+
+export interface AdminReorderResult {
+    kind: ReorderKind;
+    parent: string;
+    /** The rows that moved, with their new `order`; the rest are untouched. */
+    changes: OrderedRow[];
     validation: ValidationResult;
 }
 
@@ -155,6 +165,56 @@ export class AdminContentService {
             await this.setStatus(tx, kind, row.id, 'DRAFT', adminId);
         });
         return this.withValidation(kind, slug);
+    }
+
+    /**
+     * Puts a stage's live units, or a unit's live lessons, in the order given.
+     * All or nothing in one transaction; each moved row is rewritten like a PUT
+     * with its new `order` (DRAFT, `seedHash` kept), so moving it back makes it
+     * match the seed again. 409 when `slugs` is not exactly the live children.
+     */
+    async reorder(
+        kind: ReorderKind,
+        parent: string,
+        slugs: string[],
+        adminId: string,
+    ): Promise<AdminReorderResult> {
+        const changes = await this.prisma.$transaction(async (tx) => {
+            const live = { status: { not: 'ARCHIVED' } };
+            const select = { slug: true, order: true };
+            let current: OrderedRow[];
+            if (kind === 'unit') {
+                await this.requireRow(tx, 'stage', parent);
+                current = await tx.unit.findMany({
+                    where: { stage: { slug: parent }, ...live },
+                    select,
+                });
+            } else {
+                await this.requireRow(tx, 'unit', parent);
+                current = await tx.lesson.findMany({
+                    where: { unit: { slug: parent }, ...live },
+                    select,
+                });
+            }
+            const plan = planReorder(current, slugs);
+            if (!plan.ok) throw new ConflictException(plan.error);
+            for (const { slug, order } of plan.changes) {
+                const { record } = await this.read(tx, kind, slug);
+                await writeRecord(tx, this.parse(kind, { ...record, order }), {
+                    insert: false,
+                    seedHash: undefined,
+                    updatedBy: adminId,
+                    status: 'DRAFT',
+                });
+            }
+            return plan.changes;
+        });
+        return {
+            kind,
+            parent,
+            changes,
+            validation: await this.admin.validate(),
+        };
     }
 
     // ─── Helpers ────────────────────────────────────────────────────────────

@@ -22,9 +22,11 @@ import {
     ReleaseService,
 } from '@/release/release.service';
 import { PublishReleaseDto } from './dto/publish-release.dto';
+import { ReorderDto } from './dto/reorder.dto';
 import {
     AdminContentService,
     type AdminRecord,
+    type AdminReorderResult,
     type AdminWriteResult,
 } from './admin-content.service';
 import {
@@ -138,6 +140,26 @@ export class AdminPathController {
             dryRun: dryRun !== 'false',
             adminId,
         });
+    }
+
+    @Post('reorder')
+    @HttpCode(200)
+    @ApiOperation({
+        summary: "Reorder a stage's units or a unit's lessons",
+        description:
+            'One transaction; `slugs` must be every live child of `parent`, else 409. ' +
+            'Moved rows become DRAFT, like a PUT.',
+    })
+    reorder(
+        @Body() body: ReorderDto,
+        @CurrentUser() adminId: string,
+    ): Promise<AdminReorderResult> {
+        return this.content.reorder(
+            body.kind,
+            body.parent,
+            body.slugs,
+            adminId,
+        );
     }
 
     // ─── Content (the working copy) ────────────────────────────────────────
