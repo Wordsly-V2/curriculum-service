@@ -102,6 +102,14 @@ describe('checkContentRefs', () => {
         );
     });
 
+    it('reports two stages at the same position', () => {
+        const c = valid();
+        c.stages[1].order = 1;
+        expect(checkContentRefs(c)).toEqual([
+            'stage a1: order 1 already used by pre-a1',
+        ]);
+    });
+
     it('reports an unknown stage', () => {
         const c = valid();
         c.units[0].stage = 'z9';
