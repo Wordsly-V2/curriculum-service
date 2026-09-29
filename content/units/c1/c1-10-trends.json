@@ -1,0 +1,810 @@
+{
+    "slug": "c1-10-trends",
+    "stage": "c1",
+    "order": 10,
+    "title": "It's bound to happen",
+    "titleVi": "Bình luận xu hướng xã hội",
+    "descriptionVi": "Nói về xu hướng và tương lai gần một cách chắc chắn hay thận trọng (be bound to, be set to, be on the verge of, It's only a matter of time before…), nối ý gọn bằng mệnh đề phân từ (Having lived abroad…, Given that…, Faced with…, Judging by…), và dẫn nguồn, số liệu mà không nói quá (A recent study found that…, Research suggests that…, the vast majority of, take it with a grain of salt).",
+    "canDo": [
+        "Tôi nói được một xu hướng chắc chắn sẽ đến, sắp đến hoặc đã được dự kiến, với mức chắc chắn phù hợp.",
+        "Tôi nối được lý do, bối cảnh và kết quả trong một câu bằng mệnh đề phân từ khi bình luận một vấn đề xã hội.",
+        "Tôi dẫn được nghiên cứu, khảo sát và số liệu khi lập luận, và biết khi nào nên nghi ngờ một nguồn tin."
+    ],
+    "items": [
+        {
+            "slug": "future-expressions",
+            "type": "GRAMMAR",
+            "text": "tương lai kiểu C1: be bound to, be set to, be on the verge of + V-ing, It's only a matter of time before…",
+            "meaningVi": "nói điều chắc chắn / đã dự kiến / sắp xảy ra",
+            "examples": [
+                { "en": "House prices are bound to rise again next year.", "vi": "Giá nhà chắc chắn sẽ lại tăng vào năm sau.", "highlight": "are bound to rise" }
+            ],
+            "grammar": {
+                "ruleVi": "Ngoài will, is likely to (B2 07), tiếng Anh có nhiều cách nói tương lai với sắc thái riêng. be bound to + V: người nói chắc chắn điều đó sẽ xảy ra (thường là dự đoán cá nhân). be set to + V: đã được dự kiến, lên kế hoạch, hay gặp trên báo. be on the verge of + V-ing / danh từ: sắp xảy ra, ngay trước mắt. It's only a matter of time before + hiện tại đơn: sớm muộn gì cũng xảy ra. for the foreseeable future: trong thời gian tới mà mình có thể thấy trước. Tránh nói quá: nếu chưa chắc, dùng is likely to hoặc may well.",
+                "forms": [
+                    { "label": "chắc chắn", "example": "It's bound to get cheaper." },
+                    { "label": "đã dự kiến", "example": "The population is set to double by 2040." },
+                    { "label": "sắp xảy ra", "example": "The company is on the verge of closing." },
+                    { "label": "sớm muộn", "example": "It's only a matter of time before prices go up." },
+                    { "label": "có thể (B2 07)", "example": "It's likely to change." }
+                ],
+                "pitfallsVi": [
+                    "\"It is bound that prices rise\" → Prices are bound to rise.",
+                    "\"on the verge to close\" → on the verge of closing (of + V-ing).",
+                    "\"It's only a matter of time before prices will go up\" → … before prices go up (không will)."
+                ]
+            }
+        },
+        {
+            "slug": "be-bound-to",
+            "type": "PATTERN",
+            "text": "… is bound to ….",
+            "meaningVi": "… chắc chắn sẽ ….",
+            "examples": [
+                { "en": "Online shopping is bound to keep growing.", "vi": "Mua sắm trực tuyến chắc chắn sẽ còn tăng.", "highlight": "is bound to" }
+            ],
+            "pattern": {
+                "template": "{thing} is bound to {happen}.",
+                "slots": [
+                    { "name": "thing", "hintVi": "chủ ngữ số ít", "options": ["Online shopping", "The new law", "Working from home", "The price of housing", "Artificial intelligence"] },
+                    { "name": "happen", "hintVi": "V nguyên mẫu (+ tân ngữ)", "options": ["keep growing", "cause problems", "become more common", "go up again", "change the way we work"] }
+                ]
+            },
+            "noteVi": "Người nói tự tin vào dự đoán. Thân mật: It's bound to happen. Đừng nhầm với bound for (đi đến): a plane bound for Tokyo."
+        },
+        {
+            "slug": "be-set-to",
+            "type": "PATTERN",
+            "text": "… is set to ….",
+            "meaningVi": "… được dự kiến sẽ ….",
+            "examples": [
+                { "en": "The city's population is set to double by 2040.", "vi": "Dân số thành phố được dự kiến sẽ tăng gấp đôi vào năm 2040.", "highlight": "is set to double" }
+            ],
+            "pattern": {
+                "template": "{thing} is set to {change}.",
+                "slots": [
+                    { "name": "thing", "hintVi": "chủ ngữ số ít", "options": ["The city's population", "The new metro line", "The number of tourists", "The minimum wage", "Electric car use"] },
+                    { "name": "change", "hintVi": "V nguyên mẫu (+ mốc)", "options": ["double by 2040", "open next year", "reach a record high", "rise in January", "grow rapidly"] }
+                ]
+            },
+            "noteVi": "Hay gặp trên báo và bản tin, dựa trên kế hoạch hay dự báo chính thức. Nối tiếp is expected to (B2 04)."
+        },
+        {
+            "slug": "on-the-verge-of",
+            "type": "PHRASE",
+            "text": "be on the verge of",
+            "meaningVi": "đứng trước bờ vực, sắp",
+            "examples": [
+                { "en": "Scientists are on the verge of a major breakthrough.", "vi": "Các nhà khoa học sắp có một bước đột phá lớn.", "highlight": "on the verge of" }
+            ],
+            "noteVi": "of + danh từ hoặc V-ing: on the verge of closing, on the verge of tears (sắp khóc). Mạnh hơn about to. ❌ on the verge to."
+        },
+        {
+            "slug": "matter-of-time",
+            "type": "PHRASE",
+            "text": "It's only a matter of time before …",
+            "meaningVi": "Sớm muộn gì cũng …",
+            "examples": [
+                { "en": "It's only a matter of time before cash disappears completely.", "vi": "Sớm muộn gì tiền mặt cũng biến mất hoàn toàn.", "highlight": "It's only a matter of time before" }
+            ],
+            "noteVi": "Sau before là hiện tại đơn (❌ will). Gần nghĩa sooner or later (C1 04), nhưng nghe chắc chắn và nghiêm túc hơn."
+        },
+        {
+            "slug": "for-the-foreseeable-future",
+            "type": "PHRASE",
+            "text": "for the foreseeable future",
+            "meaningVi": "trong tương lai gần (mà ta có thể thấy trước)",
+            "examples": [
+                { "en": "Prices will stay high for the foreseeable future.", "vi": "Giá sẽ còn cao trong tương lai gần.", "highlight": "for the foreseeable future" }
+            ],
+            "noteVi": "Nghĩa là \"chưa thấy khi nào thay đổi\". Hay dùng trong tin tức và thông báo công ty: The office will be closed for the foreseeable future."
+        },
+        {
+            "slug": "inevitable",
+            "type": "LEXICAL",
+            "text": "inevitable",
+            "meaningVi": "không thể tránh khỏi",
+            "ipa": "/ɪnˈevɪtəbəl/",
+            "examples": [
+                { "en": "With so many cars on the road, traffic jams are inevitable.", "vi": "Với chừng ấy xe trên đường, kẹt xe là không thể tránh khỏi.", "highlight": "inevitable" }
+            ],
+            "noteVi": "It's inevitable that…; trạng từ inevitably. Trang trọng hơn bound to happen."
+        },
+        {
+            "slug": "widespread",
+            "type": "LEXICAL",
+            "text": "widespread",
+            "meaningVi": "phổ biến rộng rãi, lan rộng",
+            "ipa": "/ˈwaɪdspred/",
+            "examples": [
+                { "en": "Mobile payments are now widespread in Vietnam.", "vi": "Thanh toán di động giờ đã phổ biến rộng rãi ở Việt Nam.", "highlight": "widespread" }
+            ],
+            "noteVi": "widespread use / support / concern. Hay dùng cho xu hướng, vấn đề, niềm tin. Gần nghĩa: common, nhưng widespread nhấn mạnh phạm vi rộng."
+        },
+        {
+            "slug": "participle-clauses",
+            "type": "GRAMMAR",
+            "text": "mệnh đề phân từ: Having + V3, …; Given that…, …; Faced with…, …; Judging by…, …",
+            "meaningVi": "rút gọn mệnh đề lý do, thời gian, bối cảnh cho câu gọn và trang trọng",
+            "examples": [
+                { "en": "Having lived abroad for years, I understand both cultures.", "vi": "Đã sống ở nước ngoài nhiều năm nên tôi hiểu cả hai nền văn hóa.", "highlight": "Having lived abroad" }
+            ],
+            "grammar": {
+                "ruleVi": "Mệnh đề phân từ thay cho một mệnh đề có because, after, when, nên câu gọn và nghe trang trọng hơn, hợp khi bình luận hay viết. Having + V3: việc đã xảy ra trước (After I had lived… → Having lived…). Faced with + danh từ: khi gặp (bị động). Given that + mệnh đề / Given + danh từ: vì thực tế là. Judging by + danh từ: dựa vào điều quan sát được. Considering (that): xét đến. Quy tắc quan trọng: chủ ngữ ngầm của mệnh đề phân từ phải là chủ ngữ của vế chính. Having finished the report, the boss called me nghĩa là sếp làm xong báo cáo.",
+                "forms": [
+                    { "label": "việc trước", "example": "Having finished the report, I went home." },
+                    { "label": "khi gặp", "example": "Faced with rising rents, many young people move back home." },
+                    { "label": "vì thực tế", "example": "Given that prices are rising, people are saving more." },
+                    { "label": "dựa vào", "example": "Judging by the job ads, remote work is here to stay." },
+                    { "label": "nhượng bộ (B2 12)", "example": "Having said that, not everyone agrees." }
+                ],
+                "pitfallsVi": [
+                    "\"Having finish the report, …\" → Having finished (V3).",
+                    "\"Having finished the report, the boss called me\" (sếp làm báo cáo) → Having finished the report, I called the boss.",
+                    "\"Facing with problems, …\" → Faced with problems, … / Facing problems, …."
+                ]
+            }
+        },
+        {
+            "slug": "having-finished",
+            "type": "PATTERN",
+            "text": "Having …, ….",
+            "meaningVi": "Sau khi đã … / Vì đã … nên ….",
+            "examples": [
+                { "en": "Having worked from home for three years, I can't imagine going back to the office.", "vi": "Làm ở nhà ba năm rồi, tôi không tưởng tượng nổi việc quay lại văn phòng.", "highlight": "Having worked" }
+            ],
+            "pattern": {
+                "template": "Having {done}, {result}.",
+                "slots": [
+                    { "name": "done", "hintVi": "V3 (+ tân ngữ)", "options": ["lived abroad for years", "read the report", "worked there for ten years", "moved to the city", "finished my degree"] },
+                    { "name": "result", "hintVi": "mệnh đề, cùng chủ ngữ", "options": ["I understand both cultures", "I agree with the main point", "she knows the business well", "they had to find a new school", "I started looking for a job"] }
+                ]
+            },
+            "noteVi": "Người làm việc trong Having … phải là chủ ngữ vế sau. Phủ định: Not having read the report, I couldn't comment."
+        },
+        {
+            "slug": "given-that",
+            "type": "PATTERN",
+            "text": "Given that …, ….",
+            "meaningVi": "Xét thực tế là … thì ….",
+            "examples": [
+                { "en": "Given that rents are so high, it's no surprise young people are leaving the city.", "vi": "Xét việc tiền thuê nhà quá cao, chẳng lạ khi người trẻ rời thành phố.", "highlight": "Given that" }
+            ],
+            "pattern": {
+                "template": "Given that {fact}, {conclusion}.",
+                "slots": [
+                    { "name": "fact", "hintVi": "mệnh đề (thực tế đã biết)", "options": ["rents are so high", "most people shop online", "the population is getting older", "they grew up online", "petrol is getting more expensive"] },
+                    { "name": "conclusion", "hintVi": "mệnh đề (kết luận)", "options": ["it's no surprise young people are leaving the city", "small shops are struggling", "we need more hospitals", "they're used to working this way", "more people are buying electric bikes"] }
+                ]
+            },
+            "noteVi": "Given + danh từ cũng được: Given the cost, … . Gần nghĩa considering (that), nhưng given that nhấn mạnh đây là sự thật ai cũng biết."
+        },
+        {
+            "slug": "faced-with",
+            "type": "PATTERN",
+            "text": "Faced with …, ….",
+            "meaningVi": "Trước tình cảnh …, ….",
+            "examples": [
+                { "en": "Faced with rising rents, many young people are moving back home.", "vi": "Trước tình cảnh tiền thuê nhà tăng, nhiều người trẻ đang chuyển về sống với gia đình.", "highlight": "Faced with" }
+            ],
+            "pattern": {
+                "template": "Faced with {problem}, {reaction}.",
+                "slots": [
+                    { "name": "problem", "hintVi": "khó khăn (danh từ)", "options": ["rising rents", "lower sales", "a shortage of teachers", "heavy traffic every day", "stronger competition"] },
+                    { "name": "reaction", "hintVi": "mệnh đề: ai làm gì", "options": ["many young people are moving back home", "the company cut its prices", "schools are hiring online tutors", "more people are working from home", "local shops are going online"] }
+                ]
+            },
+            "noteVi": "Dạng bị động của be faced with (phải đối mặt với). Cũng nói Facing + danh từ. ❌ Facing with."
+        },
+        {
+            "slug": "judging-by",
+            "type": "PHRASE",
+            "text": "Judging by …",
+            "meaningVi": "Dựa vào … (mà đoán)",
+            "examples": [
+                { "en": "Judging by the job ads, remote work is here to stay.", "vi": "Dựa vào các tin tuyển dụng thì làm việc từ xa sẽ còn tồn tại lâu.", "highlight": "Judging by" }
+            ],
+            "noteVi": "Rút ra kết luận từ điều mình thấy: Judging by the queue, the food must be good. Cũng nói judging from. Nối với must be (B1 11)."
+        },
+        {
+            "slug": "considering",
+            "type": "LEXICAL",
+            "text": "considering",
+            "meaningVi": "xét đến, nếu tính đến",
+            "ipa": "/kənˈsɪdərɪŋ/",
+            "examples": [
+                { "en": "Considering how expensive the city is, it makes sense to move back to your hometown.", "vi": "Xét đến việc thành phố đắt đỏ thế nào, chuyển về quê cũng hợp lý.", "highlight": "Considering" }
+            ],
+            "noteVi": "considering + danh từ / how… / (that) + mệnh đề. Cuối câu, thân mật: The food was OK, considering (= xét hoàn cảnh thì vậy là được)."
+        },
+        {
+            "slug": "remote-work",
+            "type": "PHRASE",
+            "text": "remote work",
+            "meaningVi": "làm việc từ xa",
+            "examples": [
+                { "en": "Remote work has changed where people choose to live.", "vi": "Làm việc từ xa đã thay đổi nơi người ta chọn sống.", "highlight": "Remote work" }
+            ],
+            "noteVi": "work remotely, a remote job, work from home (WFH). Mô hình kết hợp: hybrid work. remote cũng là xa xôi: a remote village."
+        },
+        {
+            "slug": "lifestyle",
+            "type": "LEXICAL",
+            "text": "lifestyle",
+            "meaningVi": "lối sống",
+            "ipa": "/ˈlaɪfstaɪl/",
+            "examples": [
+                { "en": "A lot of young people want a slower lifestyle outside the big cities.", "vi": "Nhiều người trẻ muốn một lối sống chậm hơn ngoài các thành phố lớn.", "highlight": "lifestyle" }
+            ],
+            "noteVi": "a healthy / busy / modern lifestyle, lifestyle change. Viết liền một từ."
+        },
+        {
+            "slug": "citing-sources",
+            "type": "GRAMMAR",
+            "text": "dẫn nguồn và số liệu: According to…, A recent study found that…, Research suggests that…, the vast majority of…",
+            "meaningVi": "nói rõ thông tin từ đâu ra và mức chắc chắn của nó",
+            "examples": [
+                { "en": "A recent study found that most people check their phones within ten minutes of waking up.", "vi": "Một nghiên cứu gần đây cho thấy phần lớn mọi người xem điện thoại trong vòng mười phút sau khi thức dậy.", "highlight": "A recent study found that" }
+            ],
+            "grammar": {
+                "ruleVi": "Lập luận có sức nặng khi nói rõ thông tin từ đâu ra. Động từ dẫn nguồn cho biết mức chắc chắn: found / showed (đã chứng minh qua dữ liệu) mạnh hơn suggests / indicates (gợi ý, có thể). Research là không đếm được (research suggests, không phải a research / researches). Số liệu: the vast majority of + danh từ số nhiều + động từ số nhiều; A growing number of + danh từ số nhiều + động từ số nhiều. Khi nguồn chưa chắc, dùng reportedly hoặc passive reporting (It is said that…, B2 04), và khuyên người nghe take it with a grain of salt.",
+                "forms": [
+                    { "label": "nguồn cụ thể", "example": "According to a 2024 survey, 60 percent of workers…" },
+                    { "label": "kết quả chắc", "example": "A recent study found that…" },
+                    { "label": "gợi ý", "example": "Research suggests that…" },
+                    { "label": "số lượng", "example": "The vast majority of people agree." },
+                    { "label": "chưa kiểm chứng", "example": "The CEO has reportedly resigned." }
+                ],
+                "pitfallsVi": [
+                    "\"According to me, …\" → In my opinion, … (according to chỉ dùng cho nguồn bên ngoài).",
+                    "\"A research shows…\" / \"Researches suggest…\" → Research shows… / A study shows….",
+                    "\"The majority of people thinks…\" → The majority of people think…."
+                ]
+            }
+        },
+        {
+            "slug": "a-recent-study",
+            "type": "PATTERN",
+            "text": "A recent study found that ….",
+            "meaningVi": "Một nghiên cứu gần đây cho thấy ….",
+            "examples": [
+                { "en": "A recent study found that too much coffee can affect your sleep.", "vi": "Một nghiên cứu gần đây cho thấy uống quá nhiều cà phê có thể ảnh hưởng đến giấc ngủ.", "highlight": "A recent study found that" }
+            ],
+            "pattern": {
+                "template": "A recent study found that {finding}.",
+                "slots": [
+                    { "name": "finding", "hintVi": "mệnh đề (quá khứ hoặc hiện tại)", "options": ["too much coffee can affect your sleep", "most people check their phones before breakfast", "remote workers are just as productive", "walking helps you think", "young people read less news"] }
+                ]
+            },
+            "noteVi": "Thêm nguồn nếu biết: A recent study by Harvard found that…. Động từ khác: showed, revealed (tiết lộ). Mạnh hơn suggests."
+        },
+        {
+            "slug": "research-suggests",
+            "type": "PATTERN",
+            "text": "Research suggests that ….",
+            "meaningVi": "Nghiên cứu cho thấy (có thể) ….",
+            "examples": [
+                { "en": "Research suggests that people who sleep less eat more.", "vi": "Nghiên cứu cho thấy người ngủ ít có xu hướng ăn nhiều hơn.", "highlight": "Research suggests that" }
+            ],
+            "pattern": {
+                "template": "Research suggests that {finding}.",
+                "slots": [
+                    { "name": "finding", "hintVi": "mệnh đề hiện tại", "options": ["people who sleep less eat more", "coffee is fine in moderation", "learning a language keeps your brain young", "social media affects our mood", "short breaks improve focus"] }
+                ]
+            },
+            "noteVi": "suggests là thận trọng (có thể, chưa chắc chắn tuyệt đối), hợp với hedging (C1 01). research không đếm được: ❌ a research, researches."
+        },
+        {
+            "slug": "a-growing-number-of",
+            "type": "PATTERN",
+            "text": "A growing number of … are ….",
+            "meaningVi": "Ngày càng nhiều … đang ….",
+            "examples": [
+                { "en": "A growing number of young people are choosing to rent rather than buy.", "vi": "Ngày càng nhiều người trẻ chọn thuê nhà thay vì mua.", "highlight": "A growing number of" }
+            ],
+            "pattern": {
+                "template": "A growing number of {people} are {doing}.",
+                "slots": [
+                    { "name": "people", "hintVi": "danh từ số nhiều", "options": ["young people", "families", "companies", "students", "older people"] },
+                    { "name": "doing", "hintVi": "V-ing", "options": ["choosing to rent rather than buy", "moving out of the city", "offering remote jobs", "studying online", "using mobile banking"] }
+                ]
+            },
+            "noteVi": "Động từ chia số nhiều (are), vì chủ ngữ thật là people. Trái nghĩa: a falling number of. Nói xu hướng tăng mà không cần số liệu cụ thể."
+        },
+        {
+            "slug": "the-vast-majority-of",
+            "type": "PHRASE",
+            "text": "the vast majority of",
+            "meaningVi": "phần lớn, đại đa số",
+            "examples": [
+                { "en": "The vast majority of people in the survey were under thirty.", "vi": "Đại đa số người tham gia khảo sát dưới ba mươi tuổi.", "highlight": "The vast majority of" }
+            ],
+            "noteVi": "majority đi với vast (không big / huge majority). Ngược lại: a small minority of. Động từ theo danh từ sau of: The vast majority of people are…."
+        },
+        {
+            "slug": "grain-of-salt",
+            "type": "PHRASE",
+            "text": "take something with a grain of salt",
+            "meaningVi": "nghe mà không tin hẳn, nửa tin nửa ngờ",
+            "examples": [
+                { "en": "I'd take that article with a grain of salt. It doesn't say where the numbers come from.", "vi": "Mình sẽ không tin hẳn bài báo đó. Nó không nói số liệu lấy từ đâu.", "highlight": "with a grain of salt" }
+            ],
+            "noteVi": "Kiểu Mỹ; kiểu Anh: with a pinch of salt. Dùng khi nguồn tin không rõ ràng, quảng cáo, tin đồn."
+        },
+        {
+            "slug": "statistics",
+            "type": "LEXICAL",
+            "text": "statistics",
+            "meaningVi": "số liệu thống kê",
+            "ipa": "/stəˈtɪstɪks/",
+            "examples": [
+                { "en": "You can't use those statistics for everyone. The sample was too small.", "vi": "Không thể dùng số liệu đó cho tất cả mọi người. Mẫu khảo sát quá nhỏ.", "highlight": "statistics" }
+            ],
+            "noteVi": "Nói chuyện: stats. Số liệu cụ thể: a statistic, figures (C1 05). Môn thống kê là statistics (số ít). Trọng âm ở âm tiết thứ hai: sta-TIS-tics."
+        },
+        {
+            "slug": "reportedly",
+            "type": "LEXICAL",
+            "text": "reportedly",
+            "meaningVi": "theo tin đưa, nghe nói",
+            "ipa": "/rɪˈpɔːrtɪdli/",
+            "examples": [
+                { "en": "The company has reportedly lost half its customers.", "vi": "Theo tin đưa, công ty đã mất một nửa khách hàng.", "highlight": "reportedly" }
+            ],
+            "noteVi": "Cho thấy mình chỉ nhắc lại tin, chưa kiểm chứng. Gần nghĩa: apparently (B1 09, thân mật hơn), allegedly (bị cáo buộc, với tội phạm)."
+        }
+    ],
+    "dialogues": [
+        {
+            "slug": "c1-10-remote-work-podcast",
+            "title": "Is remote work here to stay?",
+            "situationVi": "Bạn được mời lên một podcast tiếng Anh để nói về xu hướng làm việc từ xa ở Việt Nam. Người dẫn chương trình là Sarah.",
+            "lines": [
+                { "speaker": "Sarah", "en": "Welcome to the show. So, is remote work here to stay?", "vi": "Chào mừng đến với chương trình. Vậy làm việc từ xa có tồn tại lâu dài không?" },
+                { "speaker": "You", "en": "I think so. Having worked from home for three years, I can't imagine going back to the office every day.", "vi": "Tôi nghĩ là có. Làm ở nhà ba năm rồi, tôi không tưởng tượng nổi việc ngày nào cũng lên văn phòng.", "learnerTurn": true },
+                { "speaker": "Sarah", "en": "But some companies are asking people to come back.", "vi": "Nhưng một số công ty đang yêu cầu nhân viên quay lại." },
+                { "speaker": "You", "en": "True. Faced with lower productivity, some managers want everyone in the office. Having said that, most people I know prefer a hybrid model.", "vi": "Đúng. Trước tình trạng năng suất giảm, một số quản lý muốn mọi người lên văn phòng. Dù vậy, phần lớn người tôi quen thích mô hình kết hợp.", "learnerTurn": true },
+                { "speaker": "Sarah", "en": "What about younger workers?", "vi": "Còn người lao động trẻ thì sao?" },
+                { "speaker": "You", "en": "Given that they grew up online, they're used to working this way. Judging by the job ads, it's what they expect.", "vi": "Vì họ lớn lên cùng mạng internet, họ quen làm việc kiểu này. Nhìn các tin tuyển dụng là thấy đó là điều họ mong đợi.", "learnerTurn": true },
+                { "speaker": "Sarah", "en": "Is it changing people's lifestyles too?", "vi": "Nó có thay đổi lối sống của mọi người không?" },
+                { "speaker": "You", "en": "Definitely. Considering how expensive the big cities are, a lot of people are moving back to their hometowns.", "vi": "Chắc chắn. Xét đến việc các thành phố lớn đắt đỏ thế nào, nhiều người đang chuyển về quê.", "learnerTurn": true },
+                { "speaker": "Sarah", "en": "Interesting. So it's more than a trend.", "vi": "Thú vị. Vậy nó không chỉ là một trào lưu." },
+                { "speaker": "You", "en": "Exactly. I'd say it's a real change in how our generation lives and works.", "vi": "Chính xác. Tôi cho là đó là một thay đổi thật sự trong cách thế hệ chúng tôi sống và làm việc.", "learnerTurn": true }
+            ]
+        },
+        {
+            "slug": "c1-10-viral-article",
+            "title": "I'd take that with a grain of salt",
+            "situationVi": "Tom, đồng nghiệp, gửi cho bạn một bài báo đang lan truyền trên mạng và rất tin vào nó.",
+            "lines": [
+                { "speaker": "Tom", "en": "Have you seen this? It says five cups of coffee a day make you live ten years longer!", "vi": "Xem cái này chưa? Nó bảo uống năm ly cà phê mỗi ngày thì sống thêm mười năm!" },
+                { "speaker": "You", "en": "Really? Where's it from? I'd take that with a grain of salt.", "vi": "Thật à? Nguồn ở đâu? Mình thì không tin hẳn đâu.", "learnerTurn": true },
+                { "speaker": "Tom", "en": "Some health website. It says scientists have proved it.", "vi": "Một trang web sức khỏe nào đó. Nó bảo các nhà khoa học đã chứng minh rồi." },
+                { "speaker": "You", "en": "Hmm. According to the article, the study only had fifty people. That's not a lot.", "vi": "Hừm. Theo bài báo thì nghiên cứu chỉ có năm mươi người. Thế là không nhiều.", "learnerTurn": true },
+                { "speaker": "Tom", "en": "OK, but lots of people believe it.", "vi": "Ừ, nhưng nhiều người tin mà." },
+                { "speaker": "You", "en": "Research suggests that coffee is fine in moderation. But a recent study found that too much coffee can affect your sleep.", "vi": "Nghiên cứu cho thấy cà phê vừa phải thì không sao. Nhưng một nghiên cứu gần đây cho thấy uống quá nhiều có thể ảnh hưởng đến giấc ngủ.", "learnerTurn": true },
+                { "speaker": "Tom", "en": "So the headline is wrong?", "vi": "Vậy tiêu đề sai à?" },
+                { "speaker": "You", "en": "Probably. Reportedly, the vast majority of the people in the study were young athletes. You can't use those statistics for everyone.", "vi": "Có lẽ. Nghe nói đại đa số người trong nghiên cứu là vận động viên trẻ. Không thể dùng số liệu đó cho tất cả mọi người.", "learnerTurn": true },
+                { "speaker": "Tom", "en": "Fair enough. I'll stick to two cups, then.", "vi": "Cũng đúng. Vậy mình uống hai ly thôi." }
+            ]
+        }
+    ],
+    "lessons": [
+        {
+            "slug": "c1-10-l1-bound-to",
+            "title": "It's bound to happen",
+            "titleVi": "Xu hướng và tương lai gần",
+            "estimatedMinutes": 12,
+            "items": [
+                { "item": "future-expressions", "role": "INTRODUCE" },
+                { "item": "be-bound-to", "role": "INTRODUCE" },
+                { "item": "be-set-to", "role": "INTRODUCE" },
+                { "item": "on-the-verge-of", "role": "INTRODUCE" },
+                { "item": "matter-of-time", "role": "INTRODUCE" },
+                { "item": "for-the-foreseeable-future", "role": "INTRODUCE" },
+                { "item": "inevitable", "role": "INTRODUCE" },
+                { "item": "widespread", "role": "INTRODUCE" },
+                { "item": "trend", "role": "RECYCLE" },
+                { "item": "is-likely-to", "role": "RECYCLE" },
+                { "item": "future-certainty", "role": "RECYCLE" },
+                { "item": "in-the-long-run", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["be-bound-to", "be-set-to", "on-the-verge-of", "matter-of-time", "for-the-foreseeable-future", "inevitable", "widespread"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Chắc đến đâu thì nói đến đó",
+                        "bodyVi": "Bình luận một **trend** thì phải cho người nghe biết mình chắc đến mức nào và chuyện xảy ra lúc nào:\n\n| ý | cách nói | ví dụ |\n|---|---|---|\n| chắc chắn (theo tôi) | **be bound to** + V | Online shopping **is bound to** keep growing. |\n| đã dự kiến, lên kế hoạch | **be set to** + V | The population **is set to** double by 2040. |\n| sắp xảy ra | **be on the verge of** + V-ing / N | They're **on the verge of** a breakthrough. |\n| sớm muộn gì cũng | **It's only a matter of time before** + hiện tại | … before cash disappears. |\n| không tránh được | **inevitable** | Traffic jams are **inevitable**. |\n| có thể (B2 07) | **is likely to**, may well | Prices **are likely to** rise. |\n| về lâu dài (B2 07) | **in the long run** | It'll save money **in the long run**. |\n\n**for the foreseeable future** = chưa thấy khi nào đổi. **widespread** = đã lan rộng. Đừng dùng bound to cho mọi dự đoán: nếu chưa chắc thì hạ xuống is likely to (**future-certainty**, B2 07).\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| It is bound that prices will rise. | Prices **are bound to** rise. |\n| The shop is on the verge to close. | The shop is **on the verge of closing**. |\n| It's a matter of time before it will happen. | It's only a matter of time before it **happens**. |\n\n❌ on the verge to ❌ before it will happen ✅ **Mobile payments are already widespread, and it's only a matter of time before cash disappears.**",
+                        "items": ["future-expressions", "be-bound-to", "be-set-to", "on-the-verge-of", "matter-of-time", "for-the-foreseeable-future", "inevitable", "widespread", "trend", "is-likely-to", "future-certainty", "in-the-long-run"],
+                        "examples": [
+                            { "en": "House prices are bound to rise again next year.", "vi": "Giá nhà chắc chắn sẽ lại tăng vào năm sau.", "highlight": "are bound to rise" },
+                            { "en": "The city's population is set to double by 2040.", "vi": "Dân số thành phố được dự kiến sẽ tăng gấp đôi vào năm 2040.", "highlight": "is set to double" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "be-bound-to",
+                        "prompts": [
+                            { "cueVi": "Luật mới chắc chắn sẽ gây ra rắc rối.", "slots": { "thing": "The new law", "happen": "cause problems" }, "answer": "The new law is bound to cause problems." },
+                            { "cueVi": "Làm việc ở nhà chắc chắn sẽ trở nên phổ biến hơn.", "slots": { "thing": "Working from home", "happen": "become more common" }, "answer": "Working from home is bound to become more common." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "be-set-to",
+                        "prompts": [
+                            { "cueVi": "Tuyến metro mới được dự kiến sẽ mở vào năm sau.", "slots": { "thing": "The new metro line", "change": "open next year" }, "answer": "The new metro line is set to open next year." },
+                            { "cueVi": "Lượng khách du lịch được dự kiến sẽ đạt mức cao kỷ lục.", "slots": { "thing": "The number of tourists", "change": "reach a record high" }, "answer": "The number of tourists is set to reach a record high." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "word-bank"],
+                        "items": ["on-the-verge-of", "matter-of-time", "for-the-foreseeable-future", "inevitable", "widespread", "trend"]
+                    }
+                },
+                {
+                    "type": "SPEAK",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "lines": [
+                            { "en": "Online shopping is bound to keep growing.", "vi": "Mua sắm trực tuyến chắc chắn sẽ còn tăng." },
+                            { "en": "The city's population is set to double by 2040.", "vi": "Dân số thành phố được dự kiến sẽ tăng gấp đôi vào năm 2040." },
+                            { "en": "It's only a matter of time before cash disappears completely.", "vi": "Sớm muộn gì tiền mặt cũng biến mất hoàn toàn." },
+                            { "en": "Mobile payments are now widespread in Vietnam.", "vi": "Thanh toán di động giờ đã phổ biến rộng rãi ở Việt Nam." }
+                        ]
+                    }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Bản tin nói về kế hoạch chính thức: giá điện sẽ tăng vào tháng Một.",
+                                "options": ["Electricity prices are set to rise in January.", "Electricity prices are on the verge of rise in January.", "Electricity prices set rising in January."],
+                                "answer": 0,
+                                "item": "future-expressions"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["It is bound that AI changes our jobs.", "AI is bound to change our jobs.", "AI is bound changing our jobs."],
+                                "answer": 1,
+                                "item": "be-bound-to"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "The company is on the verge ___ closing.",
+                                "hintVi": "giới từ",
+                                "answers": ["of"],
+                                "item": "on-the-verge-of"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Prices will stay high for the foreseeable future.",
+                                "options": ["Giá sẽ sớm giảm.", "Giá sẽ còn cao trong tương lai gần.", "Giá sẽ tăng cao trong tương lai xa."],
+                                "answer": 1,
+                                "item": "for-the-foreseeable-future"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Sớm muộn gì tiền mặt cũng biến mất.",
+                                "answer": "It's only a matter of time before cash disappears.",
+                                "item": "matter-of-time"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "c1-10-l2-given-that",
+            "title": "Given that…",
+            "titleVi": "Mệnh đề phân từ",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "participle-clauses", "role": "INTRODUCE" },
+                { "item": "having-finished", "role": "INTRODUCE" },
+                { "item": "given-that", "role": "INTRODUCE" },
+                { "item": "faced-with", "role": "INTRODUCE" },
+                { "item": "judging-by", "role": "INTRODUCE" },
+                { "item": "considering", "role": "INTRODUCE" },
+                { "item": "remote-work", "role": "INTRODUCE" },
+                { "item": "lifestyle", "role": "INTRODUCE" },
+                { "item": "having-said-that", "role": "RECYCLE" },
+                { "item": "generation", "role": "RECYCLE" },
+                { "item": "social-media", "role": "RECYCLE" },
+                { "item": "inevitable", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["having-finished", "given-that", "faced-with", "judging-by", "considering", "remote-work", "lifestyle"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Gói lý do vào đầu câu",
+                        "bodyVi": "Khi bình luận, câu có because, after, when dễ bị dài và lặp. Mệnh đề phân từ gói phần lý do, bối cảnh vào đầu câu, nghe gọn và trang trọng:\n\n| câu dài | mệnh đề phân từ |\n|---|---|\n| After I had worked from home for three years, I… | **Having worked** from home for three years, I… |\n| Because rents are so high, … | **Given that** rents are so high, … |\n| When they face rising rents, young people… | **Faced with** rising rents, young people… |\n| I can see from the job ads that… | **Judging by** the job ads, … |\n| If you think about how expensive it is, … | **Considering** how expensive it is, … |\n| Although I said that, … (B2 12) | **Having said that**, … |\n\nQuy tắc quan trọng: người làm việc trong mệnh đề phân từ phải là chủ ngữ vế sau. Having finished the report, the boss called me = sếp làm xong báo cáo.\n\nChủ đề hay gặp: **remote work**, **lifestyle**, **social media**, khác biệt giữa các **generation**.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| Having finish my degree, I moved. | **Having finished** my degree, I moved. |\n| Facing with high rents, people move. | **Faced with** high rents, people move. |\n| Having finished the report, my boss called me. | **Having finished** the report, **I** called my boss. |\n\n❌ Facing with ❌ Having finish ✅ **Given that rents are so high, it's no surprise young people are leaving the city.**",
+                        "items": ["participle-clauses", "having-finished", "given-that", "faced-with", "judging-by", "considering", "remote-work", "lifestyle", "having-said-that", "generation", "social-media"],
+                        "examples": [
+                            { "en": "Having lived abroad for years, I understand both cultures.", "vi": "Đã sống ở nước ngoài nhiều năm nên tôi hiểu cả hai nền văn hóa.", "highlight": "Having lived abroad" },
+                            { "en": "Faced with rising rents, many young people are moving back home.", "vi": "Trước tình cảnh tiền thuê nhà tăng, nhiều người trẻ đang chuyển về sống với gia đình.", "highlight": "Faced with" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "having-finished",
+                        "prompts": [
+                            { "cueVi": "Đọc báo cáo rồi, tôi đồng ý với ý chính.", "slots": { "done": "read the report", "result": "I agree with the main point" }, "answer": "Having read the report, I agree with the main point." },
+                            { "cueVi": "Học xong đại học, tôi bắt đầu tìm việc.", "slots": { "done": "finished my degree", "result": "I started looking for a job" }, "answer": "Having finished my degree, I started looking for a job." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "faced-with",
+                        "prompts": [
+                            { "cueVi": "Trước tình trạng doanh số giảm, công ty đã hạ giá.", "slots": { "problem": "lower sales", "reaction": "the company cut its prices" }, "answer": "Faced with lower sales, the company cut its prices." },
+                            { "cueVi": "Trước cảnh ngày nào cũng kẹt xe, nhiều người làm việc ở nhà hơn.", "slots": { "problem": "heavy traffic every day", "reaction": "more people are working from home" }, "answer": "Faced with heavy traffic every day, more people are working from home." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "context", "cloze"],
+                        "items": ["judging-by", "considering", "remote-work", "lifestyle", "generation", "social-media"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "c1-10-remote-work-podcast", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng về nghĩa? (Bạn là người làm xong báo cáo.)",
+                                "options": ["Having finished the report, my boss called me.", "Having finished the report, I called my boss.", "Having finish the report, I called my boss."],
+                                "answer": 1,
+                                "item": "participle-clauses"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["Facing with rising rents, people move home.", "Faced with rising rents, people move home.", "Faced rising rents with, people move home."],
+                                "answer": 1,
+                                "item": "faced-with"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "___ by the job ads, remote work is here to stay.",
+                                "hintVi": "dựa vào (mà đoán)",
+                                "answers": ["Judging"],
+                                "item": "judging-by"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "Remote work has changed where people choose to live.",
+                                "options": ["Làm việc từ xa đã thay đổi nơi người ta chọn sống.", "Người ta chọn sống ở vùng xa để làm việc.", "Công việc ở xa làm người ta phải chuyển nhà."],
+                                "answer": 0,
+                                "item": "remote-work"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Xét việc tiền thuê nhà quá cao, các cửa hàng nhỏ đang gặp khó.",
+                                "answer": "Given that rents are so high, small shops are struggling.",
+                                "item": "given-that"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "slug": "c1-10-l3-research-suggests",
+            "title": "Research suggests that…",
+            "titleVi": "Dẫn nguồn và số liệu",
+            "estimatedMinutes": 13,
+            "items": [
+                { "item": "citing-sources", "role": "INTRODUCE" },
+                { "item": "a-recent-study", "role": "INTRODUCE" },
+                { "item": "research-suggests", "role": "INTRODUCE" },
+                { "item": "a-growing-number-of", "role": "INTRODUCE" },
+                { "item": "the-vast-majority-of", "role": "INTRODUCE" },
+                { "item": "grain-of-salt", "role": "INTRODUCE" },
+                { "item": "statistics", "role": "INTRODUCE" },
+                { "item": "reportedly", "role": "INTRODUCE" },
+                { "item": "according-to", "role": "RECYCLE" },
+                { "item": "survey", "role": "RECYCLE" },
+                { "item": "describing-trends", "role": "RECYCLE" },
+                { "item": "has-risen-by", "role": "RECYCLE" }
+            ],
+            "steps": [
+                { "type": "WARMUP", "payload": { "schemaVersion": 1, "maxItems": 10 } },
+                {
+                    "type": "INTRO",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "items": ["a-recent-study", "research-suggests", "a-growing-number-of", "the-vast-majority-of", "grain-of-salt", "statistics", "reportedly"]
+                    }
+                },
+                {
+                    "type": "EXPLAIN",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "titleVi": "Nguồn nào, chắc đến đâu",
+                        "bodyVi": "Lập luận có sức nặng khi nói rõ thông tin từ đâu ra. Động từ dẫn nguồn cho biết mức chắc chắn:\n\n| mức | cách nói |\n|---|---|\n| nguồn cụ thể | **According to** a 2024 **survey**, … (B2 04) |\n| đã chứng minh bằng dữ liệu | **A recent study found that** … / showed that … |\n| gợi ý, có thể | **Research suggests that** … |\n| xu hướng tăng | **A growing number of** young people **are** … |\n| số liệu (B2 04) | The number of … **has risen by** 20 percent. |\n| gần như tất cả | **The vast majority of** people **are** … |\n| chưa kiểm chứng | The CEO has **reportedly** resigned. |\n| nguồn đáng ngờ | I'd **take that with a grain of salt**. |\n\n**statistics** chỉ có ý nghĩa khi biết mẫu khảo sát lớn bao nhiêu, ai tham gia. research không đếm được: research shows, a study shows.\n\n| người Việt hay nói | người bản ngữ nói |\n|---|---|\n| According to me, it's a bad idea. | **In my opinion**, it's a bad idea. |\n| A research shows that… | **A study shows** that… / **Research shows** that… |\n| The majority of people thinks… | **The vast majority of** people **think**… |\n\n❌ According to me ❌ a research ✅ **A recent study found that a growing number of young people are renting rather than buying.**",
+                        "items": ["citing-sources", "a-recent-study", "research-suggests", "a-growing-number-of", "the-vast-majority-of", "grain-of-salt", "statistics", "reportedly", "according-to", "survey", "describing-trends", "has-risen-by"],
+                        "examples": [
+                            { "en": "A recent study found that too much coffee can affect your sleep.", "vi": "Một nghiên cứu gần đây cho thấy uống quá nhiều cà phê có thể ảnh hưởng đến giấc ngủ.", "highlight": "A recent study found that" },
+                            { "en": "The vast majority of people in the survey were under thirty.", "vi": "Đại đa số người tham gia khảo sát dưới ba mươi tuổi.", "highlight": "The vast majority of" }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "a-recent-study",
+                        "prompts": [
+                            { "cueVi": "Một nghiên cứu gần đây cho thấy người làm việc từ xa cũng năng suất như vậy.", "slots": { "finding": "remote workers are just as productive" }, "answer": "A recent study found that remote workers are just as productive." },
+                            { "cueVi": "Một nghiên cứu gần đây cho thấy người trẻ đọc tin tức ít hơn.", "slots": { "finding": "young people read less news" }, "answer": "A recent study found that young people read less news." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PATTERN_DRILL",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "pattern": "a-growing-number-of",
+                        "prompts": [
+                            { "cueVi": "Ngày càng nhiều gia đình đang chuyển ra khỏi thành phố.", "slots": { "people": "families", "doing": "moving out of the city" }, "answer": "A growing number of families are moving out of the city." },
+                            { "cueVi": "Ngày càng nhiều người lớn tuổi đang dùng ngân hàng trên điện thoại.", "slots": { "people": "older people", "doing": "using mobile banking" }, "answer": "A growing number of older people are using mobile banking." }
+                        ]
+                    }
+                },
+                {
+                    "type": "PRACTICE",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "modes": ["flashcard", "listening", "sentence-build"],
+                        "items": ["the-vast-majority-of", "grain-of-salt", "statistics", "reportedly", "according-to", "survey"]
+                    }
+                },
+                {
+                    "type": "DIALOGUE",
+                    "payload": { "schemaVersion": 1, "dialogue": "c1-10-viral-article", "mode": "roleplay" }
+                },
+                {
+                    "type": "QUIZ",
+                    "payload": {
+                        "schemaVersion": 1,
+                        "questions": [
+                            {
+                                "kind": "choice",
+                                "prompt": "Bạn muốn nêu ý kiến cá nhân:",
+                                "options": ["According to me, it's a bad idea.", "In my opinion, it's a bad idea.", "According my opinion, it's a bad idea."],
+                                "answer": 1,
+                                "item": "citing-sources"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Câu nào đúng?",
+                                "options": ["A research suggests that sleep is important.", "Researches suggest that sleep is important.", "Research suggests that sleep is important."],
+                                "answer": 2,
+                                "item": "research-suggests"
+                            },
+                            {
+                                "kind": "gap",
+                                "sentence": "The ___ majority of people in the survey were under thirty.",
+                                "hintVi": "rất lớn (đi với majority)",
+                                "answers": ["vast"],
+                                "item": "the-vast-majority-of"
+                            },
+                            {
+                                "kind": "choice",
+                                "prompt": "Nghe và chọn nghĩa đúng.",
+                                "audioText": "I'd take that article with a grain of salt.",
+                                "options": ["Mình sẽ đọc kỹ bài báo đó.", "Mình sẽ không tin hẳn bài báo đó.", "Bài báo đó viết về muối."],
+                                "answer": 1,
+                                "item": "grain-of-salt"
+                            },
+                            {
+                                "kind": "order",
+                                "vi": "Ngày càng nhiều người trẻ đang học trực tuyến.",
+                                "answer": "A growing number of young people are studying online.",
+                                "item": "a-growing-number-of"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "checkpoint": {
+        "slug": "c1-10-checkpoint",
+        "passPercent": 70,
+        "questions": [
+            {
+                "kind": "choice",
+                "prompt": "Bạn rất chắc rằng giá nhà sẽ lại tăng (dự đoán của riêng bạn):",
+                "options": ["House prices are bound to rise again.", "House prices are on the verge to rise again.", "House prices bound rising again."],
+                "answer": 0,
+                "item": "be-bound-to"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào đúng?",
+                "options": ["It's only a matter of time before it will happen.", "It's only a matter of time before it happens.", "It's only a time matter before it happens."],
+                "answer": 1,
+                "item": "future-expressions"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Câu nào dùng mệnh đề phân từ đúng?",
+                "options": ["Having lived abroad for years, I understand both cultures.", "Having live abroad for years, I understand both cultures.", "Lived abroad for years, having I understand both cultures."],
+                "answer": 0,
+                "item": "participle-clauses"
+            },
+            {
+                "kind": "gap",
+                "sentence": "___ that rents are so high, it's no surprise young people are leaving.",
+                "hintVi": "xét thực tế là",
+                "answers": ["Given"],
+                "item": "given-that"
+            },
+            {
+                "kind": "choice",
+                "prompt": "Nghe và chọn nghĩa đúng.",
+                "audioText": "The company has reportedly lost half its customers.",
+                "options": ["Công ty đã báo cáo lợi nhuận tăng gấp đôi.", "Theo tin đưa, công ty đã mất một nửa khách hàng.", "Công ty chắc chắn đã mất khách hàng."],
+                "answer": 1,
+                "item": "reportedly"
+            },
+            {
+                "kind": "order",
+                "vi": "Nghiên cứu cho thấy người ngủ ít có xu hướng ăn nhiều hơn.",
+                "answer": "Research suggests that people who sleep less eat more.",
+                "item": "research-suggests"
+            }
+        ]
+    }
+}

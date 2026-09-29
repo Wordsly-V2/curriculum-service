@@ -976,6 +976,70 @@
             "options": ["But it's not my fault!","Thanks for pointing that out. I'll take it on board.","I will take it on my board."],
             "answer": 1,
             "item": "responding-to-criticism"
+        },
+        {
+            "unit": "c1-09-collocations",
+            "kind": "choice",
+            "prompt": "\"Cà phê đặc\" nói thế nào cho tự nhiên?",
+            "options": ["thick coffee","strong coffee","heavy coffee"],
+            "answer": 1,
+            "item": "collocations"
+        },
+        {
+            "unit": "c1-09-collocations",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["We need to do a decision today.","We need to make a decision today.","We need to take a decision on today."],
+            "answer": 1,
+            "item": "make-do-take"
+        },
+        {
+            "unit": "c1-10-trends",
+            "kind": "choice",
+            "prompt": "Câu nào đúng?",
+            "options": ["The company is on the verge to close.","The company is on the verge of closing.","The company is bound of closing."],
+            "answer": 1,
+            "item": "future-expressions"
+        },
+        {
+            "unit": "c1-10-trends",
+            "kind": "choice",
+            "prompt": "Bạn muốn nêu ý kiến cá nhân:",
+            "options": ["According to me, it's a bad idea.","In my opinion, it's a bad idea.","A research of me shows it's a bad idea."],
+            "answer": 1,
+            "item": "citing-sources"
+        },
+        {
+            "unit": "c1-11-between-the-lines",
+            "kind": "choice",
+            "prompt": "Bạn đề xuất một ý, sếp người Anh đáp ngắn \"I'll bear it in mind.\" rồi chuyển chủ đề. Nghĩa thật thường là:",
+            "options": ["Sếp sẽ làm ngay.","Chắc sếp sẽ không làm.","Sếp muốn bạn nhắc lại."],
+            "answer": 1,
+            "item": "polite-code"
+        },
+        {
+            "unit": "c1-11-between-the-lines",
+            "kind": "choice",
+            "prompt": "Chọn đuôi đúng: \"You've been here before, ___\"",
+            "options": ["isn't it?","haven't you?","don't you?"],
+            "answer": 1,
+            "item": "tag-questions"
+        },
+        {
+            "unit": "c1-12-strategy",
+            "kind": "choice",
+            "prompt": "Bạn muốn diễn giải lời đối tác để kiểm tra mình hiểu đúng:",
+            "options": ["You mean what?","So what you're saying is that we need more time?","I understand, yes, yes."],
+            "answer": 1,
+            "item": "so-what-youre-saying-is"
+        },
+        {
+            "unit": "c1-12-strategy",
+            "kind": "choice",
+            "prompt": "Người kia nói hơi quá. Bạn không đồng ý hẳn nhưng muốn nói mềm:",
+            "options": ["No, that's wrong.","I wouldn't go that far.","You don't understand."],
+            "answer": 1,
+            "item": "i-wouldnt-go-that-far"
         }
     ]
 }
