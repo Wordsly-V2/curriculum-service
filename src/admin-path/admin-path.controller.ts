@@ -10,6 +10,7 @@ import {
     PipeTransform,
     Post,
     Put,
+    Query,
 } from '@nestjs/common';
 import { ApiOperation, ApiTags } from '@nestjs/swagger';
 import { CurrentUser } from '@/auth/jwt/current-user.decorator';
@@ -26,6 +27,10 @@ import {
     type AdminRecord,
     type AdminWriteResult,
 } from './admin-content.service';
+import {
+    AdminImportService,
+    type AdminImportResult,
+} from './admin-import.service';
 import type { AdminTree } from './admin-path.logic';
 import { ADMIN_KINDS, type AdminKind } from './admin-records';
 import {
@@ -57,6 +62,7 @@ export class AdminPathController {
         private readonly admin: AdminPathService,
         private readonly content: AdminContentService,
         private readonly releases: ReleaseService,
+        private readonly importer: AdminImportService,
     ) {}
 
     @Get('overview')
@@ -112,6 +118,26 @@ export class AdminPathController {
         @CurrentUser() adminId: string,
     ): Promise<ReleaseInfo> {
         return this.releases.activate(id, adminId);
+    }
+
+    @Post('import')
+    @HttpCode(200)
+    @ApiOperation({
+        summary: 'Import one unit file (seed shape) as admin edits',
+        description:
+            'Dry run unless `dryRun=false`: the plan per record (insert, update, skip, conflict), ' +
+            'what blocks applying, and the validation with the file applied. Applying is all or ' +
+            'nothing: with any conflict or unresolved reference nothing is written (`dryRun` true in the answer).',
+    })
+    importUnit(
+        @Body() body: Record<string, unknown>,
+        @Query('dryRun') dryRun: string | undefined,
+        @CurrentUser() adminId: string,
+    ): Promise<AdminImportResult> {
+        return this.importer.importUnit(body, {
+            dryRun: dryRun !== 'false',
+            adminId,
+        });
     }
 
     // ─── Content (the working copy) ────────────────────────────────────────

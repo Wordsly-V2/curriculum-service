@@ -183,8 +183,9 @@ export class AdminContentService {
     /**
      * What must exist, and not be archived, for the record to make sense on its
      * own. Whole-path rules (introduce once, recycle after) are `validate`'s.
+     * Throws 400 (missing) or 409 (taken); the unit import collects them.
      */
-    private async checkReferences(tx: Tx, seed: SeedRecord): Promise<void> {
+    async checkReferences(tx: Tx, seed: SeedRecord): Promise<void> {
         const missing: string[] = [];
         const live = { status: { not: 'ARCHIVED' } };
 

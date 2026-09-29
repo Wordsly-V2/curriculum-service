@@ -2,6 +2,7 @@ import { AppModule } from '@/app.module';
 import { ConfigService } from '@nestjs/config';
 import { Logger, ValidationPipe } from '@nestjs/common';
 import { NestFactory } from '@nestjs/core';
+import type { NestExpressApplication } from '@nestjs/platform-express';
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 import { buildCorsOptions, parseCorsOrigins } from '@/config/cors';
 import helmet from 'helmet';
@@ -11,7 +12,11 @@ import { RequestContextLogger } from '@/common/request-context-logger';
 const bootLogger = new Logger('Bootstrap');
 
 async function bootstrap() {
-    const app = await NestFactory.create(AppModule);
+    const app = await NestFactory.create<NestExpressApplication>(AppModule);
+
+    // Above the 100kb default: an admin imports whole unit files (the largest
+    // seed file is ~60kb and they grow).
+    app.useBodyParser('json', { limit: '1mb' });
 
     app.useLogger(app.get(RequestContextLogger));
 
