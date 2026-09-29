@@ -11,6 +11,7 @@ import type {
  * per problem (empty = valid), each prefixed with where it is.
  *
  * - slugs are unique per kind across the whole corpus
+ * - stage order is unique
  * - a unit's stage exists, and unit order is unique within a stage
  * - every item is defined in exactly one unit and introduced by exactly one
  *   lesson of that unit; a RECYCLE comes after the lesson that introduced it
@@ -54,6 +55,17 @@ export function checkContentRefs(corpus: ContentCorpus): string[] {
         'checkpoint',
         corpus.units.flatMap((u) => (u.checkpoint ? [u.checkpoint.slug] : [])),
     );
+
+    const stagePositions = new Map<number, string>();
+    for (const stage of corpus.stages) {
+        const other = stagePositions.get(stage.order);
+        if (other) {
+            errors.push(
+                `stage ${stage.slug}: order ${stage.order} already used by ${other}`,
+            );
+        }
+        stagePositions.set(stage.order, stage.slug);
+    }
 
     const unitPositions = new Map<string, string>();
     for (const unit of corpus.units) {

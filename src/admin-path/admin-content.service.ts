@@ -13,6 +13,7 @@ import {
     itemRowToSeed,
     lessonRowToSeed,
     placementRowToSeed,
+    stageRowToSeed,
     unitRowToRecord,
 } from '@/content/content-rows';
 import { writeRecord } from '@/content/content-writer';
@@ -135,6 +136,8 @@ export class AdminContentService {
         await this.prisma.$transaction(async (tx) => {
             const row = await this.requireRow(tx, kind, slug);
             if (row.status === 'ARCHIVED') return;
+            if (kind === 'stage')
+                await this.requireEmptyStage(tx, row.id, slug);
             if (kind === 'unit') await this.requireEmptyUnit(tx, row.id, slug);
             await this.setStatus(tx, kind, row.id, 'ARCHIVED', adminId);
         });
@@ -237,6 +240,21 @@ export class AdminContentService {
         }
     }
 
+    private async requireEmptyStage(
+        tx: Tx,
+        stageId: string,
+        slug: string,
+    ): Promise<void> {
+        const units = await tx.unit.count({
+            where: { stageId, status: { not: 'ARCHIVED' } },
+        });
+        if (units > 0) {
+            throw new ConflictException(
+                `stage ${slug} still has units; archive them first`,
+            );
+        }
+    }
+
     private async requireEmptyUnit(
         tx: Tx,
         unitId: string,
@@ -265,6 +283,9 @@ export class AdminContentService {
     ): Promise<void> {
         const data = { status, updatedBy };
         switch (kind) {
+            case 'stage':
+                await tx.stage.update({ where: { id }, data });
+                return;
             case 'unit':
                 await tx.unit.update({ where: { id }, data });
                 return;
@@ -303,6 +324,8 @@ export class AdminContentService {
     ): Promise<RowMeta | null> {
         const where = { slug };
         switch (kind) {
+            case 'stage':
+                return tx.stage.findUnique({ where });
             case 'unit':
                 return tx.unit.findUnique({ where });
             case 'item':
@@ -336,6 +359,14 @@ export class AdminContentService {
         let meta: RowMeta;
         let record: Record<string, unknown>;
         switch (kind) {
+            case 'stage': {
+                const row = await tx.stage.findUnique({ where: { slug } });
+                if (!row)
+                    throw new NotFoundException(`stage ${slug} not found`);
+                meta = row;
+                record = stageRowToSeed(row);
+                break;
+            }
             case 'unit': {
                 const row = await tx.unit.findUnique({
                     where: { slug },

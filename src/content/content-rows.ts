@@ -225,6 +225,18 @@ export function placementRowToSeed(p: PlacementTest): Record<string, unknown> {
     return { slug: p.slug, title: p.title, questions: p.questions };
 }
 
+/** A stage row in seed shape (not validated). */
+export function stageRowToSeed(row: Stage): Record<string, unknown> {
+    return present({
+        slug: row.slug,
+        cefr: row.cefr,
+        order: row.order,
+        title: row.title,
+        titleVi: row.titleVi,
+        descriptionVi: row.descriptionVi,
+    });
+}
+
 /** A unit's own fields (UnitRecord), without its children. */
 export function unitRowToRecord(
     row: Unit,
@@ -277,16 +289,7 @@ export function rowsToCorpus(rows: WorkingCopy): CorpusFromRows {
 
     const stages: StageSeed[] = [];
     for (const row of [...rows.stages].sort(byOrder)) {
-        const parsed = stageSchema.safeParse(
-            present({
-                slug: row.slug,
-                cefr: row.cefr,
-                order: row.order,
-                title: row.title,
-                titleVi: row.titleVi,
-                descriptionVi: row.descriptionVi,
-            }),
-        );
+        const parsed = stageSchema.safeParse(stageRowToSeed(row));
         if (parsed.success) stages.push(parsed.data);
         else pushIssues(errors, `stage ${row.slug}`, parsed.error.issues);
     }

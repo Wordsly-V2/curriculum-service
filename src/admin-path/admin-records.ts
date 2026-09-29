@@ -6,6 +6,7 @@ import {
     itemSchema,
     lessonSchema,
     placementSchema,
+    stageSchema,
     unitFileSchema,
 } from '@/content/content.schema';
 
@@ -17,6 +18,7 @@ import {
  */
 
 export const ADMIN_KINDS = [
+    'stage',
     'unit',
     'item',
     'dialogue',
@@ -77,6 +79,12 @@ export function parseAdminRecord(kind: AdminKind, body: unknown): ParsedRecord {
     }
     const input = body as Record<string, unknown>;
     switch (kind) {
+        case 'stage': {
+            const parsed = stageSchema.safeParse(input);
+            return parsed.success
+                ? { ok: true, seed: seed('stage', parsed.data) }
+                : { ok: false, errors: issues(parsed.error) };
+        }
         case 'unit': {
             const parsed = unitRecordSchema.safeParse(input);
             return parsed.success
