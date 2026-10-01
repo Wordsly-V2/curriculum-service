@@ -4,10 +4,13 @@ import { Logger, ValidationPipe } from '@nestjs/common';
 import { NestFactory } from '@nestjs/core';
 import type { NestExpressApplication } from '@nestjs/platform-express';
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
+import { Transport } from '@nestjs/microservices';
 import { buildCorsOptions, parseCorsOrigins } from '@/config/cors';
 import helmet from 'helmet';
 import { requestIdMiddleware } from '@/common/request-id.middleware';
 import { RequestContextLogger } from '@/common/request-context-logger';
+import { CONSUMED_TOPICS } from '@/messaging/constants';
+import { ensureTopics } from '@/messaging/ensure-topics';
 
 const bootLogger = new Logger('Bootstrap');
 
@@ -53,9 +56,41 @@ async function bootstrap() {
         .build();
     SwaggerModule.setup('api', app, SwaggerModule.createDocument(app, config));
 
-    // Kafka is producer-only here (retire events), so no microservice is
-    // connected: KafkaProducerService no-ops when KAFKA_BROKERS is empty.
+    // Kafka is optional: KafkaProducerService no-ops and no consumer is
+    // connected when KAFKA_BROKERS is empty, so the HTTP API never depends on
+    // it. The consumer handles `user_deleted` (src/user-data/), committing by
+    // hand like the other services.
+    const brokerList = (configService.get<string>('kafka.brokers') ?? '')
+        .split(',')
+        .filter(Boolean);
+    if (brokerList.length > 0) {
+        const ca = configService.get<string>('kafka.ca') ?? '';
+        const cert = configService.get<string>('kafka.cert') ?? '';
+        const key = configService.get<string>('kafka.key') ?? '';
+        // TLS only with material for it; the local broker is plaintext.
+        const kafkaSsl =
+            ca || cert || key
+                ? { rejectUnauthorized: true, ca, cert, key }
+                : false;
+        await ensureTopics({
+            brokers: brokerList,
+            ssl: kafkaSsl,
+            topics: CONSUMED_TOPICS,
+            logger: bootLogger,
+        });
+        app.connectMicroservice({
+            transport: Transport.KAFKA,
+            options: {
+                clientId: 'curriculum-service-client',
+                client: { brokers: brokerList, ssl: kafkaSsl },
+                consumer: { groupId: 'curriculum-service-consumer' },
+                run: { autoCommit: false },
+            },
+        });
+    }
+
     const appPort = configService.get<number>('port');
+    await app.startAllMicroservices();
     await app.listen(appPort as number);
     bootLogger.log(`Curriculum Service HTTP is running on port ${appPort}`);
     bootLogger.log(
