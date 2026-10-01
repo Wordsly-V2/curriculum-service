@@ -18,6 +18,7 @@ import { PathContentModule } from './path-content/path-content.module';
 import { PathProgressModule } from './path-progress/path-progress.module';
 import { PrismaModule } from './prisma/prisma.module';
 import { ReleaseModule } from './release/release.module';
+import { UserDataModule } from './user-data/user-data.module';
 import { AllExceptionsFilter } from './common/all-exceptions.filter';
 import { RequestContextLogger } from './common/request-context-logger';
 
@@ -33,6 +34,7 @@ import { RequestContextLogger } from './common/request-context-logger';
         CacheModule,
         PrismaModule,
         MessagingModule,
+        UserDataModule,
         PathContentModule,
         PathProgressModule,
         ReleaseModule,
